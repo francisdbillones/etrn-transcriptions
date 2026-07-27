@@ -1,0 +1,4182 @@
+[00:00.000 --> 00:08.380]  Let's start with today's lesson anyway.
+[00:09.480 --> 00:16.980]  We are essentially picking up where we left off from last time, which was, seems ages ago,
+[00:17.340 --> 00:19.680]  because of ILW, right?
+[00:20.080 --> 00:23.840]  And then prior to that, it was one of those crazy holidays.
+[00:23.840 --> 00:30.040]  So, given this, it's been a long time.
+[00:30.200 --> 00:41.020]  I had to even check the Canvas recording as to where we actually stopped our lesson last time,
+[00:41.080 --> 00:42.340]  because I couldn't even remember.
+[00:43.060 --> 00:48.320]  So, this is essentially where we left off.
+[00:48.320 --> 00:49.980]  Let me just put the screen up.
+[00:49.980 --> 00:52.980]  A slideshow from...
+[00:55.760 --> 01:00.020]  Oh, nope, not that one.
+[01:00.820 --> 01:01.580]  What the hell?
+[01:02.340 --> 01:04.060]  I already had it on the correct page.
+[01:06.260 --> 01:07.120]  Oh, dear.
+[01:10.920 --> 01:12.400]  Ah, okay.
+[01:14.420 --> 01:16.900]  Slideshow from...
+[01:16.900 --> 01:17.400]  Current slide.
+[01:17.480 --> 01:17.960]  There we go.
+[01:18.120 --> 01:18.460]  All right.
+[01:18.460 --> 01:20.180]  Let me just share this.
+[01:22.080 --> 01:23.700]  Share, share, share.
+[01:23.700 --> 01:25.660]  And let's get this working.
+[01:26.640 --> 01:27.260]  Share.
+[01:27.900 --> 01:28.360]  Okay.
+[01:28.560 --> 01:29.420]  Here we go.
+[01:29.880 --> 01:30.200]  Right?
+[01:30.940 --> 01:31.240]  Okay.
+[01:31.560 --> 01:39.920]  So, according to what I could view from our recording where we left off,
+[01:40.020 --> 01:46.440]  essentially, we were talking about what the characteristics are for a good amplifier.
+[01:46.440 --> 01:58.760]  So, recall that I went into quite a bit of time telling you about frequency response and all about this impedance stuff.
+[01:59.520 --> 01:59.680]  Okay.
+[01:59.680 --> 02:10.340]  So, the frequency response is with regard to this high bandwidth thing here, the radio button here, which is this one.
+[02:10.340 --> 02:10.800]  Okay?
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:10.800] 
+[02:10.800 --> 02:25.600]  Okay. And that's where we stopped last time. Okay. So at this point, we're supposed to be ready to jump into the modeling of the transistor amplifier.
+[02:26.540 --> 02:33.740]  And hang on, it's just a little bit warmer than I expect. So let me just get this electric fan going.
+[02:35.040 --> 02:36.180]  This is crazy.
+[02:36.180 --> 02:46.180]  Ah, okay. So it would seem that the temperatures these days are...
+[02:46.720 --> 02:51.620]  The last two days, the temperature was just like it was during summer, which is crazy.
+[02:52.320 --> 02:55.640]  But anyway, all right. So here we go. Let's go forward with this.
+[02:56.220 --> 02:58.600]  Let me just get it going to the next slide.
+[02:59.060 --> 03:01.800]  So we're going to talk about the transistor equivalent model.
+[03:01.800 --> 03:14.660]  And you might recall from way back then when we met, I did mention that there is basically, you know, one very, very important and popular model.
+[03:14.660 --> 03:29.960]  All right. Which is basically the idea of the model is to use equations to basically describe the transistor,
+[03:30.800 --> 03:40.000]  which allows you to numerically calculate its performance characteristic, the particular operating point.
+[03:40.000 --> 03:50.220]  Okay. So the most popular of those, which is accepted essentially by industry is, sorry,
+[03:50.860 --> 03:53.580]  what is called as the hybrid pie model.
+[03:54.120 --> 04:03.660]  All right. And the hybrid pie model, unfortunately, as I might have mentioned last time, is unfortunately quite complex.
+[04:03.660 --> 04:07.420]  It's basically what is called as a two-part model.
+[04:08.340 --> 04:16.660]  So it has one side, which is theoretically the input, as well as the output side of it, which is sort of expected.
+[04:17.620 --> 04:29.440]  But these two ports are interconnected in such a way that the model captures how the input and output sides basically affect each other,
+[04:29.440 --> 04:34.440]  which is really what happens in a transistor circuit.
+[04:34.440 --> 04:46.720]  So in a typical transistor configuration, such as the common emitter, we usually have the base as the input to whatever signal we want to amplify.
+[04:47.200 --> 04:52.080]  And we use the collector as the output for the amplified signal.
+[04:52.080 --> 05:04.120]  Now, the thing here is what most people don't necessarily realize is that whatever output loading you'd actually do,
+[05:04.260 --> 05:10.180]  or whatever circuit configuration you'd actually do on the output side can affect the input.
+[05:10.520 --> 05:13.860]  Not only can, but actually does affect the input characteristics.
+[05:13.860 --> 05:22.700]  So the beauty of the hybrid pie model is that even if it is not really actually a complete model,
+[05:23.040 --> 05:34.520]  it is quite good such that industry actually uses the hybrid pie model as its basis for providing information on the data sheet.
+[05:34.660 --> 05:37.620]  In other words, if you look at the data sheet of a transistor,
+[05:37.620 --> 05:55.200]  you will find the parameters associated with the hybrid pie so that you can just pick up those values and use them to do your hand calculations of the transistor circuit that you had in mind.
+[05:55.200 --> 06:09.780]  Okay. So as I might have mentioned before, we've been using beta as our figure of merit, if you like, for our transistor IC over IB.
+[06:10.480 --> 06:12.540]  So that's the figure of merit for the transistor.
+[06:13.320 --> 06:21.260]  But in fact, this beta is equivalent to the hybrid pie model called HFE.
+[06:21.260 --> 06:32.040]  All right. And so if you're going to look at the data sheet of a 2222, for example, it would list HFE as the parameter.
+[06:32.200 --> 06:34.340]  It would not say data. All right.
+[06:34.400 --> 06:41.360]  And so if you've ever wondered about that, or if you've had to look at the data sheet and wondered why it's called HFE,
+[06:41.560 --> 06:45.400]  well, there's your H there, which is your hybrid pie model.
+[06:45.500 --> 06:50.140]  And there are several parameters there, HOE, HFE, and so on and so forth.
+[06:50.140 --> 06:51.860]  Okay. So there you go.
+[06:52.120 --> 06:59.760]  Now, the thing with the hybrid pie model is that it is quite complex and difficult to use, even if.
+[07:00.480 --> 07:08.440]  And the whole idea, of course, again, behind it is the more complex the model, the better it captures the actual performance of the part.
+[07:08.440 --> 07:22.520]  Okay. And as I said, it's probably more complex than what we might need for general purposes and for just getting a quick estimate.
+[07:22.520 --> 07:40.760]  And secondly, we have possibly significantly more accurate modeling capabilities now where we can use a computer to numerically simulate the performance of a transistor circuit.
+[07:40.760 --> 07:58.140]  So given that, you know, it's, it's, if you like, it's like talking about using assembly language, for example, to program a CPU.
+[07:58.140 --> 08:06.780]  All right. So you might think of the hybrid pie model as, you know, complex, complex, just like programming in assembly language.
+[08:06.780 --> 08:20.660]  When in fact, not unless you need very, very accurate and explicit control of, you know, timing parameters, resource allocation, and so on and so forth.
+[08:20.660 --> 08:30.080]  You might be able to do, you know, you might be able to do, you know, an easier programming using high level language.
+[08:30.720 --> 08:46.200]  Okay. And so that high level language might be the equivalent of using a simpler model here, which captures the essence of the circuit where without going into such difficulties or complexities.
+[08:46.200 --> 09:10.840]  And again, in the end, if you really want a much more accurate simulation of the circuit, you can go to LP SPICE or some similar higher performance circuit simulation for which even the hybrid pie equivalent model is not going to be as good at anyway.
+[09:10.840 --> 09:23.080]  All right. So for example, as I said, the hybrid pie model tries to capture the performance of the transistor circuit in about four or five different parameters.
+[09:23.560 --> 09:39.180]  Whereas if you look at the model that you have in LP SPICE, right, if you look at the model that you have in LP SPICE, you'll find that the transistor models there usually have something in the order of about 10, 15 parameters.
+[09:39.180 --> 09:44.180]  So it's a much more complete model that LP SPICE.
+[09:44.180 --> 09:50.380]  That LP SPICE uses. It's something like the Gumbelpoon model or something like that.
+[09:50.820 --> 09:52.700]  Okay. All right. So there you go with that.
+[09:53.060 --> 10:08.460]  So having said that, this is the impetus for basically concentrating on the RE model that you see over here, which actually stands for emitter resistance model.
+[10:08.460 --> 10:18.520]  Okay. Emitter resistance model. Okay. So that's what we're going to concentrate on. Let's have a look at this. All right. Oops. I forgot to erase the stuff. Sorry.
+[10:19.360 --> 10:22.860]  Where's our eraser? Eraser. Eraser.
+[10:26.020 --> 10:32.740]  Clear. Okay. There we go. All right. So what is this emitter resistance model?
+[10:32.740 --> 10:47.180]  So BJTs, as we can see here, all right, are basically current control devices. The equation associated with it, which is IE is equal to IC plus IB.
+[10:47.180 --> 11:00.580]  You'll notice that the equations associated with the DC models of the transistor are all basically pretty much based on current.
+[11:01.020 --> 11:10.180]  So beta is equal to IC over IB. All right. And those are the governing equations associated with it. All right.
+[11:10.180 --> 11:22.660]  The emitter resistance model basically uses a diode and the current source to duplicate the behavior of the transistor. All right.
+[11:22.660 --> 11:33.400]  And given this, all right, the disadvantage supposedly is that it's sensitive to DC levels.
+[11:33.520 --> 11:40.660]  The model here is sensitive to DC levels. And actually it's not mentioned, but maybe it is somewhere else.
+[11:41.040 --> 11:48.200]  It also is not particularly accurate when it comes to higher frequency operation of the transistor.
+[11:48.200 --> 11:57.740]  Okay. Higher frequency operation of the transistor. So it's basically a good approximation at low frequencies. All right.
+[11:58.380 --> 12:06.820]  Okay. So having said that, well, that's still going to be useful for us because most of the expectations at this point would be that, you know,
+[12:06.840 --> 12:12.520]  you're not really going to be designing or using transistors for high frequency operation anyway.
+[12:13.060 --> 12:16.520]  Hmm. All right.
+[12:16.520 --> 12:19.640]  And so let's go forward with this. All right.
+[12:20.520 --> 12:32.120]  So here is a, an overview of the derivations and equations that you would need to be familiar with.
+[12:32.120 --> 12:39.460]  So the basic idea as stated earlier, it's the equivalent of a diode and the current source.
+[12:39.760 --> 12:43.200]  The model for the transistor is a diode and the current source.
+[12:43.200 --> 12:45.040]  And that's shown here.
+[12:45.040 --> 12:46.120]  Here's your diode.
+[12:46.820 --> 12:49.120]  And here's your current source.
+[12:49.560 --> 12:49.660]  Okay.
+[12:50.220 --> 12:56.460]  Where the governing equation for the output current for a common emitter configuration, by the way.
+[12:56.600 --> 13:00.920]  So we're only going to be showing you the common emitter configuration.
+[13:01.200 --> 13:07.460]  Again, for simplification purposes, of course, you might argue there's common base and there's common collector.
+[13:07.460 --> 13:14.700]  Okay. So again, the common emitter is the most often used amplifier configuration anyway.
+[13:14.880 --> 13:18.520]  And we just want to give you some basic information on how this is modeled.
+[13:19.300 --> 13:19.640]  Okay.
+[13:19.640 --> 13:25.660]  Okay. So for the common emitter configuration, the output side of it is the collector.
+[13:25.660 --> 13:30.120]  And as you can see, that's where this thing is being shown.
+[13:30.760 --> 13:32.480]  All right. The collector side of things.
+[13:33.280 --> 13:40.500]  And although this might be a little bit confusing because this looks like a common base, but don't worry about it yet.
+[13:40.500 --> 13:44.720]  All right. So what's this?
+[13:45.120 --> 13:47.620]  And the input side is over here.
+[13:48.100 --> 13:51.760]  Come to think of it, this does look more like a common base configuration.
+[13:52.180 --> 13:54.460]  But anyway, it's still the same thing.
+[13:54.780 --> 13:57.800]  That's why there's really not much difference between them.
+[13:57.800 --> 14:08.560]  So bottom line is the thing is modeled by the diode, a diode being connected from base to emitter.
+[14:09.140 --> 14:17.860]  And then the output is something like a collector to base configuration with a constant or with a current source.
+[14:18.600 --> 14:18.680]  Okay.
+[14:19.000 --> 14:24.180]  And that current source, the current output is governed essentially by this equation.
+[14:24.180 --> 14:32.380]  And all that current essentially is a function of the base current somehow.
+[14:33.160 --> 14:33.320]  Okay.
+[14:33.320 --> 14:45.240]  So the governing equation here, as shown, essentially is that the emitter current is equal to beta plus 1 IB.
+[14:45.520 --> 14:49.240]  We know this already because we've been using this equation since before.
+[14:49.240 --> 15:08.100]  And if you were to assume that the transistor gain is high enough, then the equation can be simplified slightly by just dropping the plus 1 and saying that the emitter current is approximately equal to beta IB.
+[15:08.100 --> 15:12.660]  Now, we know, of course, that this is actually more like the collector current, all right?
+[15:12.720 --> 15:25.160]  This is actually the collector current, which would be the equivalent of saying that IE is roughly equal to I sub C in the first place for transistors with a significant amount of gain.
+[15:25.160 --> 15:43.440]  So this is true for typically small signal transistors operating in a region which favors their beta performance, where you can say that the beta value is, you know, 70, 100, and even 200.
+[15:43.440 --> 15:44.280]  Okay.
+[15:44.780 --> 15:55.300]  And it does not apply very well to high-powered transistors whose beta is or has a tendency to be lower.
+[15:56.620 --> 16:05.820]  So high-powered transistors or those that are designed for high current operation and high power dissipation.
+[16:05.820 --> 16:20.000]  Most infamously, for example, like the 2N3055 or the 2N3771, these are TO3 transistors, big ones, all right?
+[16:20.500 --> 16:25.340]  Where their beta for the 2N3771, if I recall, is very, very low.
+[16:25.460 --> 16:29.280]  Something like even just 25 or 30, all right?
+[16:29.320 --> 16:32.400]  Just 25 or even just 30 as a beta.
+[16:32.400 --> 16:34.580]  So those are very low values.
+[16:34.800 --> 16:44.240]  And when you have such low values, this approximation here, where IE is roughly equal to IC, is definitely not a very good approximation anymore.
+[16:44.780 --> 16:44.960]  Okay.
+[16:45.160 --> 16:50.280]  So anyway, having said that, we're concentrating on small signal, again, to make life a little bit easy.
+[16:50.900 --> 16:58.980]  The other thing that we want to take note of is we can calculate the resistance equivalent, all right?
+[16:58.980 --> 17:01.760]  There is a resistive characteristic.
+[17:01.760 --> 17:06.900]  You might recall that a diode curve looks like this, all right?
+[17:07.300 --> 17:14.620]  And at a particular operating point, we can approximate this as an equivalent resistance.
+[17:15.800 --> 17:15.980]  Okay?
+[17:16.320 --> 17:23.520]  So in that curve, if we have a particular operating point, we can approximate its resistance.
+[17:23.520 --> 17:36.860]  And this one is saying that the approximate resistance is equivalent to this equation here, which is 26 millivolts divided by the emitter current.
+[17:37.100 --> 17:37.400]  Now, okay.
+[17:37.500 --> 17:39.500]  So this is a weird approximation.
+[17:39.500 --> 17:40.500]  So this is a weird correlation.
+[17:40.500 --> 17:48.980]  You might recall that this 26 millivolts essentially is part of the basic characteristic of the semiconductor.
+[17:49.540 --> 17:52.840]  It was mentioned some time ago, all right?
+[17:52.920 --> 17:55.560]  In some previous, previous, previous slide.
+[17:56.840 --> 17:57.000]  Okay.
+[17:57.000 --> 18:01.420]  And so we're just going to stick with this and say amen for now.
+[18:01.680 --> 18:10.380]  26 millivolts over IE is the emitter resistance equivalent, which will turn out to be a very important factor, all right?
+[18:10.460 --> 18:16.360]  In the calculation of the expected voltage gain of the transistor.
+[18:16.360 --> 18:17.160]  Okay?
+[18:17.800 --> 18:21.740]  So these equations are very important to keep in mind.
+[18:22.080 --> 18:26.920]  And, well, fortunately for us, they're quite easy to memorize.
+[18:27.320 --> 18:27.480]  Okay?
+[18:27.860 --> 18:28.200]  All right.
+[18:28.640 --> 18:35.240]  So having said that, let's clear this and go to the next slide here.
+[18:35.960 --> 18:36.380]  Okay?
+[18:36.380 --> 18:49.320]  So for the common emitter configuration, the following equations are assumed by the emitter resistance model.
+[18:49.940 --> 18:50.120]  Okay?
+[18:50.520 --> 18:57.600]  So the input impedance, all right, is equal to beta times RE.
+[18:58.440 --> 18:58.980]  All right?
+[18:58.980 --> 19:04.740]  That's the input impedance with the emitter directly connected to ground.
+[19:05.560 --> 19:05.820]  All right?
+[19:05.820 --> 19:11.060]  The output impedance is equal to infinity.
+[19:12.340 --> 19:12.680]  Okay?
+[19:13.140 --> 19:21.200]  The output impedance of the transistor alone is considered to be infinity given that the output is driven by a current source.
+[19:21.380 --> 19:26.200]  So that's basically the reason why it's got an infinite output impedance.
+[19:26.440 --> 19:27.620]  It's just the current source.
+[19:28.460 --> 19:28.640]  Okay?
+[19:29.260 --> 19:35.360]  The voltage gain, all right, is basically for the transistor alone.
+[19:35.360 --> 19:49.200]  Is equal to, well, RL, which is the output resistor, divided by the RE, emitter equivalent resistance.
+[19:49.200 --> 20:02.020]  That's why I was saying a while ago, this is an important factor, that Rt, if you might recall from the previous slide, is equal to 26 millivolts divided by the emitter current.
+[20:02.760 --> 20:11.820]  So that's why it's important because you're going to be putting that value here to calculate the voltage gain of the transistor circuit.
+[20:11.820 --> 20:18.880]  And finally, your current gain, A sub i, is basically equal to beta.
+[20:19.900 --> 20:25.220]  And that's on the assumption that the output impedance is infinite.
+[20:25.760 --> 20:27.620]  So there you go with that.
+[20:28.260 --> 20:29.380]  Pretty straightforward.
+[20:30.180 --> 20:31.460]  Very, very simple.
+[20:31.700 --> 20:34.180]  Not hard, hopefully, to remember.
+[20:36.060 --> 20:45.180]  And given this, you should now be able to do some calculations by just using these equations.
+[20:45.180 --> 20:58.600]  You should be able to do calculations already to give you a ballpark figure as to how much voltage gain your circuit might produce,
+[20:58.600 --> 21:15.260]  given a set of conditions for the source along with its source impedance, as well as its output driving a particular other circuit or load.
+[21:16.040 --> 21:16.160]  Okay?
+[21:16.700 --> 21:17.060]  All right.
+[21:17.060 --> 21:20.660]  So let's have a look at that.
+[21:20.960 --> 21:21.300]  All right.
+[21:21.380 --> 21:23.380]  Well, this is fresh in your brain.
+[21:24.680 --> 21:35.780]  And, of course, as we go through this, hopefully, you have the, what's this, interactive opportunity to ask questions.
+[21:35.780 --> 21:39.780]  If there is something that is not clear.
+[21:40.120 --> 21:40.340]  Okay?
+[21:40.340 --> 21:42.460]  So let's give this a go.
+[21:44.800 --> 21:51.620]  Here is the common emitter amplifier configuration.
+[21:51.620 --> 21:52.520]  All right.
+[21:52.520 --> 22:02.620]  And look very, very carefully at this circuit and have your questions ready if you have any questions.
+[22:03.480 --> 22:06.820]  Typically, again, everybody is going to be passive.
+[22:07.100 --> 22:08.460]  Maybe you're not even listening.
+[22:08.820 --> 22:09.560]  I don't know.
+[22:10.080 --> 22:15.480]  But this is a voltage divider bias configuration.
+[22:16.420 --> 22:16.640]  Okay?
+[22:16.780 --> 22:18.740]  Voltage divider bias configuration.
+[22:18.740 --> 22:30.360]  And you will see that a complete circuit, which actually has been shown several times before,
+[22:31.100 --> 22:40.740]  would include for the voltage divider bias or any transistor configuration that's designed to do amplification in the first place,
+[22:41.200 --> 22:43.660]  will have these capacitors here.
+[22:44.320 --> 22:44.580]  Okay?
+[22:44.580 --> 22:51.660]  So you have C1 and C3, which are your input and output capacitors.
+[22:53.080 --> 22:53.300]  All right?
+[22:53.740 --> 23:02.120]  And in particular, important to note that we have the C2 here, which is a capacitor from the emitter to ground.
+[23:02.700 --> 23:02.920]  Okay?
+[23:03.460 --> 23:08.600]  Now, what are the things that you have to remember that I mentioned before?
+[23:08.600 --> 23:09.740]  Okay?
+[23:11.480 --> 23:12.540]  Well, all right.
+[23:12.940 --> 23:18.820]  For our treatment of capacitors, when we were doing DC analysis,
+[23:19.820 --> 23:26.280]  all right, for DC analysis, what did we do with the capacitors when we were talking about DC analysis?
+[23:26.600 --> 23:27.000]  Sige nga.
+[23:27.140 --> 23:28.480]  Can somebody answer please?
+[23:29.420 --> 23:30.840]  Just put it up here in chat.
+[23:30.940 --> 23:31.220]  Anybody?
+[23:31.220 --> 23:37.120]  For DC analysis, what did we do with the capacitors in the circuit?
+[23:43.560 --> 23:45.020]  Oy, nandyan ba kayo?
+[23:45.220 --> 23:45.420]  Hello?
+[23:47.020 --> 23:47.300]  Yep.
+[23:47.540 --> 23:47.820]  Okay.
+[23:48.040 --> 23:48.860]  So that's right.
+[23:49.340 --> 23:52.400]  We basically ignored the capacitor.
+[23:52.700 --> 23:55.180]  We treated them as open circuit.
+[23:55.180 --> 23:56.380]  Okay?
+[23:57.980 --> 24:07.600]  So for DC analysis, the capacitors basically are treated as not being there.
+[24:08.680 --> 24:08.880]  Okay?
+[24:09.600 --> 24:18.860]  And on the other hand, all right, for AC analysis, for AC analysis, okay,
+[24:18.860 --> 24:24.500]  we basically treat the capacitors as short circuit.
+[24:25.320 --> 24:25.380]  Okay?
+[24:29.220 --> 24:30.060]  All right?
+[24:30.540 --> 24:40.700]  So for our capacitors, all right, in AC analysis, we treat the capacitors as short circuits.
+[24:40.700 --> 24:44.060]  So in other words, they are supposed to look something like this.
+[24:44.940 --> 24:45.220]  Okay?
+[24:45.720 --> 24:47.020]  Short circuit.
+[24:47.020 --> 24:47.060]  Okay.
+[24:48.240 --> 24:53.420]  Now, I don't know if I've mentioned this before because it's been a lesson so long ago.
+[24:54.280 --> 24:54.520]  All right?
+[24:56.800 --> 24:58.560]  Obviously, all right?
+[24:58.720 --> 25:11.200]  Obviously, when we talk about DC and AC, in this case, it's as if the two of them are so vastly different from each other.
+[25:12.180 --> 25:12.620]  Okay?
+[25:12.620 --> 25:20.380]  So a DC voltage might be 10 volts, and that would mean that it's a steady 10 volts.
+[25:20.720 --> 25:23.260]  Where there's zero and there's plus 10 over here.
+[25:23.340 --> 25:24.580]  It's a steady 10 volts.
+[25:25.900 --> 25:26.160]  Okay?
+[25:26.160 --> 25:34.040]  Whereas, you might say that an AC signal would look something like this.
+[25:34.040 --> 25:34.840]  All right?
+[25:34.840 --> 25:39.700]  Now, here's the thing that could be confusing for some people.
+[25:39.700 --> 25:45.200]  So what would you call a signal that basically looks like this?
+[25:45.200 --> 25:46.480]  All right?
+[25:46.480 --> 25:48.480]  So here's your zero volts.
+[25:48.480 --> 25:50.720]  And here, all right?
+[25:50.720 --> 25:54.080]  Somewhere around here, this is 10 volts.
+[25:54.080 --> 25:57.000]  So do you call that, all right?
+[25:57.060 --> 26:00.400]  Do you call this a DC or AC signal?
+[26:01.100 --> 26:01.820]  All right?
+[26:01.820 --> 26:06.000]  Is this a DC or an AC signal?
+[26:06.260 --> 26:06.500]  All right?
+[26:06.540 --> 26:07.560]  So here's the thing.
+[26:08.160 --> 26:08.420]  All right?
+[26:09.860 --> 26:13.680]  DC and AC are just concepts, all right?
+[26:13.680 --> 26:16.360]  That help describe a signal.
+[26:16.780 --> 26:17.080]  All right?
+[26:17.100 --> 26:19.140]  We need to know how to treat them.
+[26:19.140 --> 26:27.060]  And if you take an AC signal, all right?
+[26:27.060 --> 26:33.700]  If you take an AC signal and you say that, oh, well, here's an AC signal at maybe something like 10 hertz.
+[26:34.920 --> 26:35.600]  All right?
+[26:36.160 --> 26:47.120]  You can easily think about the signal that is of a much lower frequency and say, here is an AC signal also, but it is only 2 hertz.
+[26:48.220 --> 26:48.620]  All right?
+[26:49.140 --> 26:54.560]  And then here is an AC signal that is 1 hertz.
+[26:55.900 --> 27:05.620]  And you can also think and say that, well, here is an AC signal that is 0.5 hertz and so on and so forth.
+[27:06.280 --> 27:16.460]  And you can keep going and going and going lower and 0.1, 0.01, 0.0001 hertz.
+[27:16.460 --> 27:19.580]  And what does that signal look like?
+[27:19.580 --> 27:27.280]  Well, a 0.001 hertz signal looks like basically this, right?
+[27:27.280 --> 27:33.600]  Which is a pretty good and close match to DC.
+[27:34.600 --> 27:38.420]  So everything is basically relative, right?
+[27:38.540 --> 27:40.280]  Everything is basically relative.
+[27:40.280 --> 27:46.380]  So that can be a point of argument or confusion or whatever.
+[27:47.160 --> 27:57.900]  But when we are talking about DC versus AC analysis, we're sort of assuming that the two of these are very, very far apart from each other.
+[27:57.900 --> 27:59.040]  All right?
+[27:59.040 --> 27:59.080]  All right?
+[27:59.080 --> 28:06.860]  So think about it that an AC signal, all right?
+[28:06.860 --> 28:13.200]  An AC signal is a DC signal that is wiggling.
+[28:13.200 --> 28:15.340]  All right?
+[28:15.340 --> 28:15.460]  All right?
+[28:15.460 --> 28:15.460] 
+[28:15.460 --> 28:15.520]  All right?
+[28:15.520 --> 28:16.520]  All right?
+[28:16.520 --> 28:21.380]  An AC signal is a DC signal that is wiggling.
+[28:23.380 --> 28:24.660]  Amplitude-wise.
+[28:25.420 --> 28:30.720]  Or you can think of a DC signal.
+[28:31.240 --> 28:31.880]  All right?
+[28:32.320 --> 28:33.440]  What was I saying?
+[28:34.080 --> 28:37.060]  An AC signal is a DC signal that's wiggling.
+[28:37.580 --> 28:37.940]  All right?
+[28:37.940 --> 28:50.420]  A DC signal is an AC signal whose frequency is so low that we don't perceive it as a signal that is changing.
+[28:52.180 --> 28:57.320]  So they're not really that different from each other.
+[28:57.440 --> 29:05.200]  They're just describing possibly the same signal from a slightly different perspective.
+[29:06.420 --> 29:07.140]  Okay?
+[29:07.140 --> 29:08.140]  All right?
+[29:08.960 --> 29:28.600]  And the whole point of this discussion that we're having at this point, all right, is to say that when you are simplifying things and saying that these capacitors are shortened when we're doing AC analysis,
+[29:28.600 --> 29:40.000]  or when we're doing DC analysis, these are just, again, extreme points of consideration.
+[29:40.000 --> 29:51.460]  The world in between actually says that these capacitors are neither completely shorted nor completely open.
+[29:51.460 --> 30:14.300]  And you know that the capacitor has an equivalent impedance, which is basically governed by the equation X sub C is equal to 1 over J omega C.
+[30:14.300 --> 30:31.240]  And again, if you are confused or don't quite relate to the concept of reactants, all right, you can think of this as being equivalent in a funny way to resistance.
+[30:32.440 --> 30:32.580]  Okay?
+[30:32.580 --> 30:39.380]  Reactants is just resistance, if you like, at a different angle.
+[30:39.580 --> 30:40.580]  Okay?
+[30:40.580 --> 30:40.940]  Okay?
+[30:41.300 --> 30:42.860]  Resistance is at zero.
+[30:43.300 --> 30:46.480]  Reactants is at 90 degrees to zero.
+[30:46.480 --> 30:59.580]  So even if they are on different orientations polar-wise, they are very, very similar in concept.
+[30:59.580 --> 31:17.340]  So you can think of it in that way, if you like, all right, and say that the equivalent resistance of the capacitor, all right, I'll put it in quotation marks here, is equal to 1 over J omega C.
+[31:17.340 --> 31:22.300]  And again, this is basically 2 pi F, all right?
+[31:22.840 --> 31:29.340]  Our J omega C, or omega for that matter, is basically simply 2 pi F.
+[31:29.620 --> 31:31.980]  So what's the important thing to consider here?
+[31:32.320 --> 31:37.940]  The fact that we are talking about a frequency, all right?
+[31:37.940 --> 31:48.920]  And that's why when we do DC analysis, the frequency of the signal is zero hertz.
+[31:49.920 --> 32:00.380]  So what happens when you put zero into this bottom part of this equation, all right, 2 pi Fc.
+[32:00.380 --> 32:20.940]  If you substitute this with zero hertz, this bottom part of the equation becomes zero, which means that the equivalent RC, all right, the equivalent resistance of the capacitor, actually reactants, becomes infinite.
+[32:22.400 --> 32:23.220]  All right?
+[32:23.980 --> 32:26.540]  So this is just a quick reminder, all right?
+[32:26.540 --> 32:29.760]  This is your C from 1 being reminded.
+[32:30.260 --> 32:49.660]  And that's why when we do DC analysis, we can say that the capacitors are equivalent to open circuits because their reactants becomes infinite when we are talking about a zero hertz frequency, which is what DC is.
+[32:50.520 --> 32:50.780]  Okay?
+[32:51.440 --> 32:51.880]  All right?
+[32:51.880 --> 33:17.100]  Now, when we talk about actually having a frequency here, a particular frequency of interest or test, say, for example, 1 kilohertz, and we want to characterize the circuit, then the reality is you can actually calculate an equivalent reactants, okay, for these components at that particular frequency.
+[33:17.100 --> 33:36.620]  So if you want to be more accurate, okay, you can actually calculate the equivalent reactants of the capacitors at the frequency of interest if it's stated, all right?
+[33:37.040 --> 33:43.580]  And you get a much more accurate numerical result if you did that, okay?
+[33:43.580 --> 33:51.340]  Now, on the other hand, because we're just starting out, we're just going to ignore all of that.
+[33:51.440 --> 33:54.620]  This is information that you're going to need going forward.
+[33:55.340 --> 34:06.720]  But for now, okay, we are going to assume that the frequency of operation is high enough, all right?
+[34:06.720 --> 34:21.720]  The frequency of operation is high enough such that the reactants of the capacitor is small enough such that we can approximate it to be zero.
+[34:22.660 --> 34:24.780]  Zero ohms, okay?
+[34:24.980 --> 34:27.140]  That's what we're going to be doing, all right?
+[34:27.140 --> 34:47.640]  That's why we can think of this as short circuits, all right, with AC signal because we're assuming that the frequency of operation is so high that the equivalent reactants of the capacitor is pretty much zero.
+[34:47.640 --> 34:47.780]  Okay?
+[34:47.780 --> 34:48.180]  Okay?
+[34:48.180 --> 34:49.020]  All right.
+[34:49.020 --> 34:49.020] 
+[34:49.020 --> 35:03.060]  Now, what you're going to find is that in most circuits that are designed correctly, the capacitor's reactants is not really zero quite there yet, okay?
+[35:03.560 --> 35:11.560]  So a more accurate result will be obtained by actually substituting the correct reactants values.
+[35:12.080 --> 35:13.960]  For now, let's just go with this.
+[35:14.400 --> 35:14.560]  Okay.
+[35:14.980 --> 35:17.460]  Other questions so far?
+[35:17.460 --> 35:20.140]  May tanong ba o wala?
+[35:21.400 --> 35:21.840]  We clear?
+[35:23.240 --> 35:24.360]  Okay. Yes?
+[35:28.760 --> 35:30.540]  Okay. Isa lang ng thumbs up.
+[35:30.700 --> 35:31.720]  May mga iba. Hello?
+[35:32.840 --> 35:33.780]  About the others.
+[35:35.600 --> 35:36.840]  Marami tayong ghost ngayon.
+[35:36.980 --> 35:37.760]  Kung tinataman.
+[35:39.700 --> 35:40.040]  Okay.
+[35:41.640 --> 35:42.980]  Ayan. Okay.
+[35:43.140 --> 35:43.780]  Nagising na.
+[35:45.180 --> 35:46.940]  Nagabot na sa ano. Oops.
+[35:47.460 --> 35:48.580]  Let's press that button.
+[35:48.740 --> 35:51.100]  Alright. So let's go forward with this.
+[35:51.400 --> 35:52.140]  Alright. Ah, yeah.
+[35:52.580 --> 35:54.480]  Couple of points here that are important
+[35:54.480 --> 35:56.040]  but you probably already know.
+[35:56.640 --> 35:59.120]  The common emitter amplifier exhibits
+[35:59.120 --> 36:00.900]  a high voltage
+[36:00.900 --> 36:03.020]  and current gain. The output signal
+[36:03.020 --> 36:06.040]  is 180 degrees
+[36:06.040 --> 36:07.120]  out of phase
+[36:07.120 --> 36:09.200]  with the input. So if we put
+[36:09.200 --> 36:10.700]  in a signal that looks like this,
+[36:10.840 --> 36:12.840]  the output is 180
+[36:12.840 --> 36:15.060]  degrees out of phase.
+[36:15.180 --> 36:16.840]  It's the exact reverse.
+[36:16.840 --> 36:18.960]  So if I superimpose it,
+[36:19.360 --> 36:20.600]  it will look something like
+[36:20.600 --> 36:22.060]  this is very poorly drawn.
+[36:22.200 --> 36:22.640]  I'm sorry.
+[36:23.200 --> 36:24.740]  Okay. It will look something like this.
+[36:24.800 --> 36:26.040]  It is the exact
+[36:26.040 --> 36:28.180]  180 degrees
+[36:28.180 --> 36:28.740]  reverse
+[36:28.740 --> 36:30.700]  compared to the input.
+[36:31.240 --> 36:31.560]  Okay.
+[36:31.560 --> 36:33.860]  I think we've explained this before
+[36:33.860 --> 36:35.580]  even with DC analysis.
+[36:35.580 --> 36:36.180]  Right.
+[36:36.720 --> 36:37.860]  So as the
+[36:37.860 --> 36:39.160]  current,
+[36:39.620 --> 36:41.040]  as the signal goes upward,
+[36:41.620 --> 36:43.160]  the current here increases.
+[36:43.960 --> 36:44.240]  Therefore,
+[36:44.520 --> 36:45.680]  the collector current
+[36:45.680 --> 36:46.540]  also increases
+[36:46.540 --> 36:47.300]  which pulls
+[36:47.300 --> 36:48.580]  the output down.
+[36:48.840 --> 36:49.560]  As I sub C
+[36:49.560 --> 36:50.320]  goes up,
+[36:50.880 --> 36:51.580]  V sub C
+[36:51.580 --> 36:52.760]  goes down.
+[36:53.400 --> 36:54.260]  That's why
+[36:54.260 --> 36:55.840]  we get a reverse
+[36:55.840 --> 36:56.940]  phase
+[36:56.940 --> 36:58.240]  for the output
+[36:58.240 --> 36:58.840]  signal.
+[36:58.840 --> 36:59.680]  Okay.
+[36:59.760 --> 37:00.380]  And this is getting
+[37:00.380 --> 37:01.400]  to look really ugly.
+[37:01.580 --> 37:01.940]  So let's
+[37:01.940 --> 37:02.760]  remove that.
+[37:03.760 --> 37:04.220]  All right.
+[37:04.720 --> 37:05.860]  Now let's go
+[37:05.860 --> 37:07.360]  and have a quick look
+[37:07.360 --> 37:08.260]  and
+[37:08.260 --> 37:09.620]  let's analyze
+[37:09.620 --> 37:10.120]  the circuit.
+[37:10.280 --> 37:11.680]  So try to memorize
+[37:11.680 --> 37:12.900]  these values.
+[37:13.360 --> 37:13.700]  All right.
+[37:14.480 --> 37:15.360]  R1 is 22k.
+[37:16.240 --> 37:16.720]  R2
+[37:16.720 --> 37:17.360]  is 6.8k.
+[37:18.180 --> 37:18.780]  That forms
+[37:18.780 --> 37:20.120]  the voltage divider.
+[37:21.120 --> 37:21.580]  R1
+[37:21.580 --> 37:23.420]  is 560 ohms.
+[37:23.420 --> 37:24.120]  Although we're going
+[37:24.120 --> 37:24.540]  to get
+[37:24.540 --> 37:25.260]  shunted.
+[37:25.260 --> 37:26.320]  It gets shunted
+[37:26.320 --> 37:27.240]  by the capacitor
+[37:27.240 --> 37:28.700]  where the equivalent
+[37:28.700 --> 37:29.960]  resistance is considered
+[37:29.960 --> 37:30.660]  to be zero.
+[37:31.320 --> 37:32.480]  And R sub C
+[37:32.480 --> 37:34.000]  is 1k.
+[37:35.140 --> 37:35.420]  All right.
+[37:35.560 --> 37:36.240]  And see if you can
+[37:36.240 --> 37:36.960]  remember that.
+[37:37.820 --> 37:38.220]  Beta
+[37:38.220 --> 37:39.620]  AC
+[37:39.620 --> 37:40.800]  in this case,
+[37:40.940 --> 37:41.520]  the AC
+[37:41.520 --> 37:42.500]  beta
+[37:42.500 --> 37:43.000]  is
+[37:43.000 --> 37:43.840]  160.
+[37:44.580 --> 37:44.860]  Okay.
+[37:45.120 --> 37:45.500]  All right.
+[37:45.560 --> 37:46.560]  So let's
+[37:46.560 --> 37:47.360]  have a quick look
+[37:47.360 --> 37:47.900]  at this.
+[37:48.380 --> 37:49.340]  Go to the next
+[37:49.340 --> 37:49.980]  stage.
+[37:50.580 --> 37:50.740]  All right.
+[37:50.740 --> 37:51.880]  And I have to erase
+[37:51.880 --> 37:52.860]  everything first.
+[37:52.860 --> 37:54.740]  No, let's not erase
+[37:54.740 --> 37:55.880]  everything like that
+[37:55.880 --> 37:56.180]  way.
+[37:56.740 --> 37:57.560]  Erase by
+[37:57.560 --> 37:58.980]  clearing everything.
+[38:00.660 --> 38:01.760]  And let's go
+[38:01.760 --> 38:02.340]  to the next
+[38:02.340 --> 38:02.640]  page.
+[38:02.760 --> 38:03.080]  All right.
+[38:03.740 --> 38:04.060]  Okay.
+[38:05.860 --> 38:06.600]  I'm about to
+[38:06.600 --> 38:07.440]  my next page.
+[38:08.200 --> 38:08.800]  Okay.
+[38:09.300 --> 38:09.560]  So
+[38:09.560 --> 38:11.400]  for our
+[38:11.400 --> 38:13.520]  all right.
+[38:13.900 --> 38:14.780]  For DC
+[38:14.780 --> 38:15.380]  analysis.
+[38:15.860 --> 38:16.340]  All right.
+[38:16.600 --> 38:17.800]  All right.
+[38:17.800 --> 38:18.660]  The only thing
+[38:18.660 --> 38:19.480]  that we need
+[38:19.480 --> 38:20.500]  at this point,
+[38:21.060 --> 38:21.860]  we have to start
+[38:21.860 --> 38:22.940]  with DC analysis
+[38:22.940 --> 38:25.080]  is to determine
+[38:25.080 --> 38:26.180]  the
+[38:26.180 --> 38:27.640]  emitter
+[38:27.640 --> 38:28.400]  current.
+[38:29.120 --> 38:29.220]  Okay.
+[38:30.320 --> 38:30.960]  Because
+[38:30.960 --> 38:31.740]  our
+[38:31.740 --> 38:32.800]  RE
+[38:32.800 --> 38:33.960]  equivalent
+[38:33.960 --> 38:35.000]  resistance
+[38:35.000 --> 38:35.460]  for our
+[38:35.460 --> 38:35.820]  emitter
+[38:35.820 --> 38:37.180]  is based
+[38:37.180 --> 38:37.960]  on the
+[38:37.960 --> 38:38.320]  emitter
+[38:38.320 --> 38:38.840]  current,
+[38:39.040 --> 38:39.300]  which is
+[38:39.300 --> 38:40.140]  your 26
+[38:40.140 --> 38:40.600]  mV
+[38:40.600 --> 38:41.660]  divided
+[38:41.660 --> 38:42.680]  by IE.
+[38:42.900 --> 38:43.020]  So
+[38:43.020 --> 38:43.460]  kailangan
+[38:43.460 --> 38:44.040]  natin
+[38:44.040 --> 38:44.320]  yung
+[38:44.320 --> 38:45.200]  IE.
+[38:45.700 --> 38:46.120]  And this
+[38:46.120 --> 38:46.960]  is established
+[38:46.960 --> 38:47.960]  by the
+[38:47.960 --> 38:48.440]  DC
+[38:48.440 --> 38:49.120]  current.
+[38:49.900 --> 38:50.020]  Okay.
+[38:50.600 --> 38:51.020]  All right.
+[38:51.020 --> 38:51.920]  And
+[38:51.920 --> 38:53.980]  we remove
+[38:53.980 --> 38:54.200]  the
+[38:54.200 --> 38:55.040]  capacitors
+[38:55.040 --> 38:56.120]  open
+[38:56.120 --> 38:56.740]  circuit
+[38:56.740 --> 38:57.260]  for
+[38:57.260 --> 38:58.300]  zero
+[38:58.300 --> 38:58.760]  hertz
+[38:58.760 --> 38:59.560]  operation
+[38:59.560 --> 39:00.120]  just to
+[39:00.120 --> 39:00.760]  establish
+[39:00.760 --> 39:01.380]  where
+[39:01.380 --> 39:01.700]  the
+[39:01.700 --> 39:02.120]  question
+[39:02.120 --> 39:02.520]  point
+[39:02.520 --> 39:02.760]  of
+[39:02.760 --> 39:03.080]  our
+[39:03.080 --> 39:03.580]  transistor
+[39:03.580 --> 39:04.100]  circuit
+[39:04.100 --> 39:04.860]  is.
+[39:05.980 --> 39:06.320]  All right.
+[39:06.580 --> 39:06.800]  Now
+[39:06.800 --> 39:07.680]  again,
+[39:08.280 --> 39:09.020]  because this
+[39:09.020 --> 39:09.320]  is the
+[39:09.320 --> 39:09.720]  voltage
+[39:09.720 --> 39:10.540]  divider
+[39:10.540 --> 39:11.560]  configuration,
+[39:12.100 --> 39:12.880]  we have
+[39:12.880 --> 39:13.480]  to find
+[39:13.480 --> 39:14.180]  out if
+[39:14.180 --> 39:14.900]  approximate
+[39:14.900 --> 39:15.720]  analysis
+[39:15.720 --> 39:17.200]  is valid
+[39:17.200 --> 39:17.960]  or not.
+[39:18.600 --> 39:18.780]  Okay.
+[39:18.780 --> 39:19.700]  So
+[39:19.700 --> 39:20.460]  kagagalig
+[39:20.460 --> 39:20.580]  nyo
+[39:20.580 --> 39:20.800]  lang
+[39:20.800 --> 39:20.980]  ng
+[39:20.980 --> 39:21.320]  quiz
+[39:21.320 --> 39:21.840]  one,
+[39:22.060 --> 39:22.340]  dapat
+[39:22.340 --> 39:23.540]  kayan-kayan
+[39:23.540 --> 39:23.880]  ninyong
+[39:23.880 --> 39:24.300]  gawin
+[39:24.300 --> 39:24.560]  yan.
+[39:24.940 --> 39:25.360]  All right.
+[39:25.920 --> 39:26.300]  So
+[39:26.300 --> 39:26.960]  how do
+[39:26.960 --> 39:27.300]  we do
+[39:27.300 --> 39:27.760]  that
+[39:27.760 --> 39:28.360]  again?
+[39:28.880 --> 39:29.280]  All right.
+[39:29.380 --> 39:29.580]  We
+[39:29.580 --> 39:30.300]  calculate
+[39:30.300 --> 39:30.980]  beta
+[39:30.980 --> 39:31.700]  RE
+[39:31.700 --> 39:32.960]  and we
+[39:32.960 --> 39:33.360]  compare
+[39:33.360 --> 39:33.680]  that
+[39:33.680 --> 39:33.880]  to
+[39:33.880 --> 39:34.420]  10
+[39:34.420 --> 39:35.320]  times
+[39:35.320 --> 39:36.600]  R2.
+[39:37.260 --> 39:37.540]  And so
+[39:37.540 --> 39:37.840]  that
+[39:37.840 --> 39:38.180]  is
+[39:38.180 --> 39:39.880]  680K.
+[39:40.380 --> 39:40.760]  Baka
+[39:40.760 --> 39:41.080]  hindi,
+[39:41.360 --> 39:42.220]  baka
+[39:42.220 --> 39:42.700]  kulang.
+[39:42.940 --> 39:43.360]  All right.
+[39:43.360 --> 39:43.720]  So
+[39:43.720 --> 39:45.560]  but
+[39:45.560 --> 39:46.220]  even if
+[39:46.220 --> 39:46.440]  it's
+[39:46.440 --> 39:46.740]  kulang,
+[39:46.820 --> 39:47.000]  we're
+[39:47.000 --> 39:47.240]  still
+[39:47.240 --> 39:47.840]  going to
+[39:47.840 --> 39:48.060]  use
+[39:48.060 --> 39:48.640]  approximate
+[39:48.640 --> 39:49.280]  analysis.
+[39:49.480 --> 39:49.600]  What
+[39:49.600 --> 39:49.980]  the hell?
+[39:50.420 --> 39:50.700]  All right.
+[39:51.580 --> 39:52.140]  Let's
+[39:52.140 --> 39:52.640]  just try
+[39:52.640 --> 39:53.000]  that.
+[39:53.180 --> 39:53.780]  560
+[39:53.780 --> 39:54.200]  times
+[39:54.200 --> 39:54.880]  150
+[39:54.880 --> 39:55.380]  is
+[39:55.380 --> 39:55.600]  how
+[39:55.600 --> 39:55.880]  many?
+[39:57.200 --> 39:57.320]  Huh?
+[39:57.720 --> 39:57.980]  Tika,
+[39:58.240 --> 39:58.520]  bakit
+[39:58.520 --> 39:58.800]  madian.
+[39:59.160 --> 40:00.060]  560
+[40:00.060 --> 40:01.020]  times
+[40:01.020 --> 40:03.200]  150
+[40:03.200 --> 40:04.840]  kulang nga.
+[40:05.240 --> 40:05.480]  Okay.
+[40:05.660 --> 40:05.980]  That's
+[40:05.980 --> 40:06.440]  only
+[40:06.440 --> 40:07.560]  84.
+[40:08.460 --> 40:08.680]  Huh?
+[40:09.000 --> 40:09.220]  Wait,
+[40:09.280 --> 40:09.420]  wait.
+[40:09.760 --> 40:10.200]  10
+[40:10.200 --> 40:10.820]  times R2
+[40:10.820 --> 40:11.720]  is 68K.
+[40:11.940 --> 40:12.220]  Hello?
+[40:12.540 --> 40:12.880]  All right.
+[40:12.880 --> 40:13.720]  And
+[40:13.720 --> 40:14.580]  beta
+[40:14.580 --> 40:15.040]  RE
+[40:15.040 --> 40:15.420]  is
+[40:15.420 --> 40:15.800]  equal
+[40:15.800 --> 40:16.120]  to
+[40:16.120 --> 40:17.720]  84K.
+[40:17.980 --> 40:18.340]  All right?
+[40:18.600 --> 40:18.880]  Okay.
+[40:18.960 --> 40:19.080]  So
+[40:19.080 --> 40:19.240]  we're
+[40:19.240 --> 40:19.500]  good.
+[40:20.380 --> 40:20.520]  So
+[40:20.520 --> 40:21.120]  approximate
+[40:21.120 --> 40:21.920]  analysis
+[40:21.920 --> 40:22.820]  is
+[40:22.820 --> 40:23.580]  valid.
+[40:24.600 --> 40:24.900]  Okay.
+[40:25.520 --> 40:26.440]  We
+[40:26.440 --> 40:26.860]  can use
+[40:26.860 --> 40:27.420]  approximate
+[40:27.420 --> 40:28.140]  analysis
+[40:28.140 --> 40:28.940]  and
+[40:28.940 --> 40:29.940]  establish
+[40:29.940 --> 40:31.000]  the
+[40:31.000 --> 40:31.760]  question
+[40:31.760 --> 40:32.340]  point
+[40:32.340 --> 40:32.820]  of
+[40:32.820 --> 40:33.080]  the
+[40:33.080 --> 40:33.540]  transistor
+[40:33.540 --> 40:34.040]  circuit.
+[40:34.980 --> 40:35.420]  In
+[40:35.420 --> 40:35.640]  this
+[40:35.640 --> 40:36.000]  case,
+[40:36.620 --> 40:37.620]  there
+[40:37.620 --> 40:37.760]  are
+[40:37.760 --> 40:37.900]  two
+[40:37.900 --> 40:38.240]  things
+[40:38.240 --> 40:38.480]  that
+[40:38.480 --> 40:38.640]  we
+[40:38.640 --> 40:38.880]  need
+[40:38.880 --> 40:39.040]  to
+[40:39.040 --> 40:39.440]  know
+[40:39.440 --> 40:40.100]  actually,
+[40:40.500 --> 40:41.800]  which
+[40:41.800 --> 40:42.160]  is
+[40:42.160 --> 40:42.820]  the
+[40:42.820 --> 40:43.940]  emitter
+[40:43.940 --> 40:44.480]  current.
+[40:45.580 --> 40:45.780]  And
+[40:45.780 --> 40:46.120]  the
+[40:46.120 --> 40:46.340]  other
+[40:46.340 --> 40:46.720]  thing
+[40:46.720 --> 40:46.940]  is
+[40:46.940 --> 40:47.120]  to
+[40:47.120 --> 40:47.580]  determine
+[40:47.580 --> 40:48.240]  that
+[40:48.240 --> 40:48.760]  the
+[40:48.760 --> 40:49.240]  transistor
+[40:49.240 --> 40:49.600]  is
+[40:49.600 --> 40:50.060]  actually
+[40:50.060 --> 40:50.560]  in its
+[40:50.560 --> 40:51.000]  active
+[40:51.000 --> 40:51.480]  region,
+[40:51.640 --> 40:52.100]  which
+[40:52.100 --> 40:52.600]  allows
+[40:52.600 --> 40:53.040]  us
+[40:53.040 --> 40:53.700]  to
+[40:53.700 --> 40:54.160]  validate
+[40:54.160 --> 40:54.840]  if
+[40:54.840 --> 40:55.180]  it
+[40:55.180 --> 40:55.360]  will
+[40:55.360 --> 40:56.000]  amplify
+[40:56.000 --> 40:56.580]  in the
+[40:56.580 --> 40:56.820]  first
+[40:56.820 --> 40:57.200]  place
+[40:57.200 --> 40:57.760]  or not.
+[40:57.760 --> 40:58.480]  because
+[40:58.480 --> 40:58.720]  if
+[40:58.720 --> 40:58.880]  it
+[40:58.880 --> 40:59.080]  is
+[40:59.080 --> 40:59.440]  not
+[40:59.440 --> 40:59.680]  in
+[40:59.680 --> 40:59.820]  the
+[40:59.820 --> 41:00.140]  active
+[41:00.140 --> 41:00.700]  region,
+[41:00.920 --> 41:01.160]  if
+[41:01.160 --> 41:01.340]  it
+[41:01.340 --> 41:01.540]  is
+[41:01.540 --> 41:01.920]  cut
+[41:01.920 --> 41:02.360]  off
+[41:02.360 --> 41:02.780]  or
+[41:02.780 --> 41:03.060]  it
+[41:03.060 --> 41:03.280]  is
+[41:03.280 --> 41:03.980]  saturated,
+[41:04.380 --> 41:05.020]  then
+[41:05.020 --> 41:05.420]  it's
+[41:05.420 --> 41:05.700]  really
+[41:05.700 --> 41:06.040]  not
+[41:06.040 --> 41:06.280]  going
+[41:06.280 --> 41:06.420]  to
+[41:06.420 --> 41:06.620]  do
+[41:06.620 --> 41:07.200]  anything.
+[41:07.860 --> 41:07.860] 
+[41:07.860 --> 41:08.100]  right?
+[41:08.700 --> 41:09.060]  So
+[41:09.060 --> 41:10.040]  VC
+[41:10.040 --> 41:10.520]  analysis
+[41:10.520 --> 41:10.840]  is
+[41:10.840 --> 41:11.420]  important,
+[41:11.780 --> 41:12.300]  especially
+[41:12.300 --> 41:13.040]  in a
+[41:13.040 --> 41:13.440]  quiz
+[41:13.440 --> 41:14.220]  where
+[41:14.220 --> 41:15.080]  the
+[41:15.080 --> 41:16.060]  problem
+[41:16.060 --> 41:17.060]  might
+[41:17.060 --> 41:18.260]  be
+[41:18.260 --> 41:18.920]  sneaky
+[41:18.920 --> 41:20.240]  and
+[41:20.240 --> 41:20.920]  actually
+[41:20.920 --> 41:21.540]  bias
+[41:21.540 --> 41:21.820]  the
+[41:21.820 --> 41:22.340]  transistor
+[41:22.340 --> 41:22.980]  into
+[41:22.980 --> 41:23.540]  its
+[41:23.540 --> 41:25.340]  saturated
+[41:25.340 --> 41:26.100]  region
+[41:26.100 --> 41:26.800]  just
+[41:26.800 --> 41:27.140]  to
+[41:27.140 --> 41:27.780]  catch
+[41:27.780 --> 41:28.420]  people
+[41:28.420 --> 41:29.160]  and
+[41:29.160 --> 41:29.360]  see
+[41:29.360 --> 41:29.560]  if
+[41:29.560 --> 41:29.720]  they
+[41:29.720 --> 41:29.960]  know
+[41:29.960 --> 41:30.180]  what
+[41:30.180 --> 41:30.340]  they're
+[41:30.340 --> 41:30.760]  doing.
+[41:31.360 --> 41:31.560]  Maybe
+[41:31.560 --> 41:31.760]  the
+[41:31.760 --> 41:32.080]  question
+[41:32.080 --> 41:32.340]  is
+[41:32.340 --> 41:32.620]  like
+[41:32.620 --> 41:33.220]  analyze
+[41:33.220 --> 41:33.560]  this
+[41:33.560 --> 41:33.920]  circuit
+[41:33.920 --> 41:34.720]  and
+[41:34.720 --> 41:35.360]  calculate
+[41:35.360 --> 41:35.720]  its
+[41:35.720 --> 41:36.300]  voltage
+[41:36.300 --> 41:36.760]  gain.
+[41:37.400 --> 41:37.620]  So
+[41:37.620 --> 41:37.800]  you
+[41:37.800 --> 41:37.980]  go
+[41:37.980 --> 41:38.180]  through
+[41:38.180 --> 41:38.500]  all
+[41:38.500 --> 41:38.700]  the
+[41:38.700 --> 41:39.160]  trouble
+[41:39.160 --> 41:39.460]  of
+[41:39.460 --> 41:40.160]  calculating
+[41:40.160 --> 41:40.720]  the
+[41:40.720 --> 41:41.160]  voltage
+[41:41.160 --> 41:41.380]  gain
+[41:41.380 --> 41:41.500]  is
+[41:41.500 --> 41:41.660]  going
+[41:41.660 --> 41:41.780]  to
+[41:41.780 --> 41:41.960]  come
+[41:41.960 --> 41:42.080]  up.
+[41:42.080 --> 41:43.240]  You
+[41:43.240 --> 41:45.660]  come
+[41:45.660 --> 41:45.820]  up
+[41:45.820 --> 41:45.960]  with
+[41:45.960 --> 41:46.160]  this
+[41:46.160 --> 41:46.640]  answer
+[41:46.640 --> 41:46.900]  and
+[41:46.900 --> 41:47.120]  in
+[41:47.120 --> 41:47.440]  fact,
+[41:48.380 --> 41:48.660]  if
+[41:48.660 --> 41:48.900]  you
+[41:48.900 --> 41:49.660]  took
+[41:49.660 --> 41:49.920]  the
+[41:49.920 --> 41:50.340]  time
+[41:50.340 --> 41:50.940]  to
+[41:50.940 --> 41:51.400]  find
+[41:51.400 --> 41:51.940]  out
+[41:51.940 --> 41:52.960]  very
+[41:52.960 --> 41:53.420]  quickly
+[41:53.420 --> 41:53.720]  if
+[41:53.720 --> 41:53.860]  it
+[41:53.860 --> 41:54.080]  was
+[41:54.080 --> 41:54.820]  in
+[41:54.820 --> 41:55.000]  the
+[41:55.000 --> 41:55.320]  active
+[41:55.320 --> 41:55.700]  region
+[41:55.700 --> 41:55.880]  or
+[41:55.880 --> 41:56.080]  not,
+[41:56.100 --> 41:56.340]  then
+[41:56.340 --> 41:56.460]  you
+[41:56.460 --> 41:56.580]  would
+[41:56.580 --> 41:56.720]  have
+[41:56.720 --> 41:56.940]  found
+[41:56.940 --> 41:57.140]  out
+[41:57.140 --> 41:57.280]  that
+[41:57.280 --> 42:01.160]  voltage
+[42:01.160 --> 42:01.620]  gain
+[42:01.620 --> 42:01.800]  is
+[42:01.800 --> 42:02.020]  equal
+[42:02.020 --> 42:02.240]  to
+[42:02.240 --> 42:02.700]  zero.
+[42:03.420 --> 42:04.080]  So
+[42:04.080 --> 42:05.160]  be
+[42:05.160 --> 42:05.560]  careful.
+[42:05.980 --> 42:06.300]  So
+[42:06.300 --> 42:07.000]  we
+[42:07.000 --> 42:07.320]  have
+[42:07.320 --> 42:07.520]  to
+[42:07.520 --> 42:07.860]  find
+[42:07.860 --> 42:08.240]  out
+[42:08.240 --> 42:08.560]  and
+[42:08.560 --> 42:09.220]  to
+[42:09.220 --> 42:09.420]  do
+[42:09.420 --> 42:09.820]  that
+[42:09.820 --> 42:10.180]  we
+[42:10.180 --> 42:10.380]  will
+[42:10.380 --> 42:10.620]  do
+[42:10.620 --> 42:11.240]  our
+[42:11.240 --> 42:13.300]  simple
+[42:13.300 --> 42:13.820]  and
+[42:13.820 --> 42:14.100]  very
+[42:14.100 --> 42:14.740]  quick
+[42:14.740 --> 42:15.820]  DC
+[42:15.820 --> 42:16.620]  question
+[42:16.620 --> 42:17.080]  point
+[42:17.080 --> 42:17.880]  calculation.
+[42:18.640 --> 42:18.740]  And
+[42:18.740 --> 42:19.160]  how do
+[42:19.160 --> 42:19.260]  we
+[42:19.260 --> 42:19.420]  do
+[42:19.420 --> 42:19.800]  that?
+[42:20.180 --> 42:20.780]  Again,
+[42:21.080 --> 42:21.560]  coming
+[42:21.560 --> 42:21.820]  from
+[42:21.820 --> 42:22.080]  quiz
+[42:22.080 --> 42:22.480]  one,
+[42:22.900 --> 42:23.280]  first
+[42:23.280 --> 42:23.460]  you
+[42:23.460 --> 42:24.220]  establish
+[42:24.220 --> 42:24.640]  what
+[42:24.640 --> 42:25.080]  your
+[42:25.080 --> 42:25.720]  base
+[42:25.720 --> 42:26.160]  voltage
+[42:26.160 --> 42:26.640]  is,
+[42:27.100 --> 42:27.280]  you
+[42:27.280 --> 42:27.680]  subtract
+[42:27.680 --> 42:28.200]  by
+[42:28.200 --> 42:29.040]  0.7
+[42:29.040 --> 42:29.720]  to get
+[42:29.720 --> 42:30.160]  your
+[42:30.160 --> 42:31.080]  emitter
+[42:31.080 --> 42:31.820]  voltage
+[42:31.820 --> 42:32.680]  and
+[42:32.680 --> 42:33.360]  therefore
+[42:33.360 --> 42:34.200]  establish
+[42:34.200 --> 42:34.700]  what
+[42:34.700 --> 42:34.960]  your
+[42:34.960 --> 42:35.560]  IE
+[42:35.560 --> 42:36.040]  is.
+[42:36.460 --> 42:36.720]  When
+[42:36.720 --> 42:36.860]  you
+[42:36.860 --> 42:37.020]  know
+[42:37.020 --> 42:37.220]  what
+[42:37.220 --> 42:37.360]  your
+[42:37.360 --> 42:37.860]  IE
+[42:37.860 --> 42:38.220]  is,
+[42:38.280 --> 42:38.380]  you
+[42:38.380 --> 42:38.560]  will
+[42:38.560 --> 42:39.000]  copy
+[42:39.000 --> 42:39.340]  that
+[42:39.340 --> 42:39.580]  and
+[42:39.580 --> 42:39.840]  say
+[42:39.840 --> 42:40.260]  that
+[42:40.260 --> 42:41.020]  IC
+[42:41.020 --> 42:41.720]  is
+[42:41.720 --> 42:42.300]  equal
+[42:42.300 --> 42:42.600]  to
+[42:42.600 --> 42:43.260]  IE,
+[42:43.640 --> 42:43.860]  which
+[42:43.860 --> 42:44.040]  will
+[42:44.040 --> 42:44.380]  allow
+[42:44.380 --> 42:44.580]  you
+[42:44.580 --> 42:44.740]  to
+[42:44.740 --> 42:45.140]  calculate
+[42:45.140 --> 42:45.400]  the
+[42:45.400 --> 42:45.800]  voltage
+[42:45.800 --> 42:46.120]  drop
+[42:46.120 --> 42:46.520]  here.
+[42:47.020 --> 42:47.120]  And
+[42:47.120 --> 42:47.260]  if
+[42:47.260 --> 42:47.360]  you
+[42:47.360 --> 42:47.500]  can
+[42:47.500 --> 42:47.900]  calculate
+[42:47.900 --> 42:48.120]  the
+[42:48.120 --> 42:48.500]  voltage
+[42:48.500 --> 42:48.820]  drop
+[42:48.820 --> 42:49.100]  there,
+[42:49.220 --> 42:49.380]  then
+[42:49.380 --> 42:49.500]  you
+[42:49.500 --> 42:49.700]  can
+[42:49.700 --> 42:50.200]  calculate
+[42:50.200 --> 42:50.440]  your
+[42:50.440 --> 42:50.700]  V
+[42:50.700 --> 42:51.180]  C
+[42:51.180 --> 42:51.900]  and
+[42:51.900 --> 42:52.420]  comparing
+[42:52.420 --> 42:52.800]  V
+[42:52.800 --> 42:53.280]  C
+[42:53.280 --> 42:53.780]  versus
+[42:53.780 --> 42:54.240]  V
+[42:54.240 --> 42:54.720]  E,
+[42:54.720 --> 42:55.400]  you'll
+[42:55.400 --> 42:55.860]  be able
+[42:55.860 --> 42:56.100]  to
+[42:56.100 --> 42:56.620]  determine
+[42:56.620 --> 42:57.420]  if
+[42:57.420 --> 42:58.560]  your
+[42:58.560 --> 43:04.280]  transistor
+[43:04.280 --> 43:05.860]  is in
+[43:05.860 --> 43:06.040]  the
+[43:06.040 --> 43:06.360]  active
+[43:06.360 --> 43:06.860]  region.
+[43:07.060 --> 43:07.420]  How do
+[43:07.420 --> 43:07.800]  you know?
+[43:07.980 --> 43:08.220]  Well,
+[43:08.740 --> 43:09.380]  if there's
+[43:09.380 --> 43:09.860]  enough
+[43:09.860 --> 43:10.760]  voltage
+[43:10.760 --> 43:11.200]  from
+[43:11.200 --> 43:11.660]  collector
+[43:11.660 --> 43:11.960]  to
+[43:11.960 --> 43:12.460]  emitter,
+[43:13.320 --> 43:13.780]  all right,
+[43:14.100 --> 43:14.680]  such that
+[43:14.680 --> 43:15.000]  they are
+[43:15.000 --> 43:15.300]  not
+[43:15.300 --> 43:16.120]  practically
+[43:16.120 --> 43:17.060]  shorted
+[43:17.060 --> 43:17.620]  together,
+[43:17.620 --> 43:18.740]  then
+[43:18.740 --> 43:19.200]  you
+[43:19.200 --> 43:19.660]  know
+[43:19.660 --> 43:20.220]  that
+[43:20.220 --> 43:20.680]  the
+[43:20.680 --> 43:21.160]  transistor
+[43:21.160 --> 43:21.600]  is
+[43:21.600 --> 43:21.900]  in
+[43:21.900 --> 43:22.200]  its
+[43:22.200 --> 43:22.680]  active
+[43:22.680 --> 43:23.160]  region.
+[43:23.620 --> 43:23.760]  Okay,
+[43:24.020 --> 43:24.500]  so let's
+[43:24.500 --> 43:24.960]  try that
+[43:24.960 --> 43:25.400]  out.
+[43:25.880 --> 43:26.260]  First,
+[43:26.500 --> 43:27.000]  calculate
+[43:27.000 --> 43:27.340]  V
+[43:27.340 --> 43:27.500]  sub
+[43:27.500 --> 43:27.820]  B,
+[43:28.400 --> 43:28.740]  all right,
+[43:28.960 --> 43:29.320]  V
+[43:29.320 --> 43:29.520]  sub
+[43:29.520 --> 43:29.980]  B in
+[43:29.980 --> 43:30.220]  this
+[43:30.220 --> 43:30.620]  case,
+[43:30.860 --> 43:31.680]  I might
+[43:31.680 --> 43:32.160]  be writing
+[43:32.160 --> 43:32.700]  this out
+[43:32.700 --> 43:33.080]  for no
+[43:33.080 --> 43:33.720]  reason at all,
+[43:33.780 --> 43:34.200]  maybe the
+[43:34.200 --> 43:34.720]  next slide
+[43:34.720 --> 43:35.180]  has the
+[43:35.180 --> 43:35.460]  answer
+[43:35.460 --> 43:35.880]  anyway,
+[43:36.580 --> 43:36.920]  all right,
+[43:37.300 --> 43:37.880]  12
+[43:37.880 --> 43:38.820]  times
+[43:38.820 --> 43:40.480]  6.8
+[43:40.480 --> 43:40.940]  over
+[43:40.940 --> 43:41.980]  6.8
+[43:41.980 --> 43:42.520]  plus
+[43:42.520 --> 43:43.440]  22,
+[43:44.720 --> 43:45.180]  all right,
+[43:45.600 --> 43:46.220]  this looks
+[43:46.220 --> 43:46.600]  like an
+[43:46.600 --> 43:46.820]  R,
+[43:46.920 --> 43:47.240]  but this
+[43:47.240 --> 43:47.420]  is
+[43:47.420 --> 43:47.800]  actually
+[43:47.800 --> 43:48.280]  12,
+[43:48.720 --> 43:49.020]  okay,
+[43:49.140 --> 43:49.780]  and so
+[43:49.780 --> 43:50.400]  our
+[43:50.400 --> 43:51.240]  resulting
+[43:51.240 --> 43:51.740]  V
+[43:51.740 --> 43:51.960]  sub
+[43:51.960 --> 43:52.280]  B
+[43:52.280 --> 43:52.840]  in this
+[43:52.840 --> 43:53.280]  case
+[43:53.280 --> 43:53.800]  is
+[43:53.800 --> 43:54.220]  going
+[43:54.220 --> 43:54.400]  to
+[43:54.400 --> 43:54.820]  be,
+[43:55.260 --> 43:55.660]  all right,
+[43:56.220 --> 43:56.840]  fortunately,
+[43:57.140 --> 43:57.440]  I have
+[43:57.440 --> 43:57.680]  my
+[43:57.680 --> 43:58.240]  calculator
+[43:58.240 --> 43:59.100]  6.8
+[43:59.100 --> 43:59.520]  divided
+[43:59.520 --> 44:00.760]  by 6.8
+[44:00.760 --> 44:01.360]  plus
+[44:01.360 --> 44:02.380]  22
+[44:02.380 --> 44:03.660]  is
+[44:03.660 --> 44:05.160]  0.236,
+[44:05.380 --> 44:05.780]  all right,
+[44:06.080 --> 44:06.900]  times 12
+[44:06.900 --> 44:08.800]  gives us
+[44:08.800 --> 44:10.200]  a 2.83
+[44:10.200 --> 44:10.760]  volts,
+[44:11.900 --> 44:12.760]  all right,
+[44:12.800 --> 44:13.080]  and so
+[44:13.080 --> 44:13.600]  that's our
+[44:13.600 --> 44:14.080]  VB
+[44:14.080 --> 44:14.660]  that goes
+[44:14.660 --> 44:15.040]  here,
+[44:15.780 --> 44:16.000]  okay,
+[44:16.100 --> 44:16.880]  2.83
+[44:16.880 --> 44:17.420]  volts,
+[44:17.420 --> 44:19.020]  and that
+[44:19.020 --> 44:19.820]  allows us
+[44:19.820 --> 44:20.620]  to establish
+[44:20.620 --> 44:21.200]  V sub
+[44:21.200 --> 44:21.800]  E is
+[44:21.800 --> 44:22.300]  equal to
+[44:22.300 --> 44:23.500]  2.83
+[44:23.500 --> 44:24.560]  minus
+[44:24.560 --> 44:26.080]  0.7,
+[44:26.720 --> 44:27.160]  all right,
+[44:27.160 --> 44:29.000]  and that
+[44:29.000 --> 44:29.780]  gives us
+[44:29.780 --> 44:32.040]  2.133,
+[44:32.040 --> 44:33.860]  okay,
+[44:34.500 --> 44:34.820]  all right,
+[44:34.900 --> 44:35.820]  2.133
+[44:35.820 --> 44:36.200]  volts,
+[44:36.200 --> 44:37.560]  and that
+[44:37.560 --> 44:38.260]  allows us
+[44:38.260 --> 44:39.220]  to establish
+[44:39.220 --> 44:40.080]  IE,
+[44:40.080 --> 44:41.220]  all right,
+[44:41.300 --> 44:41.980]  is equal
+[44:41.980 --> 44:42.440]  to
+[44:42.440 --> 44:44.880]  2.133
+[44:44.880 --> 44:46.580]  divided
+[44:46.580 --> 44:47.100]  by
+[44:47.100 --> 44:48.700]  560
+[44:48.700 --> 44:49.280]  ohms,
+[44:49.280 --> 44:50.220]  which gives
+[44:50.220 --> 44:50.700]  us
+[44:50.700 --> 44:51.220]  a
+[44:51.220 --> 44:54.320]  emitter
+[44:54.320 --> 44:54.920]  current
+[44:54.920 --> 44:55.320]  of
+[44:55.320 --> 44:57.280]  3.81
+[44:57.280 --> 44:58.480]  milliamp
+[44:58.480 --> 44:58.920]  amperes,
+[44:58.920 --> 45:00.740]  okay,
+[45:00.940 --> 45:01.680]  so there's
+[45:01.680 --> 45:01.920]  your
+[45:01.920 --> 45:02.460]  IE,
+[45:02.960 --> 45:03.880]  and because
+[45:03.880 --> 45:04.840]  IE is
+[45:04.840 --> 45:05.220]  roughly
+[45:05.220 --> 45:06.040]  equal to
+[45:06.040 --> 45:06.520]  IC,
+[45:07.060 --> 45:07.460]  all right,
+[45:07.680 --> 45:08.180]  IC is
+[45:08.180 --> 45:08.420]  roughly
+[45:08.420 --> 45:08.920]  equal to
+[45:08.920 --> 45:09.420]  IE,
+[45:09.780 --> 45:10.100]  we can
+[45:10.100 --> 45:10.520]  say that
+[45:10.520 --> 45:11.320]  IC is
+[45:11.320 --> 45:12.020]  also equal
+[45:12.020 --> 45:13.560]  to 3.81
+[45:13.560 --> 45:14.460]  milliamp
+[45:14.460 --> 45:14.860]  amperes.
+[45:15.020 --> 45:15.400]  If you want
+[45:15.400 --> 45:15.820]  to be more
+[45:15.820 --> 45:16.200]  accurate,
+[45:16.380 --> 45:17.060]  you can always
+[45:17.060 --> 45:18.040]  just factor
+[45:18.040 --> 45:19.060]  in the
+[45:19.060 --> 45:19.940]  slightly lower
+[45:19.940 --> 45:21.120]  current by
+[45:21.120 --> 45:21.920]  subtracting
+[45:21.920 --> 45:22.900]  the base
+[45:22.900 --> 45:23.480]  current from
+[45:23.480 --> 45:23.680]  it,
+[45:24.080 --> 45:24.360]  okay,
+[45:24.360 --> 45:24.960]  all right,
+[45:24.960 --> 45:25.920]  so 3.81,
+[45:26.200 --> 45:26.520]  that's going
+[45:26.520 --> 45:26.820]  to be
+[45:26.820 --> 45:27.460]  close enough
+[45:27.460 --> 45:27.880]  anyway,
+[45:28.040 --> 45:28.300]  and that
+[45:28.300 --> 45:28.780]  allows us
+[45:28.780 --> 45:29.420]  to calculate
+[45:29.420 --> 45:30.160]  the voltage
+[45:30.160 --> 45:31.040]  across the
+[45:31.040 --> 45:31.500]  1k,
+[45:31.880 --> 45:32.240]  which is
+[45:32.240 --> 45:32.920]  very easy
+[45:32.920 --> 45:33.860]  to numerically
+[45:33.860 --> 45:34.440]  do in your
+[45:34.440 --> 45:34.760]  head.
+[45:35.280 --> 45:35.800]  Obviously,
+[45:36.100 --> 45:36.520]  V sub
+[45:36.520 --> 45:37.060]  C is
+[45:37.060 --> 45:37.680]  equal to
+[45:37.680 --> 45:38.980]  3.81
+[45:38.980 --> 45:39.780]  volts,
+[45:40.360 --> 45:40.860]  and so
+[45:40.860 --> 45:42.120]  now that
+[45:42.120 --> 45:42.520]  you have
+[45:42.520 --> 45:42.860]  that,
+[45:43.160 --> 45:43.580]  you have
+[45:43.580 --> 45:44.420]  your V
+[45:44.420 --> 45:44.640]  sub
+[45:44.640 --> 45:45.120]  E from
+[45:45.120 --> 45:45.520]  a while
+[45:45.520 --> 45:45.840]  ago,
+[45:45.940 --> 45:46.240]  you know
+[45:46.240 --> 45:46.700]  that it's
+[45:46.700 --> 45:47.960]  2.133
+[45:47.960 --> 45:48.340]  volts,
+[45:48.880 --> 45:49.360]  you should
+[45:49.360 --> 45:49.720]  be able
+[45:49.720 --> 45:50.100]  to get
+[45:50.100 --> 45:50.580]  your V
+[45:50.580 --> 45:50.800]  sub
+[45:50.800 --> 45:51.240]  C,
+[45:51.920 --> 45:52.440]  sorry,
+[45:53.160 --> 45:53.840]  this is
+[45:53.840 --> 45:54.300]  not right,
+[45:54.300 --> 45:54.720]  this is
+[45:54.720 --> 45:54.960]  not
+[45:54.960 --> 45:55.380]  V sub
+[45:55.380 --> 45:55.540]  C,
+[45:55.660 --> 45:56.040]  this is
+[45:56.040 --> 45:56.320]  your
+[45:56.320 --> 45:57.480]  V sub
+[45:57.480 --> 45:57.960]  RC,
+[45:58.580 --> 45:58.940]  all right,
+[45:59.060 --> 45:59.520]  V sub
+[45:59.520 --> 46:00.560]  RC is
+[46:00.560 --> 46:01.480]  3.81,
+[46:02.120 --> 46:02.620]  therefore,
+[46:03.040 --> 46:03.460]  V sub
+[46:03.460 --> 46:03.800]  C is
+[46:03.800 --> 46:04.180]  equal to
+[46:04.180 --> 46:04.980]  12 volts
+[46:04.980 --> 46:05.540]  minus
+[46:05.540 --> 46:06.900]  3.81
+[46:06.900 --> 46:07.460]  volts,
+[46:08.040 --> 46:08.720]  which is
+[46:08.720 --> 46:09.920]  equal to
+[46:09.920 --> 46:16.000]  11.996,
+[46:16.480 --> 46:19.080]  okay,
+[46:19.720 --> 46:21.320]  and that
+[46:21.320 --> 46:22.300]  basically,
+[46:23.620 --> 46:23.840]  huh,
+[46:24.300 --> 46:26.120]  no,
+[46:26.340 --> 46:26.700]  that's
+[46:26.700 --> 46:27.060]  not,
+[46:28.320 --> 46:29.740]  what did
+[46:29.740 --> 46:30.240]  this thing
+[46:30.240 --> 46:30.740]  calculate,
+[46:31.700 --> 46:32.280]  12
+[46:32.280 --> 46:33.040]  minus
+[46:33.040 --> 46:34.720]  3.81,
+[46:35.600 --> 46:35.860]  okay,
+[46:36.180 --> 46:36.420]  is
+[46:36.420 --> 46:37.520]  8.19,
+[46:37.880 --> 46:38.700]  sorry about
+[46:38.700 --> 46:39.060]  that,
+[46:39.680 --> 46:39.920]  okay,
+[46:40.340 --> 46:41.580]  8.19
+[46:41.580 --> 46:42.140]  volts,
+[46:42.680 --> 46:43.080]  all right,
+[46:43.540 --> 46:44.200]  and we
+[46:44.200 --> 46:45.040]  now have
+[46:45.040 --> 46:45.800]  our,
+[46:46.020 --> 46:46.680]  all right,
+[46:47.240 --> 46:47.900]  answer
+[46:47.900 --> 46:49.060]  for the
+[46:49.060 --> 46:50.160]  question of
+[46:50.160 --> 46:51.700]  is the
+[46:51.700 --> 46:52.240]  transistor
+[46:52.240 --> 46:53.220]  inactive
+[46:53.220 --> 46:53.940]  or
+[46:53.940 --> 46:56.080]  open
+[46:56.080 --> 46:57.060]  or,
+[46:57.060 --> 46:58.440]  you know,
+[46:59.100 --> 46:59.900]  saturated
+[46:59.900 --> 47:00.920]  or
+[47:00.920 --> 47:02.480]  open
+[47:02.480 --> 47:02.940]  circuit,
+[47:03.380 --> 47:03.740]  all right,
+[47:03.740 --> 47:04.300]  and so
+[47:04.300 --> 47:05.560]  the answer
+[47:05.560 --> 47:06.980]  is saturation
+[47:06.980 --> 47:07.680]  or cutoff,
+[47:07.780 --> 47:08.360]  and the answer
+[47:08.360 --> 47:08.800]  is pretty
+[47:08.800 --> 47:09.260]  obvious,
+[47:09.260 --> 47:10.120]  we have
+[47:10.120 --> 47:10.900]  a nice
+[47:10.900 --> 47:11.740]  and healthy
+[47:11.740 --> 47:13.300]  voltage
+[47:13.300 --> 47:14.260]  from
+[47:14.260 --> 47:14.860]  collector
+[47:14.860 --> 47:15.660]  to emitter,
+[47:15.880 --> 47:16.000]  no,
+[47:16.060 --> 47:16.400]  we can
+[47:16.400 --> 47:16.860]  calculate
+[47:16.860 --> 47:17.480]  that and
+[47:17.480 --> 47:17.900]  say that
+[47:17.900 --> 47:20.700]  the VCE
+[47:20.700 --> 47:21.260]  voltage
+[47:21.260 --> 47:22.080]  is
+[47:22.080 --> 47:23.960]  8.19
+[47:23.960 --> 47:25.080]  minus
+[47:25.080 --> 47:27.980]  2.133,
+[47:27.980 --> 47:30.440]  and that's
+[47:30.440 --> 47:32.140]  6.057,
+[47:32.940 --> 47:35.960]  6.1
+[47:35.960 --> 47:36.340]  volts,
+[47:36.800 --> 47:36.980]  okay,
+[47:37.300 --> 47:37.880]  rounding it
+[47:37.880 --> 47:38.120]  off,
+[47:38.540 --> 47:39.200]  so our
+[47:39.200 --> 47:40.060]  transistor
+[47:40.060 --> 47:41.240]  is definitely
+[47:41.240 --> 47:42.800]  in the
+[47:42.800 --> 47:43.980]  active
+[47:43.980 --> 47:45.960]  region,
+[47:46.460 --> 47:46.840]  all right,
+[47:47.180 --> 47:48.160]  there is
+[47:48.160 --> 47:49.420]  a collector
+[47:49.420 --> 47:50.000]  to emitter
+[47:50.000 --> 47:50.460]  voltage
+[47:50.460 --> 47:51.920]  and there
+[47:51.920 --> 47:52.560]  is a
+[47:52.560 --> 47:53.180]  collector
+[47:53.180 --> 47:53.920]  current,
+[47:54.940 --> 47:55.240]  okay,
+[47:55.440 --> 47:56.520]  and that
+[47:56.520 --> 47:57.160]  means that
+[47:57.160 --> 47:57.520]  if you're
+[47:57.520 --> 47:57.840]  looking
+[47:57.840 --> 47:58.560]  at the
+[47:58.560 --> 48:04.100]  active
+[48:04.100 --> 48:05.240]  versus
+[48:05.240 --> 48:06.180]  cutoff
+[48:06.180 --> 48:06.860]  versus
+[48:06.860 --> 48:07.860]  saturation
+[48:07.860 --> 48:09.180]  curves,
+[48:09.380 --> 48:09.820]  all right,
+[48:10.480 --> 48:10.920]  here,
+[48:11.020 --> 48:11.260]  here,
+[48:11.360 --> 48:11.700]  here,
+[48:11.700 --> 48:12.480]  you'll see
+[48:12.480 --> 48:12.920]  that it
+[48:12.920 --> 48:14.040]  is definitely
+[48:14.040 --> 48:15.600]  in the
+[48:15.600 --> 48:15.860]  middle
+[48:15.860 --> 48:16.440]  somewhere,
+[48:16.780 --> 48:17.440]  very nicely
+[48:17.440 --> 48:17.920]  biased,
+[48:18.160 --> 48:18.320]  okay,
+[48:18.620 --> 48:19.660]  so transistor
+[48:19.660 --> 48:20.300]  is happy,
+[48:20.500 --> 48:21.180]  it is
+[48:21.180 --> 48:22.140]  ready to
+[48:22.140 --> 48:23.180]  do amplification,
+[48:24.120 --> 48:24.340]  okay,
+[48:25.100 --> 48:26.160]  based on
+[48:26.160 --> 48:26.960]  these calculations,
+[48:26.960 --> 48:27.740]  so the
+[48:27.740 --> 48:28.400]  things that
+[48:28.400 --> 48:28.920]  you have
+[48:28.920 --> 48:30.020]  to take
+[48:30.020 --> 48:30.720]  note of
+[48:30.720 --> 48:31.280]  at this
+[48:31.280 --> 48:32.540]  point is
+[48:32.540 --> 48:33.340]  this,
+[48:34.860 --> 48:35.380]  all right,
+[48:35.800 --> 48:37.180]  and I
+[48:37.180 --> 48:37.800]  sub e,
+[48:38.040 --> 48:38.680]  which is
+[48:38.680 --> 48:39.680]  this one,
+[48:39.940 --> 48:40.380]  keep this
+[48:40.380 --> 48:40.700]  in your
+[48:40.700 --> 48:41.040]  head,
+[48:41.400 --> 48:42.440]  3.81
+[48:42.440 --> 48:44.060]  milliampere,
+[48:44.060 --> 48:44.740]  all right,
+[48:44.740 --> 48:46.060]  3.81
+[48:46.060 --> 48:47.020]  milliampere,
+[48:47.120 --> 48:47.380]  is there
+[48:47.380 --> 48:47.960]  anything else
+[48:47.960 --> 48:48.220]  that we
+[48:48.220 --> 48:48.580]  need from
+[48:48.580 --> 48:48.820]  here,
+[48:49.240 --> 48:49.560]  well,
+[48:49.720 --> 48:50.240]  I don't
+[48:50.240 --> 48:50.460]  know,
+[48:50.540 --> 48:51.060]  but hopefully
+[48:51.060 --> 48:51.480]  you'll be
+[48:51.480 --> 48:51.880]  able to
+[48:51.880 --> 48:52.320]  remember
+[48:52.320 --> 48:53.060]  because your
+[48:53.060 --> 48:53.580]  brains are
+[48:53.580 --> 48:54.060]  supposed to
+[48:54.060 --> 48:54.560]  be young
+[48:54.560 --> 48:56.240]  and capable
+[48:56.240 --> 48:56.940]  at this
+[48:56.940 --> 48:57.180]  point,
+[48:57.340 --> 48:57.520]  okay,
+[48:57.520 --> 48:57.840]  so we're
+[48:57.840 --> 48:58.140]  going to
+[48:58.140 --> 48:58.600]  clear out
+[48:58.600 --> 48:59.060]  the drawings
+[48:59.060 --> 48:59.340]  here,
+[48:59.840 --> 49:00.200]  we're going
+[49:00.200 --> 49:00.960]  to go to
+[49:00.960 --> 49:01.900]  the next
+[49:01.900 --> 49:02.420]  page,
+[49:02.840 --> 49:03.200]  are there
+[49:03.200 --> 49:03.760]  any questions
+[49:03.760 --> 49:04.420]  before we
+[49:04.420 --> 49:04.720]  proceed,
+[49:04.780 --> 49:05.220]  I suppose
+[49:05.220 --> 49:05.520]  not,
+[49:05.600 --> 49:05.960]  so let's
+[49:05.960 --> 49:06.340]  just go
+[49:06.340 --> 49:06.860]  forward,
+[49:06.860 --> 49:08.560]  and,
+[49:09.200 --> 49:10.120]  oh,
+[49:10.880 --> 49:11.440]  okay,
+[49:11.560 --> 49:12.120]  so here
+[49:12.120 --> 49:12.560]  we go,
+[49:12.960 --> 49:13.360]  yeah,
+[49:13.560 --> 49:13.780]  okay,
+[49:13.860 --> 49:14.340]  so it was
+[49:14.340 --> 49:15.120]  never solved,
+[49:15.280 --> 49:15.440]  okay,
+[49:15.480 --> 49:15.980]  but we
+[49:15.980 --> 49:16.580]  actually
+[49:16.580 --> 49:17.860]  calculated
+[49:17.860 --> 49:18.860]  VB,
+[49:19.060 --> 49:19.520]  IE,
+[49:19.620 --> 49:20.040]  and V
+[49:20.040 --> 49:20.560]  sub C,
+[49:20.980 --> 49:21.320]  we know
+[49:21.320 --> 49:21.620]  what the
+[49:21.620 --> 49:22.280]  answers are
+[49:22.280 --> 49:22.760]  to that,
+[49:23.300 --> 49:23.640]  okay,
+[49:24.060 --> 49:24.960]  and we
+[49:24.960 --> 49:25.440]  can go
+[49:25.440 --> 49:26.440]  ahead and
+[49:26.440 --> 49:27.140]  now look
+[49:27.140 --> 49:27.640]  at the
+[49:27.640 --> 49:28.680]  AC
+[49:28.680 --> 49:29.340]  equivalent
+[49:29.340 --> 49:29.860]  circuit
+[49:29.860 --> 49:31.020]  so that
+[49:31.020 --> 49:31.440]  we can
+[49:31.440 --> 49:32.100]  calculate
+[49:32.100 --> 49:32.780]  our
+[49:32.780 --> 49:34.160]  transistor
+[49:34.160 --> 49:34.960]  performance,
+[49:35.320 --> 49:35.560]  all right,
+[49:35.640 --> 49:36.460]  so first
+[49:36.460 --> 49:36.840]  things first,
+[49:36.860 --> 49:37.620]  is you need
+[49:37.620 --> 49:37.960]  to know
+[49:37.960 --> 49:38.500]  how to
+[49:38.500 --> 49:39.020]  convert
+[49:39.020 --> 49:40.320]  the circuit
+[49:40.320 --> 49:43.300]  into its
+[49:43.300 --> 49:44.040]  AC
+[49:44.040 --> 49:44.840]  equivalent,
+[49:45.640 --> 49:46.040]  okay,
+[49:46.220 --> 49:46.960]  so this
+[49:46.960 --> 49:47.780]  is important
+[49:47.780 --> 49:48.880]  because if
+[49:48.880 --> 49:49.300]  you get
+[49:49.300 --> 49:49.920]  it wrong,
+[49:50.360 --> 49:51.140]  then your
+[49:51.140 --> 49:51.860]  equivalent,
+[49:52.500 --> 49:52.680]  you know,
+[49:52.760 --> 49:53.560]  your calculations
+[49:53.560 --> 49:54.360]  will be
+[49:54.360 --> 49:54.960]  wrong,
+[49:55.660 --> 49:55.980]  okay,
+[49:56.400 --> 49:57.080]  so the
+[49:57.080 --> 49:57.340]  AC
+[49:57.340 --> 49:57.800]  equivalent
+[49:57.800 --> 49:58.280]  circuit,
+[49:58.980 --> 49:59.400]  again,
+[49:59.540 --> 50:00.340]  for simplification
+[50:00.340 --> 50:00.880]  purposes,
+[50:01.300 --> 50:02.020]  just simply
+[50:02.020 --> 50:03.680]  ignores
+[50:03.680 --> 50:04.680]  and says
+[50:04.680 --> 50:05.500]  that the
+[50:05.500 --> 50:06.220]  capacitors
+[50:06.220 --> 50:06.640]  are
+[50:06.640 --> 50:07.460]  basically
+[50:07.460 --> 50:08.080]  equivalent
+[50:08.080 --> 50:08.400]  to
+[50:08.400 --> 50:08.780]  short
+[50:08.780 --> 50:09.280]  circuit,
+[50:09.760 --> 50:10.120]  okay,
+[50:10.600 --> 50:11.120]  so short
+[50:11.120 --> 50:11.560]  circuit,
+[50:12.160 --> 50:12.460]  right,
+[50:12.500 --> 50:12.820]  we're going
+[50:12.820 --> 50:13.280]  to draw
+[50:13.280 --> 50:14.280]  that like
+[50:14.280 --> 50:14.780]  this,
+[50:15.380 --> 50:16.400]  and more
+[50:16.400 --> 50:17.120]  importantly,
+[50:17.340 --> 50:18.140]  this capacitor
+[50:18.140 --> 50:19.060]  is also
+[50:19.060 --> 50:19.940]  short-circuited,
+[50:20.200 --> 50:20.700]  which means
+[50:20.700 --> 50:21.080]  that,
+[50:21.480 --> 50:21.960]  as you can
+[50:21.960 --> 50:22.320]  see,
+[50:22.560 --> 50:23.940]  your AC
+[50:23.940 --> 50:24.600]  equivalent
+[50:24.600 --> 50:25.440]  says that
+[50:25.440 --> 50:26.360]  the emitter
+[50:26.360 --> 50:27.080]  of the
+[50:27.080 --> 50:27.700]  transistor,
+[50:28.380 --> 50:29.280]  the emitter
+[50:29.280 --> 50:30.240]  of the transistor
+[50:30.240 --> 50:31.480]  is directly
+[50:31.480 --> 50:32.200]  connected
+[50:32.200 --> 50:33.880]  to ground,
+[50:33.880 --> 50:35.300]  okay,
+[50:35.300 --> 50:36.660]  the emitter
+[50:36.660 --> 50:37.160]  of the
+[50:37.160 --> 50:37.600]  transistor
+[50:37.600 --> 50:38.500]  is connected
+[50:38.500 --> 50:39.140]  to ground
+[50:39.140 --> 50:40.340]  under
+[50:40.340 --> 50:41.520]  AC
+[50:41.520 --> 50:42.540]  conditions,
+[50:42.540 --> 50:44.080]  so what
+[50:44.080 --> 50:44.780]  does that
+[50:44.780 --> 50:45.560]  look like?
+[50:45.740 --> 50:46.060]  When you
+[50:46.060 --> 50:47.120]  redraw the
+[50:47.120 --> 50:47.700]  circuit,
+[50:48.480 --> 50:48.920]  all right,
+[50:49.320 --> 50:49.700]  when you
+[50:49.700 --> 50:50.500]  redraw this
+[50:50.500 --> 50:51.240]  circuit to
+[50:51.240 --> 50:52.160]  its equivalent
+[50:52.160 --> 50:53.300]  AC
+[50:53.300 --> 50:54.280]  circuit,
+[50:54.280 --> 50:57.060]  this emitter
+[50:57.060 --> 50:58.180]  is directly
+[50:58.180 --> 50:59.160]  connected to
+[50:59.160 --> 50:59.560]  ground,
+[50:59.720 --> 51:00.220]  as you can
+[51:00.220 --> 51:00.900]  see here,
+[51:01.500 --> 51:02.080]  directly
+[51:02.080 --> 51:02.880]  connected to
+[51:02.880 --> 51:03.340]  ground,
+[51:04.640 --> 51:05.000]  okay,
+[51:06.580 --> 51:08.940]  supply,
+[51:10.440 --> 51:10.860]  which might
+[51:10.860 --> 51:11.440]  need a little
+[51:11.440 --> 51:11.780]  bit of
+[51:11.780 --> 51:12.280]  explaining,
+[51:12.440 --> 51:12.800]  although you
+[51:12.800 --> 51:13.540]  probably know
+[51:13.540 --> 51:14.300]  this already,
+[51:14.700 --> 51:15.000]  all right,
+[51:15.660 --> 51:16.400]  the supply
+[51:16.400 --> 51:17.560]  voltage is
+[51:17.560 --> 51:19.000]  also considered
+[51:19.000 --> 51:19.920]  to be
+[51:19.920 --> 51:21.700]  AC
+[51:21.700 --> 51:22.920]  ground,
+[51:23.780 --> 51:24.080]  okay,
+[51:24.280 --> 51:25.760]  the supply
+[51:25.760 --> 51:27.200]  is considered
+[51:27.200 --> 51:28.060]  to be
+[51:28.060 --> 51:28.980]  AC
+[51:28.980 --> 51:30.000]  ground,
+[51:30.540 --> 51:30.960]  where the
+[51:30.960 --> 51:31.260]  hell does
+[51:31.260 --> 51:31.640]  that come
+[51:31.640 --> 51:31.980]  from,
+[51:32.260 --> 51:32.520]  okay,
+[51:32.860 --> 51:33.640]  so just to
+[51:33.640 --> 51:34.420]  clarify and
+[51:34.420 --> 51:35.120]  make this,
+[51:35.220 --> 51:35.600]  you know,
+[51:35.760 --> 51:36.660]  more intuitive
+[51:36.660 --> 51:37.500]  for you,
+[51:38.540 --> 51:38.900]  okay,
+[51:39.240 --> 51:44.280]  if we
+[51:44.280 --> 51:44.840]  have,
+[51:45.880 --> 51:46.240]  if we
+[51:46.240 --> 51:46.800]  go back
+[51:46.800 --> 51:47.280]  to a
+[51:47.280 --> 51:48.040]  totally
+[51:48.040 --> 51:48.920]  different
+[51:48.920 --> 51:49.720]  discussion
+[51:49.720 --> 51:50.480]  before,
+[51:51.180 --> 51:52.100]  you may
+[51:52.100 --> 51:53.160]  not necessarily
+[51:53.160 --> 51:54.220]  remember this,
+[51:54.280 --> 51:55.280]  but hopefully
+[51:55.280 --> 51:55.900]  you do,
+[51:56.900 --> 51:57.180]  okay,
+[51:58.500 --> 51:59.820]  not connected
+[51:59.820 --> 52:00.320]  to this,
+[52:00.440 --> 52:00.900]  okay,
+[52:01.260 --> 52:02.080]  try to
+[52:02.080 --> 52:02.800]  disengage,
+[52:02.960 --> 52:03.640]  go back,
+[52:04.600 --> 52:05.000]  all right,
+[52:05.080 --> 52:05.760]  go back
+[52:05.760 --> 52:06.480]  to some
+[52:06.480 --> 52:07.240]  time before,
+[52:07.380 --> 52:08.100]  and if I
+[52:08.100 --> 52:08.880]  were to ask
+[52:08.880 --> 52:09.600]  you a
+[52:09.600 --> 52:11.100]  simple enough
+[52:11.100 --> 52:12.140]  question to
+[52:12.140 --> 52:12.900]  see if you
+[52:12.900 --> 52:13.880]  actually can
+[52:13.880 --> 52:14.480]  answer,
+[52:14.480 --> 52:19.620]  if I
+[52:19.620 --> 52:21.020]  wanted to
+[52:21.020 --> 52:21.820]  go from
+[52:21.820 --> 52:22.940]  an AC
+[52:22.940 --> 52:23.680]  signal
+[52:23.680 --> 52:25.260]  and come
+[52:25.260 --> 52:25.900]  up with
+[52:25.900 --> 52:26.820]  a DC
+[52:26.820 --> 52:28.140]  voltage,
+[52:29.480 --> 52:29.800]  all right,
+[52:30.000 --> 52:30.380]  in
+[52:30.380 --> 52:31.260]  example,
+[52:32.100 --> 52:32.880]  Meralco
+[52:32.880 --> 52:34.600]  220 volts
+[52:34.600 --> 52:35.160]  AC,
+[52:35.160 --> 52:35.380]  AC,
+[52:35.680 --> 52:36.960]  and I
+[52:36.960 --> 52:37.860]  wanted to
+[52:37.860 --> 52:38.700]  make a
+[52:38.700 --> 52:39.700]  DC
+[52:39.700 --> 52:41.460]  equivalent,
+[52:41.860 --> 52:42.320]  or not
+[52:42.320 --> 52:42.760]  equivalent
+[52:42.760 --> 52:43.160]  voltage,
+[52:43.260 --> 52:43.540]  but I
+[52:43.540 --> 52:44.340]  needed a
+[52:44.340 --> 52:44.820]  DC
+[52:44.820 --> 52:46.240]  12
+[52:46.240 --> 52:47.260]  volts
+[52:47.260 --> 52:50.000]  supply,
+[52:50.720 --> 52:51.120]  right,
+[52:51.120 --> 52:52.060]  so from
+[52:52.060 --> 52:53.060]  220 volts
+[52:53.060 --> 52:53.480]  AC,
+[52:53.740 --> 52:54.320]  I need
+[52:54.320 --> 52:54.820]  to get
+[52:54.820 --> 52:55.600]  a DC
+[52:55.600 --> 52:56.200]  12
+[52:56.200 --> 52:56.680]  volts
+[52:56.680 --> 52:57.200]  out,
+[52:57.680 --> 52:58.140]  how do
+[52:58.140 --> 52:58.500]  I do
+[52:58.500 --> 52:58.720]  it,
+[52:58.960 --> 52:59.240]  can you
+[52:59.240 --> 52:59.600]  try to
+[52:59.600 --> 52:59.900]  answer
+[52:59.900 --> 53:00.220]  this,
+[53:00.360 --> 53:00.500]  please,
+[53:00.620 --> 53:00.960]  this has
+[53:00.960 --> 53:01.480]  nothing to
+[53:01.480 --> 53:01.800]  do with
+[53:01.800 --> 53:02.020]  this
+[53:02.020 --> 53:02.540]  particular
+[53:02.540 --> 53:03.020]  lesson,
+[53:03.020 --> 53:04.040]  it's
+[53:04.040 --> 53:04.520]  from
+[53:04.520 --> 53:04.820]  the
+[53:04.820 --> 53:05.400]  past,
+[53:05.960 --> 53:06.300]  all right,
+[53:06.380 --> 53:06.660]  it's
+[53:06.660 --> 53:07.060]  from
+[53:07.060 --> 53:07.320]  the
+[53:07.320 --> 53:07.800]  past,
+[53:08.740 --> 53:09.100]  this
+[53:09.100 --> 53:09.520]  term,
+[53:09.660 --> 53:10.060]  actually,
+[53:10.280 --> 53:10.360]  it's
+[53:10.360 --> 53:10.540]  from
+[53:10.540 --> 53:10.880]  this
+[53:10.880 --> 53:11.240]  term,
+[53:11.760 --> 53:11.880]  so
+[53:11.880 --> 53:17.780]  how do
+[53:17.780 --> 53:18.340]  I make
+[53:18.340 --> 53:21.140]  an AC
+[53:21.140 --> 53:21.760]  to DC
+[53:21.760 --> 53:22.480]  converter,
+[53:23.040 --> 53:23.440]  all right,
+[53:23.600 --> 53:23.960]  and,
+[53:24.760 --> 53:25.120]  okay,
+[53:25.340 --> 53:26.000]  so somebody
+[53:26.000 --> 53:26.780]  here says
+[53:26.780 --> 53:27.520]  full wave
+[53:27.520 --> 53:28.240]  rectifier,
+[53:28.440 --> 53:28.660]  that's
+[53:28.660 --> 53:29.160]  correct,
+[53:29.860 --> 53:30.120]  okay,
+[53:30.560 --> 53:30.940]  but
+[53:30.940 --> 53:32.020]  remember,
+[53:32.360 --> 53:32.840]  we need
+[53:32.840 --> 53:33.240]  to use
+[53:33.240 --> 53:33.820]  something
+[53:33.820 --> 53:34.400]  because
+[53:34.400 --> 53:34.840]  this is
+[53:34.840 --> 53:35.480]  very high
+[53:35.480 --> 53:36.260]  voltage,
+[53:36.500 --> 53:36.820]  all right,
+[53:36.940 --> 53:37.400]  matasang
+[53:37.400 --> 53:37.800]  volt tayo
+[53:37.800 --> 53:38.120]  rito,
+[53:38.280 --> 53:38.740]  ang kailangan
+[53:38.740 --> 53:39.320]  lang natin
+[53:39.320 --> 53:39.920]  ay 12
+[53:39.920 --> 53:40.380]  volts,
+[53:40.940 --> 53:41.220]  okay,
+[53:41.300 --> 53:41.820]  nung kailangan,
+[53:42.180 --> 53:42.420]  okay,
+[53:42.520 --> 53:43.060]  very good,
+[53:43.960 --> 53:44.980]  so it's
+[53:44.980 --> 53:45.980]  a transformer
+[53:45.980 --> 53:46.940]  into a
+[53:46.940 --> 53:47.400]  full wave
+[53:47.400 --> 53:48.220]  rectifier,
+[53:48.960 --> 53:49.420]  all right,
+[53:50.480 --> 53:51.560]  transformer,
+[53:53.700 --> 53:55.300]  in particular,
+[53:55.560 --> 53:56.240]  a step
+[53:56.240 --> 53:56.840]  down
+[53:56.840 --> 53:57.700]  transformer
+[53:57.700 --> 53:59.420]  into a
+[53:59.420 --> 54:00.780]  full wave
+[54:00.780 --> 54:01.780]  rectifier,
+[54:02.000 --> 54:02.160]  there are
+[54:02.160 --> 54:02.560]  two ways
+[54:02.560 --> 54:03.160]  of building
+[54:03.160 --> 54:03.600]  that,
+[54:03.740 --> 54:04.300]  but let's
+[54:04.300 --> 54:04.840]  use this
+[54:04.840 --> 54:05.200]  one,
+[54:05.800 --> 54:06.080]  okay,
+[54:06.460 --> 54:07.060]  and taking
+[54:07.060 --> 54:07.760]  this as
+[54:07.760 --> 54:08.600]  the output,
+[54:09.040 --> 54:09.540]  what kind
+[54:09.540 --> 54:09.840]  of a
+[54:09.840 --> 54:10.200]  waveform
+[54:10.200 --> 54:10.760]  are we
+[54:10.760 --> 54:11.140]  going to
+[54:11.140 --> 54:11.320]  get,
+[54:11.460 --> 54:12.120]  so our
+[54:12.120 --> 54:12.760]  transformer
+[54:12.760 --> 54:13.280]  will go
+[54:13.280 --> 54:13.740]  from
+[54:13.740 --> 54:15.540]  220
+[54:15.540 --> 54:16.880]  AC
+[54:16.880 --> 54:18.020]  down to
+[54:18.020 --> 54:18.320]  some
+[54:18.320 --> 54:18.780]  lower
+[54:18.780 --> 54:19.660]  voltage,
+[54:20.800 --> 54:20.940]  okay,
+[54:20.980 --> 54:21.620]  something like
+[54:21.620 --> 54:24.260]  9 volts
+[54:24.260 --> 54:24.820]  AC,
+[54:25.520 --> 54:26.080]  all right,
+[54:26.840 --> 54:27.300]  and from
+[54:27.300 --> 54:27.860]  9 volts
+[54:27.860 --> 54:28.280]  AC,
+[54:28.280 --> 54:28.380]  DC,
+[54:28.620 --> 54:29.780]  we rectify
+[54:29.780 --> 54:30.320]  this,
+[54:30.320 --> 54:31.380]  so that
+[54:31.380 --> 54:31.860]  we get
+[54:31.860 --> 54:32.840]  this at
+[54:32.840 --> 54:33.600]  the output
+[54:33.600 --> 54:34.680]  of this
+[54:34.680 --> 54:35.000]  circuit,
+[54:35.120 --> 54:35.500]  now you'll
+[54:35.500 --> 54:36.440]  notice again,
+[54:36.560 --> 54:37.060]  as stated
+[54:37.060 --> 54:37.720]  earlier,
+[54:38.360 --> 54:39.120]  if you might
+[54:39.120 --> 54:39.580]  recall,
+[54:40.020 --> 54:40.660]  this is a
+[54:40.660 --> 54:41.740]  pulsing waveform,
+[54:41.740 --> 54:43.080]  it's not
+[54:43.080 --> 54:44.640]  continuous DC,
+[54:45.400 --> 54:46.260]  so what do
+[54:46.260 --> 54:46.880]  we need,
+[54:47.400 --> 54:47.740]  well,
+[54:47.820 --> 54:48.620]  we need a
+[54:48.620 --> 54:49.280]  capacitor,
+[54:50.480 --> 54:51.040]  all right,
+[54:51.140 --> 54:51.920]  we need a
+[54:51.920 --> 54:52.920]  capacitor over
+[54:52.920 --> 54:53.420]  here,
+[54:53.420 --> 54:54.320]  so that
+[54:54.320 --> 54:55.580]  these pulses
+[54:55.580 --> 54:58.520]  are used
+[54:58.520 --> 55:00.000]  to energize
+[55:00.000 --> 55:00.700]  the capacitor,
+[55:00.700 --> 55:01.800]  and it will
+[55:01.800 --> 55:03.340]  supply the
+[55:03.340 --> 55:04.840]  energy,
+[55:05.340 --> 55:06.500]  all right,
+[55:06.500 --> 55:08.020]  as the
+[55:08.020 --> 55:09.520]  rectifier
+[55:09.520 --> 55:11.240]  output
+[55:11.240 --> 55:12.100]  goes down,
+[55:12.360 --> 55:12.660]  all right,
+[55:12.700 --> 55:12.980]  so the
+[55:12.980 --> 55:13.500]  capacitor
+[55:13.500 --> 55:14.420]  takes over
+[55:14.420 --> 55:15.160]  in supplying
+[55:15.160 --> 55:15.940]  the electricity,
+[55:16.520 --> 55:17.260]  and hopefully
+[55:17.260 --> 55:17.940]  if we've
+[55:17.940 --> 55:18.900]  calculated it
+[55:18.900 --> 55:19.260]  right,
+[55:19.760 --> 55:20.680]  you're more
+[55:20.680 --> 55:21.180]  or less
+[55:21.180 --> 55:21.880]  going to get
+[55:21.880 --> 55:23.000]  a 12 volt
+[55:23.000 --> 55:23.600]  output,
+[55:24.080 --> 55:24.400]  all right,
+[55:24.460 --> 55:25.000]  now here's
+[55:25.000 --> 55:25.820]  the key factor,
+[55:26.120 --> 55:26.700]  why did I
+[55:26.700 --> 55:27.180]  bring this
+[55:27.180 --> 55:27.500]  up,
+[55:28.240 --> 55:29.260]  notice that
+[55:29.260 --> 55:30.180]  the output
+[55:30.180 --> 55:30.680]  of the
+[55:30.680 --> 55:31.080]  supply,
+[55:31.300 --> 55:31.620]  which will
+[55:31.620 --> 55:32.460]  get connected
+[55:32.460 --> 55:33.260]  over here,
+[55:33.380 --> 55:33.960]  is a
+[55:33.960 --> 55:34.740]  capacitor,
+[55:34.740 --> 55:36.880]  hopefully
+[55:36.880 --> 55:37.360]  hindi nyo
+[55:37.360 --> 55:38.040]  nakalimutan
+[55:38.040 --> 55:38.380]  yun,
+[55:38.660 --> 55:39.080]  all right,
+[55:39.680 --> 55:40.640]  the output
+[55:40.640 --> 55:41.800]  of the
+[55:41.800 --> 55:42.580]  bridge
+[55:42.580 --> 55:43.680]  rectifier
+[55:43.680 --> 55:44.960]  is connected
+[55:44.960 --> 55:45.520]  to a
+[55:45.520 --> 55:46.260]  capacitor,
+[55:47.780 --> 55:48.120]  okay,
+[55:48.740 --> 55:50.120]  and what
+[55:50.120 --> 55:50.960]  did we just
+[55:50.960 --> 55:51.920]  say about
+[55:51.920 --> 55:52.920]  capacitors,
+[55:54.300 --> 55:55.240]  a capacitor
+[55:55.240 --> 55:56.640]  at AC
+[55:56.640 --> 55:57.640]  is the
+[55:57.640 --> 55:58.280]  equivalent
+[55:58.280 --> 55:59.360]  of a
+[55:59.360 --> 56:00.040]  short
+[56:00.040 --> 56:01.020]  circuit,
+[56:02.900 --> 56:03.240]  okay,
+[56:03.960 --> 56:04.440]  all right,
+[56:04.740 --> 56:06.080]  capacitors
+[56:06.080 --> 56:07.320]  at AC,
+[56:07.860 --> 56:08.420]  all right,
+[56:08.520 --> 56:09.880]  are effectively
+[56:09.880 --> 56:11.500]  short circuits,
+[56:12.240 --> 56:12.580]  and you'll
+[56:12.580 --> 56:13.160]  notice that
+[56:13.160 --> 56:14.020]  this capacitor
+[56:14.020 --> 56:15.040]  is connected
+[56:15.040 --> 56:15.960]  to ground,
+[56:16.640 --> 56:16.960]  and so
+[56:16.960 --> 56:17.880]  this is the
+[56:17.880 --> 56:18.400]  equivalent,
+[56:18.680 --> 56:20.060]  your 12
+[56:20.060 --> 56:21.600]  volt power
+[56:21.600 --> 56:23.140]  source is
+[56:23.140 --> 56:23.940]  the equivalent
+[56:23.940 --> 56:25.280]  of a short
+[56:25.280 --> 56:26.420]  to ground
+[56:26.420 --> 56:28.640]  at AC,
+[56:29.140 --> 56:30.280]  so you'll
+[56:30.280 --> 56:31.300]  notice that
+[56:31.300 --> 56:32.340]  this 12
+[56:32.340 --> 56:33.020]  volts here
+[56:33.020 --> 56:33.980]  is considered
+[56:33.980 --> 56:34.600]  to be
+[56:34.600 --> 56:35.320]  connected
+[56:35.320 --> 56:36.820]  to AC
+[56:36.820 --> 56:38.800]  ground,
+[56:39.360 --> 56:41.060]  as I
+[56:41.060 --> 56:41.440]  just
+[56:41.440 --> 56:41.940]  mentioned,
+[56:42.440 --> 56:43.200]  so if you
+[56:43.200 --> 56:43.760]  were wondering
+[56:43.760 --> 56:44.440]  why is it
+[56:44.440 --> 56:44.840]  considered
+[56:44.840 --> 56:45.400]  to be
+[56:45.400 --> 56:46.040]  AC ground,
+[56:46.160 --> 56:46.340]  well,
+[56:46.440 --> 56:47.640]  because the
+[56:47.640 --> 56:49.140]  supply
+[56:49.140 --> 56:51.000]  has a
+[56:51.000 --> 56:51.560]  capacitor
+[56:51.560 --> 56:53.020]  connected to
+[56:53.020 --> 56:53.380]  ground,
+[56:54.140 --> 56:54.500]  okay,
+[56:54.640 --> 56:55.440]  that capacitor
+[56:55.440 --> 56:56.080]  was needed
+[56:56.080 --> 56:56.700]  to keep
+[56:56.700 --> 56:57.420]  the voltage
+[56:57.420 --> 56:58.140]  steady
+[56:58.140 --> 56:59.940]  from the
+[56:59.940 --> 57:00.460]  output of
+[57:00.460 --> 57:00.800]  the bridge
+[57:00.800 --> 57:01.440]  rectifier,
+[57:01.440 --> 57:03.020]  so there's
+[57:03.020 --> 57:04.020]  that short
+[57:04.020 --> 57:04.920]  to ground
+[57:04.920 --> 57:06.180]  due to the
+[57:06.180 --> 57:06.740]  capacitor
+[57:06.740 --> 57:08.020]  in the power
+[57:08.020 --> 57:08.420]  supply,
+[57:09.160 --> 57:09.480]  okay,
+[57:09.480 --> 57:10.220]  do you
+[57:10.220 --> 57:11.420]  understand now,
+[57:11.920 --> 57:12.340]  all right,
+[57:12.700 --> 57:13.640]  and that's why,
+[57:13.640 --> 57:15.640]  that's why,
+[57:15.760 --> 57:16.220]  let me just
+[57:16.220 --> 57:17.080]  erase everything
+[57:17.080 --> 57:17.600]  here because
+[57:17.600 --> 57:18.060]  it's getting
+[57:18.060 --> 57:18.760]  really messy,
+[57:20.260 --> 57:20.640]  all right,
+[57:21.360 --> 57:22.260]  that's why
+[57:22.260 --> 57:22.960]  this is
+[57:22.960 --> 57:23.880]  considered to
+[57:23.880 --> 57:25.020]  be AC
+[57:25.020 --> 57:25.940]  ground,
+[57:27.080 --> 57:27.480]  all right,
+[57:27.600 --> 57:28.480]  that's why
+[57:28.480 --> 57:29.580]  this is also
+[57:29.580 --> 57:30.460]  considered to
+[57:30.460 --> 57:31.220]  be connected
+[57:31.220 --> 57:32.120]  to ground
+[57:32.120 --> 57:32.680]  through this
+[57:32.680 --> 57:33.280]  capacitor,
+[57:33.580 --> 57:34.080]  so you'll
+[57:34.080 --> 57:34.520]  see that
+[57:34.520 --> 57:34.900]  here,
+[57:35.480 --> 57:35.820]  all right,
+[57:35.980 --> 57:36.840]  this AC
+[57:36.840 --> 57:38.120]  ground means
+[57:38.120 --> 57:38.820]  that this
+[57:38.820 --> 57:40.420]  resistor at
+[57:40.420 --> 57:41.160]  the collector
+[57:41.160 --> 57:42.700]  is connected
+[57:42.700 --> 57:43.960]  to AC
+[57:43.960 --> 57:44.800]  ground,
+[57:45.940 --> 57:46.780]  all right,
+[57:46.940 --> 57:47.860]  this emitter
+[57:47.860 --> 57:48.620]  is also
+[57:48.620 --> 57:49.460]  connected to
+[57:49.460 --> 57:50.200]  AC
+[57:50.200 --> 57:51.080]  ground,
+[57:52.300 --> 57:52.600]  all right,
+[57:53.120 --> 57:55.300]  this 6.8k
+[57:55.300 --> 57:56.140]  is connected
+[57:56.140 --> 57:57.060]  directly to
+[57:57.060 --> 57:57.420]  ground,
+[57:57.540 --> 57:58.080]  and so that's
+[57:58.080 --> 57:58.480]  ground,
+[57:59.640 --> 58:00.000]  all right,
+[58:00.420 --> 58:01.740]  this 22k
+[58:01.740 --> 58:02.800]  goes up here
+[58:02.800 --> 58:03.300]  and is
+[58:03.300 --> 58:04.200]  connected also
+[58:04.200 --> 58:05.160]  to AC
+[58:05.160 --> 58:05.960]  ground because
+[58:05.960 --> 58:06.580]  it's connected
+[58:06.580 --> 58:07.480]  directly to the
+[58:07.480 --> 58:08.320]  12-volt supply,
+[58:08.760 --> 58:09.300]  therefore,
+[58:09.560 --> 58:10.360]  R1 is
+[58:10.360 --> 58:10.840]  connected
+[58:10.840 --> 58:11.660]  also to
+[58:11.660 --> 58:12.540]  AC
+[58:12.540 --> 58:13.500]  ground,
+[58:13.800 --> 58:14.240]  and they're
+[58:14.240 --> 58:14.920]  all considered
+[58:14.920 --> 58:15.820]  to be ground
+[58:15.820 --> 58:16.940]  at this point,
+[58:17.140 --> 58:17.900]  so this is
+[58:17.900 --> 58:18.880]  your equivalent
+[58:18.880 --> 58:22.060]  circuit
+[58:22.060 --> 58:23.880]  in terms
+[58:23.880 --> 58:24.560]  of looking
+[58:24.560 --> 58:25.080]  at it
+[58:25.080 --> 58:26.860]  at AC,
+[58:27.800 --> 58:28.120]  okay,
+[58:28.860 --> 58:29.360]  and so
+[58:29.360 --> 58:30.340]  now,
+[58:30.620 --> 58:31.200]  all right,
+[58:31.740 --> 58:32.940]  we connect
+[58:32.940 --> 58:34.620]  our equivalent
+[58:34.620 --> 58:35.120]  circuit
+[58:35.120 --> 58:36.180]  to the
+[58:36.180 --> 58:37.020]  signal source,
+[58:37.860 --> 58:38.140]  okay,
+[58:38.860 --> 58:39.140]  all right,
+[58:39.180 --> 58:39.660]  so ito,
+[58:39.880 --> 58:40.660]  nangbito lang yan,
+[58:40.660 --> 58:40.940]  yan,
+[58:40.940 --> 58:41.060]  yan,
+[58:41.060 --> 58:41.120]  yan,
+[58:41.200 --> 58:41.460]  yon,
+[58:41.620 --> 58:42.060]  all right,
+[58:42.860 --> 58:44.160]  and the
+[58:44.160 --> 58:45.220]  output is
+[58:45.220 --> 58:46.320]  taken over
+[58:46.320 --> 58:46.780]  here,
+[58:47.340 --> 58:47.880]  that's it,
+[58:48.040 --> 58:48.740]  that's the
+[58:48.740 --> 58:50.380]  model that
+[58:50.380 --> 58:50.860]  we're going
+[58:50.860 --> 58:51.360]  to be
+[58:51.360 --> 58:52.160]  working with
+[58:52.160 --> 58:53.280]  for this
+[58:53.280 --> 58:54.060]  particular
+[58:54.060 --> 58:56.780]  transistor
+[58:56.780 --> 58:57.640]  amplifier
+[58:57.640 --> 58:58.060]  circuit,
+[58:58.260 --> 58:58.400]  maybe,
+[58:58.560 --> 58:59.440]  maybe what
+[58:59.440 --> 59:00.000]  was missing
+[59:00.000 --> 59:00.620]  here would
+[59:00.620 --> 59:01.040]  have been
+[59:01.040 --> 59:02.400]  the AC
+[59:02.400 --> 59:03.420]  signal source,
+[59:03.540 --> 59:03.940]  here's your
+[59:03.940 --> 59:04.240]  Vs,
+[59:04.440 --> 59:06.120]  with an
+[59:06.120 --> 59:06.680]  equivalent
+[59:06.680 --> 59:07.640]  series
+[59:07.640 --> 59:08.480]  resistance
+[59:08.480 --> 59:09.860]  sending out
+[59:09.860 --> 59:10.280]  its
+[59:10.280 --> 59:11.160]  signal,
+[59:11.400 --> 59:11.920]  all right,
+[59:12.540 --> 59:13.620]  into the
+[59:13.620 --> 59:14.360]  transistor
+[59:14.360 --> 59:15.100]  amplifier
+[59:15.100 --> 59:15.620]  circuit,
+[59:16.100 --> 59:16.500]  all right,
+[59:16.700 --> 59:17.180]  and so there
+[59:17.180 --> 59:17.480]  you go,
+[59:17.920 --> 59:18.420]  are there
+[59:18.420 --> 59:18.980]  questions
+[59:18.980 --> 59:20.140]  so far,
+[59:20.240 --> 59:20.620]  are we
+[59:20.620 --> 59:20.880]  good,
+[59:21.760 --> 59:22.060]  okay,
+[59:22.180 --> 59:22.680]  malinaw,
+[59:23.160 --> 59:23.420]  all right,
+[59:23.480 --> 59:24.300]  so malinaw tayo,
+[59:24.300 --> 59:25.180]  so let's
+[59:25.180 --> 59:25.880]  go forward,
+[59:26.620 --> 59:26.980]  okay,
+[59:27.640 --> 59:27.980]  let's go
+[59:27.980 --> 59:28.400]  forward,
+[59:28.980 --> 59:32.600]  and let's
+[59:32.600 --> 59:33.640]  erase some
+[59:33.640 --> 59:34.260]  things here,
+[59:34.380 --> 59:34.680]  sorry,
+[59:35.680 --> 59:36.280]  forgot to
+[59:36.280 --> 59:36.940]  erase it,
+[59:39.380 --> 59:39.600]  okay,
+[59:40.200 --> 59:40.640]  so ano
+[59:40.640 --> 59:41.060]  ito,
+[59:41.500 --> 59:43.960]  all right,
+[59:44.280 --> 59:45.020]  so for
+[59:45.020 --> 59:46.160]  the transistor,
+[59:46.340 --> 59:46.560]  okay,
+[59:46.740 --> 59:47.480]  so BC
+[59:47.480 --> 59:48.400]  versus AC
+[59:48.400 --> 59:48.940]  beta,
+[59:49.300 --> 59:50.120]  never mind
+[59:50.120 --> 59:50.680]  that for now,
+[59:50.780 --> 59:51.220]  but yes,
+[59:51.720 --> 59:52.400]  the AC
+[59:52.400 --> 59:53.020]  beta
+[59:53.020 --> 59:54.060]  considers,
+[59:54.480 --> 59:54.820]  you know,
+[59:54.880 --> 59:55.280]  the thing
+[59:55.280 --> 59:55.720]  as it's
+[59:55.720 --> 59:56.120]  wiggling
+[59:56.120 --> 59:56.740]  about,
+[59:57.340 --> 59:57.740]  all right,
+[59:58.220 --> 59:58.840]  around its
+[59:58.840 --> 59:59.360]  skewpoint,
+[59:59.760 --> 01:00:00.260]  you might
+[01:00:00.260 --> 01:00:00.720]  get a
+[01:00:00.720 --> 01:00:01.060]  slightly
+[01:00:01.060 --> 01:00:01.560]  different
+[01:00:01.560 --> 01:00:02.200]  value
+[01:00:02.200 --> 01:00:03.440]  for if
+[01:00:03.440 --> 01:00:03.760]  you were
+[01:00:03.760 --> 01:00:04.380]  to calculate
+[01:00:04.380 --> 01:00:05.360]  it based
+[01:00:05.360 --> 01:00:05.900]  on this,
+[01:00:06.340 --> 01:00:07.040]  but anyway,
+[01:00:07.180 --> 01:00:07.760]  whatever it
+[01:00:07.760 --> 01:00:07.980]  is,
+[01:00:08.000 --> 01:00:08.320]  it's going
+[01:00:08.320 --> 01:00:08.600]  to be
+[01:00:08.600 --> 01:00:08.920]  written
+[01:00:08.920 --> 01:00:09.380]  there,
+[01:00:10.180 --> 01:00:10.460]  all right,
+[01:00:10.500 --> 01:00:10.880]  you use
+[01:00:10.880 --> 01:00:11.460]  that as
+[01:00:11.460 --> 01:00:11.880]  your
+[01:00:11.880 --> 01:00:12.580]  beta
+[01:00:12.580 --> 01:00:13.540]  for
+[01:00:13.540 --> 01:00:14.360]  whatever
+[01:00:14.360 --> 01:00:15.300]  calculations
+[01:00:15.300 --> 01:00:15.960]  that you
+[01:00:15.960 --> 01:00:16.360]  need to
+[01:00:16.360 --> 01:00:16.660]  do,
+[01:00:17.620 --> 01:00:17.900]  okay,
+[01:00:18.800 --> 01:00:20.740]  all right,
+[01:00:21.180 --> 01:00:22.060]  so the
+[01:00:22.060 --> 01:00:22.480]  thing that
+[01:00:22.480 --> 01:00:22.880]  we're going
+[01:00:22.880 --> 01:00:23.240]  to be
+[01:00:23.240 --> 01:00:23.900]  doing now
+[01:00:23.900 --> 01:00:24.460]  is
+[01:00:24.460 --> 01:00:25.360]  calculating,
+[01:00:25.920 --> 01:00:26.440]  all right,
+[01:00:26.720 --> 01:00:28.100]  the input,
+[01:00:28.680 --> 01:00:29.060]  okay,
+[01:00:29.880 --> 01:00:31.860]  signal,
+[01:00:32.420 --> 01:00:32.880]  all right,
+[01:00:33.420 --> 01:00:35.220]  what is
+[01:00:35.220 --> 01:00:36.000]  the input
+[01:00:36.000 --> 01:00:36.580]  impedance
+[01:00:36.580 --> 01:00:37.560]  of the
+[01:00:37.560 --> 01:00:38.020]  circuit,
+[01:00:39.160 --> 01:00:39.420]  okay,
+[01:00:39.840 --> 01:00:40.260]  what is
+[01:00:40.260 --> 01:00:40.760]  the input
+[01:00:40.760 --> 01:00:41.240]  impedance
+[01:00:41.240 --> 01:00:41.820]  of the
+[01:00:41.820 --> 01:00:42.260]  circuit
+[01:00:42.260 --> 01:00:44.040]  for these
+[01:00:44.040 --> 01:00:44.920]  three guys
+[01:00:44.920 --> 01:00:45.960]  connected
+[01:00:45.960 --> 01:00:47.260]  in parallel,
+[01:00:47.880 --> 01:00:48.380]  all right,
+[01:00:49.080 --> 01:00:50.120]  and that's
+[01:00:50.120 --> 01:00:51.220]  important because
+[01:00:51.220 --> 01:00:52.180]  it forms a
+[01:00:52.180 --> 01:00:53.420]  voltage divider
+[01:00:53.420 --> 01:00:54.840]  against whatever
+[01:00:54.840 --> 01:00:56.700]  source resistance
+[01:00:56.700 --> 01:00:57.940]  there is,
+[01:00:58.380 --> 01:00:58.920]  which will
+[01:00:58.920 --> 01:00:59.760]  have the
+[01:00:59.760 --> 01:01:00.500]  effect of
+[01:01:00.500 --> 01:01:01.420]  making the
+[01:01:01.420 --> 01:01:02.520]  signal source
+[01:01:02.520 --> 01:01:03.660]  amplitude
+[01:01:03.660 --> 01:01:05.040]  smaller,
+[01:01:05.800 --> 01:01:06.120]  okay,
+[01:01:06.160 --> 01:01:06.620]  and that's
+[01:01:06.620 --> 01:01:08.080]  important because
+[01:01:08.080 --> 01:01:09.320]  when you try to
+[01:01:09.320 --> 01:01:10.140]  calculate the
+[01:01:10.140 --> 01:01:11.020]  voltage gain,
+[01:01:11.460 --> 01:01:12.280]  the voltage gain
+[01:01:12.280 --> 01:01:13.000]  is basically
+[01:01:13.000 --> 01:01:13.720]  equal to
+[01:01:13.720 --> 01:01:14.680]  VO over
+[01:01:14.680 --> 01:01:15.240]  VI.
+[01:01:16.120 --> 01:01:16.920]  Theoretically,
+[01:01:17.420 --> 01:01:17.940]  all right,
+[01:01:17.940 --> 01:01:18.780]  if you don't
+[01:01:18.780 --> 01:01:19.600]  consider the
+[01:01:19.600 --> 01:01:20.580]  input impedance,
+[01:01:21.100 --> 01:01:21.760]  the V sub
+[01:01:21.760 --> 01:01:22.700]  I is
+[01:01:22.700 --> 01:01:23.640]  basically the
+[01:01:23.640 --> 01:01:24.740]  amplitude of
+[01:01:24.740 --> 01:01:25.320]  the signal
+[01:01:25.320 --> 01:01:25.900]  source,
+[01:01:26.600 --> 01:01:27.880]  but when
+[01:01:27.880 --> 01:01:28.520]  you now
+[01:01:28.520 --> 01:01:29.900]  consider the
+[01:01:29.900 --> 01:01:30.700]  input impedance
+[01:01:30.700 --> 01:01:31.580]  and any
+[01:01:31.580 --> 01:01:32.500]  source resistance,
+[01:01:33.380 --> 01:01:34.120]  your input
+[01:01:34.120 --> 01:01:35.400]  signal to
+[01:01:35.400 --> 01:01:36.160]  the transistor
+[01:01:36.160 --> 01:01:37.080]  itself will
+[01:01:37.080 --> 01:01:37.920]  get reduced
+[01:01:37.920 --> 01:01:38.980]  by voltage
+[01:01:38.980 --> 01:01:39.840]  divider
+[01:01:39.840 --> 01:01:40.500]  action,
+[01:01:41.380 --> 01:01:42.400]  and the
+[01:01:42.400 --> 01:01:43.160]  result is
+[01:01:43.160 --> 01:01:43.680]  that the
+[01:01:43.680 --> 01:01:44.240]  VO,
+[01:01:44.940 --> 01:01:45.580]  because the
+[01:01:45.580 --> 01:01:46.560]  transistor sees
+[01:01:46.560 --> 01:01:47.520]  a smaller
+[01:01:47.520 --> 01:01:48.580]  input signal,
+[01:01:49.120 --> 01:01:49.780]  the output
+[01:01:49.780 --> 01:01:50.420]  signal will
+[01:01:50.420 --> 01:01:51.540]  become smaller,
+[01:01:52.420 --> 01:01:52.800]  okay,
+[01:01:52.940 --> 01:01:53.580]  so it's
+[01:01:53.580 --> 01:01:54.480]  important to
+[01:01:54.480 --> 01:01:55.320]  know the
+[01:01:55.320 --> 01:01:56.360]  input
+[01:01:56.360 --> 01:01:58.020]  impedance
+[01:01:58.020 --> 01:01:59.180]  of the
+[01:01:59.180 --> 01:01:59.520]  circuit,
+[01:01:59.760 --> 01:02:00.160]  and as you
+[01:02:00.160 --> 01:02:00.640]  can see,
+[01:02:01.160 --> 01:02:01.680]  the input
+[01:02:01.680 --> 01:02:02.500]  impedance is
+[01:02:02.500 --> 01:02:03.240]  simply equal
+[01:02:03.240 --> 01:02:03.760]  to the
+[01:02:03.760 --> 01:02:04.280]  parallel
+[01:02:04.280 --> 01:02:05.120]  combination
+[01:02:05.120 --> 01:02:06.100]  of R1,
+[01:02:06.280 --> 01:02:06.900]  R2,
+[01:02:07.020 --> 01:02:07.800]  and whatever
+[01:02:07.800 --> 01:02:09.720]  is the
+[01:02:09.720 --> 01:02:11.020]  base
+[01:02:11.020 --> 01:02:11.940]  resistance
+[01:02:11.940 --> 01:02:13.180]  of the
+[01:02:13.180 --> 01:02:13.540]  circuit,
+[01:02:14.040 --> 01:02:14.360]  okay,
+[01:02:14.360 --> 01:02:15.520]  whatever is
+[01:02:15.520 --> 01:02:16.420]  the base
+[01:02:16.420 --> 01:02:17.140]  resistance
+[01:02:17.140 --> 01:02:17.700]  of the
+[01:02:17.700 --> 01:02:18.020]  circuit,
+[01:02:18.440 --> 01:02:19.100]  that's an
+[01:02:19.100 --> 01:02:19.640]  equivalent
+[01:02:19.640 --> 01:02:20.980]  of this
+[01:02:20.980 --> 01:02:21.440]  one,
+[01:02:22.860 --> 01:02:23.060]  okay,
+[01:02:23.640 --> 01:02:24.200]  equivalent
+[01:02:24.200 --> 01:02:24.880]  of having
+[01:02:24.880 --> 01:02:25.540]  a resistance
+[01:02:25.540 --> 01:02:26.220]  at the
+[01:02:26.220 --> 01:02:26.700]  base,
+[01:02:26.980 --> 01:02:27.780]  and that
+[01:02:27.780 --> 01:02:29.000]  is essentially
+[01:02:29.000 --> 01:02:30.180]  a function
+[01:02:30.180 --> 01:02:31.880]  of the
+[01:02:31.880 --> 01:02:34.300]  input
+[01:02:34.300 --> 01:02:35.060]  resistance,
+[01:02:35.700 --> 01:02:36.340]  which is,
+[01:02:37.020 --> 01:02:37.440]  or which
+[01:02:37.440 --> 01:02:37.960]  was shown
+[01:02:37.960 --> 01:02:38.460]  to you
+[01:02:38.460 --> 01:02:39.360]  earlier,
+[01:02:39.520 --> 01:02:39.880]  if you
+[01:02:39.880 --> 01:02:40.740]  might recall,
+[01:02:41.120 --> 01:02:41.660]  as being
+[01:02:41.660 --> 01:02:42.520]  equal to
+[01:02:42.520 --> 01:02:43.100]  beta
+[01:02:43.100 --> 01:02:44.580]  times the
+[01:02:44.580 --> 01:02:45.300]  small
+[01:02:45.300 --> 01:02:46.180]  r e,
+[01:02:46.740 --> 01:02:47.220]  all right,
+[01:02:47.600 --> 01:02:48.040]  so
+[01:02:48.040 --> 01:02:49.180]  importante
+[01:02:49.180 --> 01:02:49.440]  yung
+[01:02:49.440 --> 01:02:50.080]  calculation,
+[01:02:50.260 --> 01:02:51.060]  you need
+[01:02:51.060 --> 01:02:51.320]  your
+[01:02:51.320 --> 01:02:52.520]  AC
+[01:02:52.520 --> 01:02:53.180]  beta,
+[01:02:53.760 --> 01:02:54.180]  and you
+[01:02:54.180 --> 01:02:54.580]  need to
+[01:02:54.580 --> 01:02:55.100]  multiply
+[01:02:55.100 --> 01:02:55.820]  this to
+[01:02:55.820 --> 01:02:56.260]  the
+[01:02:56.260 --> 01:02:57.340]  emitter
+[01:02:57.340 --> 01:02:58.440]  resistance
+[01:02:58.440 --> 01:02:59.080]  equivalent,
+[01:02:59.860 --> 01:03:00.200]  okay,
+[01:03:00.760 --> 01:03:01.340]  all right,
+[01:03:01.720 --> 01:03:02.400]  so there
+[01:03:02.400 --> 01:03:02.680]  you go
+[01:03:02.680 --> 01:03:03.040]  with that,
+[01:03:03.040 --> 01:03:04.320]  so let's
+[01:03:04.320 --> 01:03:05.220]  try to
+[01:03:05.220 --> 01:03:05.620]  have a
+[01:03:05.620 --> 01:03:05.860]  look,
+[01:03:06.520 --> 01:03:06.700]  okay,
+[01:03:06.700 --> 01:03:07.040]  we're
+[01:03:07.040 --> 01:03:07.900]  sort of
+[01:03:07.900 --> 01:03:08.680]  just taking
+[01:03:08.680 --> 01:03:09.200]  it a
+[01:03:09.200 --> 01:03:09.640]  step at
+[01:03:09.640 --> 01:03:10.080]  a time
+[01:03:10.080 --> 01:03:10.400]  here,
+[01:03:10.760 --> 01:03:11.800]  so here
+[01:03:11.800 --> 01:03:12.460]  it is,
+[01:03:12.680 --> 01:03:13.160]  all right,
+[01:03:13.560 --> 01:03:14.160]  the AC
+[01:03:14.160 --> 01:03:14.700]  equivalent
+[01:03:14.700 --> 01:03:15.460]  model,
+[01:03:16.020 --> 01:03:17.260]  with this
+[01:03:17.260 --> 01:03:17.820]  one,
+[01:03:18.060 --> 01:03:18.260]  just,
+[01:03:18.420 --> 01:03:18.740]  you just
+[01:03:18.740 --> 01:03:19.060]  have to
+[01:03:19.060 --> 01:03:19.480]  remember,
+[01:03:19.700 --> 01:03:20.080]  there is
+[01:03:20.080 --> 01:03:20.660]  your r
+[01:03:20.660 --> 01:03:21.620]  prime e,
+[01:03:21.840 --> 01:03:22.580]  or re,
+[01:03:22.840 --> 01:03:23.200]  for that
+[01:03:23.200 --> 01:03:23.580]  matter,
+[01:03:24.180 --> 01:03:24.420]  the
+[01:03:24.420 --> 01:03:25.040]  equivalent
+[01:03:25.040 --> 01:03:25.760]  resistance
+[01:03:25.760 --> 01:03:26.780]  here is
+[01:03:26.780 --> 01:03:28.160]  r
+[01:03:28.160 --> 01:03:29.140]  prime e
+[01:03:29.140 --> 01:03:29.740]  times
+[01:03:29.740 --> 01:03:30.400]  beta
+[01:03:30.400 --> 01:03:30.980]  AC,
+[01:03:31.600 --> 01:03:31.980]  all right,
+[01:03:32.460 --> 01:03:33.200]  and that
+[01:03:33.200 --> 01:03:33.760]  basically
+[01:03:33.760 --> 01:03:34.460]  completes
+[01:03:34.460 --> 01:03:35.060]  the model,
+[01:03:35.740 --> 01:03:36.040]  okay,
+[01:03:36.680 --> 01:03:37.020]  all right,
+[01:03:37.140 --> 01:03:38.380]  so let's
+[01:03:38.380 --> 01:03:38.700]  have a
+[01:03:38.700 --> 01:03:38.940]  look,
+[01:03:39.400 --> 01:03:40.040]  medyo makulit
+[01:03:40.040 --> 01:03:40.340]  lang yung
+[01:03:40.340 --> 01:03:40.760]  drawings
+[01:03:40.760 --> 01:03:41.180]  dito,
+[01:03:41.680 --> 01:03:42.060]  all right,
+[01:03:42.900 --> 01:03:43.340]  and do
+[01:03:43.340 --> 01:03:43.660]  that
+[01:03:43.660 --> 01:03:44.440]  calculation,
+[01:03:44.840 --> 01:03:45.020]  ayan,
+[01:03:45.540 --> 01:03:45.780]  okay,
+[01:03:46.020 --> 01:03:46.900]  so inulit-ulit
+[01:03:46.900 --> 01:03:47.860]  yung mga
+[01:03:47.860 --> 01:03:48.640]  calculations
+[01:03:48.640 --> 01:03:49.160]  dito,
+[01:03:49.960 --> 01:03:50.260]  okay,
+[01:03:50.900 --> 01:03:53.420]  very briefly
+[01:03:53.420 --> 01:03:53.980]  switching,
+[01:03:54.160 --> 01:03:54.760]  just to give
+[01:03:54.760 --> 01:03:55.040]  you an
+[01:03:55.040 --> 01:03:55.500]  example,
+[01:03:55.760 --> 01:03:56.320]  the hybrid
+[01:03:56.320 --> 01:03:57.200]  pi model,
+[01:03:57.520 --> 01:03:57.920]  all right,
+[01:03:58.540 --> 01:03:58.900]  okay,
+[01:03:59.020 --> 01:03:59.660]  you can
+[01:03:59.660 --> 01:04:00.380]  extract
+[01:04:00.380 --> 01:04:01.200]  from the
+[01:04:01.200 --> 01:04:01.580]  hybrid
+[01:04:01.580 --> 01:04:02.420]  pi model
+[01:04:02.420 --> 01:04:02.940]  the
+[01:04:02.940 --> 01:04:04.100]  r prime
+[01:04:04.100 --> 01:04:04.340]  e,
+[01:04:04.440 --> 01:04:05.040]  or re
+[01:04:05.040 --> 01:04:05.660]  equivalent,
+[01:04:06.040 --> 01:04:06.560]  never mind,
+[01:04:06.860 --> 01:04:07.100]  okay,
+[01:04:07.160 --> 01:04:08.000]  so we've
+[01:04:08.000 --> 01:04:08.600]  talked about
+[01:04:08.600 --> 01:04:09.340]  this already,
+[01:04:09.840 --> 01:04:10.680]  I've already,
+[01:04:10.920 --> 01:04:11.400]  in fact,
+[01:04:11.660 --> 01:04:12.040]  all right,
+[01:04:12.100 --> 01:04:12.620]  if you might
+[01:04:12.620 --> 01:04:13.140]  recall,
+[01:04:13.540 --> 01:04:14.820]  stated that
+[01:04:14.820 --> 01:04:16.820]  the,
+[01:04:17.640 --> 01:04:18.700]  what's this,
+[01:04:18.780 --> 01:04:19.340]  the hybrid
+[01:04:19.340 --> 01:04:20.140]  pi model
+[01:04:20.140 --> 01:04:21.080]  is better
+[01:04:21.080 --> 01:04:21.700]  for high
+[01:04:21.700 --> 01:04:22.260]  frequency
+[01:04:22.260 --> 01:04:24.280]  calculations,
+[01:04:24.640 --> 01:04:25.300]  whereas the
+[01:04:25.300 --> 01:04:26.100]  re model
+[01:04:26.100 --> 01:04:27.820]  is only good
+[01:04:27.820 --> 01:04:28.280]  for low
+[01:04:28.280 --> 01:04:28.840]  frequency
+[01:04:28.840 --> 01:04:30.380]  kind of
+[01:04:30.380 --> 01:04:31.280]  simulations
+[01:04:31.280 --> 01:04:32.320]  or calculations,
+[01:04:32.580 --> 01:04:32.860]  okay,
+[01:04:32.980 --> 01:04:33.540]  so never
+[01:04:33.540 --> 01:04:34.160]  mind that,
+[01:04:34.780 --> 01:04:35.260]  let's go
+[01:04:35.260 --> 01:04:36.120]  forward here,
+[01:04:36.680 --> 01:04:37.180]  okay,
+[01:04:37.180 --> 01:04:37.820]  and
+[01:04:37.820 --> 01:04:41.860]  here we go,
+[01:04:41.860 --> 01:04:44.000]  okay,
+[01:04:44.800 --> 01:04:45.000]  okay,
+[01:04:45.000 --> 01:04:45.300]  okay,
+[01:04:45.300 --> 01:04:45.840]  okay,
+[01:04:45.840 --> 01:04:46.900]  okay,
+[01:04:47.140 --> 01:04:47.640]  ito,
+[01:04:47.700 --> 01:04:48.260]  importante,
+[01:04:48.840 --> 01:04:49.080]  okay,
+[01:04:49.460 --> 01:04:49.780]  actually,
+[01:04:49.900 --> 01:04:50.260]  I've already
+[01:04:50.260 --> 01:04:50.980]  stated it,
+[01:04:51.100 --> 01:04:51.560]  but what the
+[01:04:51.560 --> 01:04:51.800]  hell,
+[01:04:52.600 --> 01:04:52.760]  okay,
+[01:04:52.840 --> 01:04:53.420]  so here
+[01:04:53.420 --> 01:04:54.340]  is the
+[01:04:54.340 --> 01:04:55.140]  equivalent
+[01:04:55.140 --> 01:04:55.700]  input
+[01:04:55.700 --> 01:04:56.280]  resistance,
+[01:04:56.420 --> 01:04:56.900]  it's equal
+[01:04:56.900 --> 01:04:57.500]  to beta
+[01:04:57.500 --> 01:04:58.420]  times re,
+[01:04:58.420 --> 01:04:59.140]  as I've
+[01:04:59.140 --> 01:04:59.520]  stated,
+[01:05:00.840 --> 01:05:01.140]  okay,
+[01:05:01.140 --> 01:05:01.280]  okay,
+[01:05:01.960 --> 01:05:03.240]  the AC
+[01:05:03.240 --> 01:05:03.900]  current
+[01:05:03.900 --> 01:05:05.100]  is beta
+[01:05:05.100 --> 01:05:05.620]  IB,
+[01:05:06.360 --> 01:05:06.800]  all right,
+[01:05:07.660 --> 01:05:08.420]  the output
+[01:05:08.420 --> 01:05:09.000]  impedance
+[01:05:09.000 --> 01:05:10.100]  is basically
+[01:05:10.100 --> 01:05:10.860]  equal to
+[01:05:10.860 --> 01:05:11.800]  whatever resistor
+[01:05:11.800 --> 01:05:12.500]  is at the
+[01:05:12.500 --> 01:05:12.960]  output,
+[01:05:13.260 --> 01:05:13.940]  which is from
+[01:05:13.940 --> 01:05:14.560]  collector
+[01:05:14.560 --> 01:05:15.420]  to AC
+[01:05:15.420 --> 01:05:15.860]  ground,
+[01:05:17.720 --> 01:05:17.980]  okay,
+[01:05:18.380 --> 01:05:19.860]  and given
+[01:05:19.860 --> 01:05:20.420]  this,
+[01:05:20.720 --> 01:05:21.080]  right,
+[01:05:21.440 --> 01:05:22.100]  we can go
+[01:05:22.100 --> 01:05:22.960]  ahead and do
+[01:05:22.960 --> 01:05:24.260]  our calculations,
+[01:05:24.880 --> 01:05:25.960]  so here
+[01:05:25.960 --> 01:05:27.880]  is all
+[01:05:27.880 --> 01:05:28.220]  of that,
+[01:05:28.220 --> 01:05:29.360]  so number
+[01:05:29.360 --> 01:05:29.820]  one,
+[01:05:30.400 --> 01:05:30.740]  okay,
+[01:05:31.400 --> 01:05:32.120]  number one,
+[01:05:33.200 --> 01:05:34.140]  the base
+[01:05:34.140 --> 01:05:35.640]  equivalent
+[01:05:35.640 --> 01:05:36.360]  resistance
+[01:05:36.360 --> 01:05:37.820]  is equal
+[01:05:37.820 --> 01:05:38.580]  to beta
+[01:05:38.580 --> 01:05:39.140]  AC
+[01:05:39.140 --> 01:05:40.340]  times re,
+[01:05:41.000 --> 01:05:41.940]  and re
+[01:05:41.940 --> 01:05:42.560]  is equal
+[01:05:42.560 --> 01:05:43.540]  to 26
+[01:05:43.540 --> 01:05:44.240]  millivolts
+[01:05:44.240 --> 01:05:45.060]  divided by
+[01:05:45.060 --> 01:05:45.680]  iE,
+[01:05:46.080 --> 01:05:46.500]  all right,
+[01:05:47.040 --> 01:05:48.660]  the output
+[01:05:48.660 --> 01:05:49.260]  resistance,
+[01:05:49.680 --> 01:05:50.260]  as stated
+[01:05:50.260 --> 01:05:50.800]  earlier,
+[01:05:51.020 --> 01:05:52.060]  is simply
+[01:05:52.060 --> 01:05:52.760]  equal to
+[01:05:52.760 --> 01:05:53.740]  the collector
+[01:05:53.740 --> 01:05:54.360]  resistor,
+[01:05:55.360 --> 01:05:56.500]  and whatever
+[01:05:56.500 --> 01:05:57.360]  this thing
+[01:05:57.360 --> 01:05:58.080]  might be
+[01:05:58.080 --> 01:05:58.540]  connected
+[01:05:58.540 --> 01:05:59.360]  to as
+[01:05:59.360 --> 01:06:00.080]  the load,
+[01:06:00.360 --> 01:06:00.820]  whatever
+[01:06:00.820 --> 01:06:01.620]  the transistor
+[01:06:01.620 --> 01:06:02.420]  circuit is
+[01:06:02.420 --> 01:06:02.880]  driving,
+[01:06:03.520 --> 01:06:04.180]  but if
+[01:06:04.180 --> 01:06:04.560]  there's
+[01:06:04.560 --> 01:06:05.060]  nothing
+[01:06:05.060 --> 01:06:05.500]  there,
+[01:06:05.880 --> 01:06:06.320]  if it's
+[01:06:06.320 --> 01:06:06.900]  not really
+[01:06:06.900 --> 01:06:07.380]  connected
+[01:06:07.380 --> 01:06:08.020]  to anything,
+[01:06:08.160 --> 01:06:08.540]  it's not
+[01:06:08.540 --> 01:06:09.000]  driving
+[01:06:09.000 --> 01:06:09.480]  anything,
+[01:06:09.940 --> 01:06:10.740]  then the
+[01:06:10.740 --> 01:06:12.060]  only output
+[01:06:12.060 --> 01:06:12.600]  impedance
+[01:06:12.600 --> 01:06:13.100]  that we're
+[01:06:13.100 --> 01:06:13.720]  talking about
+[01:06:13.720 --> 01:06:14.580]  is equal
+[01:06:14.580 --> 01:06:15.260]  to R
+[01:06:15.260 --> 01:06:15.760]  sub C,
+[01:06:16.280 --> 01:06:16.700]  all right,
+[01:06:17.640 --> 01:06:18.780]  or if you
+[01:06:18.780 --> 01:06:19.120]  like,
+[01:06:19.260 --> 01:06:19.840]  you can think
+[01:06:19.840 --> 01:06:20.220]  of the
+[01:06:20.220 --> 01:06:20.760]  output
+[01:06:20.760 --> 01:06:21.500]  impedance
+[01:06:21.500 --> 01:06:22.340]  ZO
+[01:06:22.340 --> 01:06:23.160]  as being
+[01:06:23.160 --> 01:06:23.760]  equal to
+[01:06:23.760 --> 01:06:24.620]  R sub C
+[01:06:24.620 --> 01:06:25.620]  in parallel
+[01:06:25.620 --> 01:06:26.540]  with whatever
+[01:06:26.540 --> 01:06:27.380]  R load
+[01:06:27.380 --> 01:06:27.940]  is,
+[01:06:28.460 --> 01:06:28.740]  okay,
+[01:06:28.940 --> 01:06:29.780]  and if
+[01:06:29.780 --> 01:06:30.280]  there is
+[01:06:30.280 --> 01:06:31.160]  no R
+[01:06:31.160 --> 01:06:31.680]  load,
+[01:06:32.100 --> 01:06:32.520]  then you
+[01:06:32.520 --> 01:06:32.920]  can say
+[01:06:32.920 --> 01:06:33.440]  that R
+[01:06:33.440 --> 01:06:34.020]  load is
+[01:06:34.020 --> 01:06:34.600]  equal to
+[01:06:34.600 --> 01:06:35.180]  infinity,
+[01:06:35.600 --> 01:06:35.980]  which means
+[01:06:35.980 --> 01:06:36.520]  that it's
+[01:06:36.520 --> 01:06:37.060]  just R
+[01:06:37.060 --> 01:06:37.580]  sub C
+[01:06:37.580 --> 01:06:38.600]  by itself,
+[01:06:39.240 --> 01:06:39.520]  okay,
+[01:06:39.700 --> 01:06:40.340]  so there
+[01:06:40.340 --> 01:06:40.720]  you go
+[01:06:40.720 --> 01:06:41.220]  with that,
+[01:06:42.060 --> 01:06:42.560]  all right,
+[01:06:42.960 --> 01:06:44.620]  so let's
+[01:06:44.620 --> 01:06:45.340]  go forward,
+[01:06:45.900 --> 01:06:46.300]  okay,
+[01:06:46.900 --> 01:06:47.860]  and let's
+[01:06:47.860 --> 01:06:48.700]  do the
+[01:06:48.700 --> 01:06:49.300]  rest and
+[01:06:49.300 --> 01:06:50.040]  look at the
+[01:06:50.040 --> 01:06:50.640]  rest of the
+[01:06:50.640 --> 01:06:51.220]  calculations
+[01:06:51.220 --> 01:06:51.680]  here,
+[01:06:52.400 --> 01:06:53.000]  and it
+[01:06:53.000 --> 01:06:54.320]  is to
+[01:06:54.320 --> 01:06:55.020]  say that
+[01:06:55.020 --> 01:06:56.300]  the voltage
+[01:06:56.300 --> 01:06:56.920]  gain,
+[01:06:57.420 --> 01:06:57.960]  all right,
+[01:06:58.040 --> 01:06:58.540]  which is
+[01:06:58.540 --> 01:06:59.700]  defined as
+[01:06:59.700 --> 01:07:01.080]  V out
+[01:07:01.080 --> 01:07:02.600]  over V in,
+[01:07:03.600 --> 01:07:04.100]  all right,
+[01:07:04.780 --> 01:07:05.900]  can be
+[01:07:05.900 --> 01:07:06.800]  simplified
+[01:07:06.800 --> 01:07:08.580]  to this
+[01:07:08.580 --> 01:07:09.620]  calculation,
+[01:07:10.620 --> 01:07:11.160]  all right,
+[01:07:11.160 --> 01:07:11.900]  if the
+[01:07:11.900 --> 01:07:13.160]  transistor is
+[01:07:13.160 --> 01:07:14.320]  all by
+[01:07:14.320 --> 01:07:14.940]  itself,
+[01:07:15.580 --> 01:07:16.040]  all right,
+[01:07:16.040 --> 01:07:17.720]  if that
+[01:07:17.720 --> 01:07:18.880]  voltage
+[01:07:18.880 --> 01:07:19.500]  gain is
+[01:07:19.500 --> 01:07:19.840]  simply
+[01:07:19.840 --> 01:07:20.600]  equal to
+[01:07:20.600 --> 01:07:21.000]  the
+[01:07:21.000 --> 01:07:21.800]  collector
+[01:07:21.800 --> 01:07:22.600]  resistor
+[01:07:22.600 --> 01:07:23.940]  divided
+[01:07:23.940 --> 01:07:25.000]  by the
+[01:07:25.000 --> 01:07:25.660]  emitter
+[01:07:25.660 --> 01:07:26.680]  resistance,
+[01:07:27.400 --> 01:07:28.740]  that's it,
+[01:07:29.160 --> 01:07:29.400]  okay,
+[01:07:29.880 --> 01:07:30.340]  so that
+[01:07:30.340 --> 01:07:31.700]  emitter
+[01:07:31.700 --> 01:07:32.160]  resistance
+[01:07:32.160 --> 01:07:32.880]  calculation
+[01:07:32.880 --> 01:07:33.740]  is very,
+[01:07:33.880 --> 01:07:34.580]  very important,
+[01:07:35.160 --> 01:07:35.420]  okay,
+[01:07:35.840 --> 01:07:36.600]  the ratio
+[01:07:36.600 --> 01:07:37.100]  of the
+[01:07:37.100 --> 01:07:37.660]  collector
+[01:07:37.660 --> 01:07:38.200]  resistor
+[01:07:38.200 --> 01:07:38.940]  divided by
+[01:07:38.940 --> 01:07:39.420]  the emitter
+[01:07:39.420 --> 01:07:39.960]  resistance
+[01:07:39.960 --> 01:07:41.160]  gives you
+[01:07:41.160 --> 01:07:41.640]  the
+[01:07:41.640 --> 01:07:43.300]  theoretical
+[01:07:43.300 --> 01:07:44.340]  voltage
+[01:07:44.340 --> 01:07:45.000]  gain of
+[01:07:45.000 --> 01:07:45.200]  the
+[01:07:45.200 --> 01:07:45.840]  transistor
+[01:07:45.840 --> 01:07:46.940]  alone,
+[01:07:47.580 --> 01:07:48.040]  okay,
+[01:07:48.680 --> 01:07:49.140]  all right,
+[01:07:50.520 --> 01:07:53.840]  so that
+[01:07:53.840 --> 01:07:55.060]  voltage
+[01:07:55.060 --> 01:07:55.640]  gain,
+[01:07:56.420 --> 01:07:56.940]  all right,
+[01:07:57.580 --> 01:07:58.400]  which is
+[01:07:58.400 --> 01:07:59.140]  this one,
+[01:07:59.400 --> 01:08:00.200]  will be
+[01:08:00.200 --> 01:08:01.240]  modified
+[01:08:01.240 --> 01:08:02.300]  by,
+[01:08:03.120 --> 01:08:03.940]  all right,
+[01:08:05.340 --> 01:08:06.120]  whatever
+[01:08:06.120 --> 01:08:07.040]  losses
+[01:08:07.040 --> 01:08:08.180]  there are
+[01:08:08.180 --> 01:08:08.860]  at the
+[01:08:08.860 --> 01:08:09.440]  input,
+[01:08:09.900 --> 01:08:10.420]  which will
+[01:08:10.420 --> 01:08:11.160]  tend to
+[01:08:11.160 --> 01:08:12.040]  make the
+[01:08:12.040 --> 01:08:12.460]  input
+[01:08:12.460 --> 01:08:12.920]  signal
+[01:08:12.920 --> 01:08:13.580]  smaller,
+[01:08:14.180 --> 01:08:15.640]  and whatever
+[01:08:15.640 --> 01:08:16.480]  losses
+[01:08:16.480 --> 01:08:17.240]  there are
+[01:08:17.240 --> 01:08:17.900]  at the
+[01:08:17.900 --> 01:08:18.520]  output
+[01:08:18.520 --> 01:08:19.460]  because the
+[01:08:19.460 --> 01:08:20.320]  output is
+[01:08:20.320 --> 01:08:21.560]  driving a
+[01:08:21.560 --> 01:08:21.920]  load
+[01:08:21.920 --> 01:08:22.720]  resistance,
+[01:08:23.720 --> 01:08:24.300]  okay,
+[01:08:25.020 --> 01:08:25.460]  all right,
+[01:08:25.940 --> 01:08:26.740]  so that's
+[01:08:26.740 --> 01:08:27.520]  what is being
+[01:08:27.520 --> 01:08:28.320]  shown here,
+[01:08:28.320 --> 01:08:29.420]  so the
+[01:08:29.420 --> 01:08:30.080]  modified
+[01:08:30.080 --> 01:08:31.440]  voltage gain
+[01:08:31.440 --> 01:08:31.900]  is a
+[01:08:31.900 --> 01:08:32.580]  function of
+[01:08:32.580 --> 01:08:32.960]  this
+[01:08:32.960 --> 01:08:34.240]  theoretical
+[01:08:34.240 --> 01:08:35.480]  maximum gain,
+[01:08:35.480 --> 01:08:36.060]  which is
+[01:08:36.060 --> 01:08:36.720]  simply
+[01:08:36.720 --> 01:08:37.340]  equal to
+[01:08:37.340 --> 01:08:38.020]  rc
+[01:08:38.020 --> 01:08:39.240]  divided by
+[01:08:39.240 --> 01:08:40.100]  r,
+[01:08:40.260 --> 01:08:41.540]  r prime
+[01:08:41.540 --> 01:08:41.920]  e,
+[01:08:42.440 --> 01:08:42.880]  all right,
+[01:08:43.220 --> 01:08:44.580]  modified by
+[01:08:44.580 --> 01:08:45.740]  how much
+[01:08:45.740 --> 01:08:46.700]  reduction there
+[01:08:46.700 --> 01:08:47.600]  is because
+[01:08:47.600 --> 01:08:48.160]  of the
+[01:08:48.160 --> 01:08:49.260]  input and
+[01:08:49.260 --> 01:08:49.820]  output
+[01:08:49.820 --> 01:08:50.660]  impedances,
+[01:08:51.440 --> 01:08:52.780]  driving,
+[01:08:53.220 --> 01:08:53.720]  or being
+[01:08:53.720 --> 01:08:54.480]  driven by
+[01:08:54.480 --> 01:08:55.020]  the signal
+[01:08:55.020 --> 01:08:55.440]  source,
+[01:08:56.140 --> 01:08:56.400]  okay,
+[01:08:56.840 --> 01:08:57.280]  all right,
+[01:08:57.780 --> 01:08:58.480]  so let's
+[01:08:58.480 --> 01:08:58.980]  try that
+[01:08:58.980 --> 01:08:59.440]  out,
+[01:08:59.880 --> 01:09:00.260]  okay,
+[01:09:00.260 --> 01:09:01.180]  I know that
+[01:09:01.180 --> 01:09:01.980]  this is kind
+[01:09:01.980 --> 01:09:02.780]  of in
+[01:09:02.780 --> 01:09:03.260]  the air
+[01:09:03.260 --> 01:09:03.840]  right now,
+[01:09:04.340 --> 01:09:04.840]  so let's
+[01:09:04.840 --> 01:09:05.360]  try that
+[01:09:05.360 --> 01:09:05.780]  out,
+[01:09:06.540 --> 01:09:08.700]  and yes,
+[01:09:08.780 --> 01:09:09.280]  you're given
+[01:09:09.280 --> 01:09:09.900]  the following
+[01:09:09.900 --> 01:09:10.500]  circuit,
+[01:09:10.940 --> 01:09:11.380]  all right,
+[01:09:12.120 --> 01:09:12.740]  calculate
+[01:09:12.740 --> 01:09:13.660]  the
+[01:09:13.660 --> 01:09:14.560]  emitter
+[01:09:14.560 --> 01:09:15.180]  current,
+[01:09:16.660 --> 01:09:17.200]  all right,
+[01:09:17.760 --> 01:09:18.260]  and from
+[01:09:18.260 --> 01:09:18.740]  the emitter
+[01:09:18.740 --> 01:09:19.300]  current,
+[01:09:19.580 --> 01:09:20.280]  get the
+[01:09:20.280 --> 01:09:21.000]  equivalent
+[01:09:21.000 --> 01:09:21.760]  emitter
+[01:09:21.760 --> 01:09:22.620]  resistance,
+[01:09:23.580 --> 01:09:24.060]  determine
+[01:09:24.060 --> 01:09:24.860]  the input
+[01:09:24.860 --> 01:09:25.380]  impedance,
+[01:09:25.840 --> 01:09:26.440]  determine the
+[01:09:26.440 --> 01:09:27.240]  output impedance,
+[01:09:27.580 --> 01:09:28.820]  and get
+[01:09:28.820 --> 01:09:30.080]  the voltage
+[01:09:30.080 --> 01:09:30.400]  gain,
+[01:09:31.680 --> 01:09:31.920]  okay,
+[01:09:32.120 --> 01:09:32.600]  and so
+[01:09:32.600 --> 01:09:33.620]  here are
+[01:09:33.620 --> 01:09:34.500]  the calculations
+[01:09:34.500 --> 01:09:35.420]  associated
+[01:09:35.420 --> 01:09:36.040]  with that,
+[01:09:36.640 --> 01:09:36.920]  okay,
+[01:09:37.520 --> 01:09:38.080]  all right,
+[01:09:38.640 --> 01:09:39.640]  so alam na
+[01:09:39.640 --> 01:09:40.440]  natin na
+[01:09:40.440 --> 01:09:41.440]  because we
+[01:09:41.440 --> 01:09:41.760]  did the
+[01:09:41.760 --> 01:09:42.800]  DC calculations
+[01:09:42.800 --> 01:09:43.360]  a while ago,
+[01:09:43.460 --> 01:09:43.980]  we already
+[01:09:43.980 --> 01:09:44.680]  know some
+[01:09:44.680 --> 01:09:45.100]  of these
+[01:09:45.100 --> 01:09:45.660]  answers,
+[01:09:45.960 --> 01:09:46.220]  right,
+[01:09:46.860 --> 01:09:47.620]  so if you
+[01:09:47.620 --> 01:09:48.380]  might recall,
+[01:09:48.660 --> 01:09:49.820]  Ie is
+[01:09:49.820 --> 01:09:50.360]  equal to
+[01:09:50.360 --> 01:09:51.900]  3.81
+[01:09:51.900 --> 01:09:53.500]  milliampiers,
+[01:09:53.740 --> 01:09:54.080]  kanina,
+[01:09:54.240 --> 01:09:54.880]  kinalculate
+[01:09:54.880 --> 01:09:55.320]  na yan,
+[01:09:55.960 --> 01:09:56.400]  doon,
+[01:09:56.920 --> 01:09:57.420]  kinitignan
+[01:09:57.420 --> 01:09:57.920]  natin,
+[01:09:57.920 --> 01:09:58.720]  if the
+[01:09:58.720 --> 01:09:59.140]  transistor
+[01:09:59.140 --> 01:09:59.920]  is in
+[01:09:59.920 --> 01:10:00.620]  its active
+[01:10:00.620 --> 01:10:01.280]  region or
+[01:10:01.280 --> 01:10:01.620]  not,
+[01:10:02.040 --> 01:10:02.380]  okay,
+[01:10:02.460 --> 01:10:03.120]  so let's
+[01:10:03.120 --> 01:10:03.820]  have a
+[01:10:03.820 --> 01:10:04.340]  quick look
+[01:10:04.340 --> 01:10:05.020]  at the
+[01:10:05.020 --> 01:10:05.520]  rest of
+[01:10:05.520 --> 01:10:06.400]  the calculations
+[01:10:06.400 --> 01:10:07.120]  as we
+[01:10:07.120 --> 01:10:07.700]  see here,
+[01:10:08.540 --> 01:10:08.760]  okay,
+[01:10:09.660 --> 01:10:10.020]  all right,
+[01:10:10.260 --> 01:10:12.220]  so yan,
+[01:10:12.700 --> 01:10:13.620]  3.81
+[01:10:13.620 --> 01:10:14.620]  milliampiers,
+[01:10:14.960 --> 01:10:16.440]  and substituting
+[01:10:16.440 --> 01:10:17.400]  that into
+[01:10:17.400 --> 01:10:19.320]  the 26
+[01:10:19.320 --> 01:10:20.460]  millivolts
+[01:10:20.460 --> 01:10:21.800]  divided by
+[01:10:21.800 --> 01:10:22.680]  Ie
+[01:10:22.680 --> 01:10:24.080]  gives you
+[01:10:24.080 --> 01:10:25.080]  an equivalent
+[01:10:25.080 --> 01:10:26.700]  emitter
+[01:10:26.700 --> 01:10:27.840]  resistance of
+[01:10:27.840 --> 01:10:30.220]  6.83
+[01:10:30.220 --> 01:10:31.020]  ohms,
+[01:10:31.580 --> 01:10:31.860]  okay,
+[01:10:32.060 --> 01:10:32.840]  so this is
+[01:10:32.840 --> 01:10:33.320]  a figure
+[01:10:33.320 --> 01:10:33.940]  that is
+[01:10:33.940 --> 01:10:34.240]  very,
+[01:10:34.380 --> 01:10:35.220]  very important,
+[01:10:36.180 --> 01:10:36.400]  okay,
+[01:10:36.760 --> 01:10:38.960]  6.83
+[01:10:38.960 --> 01:10:40.040]  ohms,
+[01:10:41.000 --> 01:10:41.540]  okay,
+[01:10:41.900 --> 01:10:42.980]  from there,
+[01:10:43.900 --> 01:10:44.360]  all right,
+[01:10:44.560 --> 01:10:45.500]  from there,
+[01:10:46.220 --> 01:10:47.080]  we can get
+[01:10:47.080 --> 01:10:47.700]  our
+[01:10:47.700 --> 01:10:48.420]  zein
+[01:10:48.420 --> 01:10:49.560]  because
+[01:10:49.560 --> 01:10:51.120]  our zein
+[01:10:51.120 --> 01:10:52.180]  is the
+[01:10:52.180 --> 01:10:52.640]  parallel
+[01:10:52.640 --> 01:10:53.600]  combination
+[01:10:53.600 --> 01:10:54.160]  of
+[01:10:54.160 --> 01:10:55.180]  R1,
+[01:10:55.720 --> 01:10:56.420]  R2,
+[01:10:56.620 --> 01:10:56.940]  and
+[01:10:56.940 --> 01:10:57.940]  R in,
+[01:10:57.940 --> 01:10:58.960]  now that
+[01:10:58.960 --> 01:11:00.080]  R in,
+[01:11:00.440 --> 01:11:00.900]  all right,
+[01:11:01.500 --> 01:11:02.380]  R in
+[01:11:02.380 --> 01:11:03.820]  is equal
+[01:11:03.820 --> 01:11:04.240]  to,
+[01:11:04.340 --> 01:11:04.840]  ito pala,
+[01:11:04.980 --> 01:11:05.440]  why am I
+[01:11:05.440 --> 01:11:06.840]  rewriting it,
+[01:11:07.040 --> 01:11:07.620]  R in
+[01:11:07.620 --> 01:11:08.120]  is equal
+[01:11:08.120 --> 01:11:08.420]  to
+[01:11:08.420 --> 01:11:09.440]  AC beta
+[01:11:09.440 --> 01:11:10.100]  times
+[01:11:10.100 --> 01:11:10.880]  R in,
+[01:11:10.880 --> 01:11:12.300]  and we
+[01:11:12.300 --> 01:11:12.660]  just
+[01:11:12.660 --> 01:11:13.720]  substitute
+[01:11:13.720 --> 01:11:14.640]  now because
+[01:11:14.640 --> 01:11:15.140]  we've just
+[01:11:15.140 --> 01:11:15.820]  calculated
+[01:11:15.820 --> 01:11:16.400]  that
+[01:11:16.400 --> 01:11:17.220]  R in
+[01:11:17.220 --> 01:11:17.720]  is
+[01:11:17.720 --> 01:11:18.980]  6.83
+[01:11:18.980 --> 01:11:19.600]  ohms,
+[01:11:19.880 --> 01:11:20.640]  we multiply
+[01:11:20.640 --> 01:11:21.300]  this by
+[01:11:21.300 --> 01:11:21.860]  the AC
+[01:11:21.860 --> 01:11:22.300]  beta,
+[01:11:22.480 --> 01:11:23.060]  which is,
+[01:11:23.660 --> 01:11:23.940]  you know,
+[01:11:24.020 --> 01:11:24.420]  which was
+[01:11:24.420 --> 01:11:25.960]  written in
+[01:11:25.960 --> 01:11:26.740]  the previous
+[01:11:26.740 --> 01:11:27.100]  slide,
+[01:11:27.200 --> 01:11:27.400]  it's
+[01:11:27.400 --> 01:11:27.960]  160,
+[01:11:28.540 --> 01:11:29.060]  this gives
+[01:11:29.060 --> 01:11:29.640]  us a
+[01:11:29.640 --> 01:11:30.060]  total
+[01:11:30.060 --> 01:11:31.060]  R in
+[01:11:31.060 --> 01:11:31.360]  of
+[01:11:31.360 --> 01:11:33.320]  1092
+[01:11:33.320 --> 01:11:33.800]  ohms,
+[01:11:33.900 --> 01:11:35.360]  1.092
+[01:11:35.360 --> 01:11:36.480]  kilo ohms,
+[01:11:36.480 --> 01:11:37.280]  and we
+[01:11:37.280 --> 01:11:37.760]  parallel
+[01:11:37.760 --> 01:11:38.300]  that
+[01:11:38.300 --> 01:11:38.620]  with
+[01:11:38.620 --> 01:11:39.600]  22k
+[01:11:39.600 --> 01:11:39.840]  and
+[01:11:39.840 --> 01:11:40.960]  6.8k,
+[01:11:41.420 --> 01:11:41.800]  all right,
+[01:11:42.220 --> 01:11:42.840]  so ito
+[01:11:42.840 --> 01:11:44.840]  1.092
+[01:11:44.840 --> 01:11:46.380]  kilo ohms,
+[01:11:46.820 --> 01:11:47.100]  okay,
+[01:11:47.260 --> 01:11:47.680]  and pag
+[01:11:47.680 --> 01:11:48.680]  pinaralel mo yan,
+[01:11:48.880 --> 01:11:49.480]  the resulting
+[01:11:49.480 --> 01:11:50.560]  input impedance
+[01:11:50.560 --> 01:11:51.440]  is shown
+[01:11:51.440 --> 01:11:51.920]  to be
+[01:11:51.920 --> 01:11:54.980]  902.3
+[01:11:54.980 --> 01:11:55.720]  ohms,
+[01:11:55.980 --> 01:11:56.640]  which is
+[01:11:56.640 --> 01:11:57.540]  pretty
+[01:11:57.540 --> 01:11:58.140]  low,
+[01:11:58.640 --> 01:11:59.060]  all right,
+[01:11:59.140 --> 01:11:59.740]  this is a
+[01:11:59.740 --> 01:12:00.480]  fairly low
+[01:12:00.480 --> 01:12:01.420]  input impedance,
+[01:12:01.420 --> 01:12:02.840]  which is
+[01:12:02.840 --> 01:12:04.100]  quite
+[01:12:04.100 --> 01:12:05.080]  normal
+[01:12:05.080 --> 01:12:07.260]  for a
+[01:12:07.260 --> 01:12:08.240]  common
+[01:12:08.240 --> 01:12:08.980]  emitter
+[01:12:08.980 --> 01:12:10.060]  configuration
+[01:12:10.060 --> 01:12:11.260]  where
+[01:12:11.260 --> 01:12:11.920]  the
+[01:12:11.920 --> 01:12:12.580]  emitter
+[01:12:12.580 --> 01:12:14.220]  of the
+[01:12:14.220 --> 01:12:14.740]  transistor
+[01:12:14.740 --> 01:12:15.440]  is
+[01:12:15.440 --> 01:12:16.800]  coupled
+[01:12:16.800 --> 01:12:17.740]  to ground
+[01:12:17.740 --> 01:12:18.660]  via
+[01:12:18.660 --> 01:12:19.200]  a
+[01:12:19.200 --> 01:12:19.860]  capacitor,
+[01:12:20.860 --> 01:12:21.220]  okay,
+[01:12:21.540 --> 01:12:22.100]  so if
+[01:12:22.100 --> 01:12:22.840]  you have
+[01:12:22.840 --> 01:12:23.960]  a common
+[01:12:23.960 --> 01:12:24.380]  emitter
+[01:12:24.380 --> 01:12:24.880]  circuit
+[01:12:24.880 --> 01:12:25.940]  where
+[01:12:25.940 --> 01:12:26.660]  the
+[01:12:26.660 --> 01:12:27.460]  emitter
+[01:12:27.460 --> 01:12:27.940]  has
+[01:12:27.940 --> 01:12:28.720]  capacitor
+[01:12:28.720 --> 01:12:29.340]  connected
+[01:12:29.340 --> 01:12:29.920]  to ground,
+[01:12:30.380 --> 01:12:30.720]  you can
+[01:12:30.720 --> 01:12:31.160]  expect
+[01:12:31.160 --> 01:12:31.560]  that the
+[01:12:31.560 --> 01:12:31.900]  input
+[01:12:31.900 --> 01:12:32.380]  impedance
+[01:12:32.380 --> 01:12:32.880]  is going
+[01:12:32.880 --> 01:12:33.320]  to be
+[01:12:33.320 --> 01:12:34.180]  fairly
+[01:12:34.180 --> 01:12:34.740]  low,
+[01:12:35.080 --> 01:12:35.660]  all right,
+[01:12:35.720 --> 01:12:36.020]  it's going
+[01:12:36.020 --> 01:12:36.300]  to be
+[01:12:36.300 --> 01:12:36.600]  fairly
+[01:12:36.600 --> 01:12:37.000]  low,
+[01:12:37.680 --> 01:12:38.040]  and
+[01:12:38.040 --> 01:12:38.680]  yes,
+[01:12:38.900 --> 01:12:39.580]  it will
+[01:12:39.580 --> 01:12:40.040]  be a
+[01:12:40.040 --> 01:12:40.260]  little
+[01:12:40.260 --> 01:12:40.540]  bit
+[01:12:40.540 --> 01:12:40.960]  higher
+[01:12:40.960 --> 01:12:41.620]  if
+[01:12:41.620 --> 01:12:42.480]  we
+[01:12:42.480 --> 01:12:42.860]  have
+[01:12:42.860 --> 01:12:43.060]  a
+[01:12:43.060 --> 01:12:43.460]  transistor
+[01:12:43.460 --> 01:12:43.960]  with
+[01:12:43.960 --> 01:12:44.340]  a
+[01:12:44.340 --> 01:12:44.740]  very,
+[01:12:44.900 --> 01:12:45.080]  very
+[01:12:45.080 --> 01:12:45.580]  high
+[01:12:45.580 --> 01:12:46.460]  beta,
+[01:12:47.180 --> 01:12:47.640]  all right,
+[01:12:47.980 --> 01:12:48.580]  so itong
+[01:12:48.580 --> 01:12:49.420]  transistor na to,
+[01:12:49.540 --> 01:12:49.900]  this is
+[01:12:49.900 --> 01:12:50.620]  already a
+[01:12:50.620 --> 01:12:51.140]  decently
+[01:12:51.140 --> 01:12:52.060]  high amount
+[01:12:52.060 --> 01:12:52.500]  of beta,
+[01:12:52.640 --> 01:12:53.320]  160,
+[01:12:53.880 --> 01:12:54.480]  but as
+[01:12:54.480 --> 01:12:54.980]  you know,
+[01:12:55.140 --> 01:12:55.620]  as you've
+[01:12:55.620 --> 01:12:56.260]  seen from
+[01:12:56.260 --> 01:12:57.140]  our lab,
+[01:12:57.680 --> 01:12:58.780]  we can
+[01:12:58.780 --> 01:12:59.060]  have
+[01:12:59.060 --> 01:12:59.700]  transistors,
+[01:13:00.240 --> 01:13:00.600]  if you're
+[01:13:00.600 --> 01:13:01.320]  very lucky,
+[01:13:01.440 --> 01:13:02.680]  your 2N22222
+[01:13:02.680 --> 01:13:03.580]  might have
+[01:13:03.580 --> 01:13:04.500]  a DC
+[01:13:04.500 --> 01:13:05.060]  beta
+[01:13:05.060 --> 01:13:06.520]  of 200
+[01:13:06.520 --> 01:13:07.140]  plus,
+[01:13:07.420 --> 01:13:07.700]  right,
+[01:13:07.900 --> 01:13:08.320]  some of
+[01:13:08.320 --> 01:13:08.580]  you were
+[01:13:08.580 --> 01:13:09.120]  calculating
+[01:13:09.120 --> 01:13:10.860]  250 or
+[01:13:10.860 --> 01:13:11.280]  so,
+[01:13:11.680 --> 01:13:12.140]  and it
+[01:13:12.140 --> 01:13:12.500]  would be
+[01:13:12.500 --> 01:13:12.980]  slightly
+[01:13:12.980 --> 01:13:13.500]  higher,
+[01:13:13.640 --> 01:13:14.080]  in fact,
+[01:13:14.400 --> 01:13:14.760]  if you
+[01:13:14.760 --> 01:13:15.540]  were calculating
+[01:13:15.540 --> 01:13:16.480]  its AC
+[01:13:16.480 --> 01:13:16.880]  beta,
+[01:13:17.620 --> 01:13:17.920]  okay,
+[01:13:18.200 --> 01:13:19.460]  so given
+[01:13:19.460 --> 01:13:19.820]  this,
+[01:13:19.960 --> 01:13:20.420]  your input
+[01:13:20.420 --> 01:13:20.780]  impedance
+[01:13:20.780 --> 01:13:21.640]  would be
+[01:13:21.640 --> 01:13:22.940]  roughly twice
+[01:13:22.940 --> 01:13:23.440]  as high,
+[01:13:23.540 --> 01:13:24.560]  maybe as a
+[01:13:24.560 --> 01:13:24.980]  maximum,
+[01:13:25.580 --> 01:13:26.580]  so your input
+[01:13:26.580 --> 01:13:27.400]  impedance might
+[01:13:27.400 --> 01:13:28.480]  be closer to
+[01:13:28.480 --> 01:13:29.520]  2 kilo ohms,
+[01:13:29.520 --> 01:13:30.560]  but that's
+[01:13:30.560 --> 01:13:31.380]  still pretty
+[01:13:31.380 --> 01:13:31.760]  low,
+[01:13:32.480 --> 01:13:32.720]  okay,
+[01:13:32.820 --> 01:13:33.400]  that's still
+[01:13:33.400 --> 01:13:34.060]  pretty low,
+[01:13:34.580 --> 01:13:34.880]  okay,
+[01:13:35.200 --> 01:13:35.880]  so there you go
+[01:13:35.880 --> 01:13:36.220]  with that,
+[01:13:36.420 --> 01:13:37.340]  I hope that
+[01:13:37.340 --> 01:13:37.880]  there are no
+[01:13:37.880 --> 01:13:38.660]  questions so
+[01:13:38.660 --> 01:13:38.980]  far,
+[01:13:39.100 --> 01:13:39.900]  are we okay,
+[01:13:40.580 --> 01:13:41.320]  okay ba tayo,
+[01:13:41.480 --> 01:13:41.800]  people,
+[01:13:42.520 --> 01:13:43.420]  nasusundan naman,
+[01:13:44.420 --> 01:13:44.740]  okay,
+[01:13:44.900 --> 01:13:45.500]  do we get a
+[01:13:45.500 --> 01:13:46.080]  thumbs up,
+[01:13:46.240 --> 01:13:47.200]  any questions,
+[01:13:48.100 --> 01:13:48.500]  yoohoo,
+[01:13:48.660 --> 01:13:49.100]  looking for
+[01:13:49.100 --> 01:13:49.680]  thumbs up,
+[01:13:53.220 --> 01:13:55.860]  okay,
+[01:13:56.400 --> 01:13:56.680]  alright,
+[01:13:57.240 --> 01:13:57.960]  so we go
+[01:13:57.960 --> 01:13:58.440]  forward,
+[01:13:59.220 --> 01:13:59.460]  okay,
+[01:14:00.340 --> 01:14:01.100]  get the
+[01:14:01.100 --> 01:14:01.460]  output
+[01:14:01.460 --> 01:14:01.960]  impedance,
+[01:14:02.560 --> 01:14:03.120]  in this,
+[01:14:03.220 --> 01:14:04.020]  in this case,
+[01:14:04.220 --> 01:14:05.600]  the output
+[01:14:05.600 --> 01:14:06.040]  is not
+[01:14:06.040 --> 01:14:06.460]  connected
+[01:14:06.460 --> 01:14:07.040]  anywhere,
+[01:14:07.780 --> 01:14:08.120]  therefore,
+[01:14:08.280 --> 01:14:08.680]  the output
+[01:14:08.680 --> 01:14:09.460]  impedance is
+[01:14:09.460 --> 01:14:10.080]  simply equal
+[01:14:10.080 --> 01:14:10.600]  to the
+[01:14:10.600 --> 01:14:11.180]  collector
+[01:14:11.180 --> 01:14:12.000]  resistor
+[01:14:12.000 --> 01:14:12.620]  itself,
+[01:14:13.320 --> 01:14:13.800]  which is
+[01:14:13.800 --> 01:14:14.600]  1 kilo ohm,
+[01:14:16.260 --> 01:14:16.540]  okay,
+[01:14:16.800 --> 01:14:17.680]  that's there,
+[01:14:18.680 --> 01:14:20.820]  and now
+[01:14:20.820 --> 01:14:21.480]  we get to
+[01:14:21.480 --> 01:14:22.000]  calculate
+[01:14:22.000 --> 01:14:23.560]  the voltage
+[01:14:23.560 --> 01:14:24.180]  gain,
+[01:14:24.860 --> 01:14:25.180]  alright,
+[01:14:25.600 --> 01:14:26.180]  so the
+[01:14:26.180 --> 01:14:27.060]  voltage gain
+[01:14:27.060 --> 01:14:28.520]  is basically
+[01:14:28.520 --> 01:14:29.960]  equal to
+[01:14:29.960 --> 01:14:31.180]  Rc
+[01:14:31.180 --> 01:14:32.280]  divided by
+[01:14:32.280 --> 01:14:33.020]  Rc,
+[01:14:33.020 --> 01:14:34.420]  and Rc
+[01:14:34.420 --> 01:14:35.960]  is 1 kilo ohm,
+[01:14:36.460 --> 01:14:36.800]  Rc,
+[01:14:36.800 --> 01:14:37.560]  we calculated
+[01:14:37.560 --> 01:14:40.020]  as 6.83 ohms
+[01:14:40.020 --> 01:14:40.660]  a while ago,
+[01:14:41.020 --> 01:14:41.840]  and that gives us
+[01:14:41.840 --> 01:14:42.760]  a voltage gain
+[01:14:42.760 --> 01:14:45.160]  of 146.41,
+[01:14:45.880 --> 01:14:46.320]  very,
+[01:14:46.420 --> 01:14:47.040]  very large
+[01:14:47.040 --> 01:14:47.940]  voltage gain,
+[01:14:48.300 --> 01:14:48.580]  alright,
+[01:14:48.580 --> 01:14:48.680]  alright,
+[01:14:50.680 --> 01:14:52.120]  so this is
+[01:14:52.120 --> 01:14:52.680]  a very,
+[01:14:52.780 --> 01:14:53.420]  very large
+[01:14:53.420 --> 01:14:54.340]  voltage gain,
+[01:14:54.340 --> 01:14:54.920]  and now
+[01:14:54.920 --> 01:14:55.720]  when we
+[01:14:55.720 --> 01:14:56.540]  factor in
+[01:14:56.540 --> 01:14:58.100]  the possibility
+[01:14:58.100 --> 01:14:59.600]  that we
+[01:14:59.600 --> 01:15:00.400]  have a
+[01:15:00.400 --> 01:15:01.560]  voltage source
+[01:15:01.560 --> 01:15:02.500]  which has
+[01:15:02.500 --> 01:15:03.440]  a finite
+[01:15:03.440 --> 01:15:04.600]  output
+[01:15:04.600 --> 01:15:05.340]  impedance,
+[01:15:05.840 --> 01:15:06.440]  a series
+[01:15:06.440 --> 01:15:06.900]  impedance
+[01:15:06.900 --> 01:15:08.020]  of 50 ohms,
+[01:15:08.580 --> 01:15:08.740]  alright,
+[01:15:09.340 --> 01:15:09.840]  this
+[01:15:09.840 --> 01:15:12.780]  146.41
+[01:15:12.780 --> 01:15:13.600]  voltage gain
+[01:15:13.600 --> 01:15:14.460]  will get
+[01:15:14.460 --> 01:15:15.060]  reduced
+[01:15:15.060 --> 01:15:16.440]  because of
+[01:15:16.440 --> 01:15:16.940]  the fact
+[01:15:16.940 --> 01:15:17.880]  that our
+[01:15:17.880 --> 01:15:18.940]  input
+[01:15:18.940 --> 01:15:19.600]  impedance
+[01:15:19.600 --> 01:15:19.980]  here,
+[01:15:20.280 --> 01:15:20.500]  alright,
+[01:15:20.500 --> 01:15:21.360]  our input
+[01:15:21.360 --> 01:15:21.940]  impedance
+[01:15:21.940 --> 01:15:23.780]  will divide,
+[01:15:24.320 --> 01:15:25.140]  will voltage
+[01:15:25.140 --> 01:15:26.260]  divide the
+[01:15:26.260 --> 01:15:27.320]  signal downward,
+[01:15:28.460 --> 01:15:28.700]  okay,
+[01:15:29.120 --> 01:15:29.780]  and we can
+[01:15:29.780 --> 01:15:30.840]  calculate that
+[01:15:30.840 --> 01:15:32.480]  by simply
+[01:15:32.480 --> 01:15:33.560]  looking at it
+[01:15:33.560 --> 01:15:34.520]  as a voltage
+[01:15:34.520 --> 01:15:35.260]  divider,
+[01:15:35.520 --> 01:15:36.020]  it's the
+[01:15:36.020 --> 01:15:37.320]  equivalent of
+[01:15:37.320 --> 01:15:38.200]  this
+[01:15:38.200 --> 01:15:41.360]  902.3
+[01:15:41.360 --> 01:15:42.000]  ohms,
+[01:15:42.200 --> 01:15:42.480]  alright,
+[01:15:43.080 --> 01:15:43.780]  in parallel
+[01:15:43.780 --> 01:15:44.340]  here,
+[01:15:44.840 --> 01:15:45.560]  along with
+[01:15:45.560 --> 01:15:46.120]  the source,
+[01:15:46.120 --> 01:15:46.480]  so it
+[01:15:46.480 --> 01:15:47.080]  forms a
+[01:15:47.080 --> 01:15:47.580]  voltage
+[01:15:47.580 --> 01:15:48.300]  divider
+[01:15:48.300 --> 01:15:48.940]  which
+[01:15:48.940 --> 01:15:49.480]  basically
+[01:15:49.480 --> 01:15:50.200]  looks like
+[01:15:50.200 --> 01:15:50.700]  this,
+[01:15:52.560 --> 01:15:52.780]  okay,
+[01:15:53.260 --> 01:15:55.600]  902.3
+[01:15:55.600 --> 01:15:56.160]  ohms,
+[01:15:56.880 --> 01:15:57.820]  and there
+[01:15:57.820 --> 01:15:58.580]  is our
+[01:15:58.580 --> 01:15:59.640]  signal source
+[01:15:59.640 --> 01:16:00.760]  with an
+[01:16:00.760 --> 01:16:01.240]  RS
+[01:16:01.240 --> 01:16:02.260]  equal to
+[01:16:02.260 --> 01:16:03.860]  50 ohms,
+[01:16:04.060 --> 01:16:04.580]  and so we
+[01:16:04.580 --> 01:16:04.960]  can see
+[01:16:04.960 --> 01:16:05.420]  that this
+[01:16:05.420 --> 01:16:05.940]  is a
+[01:16:05.940 --> 01:16:06.400]  voltage
+[01:16:06.400 --> 01:16:07.140]  divider,
+[01:16:07.780 --> 01:16:08.220]  and the
+[01:16:08.220 --> 01:16:08.660]  voltage
+[01:16:08.660 --> 01:16:09.280]  division
+[01:16:09.280 --> 01:16:10.840]  is basically,
+[01:16:11.080 --> 01:16:11.280]  alright,
+[01:16:12.660 --> 01:16:13.160]  the V
+[01:16:13.160 --> 01:16:13.840]  to the
+[01:16:13.840 --> 01:16:14.400]  base,
+[01:16:14.640 --> 01:16:14.960]  alright,
+[01:16:14.960 --> 01:16:16.020]  from the
+[01:16:16.020 --> 01:16:16.680]  VS,
+[01:16:17.580 --> 01:16:18.160]  VB
+[01:16:18.160 --> 01:16:18.920]  is equal
+[01:16:18.920 --> 01:16:19.340]  to
+[01:16:19.340 --> 01:16:20.380]  VS
+[01:16:20.380 --> 01:16:21.220]  multiplied
+[01:16:21.220 --> 01:16:21.940]  by
+[01:16:21.940 --> 01:16:25.460]  902.3
+[01:16:25.460 --> 01:16:26.220]  divided
+[01:16:26.220 --> 01:16:28.460]  by 902.3
+[01:16:28.460 --> 01:16:29.180]  plus
+[01:16:29.180 --> 01:16:30.480]  50 ohms,
+[01:16:30.640 --> 01:16:31.240]  which comes
+[01:16:31.240 --> 01:16:31.880]  from here,
+[01:16:32.620 --> 01:16:32.940]  right,
+[01:16:33.540 --> 01:16:33.960]  and that's
+[01:16:33.960 --> 01:16:34.640]  exactly what
+[01:16:34.640 --> 01:16:35.260]  this equation
+[01:16:35.260 --> 01:16:35.820]  is,
+[01:16:36.340 --> 01:16:36.660]  and
+[01:16:36.660 --> 01:16:37.800]  basically
+[01:16:37.800 --> 01:16:38.700]  what happens
+[01:16:38.700 --> 01:16:39.480]  now is
+[01:16:39.480 --> 01:16:39.960]  we get
+[01:16:39.960 --> 01:16:40.700]  a reduction,
+[01:16:40.700 --> 01:16:41.600]  and we can
+[01:16:41.600 --> 01:16:42.620]  directly calculate
+[01:16:42.620 --> 01:16:43.480]  this by
+[01:16:43.480 --> 01:16:44.740]  multiplying
+[01:16:44.740 --> 01:16:45.960]  the theoretical
+[01:16:45.960 --> 01:16:47.100]  voltage gain
+[01:16:47.100 --> 01:16:47.480]  that we
+[01:16:47.480 --> 01:16:47.800]  got
+[01:16:47.800 --> 01:16:49.160]  directly into
+[01:16:49.160 --> 01:16:50.360]  this ratio
+[01:16:50.360 --> 01:16:52.020]  of 902.3
+[01:16:52.020 --> 01:16:52.820]  divided by
+[01:16:52.820 --> 01:16:54.080]  902.3
+[01:16:54.080 --> 01:16:55.000]  plus 50,
+[01:16:55.420 --> 01:16:56.040]  and the
+[01:16:56.040 --> 01:16:56.760]  result of
+[01:16:56.760 --> 01:16:57.420]  that is
+[01:16:57.420 --> 01:16:58.140]  that our
+[01:16:58.140 --> 01:16:58.740]  new
+[01:16:58.740 --> 01:17:00.240]  voltage gain,
+[01:17:00.680 --> 01:17:01.000]  alright,
+[01:17:01.640 --> 01:17:03.160]  is reduced
+[01:17:03.160 --> 01:17:04.620]  from
+[01:17:04.620 --> 01:17:05.800]  146
+[01:17:05.800 --> 01:17:06.660]  to
+[01:17:06.660 --> 01:17:08.380]  138.
+[01:17:08.460 --> 01:17:08.840]  It's a
+[01:17:08.840 --> 01:17:09.920]  modest enough
+[01:17:09.920 --> 01:17:10.400]  reduction,
+[01:17:10.580 --> 01:17:11.080]  it's pretty
+[01:17:11.080 --> 01:17:11.600]  small,
+[01:17:11.600 --> 01:17:12.580]  okay,
+[01:17:12.880 --> 01:17:13.460]  and so,
+[01:17:14.060 --> 01:17:14.440]  and
+[01:17:14.440 --> 01:17:16.000]  you may
+[01:17:16.000 --> 01:17:16.340]  think,
+[01:17:16.600 --> 01:17:16.840]  okay,
+[01:17:16.940 --> 01:17:17.660]  maliit lang pala yung
+[01:17:17.660 --> 01:17:18.000]  effect,
+[01:17:18.160 --> 01:17:18.860]  eh kasi nga
+[01:17:18.860 --> 01:17:19.640]  ang source
+[01:17:19.640 --> 01:17:21.520]  impedance,
+[01:17:22.520 --> 01:17:22.760]  alright,
+[01:17:22.940 --> 01:17:23.420]  the source
+[01:17:23.420 --> 01:17:24.160]  impedance is
+[01:17:24.160 --> 01:17:24.760]  50 ohms,
+[01:17:24.820 --> 01:17:25.320]  which is
+[01:17:25.320 --> 01:17:26.500]  also very,
+[01:17:26.620 --> 01:17:27.080]  very low
+[01:17:27.080 --> 01:17:27.560]  impedance,
+[01:17:27.940 --> 01:17:28.160]  alright,
+[01:17:28.540 --> 01:17:29.160]  we're very
+[01:17:29.160 --> 01:17:30.160]  lucky if
+[01:17:30.160 --> 01:17:30.740]  we have
+[01:17:30.740 --> 01:17:31.180]  a source
+[01:17:31.180 --> 01:17:31.620]  impedance
+[01:17:31.620 --> 01:17:32.360]  that is
+[01:17:32.360 --> 01:17:33.160]  that low,
+[01:17:33.880 --> 01:17:34.240]  okay,
+[01:17:35.440 --> 01:17:36.000]  alright,
+[01:17:36.160 --> 01:17:36.800]  so there you go,
+[01:17:36.800 --> 01:17:39.480]  so if
+[01:17:39.480 --> 01:17:40.600]  we have
+[01:17:40.600 --> 01:17:41.360]  this
+[01:17:41.360 --> 01:17:42.360]  circuit,
+[01:17:42.860 --> 01:17:43.120]  alright,
+[01:17:43.420 --> 01:17:44.280]  if we have
+[01:17:44.280 --> 01:17:45.740]  this circuit
+[01:17:45.740 --> 01:17:47.500]  and we
+[01:17:47.500 --> 01:17:48.420]  connect it
+[01:17:48.420 --> 01:17:49.020]  to
+[01:17:49.020 --> 01:17:50.200]  a
+[01:17:50.200 --> 01:17:51.340]  voltage
+[01:17:51.340 --> 01:17:52.520]  source
+[01:17:52.520 --> 01:17:53.880]  with an
+[01:17:53.880 --> 01:17:54.540]  equivalent
+[01:17:54.540 --> 01:17:56.860]  output
+[01:17:56.860 --> 01:17:57.480]  impedance
+[01:17:57.480 --> 01:17:58.160]  of
+[01:17:58.160 --> 01:18:00.020]  50 ohms,
+[01:18:01.280 --> 01:18:01.860]  alright,
+[01:18:01.860 --> 01:18:01.860] 
+[01:18:01.860 --> 01:18:02.860]  okay,
+[01:18:02.860 --> 01:18:04.860]  so
+[01:18:06.800 --> 01:18:07.780]  based on
+[01:18:07.780 --> 01:18:08.220]  our
+[01:18:08.220 --> 01:18:09.280]  calculations,
+[01:18:10.160 --> 01:18:10.880]  we can
+[01:18:10.880 --> 01:18:11.920]  expect that
+[01:18:11.920 --> 01:18:12.420]  this
+[01:18:12.420 --> 01:18:12.940]  whole
+[01:18:12.940 --> 01:18:13.460]  circuit
+[01:18:13.460 --> 01:18:14.000]  that we
+[01:18:14.000 --> 01:18:14.660]  see here
+[01:18:14.660 --> 01:18:15.760]  will have
+[01:18:15.760 --> 01:18:16.420]  a voltage
+[01:18:16.420 --> 01:18:17.100]  gain of
+[01:18:17.100 --> 01:18:19.540]  138,
+[01:18:19.940 --> 01:18:20.280]  okay,
+[01:18:20.400 --> 01:18:20.920]  it will
+[01:18:20.920 --> 01:18:22.020]  multiply
+[01:18:22.020 --> 01:18:24.060]  the input
+[01:18:24.060 --> 01:18:24.840]  signal
+[01:18:24.840 --> 01:18:25.740]  that we
+[01:18:25.740 --> 01:18:26.380]  see here,
+[01:18:26.920 --> 01:18:27.360]  say for
+[01:18:27.360 --> 01:18:27.820]  example,
+[01:18:28.020 --> 01:18:28.580]  I'm getting
+[01:18:28.580 --> 01:18:30.260]  a 20
+[01:18:30.260 --> 01:18:31.400]  millivolts
+[01:18:31.400 --> 01:18:32.360]  peak-to-peak
+[01:18:32.360 --> 01:18:33.000]  signal,
+[01:18:34.120 --> 01:18:34.520]  okay,
+[01:18:34.520 --> 01:18:35.320]  if the
+[01:18:35.320 --> 01:18:35.840]  input
+[01:18:35.840 --> 01:18:36.400]  is a
+[01:18:36.400 --> 01:18:37.000]  20
+[01:18:37.000 --> 01:18:37.680]  millivolt
+[01:18:37.680 --> 01:18:38.220]  peak-to-peak
+[01:18:38.220 --> 01:18:38.500]  signal,
+[01:18:38.620 --> 01:18:38.960]  a very,
+[01:18:39.060 --> 01:18:39.540]  very small
+[01:18:39.540 --> 01:18:40.000]  signal,
+[01:18:40.500 --> 01:18:40.720]  alright,
+[01:18:41.280 --> 01:18:41.760]  20
+[01:18:41.760 --> 01:18:42.660]  millivolts
+[01:18:42.660 --> 01:18:43.840]  peak-to-peak
+[01:18:43.840 --> 01:18:44.360]  signal,
+[01:18:45.100 --> 01:18:47.460]  and
+[01:18:47.460 --> 01:18:49.040]  I put
+[01:18:49.040 --> 01:18:49.540]  it through
+[01:18:49.540 --> 01:18:49.900]  this
+[01:18:49.900 --> 01:18:50.720]  amplifier,
+[01:18:51.060 --> 01:18:51.640]  which we've
+[01:18:51.640 --> 01:18:52.380]  calculated
+[01:18:52.380 --> 01:18:53.140]  will have
+[01:18:53.140 --> 01:18:53.500]  a gain
+[01:18:53.500 --> 01:18:53.700]  of
+[01:18:53.700 --> 01:18:54.400]  approximately
+[01:18:54.400 --> 01:18:55.740]  138,
+[01:18:56.160 --> 01:18:56.940]  I am
+[01:18:56.940 --> 01:18:57.320]  going to
+[01:18:57.320 --> 01:18:57.780]  be able
+[01:18:57.780 --> 01:18:58.280]  to get
+[01:18:58.280 --> 01:18:58.940]  an output
+[01:18:58.940 --> 01:18:59.560]  signal here,
+[01:18:59.700 --> 01:18:59.880]  it's a
+[01:18:59.880 --> 01:19:00.180]  reverse
+[01:19:00.180 --> 01:19:00.820]  in phase,
+[01:19:01.180 --> 01:19:01.480]  alright,
+[01:19:01.480 --> 01:19:03.120]  that is
+[01:19:03.120 --> 01:19:04.080]  basically
+[01:19:04.080 --> 01:19:07.360]  2.76
+[01:19:07.360 --> 01:19:08.080]  volts
+[01:19:08.080 --> 01:19:09.500]  peak-to-peak,
+[01:19:09.840 --> 01:19:10.260]  there we
+[01:19:10.260 --> 01:19:10.640]  go,
+[01:19:11.020 --> 01:19:11.300]  alright,
+[01:19:12.460 --> 01:19:12.720]  alright,
+[01:19:13.240 --> 01:19:13.500]  so,
+[01:19:14.360 --> 01:19:15.360]  a very
+[01:19:15.360 --> 01:19:16.580]  large
+[01:19:16.580 --> 01:19:17.740]  amount
+[01:19:17.740 --> 01:19:18.340]  of
+[01:19:18.340 --> 01:19:19.800]  amplification
+[01:19:19.800 --> 01:19:22.580]  from
+[01:19:22.580 --> 01:19:23.980]  a single
+[01:19:23.980 --> 01:19:24.860]  transistor
+[01:19:24.860 --> 01:19:25.940]  circuit,
+[01:19:26.620 --> 01:19:26.940]  okay,
+[01:19:27.500 --> 01:19:28.000]  because the
+[01:19:28.000 --> 01:19:28.800]  voltage gain
+[01:19:28.800 --> 01:19:30.260]  is very
+[01:19:30.260 --> 01:19:31.100]  high at
+[01:19:31.100 --> 01:19:33.240]  138,
+[01:19:34.200 --> 01:19:34.420]  okay,
+[01:19:34.880 --> 01:19:35.120]  alright,
+[01:19:35.220 --> 01:19:35.500]  so there
+[01:19:35.500 --> 01:19:35.820]  you go,
+[01:19:35.960 --> 01:19:36.100]  so,
+[01:19:36.640 --> 01:19:37.140]  small little
+[01:19:37.140 --> 01:19:37.760]  signal going
+[01:19:37.760 --> 01:19:38.080]  in,
+[01:19:38.380 --> 01:19:38.660]  20
+[01:19:38.660 --> 01:19:39.100]  millivolts
+[01:19:39.100 --> 01:19:39.660]  peak-to-peak,
+[01:19:40.200 --> 01:19:41.160]  very decently
+[01:19:41.160 --> 01:19:41.720]  large,
+[01:19:42.420 --> 01:19:43.480]  2.76
+[01:19:43.480 --> 01:19:44.060]  volts
+[01:19:44.060 --> 01:19:44.840]  peak-to-peak
+[01:19:44.840 --> 01:19:45.800]  at the
+[01:19:45.800 --> 01:19:46.820]  amplifier
+[01:19:46.820 --> 01:19:47.680]  output,
+[01:19:48.400 --> 01:19:48.600]  alright,
+[01:19:48.740 --> 01:19:49.480]  transistors,
+[01:19:50.780 --> 01:19:51.600]  interesting,
+[01:19:52.040 --> 01:19:52.460]  they have
+[01:19:52.460 --> 01:19:53.520]  that ability
+[01:19:53.520 --> 01:19:54.260]  to
+[01:19:54.260 --> 01:19:55.480]  amplify,
+[01:19:56.400 --> 01:19:56.900]  okay,
+[01:19:57.060 --> 01:19:57.260]  alright,
+[01:19:57.400 --> 01:19:57.700]  so there
+[01:19:57.700 --> 01:19:58.040]  you go,
+[01:19:58.040 --> 01:19:59.080]  isn't that
+[01:19:59.080 --> 01:19:59.400]  cool,
+[01:19:59.680 --> 01:19:59.840]  alright,
+[01:20:00.480 --> 01:20:00.920]  questions,
+[01:20:03.880 --> 01:20:04.120]  alright,
+[01:20:04.680 --> 01:20:05.300]  questions,
+[01:20:06.060 --> 01:20:06.940]  any questions,
+[01:20:07.180 --> 01:20:07.480]  okay ba
+[01:20:07.480 --> 01:20:07.940]  tayo,
+[01:20:10.120 --> 01:20:10.440]  okay,
+[01:20:11.100 --> 01:20:12.300]  alright,
+[01:20:12.300 --> 01:20:15.560]  why is
+[01:20:15.560 --> 01:20:16.220]  the RS
+[01:20:16.220 --> 01:20:16.820]  50-O,
+[01:20:16.900 --> 01:20:17.540]  because that's
+[01:20:17.540 --> 01:20:18.120]  the example,
+[01:20:20.660 --> 01:20:20.940]  alright,
+[01:20:23.460 --> 01:20:24.100]  nakasulat
+[01:20:24.100 --> 01:20:24.480]  dito,
+[01:20:25.340 --> 01:20:25.700]  if
+[01:20:25.700 --> 01:20:26.740]  your source,
+[01:20:26.740 --> 01:20:28.660]  okay,
+[01:20:29.540 --> 01:20:31.200]  alright,
+[01:20:31.700 --> 01:20:32.320]  so let's
+[01:20:32.320 --> 01:20:33.040]  change the
+[01:20:33.040 --> 01:20:33.540]  assumption,
+[01:20:33.960 --> 01:20:34.120]  alright,
+[01:20:34.220 --> 01:20:34.620]  let's change
+[01:20:34.620 --> 01:20:35.080]  the assumption,
+[01:20:35.880 --> 01:20:36.640]  and say that
+[01:20:36.640 --> 01:20:37.780]  if your source
+[01:20:37.780 --> 01:20:38.640]  has a
+[01:20:38.640 --> 01:20:39.960]  source impedance
+[01:20:39.960 --> 01:20:40.480]  of
+[01:20:40.480 --> 01:20:42.620]  600 O,
+[01:20:42.620 --> 01:20:45.580]  how does
+[01:20:45.580 --> 01:20:46.600]  this change
+[01:20:46.600 --> 01:20:47.560]  the calculation,
+[01:20:47.780 --> 01:20:47.940]  well,
+[01:20:48.000 --> 01:20:48.400]  you can just
+[01:20:48.400 --> 01:20:49.220]  substitute it,
+[01:20:49.280 --> 01:20:49.480]  right,
+[01:20:49.560 --> 01:20:49.960]  you can just
+[01:20:49.960 --> 01:20:50.700]  substitute it,
+[01:20:50.880 --> 01:20:52.460]  so this
+[01:20:52.460 --> 01:20:53.200]  becomes
+[01:20:53.200 --> 01:20:54.080]  600,
+[01:20:55.520 --> 01:20:55.900]  okay,
+[01:20:56.600 --> 01:20:57.180]  and as
+[01:20:57.180 --> 01:20:57.660]  you'll see,
+[01:20:57.760 --> 01:20:58.300]  because of
+[01:20:58.300 --> 01:20:58.640]  that,
+[01:20:59.280 --> 01:20:59.820]  the voltage
+[01:20:59.820 --> 01:21:00.520]  gain that
+[01:21:00.520 --> 01:21:00.960]  the whole
+[01:21:00.960 --> 01:21:01.680]  circuit will
+[01:21:01.680 --> 01:21:02.460]  produce is
+[01:21:02.460 --> 01:21:03.220]  significantly
+[01:21:03.220 --> 01:21:04.280]  reduced,
+[01:21:05.220 --> 01:21:05.520]  alright,
+[01:21:05.520 --> 01:21:07.240]  it will be
+[01:21:07.240 --> 01:21:07.820]  much,
+[01:21:08.020 --> 01:21:09.060]  much smaller,
+[01:21:09.060 --> 01:21:10.580]  let's find
+[01:21:10.580 --> 01:21:11.040]  out by
+[01:21:11.040 --> 01:21:11.600]  how much,
+[01:21:11.760 --> 01:21:11.980]  okay,
+[01:21:12.240 --> 01:21:12.440]  so,
+[01:21:14.140 --> 01:21:15.780]  nine,
+[01:21:16.320 --> 01:21:17.160]  I'm gonna
+[01:21:17.160 --> 01:21:17.740]  try to
+[01:21:17.740 --> 01:21:18.340]  drop the
+[01:21:18.340 --> 01:21:19.640]  0.3,
+[01:21:19.800 --> 01:21:19.980]  okay,
+[01:21:20.020 --> 01:21:20.480]  in fact,
+[01:21:20.600 --> 01:21:21.040]  maybe you
+[01:21:21.040 --> 01:21:21.280]  just,
+[01:21:21.700 --> 01:21:21.980]  you know,
+[01:21:22.100 --> 01:21:23.200]  remove the
+[01:21:23.200 --> 01:21:24.540]  902,
+[01:21:24.700 --> 01:21:25.080]  and I'm
+[01:21:25.080 --> 01:21:25.340]  just going
+[01:21:25.340 --> 01:21:25.800]  to type
+[01:21:25.800 --> 01:21:27.100]  900 into
+[01:21:27.100 --> 01:21:27.980]  my calculator,
+[01:21:28.160 --> 01:21:28.320]  because,
+[01:21:28.740 --> 01:21:28.920]  yeah,
+[01:21:28.960 --> 01:21:29.880]  this is stupid,
+[01:21:30.040 --> 01:21:31.440]  900 2.3
+[01:21:31.440 --> 01:21:32.300]  versus 900,
+[01:21:32.580 --> 01:21:33.500]  so 900
+[01:21:33.500 --> 01:21:35.220]  divided by
+[01:21:35.220 --> 01:21:36.840]  900 plus
+[01:21:36.840 --> 01:21:37.740]  600,
+[01:21:38.620 --> 01:21:38.940]  okay,
+[01:21:39.060 --> 01:21:40.260]  gives us
+[01:21:40.260 --> 01:21:41.980]  a 0.6
+[01:21:41.980 --> 01:21:44.420]  division
+[01:21:44.420 --> 01:21:45.400]  factor
+[01:21:45.400 --> 01:21:46.440]  times
+[01:21:46.440 --> 01:21:48.580]  146,
+[01:21:49.420 --> 01:21:49.680]  alright,
+[01:21:50.280 --> 01:21:51.360]  gives us,
+[01:21:51.480 --> 01:21:52.140]  alright,
+[01:21:52.680 --> 01:21:54.080]  the
+[01:21:54.080 --> 01:21:55.020]  equivalent
+[01:21:55.020 --> 01:21:55.620]  gain,
+[01:21:55.680 --> 01:21:55.920]  na wala
+[01:21:55.920 --> 01:21:56.500]  ang tempo,
+[01:21:57.040 --> 01:21:57.940]  of just
+[01:21:57.940 --> 01:22:00.960]  87.6,
+[01:22:01.200 --> 01:22:01.520]  alright,
+[01:22:02.140 --> 01:22:02.640]  so nakita
+[01:22:02.640 --> 01:22:03.080]  nyo yung
+[01:22:03.080 --> 01:22:04.140]  malaking
+[01:22:04.140 --> 01:22:04.820]  difference,
+[01:22:05.080 --> 01:22:05.300]  okay,
+[01:22:05.440 --> 01:22:05.620]  so,
+[01:22:06.180 --> 01:22:06.800]  the source
+[01:22:06.800 --> 01:22:07.500]  impedance,
+[01:22:08.460 --> 01:22:08.820]  alright,
+[01:22:08.820 --> 01:22:09.480]  being
+[01:22:09.480 --> 01:22:11.740]  low
+[01:22:11.740 --> 01:22:12.280]  at
+[01:22:12.280 --> 01:22:13.840]  50 ohms,
+[01:22:14.220 --> 01:22:15.120]  means that
+[01:22:15.120 --> 01:22:16.160]  the input
+[01:22:16.160 --> 01:22:16.620]  impedance
+[01:22:16.620 --> 01:22:17.440]  has only
+[01:22:17.440 --> 01:22:17.920]  a small
+[01:22:17.920 --> 01:22:18.340]  effect,
+[01:22:19.020 --> 01:22:19.880]  only a small
+[01:22:19.880 --> 01:22:20.380]  voltage
+[01:22:20.380 --> 01:22:20.940]  division,
+[01:22:21.660 --> 01:22:21.980]  pero
+[01:22:21.980 --> 01:22:22.560]  kung
+[01:22:22.560 --> 01:22:23.980]  significant,
+[01:22:24.400 --> 01:22:25.320]  more significant,
+[01:22:25.520 --> 01:22:25.980]  and more
+[01:22:25.980 --> 01:22:26.520]  realistic,
+[01:22:26.720 --> 01:22:27.160]  in fact,
+[01:22:27.980 --> 01:22:28.400]  source
+[01:22:28.400 --> 01:22:29.020]  impedance,
+[01:22:29.160 --> 01:22:29.300]  mo,
+[01:22:30.660 --> 01:22:30.880]  okay,
+[01:22:30.940 --> 01:22:31.620]  at 600
+[01:22:31.620 --> 01:22:32.260]  ohms,
+[01:22:32.260 --> 01:22:33.400]  then the
+[01:22:33.400 --> 01:22:33.740]  gain
+[01:22:33.740 --> 01:22:34.780]  drops off
+[01:22:34.780 --> 01:22:36.320]  quite a
+[01:22:36.320 --> 01:22:36.580]  lot,
+[01:22:36.580 --> 01:22:37.360]  okay,
+[01:22:38.700 --> 01:22:39.300]  got that,
+[01:22:39.460 --> 01:22:39.660]  now,
+[01:22:40.060 --> 01:22:40.880]  watch this,
+[01:22:41.160 --> 01:22:41.360]  alright,
+[01:22:41.660 --> 01:22:42.500]  this is even
+[01:22:42.500 --> 01:22:43.020]  worse,
+[01:22:43.020 --> 01:22:45.800]  think about
+[01:22:45.800 --> 01:22:46.800]  what is
+[01:22:46.800 --> 01:22:47.240]  going to
+[01:22:47.240 --> 01:22:47.840]  happen,
+[01:22:48.540 --> 01:22:48.880]  okay,
+[01:22:48.880 --> 01:22:50.120]  think about
+[01:22:50.120 --> 01:22:50.840]  what would
+[01:22:50.840 --> 01:22:52.080]  happen if
+[01:22:52.080 --> 01:22:54.120]  I have
+[01:22:54.120 --> 01:22:56.440]  a signal
+[01:22:56.440 --> 01:22:57.420]  source here,
+[01:22:57.920 --> 01:22:58.180]  alright,
+[01:22:58.180 --> 01:23:01.280]  and this
+[01:23:01.280 --> 01:23:02.240]  output
+[01:23:02.240 --> 01:23:04.120]  of this
+[01:23:04.120 --> 01:23:04.900]  circuit
+[01:23:04.900 --> 01:23:07.020]  is connected
+[01:23:07.020 --> 01:23:08.360]  to another
+[01:23:08.360 --> 01:23:09.420]  one just
+[01:23:09.420 --> 01:23:10.080]  like it,
+[01:23:10.080 --> 01:23:12.340]  okay,
+[01:23:12.960 --> 01:23:14.120]  what would
+[01:23:14.120 --> 01:23:15.140]  the overall
+[01:23:15.140 --> 01:23:16.420]  effect be,
+[01:23:17.420 --> 01:23:17.660]  alright,
+[01:23:17.780 --> 01:23:18.200]  what would
+[01:23:18.200 --> 01:23:18.600]  be the
+[01:23:18.600 --> 01:23:19.020]  overall
+[01:23:19.020 --> 01:23:19.460]  effect,
+[01:23:19.580 --> 01:23:19.740]  so,
+[01:23:20.120 --> 01:23:20.600]  in other
+[01:23:20.600 --> 01:23:20.920]  words,
+[01:23:21.080 --> 01:23:21.300]  this
+[01:23:21.300 --> 01:23:21.840]  circuit,
+[01:23:22.160 --> 01:23:22.380]  alright,
+[01:23:23.440 --> 01:23:23.800]  circuit
+[01:23:23.800 --> 01:23:24.860]  one,
+[01:23:25.520 --> 01:23:26.020]  what would
+[01:23:26.020 --> 01:23:26.640]  happen if
+[01:23:26.640 --> 01:23:27.080]  you have
+[01:23:27.080 --> 01:23:27.780]  circuit
+[01:23:27.780 --> 01:23:28.740]  one
+[01:23:28.740 --> 01:23:29.560]  connected
+[01:23:29.560 --> 01:23:30.880]  to another
+[01:23:30.880 --> 01:23:32.060]  circuit
+[01:23:32.060 --> 01:23:32.480]  one,
+[01:23:32.620 --> 01:23:33.480]  a cascade,
+[01:23:33.760 --> 01:23:34.160]  in other
+[01:23:34.160 --> 01:23:34.460]  words,
+[01:23:34.880 --> 01:23:35.020]  so,
+[01:23:35.140 --> 01:23:35.780]  I have a
+[01:23:35.780 --> 01:23:36.500]  signal source
+[01:23:36.500 --> 01:23:37.740]  here going
+[01:23:37.740 --> 01:23:38.200]  in,
+[01:23:38.700 --> 01:23:39.360]  what is
+[01:23:39.360 --> 01:23:39.600]  the
+[01:23:39.600 --> 01:23:40.280]  expected
+[01:23:40.280 --> 01:23:41.720]  output
+[01:23:41.720 --> 01:23:42.740]  signal,
+[01:23:43.380 --> 01:23:43.640]  alright,
+[01:23:44.160 --> 01:23:44.880]  how big
+[01:23:44.880 --> 01:23:45.460]  is the
+[01:23:45.460 --> 01:23:46.100]  expected
+[01:23:46.100 --> 01:23:46.880]  output
+[01:23:46.880 --> 01:23:47.320]  signal,
+[01:23:47.460 --> 01:23:47.780]  what is
+[01:23:47.780 --> 01:23:48.080]  the
+[01:23:48.080 --> 01:23:48.880]  overall
+[01:23:48.880 --> 01:23:49.940]  voltage
+[01:23:49.940 --> 01:23:50.360]  gain
+[01:23:50.360 --> 01:23:51.240]  of such
+[01:23:51.240 --> 01:23:52.240]  a
+[01:23:52.240 --> 01:23:52.720]  circuit
+[01:23:52.720 --> 01:23:54.640]  combined,
+[01:23:54.860 --> 01:23:55.760]  a cascade
+[01:23:55.760 --> 01:23:57.360]  of these
+[01:23:57.360 --> 01:23:58.220]  two guys
+[01:23:58.220 --> 01:23:59.320]  put together,
+[01:23:59.460 --> 01:23:59.560]  now,
+[01:23:59.640 --> 01:24:00.120]  you might be
+[01:24:00.120 --> 01:24:00.440]  thinking,
+[01:24:00.600 --> 01:24:00.900]  wow,
+[01:24:00.960 --> 01:24:01.600]  the voltage
+[01:24:01.600 --> 01:24:02.080]  gain is
+[01:24:02.080 --> 01:24:02.440]  going to
+[01:24:02.440 --> 01:24:03.760]  be humongous,
+[01:24:04.260 --> 01:24:04.460]  alright,
+[01:24:04.580 --> 01:24:05.000]  you'd think
+[01:24:05.000 --> 01:24:05.320]  that the
+[01:24:05.320 --> 01:24:05.900]  voltage gain
+[01:24:05.900 --> 01:24:06.200]  is going
+[01:24:06.200 --> 01:24:06.500]  to be
+[01:24:06.500 --> 01:24:07.380]  humongous
+[01:24:07.380 --> 01:24:07.680]  because
+[01:24:07.680 --> 01:24:08.520]  if the
+[01:24:08.520 --> 01:24:09.060]  first
+[01:24:09.060 --> 01:24:09.540]  stage
+[01:24:09.540 --> 01:24:09.960]  has a
+[01:24:09.960 --> 01:24:10.120]  gain
+[01:24:10.120 --> 01:24:10.600]  of about
+[01:24:10.600 --> 01:24:11.320]  140
+[01:24:11.320 --> 01:24:12.260]  and the
+[01:24:12.260 --> 01:24:12.520]  second
+[01:24:12.520 --> 01:24:12.880]  stage
+[01:24:12.880 --> 01:24:13.420]  has another
+[01:24:13.420 --> 01:24:14.180]  140,
+[01:24:14.640 --> 01:24:14.980]  you'll get
+[01:24:14.980 --> 01:24:15.140]  a
+[01:24:15.140 --> 01:24:15.800]  multiplication
+[01:24:15.800 --> 01:24:16.820]  effect,
+[01:24:17.100 --> 01:24:17.400]  right,
+[01:24:17.980 --> 01:24:18.740]  140
+[01:24:18.740 --> 01:24:19.500]  multiplied
+[01:24:19.500 --> 01:24:20.360]  to 140
+[01:24:20.360 --> 01:24:20.880]  is a
+[01:24:20.880 --> 01:24:21.820]  humongous
+[01:24:21.820 --> 01:24:22.200]  amount
+[01:24:22.200 --> 01:24:22.600]  of
+[01:24:22.600 --> 01:24:23.760]  magnification,
+[01:24:23.980 --> 01:24:24.160]  well,
+[01:24:24.800 --> 01:24:25.440]  unfortunately,
+[01:24:25.760 --> 01:24:26.220]  that's not
+[01:24:26.220 --> 01:24:26.720]  what's going
+[01:24:26.720 --> 01:24:27.260]  to happen
+[01:24:27.260 --> 01:24:27.860]  because
+[01:24:27.860 --> 01:24:29.260]  your
+[01:24:29.260 --> 01:24:30.380]  first
+[01:24:30.380 --> 01:24:31.060]  circuit,
+[01:24:31.620 --> 01:24:31.900]  so,
+[01:24:32.020 --> 01:24:32.180]  I like
+[01:24:32.180 --> 01:24:32.560]  to point
+[01:24:32.560 --> 01:24:33.240]  this out,
+[01:24:33.640 --> 01:24:33.840]  alright,
+[01:24:33.840 --> 01:24:34.460]  your first
+[01:24:34.460 --> 01:24:34.840]  circuit
+[01:24:34.840 --> 01:24:36.640]  has this
+[01:24:36.640 --> 01:24:37.360]  very large
+[01:24:37.360 --> 01:24:38.320]  voltage gain
+[01:24:38.320 --> 01:24:39.300]  because you're
+[01:24:39.300 --> 01:24:40.120]  assuming that
+[01:24:40.120 --> 01:24:40.740]  this thing
+[01:24:40.740 --> 01:24:41.600]  is driving
+[01:24:41.600 --> 01:24:42.720]  nothing,
+[01:24:43.460 --> 01:24:44.180]  it's driving
+[01:24:44.180 --> 01:24:45.020]  infinity
+[01:24:45.020 --> 01:24:46.280]  resistance,
+[01:24:47.280 --> 01:24:47.960]  but if
+[01:24:47.960 --> 01:24:48.480]  you put
+[01:24:48.480 --> 01:24:49.760]  another one
+[01:24:49.760 --> 01:24:50.660]  just like
+[01:24:50.660 --> 01:24:51.840]  this here,
+[01:24:52.620 --> 01:24:53.780]  then what
+[01:24:53.780 --> 01:24:54.240]  is that
+[01:24:54.240 --> 01:24:54.860]  the equivalent
+[01:24:54.860 --> 01:24:55.420]  of?
+[01:24:55.540 --> 01:24:55.780]  Well,
+[01:24:55.940 --> 01:24:56.440]  that's the
+[01:24:56.440 --> 01:24:56.880]  equivalent
+[01:24:56.880 --> 01:24:58.320]  of having
+[01:24:58.320 --> 01:24:59.080]  a load
+[01:24:59.080 --> 01:24:59.820]  resistance
+[01:24:59.820 --> 01:25:00.460]  of
+[01:25:00.460 --> 01:25:03.820]  902.3,
+[01:25:03.840 --> 01:25:04.400]  ohms,
+[01:25:05.100 --> 01:25:05.660]  okay?
+[01:25:06.420 --> 01:25:06.960]  So,
+[01:25:07.040 --> 01:25:07.300]  you'll see
+[01:25:07.300 --> 01:25:07.860]  how shitty
+[01:25:07.860 --> 01:25:08.440]  this turns
+[01:25:08.440 --> 01:25:09.080]  out to be
+[01:25:09.080 --> 01:25:09.640]  because
+[01:25:09.640 --> 01:25:11.280]  this means
+[01:25:11.280 --> 01:25:11.820]  that
+[01:25:11.820 --> 01:25:13.280]  the output
+[01:25:13.280 --> 01:25:17.100]  1k
+[01:25:17.100 --> 01:25:19.060]  is driving
+[01:25:19.060 --> 01:25:20.560]  something
+[01:25:20.560 --> 01:25:21.120]  which is
+[01:25:21.120 --> 01:25:21.700]  rated at
+[01:25:21.700 --> 01:25:24.600]  902.3,
+[01:25:25.760 --> 01:25:26.060]  yeah,
+[01:25:26.380 --> 01:25:26.680]  right,
+[01:25:26.780 --> 01:25:27.180]  and so
+[01:25:27.180 --> 01:25:28.900]  what will
+[01:25:28.900 --> 01:25:29.340]  happen
+[01:25:29.340 --> 01:25:30.200]  is that
+[01:25:30.200 --> 01:25:31.140]  because
+[01:25:31.140 --> 01:25:31.720]  these are
+[01:25:31.720 --> 01:25:32.360]  almost
+[01:25:32.360 --> 01:25:33.160]  equal in
+[01:25:33.160 --> 01:25:33.620]  value,
+[01:25:33.840 --> 01:25:34.460]  you can
+[01:25:34.460 --> 01:25:35.200]  see that
+[01:25:35.200 --> 01:25:35.980]  the voltage
+[01:25:35.980 --> 01:25:36.480]  gain
+[01:25:36.480 --> 01:25:37.720]  instead of
+[01:25:37.720 --> 01:25:37.980]  being
+[01:25:37.980 --> 01:25:39.060]  140,
+[01:25:39.860 --> 01:25:40.100]  is
+[01:25:40.100 --> 01:25:41.000]  fantastically
+[01:25:41.000 --> 01:25:41.900]  going to
+[01:25:41.900 --> 01:25:42.980]  be much,
+[01:25:43.200 --> 01:25:43.560]  much,
+[01:25:43.760 --> 01:25:44.100]  much,
+[01:25:44.100 --> 01:25:45.340]  much lower,
+[01:25:46.340 --> 01:25:46.660]  okay?
+[01:25:47.420 --> 01:25:48.060]  All right?
+[01:25:50.000 --> 01:25:50.340]  And so
+[01:25:50.340 --> 01:25:51.120]  this is the
+[01:25:51.120 --> 01:25:52.280]  harsh reality
+[01:25:52.280 --> 01:25:52.900]  of it.
+[01:25:53.400 --> 01:25:54.360]  The problem
+[01:25:54.360 --> 01:25:55.000]  essentially
+[01:25:55.000 --> 01:25:56.220]  with the
+[01:25:56.220 --> 01:25:56.880]  common
+[01:25:56.880 --> 01:25:57.460]  emitter
+[01:25:57.460 --> 01:25:58.200]  configuration
+[01:25:58.200 --> 01:25:59.580]  is that
+[01:25:59.580 --> 01:26:00.460]  output
+[01:26:00.460 --> 01:26:01.100]  impedance
+[01:26:01.100 --> 01:26:02.480]  if you
+[01:26:02.480 --> 01:26:03.020]  have a
+[01:26:03.020 --> 01:26:03.480]  very high
+[01:26:03.480 --> 01:26:03.900]  voltage
+[01:26:03.900 --> 01:26:04.260]  gain
+[01:26:04.260 --> 01:26:04.840]  configuration
+[01:26:04.840 --> 01:26:05.640]  circuit,
+[01:26:06.640 --> 01:26:07.200]  most,
+[01:26:07.460 --> 01:26:08.100]  if not
+[01:26:08.100 --> 01:26:08.600]  all of
+[01:26:08.600 --> 01:26:09.220]  that voltage
+[01:26:09.220 --> 01:26:10.020]  gain is
+[01:26:10.020 --> 01:26:10.620]  derived
+[01:26:10.620 --> 01:26:11.280]  from
+[01:26:11.280 --> 01:26:12.660]  having a
+[01:26:12.660 --> 01:26:13.160]  high
+[01:26:13.160 --> 01:26:14.060]  output
+[01:26:14.060 --> 01:26:15.960]  collector
+[01:26:15.960 --> 01:26:16.520]  resistor.
+[01:26:16.520 --> 01:26:16.600]  resistor.
+[01:26:17.800 --> 01:26:18.660]  And because
+[01:26:18.660 --> 01:26:19.540]  the resistor
+[01:26:19.540 --> 01:26:20.100]  at the
+[01:26:20.100 --> 01:26:20.460]  collector
+[01:26:20.460 --> 01:26:21.080]  is fairly
+[01:26:21.080 --> 01:26:21.480]  high in
+[01:26:21.480 --> 01:26:21.740]  value,
+[01:26:22.040 --> 01:26:22.460]  in this
+[01:26:22.460 --> 01:26:22.860]  particular
+[01:26:22.860 --> 01:26:23.520]  example,
+[01:26:23.680 --> 01:26:24.060]  in fact,
+[01:26:24.140 --> 01:26:24.480]  this is
+[01:26:24.480 --> 01:26:25.160]  not considered
+[01:26:25.160 --> 01:26:25.660]  to be a
+[01:26:25.660 --> 01:26:26.080]  particularly
+[01:26:26.080 --> 01:26:26.960]  high value,
+[01:26:27.360 --> 01:26:27.640]  all right?
+[01:26:28.200 --> 01:26:29.000]  1k is
+[01:26:29.000 --> 01:26:29.720]  pretty low
+[01:26:29.720 --> 01:26:30.940]  as an
+[01:26:30.940 --> 01:26:31.360]  output
+[01:26:31.360 --> 01:26:31.900]  resistor
+[01:26:31.900 --> 01:26:32.400]  value,
+[01:26:32.600 --> 01:26:33.940]  but you
+[01:26:33.940 --> 01:26:34.480]  can see
+[01:26:34.480 --> 01:26:35.240]  that it
+[01:26:35.240 --> 01:26:36.040]  does not
+[01:26:36.040 --> 01:26:36.560]  have the
+[01:26:36.560 --> 01:26:37.080]  ability
+[01:26:37.080 --> 01:26:37.920]  to drive
+[01:26:37.920 --> 01:26:38.960]  any form
+[01:26:38.960 --> 01:26:39.980]  of low
+[01:26:39.980 --> 01:26:40.540]  impedance,
+[01:26:40.540 --> 01:26:42.000]  all right?
+[01:26:42.360 --> 01:26:42.880]  Because
+[01:26:42.880 --> 01:26:44.760]  a low
+[01:26:44.760 --> 01:26:45.140]  impedance
+[01:26:45.140 --> 01:26:45.640]  just
+[01:26:45.640 --> 01:26:46.520]  crunches
+[01:26:46.520 --> 01:26:47.080]  down
+[01:26:47.080 --> 01:26:48.460]  all of
+[01:26:48.460 --> 01:26:48.780]  that
+[01:26:48.780 --> 01:26:49.480]  voltage
+[01:26:49.480 --> 01:26:49.960]  gain,
+[01:26:50.760 --> 01:26:51.240]  all right?
+[01:26:52.200 --> 01:26:52.500]  Okay,
+[01:26:52.500 --> 01:26:53.220]  so you
+[01:26:53.220 --> 01:26:53.700]  can try
+[01:26:53.700 --> 01:26:54.200]  doing the
+[01:26:54.200 --> 01:26:54.760]  calculations
+[01:26:54.760 --> 01:26:55.600]  and see
+[01:26:55.600 --> 01:26:56.500]  how terrible
+[01:26:56.500 --> 01:26:57.300]  this is.
+[01:26:58.180 --> 01:26:58.740]  And so
+[01:26:58.740 --> 01:27:00.380]  because it's
+[01:27:00.380 --> 01:27:01.300]  9 o'clock,
+[01:27:01.960 --> 01:27:02.380]  all right,
+[01:27:02.420 --> 01:27:03.380]  it's 9 o'clock,
+[01:27:04.460 --> 01:27:05.000]  can we
+[01:27:05.000 --> 01:27:05.820]  just very
+[01:27:05.820 --> 01:27:06.720]  quickly go
+[01:27:06.720 --> 01:27:07.160]  through
+[01:27:07.160 --> 01:27:08.280]  this one,
+[01:27:09.100 --> 01:27:09.380]  okay?
+[01:27:09.380 --> 01:27:10.660]  Please take
+[01:27:10.660 --> 01:27:11.480]  a quick
+[01:27:11.480 --> 01:27:12.480]  snapshot of
+[01:27:12.480 --> 01:27:13.000]  this if
+[01:27:13.000 --> 01:27:13.460]  you like
+[01:27:13.460 --> 01:27:14.700]  and try
+[01:27:14.700 --> 01:27:15.160]  it out,
+[01:27:15.840 --> 01:27:17.280]  okay?
+[01:27:18.780 --> 01:27:20.080]  So duplicate
+[01:27:20.080 --> 01:27:20.860]  the circuit
+[01:27:20.860 --> 01:27:21.980]  in LTSpice,
+[01:27:22.700 --> 01:27:23.080]  okay,
+[01:27:23.440 --> 01:27:24.600]  using a
+[01:27:24.600 --> 01:27:25.120]  dot model
+[01:27:25.120 --> 01:27:25.880]  statement for
+[01:27:25.880 --> 01:27:26.520]  the transistor
+[01:27:26.520 --> 01:27:27.580]  setting the
+[01:27:27.580 --> 01:27:28.880]  BF to
+[01:27:28.880 --> 01:27:29.520]  the required
+[01:27:29.520 --> 01:27:30.120]  value,
+[01:27:30.720 --> 01:27:31.100]  all right?
+[01:27:31.360 --> 01:27:32.720]  So redo
+[01:27:32.720 --> 01:27:33.680]  the calculation
+[01:27:33.680 --> 01:27:34.460]  with an AC
+[01:27:34.460 --> 01:27:34.840]  and DC
+[01:27:34.840 --> 01:27:35.700]  beta of
+[01:27:35.700 --> 01:27:36.320]  200,
+[01:27:37.080 --> 01:27:37.840]  and then,
+[01:27:38.460 --> 01:27:38.920]  all right,
+[01:27:39.380 --> 01:27:40.860]  try duplicating
+[01:27:40.860 --> 01:27:42.000]  this in
+[01:27:42.000 --> 01:27:43.060]  LTSpice
+[01:27:43.060 --> 01:27:45.580]  and see
+[01:27:45.580 --> 01:27:46.940]  what kind
+[01:27:46.940 --> 01:27:48.060]  of voltage
+[01:27:48.060 --> 01:27:48.980]  gain that
+[01:27:48.980 --> 01:27:49.360]  you get.
+[01:27:49.880 --> 01:27:51.040]  Will LTSpice
+[01:27:51.040 --> 01:27:51.900]  produce the
+[01:27:51.900 --> 01:27:52.700]  same result
+[01:27:52.700 --> 01:27:54.720]  with a
+[01:27:54.720 --> 01:27:55.480]  1 kHz
+[01:27:55.480 --> 01:27:56.160]  sine wave,
+[01:27:56.840 --> 01:27:57.280]  all right,
+[01:27:57.480 --> 01:27:58.240]  15 mV
+[01:27:58.240 --> 01:27:58.800]  amplitude,
+[01:27:59.380 --> 01:27:59.840]  how do you
+[01:27:59.840 --> 01:28:00.160]  get the
+[01:28:00.160 --> 01:28:00.900]  voltage gain?
+[01:28:00.900 --> 01:28:02.440]  you look at
+[01:28:02.440 --> 01:28:03.320]  the output
+[01:28:03.320 --> 01:28:04.000]  amplitude
+[01:28:04.000 --> 01:28:05.680]  of your
+[01:28:05.680 --> 01:28:06.360]  simulation,
+[01:28:07.400 --> 01:28:08.360]  get its
+[01:28:08.360 --> 01:28:09.220]  peak-to-peak
+[01:28:09.220 --> 01:28:09.780]  value,
+[01:28:10.300 --> 01:28:10.980]  and divide
+[01:28:10.980 --> 01:28:11.680]  that by
+[01:28:11.680 --> 01:28:12.820]  the input
+[01:28:12.820 --> 01:28:13.480]  amplitude,
+[01:28:14.220 --> 01:28:15.340]  and see
+[01:28:15.340 --> 01:28:16.080]  what voltage
+[01:28:16.080 --> 01:28:16.500]  gain that
+[01:28:16.500 --> 01:28:16.840]  you get.
+[01:28:17.280 --> 01:28:17.960]  Is it
+[01:28:17.960 --> 01:28:19.520]  close to
+[01:28:19.520 --> 01:28:20.180]  the
+[01:28:20.180 --> 01:28:21.120]  hand
+[01:28:21.120 --> 01:28:22.000]  calculations
+[01:28:22.000 --> 01:28:23.000]  that you
+[01:28:23.000 --> 01:28:23.380]  did
+[01:28:23.380 --> 01:28:24.520]  using
+[01:28:24.520 --> 01:28:24.940]  the
+[01:28:24.940 --> 01:28:25.560]  RE
+[01:28:25.560 --> 01:28:27.200]  model
+[01:28:27.200 --> 01:28:27.820]  or not?
+[01:28:28.040 --> 01:28:28.920]  And what
+[01:28:28.920 --> 01:28:29.240]  you're going
+[01:28:29.240 --> 01:28:29.620]  to get
+[01:28:29.620 --> 01:28:30.000]  is that
+[01:28:30.000 --> 01:28:30.680]  it's not
+[01:28:30.680 --> 01:28:31.520]  that
+[01:28:31.520 --> 01:28:32.400]  close,
+[01:28:32.460 --> 01:28:33.060]  but you
+[01:28:33.060 --> 01:28:33.560]  get a
+[01:28:33.560 --> 01:28:34.200]  ballpark
+[01:28:34.200 --> 01:28:34.620]  figure,
+[01:28:35.080 --> 01:28:35.620]  more or
+[01:28:35.620 --> 01:28:35.960]  less
+[01:28:35.960 --> 01:28:37.740]  the same,
+[01:28:38.220 --> 01:28:38.620]  hopefully.
+[01:28:40.220 --> 01:28:40.640]  And it's
+[01:28:40.640 --> 01:28:41.280]  out by a
+[01:28:41.280 --> 01:28:41.940]  factor of
+[01:28:41.940 --> 01:28:43.940]  1.2
+[01:28:43.940 --> 01:28:45.100]  or so,
+[01:28:46.000 --> 01:28:46.400]  all right?
+[01:28:46.900 --> 01:28:47.860]  And insert
+[01:28:47.860 --> 01:28:48.940]  the source
+[01:28:48.940 --> 01:28:49.660]  resistance of
+[01:28:49.660 --> 01:28:50.240]  50 ohms,
+[01:28:50.380 --> 01:28:51.040]  and again,
+[01:28:51.160 --> 01:28:51.660]  you can play
+[01:28:51.660 --> 01:28:52.160]  around with
+[01:28:52.160 --> 01:28:52.340]  this.
+[01:28:52.340 --> 01:28:52.860]  What happens
+[01:28:52.860 --> 01:28:53.180]  if you
+[01:28:53.180 --> 01:28:53.520]  make it
+[01:28:53.520 --> 01:28:54.440]  600 ohms?
+[01:28:54.840 --> 01:28:55.400]  What happens
+[01:28:55.400 --> 01:28:55.900]  if you,
+[01:28:56.040 --> 01:28:56.320]  you know,
+[01:28:56.860 --> 01:28:57.640]  and of
+[01:28:57.640 --> 01:28:57.960]  course,
+[01:28:58.240 --> 01:28:58.820]  you can also
+[01:28:58.820 --> 01:28:59.640]  try and
+[01:28:59.640 --> 01:29:00.200]  do this
+[01:29:00.200 --> 01:29:00.840]  calculation.
+[01:29:01.100 --> 01:29:01.640]  What happens
+[01:29:01.640 --> 01:29:02.180]  if I have
+[01:29:02.180 --> 01:29:02.600]  two of
+[01:29:02.600 --> 01:29:03.220]  these amplifier
+[01:29:03.220 --> 01:29:03.960]  circuits put
+[01:29:03.960 --> 01:29:04.320]  together?
+[01:29:04.880 --> 01:29:05.200]  All right?
+[01:29:05.540 --> 01:29:06.240]  And you'll
+[01:29:06.240 --> 01:29:06.900]  find out a
+[01:29:06.900 --> 01:29:07.340]  lot of
+[01:29:07.340 --> 01:29:07.940]  things about
+[01:29:07.940 --> 01:29:08.420]  these
+[01:29:08.420 --> 01:29:10.920]  transistor
+[01:29:10.920 --> 01:29:11.520]  circuits.
+[01:29:11.840 --> 01:29:11.960]  Okay?
+[01:29:12.360 --> 01:29:12.660]  All right.
+[01:29:12.760 --> 01:29:13.000]  So,
+[01:29:13.580 --> 01:29:14.160]  unfortunately,
+[01:29:14.540 --> 01:29:15.220]  I have to
+[01:29:15.220 --> 01:29:15.920]  stop here.
+[01:29:16.340 --> 01:29:16.800]  We'll get
+[01:29:16.800 --> 01:29:17.360]  back into
+[01:29:17.360 --> 01:29:17.800]  this,
+[01:29:18.320 --> 01:29:18.640]  you know,
+[01:29:18.720 --> 01:29:19.120]  in the
+[01:29:19.120 --> 01:29:19.840]  next meeting
+[01:29:19.840 --> 01:29:20.500]  where,
+[01:29:20.820 --> 01:29:21.600]  hopefully,
+[01:29:21.720 --> 01:29:21.960]  there are
+[01:29:21.960 --> 01:29:22.320]  no more
+[01:29:22.320 --> 01:29:23.000]  disruptions
+[01:29:23.000 --> 01:29:23.380]  and we'll
+[01:29:23.380 --> 01:29:23.840]  be face
+[01:29:23.840 --> 01:29:24.320]  to face.
+[01:29:24.680 --> 01:29:24.820]  Okay?
+[01:29:25.340 --> 01:29:25.620]  So,
+[01:29:25.820 --> 01:29:26.380]  thank you.
+[01:29:26.860 --> 01:29:26.860] 
+[01:29:26.920 --> 01:29:27.500]  yeah,
+[01:29:27.580 --> 01:29:28.060]  before we
+[01:29:28.060 --> 01:29:28.240]  go,
+[01:29:28.340 --> 01:29:28.580]  are there
+[01:29:28.580 --> 01:29:29.200]  any questions?
+[01:29:29.340 --> 01:29:29.620]  I hope
+[01:29:29.620 --> 01:29:30.500]  there's none,
+[01:29:30.920 --> 01:29:31.340]  I suppose.
+[01:29:33.140 --> 01:29:33.480]  All right.
+[01:29:33.700 --> 01:29:33.880]  Wala!
+[01:29:37.080 --> 01:29:37.640]  Okay.
+[01:29:38.100 --> 01:29:38.260]  So,
+[01:29:38.360 --> 01:29:38.820]  kung wala,
+[01:29:39.220 --> 01:29:39.500]  wala!
+[01:29:41.840 --> 01:29:42.360]  Oy,
+[01:29:42.800 --> 01:29:43.500]  wala ba talaga?
+[01:29:43.740 --> 01:29:44.280]  Thumbs up.
+[01:29:44.380 --> 01:29:44.760]  Kailangan.
+[01:29:44.760 --> 01:29:44.940]  man!
+[01:29:45.420 --> 01:29:45.740]  Okay.
+[01:29:45.740 --> 01:29:45.740] 
+[01:29:48.320 --> 01:29:48.440]  Sige.
+[01:29:48.620 --> 01:29:48.820]  So,
+[01:29:48.920 --> 01:29:50.640]  thank you
+[01:29:50.640 --> 01:29:51.280]  for joining
+[01:29:51.280 --> 01:29:51.760]  us
+[01:29:51.760 --> 01:29:52.660]  and I'll
+[01:29:52.660 --> 01:29:52.880]  see you
+[01:29:52.880 --> 01:29:53.320]  again next
+[01:29:53.320 --> 01:29:53.540]  time.
+[01:29:53.920 --> 01:29:54.260]  Goodbye!
+[01:29:54.260 --> 01:29:54.380]  Goodbye!
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:54.840] 
+[01:29:54.840 --> 01:29:56.080]  Peace.

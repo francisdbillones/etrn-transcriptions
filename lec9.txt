@@ -1,0 +1,1562 @@
+[00:00.000 --> 00:07.000]  you
+[00:23.000 --> 00:29.000]  it seems to be pointing the sky a little bit why
+[00:29.000 --> 00:30.000]  okay
+[00:30.000 --> 00:40.000]  yeah there okay so let's start off in earnest here is let me just capture the
+[00:40.000 --> 00:44.000]  presentation
+[00:44.000 --> 00:56.000]  wait okay unloading a presentation so that it doesn't take too much memory
+[00:56.000 --> 01:04.000]  here we go show start from current slide and let me just capture it
+[01:04.000 --> 01:06.000]  here
+[01:06.000 --> 01:13.000]  all right hopefully you can see this properly
+[01:13.000 --> 01:26.000]  and I will now highlight some of the characteristics that are particularly
+[01:26.000 --> 01:27.000]  important
+[01:27.000 --> 01:37.000]  so when you open up a data sheet hang on let me just see if I can do something about this
+[01:37.000 --> 01:38.000]  I forgot to
+[01:38.000 --> 01:42.000]  set a parameter
+[01:42.000 --> 01:50.000]  okay hang on now guys let me just check if this works properly
+[01:50.000 --> 01:55.000]  oh there we go yeah it does okay so
+[01:55.000 --> 01:57.000]  to
+[01:57.000 --> 02:02.000]  and let me just confirm because I've changed something in the setup
+[02:02.000 --> 02:09.000]  this hopefully produces a smoother presentation without the hang-ups from before
+[02:09.000 --> 02:12.000]  can you guys see this properly
+[02:12.000 --> 02:16.000]  there's a data sheet you know a capture of a data sheet right now yes
+[02:16.000 --> 02:20.000]  and you can see the highlighting as well as I write
+[02:20.000 --> 02:23.000]  yes okay all right see again so
+[02:23.000 --> 02:24.000]  okay so
+[02:24.000 --> 02:27.000]  but no guarantees okay so this thing still bombs
+[02:27.000 --> 02:33.000]  well that just means that I still have to tweak a few settings if I can
+[02:33.000 --> 02:34.000]  and
+[02:34.000 --> 02:37.000]  these changes in the setting were
+[02:37.000 --> 02:44.000]  AI suggested okay so I can't guarantee that it'll work but you know it sounds quite logical
+[02:44.000 --> 02:45.000]  so I'm giving it a go
+[02:45.000 --> 02:46.000]  all right so
+[02:46.000 --> 02:47.000]  all right so
+[02:47.000 --> 02:51.000]  a data sheet for a transistor
+[02:51.000 --> 02:56.000]  you basically look at the data sheet to become familiar with the
+[02:56.000 --> 02:59.000]  you know the operating limits of the transistor
+[02:59.000 --> 03:02.000]  and to determine if it is
+[03:03.000 --> 03:09.000]  you know viable for the intended application where you're going to be using it
+[03:09.000 --> 03:13.000]  so among the important parameters that you see here
+[03:13.000 --> 03:17.000]  it's stated as the absolute maximum ratings
+[03:17.000 --> 03:20.000]  and you should take this to heart
+[03:20.000 --> 03:25.000]  when it says absolute maximum it means absolute maximum
+[03:25.000 --> 03:28.000]  in fact in practice
+[03:28.000 --> 03:33.000]  you need to be a little bit on the conservative side perhaps
+[03:33.000 --> 03:36.000]  and if you were to choose a transistor
+[03:36.000 --> 03:50.000]  you would normally always put the operating conditions to be less than the absolute maximum ratings specified
+[03:50.000 --> 03:54.000]  you give it a you know a relatively healthy margin
+[03:55.000 --> 04:05.000]  but in theory at least if you never actually exceed the maximum ratings then the transistor should continue to operate
+[04:05.000 --> 04:07.000]  properly
+[04:08.000 --> 04:12.000]  although there is such a thing as thermal cycling
+[04:12.000 --> 04:15.000]  so this would be what can kill the transistor eventually
+[04:16.000 --> 04:21.000]  especially if you're subjecting it to high powered applications where the transistor body
+[04:22.000 --> 04:24.000]  and gets particularly hot
+[04:24.000 --> 04:25.000]  is particularly hot
+[04:25.000 --> 04:30.000]  so if the operation is such that you know you turn the thing on and off
+[04:31.000 --> 04:32.000]  often
+[04:33.000 --> 04:40.000]  then this thermal cycling can accelerate the demise of the device
+[04:41.000 --> 04:41.000] 
+[04:42.000 --> 04:43.000]  in the lab
+[04:44.000 --> 04:45.000]  all right
+[04:45.000 --> 04:48.000]  in the lab
+[04:48.000 --> 04:54.000]  I noticed that you have a tendency for example to switch the oscilloscope off
+[04:54.000 --> 04:55.000]  and you would have heard me
+[04:56.000 --> 04:57.000]  telling whoever
+[04:58.000 --> 04:59.000]  don't do that
+[05:00.000 --> 05:00.000] 
+[05:00.000 --> 05:00.000] 
+[05:01.000 --> 05:04.000]  you do not cycle the equipment on and off like that
+[05:05.000 --> 05:06.000]  because you will destroy the thing
+[05:07.000 --> 05:09.000]  they are designed to operate continuously
+[05:09.000 --> 05:10.000]  and are best left that way
+[05:10.000 --> 05:12.000]  you turn them on
+[05:13.000 --> 05:14.000]  you are in fact
+[05:15.000 --> 05:17.000]  supposed to let the thing warm up
+[05:18.000 --> 05:19.000]  these are analog systems
+[05:20.000 --> 05:22.000]  you let the thing warm up to its operating temperature
+[05:22.000 --> 05:24.000]  at which point you know the devices
+[05:25.000 --> 05:28.000]  and the internal settings would be correct
+[05:29.000 --> 05:30.000]  and you use it
+[05:31.000 --> 05:34.000]  and in between when you are rebuilding your circuits
+[05:34.000 --> 05:35.000]  you leave it
+[05:36.000 --> 05:36.000] 
+[05:37.000 --> 05:37.000] 
+[05:38.000 --> 05:39.000]  and when you are done with the experiment
+[05:40.000 --> 05:40.000] 
+[05:41.000 --> 05:41.000] 
+[05:42.000 --> 05:42.000] 
+[05:43.000 --> 05:44.000]  you know needs to be returned
+[05:45.000 --> 05:46.000]  that's the time you turn it off
+[05:47.000 --> 05:47.000] 
+[05:48.000 --> 05:50.000]  so that's the way it's designed to be used
+[05:51.000 --> 05:52.000]  you are never supposed to power cycle the thing
+[05:53.000 --> 05:53.000] 
+[05:54.000 --> 05:54.000] 
+[05:55.000 --> 05:55.000] 
+[05:56.000 --> 05:56.000] 
+[05:57.000 --> 05:58.000]  going over to the transistor here
+[05:59.000 --> 06:01.000]  we see basically that
+[06:02.000 --> 06:03.000]  the most important specs
+[06:03.000 --> 06:07.000]  particularly for you know first initial glance
+[06:08.000 --> 06:09.000]  is this going to be usable or not
+[06:10.000 --> 06:12.000]  the three maximum values
+[06:13.000 --> 06:14.000]  mentioned here in the data sheet
+[06:15.000 --> 06:18.000]  which are the voltage from collector to emitter
+[06:19.000 --> 06:20.000]  with the junction open
+[06:21.000 --> 06:21.000] 
+[06:22.000 --> 06:23.000]  with the thing non-conducting
+[06:24.000 --> 06:24.000] 
+[06:25.000 --> 06:28.000]  the continuous current at which the thing
+[06:29.000 --> 06:31.000]  can handle through its collector
+[06:31.000 --> 06:34.000]  the vector and its overall power dissipation
+[06:35.000 --> 06:37.000]  these are the three most important
+[06:38.000 --> 06:40.000]  initial glance
+[06:41.000 --> 06:42.000]  can I use it or not
+[06:43.000 --> 06:44.000]  you know
+[06:45.000 --> 06:45.000] 
+[06:46.000 --> 06:47.000]  or should I use it or not
+[06:48.000 --> 06:49.000]  specifications
+[06:50.000 --> 06:51.000]  okay so those three that I've highlighted here
+[06:52.000 --> 06:53.000]  I think we passed by this
+[06:54.000 --> 06:54.000] 
+[06:55.000 --> 06:55.000] 
+[06:56.000 --> 06:56.000] 
+[06:56.000 --> 06:59.000]  the particular transistor that we're looking at here
+[06:59.000 --> 07:01.000]  is the 2N3904 or its variant
+[07:02.000 --> 07:03.000]  the MMBP3904
+[07:04.000 --> 07:07.000]  and sometimes also offered as the PZP3904
+[07:08.000 --> 07:11.000]  they are all more or less the same internally
+[07:12.000 --> 07:15.000]  it's just sometimes the packaging that is different
+[07:16.000 --> 07:19.000]  and in certain cases some manufacturers bother to change the
+[07:19.000 --> 07:24.000]  you know some nomenclature to just identify it at the glance
+[07:25.000 --> 07:28.000]  that hey this is a differently packaged device
+[07:29.000 --> 07:34.000]  okay so you'll notice that in this case the power dissipation
+[07:35.000 --> 07:39.000]  maximum total power dissipation is different for the different packages
+[07:39.000 --> 07:42.000]  with the PZP3904 having the highest
+[07:43.000 --> 07:46.000]  which would typically mean that it is a package that has
+[07:47.000 --> 07:49.000]  either a larger size
+[07:50.000 --> 07:54.000]  which allows a better thermal transfer from the semiconductor
+[07:55.000 --> 07:57.000]  the silicon to the air around it
+[07:57.000 --> 08:03.000]  or possibly that it is a surface mount device
+[08:04.000 --> 08:09.000]  with a pad that is meant to be soldered directly onto the PCB
+[08:10.000 --> 08:15.000]  so that the copper on the PCB can help increase the surface area
+[08:16.000 --> 08:18.000]  and dissipate the heat of the transistor
+[08:19.000 --> 08:21.000]  thus the higher power rating
+[08:22.000 --> 08:25.000]  okay I know for a fact that this 2N3904
+[08:25.000 --> 08:28.000]  this is the traditional package
+[08:29.000 --> 08:34.000]  and the MMBT3904 is a tiny surface mount epoxy casing
+[08:35.000 --> 08:36.000]  without any thermal pad
+[08:37.000 --> 08:41.000]  and you can see that it has roughly half the thermal capacity
+[08:42.000 --> 08:42.000] 
+[08:43.000 --> 08:46.000]  so this is important because if you exceed
+[08:47.000 --> 08:52.000]  or even possibly always operate the transistor close to its thermal limit
+[08:52.000 --> 08:57.000]  of course you hasten its failure
+[08:58.000 --> 08:59.000]  all right okay
+[09:00.000 --> 09:02.000]  now the other 2 parameters here are the operating voltage
+[09:03.000 --> 09:06.000]  allowed maximum open circuit voltage
+[09:07.000 --> 09:09.000]  in this case it's 40 volts
+[09:10.000 --> 09:12.000]  and the maximum collector current
+[09:13.000 --> 09:14.000]  is 200 milliampere
+[09:15.000 --> 09:17.000]  okay so we touched on this last meeting
+[09:17.000 --> 09:21.000]  and if you have any questions about it of course
+[09:22.000 --> 09:25.000]  let me know but we'll get to know these parameters even more
+[09:26.000 --> 09:26.000] 
+[09:27.000 --> 09:28.000]  okay all right so there we go with that
+[09:29.000 --> 09:31.000]  let me just go to the next slide
+[09:32.000 --> 09:34.000]  yeah it's already been highlighted here
+[09:35.000 --> 09:35.000] 
+[09:36.000 --> 09:38.000]  how do I clear up everything
+[09:39.000 --> 09:40.000]  clear
+[09:40.000 --> 09:41.000]  clear
+[09:42.000 --> 09:44.000]  clear all my drawings
+[09:46.000 --> 09:46.000] 
+[09:47.000 --> 09:47.000] 
+[09:48.000 --> 09:48.000] 
+[09:49.000 --> 09:50.000]  last slide for this
+[09:51.000 --> 09:51.000] 
+[09:52.000 --> 09:53.000]  is this one
+[09:54.000 --> 09:55.000]  the limits of operation
+[09:56.000 --> 09:57.000]  as you very well know
+[09:58.000 --> 10:01.000]  power dissipation is basically equal to the
+[10:02.000 --> 10:09.000]  in this case the collector current multiplied by the voltage from collector to emitter
+[10:09.000 --> 10:10.000]  okay okay
+[10:10.000 --> 10:13.000]  so power dissipation is equal to current times voltage
+[10:14.000 --> 10:18.000]  of course it's refers if you're talking about the power dissipation of the transistor
+[10:19.000 --> 10:20.000]  all right
+[10:21.000 --> 10:22.000]  in this case
+[10:23.000 --> 10:36.000]  it is the power dissipation essentially from based on the collector current and the voltage across the collector to emitter pins
+[10:37.000 --> 10:37.000] 
+[10:37.000 --> 10:39.000]  so multiply the two
+[10:40.000 --> 10:43.000]  the product is the power dissipation mostly of the transistor
+[10:44.000 --> 10:54.000]  this does not take into consideration that a little amount of power dissipation is happening via VBE multiplied by IB
+[10:55.000 --> 10:55.000] 
+[10:55.000 --> 11:04.000]  but this turns this is usually very very small because VBE is only 0.7 volts typically and of course IB
+[11:05.000 --> 11:14.000]  all right IB is equal to IC over beta if the transistor is in common collector or common emitter
+[11:14.000 --> 11:15.000]  and so again
+[11:15.000 --> 11:16.000]  and so again
+[11:17.000 --> 11:26.000]  the contribution obviously is that IB is extremely small if beta is high and VBE is also very small on the
+[11:27.000 --> 11:31.000]  on the basis that it is only a 0.7 for a silicon diode
+[11:31.000 --> 11:32.000]  so
+[11:32.000 --> 11:34.000]  usually this
+[11:35.000 --> 11:39.000]  particular power dissipation at the input is ignored
+[11:40.000 --> 11:45.000]  because it contributes very very little to the overall power dissipation
+[11:46.000 --> 11:48.000]  so everything really is based on this
+[11:49.000 --> 11:51.000]  I sub C versus VCE
+[11:51.000 --> 11:55.000]  so what we see here in this particular graph
+[11:56.000 --> 11:57.000]  all right
+[11:58.000 --> 12:00.000]  is a plot of VCE
+[12:01.000 --> 12:02.000]  all right
+[12:02.000 --> 12:04.000]  in this case it only goes up to 20 but if you
+[12:05.000 --> 12:07.000]  because it's not for the 2N3904
+[12:08.000 --> 12:09.000]  but anyway
+[12:09.000 --> 12:12.000]  assuming that it's for some other little tiny transistor
+[12:13.000 --> 12:14.000]  all right
+[12:14.000 --> 12:17.000]  it would have an IC max rating of 50 mA
+[12:18.000 --> 12:21.000]  and a VCE max rating of 20
+[12:22.000 --> 12:23.000]  so going back to the data sheet
+[12:24.000 --> 12:25.000]  this would have said 20
+[12:26.000 --> 12:26.000] 
+[12:27.000 --> 12:30.000]  and the I sub C here would have said 50 mA
+[12:31.000 --> 12:31.000] 
+[12:32.000 --> 12:33.000]  then you would have had this kind of a graph
+[12:34.000 --> 12:36.000]  and then you would have seen this interesting
+[12:37.000 --> 12:37.000] 
+[12:38.000 --> 12:41.000]  so the IC max provides a maximum current limit
+[12:41.000 --> 12:43.000]  which puts you here
+[12:44.000 --> 12:45.000]  you can draw this line all the way up
+[12:46.000 --> 12:48.000]  the VCE max goes up to here
+[12:49.000 --> 12:49.000] 
+[12:50.000 --> 12:54.000]  and you'll notice that there's this line here that does this
+[12:55.000 --> 12:56.000]  all right
+[12:57.000 --> 13:02.000]  so operation is allowed only within this white area
+[13:03.000 --> 13:07.000]  that we see inside the limits shown here
+[13:07.000 --> 13:12.000]  whereas this area this blue shaded area and obviously beyond that
+[13:13.000 --> 13:13.000] 
+[13:14.000 --> 13:16.000]  this area is considered
+[13:17.000 --> 13:17.000] 
+[13:18.000 --> 13:20.000]  over
+[13:21.000 --> 13:22.000]  all right
+[13:23.000 --> 13:25.000]  in terms of the power
+[13:26.000 --> 13:29.000]  going through or dissipated by the transistor
+[13:30.000 --> 13:36.000]  so this will basically blow up your device
+[13:37.000 --> 13:38.000]  all right
+[13:38.000 --> 13:40.000]  so the inside portion over here
+[13:40.000 --> 13:46.000]  is basically identified as the safe operating region
+[13:47.000 --> 13:47.000] 
+[13:48.000 --> 13:49.000]  safe operating region
+[13:50.000 --> 13:50.000] 
+[13:51.000 --> 13:55.000]  normally this is referred to by manufacturers as the SOA
+[13:56.000 --> 13:58.000]  safe operating area
+[13:59.000 --> 14:00.000]  because it is an area
+[14:01.000 --> 14:01.000] 
+[14:02.000 --> 14:02.000] 
+[14:03.000 --> 14:04.000]  so safe operating area SOA
+[14:04.000 --> 14:07.000]  and you'll see graph
+[14:08.000 --> 14:10.000]  a good data sheet will contain something like this
+[14:11.000 --> 14:12.000]  particularly for high power transistors
+[14:13.000 --> 14:17.000]  where they will show you that graph and say that this is the safe operating area
+[14:18.000 --> 14:19.000]  okay all right
+[14:20.000 --> 14:24.000]  so it is a curve over here because this is a product
+[14:25.000 --> 14:26.000]  so in this case
+[14:27.000 --> 14:29.000]  well I don't want to bother calculating it
+[14:29.000 --> 14:30.000]  but it's here
+[14:30.000 --> 14:31.000]  I am
+[14:32.000 --> 14:32.000] 
+[14:32.000 --> 14:35.000]  so this is your 300 milliwatts
+[14:36.000 --> 14:38.000]  okay going back to the data sheet here
+[14:39.000 --> 14:40.000]  this would have been
+[14:41.000 --> 14:47.000]  you know rated as a 300 milliwatt maximum power limit
+[14:48.000 --> 14:50.000]  for whatever transistor that happens to be
+[14:50.000 --> 14:56.000]  and that would then get reflected as a graph that looks like this
+[14:57.000 --> 15:02.000]  so you need to consider and remember that the product of current and voltage
+[15:03.000 --> 15:05.000]  must not exceed this maximum value
+[15:06.000 --> 15:08.000]  lest you run the risk
+[15:09.000 --> 15:11.000]  very very high risk of blowing up the transistor
+[15:11.000 --> 15:12.000]  so bottom line is
+[15:13.000 --> 15:14.000]  yeah you look at this
+[15:15.000 --> 15:16.000]  and you say
+[15:17.000 --> 15:20.000]  oh well for the application that I intend
+[15:21.000 --> 15:23.000]  this transistor does not have for example
+[15:24.000 --> 15:26.000]  a high enough power dissipation limit
+[15:27.000 --> 15:30.000]  I will exceed 300 milliwatts in certain cases
+[15:31.000 --> 15:34.000]  therefore I cannot use this particular transistor
+[15:35.000 --> 15:36.000]  I need to find something that's off
+[15:37.000 --> 15:40.000]  that has a higher power dissipation okay
+[15:40.000 --> 15:43.000]  so those are the big three that you initially look at
+[15:43.000 --> 15:47.000]  and then there are several other parameters that you look at
+[15:48.000 --> 15:55.000]  you know and that will ultimately determine if that particular transistor is okay or not
+[15:56.000 --> 15:56.000] 
+[15:57.000 --> 16:01.000]  alright so that's the end of this series of slides
+[16:02.000 --> 16:03.000]  and
+[16:04.000 --> 16:08.000]  are there any questions?
+[16:08.000 --> 16:09.000]  are there any questions?
+[16:09.000 --> 16:11.000]  questions people?
+[16:12.000 --> 16:13.000]  let me know
+[16:14.000 --> 16:17.000]  kindly ask if you have any questions
+[16:18.000 --> 16:21.000]  make sure that you are raising your hand
+[16:22.000 --> 16:23.000]  or unmuting
+[16:24.000 --> 16:24.000] 
+[16:25.000 --> 16:26.000]  okay so do I get the thumbs up?
+[16:27.000 --> 16:30.000]  we can transition over to the next presentation
+[16:30.000 --> 16:33.000]  okay
+[16:33.000 --> 16:33.000] 
+[16:33.000 --> 16:34.000]  okay
+[16:34.000 --> 16:34.000] 
+[16:35.000 --> 16:36.000]  sige
+[16:37.000 --> 16:37.000] 
+[16:37.000 --> 16:39.000]  dito na tayo
+[16:40.000 --> 16:42.000]  sa susunod na slide
+[16:43.000 --> 16:44.000]  okay
+[16:45.000 --> 16:49.000]  some of the slides that we are going to see here in the next presentation
+[16:50.000 --> 16:51.000]  might overlap
+[16:52.000 --> 16:53.000]  okay
+[16:53.000 --> 16:54.000]  it might overlap
+[16:54.000 --> 16:57.000]  oh wait I closed the wrong presentation
+[16:58.000 --> 16:59.000]  and that's dumb
+[16:59.000 --> 17:00.000]  okay
+[17:01.000 --> 17:01.000] 
+[17:02.000 --> 17:03.000]  bring it up again
+[17:04.000 --> 17:07.000]  so that we can view it
+[17:08.000 --> 17:09.000]  here
+[17:09.000 --> 17:10.000]  let's go
+[17:13.000 --> 17:15.000]  with wrong
+[17:16.000 --> 17:18.000]  wrong app
+[17:18.000 --> 17:19.000]  right again
+[17:19.000 --> 17:20.000]  ding
+[17:21.000 --> 17:21.000] 
+[17:21.000 --> 17:22.000]  okay
+[17:23.000 --> 17:24.000]  and
+[17:24.000 --> 17:25.000]  slideshow
+[17:26.000 --> 17:27.000]  start from current slide
+[17:28.000 --> 17:29.000]  and
+[17:29.000 --> 17:30.000]  let me just
+[17:30.000 --> 17:31.000]  capture this
+[17:31.000 --> 17:32.000]  which one is it?
+[17:32.000 --> 17:32.000] 
+[17:32.000 --> 17:32.000] 
+[17:32.000 --> 17:32.000] 
+[17:32.000 --> 17:33.000]  okay
+[17:33.000 --> 17:34.000]  all right
+[17:34.000 --> 17:34.000] 
+[17:34.000 --> 17:38.000]  let me just do a quick check
+[17:38.000 --> 17:39.000]  which one is it?
+[17:39.000 --> 17:44.000]  i think
+[17:44.000 --> 17:44.000] 
+[17:47.000 --> 17:47.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:50.000] 
+[17:50.000 --> 17:51.900]  let me just do a quick check
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 17:51.900] 
+[17:51.900 --> 18:00.540]  All right. So let me just do a quick check. Everybody can hopefully see this lecture number six.
+[18:00.780 --> 18:06.080]  Never mind what lecture it is. BJT biasing, a.k.a. BC analysis.
+[18:06.080 --> 18:14.000]  Okay. All right. So let's turn the pen on and let's go to the next slide.
+[18:15.140 --> 18:19.780]  If it wants to go to the next slide. Why isn't it going to the next slide?
+[18:19.780 --> 18:25.080]  Okay. It doesn't like it. Something is not happy.
+[18:27.660 --> 18:32.980]  Huh? Ah, yeah. Okay. Limits of operation. Oh, we just took this up. We can skip this.
+[18:33.800 --> 18:41.460]  Okay. All right. So skip, skip, skip. Okay. So here's the first circuit.
+[18:41.460 --> 18:57.300]  And we'll stick to looking at the common emitter configuration because it's, again, the most often used one, which provides a balance of everything.
+[18:57.300 --> 19:06.800]  It provides both voltage gain and current gain, but we won't be analyzing exactly that right now.
+[19:06.800 --> 19:28.800]  So again, if you happen to be a little bit lost, the idea of biasing is to put the transistor into an operating point, a question point, a point at which it sits without any signals going in.
+[19:28.800 --> 19:58.780]  All right.
+[19:58.780 --> 20:00.780]  So here's the second circuit.
+[20:00.780 --> 20:00.780] 
+[20:00.780 --> 20:02.780]  So here's the second circuit.
+[20:02.780 --> 20:02.780] 
+[20:02.780 --> 20:02.780] 
+[20:02.780 --> 20:10.720]  It will operate and amplify and stay within a valid, within the active region.
+[20:10.720 --> 20:18.280]  It should not ever reach its saturation nor cutoff points.
+[20:18.280 --> 20:18.920]  All right.
+[20:18.920 --> 20:28.360]  So you want the transistor to always be operating in the active region if you want it to do what we call as linear amplification.
+[20:28.920 --> 20:37.920]  Linear amplification where the output has a linear relationship with the input signal.
+[20:37.920 --> 20:38.920]  Okay.
+[20:38.920 --> 20:38.920] 
+[20:38.920 --> 20:39.920]  All right.
+[20:39.920 --> 20:40.920]  All right.
+[20:40.920 --> 20:54.920]  Hopefully you recognize the fact that if you ever hit cutoff or if you ever reach saturation, that linearity suddenly stops because saturation means it cannot go turn on any further.
+[20:54.920 --> 21:00.920]  And cutoff means that it is already fully off and cutoff means that it is already fully off and it cannot go less than off.
+[21:00.920 --> 21:01.920]  All right.
+[21:01.920 --> 21:05.920]  So the active region is beyond that.
+[21:05.920 --> 21:11.920]  And if you want the transistor to be amplifying the input signal faithfully.
+[21:11.920 --> 21:24.920]  In other words, for example, if I input a sinusoidal signal, hopefully the output will remain a larger version of that sinusoidal signal.
+[21:24.920 --> 21:29.920]  It will just be bigger in amplitude, but everything else will be the same.
+[21:29.920 --> 21:31.920]  This is what you call as linear operation.
+[21:31.920 --> 21:36.920]  And you definitely cannot allow it to saturate nor cutoff.
+[21:36.920 --> 21:37.920]  Okay.
+[21:37.920 --> 21:39.920]  You can't allow it to saturate or cutoff.
+[21:39.920 --> 21:55.920]  So you use a biasing circuit to put the transistor into that optimal, if you like, active region coefficient point.
+[21:55.920 --> 21:56.920]  Okay.
+[21:56.920 --> 21:57.920]  All right.
+[21:57.920 --> 21:58.920]  So that's the objective.
+[21:58.920 --> 21:59.920]  The objective, hang on.
+[21:59.920 --> 22:03.920]  This camera is still slightly off.
+[22:03.920 --> 22:06.920]  Let me just try to see if I can fix that.
+[22:06.920 --> 22:07.920]  Yeah.
+[22:07.920 --> 22:10.920]  I had to move the camera a little bit last time.
+[22:10.920 --> 22:11.920]  Okay.
+[22:11.920 --> 22:12.920]  There we go.
+[22:12.920 --> 22:13.920]  That's better.
+[22:13.920 --> 22:14.920]  All right.
+[22:14.920 --> 22:20.920]  So this is the common emitter fixed bias configuration.
+[22:20.920 --> 22:21.920]  Okay.
+[22:21.920 --> 22:27.920]  There are more than one way of putting the transistor into the active point.
+[22:27.920 --> 22:32.920]  And the simplest of all of them for the common emitter.
+[22:32.920 --> 22:33.920]  All right.
+[22:33.920 --> 22:34.920]  All right.
+[22:34.920 --> 22:40.920]  Is what we call as the fixed bias circuit.
+[22:40.920 --> 22:41.920]  Okay.
+[22:41.920 --> 22:45.920]  So this is the fixed bias circuit.
+[22:45.920 --> 22:50.920]  We have a supply voltage, which is labeled as VCC here.
+[22:50.920 --> 22:53.920]  This is nothing but a power source.
+[22:53.920 --> 22:54.920]  All right.
+[22:54.920 --> 22:55.920]  Of adequate supply.
+[22:55.920 --> 23:02.920]  Say for example, 9 volts or 12 volts or 15 volts, 20 volts, something like that.
+[23:02.920 --> 23:03.920]  Okay.
+[23:03.920 --> 23:08.920]  Providing a positive supply voltage here.
+[23:08.920 --> 23:17.920]  And we have basically added just two important resistors labeled as RC and RB.
+[23:17.920 --> 23:25.920]  And I'll talk a bit more and help you understand what the C in and C out are supposed to do.
+[23:25.920 --> 23:32.920]  But they are essentially irrelevant to the biasing of the transistor, at least for now.
+[23:32.920 --> 23:33.920]  Okay.
+[23:33.920 --> 23:48.920]  So this very simple addition of primarily actually RB allows the transistor to be put into the active region ready to do its amplification work.
+[23:48.920 --> 23:49.920]  Okay.
+[23:49.920 --> 23:50.920]  All right.
+[23:50.920 --> 23:54.920]  So to understand how this thing does its job.
+[23:54.920 --> 23:55.920]  All right.
+[23:55.920 --> 23:59.920]  We need to do a little bit of KVL.
+[23:59.920 --> 24:00.920]  All right.
+[24:00.920 --> 24:09.920]  And so here is your VBE, which you might recall for a silicon transistor would be typically about 0.7 volts.
+[24:09.920 --> 24:13.920]  So it could be substituting 0.6 to 0.7 volts here.
+[24:13.920 --> 24:15.920]  Let me just write that down.
+[24:15.920 --> 24:16.920]  All right.
+[24:16.920 --> 24:17.920]  All right.
+[24:17.920 --> 24:17.920] 
+[24:17.920 --> 24:17.920] 
+[24:17.920 --> 24:18.920]  All right.
+[24:18.920 --> 24:21.920]  And again, depends on which reference you look at.
+[24:21.920 --> 24:23.920]  You know, some of them would put in 0.6.
+[24:23.920 --> 24:27.920]  Some other authors of books would put in 0.7.
+[24:27.920 --> 24:32.920]  To be honest, well, it does make a difference in the calculated values.
+[24:32.920 --> 24:39.920]  So just take note of which one is recommended or required.
+[24:39.920 --> 24:40.920]  All right.
+[24:40.920 --> 24:45.920]  Now, we now do a KVL going from the supply.
+[24:45.920 --> 24:46.920]  All right.
+[24:46.920 --> 24:53.920]  Over into this input side R sub B over to the VBE where you wind up at ground.
+[24:53.920 --> 24:58.920]  Notice that we started at ground and we end at ground.
+[24:58.920 --> 25:00.920]  This is your input loop.
+[25:00.920 --> 25:01.920]  All right.
+[25:01.920 --> 25:03.920]  Input bias loop, if you like.
+[25:03.920 --> 25:07.920]  And you write down the KVL equation for that.
+[25:07.920 --> 25:08.920]  All right.
+[25:08.920 --> 25:11.920]  You write down the KVL equation for that.
+[25:11.920 --> 25:17.920]  And I believe the slide will actually show it, but it would be, you know, whatever the supply voltage is, you start there.
+[25:17.920 --> 25:29.920]  So VCC, negative VCC, all right, plus IBRB plus VBE is equal to 0.
+[25:29.920 --> 25:31.920]  That's the equation that's going to come out.
+[25:31.920 --> 25:32.920]  All right.
+[25:32.920 --> 25:33.920]  Okay.
+[25:33.920 --> 25:35.920]  Roughly, roughly.
+[25:35.920 --> 25:38.920]  So if you like, I'll write that down.
+[25:38.920 --> 25:39.920]  All right.
+[25:39.920 --> 25:48.920]  Minus VCC plus IBRB plus VBE is equal to 0.
+[25:48.920 --> 25:59.920]  Now, when you manipulate this, of course, you're going to see that, you know, you could put the VCC on the right side to make everything positive.
+[25:59.920 --> 26:00.920]  Okay.
+[26:00.920 --> 26:05.920]  So it's simply IBRB plus VBE is equal to VCC.
+[26:05.920 --> 26:06.920]  Okay.
+[26:06.920 --> 26:07.920]  So that's it.
+[26:07.920 --> 26:26.920]  And if you wanted to now extract IB, which you would actually, all right, then you would come up and say that, well, okay, in that case, IB is simply equal to VCC minus VBE divided by RB.
+[26:26.920 --> 26:27.920]  Okay.
+[26:27.920 --> 26:28.920]  All right.
+[26:28.920 --> 26:31.920]  Now, this is a very important equation.
+[26:31.920 --> 26:32.920]  Okay.
+[26:32.920 --> 26:44.920]  And if you are adept at this, you would have just inspected this input loop here, and you would already be able to come up essentially with this equation.
+[26:44.920 --> 26:45.920]  All right.
+[26:45.920 --> 26:50.920]  You would have recognized it and mentally converted it into this particular equation.
+[26:50.920 --> 26:54.920]  But, you know, we showed the step by step just for the heck of it.
+[26:54.920 --> 26:55.920]  Okay.
+[26:55.920 --> 26:56.920]  All right.
+[26:56.920 --> 27:12.920]  So now that you have what you call as the input current, you know, input equation that describes the input characteristics here, you'd also want to do this for the outside or output loop.
+[27:12.920 --> 27:13.920]  So where's the output loop?
+[27:13.920 --> 27:16.920]  Well, the output is obviously over here, V out.
+[27:16.920 --> 27:19.920]  How did I know the other one was V in, was the input loop?
+[27:19.920 --> 27:21.920]  Well, that's where the input signal goes in.
+[27:21.920 --> 27:22.920]  All right.
+[27:22.920 --> 27:25.920]  So for the output side, we again trace it.
+[27:25.920 --> 27:35.920]  And we can see that for the output side, we again pass through VCC, negative VCC, plus ICRC.
+[27:35.920 --> 27:38.920]  Sorry, it doesn't say I sub C somehow.
+[27:38.920 --> 27:41.920]  Maybe it does because I haven't pressed the keyboard.
+[27:41.920 --> 27:42.920]  All right.
+[27:42.920 --> 27:45.920]  So I see, I see, I see, I see, I see.
+[27:45.920 --> 27:46.920]  Okay.
+[27:46.920 --> 27:48.920]  That's what happens across this guy.
+[27:48.920 --> 27:49.920]  All right.
+[27:49.920 --> 27:55.920]  Plus VCE, which is the collector to emitter voltage.
+[27:55.920 --> 27:56.920]  All right.
+[27:56.920 --> 28:02.920]  And that arrives at ground, which allows you to close the equation.
+[28:02.920 --> 28:03.920]  And there you have it.
+[28:03.920 --> 28:12.920]  And so therefore, again, ICRC plus VCE is equal to VCC.
+[28:12.920 --> 28:19.920]  And of course, you can now extract and say that, well, you can move things around.
+[28:19.920 --> 28:34.920]  And you can see that the ICRC again can wind up with ICRC is equal to VCC minus VCE over RC or whatever.
+[28:34.920 --> 28:40.920]  But actually that doesn't really help in solving, you know, this interrelated set.
+[28:40.920 --> 28:48.920]  There is another equation that is important, which is IC is equal to beta times IB.
+[28:48.920 --> 28:55.920]  That will come in very, very important because as you can see, you'll be able to substitute this.
+[28:55.920 --> 28:56.920]  All right.
+[28:56.920 --> 28:59.920]  This thing here into this equation.
+[28:59.920 --> 29:09.920]  And that will allow you to form one nice inter single, almost single equation that allows you to set the values.
+[29:09.920 --> 29:10.920]  All right.
+[29:10.920 --> 29:12.920]  Which is why this is the simplest one.
+[29:12.920 --> 29:15.920]  But let me just press the space bar.
+[29:15.920 --> 29:16.920]  Okay.
+[29:16.920 --> 29:23.920]  Let me just press the space bar because it's hard to do the PowerPoint if we didn't use it.
+[29:23.920 --> 29:24.920]  Okay.
+[29:24.920 --> 29:29.920]  So as I said, for the first one, all right, you have your RB, IB plus VBE.
+[29:29.920 --> 29:37.920]  And therefore you extract that IB is equal to VCC minus VBE over RB.
+[29:37.920 --> 29:43.920]  And you'll notice that this equation and this equation that we were looking at a while ago is exactly the same.
+[29:43.920 --> 29:48.920]  So this is one of the important equations that you get out of this.
+[29:48.920 --> 29:49.920]  All right.
+[29:49.920 --> 29:53.920]  Actually, we'll use that to work our way backwards a little bit later.
+[29:53.920 --> 29:54.920]  Okay.
+[29:54.920 --> 29:58.920]  There's the I sub C coming out.
+[29:58.920 --> 29:59.920]  Okay.
+[29:59.920 --> 30:04.920]  And as a result, you can get this equation here.
+[30:04.920 --> 30:11.920]  VCC is equal to RCIC plus VCE, which is exactly what I wrote.
+[30:11.920 --> 30:12.920]  Okay.
+[30:12.920 --> 30:20.920]  And of course, you have your I sub C is equal to beta IB as we took note a little bit earlier.
+[30:20.920 --> 30:27.920]  Now, synthesizing those two equations, we get the following important equations.
+[30:27.920 --> 30:28.920]  All right.
+[30:28.920 --> 30:31.920]  Well, this is not synthesizing, but this one.
+[30:31.920 --> 30:32.920]  All right.
+[30:32.920 --> 30:36.920]  These are the voltages that are set up going around this thing.
+[30:36.920 --> 30:37.920]  All right.
+[30:37.920 --> 30:41.920]  VCE is equal to V sub C minus VE.
+[30:41.920 --> 30:43.920]  So what is the voltage here?
+[30:43.920 --> 30:44.920]  What is the voltage here?
+[30:44.920 --> 30:45.920]  Subtract the two.
+[30:45.920 --> 30:47.920]  You get your collector to emitter voltage.
+[30:47.920 --> 30:53.920]  That's important because you, well, in this case, it's easy, but you have to keep that in mind.
+[30:53.920 --> 31:01.920]  And of course, VBE, the voltage from base to emitter is actually VB minus VE.
+[31:01.920 --> 31:05.920]  And in this case, that's simply equal to the base voltage, right?
+[31:05.920 --> 31:14.920]  Because VE is basically equal to zero because the emitter is directly connected to ground.
+[31:14.920 --> 31:15.920]  Okay.
+[31:15.920 --> 31:16.920]  Are there any questions about this?
+[31:16.920 --> 31:17.920]  All right.
+[31:17.920 --> 31:20.920]  So this is just a nomenclature.
+[31:20.920 --> 31:32.920]  If you don't have a second one here, which tells you that there's the reference point automatically because there's no second reference here.
+[31:32.920 --> 31:43.920]  This automatically means that you're measuring this particular voltage against what is the ground point of reference for the circuit.
+[31:43.920 --> 31:45.920]  So please keep that in mind.
+[31:45.920 --> 31:46.920]  All right.
+[31:46.920 --> 31:47.920]  So same banana.
+[31:47.920 --> 31:52.920]  VCE is equal to VC minus VE.
+[31:52.920 --> 31:54.920]  Why is it called V sub C?
+[31:54.920 --> 31:59.920]  It doesn't have a second letter of reference here or doesn't have a second reference point.
+[31:59.920 --> 32:08.920]  Therefore, this is understood to be the voltage at the collector as measured against ground.
+[32:08.920 --> 32:12.920]  The voltage at the emitter as measured against ground.
+[32:12.920 --> 32:16.920]  The voltage at the base as measured against ground.
+[32:16.920 --> 32:17.920]  Okay.
+[32:17.920 --> 32:20.920]  So just remember the nomenclature so that you don't get lost.
+[32:20.920 --> 32:21.920]  Okay.
+[32:21.920 --> 32:22.920]  All right.
+[32:22.920 --> 32:23.920]  So let's go forward.
+[32:23.920 --> 32:25.920]  So here are all...
+[32:25.920 --> 32:26.920]  Okay.
+[32:26.920 --> 32:27.920]  Let me just erase everything.
+[32:27.920 --> 32:29.920]  There has to be a nicer way.
+[32:29.920 --> 32:32.920]  Is there a way to clear everything in just one shot?
+[32:32.920 --> 32:33.920]  Okay.
+[32:33.920 --> 32:34.920]  Fixed bias circuit.
+[32:34.920 --> 32:40.920]  Determine the following with the fixed bias configuration now that you know those equations.
+[32:40.920 --> 32:44.920]  So you are given a proper set of values here.
+[32:44.920 --> 32:45.920]  Okay.
+[32:45.920 --> 32:46.920]  Okay.
+[32:46.920 --> 33:02.920]  And you're asked to simply calculate what the coefficient point of the transistor is given that you already have all of these values placed in.
+[33:02.920 --> 33:03.920]  Okay.
+[33:03.920 --> 33:03.920] 
+[33:03.920 --> 33:08.920]  So if you have these four parameters here, a.k.a.
+[33:08.920 --> 33:10.920]  Sorry, it's getting covered slightly.
+[33:10.920 --> 33:13.920]  The supply voltage, VCC.
+[33:13.920 --> 33:17.920]  You have your R sub C value.
+[33:17.920 --> 33:19.920]  You have your R sub V value.
+[33:19.920 --> 33:22.920]  And you have your transistor beta.
+[33:22.920 --> 33:25.920]  Based on the previous page equation.
+[33:25.920 --> 33:26.920]  All right.
+[33:26.920 --> 33:36.920]  Based on the previous page equation, you are going to be able to calculate where the transistor sits.
+[33:36.920 --> 33:37.920]  All right.
+[33:37.920 --> 33:38.920]  So this is just a little bit more.
+[33:38.920 --> 33:39.920]  All right.
+[33:39.920 --> 33:41.920]  All right.
+[33:41.920 --> 33:46.920]  So this allows you to determine the coefficient point of this transistor.
+[33:46.920 --> 33:49.920]  And the coefficient point is shown.
+[33:49.920 --> 33:50.920]  All right.
+[33:50.920 --> 34:00.920]  Not graphically, it's determined by where the transistor sits primarily by showing its VCE.
+[34:00.920 --> 34:01.920]  All right.
+[34:01.920 --> 34:03.920]  And its I sub C.
+[34:03.920 --> 34:05.920]  All right.
+[34:05.920 --> 34:16.920]  If you know what the value of VCE is and you know what the value of I sub C is, you have your two points on the graph, which means that you have your operating point.
+[34:16.920 --> 34:17.920]  Sorry.
+[34:17.920 --> 34:17.920] 
+[34:17.920 --> 34:19.920]  You'll have your operating point.
+[34:19.920 --> 34:20.920]  All right.
+[34:20.920 --> 34:24.920]  Let's say your VCE is here and your I sub C that you've calculated is here.
+[34:24.920 --> 34:30.920]  The intersection point, all right, will be the coefficient point or Q point.
+[34:30.920 --> 34:31.920]  Okay.
+[34:31.920 --> 34:43.920]  So what is I B Q and I C Q?
+[34:43.920 --> 34:44.920]  The structure of the transistor.
+[34:44.920 --> 34:44.920] 
+[34:44.920 --> 34:44.920] 
+[34:44.920 --> 34:44.920] 
+[34:44.920 --> 34:45.920]  The structure of the transistor.
+[34:45.920 --> 34:46.920]  The structure of the transistor.
+[34:46.920 --> 34:46.920] 
+[34:46.920 --> 34:46.920] 
+[34:46.920 --> 34:47.920]  The structure of the transistor.
+[34:47.920 --> 34:48.920]  The structure of the transistor.
+[34:48.920 --> 34:49.920]  The structure of the transistor.
+[34:49.920 --> 34:49.920] 
+[34:49.920 --> 34:49.920] 
+[34:49.920 --> 34:51.920]  The structure of the transistor.
+[34:51.920 --> 34:52.920]  The structure of the transistor.
+[34:52.920 --> 34:52.920] 
+[34:52.920 --> 34:52.920] 
+[34:52.920 --> 34:53.920]  The structure of the transistor.
+[34:53.920 --> 34:55.920]  The structure of the structure of the transistor.
+[34:55.920 --> 34:55.920] 
+[34:55.920 --> 35:03.360]  So what is the Q point or question point?
+[35:04.160 --> 35:07.800]  What is the base current at its question point?
+[35:08.340 --> 35:13.560]  What is its collector current at this question point?
+[35:13.640 --> 35:17.080]  That is set up by these values that we see here.
+[35:17.760 --> 35:21.920]  What is the resulting collector to emitter voltage?
+[35:21.920 --> 35:29.100]  And of course, if you can answer this, everything else is pretty straightforward to determine.
+[35:29.480 --> 35:38.960]  So let's find out how do we actually answer this particular problem.
+[35:40.100 --> 35:43.100]  So anybody, any volunteers?
+[35:44.960 --> 35:49.920]  So the key point or the starting point here as a clue is to...
+[35:49.920 --> 35:51.440]  It's not a clue.
+[35:51.780 --> 35:53.780]  It's actually how to answer it.
+[35:54.100 --> 35:54.420]  All right?
+[35:54.520 --> 35:56.220]  Is to determine this.
+[35:56.560 --> 35:56.840]  All right?
+[35:56.980 --> 35:59.440]  And once you've gotten that, sunod-sunod na yan.
+[35:59.960 --> 36:00.240]  Okay?
+[36:00.880 --> 36:03.840]  Once you've gotten IB, sunod-sunod na yan.
+[36:03.980 --> 36:06.420]  So again, how do I calculate IB?
+[36:06.700 --> 36:09.620]  Well, recognize the input loop here.
+[36:09.760 --> 36:10.860]  This goes this way.
+[36:10.860 --> 36:19.380]  So I can say that from the previous page, IB is equal to what?
+[36:20.260 --> 36:20.580]  All right?
+[36:21.700 --> 36:24.780]  12 volts minus...
+[36:24.780 --> 36:30.000]  Well, we're not given VBE, but let's just...
+[36:30.000 --> 36:31.680]  Sorry, you should have provided this.
+[36:31.940 --> 36:36.400]  But assuming that it's a silicon transistor, we'll put in 0.7.
+[36:36.400 --> 36:39.060]  So minus 0.7 volts.
+[36:39.980 --> 36:40.140]  All right?
+[36:40.220 --> 36:45.360]  So this is your supply, VCC minus VBE.
+[36:46.460 --> 36:47.400]  All right?
+[36:47.620 --> 36:53.720]  Divided by RB, which is 240 kilo-ohms.
+[36:54.240 --> 36:54.600]  All right?
+[36:54.660 --> 36:58.360]  This is your RB to get your I sub B.
+[36:58.360 --> 37:08.720]  Once you have your I sub B, you will be able to get your I sub C because I sub C is equal to beta times I sub B.
+[37:09.020 --> 37:16.920]  So substitution lang, substitution, pip T multiplied by whatever you got here gives you your I sub C.
+[37:16.920 --> 37:25.300]  And once you have those two, it is just a question of, oh, okay, now that I have my I sub C, I can get the voltage across the resistor.
+[37:26.060 --> 37:33.160]  And because I can get that using KVL, I can also determine the collector to emitter voltage.
+[37:33.300 --> 37:35.480]  And so that answers everything, actually.
+[37:36.440 --> 37:36.600]  Okay?
+[37:37.180 --> 37:38.280]  Did you follow, people?
+[37:38.600 --> 37:39.820]  Or was that too fast?
+[37:40.600 --> 37:40.780]  Sige.
+[37:41.240 --> 37:44.300]  Digest muna habang umihilom ako ng kape.
+[37:44.300 --> 37:44.380]  Okay?
+[37:45.860 --> 37:46.140]  Hmm.
+[37:47.340 --> 37:48.840]  Wonderful hot coffee.
+[37:49.100 --> 37:49.300]  Okay.
+[37:49.980 --> 37:50.660]  No sugar.
+[37:51.160 --> 37:51.580]  Straight.
+[37:51.840 --> 37:52.140]  Black.
+[37:52.640 --> 37:53.040]  All right?
+[37:53.540 --> 37:55.180]  So let's find out.
+[37:55.380 --> 37:59.380]  Let's see if our answers are correct.
+[37:59.820 --> 38:00.120]  Okay?
+[38:00.420 --> 38:00.680]  Sorry.
+[38:00.920 --> 38:02.440]  Let me erase everything here.
+[38:03.520 --> 38:03.980]  Erasure.
+[38:04.400 --> 38:04.860]  Erasure.
+[38:05.660 --> 38:06.240]  Erasure.
+[38:06.240 --> 38:06.460]  Erasure.
+[38:07.720 --> 38:09.040]  Here are all drawings.
+[38:09.620 --> 38:09.880]  Okay?
+[38:10.660 --> 38:11.660]  And let's see.
+[38:12.760 --> 38:13.180]  All right?
+[38:13.180 --> 38:16.400]  Ib is equal to yada yada blah blah blah.
+[38:17.000 --> 38:17.420]  All right?
+[38:17.560 --> 38:19.100]  And exactly as I said.
+[38:19.720 --> 38:28.500]  And the resulting equation is, or the result is essentially 47 microamperes.
+[38:28.920 --> 38:29.080]  Okay?
+[38:29.640 --> 38:31.400]  47 microamperes.
+[38:31.400 --> 38:39.000]  And out of that 47 microamperes, we can substitute that in here.
+[38:39.680 --> 38:42.900]  And we know that the beta value is 50.
+[38:43.160 --> 38:50.400]  And when we multiply that, we get an I sub C of 2.35 milliampperes.
+[38:50.540 --> 38:50.760]  Okay?
+[38:50.760 --> 38:55.140]  So you might want to write that down, you know, just for the sake of it.
+[38:55.760 --> 38:59.340]  But you know, 47 microamperes.
+[38:59.660 --> 39:05.440]  And this one is 2.35 ma or milliampperes.
+[39:05.700 --> 39:10.220]  And of course, that now allows you to calculate your V sub RC.
+[39:10.220 --> 39:11.000]  All right?
+[39:11.100 --> 39:19.340]  So V sub RC is equal to 2.2k times 2.35 milliampperes.
+[39:19.540 --> 39:25.200]  And that will allow you to then calculate what your VCE happens to be.
+[39:25.600 --> 39:25.960]  All right?
+[39:26.040 --> 39:29.680]  And once you've done that, you know where the transistor sits.
+[39:30.440 --> 39:30.880]  All right?
+[39:31.140 --> 39:33.060]  Where is the transistor?
+[39:33.720 --> 39:35.860]  Is it in its active region or not?
+[39:36.200 --> 39:36.600]  All right?
+[39:36.600 --> 39:43.980]  The clue, of course, here is that if you get a VCE that is negative or zero or 12 volts,
+[39:44.320 --> 39:49.460]  all right, or something like that, then obviously it's very off or it's very on.
+[39:50.020 --> 39:51.380]  And it's not, you know.
+[39:51.840 --> 40:04.720]  So it's in its active region if the resulting VCE is somewhere in between 12 volts and zero
+[40:04.720 --> 40:05.760]  in this case.
+[40:05.760 --> 40:11.020]  It must not ever hit zero or become negative.
+[40:11.400 --> 40:11.620]  All right?
+[40:11.660 --> 40:17.120]  And it must not hit anywhere close to 12 volts because if it did, it would mean that it's
+[40:17.120 --> 40:17.940]  open circuit.
+[40:18.180 --> 40:19.960]  It means that it is cut off.
+[40:20.600 --> 40:20.780]  Okay?
+[40:21.360 --> 40:21.720]  All right.
+[40:21.900 --> 40:23.260]  So let's see.
+[40:23.640 --> 40:26.780]  I'm sure that the calculations would, you know,
+[40:26.780 --> 40:35.280]  I'm still trying to find a quick and easy.
+[40:35.500 --> 40:36.340]  At wala talaga.
+[40:37.180 --> 40:37.440]  Okay.
+[40:37.640 --> 40:37.860]  Sige.
+[40:38.080 --> 40:38.720]  Never mind.
+[40:39.040 --> 40:39.420]  All right.
+[40:39.420 --> 40:44.800]  We'll show that those are the results.
+[40:44.800 --> 40:45.120]  Okay.
+[40:45.240 --> 40:49.100]  So here is the direct calculation already.
+[40:49.260 --> 40:54.700]  Somebody didn't even bother to calculate what the voltage across the resistor is kasi inintegrate
+[40:54.700 --> 40:58.320]  na niya rito and then sinabdract na niya from 12 volts.
+[40:58.320 --> 41:05.060]  And the resulting VCE in this case is 6.83 volts.
+[41:05.460 --> 41:05.540]  Okay?
+[41:06.040 --> 41:14.020]  For the sake of clarity, all right, we can calculate 2.2k times 2.35 milliampere.
+[41:14.020 --> 41:14.920]  All right.
+[41:15.360 --> 41:24.720]  2.35 times 2.200 is equal to 5.17.
+[41:25.260 --> 41:25.600]  All right.
+[41:25.660 --> 41:28.020]  This is equal to 5.17 volts.
+[41:28.220 --> 41:29.140]  Why did I do that?
+[41:29.200 --> 41:30.140]  I'll just subtract the two.
+[41:30.220 --> 41:30.740]  But what the hell?
+[41:31.200 --> 41:31.460]  Anyway.
+[41:31.920 --> 41:32.080]  Sige.
+[41:32.220 --> 41:42.460]  So 5.17 volts across the collector resistor, whereas we have 6.83 volts across the collector
+[41:42.460 --> 41:43.080]  to emitter.
+[41:43.080 --> 41:50.440]  And when you see that you have a voltage such as this, then you know that indeed, yes, it
+[41:50.440 --> 41:56.200]  is in its active region.
+[41:58.820 --> 41:59.560]  All right.
+[41:59.580 --> 42:00.040]  Or not.
+[42:00.160 --> 42:03.160]  It is in the active region.
+[42:03.740 --> 42:03.980]  Okay?
+[42:04.120 --> 42:05.520]  It's in the active region.
+[42:05.720 --> 42:13.000]  When you see that there's this kind of a voltage, it's neither close to zero, nor is it
+[42:13.000 --> 42:16.440]  anywhere near the supply voltage of 12 volts.
+[42:16.440 --> 42:17.560]  It's in between.
+[42:18.240 --> 42:18.520]  All right?
+[42:18.940 --> 42:19.820]  It's in between.
+[42:19.820 --> 42:24.380]  So therefore, when you look at the plot, all right?
+[42:25.060 --> 42:26.860]  Nandito si 12 volts.
+[42:27.400 --> 42:28.500]  Nandito siya.
+[42:28.620 --> 42:29.580]  Somewhere here.
+[42:29.580 --> 42:35.140]  And with a collector current of 2.35 milliampperes, all right?
+[42:35.460 --> 42:41.520]  You see that the maximum values for the current is basically 12 over 2.2K.
+[42:42.120 --> 42:42.400]  All right?
+[42:42.880 --> 42:44.600]  Mentally, 12.
+[42:44.820 --> 42:45.560]  All right?
+[42:45.800 --> 42:51.720]  12 divided by 2200 is 5.45 milliampperes.
+[42:51.720 --> 42:51.980]  All right?
+[42:52.040 --> 42:58.280]  So that's 5.45 MA is the absolute maximum current that can happen.
+[42:58.800 --> 43:01.780]  And it's only got 2.35 milliampperes.
+[43:02.400 --> 43:04.160]  Therefore, it's somewhere in the middle.
+[43:04.320 --> 43:09.980]  And you can see that the intersection of that, okay, is somewhere here.
+[43:09.980 --> 43:13.760]  And that's where the thing is sitting right now.
+[43:13.760 --> 43:21.620]  And that's definitely, well, pretty much close to the center of the, you know, limits.
+[43:22.080 --> 43:22.300]  All right?
+[43:22.380 --> 43:29.440]  And so therefore, it's sitting right quite nicely in the center of the active region.
+[43:29.440 --> 43:33.080]  Maybe not perfectly centered, but close to it.
+[43:33.460 --> 43:40.740]  And definitely good enough for being able to amplify any kind of input signal that you might want to put here.
+[43:41.560 --> 43:41.780]  Okay?
+[43:42.280 --> 43:45.040]  So there's your answer for this.
+[43:45.200 --> 43:47.520]  And of course, the rest of it is pretty easy.
+[43:48.280 --> 43:48.700]  All right?
+[43:48.800 --> 43:50.520]  What is the value for VB?
+[43:50.520 --> 44:01.100]  Well, VB in this case, being referenced against ground is simply the voltage from base to emitter
+[44:01.100 --> 44:08.140]  because the emitter happens to be directly connected to ground in this fixed bias circuit.
+[44:09.580 --> 44:09.740]  Okay?
+[44:10.080 --> 44:11.660]  And so the answer is straightforward.
+[44:11.920 --> 44:12.720]  It's 0.7.
+[44:12.720 --> 44:23.540]  And for the collector voltage, it is also 6.83 again because VCE, the voltage from collector to emitter,
+[44:24.140 --> 44:28.720]  happens to be the same because the emitter again is connected to ground.
+[44:29.160 --> 44:33.080]  Therefore, V sub C is one and the same thing.
+[44:33.340 --> 44:33.740]  All right?
+[44:34.280 --> 44:36.880]  Which is 6.83 volts.
+[44:36.880 --> 44:37.420]  All right?
+[44:37.420 --> 44:45.420]  And that gives, I believe, all of the answers to the questions that were posed in the problem.
+[44:45.580 --> 44:45.840]  Okay.
+[44:45.940 --> 44:49.420]  One last statement, which is something that I already mentioned.
+[44:50.240 --> 44:50.600]  All right?
+[44:50.640 --> 44:51.340]  Over here.
+[44:52.660 --> 44:53.820]  I don't know if it's going to be able to do that.
+[44:54.240 --> 44:54.720]  Okay.
+[44:56.300 --> 44:57.420]  Which is,
+[44:57.580 --> 45:03.020]  here, all my drawings.
+[45:03.300 --> 45:03.940]  Does this help?
+[45:04.180 --> 45:04.880]  No, it doesn't.
+[45:05.240 --> 45:06.440]  Why does it want to do that?
+[45:06.440 --> 45:07.040]  Okay.
+[45:07.420 --> 45:08.060]  I don't know.
+[45:08.480 --> 45:11.760]  The last slide or the last thing that is supposed to pop up,
+[45:12.320 --> 45:12.680]  all right,
+[45:12.720 --> 45:16.580]  is to tell us if the thing is in the active region,
+[45:16.680 --> 45:18.660]  which I've already mentioned anyway.
+[45:19.300 --> 45:19.580]  Okay?
+[45:19.980 --> 45:20.280]  All right.
+[45:20.320 --> 45:21.420]  So there we go with that.
+[45:23.620 --> 45:25.120]  Maybe if I close this.
+[45:25.420 --> 45:25.660]  Okay.
+[45:27.000 --> 45:27.280]  Okay.
+[45:27.280 --> 45:27.900]  Well, okay.
+[45:27.920 --> 45:28.960]  I don't know what it's doing now.
+[45:29.600 --> 45:29.980]  All right.
+[45:31.660 --> 45:32.960]  Doesn't want to go forward.
+[45:33.560 --> 45:34.800]  Doesn't want to go forward.
+[45:35.800 --> 45:36.460]  Oh, there.
+[45:36.460 --> 45:37.080]  All right.
+[45:37.800 --> 45:38.860]  Doesn't mind of its own.
+[45:39.560 --> 45:39.960]  VDC.
+[45:40.460 --> 45:40.920]  All right.
+[45:41.460 --> 45:43.760]  The voltage from base to collector.
+[45:44.000 --> 45:44.120]  Pala.
+[45:44.420 --> 45:44.680]  Sorry.
+[45:44.840 --> 45:47.500]  That's what the thing was trying to or wanting to display.
+[45:48.120 --> 45:48.420]  All right.
+[45:48.460 --> 45:50.760]  The voltage from base to collector.
+[45:50.880 --> 45:51.920]  Now, how do you get that?
+[45:51.920 --> 45:53.880]  Well, this is your base.
+[45:54.000 --> 45:55.060]  This is your collector.
+[45:55.940 --> 46:01.920]  Base to collector means that you want to measure the voltage from here to here with the collector
+[46:01.920 --> 46:04.200]  being the reference point.
+[46:04.200 --> 46:14.900]  So you know that this is at plus 0.7 and the collector voltage is basically at 6.83 volts.
+[46:14.900 --> 46:30.260]  And so if I measure from here to here with this much of a high positive voltage, then I'm going to get a negative result of 6.83 minus 0.7, which is 6.13 volts.
+[46:30.260 --> 46:39.200]  But it will be negative because you're putting the black wire of your multimeter here.
+[46:39.420 --> 46:42.640]  And you're putting the red wire of your multimeter here.
+[46:42.720 --> 46:48.020]  Now, this is a bigger positive voltage than the positiveness of the base.
+[46:48.020 --> 46:50.420]  Therefore, you're going to get a negative reading.
+[46:50.920 --> 46:52.060]  And so that's it exactly.
+[46:52.820 --> 46:53.060]  All right.
+[46:53.140 --> 47:00.380]  You get negative 6.13 volts as the result, which goes to show that this particular diode.
+[47:00.480 --> 47:04.840]  Remember that there is a diode from the base to the collector.
+[47:05.840 --> 47:05.980]  All right.
+[47:06.000 --> 47:07.640]  You'll see that this particular diode.
+[47:07.780 --> 47:11.420]  There's another one over here, pretty obviously, because that's what the symbol here is all about.
+[47:11.920 --> 47:12.140]  All right.
+[47:12.140 --> 47:20.280]  You'll see again that the base to emitter diode is forward biased and the base to collector diode is reverse biased.
+[47:20.280 --> 47:22.960]  So this is what I was mentioning also last meeting.
+[47:23.520 --> 47:36.700]  Under normal operating conditions, if your transistor is in its active region, the diode from base to collector is reverse biased.
+[47:36.940 --> 47:39.620]  It is supposed to be turned off.
+[47:40.680 --> 47:40.980]  All right.
+[47:40.980 --> 47:43.940]  And you're just making the thing sit there.
+[47:44.440 --> 47:44.860]  All right.
+[47:45.060 --> 47:52.980]  Where the base to collector diode is turned off, you're not supposed to be conducting any current from collector to base.
+[47:53.380 --> 47:53.740]  All right.
+[47:54.180 --> 48:03.540]  And the only conduction paths are basically from collector to emitter and from the base to the emitter.
+[48:04.160 --> 48:04.440]  Okay.
+[48:04.800 --> 48:05.160]  All right.
+[48:05.200 --> 48:06.160]  So there you go with that.
+[48:06.320 --> 48:08.920]  So this is what we call as fixed bias.
+[48:08.920 --> 48:11.760]  It's particularly simple enough.
+[48:11.760 --> 48:12.500]  All right.
+[48:12.500 --> 48:16.940]  And at this point, you don't really notice the value of it.
+[48:16.940 --> 48:27.660]  But again, I repeat, all of these are just to set it up so that it's sitting in a proper active region ready to amplify.
+[48:27.660 --> 48:28.340]  Okay.
+[48:28.340 --> 48:28.400]  Okay.
+[48:28.400 --> 48:28.420]  Okay.
+[48:28.420 --> 48:30.620]  So that's that.
+[48:30.620 --> 48:32.200]  Any questions?
+[48:33.280 --> 48:34.560]  It's clear?
+[48:34.860 --> 48:46.700]  Because the next circuit that we're going to show you is another biasing scheme, a little bit more complex than this one.
+[48:46.700 --> 48:47.700]  Okay.
+[48:47.700 --> 48:47.820]  Okay.
+[48:47.820 --> 48:47.880]  Okay.
+[48:47.880 --> 48:47.880] 
+[48:47.880 --> 48:47.880] 
+[48:47.880 --> 48:47.880] 
+[48:47.880 --> 48:48.880]  Okay.
+[48:48.880 --> 49:06.600]  And the reason for having a more complex bias is because a transistor that is biased this way does not stay in the bias point that you've just calculated.
+[49:06.600 --> 49:18.980]  Because a lot of the parameters that we see here are influenced by things like, well, primarily temperature.
+[49:19.900 --> 49:20.180]  All right.
+[49:20.180 --> 49:28.280]  And because there is an obvious power dissipation, all right, PD is equal to I sub C times BCE.
+[49:29.160 --> 49:29.420]  All right.
+[49:29.760 --> 49:45.880]  Because there is a little bit of power dissipation, even if it's small, we expect that the silicon itself, the transistor itself, will begin to dissipate and get a little bit of higher temperature compared to the ambient.
+[49:45.880 --> 49:49.960]  Or even if not, the ambient temperature in itself can change.
+[49:50.440 --> 49:55.140]  May nag-on ng aircon, may nag-iheat ng hangin, may nag-haching sa tabi ng transistor.
+[49:55.860 --> 49:56.020]  Okay.
+[49:56.640 --> 50:13.260]  And because of things like this, the beta of the transistor changes and the VBE, the forward conduction characteristic of the base emitter junction, also changes with temperature.
+[50:13.260 --> 50:18.100]  And with those changes, the Q point will shift.
+[50:18.880 --> 50:19.140]  All right.
+[50:20.100 --> 50:27.320]  Simple fixed bias, all right, is not a stable configuration.
+[50:27.320 --> 50:45.540]  It is the simplest of all, and it is academic because it allows for easy calculation, but it's not a usable configuration in real life because the transistor Q point shifts too easily.
+[50:46.340 --> 50:50.480]  Even just sitting there, you will see that the value changes.
+[50:51.200 --> 50:51.360]  Okay.
+[50:51.360 --> 50:51.480]  Okay.
+[50:52.200 --> 51:07.620]  Um, experiment, all right, an experiment in the future, not the one that's upcoming this, uh, this week, but the next experiment after this one.
+[51:07.700 --> 51:08.340]  Okay.
+[51:08.340 --> 51:08.360]  Okay.
+[51:08.660 --> 51:14.120]  Will, in fact, explore the stability of these bias circuits.
+[51:14.340 --> 51:14.620]  Okay.
+[51:14.620 --> 51:30.560]  You'll explore the stability of these bias circuits, and you will find, hopefully, the experiment will bear out the statement that the fixed bias circuit is the least stable of all of the configurations available.
+[51:31.020 --> 51:31.180]  Okay.
+[51:31.480 --> 51:36.140]  So, if there are no questions, uh, by all means, let's go to the next, uh, slide.
+[51:37.420 --> 51:37.680]  Okay.
+[51:38.040 --> 51:40.560]  Ah, ay, gusto pa niyang mag, uh, pumiri.
+[51:40.840 --> 51:41.260]  Okay.
+[51:41.440 --> 51:41.940]  Next.
+[51:42.620 --> 51:43.120]  Okay.
+[51:43.120 --> 51:43.820]  Yes.
+[51:44.620 --> 51:46.800]  Uh, yeah.
+[51:46.960 --> 51:47.160]  Okay.
+[51:47.240 --> 51:47.880]  One last thing.
+[51:47.960 --> 51:48.160]  Sorry.
+[51:49.300 --> 51:52.920]  Recognize if the BJP is in saturation.
+[51:54.440 --> 51:54.920]  Okay.
+[51:56.840 --> 52:11.660]  If the BJP is in the saturation region, all right, you're going to get, uh, VCE close to zero, and your I sub C will be at its limit, which is 12 divided by 2.2K.
+[52:12.360 --> 52:12.800]  All right.
+[52:13.500 --> 52:13.800]  Okay.
+[52:13.800 --> 52:17.300]  Now, uh, there are more examples pala here.
+[52:17.380 --> 52:17.620]  Sorry.
+[52:17.760 --> 52:19.620]  Before we go to the next configuration.
+[52:19.880 --> 52:20.140]  Boo.
+[52:20.740 --> 52:21.140]  All right.
+[52:21.980 --> 52:27.320]  Given the information appearing below, determine I sub C, VCC, and beta.
+[52:28.140 --> 52:28.900]  All right.
+[52:29.100 --> 52:30.720]  Uh, and RB.
+[52:31.380 --> 52:31.780]  Okay.
+[52:32.440 --> 52:33.360]  Andaming hiniya.
+[52:33.600 --> 52:33.880]  Okay.
+[52:33.980 --> 52:35.500]  So let's, let's try that.
+[52:35.580 --> 52:37.520]  This one's a little bit more challenging.
+[52:37.740 --> 52:37.940]  Okay.
+[52:37.940 --> 52:46.580]  Given the information appearing below, determine I sub C, VCC, beta, and R sub B.
+[52:46.640 --> 52:48.300]  Ayan, oh, marami ng blanco rito.
+[52:48.680 --> 52:58.680]  Pero marami rin information na binigay, which hopefully allows you to be able to answer each and every one of these questions.
+[52:58.680 --> 52:59.520]  Okay.
+[52:59.520 --> 53:00.480]  Okay.
+[53:00.480 --> 53:00.580]  Okay.
+[53:01.240 --> 53:01.920]  Easily.
+[53:01.920 --> 53:02.740]  All right.
+[53:02.740 --> 53:02.760]  All right.
+[53:02.760 --> 53:04.340]  So what's given to us?
+[53:04.500 --> 53:04.940]  All right.
+[53:05.040 --> 53:09.920]  Well, uh, what's given to us are the values for R sub C.
+[53:10.640 --> 53:14.680]  Uh, the VCE value.
+[53:14.680 --> 53:15.320]  All right.
+[53:15.320 --> 53:15.360]  All right.
+[53:15.360 --> 53:19.780]  Here's your VCE value, which is 7.2 volts.
+[53:20.540 --> 53:26.580]  You'll notice that there is 4 milliampperes at I sub E.
+[53:27.400 --> 53:32.800]  And I sub B is 20 microamperes.
+[53:33.960 --> 53:34.160]  Okay.
+[53:35.160 --> 53:35.560]  All right.
+[53:37.260 --> 53:39.240]  You're not even given VCC.
+[53:39.840 --> 53:40.140]  All right.
+[53:40.620 --> 53:42.780]  Wala yung VCC, unknown yung VCC.
+[53:43.220 --> 53:43.500]  All right.
+[53:43.500 --> 53:46.300]  So, masasagot nyo ba?
+[53:46.740 --> 54:03.960]  Can you look at this carefully and determine the series of answers that you'd have to put in or solve to facilitate getting all of the unknowns.
+[54:04.740 --> 54:04.780]  Okay.
+[54:05.100 --> 54:06.100]  So the trick here.
+[54:06.460 --> 54:09.160]  Pareho ito sa mga geometry type problems, di ba?
+[54:09.160 --> 54:23.200]  You remember those problems that were given to you to prove that, you know, these two things in two, these two triangles or whatever prove that they are both, you know, isosceles triangles.
+[54:23.200 --> 54:26.800]  So, you know, you have to use the rules of geometry.
+[54:27.500 --> 54:30.540]  C, P, C, P, C, blah, blah, blah, yada, yada, yada.
+[54:30.760 --> 54:32.980]  Or the angle here.
+[54:33.620 --> 54:38.460]  This, this, this angle plus this angle plus this angle should be equal to 180 or whatever.
+[54:38.460 --> 54:47.200]  So, there's a certain sequence of things that you do to arrive at the proof that, you know, this relationship was true.
+[54:47.620 --> 54:48.940]  So, same thing with this.
+[54:49.080 --> 54:58.540]  To get the answer to these questions, there's probably a certain sequence that will allow you to easily wind up with the answers.
+[54:58.540 --> 55:08.220]  And if you don't follow the correct sequence, you'll have a very hard time figuring out, you know, you know, or you can't solve it because you can't even start.
+[55:08.600 --> 55:14.700]  So, the trick is finding something that's easy enough to get you an answer.
+[55:14.880 --> 55:19.280]  And that might facilitate getting the answers to the rest of the questions.
+[55:19.280 --> 55:20.120]  Okay.
+[55:20.320 --> 55:36.840]  So, the trick would be to find out which one, all right, is solvable from the list of characteristics and operating characteristics of a transistor that you can use.
+[55:37.900 --> 55:38.080]  Okay.
+[55:38.460 --> 55:38.960]  Yeah.
+[55:39.320 --> 55:46.100]  The other thing that probably would be important is to be reminded that, well, if it's not stated,
+[55:46.100 --> 55:54.520]  we can assume that VDE is equal to 0.7 volts for the sake of, you know, making life easier.
+[55:54.960 --> 55:55.220]  All right.
+[55:55.340 --> 55:55.800]  Okay.
+[55:55.960 --> 56:01.960]  Let me just turn on the electric fan here because it's getting a bit warm.
+[56:02.700 --> 56:03.220]  Okay.
+[56:06.460 --> 56:07.040]  All right.
+[56:07.040 --> 56:07.700]  Sorry about that.
+[56:08.160 --> 56:08.360]  Okay.
+[56:09.300 --> 56:11.360]  So, who can help me?
+[56:13.360 --> 56:14.620]  Who can help me?
+[56:14.620 --> 56:16.760]  How do you solve this?
+[56:17.240 --> 56:23.000]  It's, by the way, the answers are not on the PowerPoint slide.
+[56:23.120 --> 56:28.580]  So, even if I were to publish this and put it up on Canvas for you to study later,
+[56:29.040 --> 56:30.520]  wala rin yung sagot dyan.
+[56:31.100 --> 56:31.260]  Okay.
+[56:31.340 --> 56:31.920]  Wala rin.
+[56:32.060 --> 56:38.360]  So, kailangan sagutin natin to para, well, if you like, at least it'll be in the video.
+[56:38.360 --> 56:39.640]  All right.
+[56:39.780 --> 56:44.840]  Because if we don't solve it, well, obviously, well, it's actually easy enough.
+[56:44.940 --> 56:46.020]  You don't really need it.
+[56:46.700 --> 56:49.240]  You can always focus on the problem later.
+[56:50.180 --> 56:51.020]  But, yeah.
+[56:51.260 --> 56:53.180]  Given this, it's 830.
+[56:53.420 --> 56:53.640]  Come on.
+[56:54.220 --> 56:55.620]  Let's try answering it.
+[56:55.620 --> 57:05.500]  Pretty obviously, you can't do a solution on the input side of it because you don't have your VCC.
+[57:05.860 --> 57:07.940]  Neither do you have your R sub D value.
+[57:08.100 --> 57:09.980]  So, that's kind of out.
+[57:10.500 --> 57:10.840]  All right.
+[57:10.920 --> 57:12.240]  That's definitely out.
+[57:12.240 --> 57:16.740]  So, can you try solving the output side of it?
+[57:16.860 --> 57:19.920]  So, again, on the output side, well, here's the problem.
+[57:20.040 --> 57:20.960]  You don't have VCC.
+[57:21.520 --> 57:27.720]  Although, you do have the currents and certain voltages.
+[57:29.360 --> 57:37.300]  Well, you don't have any of the voltages, but you do have your currents and one voltage, which is VCE.
+[57:37.300 --> 57:37.920]  All right.
+[57:38.020 --> 57:46.100]  So, what is pretty obvious that you can easily get from the parameters that are given?
+[57:46.680 --> 57:47.500]  You'll notice.
+[57:47.760 --> 57:48.300]  Sige na ha.
+[57:48.380 --> 57:50.100]  Parang wala kayo sa mood sumagot.
+[57:50.660 --> 57:52.780]  Or am I not just giving enough time?
+[57:53.180 --> 57:55.100]  You'll notice that you have IE.
+[57:56.320 --> 58:03.320]  And you have an equation, which is IE is equal to IC plus IB.
+[58:03.320 --> 58:11.280]  And, of course, incidentally, beta is equal to IC over IB.
+[58:11.820 --> 58:17.240]  And if you can get something here, all right, then you're good.
+[58:17.880 --> 58:18.140]  Okay?
+[58:18.860 --> 58:19.660]  You're good.
+[58:19.920 --> 58:24.140]  So, is it possible to get anything?
+[58:24.140 --> 58:30.960]  Ano?
+[58:32.240 --> 58:33.660]  Can you get IC?
+[58:35.660 --> 58:36.300]  Anybody?
+[58:36.960 --> 58:37.360]  Why?
+[58:39.940 --> 58:40.320]  Yo!
+[58:44.320 --> 58:44.740]  Ay!
+[58:45.740 --> 58:47.540]  Parang wala yatan tao dito.
+[58:47.900 --> 58:49.520]  Am I just talking to ghosts?
+[58:49.520 --> 58:54.340]  Can I see a show of hands who's actually here in the session and visiting?
+[58:54.660 --> 58:54.780]  Hello.
+[58:55.220 --> 58:55.400]  Ayan.
+[58:55.760 --> 58:56.360]  Thank you.
+[58:57.700 --> 58:58.380]  O, tingnan mo.
+[58:58.800 --> 58:59.160]  Ayan.
+[58:59.300 --> 58:59.600]  Ang taga.
+[59:00.860 --> 59:01.500]  Taguan.
+[59:01.660 --> 59:02.040]  Ayan!
+[59:02.680 --> 59:03.060]  That's fine.
+[59:03.180 --> 59:03.340]  Okay.
+[59:03.460 --> 59:03.740]  Sige.
+[59:04.440 --> 59:06.920]  O, makukuha yung i sub C.
+[59:08.120 --> 59:09.540]  O, meron na kayo dito.
+[59:09.740 --> 59:10.700]  O, for MA.
+[59:11.380 --> 59:11.660]  O.
+[59:11.660 --> 59:13.420]  So, substitution.
+[59:14.200 --> 59:19.920]  4 milliampere and IB is 20 microamperes.
+[59:20.540 --> 59:21.540]  So, you can get IC.
+[59:22.500 --> 59:27.060]  4 MA minus 20 milliampere.
+[59:27.240 --> 59:27.500]  Yung!
+[59:28.700 --> 59:29.140]  Ah!
+[59:29.260 --> 59:29.480]  Okay.
+[59:29.540 --> 59:30.060]  Very good.
+[59:30.400 --> 59:30.660]  All right?
+[59:31.180 --> 59:32.980]  And this gives you, tama bay ma?
+[59:33.860 --> 59:34.200]  Okay.
+[59:34.540 --> 59:38.160]  3.98 milliampere.
+[59:38.580 --> 59:39.280]  All right?
+[59:39.420 --> 59:40.540]  That's your I sub C.
+[59:40.540 --> 59:44.180]  And so, therefore, you can substitute if there's any need to.
+[59:44.360 --> 59:46.080]  But yeah, you might like to do that.
+[59:46.460 --> 59:50.460]  And you can find out that you can get your beta now.
+[59:50.620 --> 01:00:02.320]  Because your beta is now equal to 3.98 milliampere divided by 20 microamperes.
+[01:00:02.740 --> 01:00:05.960]  And you'll get a certain value for beta.
+[01:00:07.640 --> 01:00:08.200]  Okay?
+[01:00:08.800 --> 01:00:09.140]  All right?
+[01:00:09.140 --> 01:00:11.640]  So, you could get that far.
+[01:00:12.360 --> 01:00:21.120]  Now, the other thing that is of importance is, in fact, you could have gotten your supply voltage.
+[01:00:21.480 --> 01:00:21.760]  All right?
+[01:00:21.960 --> 01:00:24.100]  You could have gotten your supply voltage.
+[01:00:24.100 --> 01:00:27.140]  If you observe this.
+[01:00:27.140 --> 01:00:29.120]  Medyo, hindi rin ako nag-iisip kanina.
+[01:00:29.920 --> 01:00:30.300]  All right?
+[01:00:30.940 --> 01:00:39.920]  If you observe this, because you have beta, or your base current is 20 microamperes.
+[01:00:39.920 --> 01:00:43.040]  And so, therefore, you should be able to get V sub Rp.
+[01:00:43.040 --> 01:00:43.320]  Okay?
+[01:00:44.820 --> 01:00:45.860]  Ngayon ko lang naisip.
+[01:00:45.980 --> 01:00:46.200]  Sorry.
+[01:00:46.860 --> 01:00:47.060]  All right?
+[01:00:47.140 --> 01:00:56.040]  So, V sub Rp is basically equal to Rp multiplied by 20 microamperes.
+[01:00:56.900 --> 01:00:57.360]  Okay?
+[01:00:57.360 --> 01:00:58.760]  Ah, pero yun nga.
+[01:00:58.900 --> 01:01:00.520]  Hindi natin alam yung V sub Rp.
+[01:01:00.640 --> 01:01:01.960]  Kaya hindi rin natin mapukasawa.
+[01:01:02.100 --> 01:01:02.300]  Fine.
+[01:01:02.640 --> 01:01:02.880]  All right?
+[01:01:02.980 --> 01:01:05.100]  So, this is the correct path after all.
+[01:01:05.320 --> 01:01:05.600]  All right?
+[01:01:06.100 --> 01:01:09.860]  So, let's get this value.
+[01:01:10.640 --> 01:01:10.960]  Okay?
+[01:01:10.960 --> 01:01:12.440]  Shall we get this value?
+[01:01:15.580 --> 01:01:15.840]  Okay?
+[01:01:16.300 --> 01:01:23.580]  And the other thing right now of importance is now that we know our I sub C, it's 3.98
+[01:01:23.580 --> 01:01:25.060]  milliampperes.
+[01:01:25.280 --> 01:01:29.000]  We can now calculate our V sub Rc.
+[01:01:29.380 --> 01:01:29.760]  All right?
+[01:01:30.160 --> 01:01:40.240]  Which is equal to 3.98 milliampperes, which is our calculated I sub C, multiplied by our Rc,
+[01:01:40.240 --> 01:01:42.340]  which is 2.2k.
+[01:01:42.900 --> 01:01:46.360]  And that gives us, drum roll please, all right?
+[01:01:46.980 --> 01:01:54.020]  3, eh, mali, 3.98 times 10 to the minus 3 times 2200.
+[01:01:54.520 --> 01:01:58.740]  And that gives us 8.756.
+[01:01:59.080 --> 01:01:59.400]  All right?
+[01:01:59.860 --> 01:02:02.680]  8.756 volts.
+[01:02:03.500 --> 01:02:03.940]  All right?
+[01:02:04.360 --> 01:02:08.760]  And given this, we can now determine our Vcc.
+[01:02:08.760 --> 01:02:14.340]  Vcc is equal to Vce plus Rc.
+[01:02:15.280 --> 01:02:15.560]  All right?
+[01:02:16.060 --> 01:02:22.780]  And that gives us, sorry, V sub Rc.
+[01:02:23.420 --> 01:02:24.040]  All right?
+[01:02:24.280 --> 01:02:25.580]  V sub Rc.
+[01:02:25.820 --> 01:02:30.760]  And so, that's equal to 7.2 plus 8.7.
+[01:02:31.620 --> 01:02:33.600]  Ah, I'll put in all the decimal places.
+[01:02:33.740 --> 01:02:34.240]  What the hell?
+[01:02:34.240 --> 01:02:34.780]  All right?
+[01:02:35.220 --> 01:02:36.560]  Plus 7.2.
+[01:02:37.140 --> 01:02:40.280]  And that gives us 15.956.
+[01:02:43.280 --> 01:02:43.860]  All right?
+[01:02:44.100 --> 01:02:46.060]  Hopefully, I have not made any mistakes.
+[01:02:46.620 --> 01:02:46.880]  All right?
+[01:02:46.960 --> 01:02:48.340]  And so, there's our voltage.
+[01:02:48.920 --> 01:02:49.320]  All right?
+[01:02:49.440 --> 01:02:50.740]  For the supply.
+[01:02:50.980 --> 01:02:51.460]  Ayan na.
+[01:02:51.880 --> 01:02:52.300]  All right?
+[01:02:52.400 --> 01:02:56.100]  So, meron na tayong isang legit na sagot.
+[01:02:56.280 --> 01:02:58.300]  Actually, kanina pa dapat na sagot ito.
+[01:02:58.300 --> 01:03:10.900]  So, let's try 3.98 times 10 to the minus 3 divided by 20 times 10 to the minus 6.
+[01:03:11.540 --> 01:03:15.740]  And that gives us a value of 199.
+[01:03:17.080 --> 01:03:17.360]  Okay?
+[01:03:17.360 --> 01:03:21.840]  It's a beta of 199.
+[01:03:23.200 --> 01:03:23.320]  Right?
+[01:03:23.400 --> 01:03:25.120]  Very, very high beta transistor.
+[01:03:25.800 --> 01:03:29.340]  But, you know, definitely can exist.
+[01:03:29.980 --> 01:03:31.240]  Definitely can exist.
+[01:03:31.360 --> 01:03:36.560]  It's not out of bounds or impossible to have a transistor with a beta of 200.
+[01:03:36.980 --> 01:03:40.500]  Especially for something with such a small signal characteristic.
+[01:03:41.080 --> 01:03:41.260]  Okay?
+[01:03:41.520 --> 01:03:42.400]  So, there we go.
+[01:03:42.540 --> 01:03:44.260]  So, we got this and this.
+[01:03:44.920 --> 01:03:45.220]  Okay?
+[01:03:45.860 --> 01:03:46.240]  All right?
+[01:03:46.240 --> 01:03:51.800]  We can also now calculate Rb because we know what the supply voltage.
+[01:03:51.940 --> 01:03:53.840]  We also have I sub C, by the way.
+[01:03:54.120 --> 01:03:55.980]  So, okay na tayo dito sa tatlong to.
+[01:03:56.360 --> 01:03:58.600]  Ang kulang na lang po natin ay Rb.
+[01:03:59.340 --> 01:04:00.700]  And can you calculate Rb?
+[01:04:00.840 --> 01:04:01.160]  Yes.
+[01:04:01.260 --> 01:04:04.360]  Because you now have your supply voltage already.
+[01:04:04.820 --> 01:04:06.460]  You can form the equation.
+[01:04:07.260 --> 01:04:07.520]  All right?
+[01:04:08.000 --> 01:04:14.620]  So, R sub V is equal to the supply voltage which we've calculated as 15.956
+[01:04:14.620 --> 01:04:18.720]  minus 0.7 BbE.
+[01:04:18.720 --> 01:04:19.520]  All right?
+[01:04:19.520 --> 01:04:19.560]  All right?
+[01:04:20.000 --> 01:04:20.640]  Bcc.
+[01:04:22.040 --> 01:04:22.920]  BbE.
+[01:04:23.540 --> 01:04:23.980]  All right?
+[01:04:25.600 --> 01:04:33.960]  Divided by the current flowing through which was already given which is 20 microamperes.
+[01:04:34.360 --> 01:04:34.720]  All right?
+[01:04:34.720 --> 01:04:46.700]  And so, therefore, we wind up with an R sub V of, well, let's calculate it, 15.956 minus 0.7 is 15.256.
+[01:04:46.700 --> 01:04:47.780]  Okay?
+[01:04:47.780 --> 01:05:04.800]  Divided by 20 microamperes, which gives us a value of 762,800 kilo ohms.
+[01:05:04.800 --> 01:05:05.780]  All right?
+[01:05:05.960 --> 01:05:08.280]  So, there's your R sub V.
+[01:05:09.860 --> 01:05:10.720]  All right?
+[01:05:10.720 --> 01:05:14.020]  And that's the answer there.
+[01:05:14.620 --> 01:05:15.820]  Are there questions?
+[01:05:16.260 --> 01:05:21.120]  Of course, this is, you know, the usual rounding, rounding, yada, yada, blah, blah, blah.
+[01:05:21.120 --> 01:05:31.220]  So, you know, I would have guessed that whoever created the problem probably started with a beta equal to 200,
+[01:05:31.960 --> 01:05:42.080]  a Vcc equal to 16 volts, and an RB that he or she may have used maybe of 750K
+[01:05:42.080 --> 01:05:50.820]  and just calculated all the parameters that would have come out from there and then presented it as a reverse problem.
+[01:05:51.320 --> 01:05:54.900]  So, maybe that this is the actual starting point here.
+[01:05:55.220 --> 01:05:56.780]  But anyway, that's not given.
+[01:05:56.980 --> 01:05:58.000]  So, that's just a guess.
+[01:05:58.520 --> 01:05:58.840]  All right?
+[01:05:58.840 --> 01:06:00.500]  So, these are the answers.
+[01:06:01.360 --> 01:06:01.600]  All right?
+[01:06:01.940 --> 01:06:06.620]  I sub C is, you know, 3.98 milliampperes.
+[01:06:07.340 --> 01:06:07.440]  Okay?
+[01:06:07.820 --> 01:06:10.700]  Vcc is 15.956.
+[01:06:10.700 --> 01:06:12.280]  Beta is 199.
+[01:06:12.940 --> 01:06:17.360]  And RB is 762.8 kilo ohms.
+[01:06:17.520 --> 01:06:18.300]  And there you go with that.
+[01:06:18.720 --> 01:06:18.900]  Okay?
+[01:06:19.320 --> 01:06:20.200]  So, I hope that's clear.
+[01:06:20.880 --> 01:06:21.760]  Are there any questions?
+[01:06:22.380 --> 01:06:27.580]  So, you'll notice that even as a faculty member, I don't remember things like this.
+[01:06:27.860 --> 01:06:29.500]  I solved it a long time ago.
+[01:06:29.740 --> 01:06:31.340]  Here's the problem again.
+[01:06:32.300 --> 01:06:33.500]  It's the same situation.
+[01:06:33.660 --> 01:06:36.960]  If you're in a quiz, you know, you look at it and you see, what can I solve?
+[01:06:37.480 --> 01:06:37.820]  All right?
+[01:06:37.940 --> 01:06:39.780]  What can I solve from what's given?
+[01:06:39.780 --> 01:06:40.880]  And you start solving.
+[01:06:41.740 --> 01:06:48.680]  And when you get a particular answer, one particular answer, ah, okay, now that I have this, ito rin, masasolve ko na.
+[01:06:49.640 --> 01:06:51.660]  Ah, okay, nakuha ko na itong dalawa.
+[01:06:51.840 --> 01:06:53.700]  Pwede na rin makuha itong isa or whatever.
+[01:06:53.900 --> 01:06:54.900]  You just go through it.
+[01:06:54.980 --> 01:06:57.160]  And eventually, you'll be able to answer everything.
+[01:06:58.080 --> 01:06:58.620]  Okie dokes.
+[01:06:58.620 --> 01:07:00.260]  It just takes a little bit of thought.
+[01:07:01.300 --> 01:07:02.240]  Any questions?
+[01:07:04.280 --> 01:07:04.920]  Any questions?
+[01:07:05.460 --> 01:07:05.720]  Questions?
+[01:07:06.060 --> 01:07:06.320]  Questions?
+[01:07:06.600 --> 01:07:06.920]  Wala?
+[01:07:07.620 --> 01:07:07.900]  Oh.
+[01:07:08.360 --> 01:07:09.940]  Kung walan pa lang, mag-thumbs up.
+[01:07:09.940 --> 01:07:10.820]  Okay.
+[01:07:12.660 --> 01:07:13.000]  Okay.
+[01:07:17.000 --> 01:07:17.480]  Okay.
+[01:07:17.680 --> 01:07:18.000]  All right.
+[01:07:18.160 --> 01:07:18.480]  Excellent.
+[01:07:18.760 --> 01:07:20.900]  So let's go to the next slide.
+[01:07:22.040 --> 01:07:25.040]  And in order to do that, I need to erase everything.
+[01:07:26.540 --> 01:07:26.900]  Okay.
+[01:07:26.980 --> 01:07:27.520]  All drawings.
+[01:07:28.120 --> 01:07:28.300]  Okay.
+[01:07:28.300 --> 01:07:30.680]  So fixed bias circuit.
+[01:07:30.920 --> 01:07:32.520]  Ito na, may transition na tayo dito.
+[01:07:33.000 --> 01:07:33.280]  All right.
+[01:07:33.340 --> 01:07:35.840]  The barates are, it's extremely simple.
+[01:07:36.460 --> 01:07:36.800]  Okay.
+[01:07:37.620 --> 01:07:43.460]  If you want to change the operating point or Q point of the circuit, you just change RB.
+[01:07:43.460 --> 01:07:46.920]  It's very simple.
+[01:07:47.600 --> 01:07:48.760]  The equations are there.
+[01:07:48.880 --> 01:07:50.480]  They're easier enough to derive.
+[01:07:51.760 --> 01:07:55.280]  There's only two resistors that are there.
+[01:07:56.700 --> 01:08:03.700]  But again, on the other hand, as I mentioned earlier, most importantly, the Q point is unstable.
+[01:08:04.440 --> 01:08:04.720]  All right.
+[01:08:04.720 --> 01:08:06.200]  You change the temperature.
+[01:08:06.620 --> 01:08:13.180]  And even if you don't, inherently, the self-heating of the transistor will drift it.
+[01:08:14.000 --> 01:08:14.080]  Okay.
+[01:08:16.320 --> 01:08:26.540]  If you change the supply voltage, the thing will have to be recalculated because you notice that the governing equation is based on VCC.
+[01:08:27.220 --> 01:08:31.680]  VCC appears in both the input and output KVL.
+[01:08:31.680 --> 01:08:31.720]  Okay.
+[01:08:32.260 --> 01:08:36.580]  So if you change VCC, the Q point will shift.
+[01:08:37.380 --> 01:08:37.640]  All right.
+[01:08:38.120 --> 01:08:45.200]  Also, if you replace the transistor with another one with a different beta, the Q point will change.
+[01:08:45.520 --> 01:08:56.720]  And not really, only the beta affects it because each and every transistor has a slightly, possibly slightly different VBE value.
+[01:08:56.720 --> 01:09:00.380]  And even that will shift it slightly as well.
+[01:09:00.940 --> 01:09:01.080]  Okay.
+[01:09:01.080 --> 01:09:08.840]  So all of those taken into consideration will basically mean that, yes, the fixed bio circuit is mostly academic.
+[01:09:08.840 --> 01:09:28.800]  You really do not want to use this too much in real life because it does not provide you with the stability nor versatility, adaptability in terms of, you know, allowing the VCC supply to change.
+[01:09:28.800 --> 01:09:32.920]  And again, you might wonder, why would the VCC supply change?
+[01:09:33.020 --> 01:09:44.560]  Well, if it's a battery operated circuit, then as you use, you know, the device, the supply voltage will go down as the battery discharges.
+[01:09:44.560 --> 01:09:51.100]  And if you're using a fixed bio circuit on your transistor, then your Q point will change.
+[01:09:51.220 --> 01:10:02.920]  Now, admittedly, that's probably not going to be a very, very big change generated by the slightly lower supply or lowering of the supply voltage slightly.
+[01:10:02.920 --> 01:10:07.540]  But, you know, it is a contributing factor.
+[01:10:09.540 --> 01:10:12.620]  The biggest changes are really temperature itself.
+[01:10:12.620 --> 01:10:24.280]  And you'll notice that, you know, in the experiment in the future when you do it, you might find that, you know, it doesn't necessarily drift in a very, very predictable way.
+[01:10:24.860 --> 01:10:25.100]  Okay.
+[01:10:25.100 --> 01:10:27.280]  So, that's that.
+[01:10:27.760 --> 01:10:39.100]  So, given this, there is a rather quick fix that should improve the stability of the transistor.
+[01:10:39.480 --> 01:10:44.980]  But, of course, it involves a slightly more complex circuit.
+[01:10:45.720 --> 01:10:45.920]  Okay.
+[01:10:46.400 --> 01:10:48.860]  And that is this one.
+[01:10:48.860 --> 01:10:54.280]  This is what we call as the emitter-stabilized bias circuit.
+[01:10:55.560 --> 01:10:55.660]  Okay.
+[01:10:56.240 --> 01:11:02.920]  The emitter-stabilized bias circuit is the addition of an emitter resistor.
+[01:11:03.220 --> 01:11:06.680]  It's accomplished via the addition of an emitter resistor.
+[01:11:06.680 --> 01:11:07.360]  Okay.
+[01:11:07.360 --> 01:11:25.020]  And the important thing here is, first, to understand why does putting an extra resistor at the emitter help to improve, you know, this Q-point stability.
+[01:11:25.640 --> 01:11:25.900]  Okay.
+[01:11:26.320 --> 01:11:26.600]  All right.
+[01:11:26.640 --> 01:11:28.320]  And so, that's what we need to look at.
+[01:11:28.820 --> 01:11:36.740]  And in order to do that, let's look at the resulting equation associated with it.
+[01:11:36.740 --> 01:11:49.280]  So, unfortunately, the addition of the emitter resistor increases the complexity and analysis of the circuit.
+[01:11:49.280 --> 01:12:05.820]  Because the emitter of the transistor is part of the input equation, the input KVL equation, and is also part of the output KVL equation.
+[01:12:05.820 --> 01:12:23.940]  You'll notice that if we go backwards here in this previous, you know, emitter, you know, fixed bias circuit, the equations involve going from the, not going backwards fast enough.
+[01:12:24.460 --> 01:12:24.480]  Okay.
+[01:12:24.480 --> 01:12:30.260]  What's interesting here is, if it's working properly.
+[01:12:30.580 --> 01:12:30.660]  Okay.
+[01:12:31.040 --> 01:12:39.780]  If you look at the fixed bias circuit, okay, the input side of things goes this way and winds up going through the emitter to ground.
+[01:12:40.160 --> 01:12:43.200]  But it's easy because it's ground immediately.
+[01:12:43.980 --> 01:12:44.260]  All right.
+[01:12:44.260 --> 01:12:53.160]  The output equation goes this way, goes through the emitter and goes through the emitter and then goes directly to ground.
+[01:12:53.160 --> 01:13:16.340]  So, you have basically two equations here that, you know, don't interact with each other because immediately, for the large part of it, they are, you know, they can be partitioned and separated, winding up at ground immediately.
+[01:13:16.340 --> 01:13:32.340]  Whereas, with the emitter-stabilized approach, you have that emitter-resistor, which will always be part of either the input N or the output equation.
+[01:13:32.900 --> 01:13:34.280]  They are both there.
+[01:13:34.280 --> 01:13:41.700]  And because of that, the analysis becomes quite a bit more magulog.
+[01:13:42.560 --> 01:13:42.680]  Okay.
+[01:13:43.100 --> 01:13:47.680]  So, anyway, but don't worry because, you know, you'll get used to it.
+[01:13:48.100 --> 01:13:50.220]  And it's still really not that complex.
+[01:13:50.400 --> 01:13:50.540]  Okay.
+[01:13:50.600 --> 01:13:51.360]  So, let's have a look.
+[01:13:51.840 --> 01:13:58.460]  So, the equation is, starting from DCC, all right, we'll just get it in one shot now.
+[01:13:58.600 --> 01:14:00.560]  It's KBL, then it's move-over it.
+[01:14:00.680 --> 01:14:02.080]  All right.
+[01:14:02.080 --> 01:14:07.520]  We have the usual RBIB, all right?
+[01:14:07.560 --> 01:14:10.100]  We have the usual RBIB going through here.
+[01:14:11.480 --> 01:14:11.760]  Okay.
+[01:14:12.740 --> 01:14:13.800]  Going there.
+[01:14:14.820 --> 01:14:15.080]  All right.
+[01:14:15.180 --> 01:14:23.800]  So, we have our IB and we have our IRB to produce the voltage across it.
+[01:14:24.320 --> 01:14:24.580]  Okay.
+[01:14:24.600 --> 01:14:26.360]  This is your voltage equation here.
+[01:14:26.740 --> 01:14:29.140]  And then you have your VBE.
+[01:14:30.040 --> 01:14:30.640]  Okay.
+[01:14:30.640 --> 01:14:33.420]  And then you wind up here.
+[01:14:34.340 --> 01:14:36.800]  And this is your RE.
+[01:14:37.360 --> 01:14:41.040]  And the current flowing through RE is IE.
+[01:14:41.600 --> 01:14:42.000]  All right.
+[01:14:42.560 --> 01:14:51.380]  The emitter current multiplied by the resistor at the emitter produces your V sub RE.
+[01:14:52.080 --> 01:14:52.800]  All right.
+[01:14:52.800 --> 01:14:58.080]  So, you have your REIE, all right, forming that input equation.
+[01:14:59.520 --> 01:15:00.080]  Okay.
+[01:15:00.420 --> 01:15:06.300]  And because of that, unfortunately, we now have a much more complex equation.
+[01:15:06.500 --> 01:15:15.100]  If you wanted to try to calculate for RB, for example, given that you have a certain target IB that you want to establish,
+[01:15:15.100 --> 01:15:20.380]  you still have this equation here to deal with.
+[01:15:20.380 --> 01:15:33.960]  And unfortunately, IE is a function of IB on the basis that IE is equal to IB plus IC.
+[01:15:33.960 --> 01:15:35.960]  So, they're not independent.
+[01:15:35.960 --> 01:15:38.280]  So, they're not independent.
+[01:15:38.280 --> 01:15:39.180]  All right.
+[01:15:39.180 --> 01:15:41.000]  They're not independent of each other.
+[01:15:41.100 --> 01:15:45.880]  They're related to each other, which makes it, you know, a little bit harder to calculate.
+[01:15:47.000 --> 01:15:47.340]  Okay.
+[01:15:47.820 --> 01:15:48.360]  All right.
+[01:15:48.360 --> 01:15:56.620]  So, we can use a little bit of a trick to say that if we know the beta of the transistor, it's still important in this case.
+[01:15:57.220 --> 01:16:00.140]  We can calculate the resulting IB.
+[01:16:01.140 --> 01:16:07.200]  If we now substitute, move things around, then we recognize that this part is problematic.
+[01:16:07.200 --> 01:16:23.440]  But if we have our beta, okay, we can substitute that, okay, and multiply that against RE to get the resulting voltage across here.
+[01:16:23.840 --> 01:16:27.420]  Where the hell did this beta plus 1 come from?
+[01:16:27.420 --> 01:16:28.420]  Okay.
+[01:16:28.420 --> 01:16:29.100]  Okay.
+[01:16:29.100 --> 01:16:29.180]  Okay.
+[01:16:29.180 --> 01:16:29.180] 
+[01:16:29.180 --> 01:16:30.100]  Okay.
+[01:16:30.100 --> 01:16:37.720]  Well, we know that essentially I sub C is equal to beta IB.
+[01:16:38.340 --> 01:16:38.620]  Correct?
+[01:16:39.560 --> 01:16:39.800]  Okay.
+[01:16:40.220 --> 01:16:54.540]  Now, if we can substitute that here, all right, then we get the equation that IE is equal to IB plus beta IB.
+[01:16:55.660 --> 01:16:56.820]  See that?
+[01:16:57.420 --> 01:16:57.820]  All right.
+[01:16:57.820 --> 01:16:57.860]  All right.
+[01:16:59.680 --> 01:17:00.240]  Okay.
+[01:17:00.920 --> 01:17:12.140]  So, pag in-extract po to, pwede natin sabihin na IE is equal to, all right, notice that we have two IBs here and beta.
+[01:17:12.380 --> 01:17:20.160]  So, we can say that it is equal to IB, all right, plus 1.
+[01:17:21.180 --> 01:17:25.920]  Kasi in-extract natin, all right, multiplied by beta.
+[01:17:26.500 --> 01:17:26.880]  All right.
+[01:17:26.880 --> 01:17:26.960]  Okay.
+[01:17:27.160 --> 01:17:27.840]  So, there you go.
+[01:17:27.840 --> 01:17:32.820]  So, that's how it was derived.
+[01:17:33.820 --> 01:17:37.920]  Hindi pinakita rito, pero yan yung derivation niya.
+[01:17:38.320 --> 01:17:38.640]  All right.
+[01:17:39.120 --> 01:17:45.080]  So, IB, all right, plus 1 times beta is this one.
+[01:17:45.520 --> 01:17:45.760]  Okay.
+[01:17:46.160 --> 01:17:46.840]  So, there you go.
+[01:17:46.840 --> 01:17:49.100]  That's how this one came out.
+[01:17:49.740 --> 01:17:52.780]  And now we have this equation here.
+[01:17:52.780 --> 01:17:53.820]  Okay.
+[01:17:53.820 --> 01:17:53.900]  Okay.
+[01:17:53.900 --> 01:17:54.860]  Okay.
+[01:17:54.860 --> 01:17:54.860] 
+[01:17:54.860 --> 01:17:54.980]  Okay.
+[01:17:54.980 --> 01:17:54.980] 
+[01:17:54.980 --> 01:17:55.900]  Okay.
+[01:17:55.900 --> 01:18:00.660]  Of course, we have this, all right?
+[01:18:00.660 --> 01:18:12.480]  And so if we manipulate things around, et cetera, et cetera, this is the whole equation that comes out, which does look a little bit complex.
+[01:18:13.480 --> 01:18:27.220]  But we can substitute and use an approximation if we want to that produces a slightly more reasonable equation to memorize,
+[01:18:27.220 --> 01:18:34.620]  which is Vcc minus Vbe over Re, all right, is equal to Ic.
+[01:18:34.920 --> 01:18:39.440]  And you'll notice that this is an approximation, all right?
+[01:18:39.500 --> 01:18:55.500]  This is an approximation on the basis that the beta IB is going to be so small, the IB is going to be so small that it can be reasonably ignored so that it can be simplified.
+[01:18:55.500 --> 01:18:58.940]  Okay? All right. So there we go with that.
+[01:18:59.040 --> 01:19:02.120]  So either way, if you want to get the exact value, then it's that.
+[01:19:02.440 --> 01:19:08.460]  If you want to say that, you know, hey, IB is going to be really tiny anyway, it doesn't make much of a difference,
+[01:19:08.820 --> 01:19:13.400]  then you can just go ahead and do this to get your Ic.
+[01:19:14.200 --> 01:19:14.620]  All right?
+[01:19:16.620 --> 01:19:24.440]  So given this, all right, now that you've seen the governing equation, the big question, of course, that we have is,
+[01:19:24.440 --> 01:19:33.160]  and that's all the time that we have left is to say, why would this circuit stabilize, you know, or produce a better result?
+[01:19:33.440 --> 01:19:39.420]  Can we just go back to the fixed bias circuit because it's so much simpler, all right?
+[01:19:40.500 --> 01:19:42.500]  How is this circuit supposed to help?
+[01:19:42.500 --> 01:19:48.240]  Okay, so let's answer that question because that's the important thing to recognize here, all right?
+[01:19:48.320 --> 01:19:51.300]  And let me just clear out all the drawings here, okay?
+[01:19:51.840 --> 01:19:54.920]  How do we get the improved bias stability?
+[01:19:55.860 --> 01:19:56.200]  Okay?
+[01:19:57.080 --> 01:20:04.220]  We've already defined stability, but here's a, you know, more extended and, you know, maybe better worded version, all right?
+[01:20:04.220 --> 01:20:12.960]  It's the circuit condition where all the currents and voltages more or less stay constant, even as the transistor is subjected to various operating conditions,
+[01:20:13.500 --> 01:20:17.200]  the ampere temperature changes, and so on and so forth, okay?
+[01:20:17.700 --> 01:20:22.340]  Now, adding RE improves the stability of the transistor.
+[01:20:22.340 --> 01:20:28.940]  And the stupid slide, I believe, doesn't say why.
+[01:20:30.220 --> 01:20:30.740]  Anak.
+[01:20:30.980 --> 01:20:31.280]  Okay.
+[01:20:32.120 --> 01:20:33.060]  Anak si naman.
+[01:20:33.380 --> 01:20:33.900]  All right.
+[01:20:34.000 --> 01:20:35.200]  So it doesn't say why.
+[01:20:35.280 --> 01:20:36.840]  So I'll explain it, all right?
+[01:20:36.880 --> 01:20:37.960]  I need to explain it.
+[01:20:38.480 --> 01:20:42.100]  So let's go back and look at the circuit, okay?
+[01:20:42.180 --> 01:20:44.920]  And figure out why it is better.
+[01:20:44.920 --> 01:20:52.060]  So the idea here is that as temperature changes, oh, all right?
+[01:20:52.480 --> 01:21:00.440]  As temperature changes, one of the marked things here, let me just put say, let's just write it out as symbols like this, okay?
+[01:21:00.480 --> 01:21:03.940]  As temperature goes up, okay?
+[01:21:05.560 --> 01:21:08.040]  VBE goes down.
+[01:21:08.040 --> 01:21:10.440]  This is a standard characteristic.
+[01:21:10.440 --> 01:21:20.660]  As the diode junction heats up, the forward voltage of the diode drops slightly, okay?
+[01:21:21.600 --> 01:21:37.500]  And as a result of that, okay, as a result of that, if you recognize that VBE becomes lower, then V sub RB must increase, all right?
+[01:21:37.500 --> 01:21:42.940]  Must increase if VCC is constant, all right?
+[01:21:44.380 --> 01:21:48.500]  So temperature goes up, VBE goes down.
+[01:21:49.180 --> 01:21:57.660]  And because VBE goes down, VRB, V sub RB will increase.
+[01:21:58.340 --> 01:21:59.500]  Are you following, people?
+[01:22:00.220 --> 01:22:02.080]  Tataasya ng konti, all right?
+[01:22:02.560 --> 01:22:07.160]  VRB goes down, all right?
+[01:22:07.160 --> 01:22:10.660]  Sorry, VBE goes down, all right?
+[01:22:10.880 --> 01:22:12.320]  VRB goes up.
+[01:22:12.800 --> 01:22:21.020]  And so therefore, because of that, IB goes up.
+[01:22:21.500 --> 01:22:22.280]  Are you following?
+[01:22:22.720 --> 01:22:23.220]  Are we okay?
+[01:22:25.300 --> 01:22:26.180]  Yes, no?
+[01:22:30.840 --> 01:22:32.420]  Okay, walang sumasagot.
+[01:22:33.140 --> 01:22:35.520]  Naka-short out na yung utak, okay?
+[01:22:35.520 --> 01:22:36.240]  All right?
+[01:22:36.240 --> 01:22:36.360]  All right?
+[01:22:37.260 --> 01:22:39.440]  We're pretending here na ground to, ah.
+[01:22:39.660 --> 01:22:41.540]  Ito yung sa fixed bias, okay?
+[01:22:42.100 --> 01:22:42.540]  All right?
+[01:22:43.560 --> 01:22:43.900]  Okay?
+[01:22:44.440 --> 01:22:44.620]  Oh.
+[01:22:45.360 --> 01:22:53.880]  So as temperature goes up, okay, VBE goes down as a natural consequence because that's a diode characteristic.
+[01:22:53.880 --> 01:23:02.020]  If VBE shrinks, then VRB is forced to increase because your supply voltage doesn't change.
+[01:23:03.280 --> 01:23:06.260]  And if VRB increases, IB increases.
+[01:23:06.260 --> 01:23:08.340]  Okay?
+[01:23:08.340 --> 01:23:08.400]  Okay?
+[01:23:08.580 --> 01:23:09.600]  You're following so far?
+[01:23:09.600 --> 01:23:26.420]  Now, if IB increases, given the fact that IC is equal to beta times IB, kung ito ay umakyat, then the consequence is IC also increases.
+[01:23:26.420 --> 01:23:35.900]  You see the chain of, you know, events, the linked consequences of what happens.
+[01:23:36.400 --> 01:23:37.880]  So IC goes up.
+[01:23:37.880 --> 01:23:42.260]  And if I sub C goes up, all right?
+[01:23:42.660 --> 01:23:52.160]  If I sub C goes up, all right, V sub RC must also go up because I sub C increased.
+[01:23:52.600 --> 01:23:54.880]  V sub RC increases.
+[01:23:54.880 --> 01:23:55.320]  Okay?
+[01:23:57.380 --> 01:24:19.640]  Now, the important thing to take note of here is because I sub C goes up, okay, given that the dissipation is basically equal to VCE times IC, all right, typically your power dissipation, not only has it shown that you've already shifted in terms of the Q point,
+[01:24:19.640 --> 01:24:29.620]  but also the sad consequence of this is typically because I sub C goes up, okay, the power dissipation also increases.
+[01:24:31.200 --> 01:24:42.960]  And if power dissipation increases, kung mas mainit yung transistor, the temperature of the transistor goes up as well.
+[01:24:43.920 --> 01:24:44.860]  You see that?
+[01:24:45.280 --> 01:24:45.540]  Okay?
+[01:24:45.540 --> 01:25:07.660]  So you got this stupid situation where you have a loop where the consequences of each thing or the starting point where its temperature going up results in a chain of events which winds up pushing the temperature to increase even further.
+[01:25:09.200 --> 01:25:13.020]  This is what we call as a positive feedback loop.
+[01:25:13.020 --> 01:25:15.580]  All right?
+[01:25:15.580 --> 01:25:15.640]  All right?
+[01:25:16.180 --> 01:25:24.320]  This is what we call as a positive feedback loop where the chain of events reinforces whatever happened.
+[01:25:25.000 --> 01:25:27.380]  And it will continue to do so.
+[01:25:28.060 --> 01:25:32.580]  And the result is a thermal instability.
+[01:25:33.520 --> 01:25:35.800]  Well, we know that it has a thermal instability.
+[01:25:35.800 --> 01:25:50.080]  But the direct consequence of that typically is a thermal runaway, a condition where the thing will continue to propagate and make itself worse over time.
+[01:25:50.360 --> 01:25:57.040]  Of course, there's a limit because as IC goes up, V sub RC goes up, VCE will also decrease.
+[01:25:57.040 --> 01:26:01.640]  So your PD increases, decreases slightly or whatever.
+[01:26:02.020 --> 01:26:07.700]  There's a point where it will sort of kind of stop and pull off because of the ambient condition.
+[01:26:08.100 --> 01:26:11.180]  Then you'll have it going in the opposite direction for a while or whatever.
+[01:26:11.880 --> 01:26:19.520]  The whole point here is that this fixed bias is unstable.
+[01:26:19.520 --> 01:26:20.520]  Okay?
+[01:26:22.740 --> 01:26:24.200]  I hope you can see that now.
+[01:26:24.500 --> 01:26:25.520]  And it's 9 o'clock.
+[01:26:26.000 --> 01:26:26.220]  All right?
+[01:26:26.540 --> 01:26:31.400]  So as a last statement before we come back and analyze it further.
+[01:26:31.800 --> 01:26:32.180]  All right?
+[01:26:32.180 --> 01:26:38.460]  The point here is the addition of the emitter resistor.
+[01:26:38.460 --> 01:26:39.340]  All right?
+[01:26:39.340 --> 01:26:59.520]  The addition of the emitter resistor results in a very, very simple but effective change, which is the fact that when we have a thermal condition such as this with I sub C going up.
+[01:27:00.020 --> 01:27:00.760]  All right?
+[01:27:00.760 --> 01:27:02.720]  With I sub C going up.
+[01:27:03.620 --> 01:27:11.220]  If there is an emitter resistor here, the result is that IE also goes up.
+[01:27:11.340 --> 01:27:12.740]  Of course, even before.
+[01:27:13.500 --> 01:27:18.620]  But because IE goes up, VRE, all right?
+[01:27:18.960 --> 01:27:21.660]  V sub RE also goes up.
+[01:27:22.100 --> 01:27:22.360]  All right?
+[01:27:22.360 --> 01:27:29.200]  Kung nag-increase ang current ng emitter, tataas din yung voltaje across the emitter resistor.
+[01:27:29.200 --> 01:27:35.640]  Now, here in this one, the emitter resistor forms part of the bias setting circuit.
+[01:27:36.440 --> 01:27:43.580]  So if the VRE goes up, the voltage available across this guy goes down.
+[01:27:43.580 --> 01:27:46.580]  And that's the important factor.
+[01:27:46.580 --> 01:27:53.960]  Because VRE went up, V sub RB will go down.
+[01:27:54.960 --> 01:27:55.240]  Okay?
+[01:27:55.580 --> 01:28:00.740]  Ito ay bababa, forcing IB to go down.
+[01:28:00.740 --> 01:28:09.700]  So that tendency to go upward has been arrested so that it tries to stabilize the thing.
+[01:28:09.700 --> 01:28:17.200]  The more the temperature increases and forces the transistor towards a greater I sub C,
+[01:28:17.880 --> 01:28:25.200]  this VRE will just increase and pull it back down because IB will get pulled back down.
+[01:28:25.200 --> 01:28:25.760]  Okay?
+[01:28:27.340 --> 01:28:30.220]  So this is essentially how it's supposed to work.
+[01:28:30.320 --> 01:28:31.640]  Unfortunately, it's 9.02.
+[01:28:32.300 --> 01:28:39.760]  And so hopefully that last part, you know, which went rather quickly, is sort of in your head right now.
+[01:28:40.260 --> 01:28:40.500]  Okay?
+[01:28:40.980 --> 01:28:43.900]  And here I am supposed to stop.
+[01:28:44.380 --> 01:28:46.040]  So are there any questions?
+[01:28:46.860 --> 01:28:47.560]  Are we okay?
+[01:28:47.560 --> 01:28:47.800]  Okay.
+[01:28:48.320 --> 01:28:48.520]  Alright?
+[01:28:48.720 --> 01:28:50.680]  So pabalikan natin na Thursday.
+[01:28:51.520 --> 01:28:53.240]  I'll restart somewhere here.
+[01:28:53.240 --> 01:29:04.300]  And we'll continue and look at the various bias approaches going beyond emitter stabilized approach.
+[01:29:04.500 --> 01:29:04.620]  Okay?
+[01:29:05.240 --> 01:29:10.200]  There are at least, there's at least one more circuit that we should be looking at.
+[01:29:10.820 --> 01:29:10.980]  Okay.
+[01:29:11.400 --> 01:29:12.380]  So questions?
+[01:29:14.000 --> 01:29:14.240]  Wala.
+[01:29:14.240 --> 01:29:19.020]  Kung walang tanong, mag-thumbs up po kasi hindi mag-dismiss kung walang thumbs up.
+[01:29:21.500 --> 01:29:21.960]  Alright.
+[01:29:22.700 --> 01:29:22.880]  Sige.
+[01:29:23.000 --> 01:29:23.800]  Thank you very much.
+[01:29:23.900 --> 01:29:24.140]  Goodbye.

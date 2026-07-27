@@ -1,0 +1,1319 @@
+[00:00.000 --> 00:04.640]  I'm recording.
+[00:06.160 --> 00:06.540]  Okay.
+[00:06.540 --> 00:16.820]  And while that's happening, there's one or two other people who joined us right now, but
+[00:16.820 --> 00:20.160]  still a very small number.
+[00:24.320 --> 00:25.080]  Let's see.
+[00:25.160 --> 00:25.900]  Where's the chat?
+[00:25.900 --> 00:31.660]  I'm just setting up the elements here, giving more time for the others to lobby in.
+[00:33.400 --> 00:36.520]  But I guess high time we start.
+[00:36.520 --> 00:36.940]  Okay.
+[00:36.940 --> 00:40.400]  So let's go to the show.
+[00:42.100 --> 00:43.780]  Start from the current slide.
+[00:44.500 --> 00:52.540]  And I'll be honest, I don't quite remember where we stopped last meeting, unfortunately.
+[00:52.540 --> 00:56.620]  So hopefully this is just about right.
+[00:56.620 --> 01:06.840]  It is very hard for me to cope with differing lectures as well as LAM, which has happened
+[01:06.840 --> 01:16.320]  because of the nature of the last week where we had to go online on Friday suddenly.
+[01:16.320 --> 01:19.920]  And so that really desynchronized even the lab sessions.
+[01:20.660 --> 01:20.920]  Okay.
+[01:21.660 --> 01:23.080]  So let's go forward.
+[01:23.560 --> 01:26.040]  And let me just put this up on screen.
+[01:26.260 --> 01:29.040]  This is a share right now.
+[01:29.580 --> 01:31.320]  I'm going to do this.
+[01:32.360 --> 01:37.820]  You'll find that the dimensions are a little bit different because I will be sharing the
+[01:37.820 --> 01:44.860]  whole desktop and for a good reason, because I want to be able to show you guys a few things
+[01:44.860 --> 01:49.880]  that is outside of the PowerPoint presentation.
+[01:50.580 --> 01:50.740]  Okay.
+[01:51.200 --> 01:51.520]  All right.
+[01:51.600 --> 01:54.360]  So let's start here.
+[01:54.500 --> 01:59.140]  I think if I'm not mistaken, correct me if I'm wrong, please.
+[01:59.140 --> 02:09.220]  But I know that there was something about trying to simulate the circuit.
+[02:10.700 --> 02:10.840]  Okay.
+[02:11.360 --> 02:18.120]  Trying to simulate this particular circuit and seeing what kind of response you'd get, particularly
+[02:18.120 --> 02:21.880]  concentrating on the voltage gain, which is the simplest to look at.
+[02:21.880 --> 02:22.780]  Okay.
+[02:23.360 --> 02:30.340]  And if you did the simulations, you would have found out that the simulation produced a very,
+[02:30.480 --> 02:36.920]  very different result, at least initially, where the gain was really low.
+[02:37.140 --> 02:41.660]  And so let's have a quick look and confirm this.
+[02:42.560 --> 02:44.000]  Let's see here.
+[02:44.420 --> 02:46.320]  Hopefully everybody can see this.
+[02:47.280 --> 02:47.460]  All right.
+[02:47.460 --> 02:47.760]  Okay.
+[02:49.540 --> 03:01.740]  And this is essentially pretty much the same circuit as we see provided in the slide.
+[03:02.660 --> 03:05.420]  And the supply voltage is 12 volts.
+[03:06.280 --> 03:06.440]  Okay.
+[03:06.440 --> 03:10.320]  Same resistor values, same capacitor values.
+[03:10.320 --> 03:26.820]  And if we try to simulate this, what you're going to find essentially is that for a tiny amount of input,
+[03:27.080 --> 03:31.000]  which is 15 millivolts, as you can see from the parameters here.
+[03:31.000 --> 03:40.080]  So it's 15 millivolts going up and 15 millivolts going down, which is a total of 30 millivolts peak to peak.
+[03:41.020 --> 03:41.140]  Okay.
+[03:41.600 --> 03:43.680]  30 millivolts peak to peak.
+[03:43.780 --> 03:47.920]  And let's write that because you're likely to forget.
+[03:48.240 --> 03:48.540]  All right.
+[03:48.600 --> 03:54.220]  So this is 30 millivolts peak to peak.
+[03:54.720 --> 03:55.100]  Okay.
+[03:55.560 --> 03:56.100]  All right.
+[03:56.100 --> 04:02.520]  And let's have a quick look at our resulting amplification.
+[04:03.820 --> 04:04.160]  Okay.
+[04:04.920 --> 04:13.360]  And as you can see, we are getting approximately plus 1.2 down to negative 1.2.
+[04:13.680 --> 04:16.000]  There's really no need to be more exacting than that.
+[04:16.120 --> 04:17.240]  Of course, we can do that.
+[04:17.780 --> 04:18.100]  Okay.
+[04:18.100 --> 04:26.860]  If we wanted to, by clicking on this one and looking at the actual amplitude,
+[04:27.120 --> 04:39.320]  by dragging to the maximum over here, which you see is 1.15 and dragging it all the way down to the minimum,
+[04:40.040 --> 04:43.920]  which is negative 1.196.
+[04:43.920 --> 04:44.400]  Okay.
+[04:44.660 --> 04:52.280]  So it really is pretty close to 2.4 volts peak to peak, a little bit less than that.
+[04:52.920 --> 04:56.720]  And I guess we can go with that and just write this thing down here.
+[04:56.840 --> 05:00.720]  This is 2.4 volts peak to peak.
+[05:00.720 --> 05:12.180]  Now, if you get your trusty calculator now and do the division, you're going to see 2.4 divided by 30 times 10 to the minus 3.
+[05:12.800 --> 05:13.420]  Oh, sorry.
+[05:14.320 --> 05:19.260]  Gives you a little bit more than what I anticipated, but what the hell.
+[05:19.700 --> 05:23.840]  This provides us with a voltage gain of about 80.
+[05:24.280 --> 05:24.660]  All right.
+[05:24.700 --> 05:26.420]  It's about 80, not 50.
+[05:26.900 --> 05:27.180]  All right.
+[05:27.180 --> 05:30.200]  Maybe if we're a little bit more exacting, well, it'll be less than 80.
+[05:31.160 --> 05:31.540]  All right.
+[05:32.100 --> 05:43.340]  So bottom line is regardless of how you're looking at it, the gain characteristic is very, very, very different from what, you know,
+[05:43.340 --> 05:54.180]  what you think should be the, you know, hand calculated gain, which is somewhere near 140.
+[05:55.060 --> 05:55.360]  All right.
+[05:55.360 --> 05:57.040]  So this is too large a difference.
+[05:57.700 --> 06:02.320]  And ultimately, it's a question of why the hell is that the case?
+[06:02.860 --> 06:03.040]  Okay.
+[06:03.760 --> 06:14.900]  Now, to answer that question, okay, to answer that question, we actually already discussed this in the class because somebody asked about it,
+[06:14.900 --> 06:19.620]  although I don't know if other people were actually actively listening.
+[06:19.620 --> 06:20.620]  All right.
+[06:20.620 --> 06:20.640]  All right.
+[06:20.640 --> 06:20.700]  All right.
+[06:20.700 --> 06:20.700] 
+[06:20.700 --> 06:20.700] 
+[06:20.700 --> 06:20.800]  All right.
+[06:20.800 --> 06:21.700]  All right.
+[06:21.700 --> 06:35.120]  If you go over here, the answer essentially is that, and just clear out all these, it's essentially because of that assumption that the capacitors are acting as short circuits.
+[06:35.120 --> 06:55.540]  And with the values that have been placed on that schematic and in the simulation, all right, this 10 microfarad capacitor, the one that is bypassing the emitter resistor, which is 560 ohms, all right, you have a capacitor there that is 10 microfarads.
+[06:55.540 --> 06:58.940]  And all of these are going to ground, okay?
+[06:58.940 --> 07:01.940]  Hopefully, hopefully, you know what I'm talking about, all right?
+[07:01.940 --> 07:01.940] 
+[07:01.940 --> 07:01.940] 
+[07:01.940 --> 07:02.520]  All right.
+[07:02.520 --> 07:19.080]  This capacitor, all right, if you look at it in terms of AC analysis, the true impedance, X sub C, is actually 15.92 ohms.
+[07:19.080 --> 07:21.880]  It's not zero at all, all right?
+[07:21.880 --> 07:33.160]  It's 15.92 ohms at 1,000 hertz, sorry, at 1,000 hertz, okay?
+[07:33.160 --> 07:59.780]  So the result of that is that instead of your RE being equal to just the calculated 26 millivolts divided by IE, all right, instead of it being that, because there's that assumption that this thing's connected to ground from the transistor itself, no?
+[08:00.300 --> 08:00.540]  Okay.
+[08:00.540 --> 08:14.600]  So your RE is based on this, right, 26 millivolts over IE, there's actually an additional impedance of 15.92 ohms.
+[08:14.740 --> 08:27.020]  So the voltage gain calculation, AV, should have been equal to RE plus Z sub C or X sub C for that matter, okay?
+[08:27.020 --> 08:40.780]  And because this is the denominator in the equation, it's RC over R prime E plus XC, all right, this additional 15.92 ohms.
+[08:40.820 --> 08:47.200]  Remember, the RE in itself is already pretty close to that value, all right?
+[08:47.200 --> 08:56.440]  And so you're actually practically multiplying the RE times to be twice that of what you thought it would be.
+[08:56.440 --> 09:06.960]  And that really equates because your original hand calculations provided you with the voltage gain of about 140.
+[09:07.820 --> 09:14.120]  And with the additional of XC, we're estimating that the gain will be roughly half, right?
+[09:14.120 --> 09:19.580]  And that means that your projected gain is now just around 70.
+[09:19.980 --> 09:25.300]  And that is indeed exactly pretty much what we're getting here, okay?
+[09:25.800 --> 09:38.160]  Now, if you want to see this, all right, if you really want to see this, one way of doing it would be to change the simulation in itself, all right?
+[09:38.160 --> 09:41.700]  Let's change the simulation, let's get this out of the way.
+[09:44.700 --> 09:46.880]  Okay, out of the way.
+[09:48.560 --> 09:50.840]  And click here.
+[09:51.600 --> 09:54.180]  This is what I get for buying a cheap mouse.
+[09:55.020 --> 10:03.040]  Okay, one of those Logitech clones, all right?
+[10:03.040 --> 10:09.300]  Wireless mouse from China, which is a fake unit.
+[10:10.000 --> 10:10.340]  Oh, well.
+[10:10.720 --> 10:12.240]  It still works, unfortunately.
+[10:13.200 --> 10:18.120]  So we'll go to the simulation here, go to the control.
+[10:18.280 --> 10:19.300]  I'll just edit this.
+[10:19.360 --> 10:19.820]  What the hell?
+[10:22.000 --> 10:29.060]  Let's remove the semicolon there.
+[10:29.060 --> 10:32.760]  And I'll put a semicolon on this guy.
+[10:34.840 --> 10:37.060]  So that it becomes...
+[10:39.060 --> 10:39.220]  Oh.
+[10:40.440 --> 10:41.200]  Oh, yun, yan.
+[10:43.040 --> 10:44.240]  Ina-parse ba niya?
+[10:46.400 --> 10:50.140]  Ah, kasi hindi siya being treated as comment plus two.
+[10:50.840 --> 10:51.400]  Okay.
+[10:52.240 --> 10:53.060]  How else can I...
+[10:54.260 --> 10:55.640]  Ah, well, what the hell?
+[10:57.640 --> 10:58.200]  Simulation.
+[10:59.060 --> 11:01.920]  I don't know if it will do this both, come to think of it.
+[11:03.500 --> 11:04.300]  Non-linear.
+[11:08.420 --> 11:09.680]  Select one to run.
+[11:09.860 --> 11:10.280]  Okay, fine.
+[11:12.680 --> 11:13.120]  Okay.
+[11:14.380 --> 11:15.640]  It's spotted that one.
+[11:16.080 --> 11:16.360]  Okay.
+[11:16.580 --> 11:20.160]  So what we've done here is we've done an AC analysis, all right?
+[11:20.160 --> 11:31.180]  Now, the AC analysis means that the circuit will be simulated and through a frequency range.
+[11:31.180 --> 11:31.420]  No?
+[11:31.420 --> 11:43.760]  So in this particular case, I provided parameters here that it will simulate essentially from 10 hertz to 100 kilohertz.
+[11:43.760 --> 11:47.540]  That puts 1 kilohertz right at the center.
+[11:47.540 --> 11:47.900]  Okay?
+[11:47.900 --> 11:49.020]  Okay.
+[11:49.020 --> 11:54.220]  That puts 1 kilohertz right at the geometric center of the frequency range.
+[11:54.680 --> 11:55.120]  Okay?
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 11:55.120] 
+[11:55.120 --> 12:08.120]  Okay?
+[12:08.120 --> 12:15.220]  it just sits there, simulating it in the frequency range of interest.
+[12:15.220 --> 12:17.560]  In this case, 10 hertz to 100 kilohertz.
+[12:18.100 --> 12:20.040]  All right, 10 hertz to 100 kilohertz.
+[12:20.820 --> 12:30.300]  And this parameter here, 50, is how many data points it will do for each and every incrementing frequency.
+[12:30.960 --> 12:34.640]  All right, so we can just put our probe here.
+[12:34.640 --> 12:39.700]  Okay, and you can take note of the response.
+[12:39.940 --> 12:45.480]  One of these plots is the phase, which you don't have to bother with.
+[12:46.180 --> 12:53.560]  Okay, the other plot is the gain of the circuit, and it's being described in terms of decibels.
+[12:53.740 --> 13:01.460]  Now, you're familiar probably with the concept of decibels, but regardless, if not,
+[13:01.460 --> 13:12.900]  well, dB essentially is defined as a ratio of output to input, but it is logarithmically based.
+[13:13.520 --> 13:15.500]  Okay, it's logarithmically based.
+[13:15.600 --> 13:22.400]  So it's still the same voltage gain, but expressed in a logarithmic set of units.
+[13:22.680 --> 13:24.140]  Okay, or a logarithmic unit.
+[13:24.140 --> 13:30.480]  So what you can see here is when I click on it, let me just drag this over here.
+[13:31.400 --> 13:40.760]  In the frequency range, sorry, in the frequency range at this higher frequency,
+[13:41.200 --> 13:49.920]  where our capacitors indeed are pretty much close to zero when it talks about impedance,
+[13:49.920 --> 13:55.900]  we see that the gain of the circuit is 5.63 decibels.
+[13:57.000 --> 13:58.840]  Okay, 5.63 decibels.
+[13:59.600 --> 14:05.880]  And on the other hand, if you look at the 1 kilohertz gain, all right,
+[14:05.920 --> 14:12.840]  if you look at the 1 kilohertz gain, which is here, all right,
+[14:12.840 --> 14:18.820]  the gain is down at negative 1.96.
+[14:19.820 --> 14:28.320]  This is a difference of close to seven decibels, all right, seven dB,
+[14:28.900 --> 14:31.840]  which if you take the time or six dB pretty much,
+[14:31.840 --> 14:38.320]  which is exactly half the voltage gain, all right?
+[14:38.320 --> 14:40.860]  That's exactly half the voltage gain.
+[14:40.980 --> 14:43.360]  Six dB is half the voltage gain.
+[14:43.900 --> 14:49.700]  So this tells us that at that frequency that we were simulating,
+[14:49.900 --> 14:55.280]  which is 1 kilohertz, we really expect that the gain is going to be a lot lower.
+[14:55.520 --> 14:59.720]  And that is primarily simply because of this 10 microfarad capacitor
+[14:59.720 --> 15:07.080]  not being able to really become a zero ohm impedance.
+[15:07.580 --> 15:12.040]  It's at 16 ohms, 15.92, okay?
+[15:12.640 --> 15:17.480]  And that's why the gain is much, much lower at 1 kilohertz,
+[15:17.480 --> 15:20.640]  which is the frequency that you're simulating at, okay?
+[15:21.220 --> 15:21.540]  All right?
+[15:21.800 --> 15:23.340]  And so that's the reason for it.
+[15:23.440 --> 15:27.460]  Now, take a look at what happens to this curve, all right?
+[15:27.460 --> 15:34.180]  This curve here, if I were to do something like change the capacitance value
+[15:34.180 --> 15:36.760]  to something like 250 microfarads.
+[15:37.280 --> 15:40.460]  Now, this is a significantly higher value.
+[15:40.800 --> 15:46.960]  And we would expect essentially that our gain curve, all right,
+[15:46.960 --> 15:52.520]  would now remain flat pretty much all the way down to, you know,
+[15:52.660 --> 15:55.040]  some much, much lower frequency.
+[15:55.180 --> 15:57.440]  It's not going to be that aggressively going down, okay?
+[15:57.460 --> 16:03.000]  So it's going to be looking like this with a 250 microfarad capacitor.
+[16:03.180 --> 16:04.900]  Let's confirm this, all right?
+[16:05.340 --> 16:08.240]  Let's confirm this and rerun the simulation.
+[16:08.480 --> 16:08.940]  Okay, so there.
+[16:09.320 --> 16:10.140]  There we go, all right?
+[16:10.280 --> 16:10.780]  So, yeah.
+[16:11.040 --> 16:14.080]  Well, it's hard to estimate exactly what the cutoff frequency is going to be.
+[16:14.140 --> 16:17.940]  There's another capacitor here that's probably causing this group.
+[16:17.940 --> 16:22.480]  And I would guess that it's this one microfarad over here.
+[16:22.480 --> 16:27.320]  So let's change this to a 10 microfarad.
+[16:27.320 --> 16:31.660]  And let's rerun the simulation.
+[16:31.660 --> 16:32.100]  Okay.
+[16:32.100 --> 16:35.420]  So this one brings it up.
+[16:35.420 --> 16:35.820]  Oh, yeah.
+[16:36.240 --> 16:41.080]  The reason that it drops down so visibly is because we're simulating all the way down to 10 hertz.
+[16:41.240 --> 16:42.440]  But what the hell, all right?
+[16:42.440 --> 16:48.860]  So you can see that now the frequency range is much, much more extended, all right?
+[16:49.280 --> 16:56.540]  It used to be drooping downwards very, very early such that the 1 kilohertz portion was already dropped off.
+[16:57.040 --> 16:57.440]  Okay.
+[16:57.440 --> 17:07.640]  But now we can see that the gain is consistent all the way down to 1 kilohertz and even all the way down to, well, something like 300 hertz.
+[17:07.840 --> 17:10.480]  It's actually pretty much still okay.
+[17:11.240 --> 17:11.520]  All right?
+[17:11.900 --> 17:14.400]  So given this, all right?
+[17:14.620 --> 17:19.080]  Given this, if we now go back, all right?
+[17:19.080 --> 17:25.000]  If we now go back to simulating our circuit, all right?
+[17:25.000 --> 17:33.340]  If we now go back to simulating our circuit, bring this up and let's edit the simulation command again.
+[17:34.340 --> 17:35.080]  All right.
+[17:35.160 --> 17:38.200]  Simulate and edit the simulation command.
+[17:39.420 --> 17:40.020]  Okay.
+[17:40.460 --> 17:44.020]  And we go back to our transient analysis, right?
+[17:44.100 --> 17:48.440]  We go back to our transient analysis and we now do this.
+[17:48.440 --> 17:57.560]  We should see that our output voltage has increased very, very significantly.
+[17:58.180 --> 17:58.480]  All right?
+[17:58.720 --> 18:00.860]  It has increased very, very significantly.
+[18:01.560 --> 18:04.660]  We are now reaching how much?
+[18:05.360 --> 18:05.600]  All right?
+[18:06.080 --> 18:07.500]  2.5.
+[18:07.860 --> 18:08.200]  All right?
+[18:08.300 --> 18:13.980]  2.5 all the way down to negative 3.1.
+[18:14.760 --> 18:15.080]  Okay?
+[18:15.260 --> 18:17.360]  So how many volts peak to peak is that?
+[18:17.360 --> 18:17.860]  All right?
+[18:17.860 --> 18:24.660]  So 2.5 plus 3.1 gives us 5.6 volts.
+[18:24.760 --> 18:25.040]  All right?
+[18:25.100 --> 18:34.680]  That's 5.6 volts peak to peak for an input of 30 millivolts peak to peak.
+[18:34.900 --> 18:35.180]  Okay?
+[18:35.340 --> 18:44.900]  And what you're going to find is that that's going to be a hell of a lot closer to the predicted gain of about 140 or so.
+[18:44.900 --> 18:46.140]  So let's confirm that.
+[18:46.140 --> 18:46.460]  Let's confirm that.
+[18:46.460 --> 18:47.460]  It will be...
+[18:47.460 --> 18:48.260]  Well, we'll see.
+[18:48.400 --> 18:53.520]  Let's have a look because I can see a very significant change in the waveform here.
+[18:53.520 --> 19:04.520]  5.6 divided by 30 times 10 to the minus 3 gives you a fantastically high gain of 186.
+[19:04.520 --> 19:05.240]  All right?
+[19:05.240 --> 19:07.840]  So that's really, really very high.
+[19:07.840 --> 19:19.900]  And that's all down to essentially the circuit really maximizing the available voltage gain.
+[19:19.900 --> 19:23.440]  So our calculated is about 140.
+[19:23.440 --> 19:28.560]  The actual LTSPY simulation is 186.
+[19:28.560 --> 19:34.820]  And that could be all down essentially to just the difference in the beta of the transistor for all we know.
+[19:34.820 --> 19:40.480]  So this is very much more in line with the expected value.
+[19:40.880 --> 19:41.300]  Hang on.
+[19:41.360 --> 19:42.740]  Let me just check something here.
+[19:42.880 --> 19:45.240]  And let's see if this makes any difference.
+[19:46.260 --> 19:48.740]  Let's bring this back down to one microphone.
+[19:48.740 --> 19:50.880]  I suspect that there is a...
+[19:50.880 --> 19:52.140]  Well, maybe not.
+[19:52.240 --> 19:52.580]  I don't know.
+[19:52.720 --> 19:53.080]  Let's see.
+[19:55.540 --> 19:57.220]  Did that make any difference?
+[19:57.220 --> 20:04.760]  According to the simulation, it's 3 and then up at 2.4.
+[20:04.980 --> 20:08.040]  And that's a little bit less now than before.
+[20:08.480 --> 20:08.700]  All right.
+[20:08.820 --> 20:09.900]  So there we go.
+[20:10.420 --> 20:24.020]  But anyway, that's essentially the biggest reason for the difference in gain really is simply because of this capacitor here.
+[20:24.020 --> 20:33.120]  This is the primary reason because it has such a profound effect on the effective emitter resistance.
+[20:33.720 --> 20:33.860]  Okay.
+[20:34.400 --> 20:35.520]  So there you go with that.
+[20:35.780 --> 20:38.680]  I hope you found that educational.
+[20:40.120 --> 20:40.300]  Okay.
+[20:40.400 --> 20:43.220]  So that is the answer to that question.
+[20:43.780 --> 20:44.100]  Okay.
+[20:44.520 --> 20:46.860]  So let's go forward.
+[20:47.340 --> 20:47.880]  Okay.
+[20:48.300 --> 20:52.320]  Before we continue, sorry, let me get back to you.
+[20:52.320 --> 20:54.460]  I've been concentrating here on this one.
+[20:54.980 --> 20:55.100]  Okay.
+[20:56.160 --> 21:13.080]  And by changing the capacitor to 250 microfarads, the impedance at 1 kHz becomes 0.63 ohms, which becomes now pretty much, you know, 0 ohms or a hell of a lot closer to 0 ohms.
+[21:13.520 --> 21:19.700]  And that's why the resulting gain is much more in line with expectations.
+[21:20.460 --> 21:20.720]  Okay.
+[21:20.720 --> 21:22.240]  So there you go with that.
+[21:23.340 --> 21:27.960]  Let me now ask, do you have any questions?
+[21:29.720 --> 21:30.580]  May panong ba?
+[21:31.580 --> 21:33.720]  Kasi kung...
+[21:33.720 --> 21:36.040]  Nasaan yung chat?
+[21:36.700 --> 21:36.960]  Okay.
+[21:37.460 --> 21:38.880]  Why is the chat missing?
+[21:39.720 --> 21:40.420]  Meeting chat.
+[21:42.180 --> 21:42.980]  Ah, no.
+[21:43.120 --> 21:44.400]  The meeting chat is blank.
+[21:45.020 --> 21:45.360]  Okay.
+[21:45.360 --> 21:48.240]  Are there any questions, people?
+[21:49.600 --> 21:53.120]  If there are none, kindly provide a thumbs up.
+[21:55.640 --> 21:56.240]  Okay.
+[21:56.240 --> 21:57.240]  Okay.
+[21:59.800 --> 22:00.200]  Okay.
+[22:00.360 --> 22:01.640]  So let's go forward.
+[22:02.040 --> 22:02.400]  All right.
+[22:02.440 --> 22:03.220]  Let's go forward.
+[22:03.480 --> 22:08.100]  And let's go to the other characteristic that is quite important.
+[22:08.680 --> 22:08.960]  Okay.
+[22:08.960 --> 22:16.200]  So this time, let's look into what is called this amplifier or amplification, amplifier distortion.
+[22:17.140 --> 22:17.380]  Okay.
+[22:17.740 --> 22:19.420]  Now, what the hell is this?
+[22:19.420 --> 22:26.000]  So let's see the ideal characteristics that we've discussed so far.
+[22:26.500 --> 22:29.540]  All of these, you're basically already aware of.
+[22:29.600 --> 22:30.880]  Let me just get the pen back on.
+[22:30.880 --> 22:31.560]  All right.
+[22:31.660 --> 22:37.320]  Low output impedance, high input impedance, high voltage gain, and current gain, which basically
+[22:37.320 --> 22:41.600]  just simply means that high amplification.
+[22:42.160 --> 22:42.440]  All right.
+[22:42.960 --> 22:49.780]  Now, other desirable characteristics, you already know of this one, which is the stability.
+[22:50.320 --> 22:51.180]  All right.
+[22:51.240 --> 22:54.080]  Because you conducted the experiment in the lab.
+[22:54.080 --> 23:01.460]  And as you heated up the transistor, all right, you were looking at the Q point shift with temperature.
+[23:02.380 --> 23:02.580]  All right.
+[23:03.300 --> 23:03.940]  Bandwidth.
+[23:04.380 --> 23:04.740]  All right.
+[23:04.840 --> 23:12.880]  The bandwidth is something that you just might have recently become aware of, which is, you
+[23:12.880 --> 23:19.620]  know, just the simulation that we did just a few moments ago where you saw that, all right,
+[23:19.620 --> 23:26.980]  the amplifier's voltage gain in this particular case was dropping off at the lower frequencies.
+[23:27.720 --> 23:33.500]  And that's basically because of the choice of the capacitor values that we used for the amplifier.
+[23:34.060 --> 23:40.420]  Now, on the other side of this, actually towards the high frequency, we also actually expect the
+[23:40.420 --> 23:43.480]  transistors, the gain to go downward.
+[23:44.020 --> 23:48.400]  It's just that we never simulated all the way up to that frequency.
+[23:48.400 --> 23:49.560]  All right.
+[23:49.620 --> 23:56.820]  Where the transistor's beta will actually begin to drop off again.
+[23:57.660 --> 23:57.760]  Okay.
+[23:58.220 --> 24:02.000]  For a 2N2222, however, that frequency is very, very high.
+[24:02.600 --> 24:11.660]  So if the simulation that you're interested in is only bound to the audible frequencies,
+[24:12.360 --> 24:17.740]  all right, 20 kilohertz, even all the way up to 50 kilohertz or 100 kilohertz, you're not
+[24:17.740 --> 24:20.940]  going to see this top end drop off.
+[24:20.940 --> 24:21.440]  All right.
+[24:21.440 --> 24:30.480]  But just for illustration purposes, because we have this here right now, all right, I can actually
+[24:30.480 --> 24:31.340]  show you that.
+[24:31.460 --> 24:32.020]  What the hell?
+[24:32.680 --> 24:32.960]  All right.
+[24:32.960 --> 24:38.200]  Again, we're going to change the simulation mode back to AC.
+[24:38.200 --> 24:41.560]  And let's do that.
+[24:41.560 --> 24:42.360]  Okay.
+[24:42.420 --> 24:43.220]  Let's do that.
+[24:43.220 --> 24:47.540]  simulate, edit simulation command.
+[24:47.540 --> 24:49.540]  Let's go to AC analysis.
+[24:49.540 --> 24:57.940]  And let's bring up this frequency limit to, let's say, for example, something ridiculous and totally
+[24:57.940 --> 25:05.880]  unnecessary like, you know, well, let's say 3 megahertz or something like that.
+[25:05.880 --> 25:10.300]  3 million hertz, which is crazy.
+[25:10.780 --> 25:15.280]  You wouldn't do this with a transistor amplifier that's designed for audio.
+[25:15.920 --> 25:25.160]  But looking at it here, right, you can see a very, very weird kind of frequency response
+[25:25.160 --> 25:26.440]  happening right now.
+[25:26.440 --> 25:30.920]  So, what the hell?
+[25:31.600 --> 25:31.820]  Mali.
+[25:34.500 --> 25:36.540]  See, mali ang entry.
+[25:36.800 --> 25:37.040]  Meg.
+[25:38.240 --> 25:39.040]  All right.
+[25:40.440 --> 25:40.720]  Yeah.
+[25:41.080 --> 25:41.320]  Okay.
+[25:41.680 --> 25:47.260]  So, it's barely visible, but you can see a dip here at the higher end of the frequency
+[25:47.260 --> 25:48.160]  range already.
+[25:48.420 --> 25:53.240]  And that's basically testament to the 2 and 2, 2, 2, 2 being pretty fast.
+[25:53.240 --> 25:57.920]  So, let's try to push this further.
+[25:59.460 --> 25:59.900]  Okay.
+[26:00.540 --> 26:04.080]  And let's simulate it all the way to 20 megahertz, for example.
+[26:04.280 --> 26:09.840]  That would be really, really visible as a dip in terms of, you know, there we go.
+[26:10.060 --> 26:10.240]  All right.
+[26:10.320 --> 26:17.020]  So, kita-kita ngayon that beyond the certain frequency, the gain of the amplifier begins
+[26:17.020 --> 26:20.040]  to, you know, the data begins to drop off again.
+[26:20.040 --> 26:25.480]  This is a natural characteristic of all semiconductors.
+[26:25.680 --> 26:31.660]  They do have a limitation as far as high-frequency operation is concerned.
+[26:32.120 --> 26:35.740]  The 2 and 2, 2, 2, 2 is a particularly okay-ish transistor.
+[26:36.880 --> 26:42.640]  The simulations seem to indicate that it should be able to operate all the way up to that very,
+[26:42.740 --> 26:44.040]  very high-frequency range.
+[26:44.040 --> 26:53.420]  But, you know, these simulations are not particularly accurate in capturing the real-world performance
+[26:53.420 --> 26:58.500]  because there's a lot of things that it's not actually simulating that you would have to
+[26:58.500 --> 27:05.560]  deal with in the real world, which include, you know, where it is placed and resistances,
+[27:05.840 --> 27:12.420]  inductances, and capacitances associated with the physical layout and components themselves.
+[27:12.420 --> 27:13.140]  All right.
+[27:13.540 --> 27:16.280]  So, anyway, we can see that there's a dip here.
+[27:16.800 --> 27:19.500]  There's a dip at the lower end of the frequency range.
+[27:19.620 --> 27:23.300]  And this is what bandwidth, all right, is about.
+[27:23.700 --> 27:25.840]  That's what bandwidth is all about.
+[27:26.260 --> 27:26.480]  Okay.
+[27:26.660 --> 27:28.260]  So, I hope that's clear.
+[27:28.960 --> 27:29.280]  All right.
+[27:29.300 --> 27:30.820]  So, we've talked about bandwidth.
+[27:30.820 --> 27:32.880]  There's a frequency limit.
+[27:32.880 --> 27:41.580]  In an ideal amplifier, for example, we might want an amplifier to have no limits as to what
+[27:41.580 --> 27:45.100]  frequency range it can amplify, all right?
+[27:45.140 --> 27:50.280]  Meaning that you can throw any signal at it and it will just do it all by itself, you know,
+[27:50.280 --> 27:54.960]  with the same consistent gain, right, all throughout.
+[27:54.960 --> 27:58.880]  But, again, in real life, that's not going to happen.
+[27:59.520 --> 27:59.640]  Okay.
+[28:00.000 --> 28:10.140]  So, having said that, the last thing here that we want to focus on for this lecture to the
+[28:10.140 --> 28:15.040]  end of the time is the fidelity of the amplification.
+[28:15.840 --> 28:18.000]  The fidelity of the amplification.
+[28:18.000 --> 28:22.240]  Now, you might have heard of the term fidelity.
+[28:23.060 --> 28:30.920]  This is usually associated with, you know, with couples, right?
+[28:31.000 --> 28:37.460]  With couples, as in human, people, people, or even animal, animal couples, husband and wife,
+[28:37.700 --> 28:38.240]  for example.
+[28:38.400 --> 28:42.800]  The term fidelity, all right, is associated normally with that.
+[28:42.800 --> 28:47.540]  But when it comes to this amplifier, what the hell does fidelity mean?
+[28:47.540 --> 28:56.580]  Well, the basic bottom line is that fidelity describes, you know, between two people, between
+[28:56.580 --> 29:06.500]  a couple, it basically means that they are faithful to each other, right?
+[29:06.600 --> 29:07.900]  They're faithful to each other.
+[29:07.960 --> 29:10.200]  And this happens even in the animal world, right?
+[29:10.200 --> 29:24.800]  Now, infidelity, right, refers to one or both of these, you know, pairs going off with somebody
+[29:24.800 --> 29:26.240]  else, all right?
+[29:26.280 --> 29:27.700]  Going off with somebody else.
+[29:28.000 --> 29:34.060]  In terms of the electronic signals, in terms of the electronic signals, it's basically conceptually
+[29:34.060 --> 29:34.560]  the same.
+[29:34.560 --> 29:40.660]  We're talking here about a pairing between the output and the input, all right?
+[29:41.160 --> 29:46.700]  It's a pairing or comparison of the output signal versus the input.
+[29:47.800 --> 29:59.260]  So fidelity, in this case, refers to how well the output signal follows the shape of the input
+[29:59.260 --> 29:59.700]  signal.
+[29:59.700 --> 30:05.200]  So take note that the thing of interest here is shape.
+[30:05.560 --> 30:10.260]  We're not interested in the amplitude, all right?
+[30:10.620 --> 30:18.000]  Because we can be designing an amplifier to have a high voltage gain or a low voltage gain.
+[30:18.100 --> 30:25.740]  The voltage gain is something that, you know, is a parameter for the design, all right?
+[30:25.740 --> 30:31.900]  So we don't count in terms of fidelity how much voltage gain we're getting.
+[30:32.000 --> 30:38.700]  That's already encompassed in this one as well as this particular parameter here, all right?
+[30:39.680 --> 30:51.740]  So, and the other thing that we're not necessarily interested in ultimately is the phase of the output
+[30:51.740 --> 30:56.500]  versus the input signal, all right?
+[30:56.500 --> 31:00.760]  So maybe the input signal looks like this, all right?
+[31:00.840 --> 31:09.300]  This might be the input signal, but, all right, our output may be 180 degrees out of phase.
+[31:09.400 --> 31:11.200]  It is completely opposite.
+[31:11.640 --> 31:16.940]  That would be embodied by having a voltage gain less than zero.
+[31:16.940 --> 31:19.740]  So maybe our voltage gain is negative.
+[31:20.280 --> 31:24.440]  That would simply mean that the output phase is inverted.
+[31:25.080 --> 31:30.980]  And again, that is not considered to be an infidelity at all, all right?
+[31:31.040 --> 31:33.520]  It's not considered to be an infidelity at all.
+[31:33.880 --> 31:39.260]  So it's really just the shape of the signal.
+[31:39.260 --> 31:45.940]  What we'd want is if we put in a perfect triangular waveform such as this,
+[31:46.300 --> 31:51.020]  we would want the output to look like a perfect triangular signal.
+[31:51.360 --> 31:56.220]  If we want to, if we put in a perfect sinusoidal signal,
+[31:56.760 --> 32:03.220]  we want our output to look like a perfect sinusoidal signal as well.
+[32:03.580 --> 32:05.720]  So that's basically the concept.
+[32:05.720 --> 32:19.360]  Now, unfortunately, all right, amplifiers in the real world cannot actually produce a totally same output signal shape, okay?
+[32:20.580 --> 32:29.200]  The shape of the output signal actually changes, all right, against the input signal.
+[32:29.820 --> 32:34.340]  And that is what we call as distortion, okay?
+[32:34.340 --> 32:37.520]  That is what we call as distortion.
+[32:37.980 --> 32:50.520]  So a desirable characteristic for our amplifier would be to have low distortion or distortion essentially that is non-existent, all right?
+[32:50.680 --> 32:54.040]  And is that even possible?
+[32:54.420 --> 32:58.020]  And what, in fact, does that look like, okay?
+[32:58.220 --> 33:03.880]  All right, so let's have a quick look and let's continue here, hopefully, all right?
+[33:03.880 --> 33:07.760]  What is distortion, okay?
+[33:07.760 --> 33:14.920]  It refers to the shape of the output signal compared to the input signal, all right?
+[33:15.160 --> 33:21.400]  In the ideal world, the VO over VI essentially is a constant.
+[33:22.060 --> 33:27.340]  But in a real amplifier, it is not exactly constant.
+[33:27.680 --> 33:31.820]  And that is what causes the distortion, okay?
+[33:31.820 --> 33:38.060]  K is notoriously difficult to be made constant in a real world circuit.
+[33:38.280 --> 33:56.220]  So if you had an amplifier that produces a very, very constant relationship between input and output, you'd get a transfer ratio VO versus VI, which is a perfectly straight incline, all right?
+[33:56.220 --> 33:59.000]  It will be a perfectly beautiful incline.
+[33:59.940 --> 34:04.740]  How steep the incline is basically is your voltage gain.
+[34:05.080 --> 34:09.720]  If it is very, very, very flat like so, all right?
+[34:09.720 --> 34:16.620]  The incline is not at all steep, then it basically means that your amplifier has low voltage gain.
+[34:16.940 --> 34:24.340]  Whereas if it is a very, very steep transfer curve, then it's a very high voltage gain.
+[34:24.420 --> 34:28.080]  But bottom line is these are straight lines, okay?
+[34:28.080 --> 34:35.520]  This is your ideal amplifier where the VO over VI is a constant.
+[34:36.100 --> 34:38.120]  Now, the thing is that doesn't happen.
+[34:38.560 --> 34:42.900]  Usually, the transfer curve looks lazy like this.
+[34:42.980 --> 34:44.900]  It might look slightly S-shaped.
+[34:45.260 --> 34:48.040]  For example, that's kind of expected, in fact.
+[34:48.040 --> 34:58.160]  So you don't get a perfectly flat straight line out of the amplifier's voltage gain.
+[34:58.840 --> 34:58.960]  Okay?
+[34:59.400 --> 34:59.740]  All right.
+[35:00.120 --> 35:02.700]  So why did I X that?
+[35:03.040 --> 35:04.580]  Let's clear all these drawings.
+[35:05.160 --> 35:05.380]  All right.
+[35:05.640 --> 35:07.600]  So let's look at this.
+[35:08.360 --> 35:08.700]  All right.
+[35:08.700 --> 35:25.100]  We might visually compare, all right, the shape of the output signal versus the input signal if we wanted to provide a figure of merit for the amplifier in terms of fidelity.
+[35:26.140 --> 35:26.560]  All right?
+[35:26.980 --> 35:28.660]  How would you quantify it?
+[35:28.760 --> 35:29.840]  That's the big question.
+[35:30.300 --> 35:30.560]  Okay?
+[35:30.560 --> 35:50.680]  So if a real-world amplifier produces a nonlinear transfer function, okay, we would want to measure that so that we can give a figure of merit to that amplifier.
+[35:50.680 --> 36:09.260]  Just like we can measure VO versus VI in terms of amplitude, and we can ascribe or provide a measure of the amplifier's voltage gain.
+[36:09.840 --> 36:11.660]  That's exactly what we've done.
+[36:11.940 --> 36:13.860]  We measured VO peak-to-peak.
+[36:13.980 --> 36:20.520]  We measured VI peak-to-peak, divided, and we get a figure of merit in terms of voltage gain.
+[36:21.420 --> 36:22.460]  That's easy.
+[36:23.020 --> 36:23.200]  Right?
+[36:23.300 --> 36:23.940]  That's easy.
+[36:24.680 --> 36:49.440]  If you're asked to get the bandwidth of the amplifier, that's also not so difficult because you can have a look at it and say that, oh, it drops off here by this much, and this one drops off here by this much, and so therefore I will have a low frequency and high frequency bound where the amplifier's gain has dropped off significantly enough to say that, okay,
+[36:49.440 --> 36:53.440]  well, that's the bandwidth of my amplifier.
+[36:53.440 --> 37:07.900]  In this case, the bandwidth of this amplifier is something in the neighborhood of about 230 hertz, all the way up to approximately 10 megahertz.
+[37:07.900 --> 37:10.740]  That's the bandwidth of this particular amplifier.
+[37:10.740 --> 37:14.160]  And so again, you're able to quantify that.
+[37:14.860 --> 37:15.040]  All right?
+[37:15.620 --> 37:21.940]  So the big question here is, if it comes to distortion, all right?
+[37:21.940 --> 37:29.420]  If it comes to distortion, how do we quantify distortion?
+[37:30.080 --> 37:40.080]  How do we measure and be able to put a number on the question of fidelity or infidelity for that matter?
+[37:40.080 --> 37:41.320]  All right?
+[37:41.320 --> 37:41.340]  All right?
+[37:42.340 --> 37:42.600]  Okay.
+[37:42.760 --> 37:51.480]  Now, again, the clues are pretty much that we're interested only in the shape.
+[37:52.700 --> 37:53.760]  All right?
+[37:53.760 --> 38:13.180]  So either you define it in terms of how well the two shapes are exactly the same as each other, or you define it in terms of how big a difference in the shape is between output and input.
+[38:13.180 --> 38:13.660]  Okay?
+[38:13.660 --> 38:14.260]  Okay?
+[38:14.260 --> 38:25.560]  So either you say how near they are to each other, or you say how far they are from each other in terms of shape, both of which are just reciprocals of the same measurement.
+[38:26.340 --> 38:26.580]  Okay?
+[38:26.900 --> 38:42.120]  So how can you propose, all right, can you propose how to measure the sameness or difference in shape between output and input?
+[38:42.120 --> 38:43.360]  So how do you do it?
+[38:43.480 --> 38:47.080]  How do you actually get a measurement of that?
+[38:47.780 --> 38:53.240]  And so let me pause this as stated here, all right?
+[38:53.420 --> 38:55.340]  Hopefully everybody is listening.
+[38:55.480 --> 38:58.860]  I've repeated the question many, many, many times already.
+[38:59.520 --> 39:08.200]  And so let me go to you guys and ask you, all right, what your thoughts are of this one.
+[39:10.360 --> 39:10.800]  Anybody?
+[39:10.800 --> 39:11.000]  Anybody?
+[39:11.960 --> 39:14.140]  Do you want to volunteer if possible?
+[39:14.780 --> 39:18.840]  Check the period of the input and output signal.
+[39:19.020 --> 39:19.640]  Oh, all right.
+[39:19.800 --> 39:24.520]  So the period refers to the frequency.
+[39:24.520 --> 39:35.200]  And, you know, the amplifier will always produce a response that is of the same period.
+[39:35.660 --> 39:39.220]  Not unless it's doing something and wiggling all by itself.
+[39:40.020 --> 39:40.340]  All right?
+[39:40.500 --> 39:46.020]  So that would not work.
+[39:46.280 --> 39:47.220]  That would not work.
+[39:47.220 --> 39:47.560]  Okay?
+[39:47.560 --> 40:05.700]  So if you have anything like a semi-linear transfer function, right, even if it's a very, very bad transfer function, for whatever input you provide, there is going to be an output.
+[40:05.700 --> 40:10.040]  So if your input is swinging, all right?
+[40:10.040 --> 40:18.420]  If your input is swinging like this, the output will also be swinging at exactly the same frequency.
+[40:18.560 --> 40:20.700]  You're not going to get any difference from there.
+[40:20.700 --> 40:26.860]  Not unless the amplifier is totally unstable and it's doing outputs that are not supposed to be there.
+[40:27.020 --> 40:27.140]  Okay?
+[40:27.280 --> 40:29.040]  So that's not going to work.
+[40:29.120 --> 40:30.300]  But thanks for that try.
+[40:30.860 --> 40:31.060]  Okay?
+[40:31.060 --> 40:33.760]  So what else?
+[40:33.840 --> 40:35.760]  Is there any other thing that...
+[40:35.760 --> 40:39.840]  Remember, okay, so the problem here is that it's a shape question.
+[40:40.280 --> 40:46.720]  How the heck do you actually figure out the difference in a shape, right?
+[40:47.060 --> 40:53.820]  Now, to help you visualize this, let's go back to our example here.
+[40:54.180 --> 40:54.540]  All right?
+[40:54.720 --> 40:56.500]  This is not an easy question.
+[40:57.500 --> 40:58.120]  All right?
+[40:58.140 --> 40:59.540]  Let's go back to this example.
+[40:59.540 --> 41:02.300]  I'm going to X this.
+[41:03.080 --> 41:03.460]  Okay?
+[41:03.660 --> 41:08.260]  Because we have to go back to our transient analysis here.
+[41:09.600 --> 41:10.360]  Simulation.
+[41:12.900 --> 41:14.360]  Go back to transient.
+[41:15.300 --> 41:15.580]  Okay?
+[41:16.000 --> 41:18.100]  Let's run the simulation again.
+[41:18.900 --> 41:19.160]  Okay?
+[41:19.700 --> 41:21.360]  Now, here's the thing.
+[41:22.280 --> 41:24.300]  Here is the output.
+[41:25.060 --> 41:27.720]  And to you, all right?
+[41:27.720 --> 41:37.360]  To you, if you look at the output signal, you might get the impression that, well, it looks like a sinusoidal wave, right?
+[41:37.360 --> 41:43.560]  You might have the impression that, hey, this amplifier seems to be doing okay.
+[41:43.800 --> 41:46.940]  I don't see any deviation at all.
+[41:47.540 --> 41:47.900]  All right?
+[41:47.940 --> 41:53.600]  Or I don't see it as a bad sine wave.
+[41:53.600 --> 42:01.880]  By the way, all right, so to clarify, all right, just to clarify, our input signal is, in fact, a perfect sinusoidal wave.
+[42:02.500 --> 42:02.800]  All right?
+[42:02.840 --> 42:09.480]  So we expect that the output of this thing is also a perfect sinusoid.
+[42:09.480 --> 42:11.480]  But that's the question.
+[42:11.480 --> 42:16.560]  Is it a perfect sinusoidal shape-wise, all right?
+[42:16.560 --> 42:19.860]  And that might be a little bit difficult to see.
+[42:20.500 --> 42:20.700]  All right?
+[42:20.740 --> 42:22.640]  That might be a little bit difficult to see.
+[42:23.040 --> 42:31.540]  So let me just change this to a smaller value here so that we are looking at it expanded.
+[42:31.900 --> 42:32.200]  All right?
+[42:32.200 --> 42:33.660]  We're looking at it expanded.
+[42:33.660 --> 42:39.160]  And again, this is a sinusoidal wave, supposedly.
+[42:39.380 --> 42:42.800]  Now, can you see anything wrong with it?
+[42:44.580 --> 42:48.360]  Can you actually see what is wrong?
+[42:48.800 --> 42:49.060]  All right?
+[42:49.140 --> 43:01.240]  Now, it's difficult, but you might be able to perceive that if you look at the top portion, all right,
+[43:01.240 --> 43:06.860]  if you look at the top portion, you cut this down in the middle, all right?
+[43:06.920 --> 43:09.140]  This is the approximate center, I guess.
+[43:09.620 --> 43:09.820]  Okay?
+[43:09.820 --> 43:19.280]  If you cut this down in the middle and compare this one versus how this thing looks,
+[43:19.880 --> 43:23.340]  I'm sure you can see that they are not the same.
+[43:24.340 --> 43:24.600]  Okay?
+[43:25.340 --> 43:27.920]  The one on top is very fat.
+[43:27.920 --> 43:31.960]  The one at the bottom is narrower.
+[43:33.700 --> 43:33.900]  Okay?
+[43:35.180 --> 43:39.000]  And that is definitely not what a sine wave is supposed to look like.
+[43:39.420 --> 43:45.880]  The top and bottom portions are supposed to be exactly the same.
+[43:46.740 --> 43:49.320]  They are reflective of each other.
+[43:49.480 --> 43:54.320]  They have mirror images of each other on the vertical axis.
+[43:54.320 --> 44:02.680]  And one way that you might want to be able to confirm that, all right, and this is, well, this is a clue.
+[44:03.320 --> 44:04.320]  I don't know if it's a clue.
+[44:04.440 --> 44:04.880]  What the hell?
+[44:05.500 --> 44:15.920]  Is if we ask ourselves to plot the input signal, it's going to be really tiny because of that voltage gain, right?
+[44:15.920 --> 44:18.340]  But we quantified the voltage gain.
+[44:18.400 --> 44:20.640]  We know that it's about 180 something.
+[44:21.380 --> 44:29.040]  So there's nothing wrong in taking that and using LTSpice ability.
+[44:29.700 --> 44:37.160]  We can multiply the input signal by the gain that we roughly calculated a while ago.
+[44:37.160 --> 44:39.160]  All right?
+[44:39.160 --> 44:41.720]  And we're going to get this one.
+[44:42.580 --> 44:45.680]  And again, it's still hard to compare.
+[44:46.360 --> 44:52.880]  It's still hard to compare, but we can always multiply it by negative one.
+[44:54.880 --> 44:55.900]  All right?
+[44:55.900 --> 45:06.360]  And now we can also try to center the two so that it is fairly obvious, right?
+[45:07.180 --> 45:13.960]  Plus maybe about 0.5 volts.
+[45:15.420 --> 45:17.000]  No, that's too much.
+[45:17.220 --> 45:18.080]  Let's reduce it.
+[45:19.620 --> 45:22.000]  0.35 volts.
+[45:23.820 --> 45:24.460]  Ah, there we go.
+[45:24.460 --> 45:24.720]  Okay.
+[45:25.020 --> 45:27.340]  So that's close enough.
+[45:27.660 --> 45:27.900]  All right?
+[45:27.920 --> 45:28.840]  That's close enough.
+[45:28.920 --> 45:36.540]  And now you can see the deviation quite blatantly in this particular case, right?
+[45:36.540 --> 45:43.780]  You can see the deviation quite blatantly in this output versus input.
+[45:43.900 --> 45:52.540]  Now, remember that we're putting in factors that just shift the waveform up and down slightly.
+[45:52.540 --> 46:02.780]  And in the case of the input, we are using LTSpice to multiply the input by a negative 185.
+[46:03.420 --> 46:06.960]  Now, this is a multiplication factor.
+[46:06.960 --> 46:08.200]  It's a gain.
+[46:08.200 --> 46:09.460]  It's a gain.
+[46:09.460 --> 46:09.500]  It's a gain.
+[46:09.500 --> 46:14.760]  But it is mathematically, all right?
+[46:15.760 --> 46:25.360]  Zero distortion or zero, you know, the transfer curve is perfectly linear because we're doing it in terms of math.
+[46:25.740 --> 46:26.020]  All right?
+[46:26.020 --> 46:31.080]  So it's a constant multiplier of negative 185.
+[46:32.080 --> 46:44.320]  Unlike this one, which is a multiplication factor of roughly 185, except that it doesn't maintain that 185 consistently.
+[46:44.320 --> 46:46.320]  And this is the result.
+[46:46.960 --> 46:53.060]  So we have essentially an undistorted sine wave.
+[46:53.560 --> 46:58.020]  This is what our ideal amplifier should have delivered.
+[46:58.600 --> 47:02.080]  And this is the deviation.
+[47:03.540 --> 47:04.560]  All right?
+[47:04.960 --> 47:08.760]  The change in shape that we are talking about.
+[47:08.760 --> 47:09.120]  Okay?
+[47:09.120 --> 47:14.680]  And you can see now that this is a very, very big difference.
+[47:15.360 --> 47:15.580]  All right?
+[47:15.980 --> 47:37.620]  The lower portion of this waveform, the lower portion of this waveform is obviously narrower compared to, all right, compared to the original multiplied by the correct linear factor.
+[47:37.620 --> 47:38.120]  All right?
+[47:38.180 --> 47:41.900]  It should be on the same y-axis, but I can't draw it there.
+[47:42.020 --> 47:42.240]  All right?
+[47:42.260 --> 47:46.720]  Or maybe I'll draw it there with a dotted line.
+[47:46.900 --> 47:53.700]  And you can see that, oh, the bottom part is narrower than what it should be.
+[47:54.400 --> 47:54.820]  All right?
+[47:55.300 --> 47:58.900]  For the top part, we can see the same thing.
+[47:59.020 --> 48:02.120]  The top part is only supposed to be this wide.
+[48:02.120 --> 48:11.960]  But when it comes to the output, the top part is actually wider than it should be.
+[48:12.900 --> 48:13.160]  All right?
+[48:13.440 --> 48:18.620]  And so we can see that the shape is wildly different.
+[48:19.460 --> 48:20.560]  It's wildly different.
+[48:20.560 --> 48:25.560]  This is a humongous amount of difference.
+[48:26.060 --> 48:26.280]  All right?
+[48:26.400 --> 48:34.120]  Which may not necessarily be very, very visible unless you're doing an KB comparison.
+[48:34.840 --> 48:35.060]  Okay?
+[48:35.320 --> 48:39.160]  Now, again, back to the original problem that I've been asking.
+[48:39.840 --> 48:45.520]  We need to quantify this difference in shape.
+[48:45.520 --> 48:52.020]  We want to get a measure of how different the shape is, in other words.
+[48:53.240 --> 48:53.500]  All right?
+[48:54.100 --> 48:59.500]  So the big question is, how can you get the difference in shape?
+[49:00.580 --> 49:01.640]  There we go.
+[49:02.000 --> 49:02.340]  All right?
+[49:03.900 --> 49:09.900]  So, or the reciprocal of it being how the same are the shapes are.
+[49:09.900 --> 49:16.560]  So if we can find a way to make that kind of a quantification or measurement, then we have,
+[49:16.680 --> 49:24.280]  you know, a third parameter, aside from voltage gain and bandwidth, then we'll have another
+[49:24.280 --> 49:30.700]  parameter which is important in characterizing how good or how lousy an amplifier is.
+[49:31.300 --> 49:31.500]  Right?
+[49:31.840 --> 49:32.080]  Okay.
+[49:32.180 --> 49:33.400]  So back to you.
+[49:33.500 --> 49:36.820]  Do you have any suggestions on how we can do it?
+[49:36.820 --> 49:41.940]  Anybody?
+[49:42.660 --> 49:43.860]  Any inputs?
+[49:45.480 --> 49:46.760]  May naiisip ba kayo?
+[49:47.360 --> 49:47.680]  All right?
+[49:47.760 --> 49:49.000]  May naiisip ba kayo?
+[49:51.080 --> 49:57.540]  Let's go to random volunteer.
+[50:00.540 --> 50:01.340]  All right?
+[50:01.660 --> 50:02.880]  Random volunteer.
+[50:03.380 --> 50:04.140]  Let's see.
+[50:04.220 --> 50:06.080]  Bakit marami kayong absent today?
+[50:06.460 --> 50:06.800]  All right.
+[50:07.780 --> 50:08.620]  Let's see.
+[50:12.660 --> 50:15.220]  Si Gabriel ay sumagot na kanina, no?
+[50:15.320 --> 50:16.740]  So let's, let's, okay.
+[50:16.840 --> 50:21.840]  The first person on the list happens to be, I don't know how these things arranged, by the way.
+[50:24.420 --> 50:28.700]  Ah, it's, ah, it's arranged essentially by first name.
+[50:28.960 --> 50:29.520]  First name.
+[50:29.980 --> 50:32.080]  So, unfortunately.
+[50:32.080 --> 50:32.520]  Okay.
+[50:32.520 --> 50:32.820]  Okay.
+[50:33.000 --> 50:35.240]  So, Mr. Solomon.
+[50:36.200 --> 50:37.440]  Adonis, are you there?
+[50:38.480 --> 50:39.020]  Ay, nawala.
+[50:39.800 --> 50:40.420]  Ang galing, ah.
+[50:40.460 --> 50:41.120]  Nag-logged out.
+[50:41.760 --> 50:42.320]  Stus.
+[50:43.840 --> 50:45.280]  How did you do that?
+[50:45.840 --> 50:47.400]  The guy logged out.
+[50:48.260 --> 50:48.860]  Chickened out.
+[50:49.100 --> 50:49.320]  Okay.
+[50:49.320 --> 50:50.320]  Okay.
+[50:50.320 --> 50:55.240]  So, the next person on the list at the top is Miss Lee.
+[50:56.060 --> 50:56.400]  Ashley.
+[50:57.560 --> 50:58.420]  Ashley, are you there?
+[50:58.420 --> 50:58.840]  Yeah?
+[51:03.320 --> 51:03.840]  Yeah?
+[51:04.180 --> 51:04.440]  Okay.
+[51:04.440 --> 51:11.100]  For those who aren't seeing it, she just answered by direct message.
+[51:11.100 --> 51:13.740]  Oh, ano ba, Ashley?
+[51:13.940 --> 51:14.800]  Anong tingin mo?
+[51:14.900 --> 51:18.040]  Is there a way to actually quantify this?
+[51:18.200 --> 51:19.100]  What are your thoughts?
+[51:22.160 --> 51:22.600]  Any?
+[51:22.940 --> 51:23.920]  Any thoughts?
+[51:27.720 --> 51:29.120]  Paano natin mameasure?
+[51:30.120 --> 51:32.000]  I think so, but I'm not sure.
+[51:33.260 --> 51:33.700]  Okay.
+[51:34.260 --> 51:34.960]  Well, yes.
+[51:35.020 --> 51:36.860]  Obviously, there is a way of doing it.
+[51:37.260 --> 51:37.480]  All right?
+[51:37.540 --> 51:38.560]  There is a way of doing it.
+[51:38.560 --> 51:40.540]  The question really here is how?
+[51:41.100 --> 51:41.620]  Okay?
+[51:42.120 --> 51:56.480]  Now, in terms of modern technology, all right, in terms of modern technology, in terms of this LTSpice, for example, it looks possible.
+[51:56.780 --> 51:58.200]  You have a lot of tools.
+[51:58.340 --> 52:00.540]  You have MATLAB, for example.
+[52:01.500 --> 52:04.980]  You have the ability to program, for example.
+[52:04.980 --> 52:29.900]  And so, if you were asked to get the deviation in shape, then the deviation in shape in this case would be, well, you'd have to find the amplification factor, get the tool lined up, and then you'd have to measure, for example, the area, all right, of this one.
+[52:29.900 --> 52:47.900]  And if you measure that area, all right, then you'll get the percentage of deviation between the two in terms of the area covered.
+[52:47.900 --> 52:51.740]  That might be one way of doing it, okay?
+[52:52.260 --> 52:56.380]  But you'd need, you know, this graphing capability.
+[52:57.000 --> 52:59.980]  You'd need to be able to take a snapshot of it.
+[53:00.040 --> 53:03.200]  You'd need to be able to find a way to highlight that difference.
+[53:03.200 --> 53:07.780]  And then, how do you get the area, all right?
+[53:08.280 --> 53:14.460]  How will you actually make a measurement of that area that we're highlighting here and compare?
+[53:14.580 --> 53:19.540]  Well, the area of the sinusoid is not a problem because that's a mathematical function.
+[53:19.680 --> 53:20.620]  That's pretty straightforward.
+[53:20.620 --> 53:36.680]  But getting the area here, all right, if you could do it and dividing that by the area of this sinusoid, all right, will tell you how much deviation there is.
+[53:36.780 --> 53:43.760]  And that is certainly possible because, obviously, if they're exactly the same, there would be nothing here.
+[53:43.880 --> 53:48.680]  There's nothing that's going to be here, and that would be zero, all right?
+[53:48.680 --> 53:57.100]  And that would mean that you are measuring how much deviation there is, and that would be great if you had an amplifier with zero difference.
+[53:57.560 --> 54:03.700]  So that's possible if you had your graphical tools and if you know how to get the area.
+[54:04.200 --> 54:08.940]  I'm sure your graphical tools can actually do it, all right?
+[54:08.940 --> 54:24.280]  But remember, if we go back to the 1940s, 1950s, 1960s, 1970s, and even early 1980s, this would not necessarily have been a straightforward, easy thing to do.
+[54:24.900 --> 54:31.920]  And the bottom line is engineers back then already were able to make distortion measurements.
+[54:32.160 --> 54:34.240]  So yes, it's definitely possible.
+[54:34.760 --> 54:38.160]  The big question is how, all right?
+[54:38.160 --> 54:52.800]  The big question is how, is there a more straightforward way of actually getting the difference, the distortion or how much it deviates.
+[54:53.460 --> 54:53.620]  Okay?
+[54:53.620 --> 55:09.660]  Now, in order to move forward so that we're not stuck for so long, well, what if, you know, we subtract the two signals and get the error signal, all right?
+[55:09.900 --> 55:11.620]  Get the error signal.
+[55:12.120 --> 55:12.620]  What the heck?
+[55:12.620 --> 55:15.000]  Get the error signal, all right?
+[55:15.000 --> 55:15.080]  Get the error signal, all right?
+[55:15.080 --> 55:15.080] 
+[55:15.080 --> 55:16.080]  Get the error signal, all right?
+[55:16.080 --> 55:18.080]  Get the error signal, all right?
+[55:18.080 --> 55:22.940]  Defined by VE is equal to V out minus V in times K.
+[55:23.680 --> 55:31.080]  Whatever we have left is the difference between the two, which would be its distortion.
+[55:32.820 --> 55:33.060]  Okay?
+[55:33.060 --> 55:43.880]  Now, the problem with this approach, all right, is that we're dealing with signals that are time domain.
+[55:44.380 --> 55:47.360]  The signal goes up and down, okay?
+[55:47.360 --> 55:51.320]  How will you make a measurement of VE?
+[55:51.700 --> 55:58.240]  Well, the answer essentially is that the resulting error signal is also defined as a time domain signal.
+[55:58.580 --> 56:01.940]  It will be a VE sub T, right?
+[56:02.040 --> 56:04.820]  It's a continuously changing thing.
+[56:05.660 --> 56:09.100]  And how do you describe the shape of that, all right?
+[56:09.100 --> 56:15.300]  And so let's again go back and let's try that, okay?
+[56:15.500 --> 56:20.220]  We can add a signal here, all right?
+[56:20.580 --> 56:28.880]  We can add a signal here and maybe use by, based on this one, we can start here.
+[56:28.880 --> 56:43.040]  We can start here and say that we want to produce a signal whose value or whose waveform is defined as this first equation here,
+[56:43.040 --> 57:01.040]  which is the input signal, our reference signal, minus the output signal, which would be V sub N003 plus 0.35 volts,
+[57:01.120 --> 57:04.480]  because there's a bit of an offset there, all right?
+[57:04.640 --> 57:07.380]  And let's put that in.
+[57:08.040 --> 57:10.560]  And that's what we're going to get, all right?
+[57:11.180 --> 57:12.540]  That's what we're going to get.
+[57:12.540 --> 57:14.920]  Let's delete this trace, all right?
+[57:15.320 --> 57:23.400]  And what you are looking at now, ladies and gentlemen, would be the signal, the difference, all right?
+[57:23.460 --> 57:27.960]  This is now your error voltage, all right?
+[57:28.020 --> 57:32.240]  This is now your error voltage, VE sub T.
+[57:32.500 --> 57:39.560]  There is a time domain signal going from 0 to 3 milliseconds in this particular case.
+[57:39.560 --> 57:45.560]  And in that span of time, the deviation, as shown here, looks like this.
+[57:45.660 --> 57:50.180]  Now, if it's 0, it means that there's no deviation at all.
+[57:50.920 --> 57:58.000]  And again, the ideal case would have been that you would have gotten a totally flat line, but it's not.
+[57:58.080 --> 58:01.140]  You can see that it is deviating like hell, all right?
+[58:01.140 --> 58:04.720]  And this tells you that there is this distortion.
+[58:04.880 --> 58:08.640]  There is an error signal, and it's not 0, all right?
+[58:09.120 --> 58:13.420]  Now, again, how do you quantify and put this?
+[58:13.920 --> 58:16.640]  Put a value to this error.
+[58:16.640 --> 58:22.860]  And that might be the challenge because it's not a sinusoidal signal.
+[58:23.220 --> 58:31.480]  It is not a signal that can easily be described by a simple trigonometric function, okay?
+[58:31.860 --> 58:34.080]  Kung square wave yan, madaling sabihin.
+[58:34.580 --> 58:41.840]  We would have said that it's a square wave with an amplitude of so much and a frequency of something, something.
+[58:41.840 --> 58:43.960]  Fine, fine, all right?
+[58:44.100 --> 58:52.060]  If it looked like a triangular wave, we would be able to do something also because we would say that it's a triangular wave.
+[58:52.760 --> 59:01.320]  But if you look at this error signal here, it doesn't look like any easily describable signal.
+[59:01.840 --> 59:07.340]  It looks a little sinusoidal, but it's obviously not, all right?
+[59:07.340 --> 59:11.640]  So the big question, again, goes back to the fundamental.
+[59:12.520 --> 59:33.540]  How can we measure this deviation and provide a numeric answer that satisfies the concept and captures the concept of how much it's deviating, okay?
+[59:33.540 --> 59:37.180]  All right, so that's essentially the problem.
+[59:37.360 --> 59:46.020]  So yes, it might be a starting point to try to subtract output versus input and get an error signal.
+[59:46.460 --> 59:55.620]  But even if you could, all right, even if you could, because in terms of electronics, it's possible to create that, maybe, all right?
+[59:55.620 --> 59:59.040]  You might be able to do that subtraction electronically speaking.
+[01:00:00.100 --> 01:00:03.340]  But still, how do you quantify all of this, okay?
+[01:00:03.540 --> 01:00:12.400]  What is, how can you measure how much it's deviating even in terms of the error signal that you've already been able to extract, okay?
+[01:00:12.540 --> 01:00:13.340]  So there you go.
+[01:00:13.400 --> 01:00:17.560]  So that's essentially the crux of the matter there.
+[01:00:17.760 --> 01:00:20.800]  And that's why it's an interesting problem, okay?
+[01:00:20.800 --> 01:00:28.020]  So to make a long story short, because we would run out of time, okay?
+[01:00:28.020 --> 01:00:45.500]  The answer really, all right, is to quantify these deviations using a very simple method, which is to begin with a sinusoidal signal, all right?
+[01:00:45.500 --> 01:00:45.560]  Okay.
+[01:00:46.560 --> 01:00:52.580]  Our excitation signal starts from a sinusoidal signal.
+[01:00:52.580 --> 01:00:57.800]  And there's a very, very special reason.
+[01:00:58.920 --> 01:01:08.100]  Because if the amplifier is perfect, then the output is going to be a perfect sinusoid.
+[01:01:08.100 --> 01:01:20.680]  And if the amplifier is not perfect, it will change the shape, making it a deviant sinusoid, all right?
+[01:01:21.440 --> 01:01:28.440]  A signal that deviates from a perfect sinusoid, a non-perfect sinusoidal signal.
+[01:01:28.580 --> 01:01:30.940]  Now, what's so special about that?
+[01:01:30.940 --> 01:01:35.500]  Well, the answer is going back to DSP.
+[01:01:36.320 --> 01:01:38.780]  You guys took up DSP 101, right?
+[01:01:40.180 --> 01:01:40.500]  Okay?
+[01:01:40.900 --> 01:01:42.820]  Tama ba ako, everybody?
+[01:01:43.500 --> 01:01:44.500]  Nag-DSP na kayo?
+[01:01:45.920 --> 01:01:46.740]  Yes.
+[01:01:46.920 --> 01:01:47.100]  Oh.
+[01:01:47.900 --> 01:01:48.300]  All right?
+[01:01:49.360 --> 01:01:58.280]  So you know that a sinusoidal signal is special because it's only a sinusoid that has,
+[01:01:58.280 --> 01:02:01.520]  which is a periodic signal, all right?
+[01:02:01.520 --> 01:02:14.060]  The sinusoid is a periodic signal that produces, all right, a spectrum that is purely a single frequency.
+[01:02:14.620 --> 01:02:20.600]  Whatever the sinusoidal signal is, if it is a 1 kHz sinusoidal signal,
+[01:02:20.600 --> 01:02:36.560]  if you break it down into its frequency spectrum, then you expect to see that it is a single line at exactly, of course, 1 kHz.
+[01:02:36.680 --> 01:02:38.580]  There's nothing else there.
+[01:02:38.580 --> 01:02:50.980]  And the beauty of that really is that it's only the sinusoid that has that characteristic, of course, and all of its siblings, cosine wave, all right?
+[01:02:50.980 --> 01:03:03.540]  So a sine or cosine wave or any wave in that same characteristic, we're not talking about phase here, all right, will produce that single frequency thing.
+[01:03:03.540 --> 01:03:10.240]  If it's a sinusoidal signal, then it will be a single bar at 2 kHz.
+[01:03:10.320 --> 01:03:11.300]  Do you remember this?
+[01:03:11.640 --> 01:03:11.880]  All right?
+[01:03:12.340 --> 01:03:15.240]  How do you go from time domain to frequency domain?
+[01:03:15.400 --> 01:03:16.380]  Anong ginagawa nyo?
+[01:03:16.500 --> 01:03:17.220]  What do you use?
+[01:03:19.780 --> 01:03:24.840]  How do you go from time domain over to frequency domain?
+[01:03:25.340 --> 01:03:26.040]  What do you use?
+[01:03:27.160 --> 01:03:28.120]  Oy, nag-DSP kayo.
+[01:03:28.340 --> 01:03:29.040]  Yes, Fourier.
+[01:03:29.340 --> 01:03:29.720]  Exactly.
+[01:03:30.180 --> 01:03:30.460]  All right?
+[01:03:30.460 --> 01:03:40.240]  So you can use the Fourier transform, be it discrete Fourier transform or the fast Fourier transform, all right, to go from one to the other.
+[01:03:41.100 --> 01:03:41.440]  All right?
+[01:03:41.500 --> 01:03:42.780]  To go from one to the other.
+[01:03:42.980 --> 01:03:45.240]  So they are mathematically related.
+[01:03:45.500 --> 01:03:56.740]  So if you took a sinusoid and pass it through the FFT or Fourier transform of MATLAB, for example, you would get the spectrum.
+[01:03:56.740 --> 01:04:00.040]  And you've done this in DSP class.
+[01:04:01.340 --> 01:04:02.120]  All right?
+[01:04:03.280 --> 01:04:08.660]  So the key point here is what happens if you put in a square wave?
+[01:04:10.020 --> 01:04:10.760]  All right?
+[01:04:10.760 --> 01:04:14.520]  The answer is your spectrum will look very different.
+[01:04:14.520 --> 01:04:18.680]  If you put in a square wave, you're going to get a spectrum that looks like this.
+[01:04:18.680 --> 01:04:27.480]  One kHz with 3 kHz, 5 kHz, 7 kHz, and so on and so forth as the resulting spectrum.
+[01:04:27.640 --> 01:04:29.340]  You'll see something there.
+[01:04:29.980 --> 01:04:30.160]  All right?
+[01:04:30.160 --> 01:04:40.620]  If you were to put in a triangular wave form, it's going to be another spectrum which basically looks like this.
+[01:04:41.000 --> 01:04:41.260]  All right?
+[01:04:41.620 --> 01:04:43.380]  And this is going to be at 1 kHz.
+[01:04:43.460 --> 01:04:44.860]  This is going to be at 2 kHz.
+[01:04:44.980 --> 01:04:46.280]  This is going to be at 4 kHz.
+[01:04:46.400 --> 01:04:48.720]  This is going to be at 6, and so on and so forth.
+[01:04:48.720 --> 01:04:53.380]  And that tells you that the wave form was triangular.
+[01:04:53.380 --> 01:05:02.500]  Now, bottom line is it's only the sinusoid that produces a clean, pure output.
+[01:05:03.060 --> 01:05:17.800]  Anything else, including a distorted sine wave, will produce those extra components.
+[01:05:18.720 --> 01:05:19.020]  Okay?
+[01:05:20.020 --> 01:05:23.980]  And those extra components that we see here are called harmonics.
+[01:05:25.460 --> 01:05:25.740]  Okay?
+[01:05:26.380 --> 01:05:29.180]  These extra things here are harmonics.
+[01:05:29.180 --> 01:05:36.900]  And so, how do you now get a figure of merit for the amplifier?
+[01:05:37.200 --> 01:05:38.220]  The answer is simple.
+[01:05:38.680 --> 01:05:43.840]  We excite it with the sinusoid, and we look at the output spectrum,
+[01:05:43.840 --> 01:05:52.440]  and we measure the amplitude of the harmonics versus the fundamental.
+[01:05:53.580 --> 01:05:54.500]  Okay?
+[01:05:56.980 --> 01:06:02.380]  We measure the amplitude of the harmonics against the fundamental.
+[01:06:02.380 --> 01:06:16.660]  And, ratio-metrically, how big or how small the harmonics are against the fundamental gives us a unitless result.
+[01:06:17.120 --> 01:06:17.680]  Okay?
+[01:06:17.740 --> 01:06:24.120]  If you're talking in terms of volts, for example, fundamental is 8 volts peak-to-peak.
+[01:06:24.120 --> 01:06:28.020]  My first harmonic is 1 volt peak-to-peak.
+[01:06:28.160 --> 01:06:30.940]  My next harmonic is 0.5 volts peak-to-peak.
+[01:06:31.060 --> 01:06:34.780]  My third harmonic is 0.226 volts peak-to-peak.
+[01:06:35.120 --> 01:06:40.960]  If I take all of that, all right, and I compare it to the fundamental by doing division,
+[01:06:41.640 --> 01:06:43.700]  the volts cancels out.
+[01:06:44.080 --> 01:06:45.780]  I get a unitless thing.
+[01:06:45.780 --> 01:06:56.720]  But that unitless thing, whatever its value is, tells me the ratio of harmonic magnitude to the fundamental.
+[01:06:57.660 --> 01:07:06.260]  And the bigger the value is, the lousier the amplifier was.
+[01:07:06.420 --> 01:07:14.240]  Because the more it changes the shape, the larger the number of harmonics that will result.
+[01:07:15.780 --> 01:07:16.140]  Okay?
+[01:07:17.040 --> 01:07:24.600]  The beauty of this test or quantification method is that because you're doing division,
+[01:07:25.660 --> 01:07:30.340]  amplitude, the absolute amplitudes don't matter.
+[01:07:30.800 --> 01:07:32.960]  It's the ratio that matters.
+[01:07:32.960 --> 01:07:42.960]  And because that's the case, voltage gain does not have any influence in terms of the ratio.
+[01:07:44.240 --> 01:07:44.300]  Okay?
+[01:07:44.300 --> 01:07:47.160]  So, what effect yung voltage gain?
+[01:07:47.840 --> 01:07:48.140]  All right?
+[01:07:48.560 --> 01:07:53.280]  Or absolute magnitude of the output doesn't matter.
+[01:07:53.900 --> 01:07:56.260]  It's the ratio that actually counts.
+[01:07:56.380 --> 01:07:57.120]  That's number one.
+[01:07:57.620 --> 01:08:04.340]  Number two, because you're passing it through a Fourier transform, phase is automatically disregarded.
+[01:08:04.980 --> 01:08:07.300]  You're only looking at the magnitude.
+[01:08:07.300 --> 01:08:12.420]  Although, actually, in a fast Fourier or a DFT or an FFT, there are two values.
+[01:08:12.560 --> 01:08:12.640]  Diba?
+[01:08:12.760 --> 01:08:15.660]  Kasi meron tayong mirror image dito.
+[01:08:15.840 --> 01:08:15.980]  Okay?
+[01:08:16.040 --> 01:08:17.520]  So, we're ignoring this.
+[01:08:18.120 --> 01:08:18.500]  All right?
+[01:08:18.640 --> 01:08:21.160]  We're ignoring the negative portion.
+[01:08:21.160 --> 01:08:28.840]  And only looking at the positive portion or right side of it and just looking at the magnitudes.
+[01:08:29.580 --> 01:08:33.060]  So, phase becomes ignored.
+[01:08:34.140 --> 01:08:34.440]  Okay?
+[01:08:34.440 --> 01:08:39.080]  So, it will not matter if your amplifier is inverting or not.
+[01:08:39.580 --> 01:08:41.240]  In fact, it might be in between.
+[01:08:41.440 --> 01:08:43.940]  It might be moving it by 90 degrees.
+[01:08:44.620 --> 01:08:47.540]  Automatically, this thing doesn't care.
+[01:08:47.920 --> 01:08:48.880]  All right?
+[01:08:48.880 --> 01:09:13.020]  And finally, if we put all of this together, we get essentially a measurement that is purely concentrated on the shape deviation.
+[01:09:14.300 --> 01:09:14.700]  All right?
+[01:09:14.700 --> 01:09:29.660]  And this, ladies and gentlemen, is a measure, all right, which we call as total harmonic distortion.
+[01:09:30.480 --> 01:09:30.660]  Okay?
+[01:09:30.940 --> 01:09:34.480]  This is what we call as total harmonic distortion.
+[01:09:34.480 --> 01:09:40.960]  Because what we're doing is we're adding up all of the harmonics that we see.
+[01:09:42.720 --> 01:09:44.240]  Adding it all up.
+[01:09:44.780 --> 01:09:45.860]  Totaling it.
+[01:09:46.440 --> 01:09:49.840]  And comparing it to the fundamental.
+[01:09:50.680 --> 01:09:50.920]  Okay?
+[01:09:51.280 --> 01:09:58.000]  So, this measurement is called total harmonic distortion or THT for short.
+[01:09:58.000 --> 01:09:59.000]  All right?
+[01:09:59.000 --> 01:09:59.120]  All right?
+[01:09:59.200 --> 01:10:04.680]  And it is a measure that was established long, long, long ago.
+[01:10:05.300 --> 01:10:05.720]  All right?
+[01:10:05.820 --> 01:10:10.260]  In the 1940s and 1950s by the engineers.
+[01:10:10.800 --> 01:10:11.680]  All right?
+[01:10:12.300 --> 01:10:18.780]  Who wanted or needed to quantify the performance of an amplifier.
+[01:10:19.640 --> 01:10:19.920]  Okay?
+[01:10:20.240 --> 01:10:23.320]  So, this is very old, but that's how it was done.
+[01:10:23.320 --> 01:10:35.240]  So, take a pure sinusoidal input, get the output signal, and get the spectrum of it.
+[01:10:36.520 --> 01:10:43.400]  Add up the harmonics, compare it to the fundamental to get your total harmonic distortion.
+[01:10:43.400 --> 01:10:44.160]  Okay?
+[01:10:44.160 --> 01:10:44.200]  Okay?
+[01:10:44.520 --> 01:10:57.360]  Now, as to how it was done back in those days when they did not have computers to do the computation of FFT and so on and so forth, we don't have to go into the details.
+[01:10:57.800 --> 01:10:58.020]  All right?
+[01:10:58.100 --> 01:10:59.840]  We don't have to go into the details.
+[01:11:00.120 --> 01:11:06.700]  But bottom line is it was possible to make instrumentations to make such measurements.
+[01:11:06.700 --> 01:11:24.140]  And up to today, a THT measurement is still a standard that we use to better understand and provide figures of merit for amplifiers.
+[01:11:24.700 --> 01:11:29.920]  It is still done today as a measure of performance.
+[01:11:30.660 --> 01:11:30.920]  Okay?
+[01:11:31.020 --> 01:11:32.540]  It has not been superseded.
+[01:11:32.540 --> 01:11:38.220]  There have been other forms of measurement that have been derivatives of the THD.
+[01:11:38.700 --> 01:11:47.100]  But when you look, for example, at an amplifier, it is still one of the specs that is provided.
+[01:11:48.180 --> 01:11:48.440]  All right?
+[01:11:48.500 --> 01:11:53.720]  Because everybody still looks at it to know how good or how lousy an amplifier is.
+[01:11:54.120 --> 01:11:54.240]  Okay?
+[01:11:54.500 --> 01:12:01.840]  By the way, this THD measurement, right, typically is not just simply adding the magnitudes of these guys.
+[01:12:01.840 --> 01:12:04.060]  You actually get the geometric sum.
+[01:12:04.440 --> 01:12:04.800]  Okay?
+[01:12:05.020 --> 01:12:07.040]  It's a geometric sum.
+[01:12:07.100 --> 01:12:08.840]  Because you're ignoring phase.
+[01:12:09.120 --> 01:12:11.680]  So these things might be out of phase or whatever.
+[01:12:11.900 --> 01:12:18.520]  So usually, it is basically, you know, X1, X2, X3, and so on and so forth.
+[01:12:18.520 --> 01:12:22.700]  For the harmonics squared added together and taking the square.
+[01:12:22.980 --> 01:12:23.220]  Okay?
+[01:12:23.540 --> 01:12:23.840]  All right.
+[01:12:23.920 --> 01:12:26.080]  So that's how it's done.
+[01:12:26.820 --> 01:12:27.420]  Okay?
+[01:12:27.580 --> 01:12:29.260]  In the real world.
+[01:12:29.720 --> 01:12:29.960]  Okay?
+[01:12:29.960 --> 01:12:32.500]  So a couple of examples of that.
+[01:12:33.100 --> 01:12:34.320]  Checking the time here.
+[01:12:34.760 --> 01:12:34.980]  All right?
+[01:12:35.100 --> 01:12:43.720]  Let's just say for the sake of argument that we have a terrible amplifier that doesn't know what it's doing.
+[01:12:43.840 --> 01:12:44.760]  All right?
+[01:12:44.760 --> 01:12:56.920]  Such that the input sine wave gets mangled by our amplifier such that it produces the blue colored output.
+[01:12:57.800 --> 01:12:58.000]  Okay?
+[01:12:58.080 --> 01:13:00.660]  Again, the amplitudes here are not significant.
+[01:13:01.300 --> 01:13:02.720]  You're just looking at the shape.
+[01:13:02.900 --> 01:13:06.500]  And in terms of the shape, it is really, really, really terrible.
+[01:13:06.500 --> 01:13:17.640]  In fact, it is creating a second, you know, frequency right out of it because it is doing really weird things.
+[01:13:18.160 --> 01:13:18.400]  All right?
+[01:13:18.760 --> 01:13:32.740]  And so if you take the spectrum of this one, what you're going to see is that, number one, it has a DC offset because it's not symmetric from the vertical axis, which is your voltage.
+[01:13:32.740 --> 01:13:35.520]  So you'll notice that it's all a positive output.
+[01:13:35.980 --> 01:13:41.340]  That's why the center here is roughly, you know, your DC offset.
+[01:13:41.740 --> 01:13:46.820]  And that's reflected here at zero frequency if you took the FFT.
+[01:13:46.940 --> 01:13:48.380]  And I'm pretty sure you know how to do that.
+[01:13:48.380 --> 01:13:55.680]  Now, it is, in fact, oscillating at twice the input frequency.
+[01:13:55.860 --> 01:13:58.260]  That is why there's a component at 2F.
+[01:13:58.880 --> 01:14:05.540]  And it continues to break down and show that there are further harmonics at 4F and 6F.
+[01:14:05.860 --> 01:14:08.320]  So this is all even harmonics.
+[01:14:08.540 --> 01:14:10.240]  It's missing the fundamental.
+[01:14:10.520 --> 01:14:13.480]  And it's producing just harmonics in itself.
+[01:14:13.620 --> 01:14:15.120]  This is a very, very bad circuit.
+[01:14:15.120 --> 01:14:19.340]  You don't expect that an amplifier would produce something like this.
+[01:14:19.420 --> 01:14:26.560]  Not unless it is really, really overloaded and really dependent on the design of the amplifier in itself.
+[01:14:27.200 --> 01:14:27.320]  Okay?
+[01:14:27.700 --> 01:14:31.760]  So, but this is just illustrative of the spectrum analysis.
+[01:14:32.280 --> 01:14:32.520]  All right?
+[01:14:33.200 --> 01:14:35.640]  Here is another amplifier.
+[01:14:35.980 --> 01:14:36.820]  All right?
+[01:14:37.220 --> 01:14:39.240]  Whose output looks like this.
+[01:14:39.240 --> 01:14:44.260]  And as you can see, there is symmetry above and below.
+[01:14:44.260 --> 01:14:46.720]  That's why there's no DC offset.
+[01:14:47.580 --> 01:14:50.700]  There is a definite amplitude for the fundamental.
+[01:14:50.700 --> 01:15:00.220]  It does have an output that is repetitive at the same input frequency.
+[01:15:00.540 --> 01:15:02.140]  And that's your fundamental here.
+[01:15:02.860 --> 01:15:03.120]  All right?
+[01:15:03.560 --> 01:15:09.160]  And in this case, it has harmonics that are all on order.
+[01:15:09.160 --> 01:15:13.000]  So, 3F, 5F, and only up to 7F.
+[01:15:13.480 --> 01:15:15.780]  And this is the resulting spectrum.
+[01:15:16.560 --> 01:15:20.640]  And so we can actually quantify this if we wanted to.
+[01:15:21.100 --> 01:15:27.460]  Getting the amplitudes of each one and comparing, taking their geometric sum and comparing against the fundamental
+[01:15:27.460 --> 01:15:34.480]  to give a measure of the total harmonic distortion for this actual signal over here.
+[01:15:35.040 --> 01:15:35.300]  Okay?
+[01:15:35.480 --> 01:15:37.300]  So it's possible to do it.
+[01:15:38.860 --> 01:15:46.540]  And if you have the proper instrumentation or you have the proper tools to actually make this happen.
+[01:15:46.540 --> 01:15:47.420]  Okay?
+[01:15:47.420 --> 01:15:47.460]  Okay?
+[01:15:47.740 --> 01:15:48.020]  All right.
+[01:15:49.340 --> 01:15:53.140]  And here is a pure sinusoidal signal.
+[01:15:53.520 --> 01:15:53.760]  All right?
+[01:15:54.040 --> 01:16:04.260]  And interestingly, if you didn't know, LTSpice can make distortion measurements.
+[01:16:05.180 --> 01:16:05.540]  All right?
+[01:16:05.540 --> 01:16:13.360]  Now, in order to do that, however, there are a couple of commands that you put in.
+[01:16:14.020 --> 01:16:25.940]  And you have to set it up in order to do a proper simulation and be able to produce the distortion measurement.
+[01:16:26.440 --> 01:16:32.540]  As well as it can produce a distortion plot, a spectrum.
+[01:16:33.220 --> 01:16:33.540]  All right?
+[01:16:33.540 --> 01:16:38.840]  And so given the amount of time left, I think we can demonstrate this.
+[01:16:39.540 --> 01:16:39.620]  Okay?
+[01:16:41.080 --> 01:16:47.000]  The basic steps that you have to do, all right, include the following.
+[01:16:47.960 --> 01:16:48.320]  Okay?
+[01:16:49.340 --> 01:16:59.680]  You need to provide the LTSpice with a certain amount of simulation.
+[01:16:59.680 --> 01:17:11.920]  If you're familiar with Fourier transform, you know that you cannot get a proper spectrum out of a single waveform input.
+[01:17:12.640 --> 01:17:12.760]  Okay?
+[01:17:12.880 --> 01:17:17.180]  Kung isang waveform lang, pangit ang lalabas dun sa spectrum.
+[01:17:17.380 --> 01:17:20.360]  You'll have very, very lousy frequency resolution.
+[01:17:20.360 --> 01:17:21.560]  All right?
+[01:17:21.560 --> 01:17:21.700]  All right?
+[01:17:21.700 --> 01:17:36.480]  So what you need to be able to do is provide a larger number of waves at the output so that you can do a proper Fourier transformation.
+[01:17:36.480 --> 01:17:54.700]  So get at least 10 cycles or 20 cycles, all right, or even more so that you have a large number of sinusoidal samples or semi-sinusoidal samples to do an analysis from.
+[01:17:54.700 --> 01:17:57.700]  And set your parameters in order to do that.
+[01:17:57.700 --> 01:18:03.020]  So in this particular case, for example, our start time is 1 second.
+[01:18:03.380 --> 01:18:17.680]  Our stop time is 1.01 seconds, which gives us a 10 millisecond period for which our outputs will be, or data samples will be gathered.
+[01:18:17.680 --> 01:18:23.940]  That at 1 kilohertz, this is 10 cycles, all right?
+[01:18:24.100 --> 01:18:30.060]  And that's enough if you want to look at the spectrum, but you might want to increase that.
+[01:18:30.500 --> 01:18:30.700]  All right?
+[01:18:31.020 --> 01:18:38.900]  So maybe if you make this 1.05 so that there are 50 cycles for the Fourier analysis to look at.
+[01:18:39.380 --> 01:18:39.680]  Okay?
+[01:18:39.680 --> 01:18:44.320]  So take that into consideration, all right?
+[01:18:45.120 --> 01:18:52.760]  Put in, all right, a fair number of sign cycles to analyze, all right?
+[01:18:53.880 --> 01:19:04.840]  And hit the SPICE directive and tell it that you want to do a Fourier analysis.
+[01:19:05.520 --> 01:19:05.740]  Okay?
+[01:19:05.800 --> 01:19:07.240]  So this one is important.
+[01:19:07.240 --> 01:19:10.120]  Put it in, all right?
+[01:19:10.120 --> 01:19:10.360]  All right?
+[01:19:10.780 --> 01:19:13.020]  That F-O-U-R.
+[01:19:13.880 --> 01:19:17.040]  And what is the fundamental frequency?
+[01:19:17.320 --> 01:19:20.920]  This has to match the input frequency.
+[01:19:21.360 --> 01:19:24.020]  If not, your Fourier analysis is going to be wrong.
+[01:19:24.880 --> 01:19:25.200]  All right?
+[01:19:25.340 --> 01:19:28.900]  Your harmonic distortion calculation is going to be wrong.
+[01:19:29.580 --> 01:19:29.800]  Okay?
+[01:19:29.940 --> 01:19:31.420]  So it should match it.
+[01:19:31.420 --> 01:19:39.360]  The excitation of 1 kilohertz must also get matched by the Fourier transforms argument over here.
+[01:19:39.360 --> 01:19:46.840]  And what follows would be the nodes for which you want to do a Fourier analysis on.
+[01:19:46.840 --> 01:19:53.340]  So obviously, you should be looking at the output node, which I believe is node number 3 here.
+[01:19:53.800 --> 01:20:00.060]  And I think this was included, node number 5, because node number 5 is the input node.
+[01:20:00.260 --> 01:20:01.820]  So this is the reference.
+[01:20:02.280 --> 01:20:08.100]  You expect node number 5 to be practically zero in distortion,
+[01:20:08.100 --> 01:20:14.580]  because that's a mathematically generated pure sine wave.
+[01:20:15.220 --> 01:20:15.600]  All right?
+[01:20:16.200 --> 01:20:17.800]  So that's it.
+[01:20:18.340 --> 01:20:19.140]  Well, okay.
+[01:20:19.360 --> 01:20:20.500]  A couple of other things.
+[01:20:20.560 --> 01:20:34.140]  That's already enough to do a Fourier analysis with your output being in text form.
+[01:20:34.140 --> 01:20:34.640]  Okay?
+[01:20:34.720 --> 01:20:36.700]  It will be in text form.
+[01:20:37.320 --> 01:20:40.440]  And the thing that you have to take note of...
+[01:20:40.440 --> 01:20:40.780]  Okay, wait.
+[01:20:40.860 --> 01:20:43.620]  I'll stop here muna because there's additional stuff.
+[01:20:45.160 --> 01:20:47.580]  I'd like to show you this already.
+[01:20:49.340 --> 01:20:50.100]  All right?
+[01:20:50.240 --> 01:20:52.840]  And just drag this back over here.
+[01:20:53.740 --> 01:20:55.980]  Let me just erase everything, by the way.
+[01:20:57.100 --> 01:20:58.020]  Kasi magkakaluro.
+[01:20:59.480 --> 01:20:59.720]  Okay.
+[01:21:00.560 --> 01:21:01.660]  Balik natin to.
+[01:21:03.520 --> 01:21:04.040]  Okay.
+[01:21:04.140 --> 01:21:08.940]  Now, i-edit ko lang.
+[01:21:09.360 --> 01:21:09.660]  All right?
+[01:21:09.740 --> 01:21:10.840]  Let's edit this.
+[01:21:11.340 --> 01:21:12.500]  Let's remove this.
+[01:21:12.980 --> 01:21:14.360]  Let's bring this back up.
+[01:21:15.240 --> 01:21:22.340]  And simulate and edit the simulation command.
+[01:21:22.480 --> 01:21:26.260]  As I said, we want to increase the simulation time.
+[01:21:26.780 --> 01:21:28.140]  Let's make this...
+[01:21:28.920 --> 01:21:29.720]  What's this?
+[01:21:30.780 --> 01:21:32.900]  Instead of 1.01.
+[01:21:32.900 --> 01:21:34.100]  Let's say 1.05.
+[01:21:34.100 --> 01:21:34.780]  What the hell?
+[01:21:35.280 --> 01:21:35.480]  Okay.
+[01:21:35.540 --> 01:21:37.120]  More cycles coming in.
+[01:21:37.120 --> 01:21:43.000]  And we are also going to have to put in a dot trance statement.
+[01:21:43.000 --> 01:21:46.800]  But let's find out which node we are interested in first.
+[01:21:46.800 --> 01:21:48.500]  So it's this node.
+[01:21:48.500 --> 01:21:49.860]  It's node number 3.
+[01:21:49.860 --> 01:21:51.320]  You might want to take note of that.
+[01:21:51.320 --> 01:21:52.520]  I'm putting the cursor here.
+[01:21:52.640 --> 01:21:57.500]  And if you look at the bottom left of the screen, it's kind of small in text.
+[01:21:57.620 --> 01:22:01.260]  But it says this is node N003.
+[01:22:01.820 --> 01:22:02.060]  All right?
+[01:22:02.060 --> 01:22:07.820]  And if you go over here, this one is node N005.
+[01:22:07.820 --> 01:22:17.640]  So indeed, what we want to put is a dot four-year statement, 1 kilohertz.
+[01:22:18.700 --> 01:22:26.800]  And the nodes of interest are node N003 and node N005.
+[01:22:27.440 --> 01:22:27.700]  Okay?
+[01:22:28.280 --> 01:22:28.640]  All right?
+[01:22:28.640 --> 01:22:32.160]  So hopefully, I got the syntax correct.
+[01:22:32.540 --> 01:22:32.800]  Okay?
+[01:22:32.920 --> 01:22:34.360]  Hopefully, I got the syntax correct.
+[01:22:34.480 --> 01:22:36.300]  It will complain anyway if it's wrong.
+[01:22:36.740 --> 01:22:36.880]  Ay!
+[01:22:37.100 --> 01:22:37.300]  Nako!
+[01:22:37.760 --> 01:22:38.560]  Nawala yung dot.
+[01:22:39.600 --> 01:22:40.120]  Dot.
+[01:22:41.640 --> 01:22:42.280]  Four-year.
+[01:22:42.800 --> 01:22:43.080]  Okay?
+[01:22:43.220 --> 01:22:43.780]  Dot four-year.
+[01:22:44.500 --> 01:22:46.000]  And that should do it.
+[01:22:46.200 --> 01:22:46.400]  All right?
+[01:22:46.440 --> 01:22:47.180]  That should do it.
+[01:22:47.360 --> 01:22:53.640]  And when you run the simulation, all right, it will just run it because it's a transient
+[01:22:53.640 --> 01:22:55.060]  analysis.
+[01:22:55.060 --> 01:22:57.640]  You can still look at the output.
+[01:22:57.900 --> 01:23:01.840]  Yes, you've got to get a large number of cycles there, pretty obviously, but we're not
+[01:23:01.840 --> 01:23:03.100]  really interested in that.
+[01:23:03.620 --> 01:23:08.520]  We want to see how distorted this amplifier is.
+[01:23:08.620 --> 01:23:10.000]  And now that's the interesting thing.
+[01:23:10.120 --> 01:23:13.760]  Where do I find the results of the dot four-year statement?
+[01:23:14.460 --> 01:23:17.800]  And the answer is it's over here.
+[01:23:18.300 --> 01:23:19.140]  All right?
+[01:23:19.140 --> 01:23:26.660]  And you can view it by looking at, stupidly, the spice error log.
+[01:23:27.140 --> 01:23:34.940]  Now, as to why the output of the dot four-year is in the spice error log, I don't know.
+[01:23:35.300 --> 01:23:35.540]  All right?
+[01:23:35.720 --> 01:23:37.440]  Bakit nandun sa error log yan?
+[01:23:37.540 --> 01:23:38.620]  Eh, pero dun niya linagay.
+[01:23:39.000 --> 01:23:39.220]  Okay?
+[01:23:39.300 --> 01:23:40.120]  Ganon talaga yun.
+[01:23:40.600 --> 01:23:41.560]  So click on that.
+[01:23:41.560 --> 01:23:46.360]  And what you're going to see is, oops, where is the output?
+[01:23:46.860 --> 01:23:47.340]  My bad.
+[01:23:47.860 --> 01:23:48.020]  Okay?
+[01:23:48.260 --> 01:23:53.100]  I think it ignored the dot four-year statement because I forgot a parameter.
+[01:23:54.060 --> 01:23:56.060]  Ano yung nakalimutan kong parameter dito?
+[01:23:57.080 --> 01:23:57.300]  Okay?
+[01:23:57.900 --> 01:24:03.500]  Ah, the V and the ellipses.
+[01:24:03.760 --> 01:24:04.040]  All right?
+[01:24:04.200 --> 01:24:05.600]  That's why it didn't work.
+[01:24:06.300 --> 01:24:06.760]  That's funny.
+[01:24:06.900 --> 01:24:09.040]  It didn't even tell me that it's an error.
+[01:24:09.040 --> 01:24:09.600]  Okay?
+[01:24:09.980 --> 01:24:12.260]  So let's go back to that and edit it.
+[01:24:13.000 --> 01:24:13.580]  My bad.
+[01:24:15.200 --> 01:24:15.460]  Okay?
+[01:24:15.740 --> 01:24:17.120]  Dot F-O-U-R.
+[01:24:19.180 --> 01:24:23.880]  V sub N003.
+[01:24:24.680 --> 01:24:29.460]  And V sub N005.
+[01:24:30.160 --> 01:24:30.940]  Take two.
+[01:24:31.400 --> 01:24:32.940]  Let's run this again.
+[01:24:33.200 --> 01:24:33.680]  All right?
+[01:24:33.860 --> 01:24:34.840]  Run, run.
+[01:24:34.840 --> 01:24:40.820]  And let's look at the SPICE error log.
+[01:24:41.180 --> 01:24:42.060]  Huwag niyo ko pahihain.
+[01:24:42.360 --> 01:24:42.780]  Ayan.
+[01:24:43.040 --> 01:24:43.640]  Meron na.
+[01:24:44.060 --> 01:24:44.300]  Okay?
+[01:24:44.820 --> 01:24:46.300]  So nakikita niyo ba ito?
+[01:24:47.360 --> 01:24:47.720]  All right?
+[01:24:47.820 --> 01:24:49.260]  Can you see this?
+[01:24:50.500 --> 01:24:50.940]  All right?
+[01:24:51.740 --> 01:24:56.120]  And if you look at it very, very carefully, all right,
+[01:24:56.120 --> 01:25:07.420]  you can see that this is reporting that we have approximately 10% distortion in our output.
+[01:25:07.640 --> 01:25:09.240]  And that's really what we are looking for.
+[01:25:09.340 --> 01:25:12.740]  So node number three has a pretty terrible distortion.
+[01:25:12.740 --> 01:25:22.880]  And node number five here is saying that, oh, there is also some distortion in the output of the pure sine wave.
+[01:25:23.000 --> 01:25:29.200]  So, you know, when you see something like this, you know that there is something not quite right with the simulation.
+[01:25:30.120 --> 01:25:30.400]  Okay?
+[01:25:30.400 --> 01:25:33.100]  You're not quite getting the correct output.
+[01:25:33.240 --> 01:25:36.320]  This should actually be pretty much zero.
+[01:25:36.500 --> 01:25:37.160]  But it's not.
+[01:25:37.240 --> 01:25:38.520]  It's saying that there's 1%.
+[01:25:38.520 --> 01:25:40.680]  So there's something weird about it.
+[01:25:40.800 --> 01:25:41.040]  All right?
+[01:25:41.040 --> 01:25:42.380]  There's something weird about it.
+[01:25:42.500 --> 01:25:44.300]  And I have an idea of what it is.
+[01:25:44.400 --> 01:25:52.360]  But bottom line here is the important thing is for Fourier analysis, it's possible to do it as it built in.
+[01:25:52.680 --> 01:25:54.960]  Just use the .four statement.
+[01:25:55.960 --> 01:25:56.140]  Okay?
+[01:25:56.520 --> 01:25:58.200]  Unfortunately, it's 9 o'clock.
+[01:26:00.040 --> 01:26:07.420]  There are a couple of other things that we have not yet done, which is why we're getting these weird values.
+[01:26:08.040 --> 01:26:10.180]  And unfortunately, there's no more time.
+[01:26:10.180 --> 01:26:17.180]  But it is part of the control panel here that you have to do a couple of other things.
+[01:26:17.480 --> 01:26:17.640]  All right?
+[01:26:17.700 --> 01:26:20.280]  And so we're going to stop here.
+[01:26:20.740 --> 01:26:21.440]  All right?
+[01:26:21.500 --> 01:26:22.860]  We're going to stop here.
+[01:26:22.860 --> 01:26:30.000]  And the bottom line here is if you do things correctly, these are the expected results.
+[01:26:30.700 --> 01:26:31.020]  Okay?
+[01:26:31.580 --> 01:26:35.000]  If you do it properly, you're going to get something like this.
+[01:26:36.000 --> 01:26:38.600]  Distortion, 11.78%.
+[01:26:38.600 --> 01:26:39.500]  All right?
+[01:26:39.840 --> 01:26:44.000]  And your input signal is 0% distortion.
+[01:26:44.680 --> 01:26:44.960]  Okay?
+[01:26:44.960 --> 01:26:46.920]  So meron kulang pa.
+[01:26:47.280 --> 01:26:50.020]  So ito ang lalabas more or less dapat.
+[01:26:50.660 --> 01:26:50.880]  Okay?
+[01:26:50.920 --> 01:26:56.300]  This is the same circuit with the correct synulation conditions.
+[01:26:57.020 --> 01:26:57.280]  Okay?
+[01:26:57.280 --> 01:27:08.540]  And you can actually ask LTSpice to give you a spectrum of the distortion as well.
+[01:27:09.000 --> 01:27:09.360]  All right?
+[01:27:09.420 --> 01:27:14.120]  And you can command it to do that and plot out the result.
+[01:27:14.240 --> 01:27:15.520]  This is the input signal.
+[01:27:15.620 --> 01:27:20.020]  By the way, you'll see that there's very, very little or almost no harmonics.
+[01:27:20.020 --> 01:27:22.920]  It's all the way down at minus 240 dB.
+[01:27:23.400 --> 01:27:33.820]  Whereas the original output signal has a strong fundamental and very, very high amounts of distortion as we see here.
+[01:27:34.420 --> 01:27:34.680]  Okay?
+[01:27:34.880 --> 01:27:39.580]  You can see that the harmonics are very, very strong in magnitude.
+[01:27:40.140 --> 01:27:40.440]  All right?
+[01:27:40.780 --> 01:27:44.380]  So we'll see that on Thursday when we have more time to discuss.
+[01:27:44.580 --> 01:27:46.600]  And of course, we'll continue the lesson from there.
+[01:27:47.000 --> 01:27:47.240]  Okay?
+[01:27:47.620 --> 01:27:47.920]  All right.
+[01:27:47.920 --> 01:27:49.320]  So stop muna tayo.
+[01:27:50.020 --> 01:27:50.640]  All right?
+[01:27:51.020 --> 01:27:54.580]  Hopefully, you have learned something for today.
+[01:27:55.180 --> 01:28:01.220]  And we're going to ask you to do some of these things in the next experiment as well.
+[01:28:01.980 --> 01:28:02.260]  Okay?
+[01:28:02.620 --> 01:28:03.000]  All right.
+[01:28:03.120 --> 01:28:04.600]  So that's where we are going.
+[01:28:05.180 --> 01:28:08.200]  Thank you very much for joining us today.
+[01:28:08.300 --> 01:28:10.420]  Sorry, I'm concentrating on removing all of this stuff.
+[01:28:10.900 --> 01:28:11.040]  Okay?
+[01:28:11.500 --> 01:28:12.560]  Are there any questions?
+[01:28:13.480 --> 01:28:13.660]  Wala!
+[01:28:15.520 --> 01:28:16.040]  Okay.
+[01:28:16.880 --> 01:28:17.820]  So thumbs up.
+[01:28:18.260 --> 01:28:18.700]  All right.
+[01:28:19.160 --> 01:28:20.660]  Thank you very much.
+[01:28:20.740 --> 01:28:22.300]  And I'll see you again next time.
+[01:28:22.620 --> 01:28:23.100]  Goodbye!
+[01:28:23.100 --> 01:28:23.280]  Goodbye!
+[01:28:23.280 --> 01:28:23.660]  Goodbye!
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:23.660] 
+[01:28:23.660 --> 01:28:36.660] !
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 
+[01:28:36.660 --> 01:28:36.660] 

@@ -1,0 +1,2694 @@
+[00:00.000 --> 00:06.000]  I'm back.
+[00:06.000 --> 00:12.080]  Resume recording here, and we are going to get back to where we left off from last time.
+[00:12.080 --> 00:18.880]  And of course, the worry here is we are well ahead of the other class, which is not ideal.
+[00:18.880 --> 00:24.480]  We have to find a way to sort of synchronize it, but that's practically impossible at this
+[00:24.480 --> 00:25.480]  point.
+[00:25.480 --> 00:31.960]  Let me just delay a little bit more.
+[00:31.960 --> 00:41.400]  I'm putting up the chat and participants list here so that I can see if you have any questions
+[00:41.400 --> 00:45.480]  later while the lecture is ongoing.
+[00:45.480 --> 00:48.840]  And okay, right.
+[00:48.840 --> 00:51.240]  And let's get back to our lesson.
+[00:51.240 --> 00:57.720]  Let me just start the lecture where we left off.
+[00:57.720 --> 01:04.200]  And before that, let me just double.
+[01:04.200 --> 01:06.200]  Eh?
+[01:06.200 --> 01:08.200]  Oh, no.
+[01:08.200 --> 01:10.200]  What?
+[01:10.200 --> 01:12.200]  Invalid?
+[01:12.200 --> 01:16.200]  What the hell?
+[01:16.200 --> 01:20.680]  Okay.
+[01:20.680 --> 01:34.680]  An update is just mucked up something here.
+[01:34.680 --> 01:39.160]  What is going on?
+[01:39.160 --> 01:41.160]  Okay.
+[01:41.160 --> 01:42.160]  Okay.
+[01:42.160 --> 01:43.160]  Okay.
+[01:43.160 --> 01:44.160]  Okay.
+[01:44.160 --> 01:45.160]  Okay.
+[01:45.160 --> 01:53.160]  Let me just have a quick look here.
+[01:53.160 --> 02:01.640]  Hang on.
+[02:01.640 --> 02:02.640]  Hang on.
+[02:02.640 --> 02:03.640]  Okay.
+[02:03.640 --> 02:05.640]  Let me just do this.
+[02:05.640 --> 02:07.640]  Let me just paste.
+[02:07.640 --> 02:08.640]  Ah!
+[02:08.640 --> 02:15.120]  Well, what now?
+[02:15.120 --> 02:17.120]  Why is my Pycom gone?
+[02:17.120 --> 02:18.120]  Darn it.
+[02:18.120 --> 02:19.120]  What the hell?
+[02:19.120 --> 02:20.120]  Huh?
+[02:20.120 --> 02:21.120]  Okay.
+[02:21.120 --> 02:23.120]  Sorry about that.
+[02:23.120 --> 02:31.600]  This was working last week, but it isn't now obviously.
+[02:31.600 --> 02:35.600]  So what the heck happened?
+[02:35.600 --> 02:37.600]  Okay.
+[02:37.600 --> 02:41.600]  Something took it out.
+[02:41.600 --> 02:43.600]  That's odd.
+[02:43.600 --> 02:45.600]  Hmm.
+[02:45.600 --> 02:47.600]  Oh, no.
+[02:47.600 --> 02:49.600]  Oh, no.
+[02:49.600 --> 02:51.600]  Oh, no.
+[02:51.600 --> 02:58.080]  That doesn't inspire much confidence, eh?
+[02:58.080 --> 03:03.920]  Given the fact that there were several, there was a severe, if you're not aware, there was
+[03:03.920 --> 03:18.960]  an incidence of hacking on the Arch Linux ecosystem, if you like.
+[03:18.960 --> 03:24.240]  I'm not using Arch Linux, but it was in the AUR, the user repository.
+[03:24.240 --> 03:31.280]  Over 1,500 of those non-maintained apps were compromised recently.
+[03:31.280 --> 03:33.280]  And that hasn't even been.
+[03:33.280 --> 03:36.240]  So I hope it doesn't, hasn't gotten into a boot loop.
+[03:36.240 --> 03:37.240]  Anyway.
+[03:37.240 --> 03:38.240]  Okay.
+[03:38.240 --> 03:39.440]  That seems to have gone through.
+[03:39.440 --> 03:42.240]  And if ever anything, I would have infected my system.
+[03:42.240 --> 03:44.240]  I hope not.
+[03:44.240 --> 03:45.240]  Okay.
+[03:45.240 --> 03:46.240]  So let's see.
+[03:46.240 --> 03:50.000]  Let me try to get back to this slideshow.
+[03:50.000 --> 03:51.680]  Anyway, as I said, we're well ahead.
+[03:51.680 --> 03:54.560]  Start from current slide.
+[03:54.560 --> 04:00.800]  And let me just see if this works.
+[04:00.800 --> 04:10.320]  Well, that does work, but I don't really like that.
+[04:10.320 --> 04:12.480]  Where is my...
+[04:12.480 --> 04:14.080]  Ah, this is a mess.
+[04:14.080 --> 04:15.280]  Sorry.
+[04:15.280 --> 04:17.600]  Let me just do a share.
+[04:20.080 --> 04:21.760]  And capture this.
+[04:25.680 --> 04:26.080]  Okay.
+[04:26.640 --> 04:27.040]  All right.
+[04:27.040 --> 04:29.280]  So hopefully you guys can all see this.
+[04:32.880 --> 04:34.640]  And we can proceed.
+[04:34.640 --> 04:35.120]  Okay.
+[04:35.120 --> 04:35.520]  All right.
+[04:36.880 --> 04:42.000]  For some reason, there's something weird that's happening, but I can't seem to...
+[04:42.000 --> 04:46.240]  Well, that still works anyway, but yeah, it might slow down.
+[04:46.800 --> 04:54.880]  Because this is not the mode that we are practicing last time, which was proven to be pretty light on
+[04:54.880 --> 04:57.280]  the operating system, but we'll see how it goes.
+[04:57.840 --> 04:58.160]  All right.
+[04:58.160 --> 05:02.240]  So DC bias with voltage feedback is the topic for today.
+[05:04.640 --> 05:11.840]  And you might recall that this is essentially where we stopped at our lecture when we
+[05:11.840 --> 05:13.680]  were face-to-face last Thursday.
+[05:14.480 --> 05:14.960]  Okay.
+[05:14.960 --> 05:23.200]  So prior to this, if you have a fogginess in your brain, the topic was about voltage divider bias.
+[05:23.200 --> 05:23.920]  Okay.
+[05:23.920 --> 05:32.240]  And we closed off at a comparison between the exact analysis where you do your Thevenin equivalent
+[05:32.240 --> 05:38.480]  for the voltage divider versus the use of approximation.
+[05:38.480 --> 05:39.120]  All right.
+[05:39.120 --> 05:39.200]  All right.
+[05:39.200 --> 05:45.840]  And so again, the key factor here is to determine if an approximation is good enough.
+[05:45.840 --> 05:57.760]  And it was proven that the resulting values, if there is a small amount of current only going into the base
+[05:57.760 --> 06:18.240]  versus how much current is actually available and provided by the voltage divider, if the amount of current is very, very dominant, where the base current is negligible, then an approximation is quite acceptable.
+[06:18.240 --> 06:19.200]  Okay.
+[06:19.200 --> 06:19.280]  Okay.
+[06:19.280 --> 06:20.000]  Okay.
+[06:20.000 --> 06:27.760]  We got results that were, you know, within 5%, 10% of the exact analysis, which under normal circumstances,
+[06:29.120 --> 06:34.640]  the beta figure of the transistor would probably be off by a greater degree anyway.
+[06:34.640 --> 06:35.200]  Okay.
+[06:35.200 --> 06:37.520]  All right.
+[06:37.520 --> 06:44.240]  So having said that, we investigate now the voltage feedback.
+[06:44.240 --> 06:44.640]  Okay.
+[06:44.640 --> 07:01.520]  So conceptually, again, just to reiterate, the way this thing works essentially is that the recognition that whatever effects that you might have, for example, a shrinking voltage from base to emitter,
+[07:01.520 --> 07:10.160]  you know, if VBE were to drop, again, if temperature rises, then VBE becomes smaller.
+[07:11.280 --> 07:11.680]  Okay.
+[07:15.360 --> 07:27.360]  And what is going to happen is that if VBE becomes smaller, then IB will basically increase.
+[07:27.360 --> 07:28.800]  Okay.
+[07:28.800 --> 07:28.840]  Okay.
+[07:29.840 --> 07:41.520]  Because of the fact that the voltage drop here, V sub RB, okay, V sub RB would have increased when this one went down.
+[07:41.520 --> 07:42.560]  All right.
+[07:42.560 --> 07:53.300]  And so if the amount of base current IB basically goes up, then we can expect our collector current to also go up.
+[07:53.300 --> 07:54.300]  Okay.
+[07:54.300 --> 07:54.420]  Okay.
+[07:54.420 --> 07:54.500]  Okay.
+[07:54.500 --> 08:03.560]  And if collector current goes up, okay, the voltage across V sub RC will also go up.
+[08:03.560 --> 08:04.320]  Okay.
+[08:04.320 --> 08:18.100]  So the transistor is turned on harder, which pulls, all right, and makes your VCE go lower, which again results in your V sub RC increasing.
+[08:18.100 --> 08:27.800]  So if V sub RC increases, and you also recognize that VCE became smaller, you'll notice that the emitter is connected to ground,
+[08:28.340 --> 08:32.120]  then the voltage at this point must have gone down.
+[08:32.300 --> 08:34.360]  V sub C must have gone down.
+[08:35.440 --> 08:35.820]  All right.
+[08:36.240 --> 08:39.380]  And we can write that V sub C goes down.
+[08:39.380 --> 08:56.300]  And if V sub C goes down, then the voltage across V sub RB, all right, must, all right, V sub RB, sorry, all right, must go down.
+[08:57.300 --> 08:57.940]  Okay.
+[08:58.140 --> 08:58.540]  Why?
+[08:58.540 --> 09:01.300]  Because the collector voltage came down.
+[09:01.640 --> 09:04.120]  There's less voltage now for V sub RB.
+[09:04.820 --> 09:11.520]  And because there's less voltage across V sub RB, all right, the result is IB must have gone down.
+[09:11.520 --> 09:23.400]  So you'll notice that temperature increase, all right, would have normally caused I sub B to go up due to the fact that VBE shrunk a little bit.
+[09:23.400 --> 09:38.340]  But as a net result of this RB strategically connected to the collector instead, all right, normally it would have been connected to VCC, which would have been constant.
+[09:38.560 --> 09:42.020]  It would not have had any chance of responding, all right?
+[09:42.320 --> 09:47.680]  But here we're connecting RB to the collector, which goes down.
+[09:47.680 --> 09:52.880]  And if the collector voltage goes down, then IB must also go down.
+[09:52.880 --> 09:56.600]  So you'll see that we have two canceling effects, all right?
+[09:56.600 --> 10:07.520]  We have a net result where any tendency for IB to increase will be counteracted by the transistor circuit itself trying to pull IB back down.
+[10:08.140 --> 10:11.020]  And of course, again, you're going to have an equilibrium point.
+[10:11.200 --> 10:19.940]  If you calculate these things correctly, then your question point as a result of this should be where you want it.
+[10:19.940 --> 10:27.600]  And it should stay there regardless of how much temperature change that there is.
+[10:27.680 --> 10:35.280]  Or at least if ever it does change, it will be less affected by temperature changes.
+[10:35.880 --> 10:36.040]  Okay?
+[10:36.040 --> 10:41.080]  So this is a nice nifty approach.
+[10:43.540 --> 10:47.880]  Also, the claim here is that it's only slightly dependent on transistor beta.
+[10:47.880 --> 10:55.700]  So this is what we call, again, as a feedback-type system, all right?
+[10:55.780 --> 11:04.580]  You can see the chain of actions arriving more or less back where you almost started, which has, in this case,
+[11:04.720 --> 11:12.720]  the feedback is designed to provide DC cue point stability, all right?
+[11:12.720 --> 11:19.880]  This is not the only reason or situation where feedback is used.
+[11:20.460 --> 11:25.520]  We use feedback, all right, in our own lives on ourselves.
+[11:26.120 --> 11:28.500]  You take a quiz, you get the result.
+[11:28.660 --> 11:36.220]  That's your feedback to your current state of knowledge, which hopefully drives you to study harder, all right?
+[11:36.220 --> 11:37.280]  Or something like that.
+[11:38.860 --> 11:46.720]  Your parents have used countless methods of feedback, both positive and negative, to motivate you.
+[11:47.140 --> 11:49.000]  Do well in your blah, blah, blah.
+[11:49.220 --> 11:51.280]  You know, you can take a trip to blah, blah.
+[11:51.440 --> 11:54.300]  I will finance your trip to X, Y, Z.
+[11:54.960 --> 12:00.500]  So that's, you know, feedback, a positive feedback mechanism.
+[12:01.060 --> 12:01.400]  All right?
+[12:01.400 --> 12:04.260]  So we're all familiar with this to a certain extent.
+[12:04.660 --> 12:09.820]  So this is the whole idea behind DC bias with voltage feedback.
+[12:10.420 --> 12:22.140]  The main point or difference here, essentially, again, is that the base resistor, which is normally connected to the connector,
+[12:22.140 --> 12:27.520]  is now instead connected to the collector, all right?
+[12:27.520 --> 12:35.860]  So that changes will, you know, shift the thing back to where it's supposed to have been.
+[12:36.340 --> 12:36.680]  All right?
+[12:36.880 --> 12:37.140]  Okay.
+[12:37.200 --> 12:38.100]  So there you go with that.
+[12:39.220 --> 12:49.960]  Hopefully, we can now proceed to the analysis of, you know, the equations associated with it.
+[12:50.000 --> 12:54.460]  And again, unfortunately, it is interactive, all right?
+[12:54.460 --> 12:57.100]  So let's have a quick look.
+[12:57.640 --> 13:03.380]  So DC bias with voltage feedback, we're looking at the input loop here, okay?
+[13:03.900 --> 13:10.040]  So KVL over at the input loop, we have our supply voltage, VCC, all right?
+[13:10.120 --> 13:11.260]  We have VCC here.
+[13:11.700 --> 13:12.580]  We start here.
+[13:12.660 --> 13:17.580]  We go around and we wind up at ICRC, all right?
+[13:17.580 --> 13:23.500]  Which is the output as well, you'll notice, but we're at the input.
+[13:23.860 --> 13:31.680]  So the output loop and the input loop have a shared component, which is the R sub C, all right?
+[13:32.060 --> 13:34.080]  RC times IC.
+[13:35.040 --> 13:37.940]  Maybe it's going to come out here anyway, all right?
+[13:38.360 --> 13:38.880]  It will.
+[13:38.880 --> 13:47.360]  So V minus VCC plus ICRC, all right?
+[13:47.880 --> 13:56.060]  And then you have plus IBRB, all right, over here, okay?
+[13:56.060 --> 13:59.560]  Plus VBE.
+[14:00.740 --> 14:03.180]  And thankfully, oh, wait, hang on.
+[14:03.280 --> 14:03.780]  Look at that.
+[14:04.220 --> 14:09.420]  There's a difference between that previous circuit and this one that's being shown here.
+[14:09.520 --> 14:18.020]  This one's even more sophisticated where it has an IERE, all right?
+[14:18.040 --> 14:19.900]  Now, you might recognize that difference.
+[14:19.980 --> 14:21.000]  So let me just go backwards.
+[14:21.700 --> 14:25.380]  You'll notice that there's no emitter resistor for this particular example.
+[14:25.380 --> 14:26.560]  All right?
+[14:26.740 --> 14:28.280]  But in this one, there is.
+[14:28.420 --> 14:36.500]  So it is possible to combine techniques to provide hopefully even better stability, all right?
+[14:37.080 --> 14:46.660]  Kung baga, yung emitter stabilized feedback, kinombine pa natin sa DC bias with voltage feedback, all right?
+[14:46.760 --> 14:47.980]  AKA voltage feedback.
+[14:47.980 --> 14:54.480]  So this is about as complex as you might want to get it.
+[14:54.480 --> 14:54.520]  Okay?
+[14:55.340 --> 15:03.360]  And because that's the example here and that's what's going to be derived, the equations are going to be even more complex.
+[15:03.720 --> 15:06.140]  You might as well give you the most complex version.
+[15:06.960 --> 15:07.220]  Okay?
+[15:07.380 --> 15:09.300]  Might as well give you the most complex version.
+[15:09.300 --> 15:19.700]  So as you can see, this is exactly the same equation as what I've written here on top, except I forgot to close this off because that's done.
+[15:20.420 --> 15:20.800]  All right?
+[15:20.800 --> 15:33.280]  So it's the same equation except that the positive negativeness here is inverted against what I wrote.
+[15:33.400 --> 15:34.800]  It's the same thing, essentially.
+[15:35.000 --> 15:36.420]  Just multiply by negative 1.
+[15:37.220 --> 15:37.480]  All right?
+[15:37.480 --> 15:42.480]  And then if we...
+[15:45.040 --> 15:45.480]  What?
+[15:50.480 --> 15:53.220]  Hindi nakikita ang notations?
+[15:54.940 --> 15:55.660]  Really?
+[15:59.500 --> 16:00.400]  Hang on.
+[16:00.680 --> 16:01.360]  What do you mean?
+[16:01.440 --> 16:01.700]  All right.
+[16:01.700 --> 16:05.780]  So you mean everything that I'm writing here is not coming out?
+[16:12.740 --> 16:13.640]  Is that it?
+[16:13.780 --> 16:15.880]  Can you see this red stuff that I'm writing?
+[16:24.940 --> 16:26.200]  Ah-ha.
+[16:26.660 --> 16:27.440]  What the hell?
+[16:27.440 --> 16:27.840]  Okay.
+[16:28.740 --> 16:29.040]  Okay.
+[16:29.120 --> 16:29.460]  Hang on.
+[16:29.900 --> 16:31.640]  Why didn't anybody say so?
+[16:31.760 --> 16:32.840]  So let's...
+[16:34.160 --> 16:34.520]  Hang on.
+[16:34.600 --> 16:34.820]  Hang on.
+[16:34.880 --> 16:35.100]  Hang on.
+[16:35.160 --> 16:35.420]  Hang on.
+[16:35.480 --> 16:35.680]  What?
+[16:40.680 --> 16:41.080]  Okay.
+[16:41.460 --> 16:41.900]  All right.
+[16:42.100 --> 16:42.480]  Hang on.
+[16:42.520 --> 16:42.780]  Hang on.
+[16:42.840 --> 16:43.140]  Hang on.
+[16:43.140 --> 16:44.340]  What's going on, man?
+[16:51.240 --> 16:52.120]  Nala, ha?
+[16:53.180 --> 16:54.200]  I missed the software.
+[16:55.800 --> 16:56.880]  Ah, man.
+[16:57.440 --> 16:57.940]  Okay.
+[16:58.840 --> 17:00.780]  Let me try something.
+[17:07.680 --> 17:08.680]  What I use...
+[17:24.680 --> 17:25.600]  Okay.
+[17:25.600 --> 17:25.880]  Okay.
+[17:27.440 --> 17:33.080]  Hang on.
+[17:33.080 --> 17:35.780]  Let me just try this.
+[17:35.780 --> 17:41.420]  Okay.
+[17:41.420 --> 17:46.220]  Hang on.
+[17:47.260 --> 17:48.840]  Let me just try this.
+[17:48.840 --> 17:53.500]  So current slide.
+[17:53.500 --> 17:59.140]  some really odd things that are happening right now.
+[17:59.140 --> 17:59.500]  Okay.
+[17:59.500 --> 17:59.900]  Okay.
+[17:59.900 --> 18:00.140]  Okay.
+[18:00.140 --> 18:00.140] 
+[18:00.140 --> 18:18.940]  The problem really here is that, you know, software just got updated, which is really nuts.
+[18:18.940 --> 18:19.940]  Let's see.
+[18:19.940 --> 18:20.880]  Let's see.
+[18:20.880 --> 18:21.080]  Yeah.
+[18:21.080 --> 18:24.280]  I don't know if this is going to be any better.
+[18:24.280 --> 18:27.440]  Let me just try it.
+[18:27.440 --> 18:28.440]  And you need to give me feedback.
+[18:28.440 --> 18:28.440] 
+[18:28.440 --> 18:29.880]  Let me just capture this.
+[18:29.880 --> 18:31.080]  Share this slide.
+[18:31.080 --> 18:32.080]  Okay.
+[18:32.080 --> 18:34.720]  Share this slide.
+[18:34.720 --> 18:35.720]  Okay.
+[18:35.720 --> 18:36.720]  Okay.
+[18:36.720 --> 18:39.360]  Share this slide.
+[18:39.360 --> 18:40.360]  Okay.
+[18:40.360 --> 18:41.360]  Okay.
+[18:41.360 --> 18:44.000]  All right.
+[18:44.000 --> 18:45.000]  Okay.
+[18:45.000 --> 18:45.000] 
+[18:45.000 --> 18:45.000] 
+[18:45.000 --> 18:46.000]  Okay.
+[18:46.000 --> 18:46.000] 
+[18:46.000 --> 18:49.640]  So you can see the circuit, I suppose.
+[18:49.640 --> 18:50.640]  Okay.
+[18:50.640 --> 18:55.280]  And can you see this thing that I am drawing here right now?
+[18:55.280 --> 18:56.280] !
+[18:56.280 --> 19:00.920]  I am just put a lot of stuff over RV.
+[19:00.920 --> 19:02.920]  There is another option.
+[19:02.920 --> 19:04.260]  There is another option.
+[19:04.260 --> 19:05.300]  There is another option.
+[19:05.300 --> 19:06.300]  Okay.
+[19:06.300 --> 19:09.440]  So why does this work and why doesn't the other one work?
+[19:09.440 --> 19:10.440]  Okay.
+[19:10.440 --> 19:11.720]  I really don't get it.
+[19:11.720 --> 19:13.100]  I don't get it.
+[19:13.100 --> 19:14.100]  Okay.
+[19:14.100 --> 19:19.980]  And then there's this other option, which is this one, which wasn't showing up a while
+[19:19.980 --> 19:20.980]  ago.
+[19:20.980 --> 19:25.920]  So I can try this one as well.
+[19:26.280 --> 19:30.400]  And this one should also be visible.
+[19:30.400 --> 19:31.780]  This red color here.
+[19:31.780 --> 19:32.780]  Is it?
+[19:32.780 --> 19:33.780]  Yes?
+[19:33.780 --> 19:34.780]  Yeah.
+[19:34.780 --> 19:35.780]  Okay.
+[19:35.780 --> 19:36.780]  Sige.
+[19:36.780 --> 19:44.280]  So this is what I was actually expecting a while ago.
+[19:44.280 --> 19:53.040]  But for some odd reason, it was not actually working with the other setting or software.
+[19:53.040 --> 19:54.040]  All right.
+[19:54.040 --> 19:55.040]  Sige.
+[19:55.040 --> 20:02.000]  Well, frankly, we didn't miss much because what came out of the presentation is essentially
+[20:02.000 --> 20:03.540]  the same equation anyway.
+[20:03.540 --> 20:07.540]  So you notice that this software here is a slightly different font.
+[20:07.540 --> 20:09.540]  That's why it looks on.
+[20:09.540 --> 20:11.160]  Anyway, let's see what happens.
+[20:11.160 --> 20:15.280]  Because the other thing that can happen is that this software might be compatible with
+[20:15.280 --> 20:17.120]  the one with the presentation itself.
+[20:17.120 --> 20:18.120]  But fingers crossed.
+[20:18.120 --> 20:19.120]  Okay.
+[20:19.120 --> 20:21.120]  So that's your KVL input loop.
+[20:21.120 --> 20:22.120]  All right.
+[20:22.120 --> 20:24.080]  And that's kind of sad.
+[20:24.080 --> 20:26.620]  But yes, it just follows the basic path.
+[20:26.620 --> 20:29.120]  And they've just changed the polarity here.
+[20:29.120 --> 20:37.620]  Normally, we'd write it as minus VCC plus ICRC plus IVRB, et cetera, et cetera.
+[20:37.620 --> 20:41.580]  So just it's like you just put it on the other side of the equation.
+[20:41.580 --> 20:43.580]  So that doesn't really matter.
+[20:43.580 --> 20:47.200]  So as far as this is concerned, this is fine.
+[20:47.200 --> 20:48.340]  Okay.
+[20:48.340 --> 20:50.240]  And so this is okay.
+[20:50.240 --> 20:53.040]  What is this one?
+[20:53.040 --> 20:56.000]  Though this is wrong.
+[20:56.000 --> 20:59.000]  What the hell does that mean?
+[20:59.000 --> 20:59.960]  All right.
+[20:59.960 --> 21:03.780]  IB is definitely less than I sub C.
+[21:03.780 --> 21:05.060]  All right.
+[21:07.200 --> 21:14.800]  I prime C is equal to IC plus IB, which is roughly equal to IC.
+[21:15.280 --> 21:15.420]  Okay.
+[21:15.500 --> 21:16.720]  Yes, this is correct.
+[21:17.160 --> 21:17.320]  Okay.
+[21:17.320 --> 21:26.360]  So I prime C here is the collector current along with I sub B.
+[21:26.800 --> 21:27.020]  All right.
+[21:27.080 --> 21:31.740]  And so this is more technically really, what's this?
+[21:32.040 --> 21:38.860]  Recognizing the fact that the current that is flowing through our collector resistor, in
+[21:38.860 --> 21:49.900]  fact, is a sum of the collector current itself plus the current going through our R sub B, which
+[21:49.900 --> 21:51.120]  would be our IB.
+[21:51.820 --> 21:55.020]  So that is why we have this particular equation here.
+[21:55.560 --> 22:00.720]  I prime C is equal to IC plus IB, which is what is over here.
+[22:00.720 --> 22:06.180]  However, you can do an approximation assuming that the gain is high.
+[22:06.180 --> 22:07.480]  All right.
+[22:07.480 --> 22:12.820]  I think the symbol here is actually quite wrong, which is why it's confusing.
+[22:13.420 --> 22:16.280]  This should be, you might want to take note of this.
+[22:16.620 --> 22:17.560]  We're being recorded.
+[22:17.560 --> 22:24.340]  So when I put these slides up as a PDF, please note that this is wrong.
+[22:25.280 --> 22:25.440]  Okay.
+[22:25.600 --> 22:27.860]  Refer to the video for the correction.
+[22:28.640 --> 22:33.500]  This should be IB is much, much less than IC.
+[22:34.040 --> 22:37.340]  This is what this symbol here is supposed to be.
+[22:37.620 --> 22:40.760]  Not the less than or equal to.
+[22:40.760 --> 22:41.120]  Okay.
+[22:41.200 --> 22:42.260]  So mali yan.
+[22:42.580 --> 22:43.100]  Okay.
+[22:43.760 --> 22:45.540]  It's supposed to be this one.
+[22:45.960 --> 22:46.380]  Okay.
+[22:46.380 --> 22:48.840]  And that's the only way that that would make sense.
+[22:50.140 --> 22:57.060]  Whoever created this set of slides here, apparently, well, it's been wrong for a long time.
+[22:57.060 --> 23:00.800]  And it wasn't me.
+[23:01.800 --> 23:03.900]  We're just borrowing the slides from somewhere.
+[23:04.400 --> 23:04.680]  All right.
+[23:05.040 --> 23:10.740]  So having said that, since IB is, again, considered to be such a...
+[23:10.760 --> 23:19.780]  a fractional portion of I sub C, we can probably say that I prime C is practically the same thing as IC itself.
+[23:20.360 --> 23:22.120]  Just a little bit more than that.
+[23:22.140 --> 23:23.280]  So we can ignore that.
+[23:23.280 --> 23:37.280]  And because of that, all right, you'll notice that this is practically saying that I prime C is equal to IE because IE is equal to...
+[23:38.040 --> 23:40.700]  What is IC plus IB in the first place?
+[23:40.760 --> 23:43.860]  This is a fundamental equation of the transistor.
+[23:44.700 --> 23:51.760]  So in that case, because we're saying that I prime C is roughly equal to I sub C,
+[23:51.760 --> 23:56.680]  we're also going to say that IC is roughly equal to IE anyway.
+[23:57.440 --> 23:57.620]  All right.
+[23:58.060 --> 24:02.400]  And we can just treat these values as being one and the same,
+[24:02.400 --> 24:07.680]  which basically says we're ignoring the base current for now.
+[24:08.340 --> 24:08.860]  All right.
+[24:08.900 --> 24:10.480]  Just to simplify the equation.
+[24:11.980 --> 24:12.280]  Okay.
+[24:14.160 --> 24:19.100]  The loop equation then basically simplifies to something like this.
+[24:19.340 --> 24:19.780]  All right.
+[24:19.780 --> 24:27.240]  We can now rewrite the IC as beta times IB.
+[24:27.840 --> 24:32.300]  And we can also rewrite IE as beta IB.
+[24:32.680 --> 24:37.380]  If you want to be more exact, you can write it as beta plus 1 IB.
+[24:37.720 --> 24:38.420]  All right.
+[24:38.420 --> 24:40.540]  If you want it to be more exact.
+[24:40.540 --> 24:46.800]  But this, again, is just a small approximation difference.
+[24:47.600 --> 24:49.060]  So we can write it that way.
+[24:49.540 --> 24:49.800]  All right.
+[24:50.100 --> 24:52.480]  Let me just formally write it down here.
+[24:52.580 --> 24:53.960]  And again, it's in the video.
+[24:54.720 --> 24:54.980]  All right.
+[24:55.100 --> 24:58.060]  Beta plus 1 is the more exact value.
+[24:59.000 --> 24:59.280]  All right.
+[24:59.280 --> 25:00.280]  Okay.
+[25:01.040 --> 25:06.080]  And because of that, you are now consistent.
+[25:06.820 --> 25:12.920]  You have a set of equations that are just all IB, IB, IB, all beta, beta, beta.
+[25:13.640 --> 25:18.080]  And so therefore, you can come up with this equation for I sub B,
+[25:18.820 --> 25:27.000]  where it is equal to VCC minus VBE over RB plus beta times RC plus RE.
+[25:27.300 --> 25:27.540]  Okay.
+[25:27.540 --> 25:34.860]  So I think the bottom line here is unfortunately, the equation that has been derived here.
+[25:35.740 --> 25:36.060]  Okay.
+[25:36.500 --> 25:44.120]  It's not particularly intuitive because you're subtracting VBE from VCC.
+[25:45.180 --> 25:45.580]  All right.
+[25:45.660 --> 25:49.740]  And if you look at it, VBE is this guy.
+[25:50.440 --> 25:50.920]  All right.
+[25:50.920 --> 26:05.420]  But it doesn't really look like a KVL if you look at this particular last equation.
+[26:05.420 --> 26:09.540]  But we've traced this out from here to here to here.
+[26:10.260 --> 26:16.120]  So essentially, this is what IB is calculatable to be.
+[26:16.480 --> 26:23.540]  And so under such circumstances, I would highly recommend that you simply commit the equation to memory
+[26:23.540 --> 26:28.780]  because looking at it without going through the derivation.
+[26:29.000 --> 26:38.640]  It's not really intuitive that you'll be able to derive or write the IB equation just by inspection.
+[26:39.000 --> 26:45.020]  It really goes through some manipulation for that to basically come out.
+[26:45.020 --> 26:45.880]  Okay.
+[26:45.880 --> 26:52.240]  So it's much easier in this case to memorize it and say that, okay, for this particular configuration,
+[26:52.760 --> 26:55.160]  the equation turns out to be like so.
+[26:55.760 --> 26:56.040]  All right.
+[26:56.040 --> 27:08.260]  And the bottom part, the quotient here of this, R sub B, all right, plus beta times RC plus RE.
+[27:08.700 --> 27:08.960]  Okay.
+[27:08.980 --> 27:12.320]  So this is the interesting bit here.
+[27:12.420 --> 27:18.800]  There's that additional thing that makes the current really, really tiny,
+[27:19.080 --> 27:23.460]  which is the beta multiplication of RC plus RE.
+[27:24.320 --> 27:24.700]  All right.
+[27:24.700 --> 27:26.860]  And so that's your input loop.
+[27:27.360 --> 27:28.960]  This looks really messy now.
+[27:29.100 --> 27:31.760]  So let me just erase everything here.
+[27:32.780 --> 27:33.060]  Okay.
+[27:33.680 --> 27:39.100]  And again, highlight that this is the equation of interest.
+[27:39.820 --> 27:40.080]  Okay.
+[27:40.500 --> 27:41.660]  So there we go with that.
+[27:43.040 --> 27:43.500]  All right.
+[27:44.080 --> 27:49.820]  Now, as for the output loop naman, okay, dito naman tayo sa output loop.
+[27:49.820 --> 28:03.060]  And again, you'll notice that, well, if we start from this side, it is IERE, VCE, ICRC minus VCC.
+[28:03.600 --> 28:03.860]  All right.
+[28:03.860 --> 28:08.040]  So the input included this part.
+[28:08.040 --> 28:13.480]  And this part, the output includes the same components, unfortunately.
+[28:13.800 --> 28:15.920]  So they are interactive with each other.
+[28:16.040 --> 28:17.140]  No question about it.
+[28:17.920 --> 28:18.200]  All right.
+[28:19.200 --> 28:19.480]  Okay.
+[28:19.480 --> 28:30.600]  And going forward, again, if we make this approximation, I prime C, which is IE, is roughly equal to IC.
+[28:31.240 --> 28:34.000]  And IC is equal to beta IB.
+[28:34.000 --> 28:35.500]  We can do the substitution.
+[28:36.500 --> 28:36.820]  All right.
+[28:38.980 --> 28:39.540]  Okay.
+[28:40.720 --> 28:46.260]  We can do the substitution from there and come up with this particular equation.
+[28:46.260 --> 28:54.760]  And we can see that the voltage from collector to emitter is simply a function of the supply voltage.
+[28:55.700 --> 28:56.000]  All right.
+[28:57.020 --> 29:03.980]  Multiply minus I sub C multiplied to RC plus RE.
+[29:04.460 --> 29:08.000]  And that is doable by inspection.
+[29:08.240 --> 29:09.200]  You see, that's the difference.
+[29:09.200 --> 29:20.380]  You can actually get that because you can see that this and this subtracted to VCC will leave you with VCE.
+[29:20.620 --> 29:21.920]  There's really nothing much there.
+[29:22.480 --> 29:30.780]  And you already inherently and easily remember that IC and IE are roughly the same value anyway.
+[29:30.780 --> 29:37.500]  So you can just substitute that and then multiply or add the two resistor values together.
+[29:37.500 --> 29:41.280]  And doing so gives you the total voltage.
+[29:41.500 --> 29:43.240]  This plus this.
+[29:43.880 --> 29:44.380]  All right.
+[29:44.480 --> 29:45.360]  Combined here.
+[29:45.820 --> 29:50.840]  Subtract that from VCC and you are left with the collector to emitter voltage.
+[29:51.180 --> 29:51.300]  Okay.
+[29:51.340 --> 29:54.880]  So the output loop is easy enough.
+[29:55.020 --> 29:59.920]  It's the input loop that's kind of counter into WITIM where you're trying to solve for IB.
+[30:00.620 --> 30:01.140]  Okay.
+[30:01.680 --> 30:02.160]  All right.
+[30:02.160 --> 30:09.320]  And so having said that, okay, having gone through those equations, I don't know if you've memorized it.
+[30:10.020 --> 30:10.740]  All right.
+[30:11.240 --> 30:13.460]  I don't expect that you've memorized it.
+[30:13.500 --> 30:17.300]  But if you had a little piece of paper there, hopefully you might have written it down.
+[30:18.100 --> 30:18.540]  All right.
+[30:18.540 --> 30:27.940]  Let me hold the screen for the moment here so that you have that opportunity to write down the equation.
+[30:29.020 --> 30:29.200]  Okay.
+[30:29.800 --> 30:32.760]  So that's your output equation over there.
+[30:32.900 --> 30:34.340]  I am taking my pencil.
+[30:34.820 --> 30:35.360]  All right.
+[30:35.460 --> 30:37.960]  I'm taking my pencil.
+[30:38.320 --> 30:38.620]  All right.
+[30:38.620 --> 30:41.540]  And I'm writing this down as well in front of me.
+[30:41.540 --> 30:49.280]  VCE is equal to VCC minus I sub C times RC plus RE.
+[30:50.600 --> 30:51.360]  Okay.
+[30:51.360 --> 31:11.400]  And prior to this one, it is basically your input loop, which is IB is equal to VCC minus VBE divided by RB plus beta.
+[31:11.860 --> 31:12.580]  All right.
+[31:12.720 --> 31:15.720]  Beta times RC plus RE.
+[31:16.860 --> 31:17.340]  All right.
+[31:17.820 --> 31:19.900]  Not really that hard to memorize actually.
+[31:19.900 --> 31:24.960]  But hey, if you're not confident, by all means, write it down.
+[31:25.420 --> 31:25.780]  All right.
+[31:25.960 --> 31:29.460]  So let's get to the solving problem here.
+[31:29.960 --> 31:30.440]  Oh, wow.
+[31:30.540 --> 31:31.760]  This looks so complex.
+[31:32.540 --> 31:34.280]  Who can try solving this?
+[31:34.480 --> 31:36.060]  Mahirap pa ito o madali?
+[31:36.580 --> 31:38.040]  Answer, madali lang yan.
+[31:38.300 --> 31:38.500]  Okay.
+[31:38.700 --> 31:38.860]  Sige.
+[31:39.060 --> 31:40.960]  So let's give it a go.
+[31:41.720 --> 31:42.080]  All right.
+[31:42.080 --> 31:49.880]  Determine IB and VC is the, you know, are the points.
+[31:50.380 --> 31:50.740]  All right.
+[31:51.480 --> 31:53.440]  To get points for this quiz.
+[31:54.380 --> 31:54.720]  All right.
+[31:54.840 --> 31:57.260]  So determine IB and VC.
+[31:57.500 --> 31:57.680]  All right.
+[31:57.720 --> 32:01.080]  So IB is just the input equation.
+[32:01.480 --> 32:01.780]  All right.
+[32:01.780 --> 32:04.700]  So all you got to do is do your substitutions there.
+[32:05.220 --> 32:07.760]  You should be able to get the answer for that.
+[32:08.760 --> 32:13.660]  VC is quite easy because you have your output equation.
+[32:14.020 --> 32:16.060]  You'll be able to calculate VCE.
+[32:16.060 --> 32:27.680]  And you'll also be able to calculate your V sub E rather easily by recognizing that whatever
+[32:27.680 --> 32:33.060]  is your calculated collector current or emitter current, if you wanted to, you know, whatever,
+[32:33.780 --> 32:38.480]  which would be numerically the same thing because you're doing approximations, multiplied
+[32:38.480 --> 32:42.860]  to 510 ohms will give you your V sub E.
+[32:43.380 --> 32:45.780]  So just adding those two will give you your answer.
+[32:46.060 --> 32:47.040]  Pretty straightforward.
+[32:48.040 --> 32:57.940]  So the only challenge here might be the fact that you might be overwhelmed or confused
+[32:57.940 --> 33:07.440]  or miffed or at least taken aback a little bit by why does it appear to be so complex?
+[33:07.980 --> 33:08.240]  All right.
+[33:08.560 --> 33:12.040]  What the hell is going on over there?
+[33:12.680 --> 33:12.860]  Okay.
+[33:12.860 --> 33:20.760]  So if you have a very, very quick look here, all right, thing is that you're not supposed
+[33:20.760 --> 33:31.460]  to or what you should remember is that capacitors, when you're doing DC analysis, all right, when
+[33:31.460 --> 33:37.360]  you're doing DC analysis, what's the rule?
+[33:37.360 --> 33:48.440]  Well, the rule essentially is that if you're doing DC analysis, then the capacitors are basically open circuits.
+[33:48.440 --> 34:00.000]  Remember, okay, so for DC, all right, capacitors are open circuit.
+[34:00.000 --> 34:02.820]  All right. So let's not forget that.
+[34:03.700 --> 34:05.100]  Keep that in mind.
+[34:05.640 --> 34:11.180]  And because they are open circuit, we just mentally erase them.
+[34:11.840 --> 34:19.740]  All right. We just mentally erase them so that it becomes less confusing, hopefully.
+[34:20.620 --> 34:24.600]  And so now you're left essentially with a pretty much straightforward circuit.
+[34:24.600 --> 34:35.080]  Okay. So if you were to ask me, sir, why are the capacitors and what is that weird configuration with that capacitor in the middle of the two resistors?
+[34:35.220 --> 34:38.040]  Well, we'll get to know these and their function.
+[34:38.420 --> 34:50.880]  It is going to be doing a job, but this is related to the AC amplification of this particular circuit, which we are not covering yet.
+[34:50.880 --> 34:55.340]  Okay. That's for next week after the quiz.
+[34:55.900 --> 34:58.900]  All right. So this is for AC purposes.
+[34:59.660 --> 35:05.780]  All right. Which will allow the transistor to amplify an AC signal.
+[35:06.260 --> 35:15.060]  All right. While not perturbing or changing the DC operating point.
+[35:15.800 --> 35:20.240]  All right. That's the beauty of the capacitors function there.
+[35:20.240 --> 35:34.160]  All right. So having this, we can say that simply that RB is just the sum of these two resistors here, which will give us 201 kilo ohms.
+[35:34.680 --> 35:38.760]  Okay. 91 plus 110.
+[35:39.860 --> 35:45.400]  All right. 91 kilo ohms plus 110 kilo ohms is 201 kilo ohms.
+[35:45.400 --> 35:54.820]  All right. RC is equal to 3.3 K and RE is equal to 510 ohms.
+[35:55.380 --> 35:58.680]  You are given a beta of 75.
+[35:59.820 --> 36:00.200]  All right.
+[36:00.720 --> 36:01.460]  And so that's it.
+[36:01.460 --> 36:03.300]  Very, very straightforward.
+[36:03.300 --> 36:16.260]  It's just a plug and play kind of problem because all you do is substitute these values into the equations that were provided and you should be able to get your answer.
+[36:16.760 --> 36:16.960]  All right.
+[36:16.960 --> 36:24.220]  So just to reiterate, if you have not yet written it down, well, the slide this time is happy enough to put it up there.
+[36:24.780 --> 36:30.500]  VCC minus VBE over RB plus beta times RC plus RE.
+[36:30.500 --> 36:33.260]  This is just a question of substitution.
+[36:33.260 --> 36:34.260]  All right.
+[36:35.000 --> 36:38.260]  And the output equation.
+[36:38.860 --> 36:39.200]  All right.
+[36:39.680 --> 36:42.580]  You can, in fact, just do it in one shot.
+[36:43.240 --> 36:43.480]  All right.
+[36:43.520 --> 37:00.060]  So instead of using VCE as the actual thing that you're trying to solve, you can simply shift over to just taking VCC and subtracting ICRC.
+[37:00.060 --> 37:01.180]  All right.
+[37:01.180 --> 37:04.220]  Because that gives you your collector voltage immediately.
+[37:04.580 --> 37:06.340]  So I don't know if you recognize that.
+[37:06.880 --> 37:08.560]  VCC is all the way up here.
+[37:08.660 --> 37:10.060]  That's your supply voltage.
+[37:12.060 --> 37:12.800]  All right.
+[37:13.540 --> 37:15.280]  Which is 80 volts.
+[37:15.280 --> 37:28.060]  If you subtract the voltage here, you're basically left with the collector voltage V sub C, which is answering the question more directly.
+[37:28.440 --> 37:28.640]  All right.
+[37:28.640 --> 37:47.380]  So again, that's very, very easy because of the fact that if you start by calculating IB, you'll be able to basically calculate your I sub C because you have your beta given in the problem.
+[37:47.740 --> 37:48.020]  All right.
+[37:48.020 --> 37:53.240]  So this makes the answering of this thing particularly straightforward.
+[37:54.200 --> 37:55.880]  So don't hesitate to manipulate.
+[37:56.240 --> 38:01.800]  And when you recognize that I can get it more directly by this, by all means, go ahead and do that.
+[38:02.200 --> 38:02.320]  Okay.
+[38:02.320 --> 38:07.900]  So the end result, nobody calculated it.
+[38:08.240 --> 38:08.500]  All right.
+[38:08.540 --> 38:09.340]  But what the hell?
+[38:10.240 --> 38:13.620]  This is, again, just the question of substitute shot.
+[38:14.240 --> 38:29.320]  18 minus 0.7 divided by 201K plus 75 times 3.3K plus 510 ohms.
+[38:29.320 --> 38:30.240]  Okay.
+[38:30.240 --> 38:30.320]  Okay.
+[38:30.760 --> 38:31.200]  All right.
+[38:31.780 --> 38:33.000]  So that's your IB.
+[38:34.200 --> 38:34.580]  All right.
+[38:34.720 --> 38:36.500]  IB is equal to that.
+[38:36.980 --> 38:38.220]  Somebody has a calculator.
+[38:38.480 --> 38:39.500]  You'd be happy to calculate it.
+[38:39.500 --> 38:41.320]  And is happy enough to calculate it.
+[38:41.400 --> 38:42.100]  You can do that.
+[38:42.100 --> 38:47.400]  Well, I do happen to have a calculator now that I'm here.
+[38:48.740 --> 38:52.940]  17.3 volts divided by, okay, this one's quite a bit bigger.
+[38:53.180 --> 38:55.860]  So I'll do the 3.3K.
+[38:55.860 --> 39:08.340]  3,300 plus 510, all right, times 75 is a, oh, it's a very big value.
+[39:08.900 --> 39:09.340]  All right.
+[39:09.340 --> 39:24.900]  This is equal to 201 kilo ohms plus 285.75 K ohms, all right, which is going to calculate
+[39:24.900 --> 39:28.360]  to a very, very small IB, all right, indeed.
+[39:29.180 --> 39:32.180]  And I ran out of space.
+[39:32.180 --> 39:34.120]  So let's put that down here.
+[39:34.120 --> 39:53.420]  I sub B, okay, hang on, okay, is equal to 17.3 volts divided by 486, all right, 486.75K,
+[39:53.420 --> 40:02.180]  which is, oh, well, it's not really that tiny.
+[40:02.900 --> 40:10.640]  35.54 micro amperes, all right.
+[40:11.580 --> 40:15.880]  Hopefully I mistyped anything, all right.
+[40:15.940 --> 40:16.900]  Let's try that again.
+[40:16.900 --> 40:32.600]  17.3 divided by 486.75 times 10 to the third is indeed 300, sorry, 35.54 micro amperes.
+[40:32.680 --> 40:35.540]  So that's the first answer, all right.
+[40:35.580 --> 40:36.820]  That's the first answer.
+[40:36.940 --> 40:39.840]  You now have I sub B, all right.
+[40:39.840 --> 40:51.080]  And of course, following this equation here, V sub C is equal to 18 volts minus, all right,
+[40:51.600 --> 41:02.840]  I sub C, which we'll have to calculate first, I C is equal to 75 times 35.54 micro amperes.
+[41:02.900 --> 41:05.840]  This is a small amount of current, okay.
+[41:05.840 --> 41:05.920]  Okay.
+[41:09.840 --> 41:19.520]  2.66, 2.665639.
+[41:19.780 --> 41:19.920]  Okay.
+[41:20.000 --> 41:21.460]  What, how do you run that?
+[41:21.580 --> 41:22.980]  Oh, 2.666.
+[41:23.160 --> 41:24.220]  Oh my God.
+[41:24.600 --> 41:24.780]  All right.
+[41:25.420 --> 41:27.160]  2.67.
+[41:28.440 --> 41:29.120]  All right.
+[41:29.820 --> 41:33.600]  2.67 milli amperes.
+[41:33.780 --> 41:34.020]  Okay.
+[41:34.020 --> 41:38.320]  So approximately, but, you know, I'm not rounding it off.
+[41:38.320 --> 41:40.500]  I mean, we have the calculated answer here.
+[41:41.060 --> 41:41.480]  All right.
+[41:41.520 --> 41:47.340]  And so we can multiply this to our R sub C, all right.
+[41:47.340 --> 41:56.620]  And that will give us 8.79, right?
+[41:56.620 --> 42:01.200]  8.79, 8.8 volts practically.
+[42:01.700 --> 42:01.880]  All right.
+[42:02.520 --> 42:07.240]  18 minus, what's this?
+[42:07.240 --> 42:07.520]  Sorry.
+[42:07.520 --> 42:17.600]  8.79, 8.79, 6, 6 volts, which is equal to, right?
+[42:17.600 --> 42:18.580]  9.2.
+[42:20.580 --> 42:21.140]  Okay.
+[42:21.520 --> 42:24.880]  So there's your answer for these two questions.
+[42:25.180 --> 42:25.360]  All right.
+[42:25.480 --> 42:27.120]  I, B, and V sub C.
+[42:27.120 --> 42:29.140]  These are the answers.
+[42:30.040 --> 42:31.140]  9.20.
+[42:32.120 --> 42:32.500]  All right.
+[42:32.980 --> 42:33.240]  Okay.
+[42:33.680 --> 42:36.240]  So are there any questions about this, people?
+[42:37.000 --> 42:37.600]  May tanong ba?
+[42:41.280 --> 42:42.040]  Madali, di ba?
+[42:42.620 --> 42:42.960]  Madali.
+[42:51.460 --> 42:51.860]  Questions?
+[42:51.860 --> 42:52.580]  Questions?
+[42:53.140 --> 42:55.580]  Ay, naku, buhay na buhay yung klase ngayon, ha?
+[42:56.160 --> 42:57.320]  Mayabang, mayabang.
+[42:58.040 --> 42:59.460]  Ayaw magtanong kasi.
+[42:59.780 --> 43:00.200]  O, yan.
+[43:00.420 --> 43:01.840]  Tapos, pagdating ng quiz.
+[43:03.300 --> 43:03.540]  Okay.
+[43:03.760 --> 43:04.800]  Pakitaan niyo ako, ha?
+[43:04.880 --> 43:05.740]  Pagdating ng quiz.
+[43:05.880 --> 43:07.140]  Dapat, perfect ang sagot.
+[43:07.280 --> 43:08.340]  Walang nagtatanong, eh.
+[43:08.780 --> 43:08.960]  O.
+[43:10.240 --> 43:10.640]  Questions?
+[43:11.280 --> 43:11.780]  No questions?
+[43:12.340 --> 43:12.720]  All right.
+[43:13.140 --> 43:15.140]  If there are no questions, thumbs up, please.
+[43:15.600 --> 43:16.600]  Buhay ba ba kayo dyan?
+[43:16.720 --> 43:16.900]  Hello?
+[43:16.900 --> 43:17.000]  Hello?
+[43:20.340 --> 43:20.780]  Yes?
+[43:20.780 --> 43:21.500]  Okay.
+[43:23.120 --> 43:23.460]  All right.
+[43:24.540 --> 43:24.840]  Sige.
+[43:25.500 --> 43:26.500]  So, looks easy.
+[43:27.460 --> 43:28.660]  Why does it look easy?
+[43:28.840 --> 43:29.720]  Because it's easy.
+[43:30.120 --> 43:30.640]  All right.
+[43:31.120 --> 43:32.280]  So, let's go forward.
+[43:33.220 --> 43:33.680]  All right.
+[43:34.920 --> 43:35.860]  Sample problem.
+[43:36.500 --> 43:37.540]  Another one here.
+[43:37.880 --> 43:39.160]  Another one bites the dust.
+[43:40.000 --> 43:41.520]  Ay, halos pareho lang to, eh.
+[43:44.200 --> 43:44.840]  Okay.
+[43:46.220 --> 43:49.060]  Pretty much similar problem.
+[43:49.060 --> 43:52.840]  Again, just a question of substitution.
+[43:54.340 --> 43:54.580]  Okay.
+[43:54.940 --> 43:56.240]  Question of substitution.
+[43:57.020 --> 43:58.880]  Get slightly different answer.
+[43:59.600 --> 43:59.760]  All right.
+[44:01.080 --> 44:04.400]  4K, 460K, and 1 kilo ohm.
+[44:05.280 --> 44:07.440]  Beta equals 100.
+[44:08.000 --> 44:10.420]  Slightly higher operating voltage.
+[44:11.000 --> 44:14.800]  Supply voltage of 20 volts.
+[44:14.800 --> 44:15.560]  Okay.
+[44:15.660 --> 44:17.280]  So, what's that going to turn out to be?
+[44:17.480 --> 44:17.740]  All right.
+[44:19.220 --> 44:20.780]  Another sample problem here.
+[44:24.420 --> 44:28.240]  Puro mga sample problems na lang yata ito.
+[44:28.340 --> 44:28.980]  Matali yun lang.
+[44:29.480 --> 44:30.440]  Matali yun lang ba?
+[44:30.520 --> 44:30.840]  Matali.
+[44:31.520 --> 44:32.140]  Okay.
+[44:32.480 --> 44:32.800]  All right.
+[44:33.520 --> 44:34.580]  Eh, eh, eh.
+[44:35.580 --> 44:36.180]  All right.
+[44:36.180 --> 44:39.520]  So, again, all you need is formula.
+[44:40.020 --> 44:40.260]  Okay.
+[44:41.360 --> 44:46.900]  Our I sub V is equal to VCC minus VBE.
+[44:47.100 --> 44:47.660]  Ay, I'm cool.
+[44:47.660 --> 44:48.540]  All right.
+[44:48.620 --> 44:53.900]  Over RB plus beta times RC plus RE.
+[44:53.900 --> 45:00.140]  I mean, how can you possibly make a mistake with some simple problem such as this, eh?
+[45:00.740 --> 45:01.100]  All right.
+[45:01.220 --> 45:06.260]  And VCE is equal to VCC minus.
+[45:07.340 --> 45:07.760]  All right.
+[45:08.460 --> 45:10.380]  Again, as an approximation.
+[45:10.940 --> 45:11.600]  Well, whatever.
+[45:11.920 --> 45:17.080]  You can just use IC times RC plus RR.
+[45:19.460 --> 45:20.100]  Okay.
+[45:20.680 --> 45:21.480]  Well, there you go.
+[45:21.480 --> 45:27.240]  And, of course, the missing equation there would be to relate IB and IC.
+[45:28.140 --> 45:28.420]  Okay.
+[45:28.480 --> 45:30.580]  IC is equal to beta IB.
+[45:31.280 --> 45:31.600]  There.
+[45:32.040 --> 45:32.380]  All right.
+[45:32.440 --> 45:37.920]  And once you have these three, plug and produce answer.
+[45:39.040 --> 45:39.620]  All right.
+[45:40.540 --> 45:41.260]  Taliran lang yan.
+[45:42.200 --> 45:47.460]  I think the problem really here is that the slides don't actually provide the correct answer.
+[45:47.680 --> 45:50.720]  But, yeah, well, what the hell.
+[45:51.140 --> 45:51.280]  Okay.
+[45:51.480 --> 45:54.900]  It's more than enough time, actually.
+[45:55.200 --> 45:57.300]  So, nobody will complain.
+[45:57.500 --> 45:59.560]  Ah, sir does not provide answer.
+[45:59.700 --> 46:00.140]  Oh, ito.
+[46:00.280 --> 46:01.120]  May mga sagot.
+[46:01.580 --> 46:02.220]  Sige.
+[46:02.840 --> 46:05.920]  So, again, we start with IB.
+[46:07.300 --> 46:07.560]  Okay.
+[46:07.680 --> 46:10.560]  20 volts minus 0.7.
+[46:11.240 --> 46:12.140]  Dibye, dibye.
+[46:12.140 --> 46:13.140]  460K.
+[46:13.140 --> 46:13.140] 
+[46:13.140 --> 46:14.220]  460K.
+[46:14.220 --> 46:15.100]  Wow.
+[46:15.100 --> 46:16.260]  Very high value.
+[46:17.960 --> 46:24.820]  Plus 100 multiplied to 4K plus 1K.
+[46:25.560 --> 46:26.000]  All right.
+[46:26.340 --> 46:29.180]  And, obviously, now we can.
+[46:29.860 --> 46:30.860]  Don't hang on me.
+[46:31.280 --> 46:31.620]  All right.
+[46:31.620 --> 46:40.960]  19.3 volts divided by 5 kilo ohms here times 100.
+[46:40.960 --> 46:47.260]  So, 460K plus 500K.
+[46:47.260 --> 46:48.580]  All right.
+[46:48.580 --> 46:48.640]  All right.
+[46:48.640 --> 46:51.180]  Which gives us 960K.
+[46:52.480 --> 46:58.580]  19.3 volts over 960K ohms.
+[46:58.580 --> 47:01.400]  Which is really tiny in value.
+[47:01.400 --> 47:02.460]  All right.
+[47:03.960 --> 47:05.460]  19.3.
+[47:05.940 --> 47:16.300]  Oh, well, again, as a sanity check, make sure that you don't get some really odd looking VCE value.
+[47:16.300 --> 47:21.300]  Mamiya, pag-calculate mo, eh, imposible yung value.
+[47:21.920 --> 47:23.800]  Kailangan ma-recognize ninyo.
+[47:24.320 --> 47:25.620]  Negative ang lumabas.
+[47:25.840 --> 47:25.980]  Okay.
+[47:26.180 --> 47:28.020]  So, obviously, can't be possible.
+[47:28.780 --> 47:33.300]  Or, well, something like that.
+[47:34.020 --> 47:34.120]  Okay.
+[47:34.240 --> 47:40.780]  So, 19.3 divided by 960 times 10 to the third.
+[47:41.720 --> 47:42.020]  Okay.
+[47:42.020 --> 47:47.340]  Which is going to give you a rather small 20.1.
+[47:47.640 --> 47:47.960]  All right.
+[47:49.860 --> 47:51.120]  Micro amperes.
+[47:51.540 --> 47:52.440]  As your IB.
+[47:53.520 --> 47:53.720]  All right.
+[47:53.800 --> 47:55.400]  I hope somebody is cross-checking.
+[47:55.520 --> 47:56.660]  There's nothing better to do.
+[47:56.760 --> 47:57.780]  Run your calculator.
+[47:57.960 --> 47:59.820]  Sayang naman yung pagbili nyo ng calculator.
+[48:00.820 --> 48:01.080]  Okay.
+[48:01.160 --> 48:02.540]  So, there's your I sub V.
+[48:03.640 --> 48:05.480]  Therefore, your I sub C.
+[48:05.880 --> 48:06.300]  All right.
+[48:06.480 --> 48:10.480]  Is this multiplied by a factor of 100.
+[48:10.480 --> 48:19.960]  This gives you a 2.01 milliampere for I sub C.
+[48:20.340 --> 48:23.940]  Which will aid your calculation for VCE.
+[48:24.700 --> 48:25.440]  All right.
+[48:25.440 --> 48:30.500]  Because VCE basically is equal to.
+[48:30.500 --> 48:31.760]  All right.
+[48:31.760 --> 48:31.760] 
+[48:32.360 --> 48:38.360]  VCC minus IC times RE plus.
+[48:39.500 --> 48:40.360]  Sorry.
+[48:40.620 --> 48:41.260]  RC.
+[48:42.260 --> 48:42.980]  All right.
+[48:42.980 --> 48:46.700]  So, this is again the same banana here.
+[48:47.340 --> 48:51.460]  And we can see that VCE is equal to 20 volts.
+[48:52.840 --> 49:02.320]  Subtracted by 2.01 milliampere multiplied to 5k ohms.
+[49:03.080 --> 49:03.460]  All right.
+[49:03.460 --> 49:06.480]  And just a little bit of mental math.
+[49:06.920 --> 49:09.200]  You can see that this is 2 times 5.
+[49:10.120 --> 49:10.480]  All right.
+[49:10.620 --> 49:12.440]  2 times 10 to the minus 3.
+[49:12.940 --> 49:13.980]  Times 5.
+[49:14.100 --> 49:15.340]  Times 10 to the third.
+[49:16.040 --> 49:16.360]  Cancel.
+[49:16.460 --> 49:16.840]  Cancel.
+[49:16.940 --> 49:18.960]  That gives you approximately 10 volts.
+[49:19.720 --> 49:20.140]  All right.
+[49:20.300 --> 49:27.220]  And so, 20 minus 10 volts gives you approximately 10 volts.
+[49:27.220 --> 49:27.780]  Okay.
+[49:28.260 --> 49:31.520]  So, actually, in fact, 9.9 volts.
+[49:33.060 --> 49:34.660]  Unless my math is wrong.
+[49:35.480 --> 49:35.720]  Okay.
+[49:37.320 --> 49:38.320]  There we go.
+[49:40.400 --> 49:41.040]  Okay.
+[49:41.200 --> 49:47.300]  I'm using slightly more, you know, exacting values here.
+[49:47.420 --> 49:48.980]  Because I'm not rounding off.
+[49:49.040 --> 49:52.020]  I'm letting the calculator just go right along with it.
+[49:52.020 --> 49:52.860]  Okay.
+[49:53.480 --> 49:58.260]  And this gives a 9.947.
+[49:58.700 --> 49:59.040]  All right.
+[49:59.760 --> 50:01.380]  9.947.
+[50:01.920 --> 50:02.920]  948.
+[50:03.500 --> 50:07.480]  9.948 volts.
+[50:08.840 --> 50:11.220]  9.95 volts.
+[50:12.020 --> 50:12.980]  What the hell?
+[50:13.280 --> 50:13.520]  All right.
+[50:13.920 --> 50:14.460]  Close enough.
+[50:14.980 --> 50:15.240]  All right.
+[50:15.320 --> 50:18.380]  So, VCE is equal to 9.95.
+[50:18.920 --> 50:19.340]  All right.
+[50:19.560 --> 50:21.440]  And that's your IB answer here.
+[50:21.440 --> 50:23.440]  And that answers the questions.
+[50:24.360 --> 50:24.760]  All right.
+[50:27.280 --> 50:28.360]  All three of them.
+[50:28.600 --> 50:28.860]  Okay.
+[50:29.220 --> 50:31.180]  So, I hope that there are no issues here.
+[50:32.060 --> 50:33.280]  Are there questions, people?
+[50:37.860 --> 50:38.300]  Talangan.
+[50:38.500 --> 50:38.760]  Patali.
+[50:39.040 --> 50:39.360]  Easy.
+[50:39.540 --> 50:39.800]  Easy.
+[50:39.980 --> 50:40.160]  Okay.
+[50:40.280 --> 50:41.940]  So, I think we can go forward.
+[50:45.120 --> 50:45.660]  All right.
+[50:46.240 --> 50:47.080]  Can we go forward?
+[50:47.220 --> 50:47.980]  Can we go forward?
+[50:49.180 --> 50:49.900]  No problem.
+[50:51.440 --> 50:52.040]  Okay.
+[50:53.660 --> 50:53.960]  All right.
+[50:54.260 --> 50:55.440]  So, let's go forward.
+[50:57.120 --> 50:58.400]  Oh, look at this.
+[51:00.820 --> 51:01.540]  Hang on.
+[51:02.020 --> 51:02.840]  Erase everything.
+[51:03.640 --> 51:04.260]  Eraser.
+[51:05.320 --> 51:05.680]  Hang on.
+[51:05.920 --> 51:06.400]  Erase.
+[51:07.000 --> 51:07.760]  Hear everything.
+[51:09.820 --> 51:10.600]  All right.
+[51:10.600 --> 51:15.920]  Determine the power dissipated by P sub C in milliwatts.
+[51:16.200 --> 51:19.580]  Use approximate analysis if acceptable.
+[51:19.920 --> 51:20.240]  Ayan.
+[51:20.520 --> 51:20.860]  Ayan.
+[51:20.980 --> 51:21.740]  Mas may challenge.
+[51:21.880 --> 51:24.500]  This is back to the Thursday lesson.
+[51:25.020 --> 51:25.340]  All right.
+[51:25.520 --> 51:28.240]  Now, do you remember how to do this?
+[51:31.240 --> 51:32.380]  Mad scramble.
+[51:32.380 --> 51:36.680]  Use approximate analysis if acceptable.
+[51:36.680 --> 51:37.080]  Oop.
+[51:37.300 --> 51:37.860]  Mula yung pen.
+[51:38.440 --> 51:38.700]  All right.
+[51:39.480 --> 51:46.480]  And that's the question.
+[51:46.720 --> 51:54.240]  Now, do you guys remember how to determine if approximate analysis is acceptable?
+[51:54.240 --> 51:59.340]  Excuse me.
+[51:59.340 --> 51:59.420]  Excuse me.
+[52:02.960 --> 52:03.680]  Data.
+[52:05.680 --> 52:06.160]  O.
+[52:07.020 --> 52:07.620]  Oy.
+[52:08.020 --> 52:09.220]  Sumagot naman kayo dito.
+[52:09.340 --> 52:10.440]  Lagay dito sa chat.
+[52:10.940 --> 52:11.380]  Paano?
+[52:12.060 --> 52:12.360]  All right.
+[52:12.360 --> 52:17.980]  How do I determine if approximate analysis is acceptable?
+[52:18.580 --> 52:18.960]  All right.
+[52:19.060 --> 52:19.960]  How do I do that?
+[52:20.080 --> 52:20.820]  What do I need?
+[52:23.520 --> 52:25.180]  What info do I need?
+[52:25.360 --> 52:26.640]  How do I calculate it?
+[52:35.080 --> 52:35.560]  Hello.
+[52:37.880 --> 52:39.240]  Nobody wants to answer?
+[52:39.240 --> 52:39.300]  Okay.
+[52:42.360 --> 52:43.360]  Ahem.
+[52:49.360 --> 52:50.000]  Ahem.
+[52:50.000 --> 52:50.160]  Ahem.
+[52:50.640 --> 52:55.140]  Everybody is not in the mood to bother with the lesson.
+[52:56.400 --> 52:56.740]  Okay.
+[52:57.000 --> 52:57.120]  Ayan.
+[52:57.800 --> 52:58.420]  Ayan na.
+[52:58.860 --> 53:00.320]  Thank you very much.
+[53:00.540 --> 53:00.820]  All right.
+[53:00.980 --> 53:07.180]  So, somebody here says beta RE is greater than 10 times R2.
+[53:07.620 --> 53:07.960]  All right.
+[53:08.740 --> 53:09.960]  Greater than or equal to.
+[53:10.040 --> 53:10.140]  Yeah.
+[53:10.260 --> 53:10.540]  All right.
+[53:10.540 --> 53:11.260]  So, there we go.
+[53:11.600 --> 53:12.020]  Very good.
+[53:12.020 --> 53:12.960]  Thank you very much.
+[53:13.620 --> 53:13.940]  All right.
+[53:14.540 --> 53:17.840]  So, beta times RE.
+[53:18.500 --> 53:19.020]  All right.
+[53:19.300 --> 53:21.020]  Is it greater than?
+[53:22.460 --> 53:22.980]  Ideally.
+[53:23.220 --> 53:23.500]  All right.
+[53:23.620 --> 53:25.420]  Ideally, it would be greater than.
+[53:25.940 --> 53:27.940]  Greater, greater than would be even best.
+[53:28.440 --> 53:28.780]  All right.
+[53:30.960 --> 53:33.400]  10 times R2.
+[53:33.800 --> 53:34.220]  All right.
+[53:34.220 --> 53:35.000]  Okay.
+[53:35.000 --> 53:35.100]  Okay.
+[53:35.100 --> 53:35.160]  Okay.
+[53:35.160 --> 53:35.160] 
+[53:35.160 --> 53:35.160] 
+[53:35.160 --> 53:35.160] 
+[53:35.160 --> 53:35.160] 
+[53:35.160 --> 53:35.160] 
+[53:35.160 --> 53:35.160] 
+[53:35.160 --> 53:35.160] 
+[53:35.160 --> 53:47.260]  Okay.
+[53:47.260 --> 53:39.720]  And by inspection, well, is it a close call?
+[53:39.720 --> 53:45.600]  or is it a very obvious yes, it's okay or whatever.
+[53:45.600 --> 53:48.440]  So your beta is 80.
+[53:48.840 --> 53:53.280]  You'll be multiplying that to 1.2 kilo ohms.
+[53:53.860 --> 53:57.820]  Whereas this one is a 7 kilo ohm,
+[53:58.000 --> 54:02.440]  which if you multiply by 10 is just 70 kilo ohms.
+[54:02.840 --> 54:03.060]  All right?
+[54:03.460 --> 54:04.980]  So dito palang obvious.
+[54:05.160 --> 54:06.720]  Actually, as I was sitting here,
+[54:06.760 --> 54:08.580]  it was already looking pretty obvious.
+[54:08.580 --> 54:10.620]  But anyway, all right?
+[54:10.720 --> 54:13.420]  So if this were exactly 1 ko,
+[54:14.060 --> 54:17.680]  multiplying it by 80 will give you 80k.
+[54:18.460 --> 54:18.720]  All right?
+[54:18.840 --> 54:20.920]  So dito palang, oo na.
+[54:21.300 --> 54:21.520]  Diba?
+[54:21.760 --> 54:23.160]  It's already a yes.
+[54:23.800 --> 54:27.720]  But, all right, given the fact that it is 1.2 k,
+[54:27.820 --> 54:30.040]  which is even greater than 1 kilo ohm,
+[54:30.420 --> 54:32.100]  then the answer is yes.
+[54:32.380 --> 54:32.760]  All right?
+[54:32.880 --> 54:34.340]  It's pretty obviously yes.
+[54:34.340 --> 54:38.280]  So given this,
+[54:38.920 --> 54:44.720]  we can say that approximate analysis is acceptable.
+[54:44.720 --> 54:45.720]  All right?
+[54:47.860 --> 54:50.640]  So approximate analysis is acceptable.
+[54:50.640 --> 54:53.640]  So let's use approximate analysis.
+[54:53.840 --> 54:56.200]  Now, do you remember what to do
+[54:56.200 --> 54:58.460]  to try to get the answer for this?
+[54:59.200 --> 54:59.560]  All right?
+[54:59.820 --> 55:01.420]  So when you do approximate analysis,
+[55:01.600 --> 55:03.480]  it's very easy because everything,
+[55:03.660 --> 55:05.100]  you just shove in and say,
+[55:05.160 --> 55:06.440]  everything is an approximation.
+[55:06.780 --> 55:08.240]  Anyway, what dahil?
+[55:08.740 --> 55:08.940]  Right?
+[55:11.320 --> 55:11.860]  Okay.
+[55:11.860 --> 55:14.320]  Ano nga ba yung goal dito?
+[55:15.520 --> 55:18.240]  Determine the power dissipated.
+[55:19.240 --> 55:20.000]  All right?
+[55:20.860 --> 55:24.180]  Determine the power dissipated by P sub C.
+[55:28.500 --> 55:30.080]  By the transistor pala.
+[55:30.180 --> 55:30.380]  Sorry.
+[55:31.220 --> 55:31.780]  What the hell?
+[55:31.780 --> 55:34.920]  The power dissipated by the transistor.
+[55:35.340 --> 55:40.220]  And that variable is here given as P sub C.
+[55:40.780 --> 55:41.000]  All right?
+[55:41.000 --> 55:42.240]  P sub C.
+[55:43.320 --> 55:46.440]  And express this in milliwatts.
+[55:47.100 --> 55:47.200]  Okay?
+[55:47.540 --> 55:48.800]  So how do we do that?
+[55:48.880 --> 55:52.320]  Well, we can say that the power dissipation
+[55:52.320 --> 55:54.420]  of the transistor P sub C,
+[55:54.520 --> 55:54.980]  in this case,
+[55:55.060 --> 55:57.220]  because it insisted on using P sub C,
+[55:57.640 --> 55:59.720]  again, is simply equal to,
+[55:59.860 --> 56:01.120]  or roughly equal to,
+[56:01.220 --> 56:03.840]  IC times VCE.
+[56:04.640 --> 56:05.340]  All right?
+[56:05.340 --> 56:10.980]  If you wanted a more exacting value,
+[56:10.980 --> 56:15.140]  you could use IE times VCE.
+[56:16.360 --> 56:17.040]  All right?
+[56:18.100 --> 56:19.880]  That would be the more exacting value.
+[56:20.000 --> 56:20.740]  But again,
+[56:21.080 --> 56:22.160]  most of the time,
+[56:22.480 --> 56:24.600]  most people will just calculate it
+[56:24.600 --> 56:26.300]  on the basis of the collector current.
+[56:26.720 --> 56:27.400]  All right?
+[56:27.400 --> 56:27.520]  Okay.
+[56:28.280 --> 56:28.600]  Okay.
+[56:28.760 --> 56:30.500]  So looking at that,
+[56:30.880 --> 56:32.380]  how do we get that?
+[56:32.460 --> 56:32.600]  Well,
+[56:32.640 --> 56:33.020]  obviously,
+[56:33.120 --> 56:34.600]  we're going to have to solve
+[56:34.600 --> 56:35.740]  for,
+[56:35.840 --> 56:36.940]  you know,
+[56:36.980 --> 56:39.440]  these two operating values
+[56:39.440 --> 56:42.680]  to get the power dissipation.
+[56:43.680 --> 56:43.960]  Okay?
+[56:43.960 --> 56:46.560]  And so this is just a question of,
+[56:46.980 --> 56:47.140]  well,
+[56:47.240 --> 56:48.980]  basically solving for the question point.
+[56:50.060 --> 56:51.660]  And how do you do that?
+[56:51.960 --> 56:53.320]  Using approximate analysis.
+[56:54.020 --> 56:54.240]  Well,
+[56:54.380 --> 56:57.760]  find out what your voltage here is.
+[56:58.140 --> 56:58.340]  All right?
+[56:58.380 --> 57:01.380]  This is your voltage at the base.
+[57:03.000 --> 57:03.280]  Okay?
+[57:04.300 --> 57:04.720]  All right?
+[57:05.260 --> 57:08.620]  And you can subtract your VBE
+[57:08.620 --> 57:12.320]  to get your voltage at the emitter.
+[57:12.320 --> 57:15.980]  And if you get the voltage at the emitter,
+[57:16.220 --> 57:18.760]  then you can get your I sub E,
+[57:19.220 --> 57:21.200]  which is simply equal to VE
+[57:21.200 --> 57:24.500]  divided by 1RE,
+[57:24.880 --> 57:26.620]  which you can just get
+[57:26.620 --> 57:27.940]  because it's given.
+[57:29.240 --> 57:29.600]  All right?
+[57:30.000 --> 57:30.820]  So there you go.
+[57:31.020 --> 57:32.840]  That's stupidly easy.
+[57:33.480 --> 57:33.860]  All right?
+[57:34.840 --> 57:36.480]  And given that,
+[57:37.060 --> 57:37.460]  all right,
+[57:37.600 --> 57:39.360]  we didn't even bother to use
+[57:39.360 --> 57:41.100]  the beta is equal to 80 here.
+[57:41.880 --> 57:42.240]  All right?
+[57:42.320 --> 57:43.760]  We didn't bother to use it.
+[57:43.880 --> 57:45.300]  You actually already
+[57:45.300 --> 57:47.180]  can follow with the rest
+[57:47.180 --> 57:47.760]  because
+[57:47.760 --> 57:51.040]  you can already say that
+[57:51.040 --> 57:54.100]  IC is roughly equal to IE.
+[57:54.620 --> 57:55.400]  And so therefore,
+[57:55.400 --> 57:56.720]  you're going to be able to get
+[57:56.720 --> 57:57.220]  your
+[57:57.220 --> 57:59.880]  V sub RC.
+[58:00.820 --> 58:02.860]  And if you have your V sub RC,
+[58:03.080 --> 58:04.280]  you have your 12 volts,
+[58:04.740 --> 58:05.840]  and you have your
+[58:05.840 --> 58:07.240]  V sub E.
+[58:07.780 --> 58:08.480]  All right?
+[58:08.480 --> 58:11.580]  Then you have your VCE.
+[58:13.140 --> 58:14.640]  And because you have your VCE,
+[58:14.820 --> 58:16.500]  you will be able to get the participation.
+[58:16.500 --> 58:17.800]  All right?
+[58:18.940 --> 58:19.420]  So,
+[58:20.640 --> 58:21.000]  easy,
+[58:21.080 --> 58:21.720]  easy stuff.
+[58:22.260 --> 58:22.560]  All right?
+[58:22.700 --> 58:23.000]  Easy,
+[58:23.080 --> 58:23.360]  easy.
+[58:23.460 --> 58:25.120]  If approximate analysis
+[58:25.120 --> 58:26.360]  is acceptable
+[58:26.360 --> 58:28.300]  because every other approximation
+[58:28.300 --> 58:29.580]  becomes acceptable.
+[58:29.580 --> 58:35.240]  All right?
+[58:35.760 --> 58:36.060]  Okay.
+[58:36.360 --> 58:36.600]  So,
+[58:36.700 --> 58:37.420]  there you go with that.
+[58:37.500 --> 58:40.120]  That's really not particularly challenging
+[58:40.120 --> 58:43.320]  if you get down to the brass and tax all of it.
+[58:43.860 --> 58:44.160]  Okay?
+[58:44.600 --> 58:44.960]  All right.
+[58:44.960 --> 58:48.140]  Do we need to actually solve this?
+[58:49.060 --> 58:49.540]  Because
+[58:49.540 --> 58:50.540]  that's
+[58:50.540 --> 58:52.020]  pretty much there.
+[58:52.980 --> 58:53.160]  Okay?
+[58:53.320 --> 58:53.980]  What the hell?
+[58:54.060 --> 58:55.060]  If you have a calculator,
+[58:55.220 --> 58:56.500]  you can easily do that.
+[58:57.380 --> 58:57.780]  And,
+[58:58.040 --> 58:58.260]  yeah,
+[58:58.320 --> 59:00.300]  you'd expect a small amount of participation.
+[59:00.780 --> 59:01.020]  Just
+[59:01.020 --> 59:02.640]  for the heck of it,
+[59:03.820 --> 59:04.200]  VB.
+[59:05.080 --> 59:05.460]  All right?
+[59:05.580 --> 59:06.600]  VB is just
+[59:06.600 --> 59:08.140]  based on the voltage divider,
+[59:08.140 --> 59:10.160]  it is equal to 12 times
+[59:10.160 --> 59:11.420]  7K
+[59:11.420 --> 59:11.920]  over
+[59:11.920 --> 59:12.980]  7K
+[59:12.980 --> 59:13.500]  plus
+[59:13.500 --> 59:14.140]  27K.
+[59:14.960 --> 59:15.720]  And
+[59:15.720 --> 59:18.460]  I will not take this step by step anymore
+[59:18.460 --> 59:19.640]  because it takes too long
+[59:19.640 --> 59:20.460]  and I'm getting bored.
+[59:21.740 --> 59:22.800]  All right?
+[59:23.220 --> 59:23.620]  So,
+[59:23.820 --> 59:24.280]  that's
+[59:24.280 --> 59:24.940]  basically
+[59:24.940 --> 59:25.660]  7
+[59:25.660 --> 59:26.780]  divided by
+[59:26.780 --> 59:27.440]  7
+[59:27.440 --> 59:28.140]  plus
+[59:28.140 --> 59:29.840]  27.
+[59:30.300 --> 59:31.160]  All right?
+[59:31.620 --> 59:33.100]  Multiplied by 12
+[59:33.100 --> 59:34.000]  and that gives us
+[59:34.000 --> 59:35.420]  2.47 volts.
+[59:37.520 --> 59:38.280]  Okay?
+[59:38.780 --> 59:39.020]  So,
+[59:39.140 --> 59:39.980]  VB is equal to
+[59:39.980 --> 59:41.760]  2.47 volts.
+[59:42.400 --> 59:43.060]  VE
+[59:43.060 --> 59:44.440]  is equal to
+[59:44.440 --> 59:46.900]  2.47
+[59:46.900 --> 59:47.660]  minus
+[59:47.660 --> 59:48.460]  0.7
+[59:48.460 --> 59:49.140]  which is
+[59:49.140 --> 59:51.400]  1.77 volts.
+[59:53.120 --> 59:53.480]  All right?
+[59:54.000 --> 59:54.400]  Ah!
+[59:54.400 --> 59:55.200]  For the heck of it
+[59:55.200 --> 59:56.360]  because we're on video.
+[59:56.720 --> 59:56.980]  All right?
+[59:57.140 --> 59:57.860]  VE
+[59:57.860 --> 59:59.280]  is equal to
+[59:59.280 --> 01:00:00.200]  VB
+[01:00:00.200 --> 01:00:01.120]  minus
+[01:00:01.120 --> 01:00:02.000]  VBE.
+[01:00:02.800 --> 01:00:03.320]  Okay?
+[01:00:03.720 --> 01:00:04.020]  All right.
+[01:00:04.020 --> 01:00:04.240]  So,
+[01:00:04.600 --> 01:00:05.060]  VE
+[01:00:05.060 --> 01:00:06.060]  is equal to
+[01:00:06.060 --> 01:00:08.260]  1.77 volts.
+[01:00:08.640 --> 01:00:09.260]  Therefore,
+[01:00:09.520 --> 01:00:10.260]  IE
+[01:00:10.260 --> 01:00:11.640]  is equal to
+[01:00:11.640 --> 01:00:12.800]  all right?
+[01:00:13.320 --> 01:00:15.240]  1.77 volts
+[01:00:15.240 --> 01:00:16.300]  divided by
+[01:00:16.300 --> 01:00:18.320]  1,200
+[01:00:18.320 --> 01:00:19.720]  is equal to
+[01:00:19.720 --> 01:00:22.100]  1.475.
+[01:00:22.600 --> 01:00:23.340]  All right?
+[01:00:23.500 --> 01:00:25.660]  1.475
+[01:00:25.660 --> 01:00:26.940]  AAA.
+[01:00:26.940 --> 01:00:31.400]  1.476
+[01:00:31.400 --> 01:00:32.480]  is the better
+[01:00:32.480 --> 01:00:33.320]  approximation,
+[01:00:33.520 --> 01:00:33.940]  I guess,
+[01:00:34.580 --> 01:00:36.320]  milliampere.
+[01:00:37.000 --> 01:00:37.260]  Okay?
+[01:00:37.780 --> 01:00:39.400]  1.476
+[01:00:39.400 --> 01:00:40.180]  milliampere.
+[01:00:40.400 --> 01:00:40.980]  There we go
+[01:00:40.980 --> 01:00:41.480]  with that.
+[01:00:42.160 --> 01:00:42.740]  Congratulations.
+[01:00:43.740 --> 01:00:44.180]  All right?
+[01:00:44.180 --> 01:00:46.560]  We have
+[01:00:46.560 --> 01:00:47.300]  IE
+[01:00:47.300 --> 01:00:48.820]  and we can say
+[01:00:48.820 --> 01:00:49.520]  that IC
+[01:00:49.520 --> 01:00:50.320]  is roughly
+[01:00:50.320 --> 01:00:51.020]  equal to
+[01:00:51.020 --> 01:00:51.700]  IE.
+[01:00:52.680 --> 01:00:53.300]  Therefore,
+[01:00:53.840 --> 01:00:54.380]  V sub
+[01:00:54.380 --> 01:00:54.900]  RC
+[01:00:54.900 --> 01:00:55.880]  is equal
+[01:00:55.880 --> 01:00:56.380]  to
+[01:00:56.380 --> 01:00:58.700]  1.476
+[01:00:58.700 --> 01:00:59.480]  milliampere
+[01:00:59.480 --> 01:01:00.660]  multiplied
+[01:01:00.660 --> 01:01:01.280]  to
+[01:01:01.280 --> 01:01:03.240]  3.8
+[01:01:03.240 --> 01:01:04.100]  kilo ohms
+[01:01:04.100 --> 01:01:06.640]  which
+[01:01:06.640 --> 01:01:07.380]  gives us
+[01:01:07.380 --> 01:01:08.100]  a voltage
+[01:01:08.100 --> 01:01:08.700]  of
+[01:01:08.700 --> 01:01:09.560]  all right?
+[01:01:11.160 --> 01:01:11.360]  Right?
+[01:01:13.260 --> 01:01:14.020]  Times
+[01:01:14.020 --> 01:01:16.140]  3800
+[01:01:16.140 --> 01:01:17.040]  is
+[01:01:17.040 --> 01:01:17.540]  equal to
+[01:01:17.540 --> 01:01:18.920]  5.61.
+[01:01:21.500 --> 01:01:22.060]  Okay.
+[01:01:22.360 --> 01:01:22.480]  So,
+[01:01:22.520 --> 01:01:22.960]  there we go.
+[01:01:23.520 --> 01:01:23.880]  Therefore,
+[01:01:24.220 --> 01:01:24.780]  we can say
+[01:01:24.780 --> 01:01:25.680]  that VCE
+[01:01:25.680 --> 01:01:26.480]  is equal
+[01:01:26.480 --> 01:01:26.920]  to
+[01:01:26.920 --> 01:01:28.120]  12 volts
+[01:01:28.120 --> 01:01:28.600]  and we'll
+[01:01:28.600 --> 01:01:29.140]  find out
+[01:01:29.140 --> 01:01:29.640]  too if the
+[01:01:29.640 --> 01:01:30.260]  transistor is
+[01:01:30.260 --> 01:01:30.980]  biased property.
+[01:01:31.180 --> 01:01:31.680]  It should be
+[01:01:31.680 --> 01:01:32.620]  all right?
+[01:01:32.760 --> 01:01:33.620]  12 volts
+[01:01:33.620 --> 01:01:36.240]  minus
+[01:01:36.240 --> 01:01:38.040]  all right?
+[01:01:39.620 --> 01:01:41.280]  5.61
+[01:01:41.280 --> 01:01:41.880]  volts
+[01:01:41.880 --> 01:01:43.200]  minus
+[01:01:43.200 --> 01:01:44.160]  V sub
+[01:01:44.160 --> 01:01:44.480]  E
+[01:01:44.480 --> 01:01:45.240]  which is
+[01:01:45.240 --> 01:01:46.580]  1.77
+[01:01:46.580 --> 01:01:47.520]  volts
+[01:01:47.520 --> 01:01:48.740]  and that
+[01:01:48.740 --> 01:01:49.620]  leaves us
+[01:01:49.620 --> 01:01:50.380]  with
+[01:01:50.380 --> 01:01:51.240]  drumroll
+[01:01:51.240 --> 01:01:51.900]  please
+[01:01:51.900 --> 01:01:53.400]  12 minus
+[01:01:53.400 --> 01:01:54.060]  answer
+[01:01:54.060 --> 01:01:54.680]  minus
+[01:01:54.680 --> 01:01:55.960]  1.77
+[01:01:55.960 --> 01:01:57.260]  is
+[01:01:57.260 --> 01:01:58.460]  4.62
+[01:01:58.460 --> 01:01:58.900]  volts.
+[01:01:59.100 --> 01:01:59.260]  So,
+[01:01:59.400 --> 01:01:59.620]  yes,
+[01:01:59.680 --> 01:02:00.300]  it is
+[01:02:00.300 --> 01:02:01.680]  on
+[01:02:01.680 --> 01:02:02.340]  and it's
+[01:02:02.340 --> 01:02:02.740]  in its
+[01:02:02.740 --> 01:02:03.780]  active region
+[01:02:03.780 --> 01:02:04.600]  perhaps not
+[01:02:04.600 --> 01:02:05.180]  particularly
+[01:02:05.180 --> 01:02:06.100]  well-centered
+[01:02:06.100 --> 01:02:07.200]  but what
+[01:02:07.200 --> 01:02:07.720]  the hell
+[01:02:07.720 --> 01:02:08.200]  it will
+[01:02:08.200 --> 01:02:08.620]  work.
+[01:02:08.780 --> 01:02:09.160]  It is
+[01:02:09.160 --> 01:02:09.420]  there.
+[01:02:09.540 --> 01:02:09.820]  It is
+[01:02:09.820 --> 01:02:10.260]  biased,
+[01:02:10.460 --> 01:02:10.680]  right?
+[01:02:10.760 --> 01:02:10.900]  So,
+[01:02:10.960 --> 01:02:11.220]  that's
+[01:02:11.220 --> 01:02:11.840]  your answer
+[01:02:11.840 --> 01:02:12.480]  for your
+[01:02:12.480 --> 01:02:13.120]  VCE.
+[01:02:14.360 --> 01:02:15.280]  We have
+[01:02:15.280 --> 01:02:16.280]  our IE
+[01:02:16.280 --> 01:02:17.460]  and therefore
+[01:02:17.460 --> 01:02:18.160]  we can
+[01:02:18.160 --> 01:02:18.800]  substitute
+[01:02:18.800 --> 01:02:19.680]  that into
+[01:02:19.680 --> 01:02:20.680]  this particular
+[01:02:20.680 --> 01:02:21.280]  equation
+[01:02:21.280 --> 01:02:22.420]  and say
+[01:02:22.420 --> 01:02:23.220]  that the
+[01:02:23.220 --> 01:02:23.680]  power
+[01:02:23.680 --> 01:02:24.480]  dissipation
+[01:02:24.480 --> 01:02:25.900]  is simply
+[01:02:25.900 --> 01:02:26.720]  equal to
+[01:02:26.720 --> 01:02:28.820]  1.476
+[01:02:28.820 --> 01:02:29.400]  milliamp
+[01:02:29.400 --> 01:02:29.920]  peres
+[01:02:29.920 --> 01:02:32.420]  times
+[01:02:32.420 --> 01:02:34.920]  4.623
+[01:02:34.920 --> 01:02:35.820]  volts
+[01:02:35.820 --> 01:02:37.360]  and that
+[01:02:37.360 --> 01:02:38.440]  gives us
+[01:02:38.440 --> 01:02:47.660]  6.82
+[01:02:47.660 --> 01:02:50.820]  milliwatt
+[01:02:50.820 --> 01:02:51.040]  all right
+[01:02:51.040 --> 01:02:54.780]  milliwatt
+[01:02:54.780 --> 01:02:55.320]  okay
+[01:02:55.320 --> 01:02:56.800]  there we go
+[01:02:56.800 --> 01:02:58.040]  the answer
+[01:02:58.040 --> 01:02:59.360]  all right
+[01:02:59.360 --> 01:03:01.880]  the answer
+[01:03:01.880 --> 01:03:02.520]  is there
+[01:03:02.520 --> 01:03:04.860]  6.82
+[01:03:04.860 --> 01:03:05.560]  milliwatt
+[01:03:05.560 --> 01:03:07.340]  give or take
+[01:03:07.340 --> 01:03:09.520]  questions
+[01:03:09.520 --> 01:03:14.080]  all right
+[01:03:14.080 --> 01:03:14.080] 
+[01:03:14.080 --> 01:03:15.080]  all right
+[01:03:15.080 --> 01:03:21.920]  well
+[01:03:21.920 --> 01:03:22.720]  DC biasing
+[01:03:22.720 --> 01:03:23.100]  is not
+[01:03:23.100 --> 01:03:23.620]  really that
+[01:03:23.620 --> 01:03:24.720]  if you have
+[01:03:24.720 --> 01:03:25.500]  the formulas
+[01:03:25.500 --> 01:03:25.960]  memorized
+[01:03:25.960 --> 01:03:26.700]  you know
+[01:03:26.700 --> 01:03:27.300]  you recognize
+[01:03:27.300 --> 01:03:27.880]  the
+[01:03:27.880 --> 01:03:29.000]  configuration
+[01:03:29.000 --> 01:03:29.840]  and
+[01:03:29.840 --> 01:03:30.920]  you have
+[01:03:30.920 --> 01:03:31.880]  the formulas
+[01:03:31.880 --> 01:03:32.320]  there
+[01:03:32.320 --> 01:03:33.560]  and
+[01:03:33.560 --> 01:03:34.400]  you're not
+[01:03:34.400 --> 01:03:35.040]  too bad
+[01:03:35.040 --> 01:03:36.020]  in recognizing
+[01:03:36.020 --> 01:03:36.480]  that hey
+[01:03:36.480 --> 01:03:36.820]  I can
+[01:03:36.820 --> 01:03:37.320]  substitute
+[01:03:37.320 --> 01:03:38.000]  this here
+[01:03:38.000 --> 01:03:38.520]  and there
+[01:03:38.520 --> 01:03:39.380]  and you'll
+[01:03:39.380 --> 01:03:39.940]  be fine
+[01:03:39.940 --> 01:03:41.300]  okay
+[01:03:41.300 --> 01:03:41.920]  you'll be
+[01:03:41.920 --> 01:03:42.300]  fine
+[01:03:42.300 --> 01:03:43.680]  most of
+[01:03:43.680 --> 01:03:44.100]  the time
+[01:03:44.100 --> 01:03:44.420]  it will
+[01:03:44.420 --> 01:03:45.360]  be a
+[01:03:45.360 --> 01:03:45.800]  problem
+[01:03:45.800 --> 01:03:46.300]  with
+[01:03:46.300 --> 01:03:47.560]  you know
+[01:03:47.560 --> 01:03:48.340]  more
+[01:03:48.340 --> 01:03:48.900]  a problem
+[01:03:48.900 --> 01:03:49.400]  with
+[01:03:49.400 --> 01:03:49.640]  with
+[01:03:49.640 --> 01:03:49.980]  these
+[01:03:49.980 --> 01:03:50.320]  single
+[01:03:50.320 --> 01:03:50.840]  transistor
+[01:03:50.840 --> 01:03:51.660]  configurations
+[01:03:51.660 --> 01:03:52.220]  it's
+[01:03:52.220 --> 01:03:53.600]  not really
+[01:03:53.600 --> 01:03:54.180]  difficult
+[01:03:54.180 --> 01:03:55.340]  at all
+[01:03:55.340 --> 01:03:56.220]  all right
+[01:03:56.220 --> 01:03:56.940]  okay
+[01:03:56.940 --> 01:03:58.020]  so there
+[01:03:58.020 --> 01:03:58.380]  we go
+[01:03:58.380 --> 01:03:59.260]  questions
+[01:03:59.260 --> 01:04:00.060]  questions
+[01:04:00.060 --> 01:04:00.360]  questions
+[01:04:00.360 --> 01:04:01.260]  questions
+[01:04:01.260 --> 01:04:01.260] 
+[01:04:01.260 --> 01:04:03.660]  no questions
+[01:04:03.660 --> 01:04:04.040]  I am
+[01:04:04.040 --> 01:04:04.500]  forward
+[01:04:04.500 --> 01:04:04.820]  no
+[01:04:04.820 --> 01:04:05.060]  no
+[01:04:05.060 --> 01:04:05.660]  slide
+[01:04:05.660 --> 01:04:09.480]  I am
+[01:04:09.480 --> 01:04:10.040]  forward
+[01:04:10.040 --> 01:04:10.960]  slide
+[01:04:10.960 --> 01:04:12.040]  okay
+[01:04:12.040 --> 01:04:14.300]  last time
+[01:04:14.300 --> 01:04:15.100]  and then
+[01:04:15.100 --> 01:04:15.380]  you wait
+[01:04:15.380 --> 01:04:15.640]  a few
+[01:04:15.640 --> 01:04:16.340]  moments
+[01:04:16.340 --> 01:04:19.640]  then
+[01:04:19.640 --> 01:04:20.880]  it will
+[01:04:20.880 --> 01:04:21.320]  be ready
+[01:04:21.320 --> 01:04:21.700]  to go
+[01:04:21.700 --> 01:04:22.140]  forward
+[01:04:22.140 --> 01:04:22.920]  maybe
+[01:04:22.920 --> 01:04:23.820]  right
+[01:04:23.820 --> 01:04:24.660]  maybe I
+[01:04:24.660 --> 01:04:24.900]  have to
+[01:04:24.900 --> 01:04:25.120]  click
+[01:04:25.120 --> 01:04:25.620]  something
+[01:04:25.620 --> 01:04:28.760]  so
+[01:04:28.760 --> 01:04:30.980]  show
+[01:04:30.980 --> 01:04:31.280]  fans
+[01:04:31.280 --> 01:04:31.780]  please
+[01:04:31.780 --> 01:04:32.720]  thumbs up
+[01:04:32.720 --> 01:04:33.180]  if there
+[01:04:33.180 --> 01:04:33.460]  are no
+[01:04:33.460 --> 01:04:33.780]  questions
+[01:04:33.780 --> 01:04:34.520]  about this
+[01:04:34.520 --> 01:04:35.180]  so far
+[01:04:35.180 --> 01:04:35.780]  are we
+[01:04:35.780 --> 01:04:36.140]  okay
+[01:04:36.140 --> 01:04:38.300]  yeah
+[01:04:38.300 --> 01:04:39.080]  all right
+[01:04:39.080 --> 01:04:41.360]  now it's
+[01:04:41.360 --> 01:04:42.080]  ready to go
+[01:04:42.080 --> 01:04:44.200]  determine
+[01:04:44.200 --> 01:04:44.820]  I sub
+[01:04:44.820 --> 01:04:45.160]  B in
+[01:04:45.160 --> 01:04:45.940]  microampere
+[01:04:45.940 --> 01:04:46.320]  I sub
+[01:04:46.320 --> 01:04:46.600]  C in
+[01:04:46.600 --> 01:04:47.100]  microampere
+[01:04:47.100 --> 01:04:47.720]  and V C
+[01:04:47.720 --> 01:04:48.720]  in volts
+[01:04:48.720 --> 01:04:49.340]  okay
+[01:04:49.340 --> 01:04:50.420]  sandali
+[01:04:50.420 --> 01:04:52.020]  let's
+[01:04:52.020 --> 01:04:53.000]  erase everything
+[01:04:53.000 --> 01:04:53.360]  here
+[01:04:53.360 --> 01:04:54.080]  clear
+[01:04:54.080 --> 01:04:58.040]  all right
+[01:04:58.040 --> 01:05:01.540]  okay
+[01:05:01.540 --> 01:05:02.760]  oh
+[01:05:02.760 --> 01:05:03.340]  another one
+[01:05:03.340 --> 01:05:03.660]  of these
+[01:05:03.660 --> 01:05:04.000]  ah
+[01:05:04.000 --> 01:05:05.680]  heh
+[01:05:05.680 --> 01:05:06.440]  oh
+[01:05:06.440 --> 01:05:07.560]  mahirap na
+[01:05:07.560 --> 01:05:08.240]  ito
+[01:05:08.240 --> 01:05:09.100]  oh
+[01:05:09.100 --> 01:05:09.280]  sige
+[01:05:09.280 --> 01:05:09.680]  try
+[01:05:09.680 --> 01:05:10.080]  nyo
+[01:05:10.080 --> 01:05:12.500]  might be
+[01:05:12.500 --> 01:05:12.720]  a little
+[01:05:12.720 --> 01:05:13.020]  bit
+[01:05:13.020 --> 01:05:14.340]  this is
+[01:05:14.340 --> 01:05:14.760]  just one
+[01:05:14.760 --> 01:05:15.200]  of those
+[01:05:15.200 --> 01:05:15.780]  it's just
+[01:05:15.780 --> 01:05:17.320]  a variation
+[01:05:17.320 --> 01:05:18.600]  or variant
+[01:05:18.600 --> 01:05:19.120]  in terms
+[01:05:19.120 --> 01:05:19.560]  of the
+[01:05:19.560 --> 01:05:20.800]  supply
+[01:05:20.800 --> 01:05:21.320]  voltage
+[01:05:21.320 --> 01:05:21.960]  maybe
+[01:05:21.960 --> 01:05:22.460]  it looks
+[01:05:22.460 --> 01:05:22.780]  a little
+[01:05:22.780 --> 01:05:23.780]  bit strange
+[01:05:23.780 --> 01:05:24.340]  but you
+[01:05:24.340 --> 01:05:24.560]  know
+[01:05:24.560 --> 01:05:25.080]  this is
+[01:05:25.080 --> 01:05:25.540]  perfectly
+[01:05:25.540 --> 01:05:26.020]  valid
+[01:05:26.020 --> 01:05:26.680]  this will
+[01:05:26.680 --> 01:05:27.140]  work
+[01:05:27.140 --> 01:05:28.080]  transistor
+[01:05:28.080 --> 01:05:28.620]  is quite
+[01:05:28.620 --> 01:05:29.040]  happy
+[01:05:29.040 --> 01:05:29.440]  it doesn't
+[01:05:29.440 --> 01:05:30.100]  really care
+[01:05:30.100 --> 01:05:31.180]  about
+[01:05:31.180 --> 01:05:32.740]  you know
+[01:05:32.740 --> 01:05:35.760]  absolute
+[01:05:35.760 --> 01:05:36.380]  voltages
+[01:05:36.380 --> 01:05:37.000]  as long
+[01:05:37.000 --> 01:05:37.340]  as the
+[01:05:37.340 --> 01:05:37.780]  voltages
+[01:05:37.780 --> 01:05:38.540]  are
+[01:05:38.540 --> 01:05:39.780]  are
+[01:05:39.780 --> 01:05:40.780]  correctly
+[01:05:40.780 --> 01:05:41.580]  applied
+[01:05:41.580 --> 01:05:42.160]  and it's
+[01:05:42.160 --> 01:05:42.500]  within
+[01:05:42.500 --> 01:05:42.860]  its
+[01:05:42.860 --> 01:05:44.440]  operating
+[01:05:44.440 --> 01:05:46.040]  parameters
+[01:05:46.040 --> 01:05:47.460]  all right
+[01:05:47.460 --> 01:05:47.760]  then
+[01:05:47.760 --> 01:05:48.460]  it
+[01:05:48.460 --> 01:05:49.420]  doesn't
+[01:05:49.420 --> 01:05:49.640]  really
+[01:05:49.640 --> 01:05:50.000]  care
+[01:05:50.000 --> 01:05:50.380]  it
+[01:05:50.380 --> 01:05:50.880]  should
+[01:05:50.880 --> 01:05:51.200]  work
+[01:05:51.200 --> 01:05:51.700]  properly
+[01:05:51.700 --> 01:05:52.060]  so
+[01:05:52.060 --> 01:05:53.040]  the only
+[01:05:53.040 --> 01:05:54.100]  problem
+[01:05:54.100 --> 01:05:54.540]  that you're
+[01:05:54.540 --> 01:05:54.700]  going to
+[01:05:54.700 --> 01:05:55.100]  have here
+[01:05:55.100 --> 01:05:55.420]  is your
+[01:05:55.420 --> 01:05:55.640]  own
+[01:05:55.640 --> 01:05:55.980]  brain
+[01:05:55.980 --> 01:05:56.280]  not
+[01:05:56.280 --> 01:05:56.900]  accepting
+[01:05:56.900 --> 01:05:57.500]  and not
+[01:05:57.500 --> 01:05:58.420]  understanding
+[01:05:58.420 --> 01:05:59.040]  how to
+[01:05:59.040 --> 01:06:00.080]  rewrite
+[01:06:00.080 --> 01:06:00.720]  or
+[01:06:00.720 --> 01:06:02.880]  re-reference
+[01:06:02.880 --> 01:06:03.740]  your
+[01:06:03.740 --> 01:06:07.660]  calculations
+[01:06:07.660 --> 01:06:09.980]  to be
+[01:06:09.980 --> 01:06:10.540]  able to
+[01:06:10.540 --> 01:06:10.980]  get the
+[01:06:10.980 --> 01:06:11.360]  correct
+[01:06:11.360 --> 01:06:11.900]  answer
+[01:06:11.900 --> 01:06:12.440]  it's
+[01:06:12.440 --> 01:06:13.060]  basically
+[01:06:13.060 --> 01:06:13.820]  the
+[01:06:13.820 --> 01:06:14.300]  formulas
+[01:06:14.300 --> 01:06:14.740]  are not
+[01:06:14.740 --> 01:06:15.140]  going to
+[01:06:15.140 --> 01:06:15.840]  change
+[01:06:15.840 --> 01:06:16.620]  all right
+[01:06:16.620 --> 01:06:17.300]  formulas
+[01:06:17.300 --> 01:06:17.740]  are not
+[01:06:17.740 --> 01:06:18.120]  going to
+[01:06:18.120 --> 01:06:18.660]  change
+[01:06:18.660 --> 01:06:19.420]  it's
+[01:06:19.420 --> 01:06:19.880]  exactly
+[01:06:19.880 --> 01:06:20.400]  the same
+[01:06:20.400 --> 01:06:20.840]  set of
+[01:06:20.840 --> 01:06:21.340]  formulas
+[01:06:21.340 --> 01:06:22.400]  it's just
+[01:06:22.400 --> 01:06:22.940]  the question
+[01:06:22.940 --> 01:06:23.860]  of how
+[01:06:23.860 --> 01:06:24.260]  do you
+[01:06:24.260 --> 01:06:24.960]  reference
+[01:06:24.960 --> 01:06:25.460]  the
+[01:06:25.460 --> 01:06:25.960]  voltages
+[01:06:25.960 --> 01:06:27.340]  all right
+[01:06:27.340 --> 01:06:33.360]  all right
+[01:06:33.360 --> 01:06:33.580]  so
+[01:06:33.580 --> 01:06:34.080]  looking at
+[01:06:34.080 --> 01:06:34.480]  this
+[01:06:34.480 --> 01:06:35.220]  all right
+[01:06:35.220 --> 01:06:35.560]  the
+[01:06:35.560 --> 01:06:36.640]  main
+[01:06:36.640 --> 01:06:37.200]  difference
+[01:06:37.200 --> 01:06:37.540]  here
+[01:06:37.540 --> 01:06:38.160]  is that
+[01:06:38.160 --> 01:06:39.040]  the
+[01:06:39.040 --> 01:06:40.300]  instead
+[01:06:40.300 --> 01:06:40.720]  of
+[01:06:40.720 --> 01:06:41.320]  ground
+[01:06:41.320 --> 01:06:41.980]  we are
+[01:06:41.980 --> 01:06:42.440]  now
+[01:06:42.440 --> 01:06:43.200]  at
+[01:06:43.200 --> 01:06:43.820]  negative
+[01:06:43.820 --> 01:06:44.540]  12
+[01:06:44.540 --> 01:06:46.120]  as
+[01:06:46.120 --> 01:06:46.840]  our
+[01:06:46.840 --> 01:06:48.280]  emitter
+[01:06:48.280 --> 01:06:49.640]  connection
+[01:06:49.640 --> 01:06:50.340]  our
+[01:06:50.340 --> 01:06:50.720]  emitter
+[01:06:50.720 --> 01:06:51.180]  resistor
+[01:06:51.180 --> 01:06:51.820]  is connected
+[01:06:51.820 --> 01:06:52.100]  to
+[01:06:52.100 --> 01:06:52.560]  negative
+[01:06:52.560 --> 01:06:53.300]  12
+[01:06:53.300 --> 01:06:56.740]  okay
+[01:06:56.740 --> 01:06:57.920]  and
+[01:06:57.920 --> 01:06:58.900]  not a
+[01:06:58.900 --> 01:06:59.380]  big deal
+[01:06:59.380 --> 01:07:00.520]  right
+[01:07:00.520 --> 01:07:01.280]  not a
+[01:07:01.280 --> 01:07:01.720]  big deal
+[01:07:01.720 --> 01:07:03.080]  so
+[01:07:03.080 --> 01:07:03.760]  two ways
+[01:07:03.760 --> 01:07:03.920]  of
+[01:07:03.920 --> 01:07:04.260]  tackling
+[01:07:04.260 --> 01:07:04.560]  this
+[01:07:04.560 --> 01:07:05.100]  problem
+[01:07:05.100 --> 01:07:05.700]  essentially
+[01:07:05.700 --> 01:07:06.360]  if you
+[01:07:06.360 --> 01:07:07.040]  look at
+[01:07:07.040 --> 01:07:07.580]  it and
+[01:07:07.580 --> 01:07:08.520]  let your
+[01:07:08.520 --> 01:07:08.980]  mind
+[01:07:08.980 --> 01:07:10.060]  accept
+[01:07:10.060 --> 01:07:10.420]  it
+[01:07:10.420 --> 01:07:11.440]  all right
+[01:07:11.440 --> 01:07:11.860]  and just
+[01:07:11.860 --> 01:07:12.440]  simply say
+[01:07:12.440 --> 01:07:13.140]  that well
+[01:07:13.140 --> 01:07:14.640]  I used
+[01:07:14.640 --> 01:07:15.500]  to have
+[01:07:15.500 --> 01:07:16.460]  circuits
+[01:07:16.460 --> 01:07:17.160]  where
+[01:07:17.160 --> 01:07:17.540]  the
+[01:07:17.540 --> 01:07:18.280]  reference
+[01:07:18.280 --> 01:07:19.660]  for all
+[01:07:19.660 --> 01:07:20.320]  measurements
+[01:07:20.320 --> 01:07:20.640]  is
+[01:07:20.640 --> 01:07:21.540]  ground
+[01:07:21.540 --> 01:07:23.220]  aka
+[01:07:23.220 --> 01:07:24.040]  zero
+[01:07:24.040 --> 01:07:24.680]  volts
+[01:07:24.680 --> 01:07:26.040]  ground
+[01:07:26.040 --> 01:07:27.640]  right
+[01:07:27.640 --> 01:07:28.380]  now
+[01:07:28.380 --> 01:07:29.200]  in this
+[01:07:29.200 --> 01:07:29.540]  case
+[01:07:29.540 --> 01:07:29.920]  if I
+[01:07:29.920 --> 01:07:30.300]  wanted
+[01:07:30.300 --> 01:07:30.840]  to use
+[01:07:30.840 --> 01:07:31.320]  exactly
+[01:07:31.320 --> 01:07:31.800]  the same
+[01:07:31.800 --> 01:07:32.200]  thing
+[01:07:32.200 --> 01:07:33.360]  then I
+[01:07:33.360 --> 01:07:33.860]  can say
+[01:07:33.860 --> 01:07:34.880]  that my
+[01:07:34.880 --> 01:07:35.520]  reference
+[01:07:35.520 --> 01:07:36.100]  is
+[01:07:36.100 --> 01:07:37.000]  negative
+[01:07:37.000 --> 01:07:37.660]  12
+[01:07:37.660 --> 01:07:38.160]  volts
+[01:07:38.160 --> 01:07:39.320]  all right
+[01:07:39.320 --> 01:07:40.040]  your
+[01:07:40.040 --> 01:07:40.520]  reference
+[01:07:40.520 --> 01:07:41.100]  is
+[01:07:41.100 --> 01:07:41.780]  negative
+[01:07:41.780 --> 01:07:42.620]  12
+[01:07:42.620 --> 01:07:43.300]  volts
+[01:07:43.300 --> 01:07:45.000]  right
+[01:07:45.000 --> 01:07:45.700]  if you're
+[01:07:45.700 --> 01:07:46.060]  having a
+[01:07:46.060 --> 01:07:46.420]  hard time
+[01:07:46.420 --> 01:07:47.120]  visualizing
+[01:07:47.120 --> 01:07:47.340]  that
+[01:07:47.340 --> 01:07:47.800]  just think
+[01:07:47.800 --> 01:07:48.320]  of yourself
+[01:07:48.320 --> 01:07:49.340]  staring
+[01:07:49.340 --> 01:07:49.980]  at a
+[01:07:49.980 --> 01:07:50.240]  you know
+[01:07:50.240 --> 01:07:50.800]  a building
+[01:07:50.800 --> 01:07:52.660]  with an
+[01:07:52.660 --> 01:07:53.120]  underground
+[01:07:53.120 --> 01:07:53.820]  basement
+[01:07:53.820 --> 01:07:54.340]  this is
+[01:07:54.340 --> 01:07:54.700]  your
+[01:07:54.700 --> 01:07:56.320]  ground
+[01:07:56.320 --> 01:07:57.540]  level
+[01:07:57.540 --> 01:07:58.820]  all right
+[01:07:58.820 --> 01:07:59.920]  this is
+[01:07:59.920 --> 01:08:00.540]  where
+[01:08:00.540 --> 01:08:01.240]  cars
+[01:08:01.240 --> 01:08:02.320]  and buses
+[01:08:02.320 --> 01:08:03.680]  and people
+[01:08:03.680 --> 01:08:04.720]  are normally
+[01:08:04.720 --> 01:08:05.160]  work
+[01:08:05.160 --> 01:08:05.900]  you know
+[01:08:05.900 --> 01:08:06.200]  walking
+[01:08:06.200 --> 01:08:07.060]  bakit hindi
+[01:08:07.060 --> 01:08:07.620]  naman mukhang
+[01:08:07.620 --> 01:08:08.580]  kotse yan
+[01:08:08.580 --> 01:08:08.980]  okay
+[01:08:08.980 --> 01:08:09.520]  and dito yung
+[01:08:09.520 --> 01:08:09.880]  bus
+[01:08:09.880 --> 01:08:10.580]  or whatever
+[01:08:10.580 --> 01:08:11.880]  all right
+[01:08:11.880 --> 01:08:12.720]  and dito yung
+[01:08:12.720 --> 01:08:14.120]  stoplight
+[01:08:14.120 --> 01:08:15.900]  stoplight
+[01:08:15.900 --> 01:08:16.420]  ni Juan
+[01:08:16.420 --> 01:08:17.120]  okay
+[01:08:17.120 --> 01:08:17.680]  so ito yung
+[01:08:17.680 --> 01:08:18.120]  building
+[01:08:18.120 --> 01:08:20.160]  okay
+[01:08:20.160 --> 01:08:21.640]  meron siyang
+[01:08:21.640 --> 01:08:22.200]  basement
+[01:08:22.200 --> 01:08:23.580]  oh
+[01:08:23.580 --> 01:08:24.420]  ayan
+[01:08:24.420 --> 01:08:24.940]  okay
+[01:08:24.940 --> 01:08:25.680]  so yan yung
+[01:08:25.680 --> 01:08:26.540]  normal ground
+[01:08:26.540 --> 01:08:27.000]  ito yung
+[01:08:27.000 --> 01:08:27.540]  normal na
+[01:08:27.540 --> 01:08:28.320]  iniisip mong
+[01:08:28.320 --> 01:08:28.840]  zero
+[01:08:28.840 --> 01:08:30.140]  all right
+[01:08:30.140 --> 01:08:31.140]  so meron tayong
+[01:08:31.140 --> 01:08:31.580]  floors
+[01:08:31.580 --> 01:08:32.460]  pataas
+[01:08:32.460 --> 01:08:34.580]  okay
+[01:08:34.580 --> 01:08:35.780]  up to the
+[01:08:35.780 --> 01:08:36.920]  12th
+[01:08:36.920 --> 01:08:37.340]  floor
+[01:08:37.340 --> 01:08:39.140]  all right
+[01:08:39.140 --> 01:08:40.300]  I want to go
+[01:08:40.300 --> 01:08:41.340]  to the 12th
+[01:08:41.340 --> 01:08:41.720]  floor
+[01:08:41.720 --> 01:08:42.580]  why would you
+[01:08:42.580 --> 01:08:43.340]  want to do that
+[01:08:43.340 --> 01:08:44.040]  nandun kasi
+[01:08:44.040 --> 01:08:44.500]  yung
+[01:08:44.500 --> 01:08:46.800]  sa Andrew
+[01:08:46.800 --> 01:08:47.000]  ba
+[01:08:47.000 --> 01:08:47.180]  ano
+[01:08:47.180 --> 01:08:47.520]  nasa
+[01:08:47.520 --> 01:08:47.880]  12th
+[01:08:47.880 --> 01:08:48.120]  floor
+[01:08:48.120 --> 01:08:49.300]  okay
+[01:08:49.300 --> 01:08:50.240]  I think
+[01:08:50.240 --> 01:08:50.660]  that's where
+[01:08:50.660 --> 01:08:50.920]  the
+[01:08:50.920 --> 01:08:52.100]  you know
+[01:08:52.100 --> 01:08:52.880]  prayer area
+[01:08:52.880 --> 01:08:53.300]  is or
+[01:08:53.300 --> 01:08:53.680]  whatever
+[01:08:53.680 --> 01:08:54.180]  I don't
+[01:08:54.180 --> 01:08:54.600]  remember
+[01:08:54.600 --> 01:08:55.820]  never go
+[01:08:55.820 --> 01:08:56.080]  to the
+[01:08:56.080 --> 01:08:56.340]  12th
+[01:08:56.340 --> 01:08:56.540]  floor
+[01:08:56.540 --> 01:08:57.440]  all right
+[01:08:57.440 --> 01:08:57.880]  and let's
+[01:08:57.880 --> 01:08:58.260]  pretend
+[01:08:58.260 --> 01:08:59.000]  that Andrew
+[01:08:59.000 --> 01:08:59.380]  has
+[01:08:59.380 --> 01:08:59.940]  basement
+[01:08:59.940 --> 01:09:02.760]  all the way
+[01:09:02.760 --> 01:09:03.380]  to the
+[01:09:03.380 --> 01:09:03.880]  negative
+[01:09:03.880 --> 01:09:05.180]  12th
+[01:09:05.180 --> 01:09:06.440]  floor
+[01:09:06.440 --> 01:09:07.600]  all right
+[01:09:07.600 --> 01:09:09.760]  undergrad
+[01:09:09.760 --> 01:09:10.600]  parking
+[01:09:10.600 --> 01:09:11.440]  hanggang
+[01:09:11.440 --> 01:09:11.960]  negative
+[01:09:11.960 --> 01:09:12.500]  12
+[01:09:12.500 --> 01:09:15.380]  b1
+[01:09:15.380 --> 01:09:16.020]  b2
+[01:09:16.020 --> 01:09:16.620]  b3
+[01:09:16.620 --> 01:09:17.120]  hanggang
+[01:09:17.120 --> 01:09:17.960]  d12
+[01:09:17.960 --> 01:09:19.060]  basement
+[01:09:19.060 --> 01:09:19.700]  12
+[01:09:19.700 --> 01:09:21.120]  parking
+[01:09:21.120 --> 01:09:21.640]  wow
+[01:09:21.640 --> 01:09:22.200]  dami
+[01:09:22.200 --> 01:09:22.520]  naman
+[01:09:22.520 --> 01:09:23.880]  all right
+[01:09:23.880 --> 01:09:25.220]  so yun lang
+[01:09:25.220 --> 01:09:26.660]  ngayon
+[01:09:26.660 --> 01:09:28.020]  you got used
+[01:09:28.020 --> 01:09:28.680]  to measuring
+[01:09:28.680 --> 01:09:29.640]  from ground
+[01:09:29.640 --> 01:09:30.780]  up to any
+[01:09:30.780 --> 01:09:31.680]  voltage
+[01:09:31.680 --> 01:09:33.820]  any floor
+[01:09:33.820 --> 01:09:34.700]  upwards
+[01:09:34.700 --> 01:09:35.320]  all right
+[01:09:35.320 --> 01:09:35.680]  now
+[01:09:35.680 --> 01:09:36.400]  you're
+[01:09:36.400 --> 01:09:37.080]  standing
+[01:09:37.080 --> 01:09:37.780]  here
+[01:09:37.780 --> 01:09:39.480]  and measuring
+[01:09:39.480 --> 01:09:40.560]  all voltages
+[01:09:40.560 --> 01:09:41.860]  with reference
+[01:09:41.860 --> 01:09:42.300]  to
+[01:09:42.300 --> 01:09:43.880]  this one
+[01:09:43.880 --> 01:09:44.800]  okay
+[01:09:44.800 --> 01:09:45.340]  oh
+[01:09:45.340 --> 01:09:45.920]  now
+[01:09:45.920 --> 01:09:46.680]  is that hard
+[01:09:46.680 --> 01:09:47.520]  nah
+[01:09:47.520 --> 01:09:48.340]  not really
+[01:09:48.340 --> 01:09:49.760]  same banana
+[01:09:49.760 --> 01:09:51.140]  okay
+[01:09:51.140 --> 01:09:51.920]  all right
+[01:09:51.920 --> 01:09:53.200]  same banana
+[01:09:53.200 --> 01:09:53.960]  just bigger
+[01:09:53.960 --> 01:09:55.400]  more flows
+[01:09:55.400 --> 01:09:56.400]  oh
+[01:09:56.400 --> 01:09:57.440]  determine
+[01:09:57.440 --> 01:09:58.060]  IB
+[01:09:58.060 --> 01:09:59.060]  IC
+[01:09:59.060 --> 01:10:00.360]  and BCE
+[01:10:00.360 --> 01:10:01.880]  there you go
+[01:10:01.880 --> 01:10:02.700]  go try it
+[01:10:02.700 --> 01:10:04.160]  okay
+[01:10:04.160 --> 01:10:07.120]  nasaan siya
+[01:10:07.120 --> 01:10:07.860]  nasaan
+[01:10:07.860 --> 01:10:08.520]  ano ang
+[01:10:08.520 --> 01:10:09.820]  values
+[01:10:09.820 --> 01:10:10.360]  natin
+[01:10:10.360 --> 01:10:16.920]  okay
+[01:10:16.920 --> 01:10:19.600]  all right
+[01:10:19.600 --> 01:10:20.660]  so first
+[01:10:20.660 --> 01:10:21.260]  things first
+[01:10:21.260 --> 01:10:22.160]  all right
+[01:10:22.160 --> 01:10:22.760]  if you're
+[01:10:22.760 --> 01:10:23.380]  having some
+[01:10:23.380 --> 01:10:24.020]  difficulty
+[01:10:24.020 --> 01:10:24.640]  again
+[01:10:24.640 --> 01:10:25.180]  this is
+[01:10:25.180 --> 01:10:25.620]  just
+[01:10:25.620 --> 01:10:26.160]  your
+[01:10:26.160 --> 01:10:27.980]  emitter
+[01:10:27.980 --> 01:10:28.840]  stabilized
+[01:10:28.840 --> 01:10:29.940]  circuit
+[01:10:29.940 --> 01:10:31.880]  all right
+[01:10:31.880 --> 01:10:32.600]  nothing
+[01:10:32.600 --> 01:10:33.540]  really
+[01:10:33.540 --> 01:10:34.500]  special
+[01:10:34.500 --> 01:10:35.320]  about it
+[01:10:35.320 --> 01:10:36.560]  so follow
+[01:10:36.560 --> 01:10:36.900]  the
+[01:10:36.900 --> 01:10:37.500]  emitter
+[01:10:37.500 --> 01:10:38.240]  stabilized
+[01:10:38.240 --> 01:10:39.960]  circuit
+[01:10:39.960 --> 01:10:41.960]  equations
+[01:10:41.960 --> 01:10:42.960]  for that
+[01:10:42.960 --> 01:10:43.300]  matter
+[01:10:43.300 --> 01:10:44.440]  okay
+[01:10:44.440 --> 01:10:45.640]  all right
+[01:10:45.640 --> 01:10:47.160]  and
+[01:10:47.160 --> 01:10:47.840]  the only
+[01:10:47.840 --> 01:10:48.760]  big difference
+[01:10:48.760 --> 01:10:50.600]  is the
+[01:10:50.600 --> 01:10:51.100]  recognition
+[01:10:51.100 --> 01:10:51.940]  again that
+[01:10:51.940 --> 01:10:52.380]  your
+[01:10:52.380 --> 01:10:53.260]  reference
+[01:10:53.260 --> 01:10:53.940]  starts
+[01:10:53.940 --> 01:10:54.420]  from
+[01:10:54.420 --> 01:10:55.060]  here
+[01:10:55.060 --> 01:10:56.440]  therefore
+[01:10:56.440 --> 01:10:57.620]  if you
+[01:10:57.620 --> 01:10:58.500]  want to
+[01:10:58.500 --> 01:10:59.900]  be
+[01:10:59.900 --> 01:11:00.680]  rather
+[01:11:00.680 --> 01:11:01.220]  obvious
+[01:11:01.220 --> 01:11:02.520]  you need
+[01:11:02.520 --> 01:11:02.780]  that
+[01:11:02.780 --> 01:11:03.280]  helping
+[01:11:03.280 --> 01:11:03.960]  statement
+[01:11:03.960 --> 01:11:04.940]  all right
+[01:11:04.940 --> 01:11:06.540]  if you
+[01:11:06.540 --> 01:11:07.320]  were asked
+[01:11:07.320 --> 01:11:08.080]  all right
+[01:11:08.080 --> 01:11:08.520]  you can
+[01:11:08.520 --> 01:11:09.220]  say that
+[01:11:09.220 --> 01:11:09.700]  this is
+[01:11:09.700 --> 01:11:10.400]  the equivalent
+[01:11:10.400 --> 01:11:11.400]  of well
+[01:11:11.400 --> 01:11:12.180]  where I
+[01:11:12.180 --> 01:11:12.980]  am referencing
+[01:11:12.980 --> 01:11:13.480]  it I
+[01:11:13.480 --> 01:11:13.880]  want to
+[01:11:13.880 --> 01:11:14.380]  use that
+[01:11:14.380 --> 01:11:14.920]  as my
+[01:11:14.920 --> 01:11:15.560]  zero
+[01:11:15.560 --> 01:11:16.580]  you want
+[01:11:16.580 --> 01:11:16.860]  to put
+[01:11:16.860 --> 01:11:17.640]  your quotation
+[01:11:17.640 --> 01:11:18.220]  marks
+[01:11:18.220 --> 01:11:18.540]  there
+[01:11:18.540 --> 01:11:19.660]  so if
+[01:11:19.660 --> 01:11:20.240]  this is
+[01:11:20.240 --> 01:11:20.760]  considered
+[01:11:20.760 --> 01:11:21.500]  for you
+[01:11:21.500 --> 01:11:22.040]  to be
+[01:11:22.040 --> 01:11:23.000]  zero
+[01:11:23.000 --> 01:11:24.980]  okay
+[01:11:24.980 --> 01:11:26.920]  what is
+[01:11:26.920 --> 01:11:27.880]  this voltage
+[01:11:27.880 --> 01:11:28.620]  relative
+[01:11:28.620 --> 01:11:29.540]  to zero
+[01:11:29.540 --> 01:11:30.080]  well I
+[01:11:30.080 --> 01:11:30.640]  gotta go
+[01:11:30.640 --> 01:11:31.900]  up from
+[01:11:31.900 --> 01:11:32.420]  my
+[01:11:32.420 --> 01:11:33.100]  negative
+[01:11:33.100 --> 01:11:33.800]  12
+[01:11:33.800 --> 01:11:34.640]  basement
+[01:11:34.640 --> 01:11:35.300]  all the
+[01:11:35.300 --> 01:11:35.680]  way to
+[01:11:35.680 --> 01:11:36.220]  the ground
+[01:11:36.220 --> 01:11:36.620]  floor
+[01:11:36.620 --> 01:11:37.120]  so that's
+[01:11:37.120 --> 01:11:39.240]  plus 12
+[01:11:39.240 --> 01:11:40.380]  to go up
+[01:11:40.380 --> 01:11:40.800]  to the
+[01:11:40.800 --> 01:11:41.140]  ground
+[01:11:41.140 --> 01:11:41.980]  plus
+[01:11:41.980 --> 01:11:42.840]  another
+[01:11:42.840 --> 01:11:43.960]  12 to
+[01:11:43.960 --> 01:11:44.500]  go up
+[01:11:44.500 --> 01:11:45.080]  to the
+[01:11:45.080 --> 01:11:45.540]  actual
+[01:11:45.540 --> 01:11:46.500]  12 floor
+[01:11:46.500 --> 01:11:46.920]  of the
+[01:11:46.920 --> 01:11:47.280]  building
+[01:11:47.280 --> 01:11:48.180]  so from
+[01:11:48.180 --> 01:11:48.940]  here all
+[01:11:48.940 --> 01:11:49.260]  the way
+[01:11:49.260 --> 01:11:49.700]  up to
+[01:11:49.700 --> 01:11:50.220]  here
+[01:11:50.220 --> 01:11:51.320]  is actually
+[01:11:51.320 --> 01:11:52.500]  24
+[01:11:52.500 --> 01:11:54.740]  volts
+[01:11:54.740 --> 01:11:55.720]  okay
+[01:11:55.720 --> 01:11:56.800]  all right
+[01:11:56.800 --> 01:11:57.260]  and so
+[01:11:57.260 --> 01:11:58.440]  now
+[01:11:58.440 --> 01:11:59.120]  for those
+[01:11:59.120 --> 01:11:59.740]  equations
+[01:11:59.740 --> 01:12:00.320]  that you
+[01:12:00.320 --> 01:12:00.880]  got used
+[01:12:00.880 --> 01:12:01.640]  to seeing
+[01:12:01.640 --> 01:12:02.340]  pag sinabi
+[01:12:02.340 --> 01:12:02.660]  niyang
+[01:12:02.660 --> 01:12:03.600]  VCC
+[01:12:03.600 --> 01:12:04.560]  for example
+[01:12:04.560 --> 01:12:05.540]  dati
+[01:12:05.540 --> 01:12:06.280]  sa substitute
+[01:12:06.280 --> 01:12:06.680]  mo lang
+[01:12:06.680 --> 01:12:07.140]  deretso
+[01:12:07.140 --> 01:12:07.620]  12
+[01:12:07.620 --> 01:12:08.160]  kasi
+[01:12:08.160 --> 01:12:08.980]  ground
+[01:12:08.980 --> 01:12:09.820]  ang basis
+[01:12:09.820 --> 01:12:10.080]  mo
+[01:12:10.080 --> 01:12:10.540]  zero
+[01:12:10.540 --> 01:12:11.740]  now that
+[01:12:11.740 --> 01:12:11.940]  you're
+[01:12:11.940 --> 01:12:12.360]  standing
+[01:12:12.360 --> 01:12:12.860]  at the
+[01:12:12.860 --> 01:12:13.420]  basement
+[01:12:13.420 --> 01:12:14.460]  negative
+[01:12:14.460 --> 01:12:14.960]  12
+[01:12:14.960 --> 01:12:15.340]  floor
+[01:12:15.340 --> 01:12:16.260]  your
+[01:12:16.260 --> 01:12:17.080]  12
+[01:12:17.080 --> 01:12:17.420]  volts
+[01:12:17.420 --> 01:12:17.660]  here
+[01:12:17.660 --> 01:12:18.560]  is actually
+[01:12:18.560 --> 01:12:19.560]  24
+[01:12:19.560 --> 01:12:20.300]  volts
+[01:12:20.300 --> 01:12:21.000]  away
+[01:12:21.000 --> 01:12:21.560]  from
+[01:12:21.560 --> 01:12:21.820]  the
+[01:12:21.820 --> 01:12:22.320]  reference
+[01:12:22.320 --> 01:12:22.740]  and so
+[01:12:22.740 --> 01:12:23.660]  you substitute
+[01:12:23.660 --> 01:12:25.280]  24
+[01:12:25.280 --> 01:12:26.700]  instead
+[01:12:26.700 --> 01:12:27.740]  of just
+[01:12:27.740 --> 01:12:28.560]  12
+[01:12:28.560 --> 01:12:29.540]  okay
+[01:12:29.540 --> 01:12:30.600]  all right
+[01:12:30.600 --> 01:12:30.900]  and you
+[01:12:30.900 --> 01:12:31.320]  take it
+[01:12:31.320 --> 01:12:31.820]  from there
+[01:12:31.820 --> 01:12:33.220]  to make
+[01:12:33.220 --> 01:12:34.000]  your calculations
+[01:12:34.000 --> 01:12:34.860]  because if
+[01:12:34.860 --> 01:12:35.500]  not then
+[01:12:35.500 --> 01:12:36.280]  you know
+[01:12:36.280 --> 01:12:36.780]  you're not
+[01:12:36.780 --> 01:12:37.220]  going to be
+[01:12:37.220 --> 01:12:37.840]  calculating
+[01:12:37.840 --> 01:12:38.600]  the correct
+[01:12:38.600 --> 01:12:39.100]  IB
+[01:12:39.100 --> 01:12:40.100]  and so on
+[01:12:40.100 --> 01:12:40.560]  and so
+[01:12:40.560 --> 01:12:41.280]  forth
+[01:12:41.280 --> 01:12:42.480]  blah blah
+[01:12:42.480 --> 01:12:43.120]  yada yada
+[01:12:43.120 --> 01:12:43.660]  good luck
+[01:12:43.660 --> 01:12:44.300]  all right
+[01:12:44.300 --> 01:12:45.520]  so we'll
+[01:12:45.520 --> 01:12:45.980]  leave that
+[01:12:45.980 --> 01:12:46.800]  up to you
+[01:12:46.800 --> 01:12:47.540]  as a
+[01:12:47.540 --> 01:12:48.400]  major
+[01:12:48.400 --> 01:12:49.280]  mental
+[01:12:49.280 --> 01:12:49.940]  exercise
+[01:12:49.940 --> 01:12:50.760]  because
+[01:12:50.760 --> 01:12:51.280]  you know
+[01:12:51.280 --> 01:12:51.620]  hey
+[01:12:51.620 --> 01:12:52.960]  and you
+[01:12:52.960 --> 01:12:53.320]  have to
+[01:12:53.320 --> 01:12:53.700]  use your
+[01:12:53.700 --> 01:12:54.000]  brain
+[01:12:54.000 --> 01:12:54.500]  at one
+[01:12:54.500 --> 01:12:54.860]  point
+[01:12:54.860 --> 01:12:55.480]  in time
+[01:12:55.480 --> 01:12:57.540]  all right
+[01:12:57.540 --> 01:12:58.660]  so sample
+[01:12:58.660 --> 01:12:59.480]  problem
+[01:12:59.480 --> 01:12:59.940]  okay
+[01:12:59.940 --> 01:13:00.920]  ayan
+[01:13:00.920 --> 01:13:02.220]  medyo mas
+[01:13:02.220 --> 01:13:03.180]  challenging
+[01:13:03.180 --> 01:13:03.700]  ng kote
+[01:13:03.700 --> 01:13:04.260]  binigay ko
+[01:13:04.260 --> 01:13:04.680]  na lahat
+[01:13:04.680 --> 01:13:05.340]  ng clues
+[01:13:05.340 --> 01:13:06.620]  na kailangan
+[01:13:06.620 --> 01:13:07.620]  and explanations
+[01:13:07.620 --> 01:13:08.240]  okay
+[01:13:08.240 --> 01:13:08.700]  so there you
+[01:13:08.700 --> 01:13:09.220]  go with that
+[01:13:09.220 --> 01:13:10.360]  okay
+[01:13:10.360 --> 01:13:11.660]  all right
+[01:13:11.660 --> 01:13:13.480]  so much
+[01:13:13.480 --> 01:13:14.160]  there are so
+[01:13:14.160 --> 01:13:14.660]  many other
+[01:13:14.660 --> 01:13:15.300]  examples
+[01:13:15.300 --> 01:13:16.040]  here
+[01:13:16.040 --> 01:13:17.480]  but again
+[01:13:17.480 --> 01:13:18.300]  we're going
+[01:13:18.300 --> 01:13:18.800]  to be reaching
+[01:13:18.800 --> 01:13:19.140]  a point
+[01:13:19.140 --> 01:13:19.580]  where it's
+[01:13:19.580 --> 01:13:20.340]  ridiculously
+[01:13:20.340 --> 01:13:21.060]  ahead
+[01:13:21.060 --> 01:13:21.720]  already
+[01:13:21.720 --> 01:13:22.980]  of the
+[01:13:22.980 --> 01:13:23.180]  other
+[01:13:23.180 --> 01:13:23.660]  class
+[01:13:23.660 --> 01:13:24.220]  so
+[01:13:24.220 --> 01:13:24.720]  well
+[01:13:24.720 --> 01:13:25.100]  medyo
+[01:13:25.100 --> 01:13:25.500]  bitin
+[01:13:25.500 --> 01:13:25.800]  pero
+[01:13:25.800 --> 01:13:26.000]  yun
+[01:13:26.000 --> 01:13:26.140]  nga
+[01:13:26.140 --> 01:13:26.500]  we leave
+[01:13:26.500 --> 01:13:26.640]  that
+[01:13:26.640 --> 01:13:27.180]  open
+[01:13:27.180 --> 01:13:28.440]  for
+[01:13:28.440 --> 01:13:29.080]  discussion
+[01:13:29.080 --> 01:13:29.980]  on
+[01:13:29.980 --> 01:13:30.400]  thursday
+[01:13:30.400 --> 01:13:31.120]  and
+[01:13:31.120 --> 01:13:31.540]  there's
+[01:13:31.540 --> 01:13:31.760]  also
+[01:13:31.760 --> 01:13:32.020]  this
+[01:13:32.020 --> 01:13:32.320]  last
+[01:13:32.320 --> 01:13:32.600]  part
+[01:13:32.600 --> 01:13:32.760]  of
+[01:13:32.760 --> 01:13:32.920]  the
+[01:13:32.920 --> 01:13:33.240]  lesson
+[01:13:33.240 --> 01:13:33.780]  which
+[01:13:33.780 --> 01:13:34.320]  is
+[01:13:34.320 --> 01:13:35.240]  transistors
+[01:13:35.240 --> 01:13:35.820]  being used
+[01:13:35.820 --> 01:13:36.200]  as a
+[01:13:36.200 --> 01:13:36.580]  switch
+[01:13:36.580 --> 01:13:38.280]  that's
+[01:13:38.280 --> 01:13:39.400]  actually
+[01:13:39.400 --> 01:13:39.820]  already
+[01:13:39.820 --> 01:13:40.460]  outside
+[01:13:40.460 --> 01:13:41.160]  of the
+[01:13:41.160 --> 01:13:41.820]  providence
+[01:13:41.820 --> 01:13:42.220]  of
+[01:13:42.220 --> 01:13:42.700]  well
+[01:13:42.700 --> 01:13:43.880]  we can
+[01:13:43.880 --> 01:13:44.160]  include
+[01:13:44.160 --> 01:13:45.280]  too much
+[01:13:45.280 --> 01:13:45.740]  coverage
+[01:13:45.740 --> 01:13:46.020]  but
+[01:13:46.020 --> 01:13:46.640]  you know
+[01:13:46.640 --> 01:13:47.240]  transistors
+[01:13:47.240 --> 01:13:47.740]  as a switch
+[01:13:47.740 --> 01:13:50.020]  as a switch
+[01:13:50.020 --> 01:13:50.700]  is actually
+[01:13:50.700 --> 01:13:51.420]  fairly easy
+[01:13:51.420 --> 01:13:51.760]  so
+[01:13:51.760 --> 01:13:52.980]  what the hell
+[01:13:52.980 --> 01:13:53.840]  it can be a filler
+[01:13:53.840 --> 01:13:55.000]  rather than just
+[01:13:55.000 --> 01:13:56.060]  us sitting around
+[01:13:56.060 --> 01:13:56.560]  on thursday
+[01:13:56.560 --> 01:13:57.260]  doing nothing
+[01:13:57.260 --> 01:13:58.200]  okay
+[01:13:58.200 --> 01:13:58.760]  so we'll just
+[01:13:58.760 --> 01:13:59.320]  finish off
+[01:13:59.320 --> 01:14:00.340]  everything here
+[01:14:00.340 --> 01:14:01.080]  there's just a few
+[01:14:01.080 --> 01:14:01.920]  more slides
+[01:14:01.920 --> 01:14:03.060]  that we need to
+[01:14:03.060 --> 01:14:03.840]  cover for
+[01:14:03.840 --> 01:14:04.400]  thursday
+[01:14:04.400 --> 01:14:05.380]  and
+[01:14:05.380 --> 01:14:05.880]  that
+[01:14:05.880 --> 01:14:06.220]  will be
+[01:14:06.220 --> 01:14:06.520]  it
+[01:14:06.520 --> 01:14:07.380]  hindi pala
+[01:14:07.380 --> 01:14:07.780]  a few
+[01:14:07.780 --> 01:14:08.840]  quite a number
+[01:14:08.840 --> 01:14:09.720]  pero what the hell
+[01:14:09.720 --> 01:14:10.620]  okay
+[01:14:10.620 --> 01:14:11.880]  sige
+[01:14:11.880 --> 01:14:14.020]  there we go
+[01:14:14.020 --> 01:14:14.820]  and
+[01:14:14.820 --> 01:14:15.460]  so
+[01:14:15.460 --> 01:14:16.900]  I think
+[01:14:16.900 --> 01:14:17.280]  I can
+[01:14:17.280 --> 01:14:18.080]  stop here
+[01:14:18.080 --> 01:14:19.820]  okay
+[01:14:19.820 --> 01:14:21.380]  meron magtanong
+[01:14:21.380 --> 01:14:22.100]  syempre wala
+[01:14:22.100 --> 01:14:22.460]  di ba
+[01:14:22.460 --> 01:14:22.840]  pero
+[01:14:22.840 --> 01:14:24.580]  magtatanong pa rin tayo
+[01:14:24.580 --> 01:14:25.440]  any
+[01:14:25.440 --> 01:14:26.380]  questions
+[01:14:26.380 --> 01:14:28.700]  questions
+[01:14:28.700 --> 01:14:29.780]  questions
+[01:14:29.780 --> 01:14:36.920]  ame el pep
+[01:14:36.920 --> 01:14:37.280]  ba next
+[01:14:37.280 --> 01:14:37.620]  week
+[01:14:37.620 --> 01:14:41.280]  wait
+[01:14:41.280 --> 01:14:42.000]  hmm
+[01:14:42.000 --> 01:14:46.800]  that's a good
+[01:14:46.800 --> 01:14:47.180]  question
+[01:14:47.180 --> 01:14:49.500]  what the hell
+[01:14:49.500 --> 01:14:49.780]  is
+[01:14:49.780 --> 01:14:51.760]  hmm
+[01:14:51.760 --> 01:14:54.000]  we'll see
+[01:14:54.000 --> 01:14:55.220]  we'll see
+[01:14:55.220 --> 01:14:56.680]  ah
+[01:14:56.680 --> 01:15:02.620]  aha
+[01:15:02.620 --> 01:15:03.580]  okay
+[01:15:03.580 --> 01:15:05.300]  well
+[01:15:05.300 --> 01:15:06.040]  thanks for
+[01:15:06.040 --> 01:15:06.560]  letting me
+[01:15:06.560 --> 01:15:08.260]  contemplate
+[01:15:08.260 --> 01:15:08.720]  about that
+[01:15:08.720 --> 01:15:09.220]  the question
+[01:15:09.220 --> 01:15:09.640]  that was
+[01:15:09.640 --> 01:15:10.620]  posted here
+[01:15:10.620 --> 01:15:12.080]  is that
+[01:15:12.080 --> 01:15:13.080]  apparently
+[01:15:13.080 --> 01:15:13.760]  there is
+[01:15:13.760 --> 01:15:14.680]  el pep
+[01:15:14.680 --> 01:15:17.620]  talk of
+[01:15:17.620 --> 01:15:18.660]  interfering
+[01:15:18.660 --> 01:15:19.400]  with
+[01:15:19.400 --> 01:15:19.740]  the
+[01:15:19.740 --> 01:15:21.020]  schedules
+[01:15:21.020 --> 01:15:26.040]  well
+[01:15:26.040 --> 01:15:26.740]  the point
+[01:15:26.740 --> 01:15:27.000]  here
+[01:15:27.000 --> 01:15:27.440]  actually
+[01:15:27.440 --> 01:15:27.820]  really
+[01:15:27.820 --> 01:15:28.220]  is that
+[01:15:28.220 --> 01:15:28.740]  the quiz
+[01:15:28.740 --> 01:15:29.720]  that is
+[01:15:29.720 --> 01:15:30.940]  desynchronized
+[01:15:30.940 --> 01:15:31.480]  you know
+[01:15:31.480 --> 01:15:32.480]  on a different
+[01:15:32.480 --> 01:15:32.820]  day
+[01:15:32.820 --> 01:15:33.600]  compared to
+[01:15:33.600 --> 01:15:34.000]  the other
+[01:15:34.000 --> 01:15:34.380]  class
+[01:15:34.380 --> 01:15:35.560]  is really
+[01:15:35.560 --> 01:15:36.060]  not
+[01:15:36.060 --> 01:15:37.240]  ideal
+[01:15:37.240 --> 01:15:38.660]  so
+[01:15:38.660 --> 01:15:39.480]  I will
+[01:15:39.480 --> 01:15:39.980]  try to
+[01:15:39.980 --> 01:15:40.780]  figure out
+[01:15:40.780 --> 01:15:42.020]  something
+[01:15:42.020 --> 01:15:43.880]  the more
+[01:15:43.880 --> 01:15:44.900]  ideal case
+[01:15:44.900 --> 01:15:45.380]  would be
+[01:15:45.380 --> 01:15:46.160]  to have it
+[01:15:46.160 --> 01:15:46.640]  at a
+[01:15:46.640 --> 01:15:47.000]  common
+[01:15:47.000 --> 01:15:47.860]  time
+[01:15:47.860 --> 01:15:49.120]  eh
+[01:15:49.120 --> 01:15:49.380]  sino pa
+[01:15:49.380 --> 01:15:49.560]  kasi
+[01:15:49.560 --> 01:15:50.320]  naglagay
+[01:15:50.320 --> 01:15:51.080]  na ginawang
+[01:15:51.080 --> 01:15:52.140]  magkaibang
+[01:15:52.140 --> 01:15:52.720]  araw
+[01:15:52.720 --> 01:15:53.980]  yung
+[01:15:53.980 --> 01:15:54.380]  si
+[01:15:54.380 --> 01:15:55.080]  Tronto
+[01:15:55.080 --> 01:15:56.120]  na section
+[01:15:56.120 --> 01:15:57.960]  medyo
+[01:15:57.960 --> 01:15:58.480]  eng-eng
+[01:15:58.480 --> 01:15:58.780]  din
+[01:15:58.780 --> 01:15:59.720]  alright
+[01:15:59.720 --> 01:16:02.100]  I guess
+[01:16:02.100 --> 01:16:02.440]  at that
+[01:16:02.440 --> 01:16:02.700]  time
+[01:16:02.700 --> 01:16:03.140]  it never
+[01:16:03.140 --> 01:16:03.520]  occurred
+[01:16:03.520 --> 01:16:03.920]  to the
+[01:16:03.920 --> 01:16:04.420]  academic
+[01:16:04.420 --> 01:16:05.020]  programmer
+[01:16:05.020 --> 01:16:05.480]  and I
+[01:16:05.480 --> 01:16:05.720]  didn't
+[01:16:05.720 --> 01:16:06.080]  complain
+[01:16:06.080 --> 01:16:06.400]  about
+[01:16:06.400 --> 01:16:06.600]  it
+[01:16:06.600 --> 01:16:06.980]  either
+[01:16:06.980 --> 01:16:14.100]  it's
+[01:16:14.100 --> 01:16:14.320]  even
+[01:16:14.320 --> 01:16:14.740]  worse
+[01:16:14.740 --> 01:16:15.220]  if you
+[01:16:15.220 --> 01:16:15.560]  you know
+[01:16:15.560 --> 01:16:16.180]  I was
+[01:16:16.180 --> 01:16:16.360]  just
+[01:16:16.360 --> 01:16:16.620]  thinking
+[01:16:16.620 --> 01:16:16.940]  about
+[01:16:16.940 --> 01:16:17.260]  lab
+[01:16:17.260 --> 01:16:17.700]  class
+[01:16:17.700 --> 01:16:18.080]  time
+[01:16:18.080 --> 01:16:18.440]  but
+[01:16:18.440 --> 01:16:19.120]  on the
+[01:16:19.120 --> 01:16:19.300]  other
+[01:16:19.300 --> 01:16:19.620]  hand
+[01:16:19.620 --> 01:16:20.720]  that
+[01:16:20.720 --> 01:16:20.940]  might
+[01:16:20.940 --> 01:16:21.180]  make
+[01:16:21.180 --> 01:16:21.320]  it
+[01:16:21.320 --> 01:16:21.580]  even
+[01:16:21.580 --> 01:16:22.100]  worse
+[01:16:22.100 --> 01:16:22.760]  because
+[01:16:22.760 --> 01:16:24.420]  that's
+[01:16:24.420 --> 01:16:24.640]  now
+[01:16:24.640 --> 01:16:24.920]  three
+[01:16:24.920 --> 01:16:25.500]  sections
+[01:16:25.500 --> 01:16:25.740]  that
+[01:16:25.740 --> 01:16:25.900]  we'll
+[01:16:25.900 --> 01:16:26.060]  have
+[01:16:26.060 --> 01:16:26.200]  to
+[01:16:26.200 --> 01:16:26.480]  deal
+[01:16:26.480 --> 01:16:26.760]  with
+[01:16:26.760 --> 01:16:27.080]  instead
+[01:16:27.080 --> 01:16:27.320]  of
+[01:16:27.320 --> 01:16:27.560]  just
+[01:16:27.560 --> 01:16:27.920]  two
+[01:16:27.920 --> 01:16:29.320]  okay
+[01:16:29.320 --> 01:16:30.280]  eh
+[01:16:30.280 --> 01:16:31.340]  sige
+[01:16:31.340 --> 01:16:32.880]  I'll
+[01:16:32.880 --> 01:16:33.100]  think
+[01:16:33.100 --> 01:16:33.240]  of
+[01:16:33.240 --> 01:16:33.620]  something
+[01:16:33.620 --> 01:16:39.540]  wait
+[01:16:39.540 --> 01:16:40.040]  okay
+[01:16:40.040 --> 01:16:40.960]  quick
+[01:16:40.960 --> 01:16:41.520]  question
+[01:16:41.520 --> 01:16:43.000]  if
+[01:16:43.000 --> 01:16:43.400]  that's
+[01:16:43.400 --> 01:16:43.600]  the
+[01:16:43.600 --> 01:16:44.020]  case
+[01:16:44.020 --> 01:16:44.320]  a
+[01:16:44.320 --> 01:16:44.680]  quick
+[01:16:44.680 --> 01:16:45.760]  survey
+[01:16:45.760 --> 01:16:46.320]  of
+[01:16:46.320 --> 01:16:48.920]  if
+[01:16:48.920 --> 01:16:49.420]  it
+[01:16:49.420 --> 01:16:49.800]  were
+[01:16:49.800 --> 01:16:50.440]  although
+[01:16:50.440 --> 01:16:50.740]  I
+[01:16:50.740 --> 01:16:51.200]  suppose
+[01:16:51.200 --> 01:16:51.460]  that
+[01:16:51.460 --> 01:16:51.600]  you
+[01:16:51.600 --> 01:16:51.920]  have
+[01:16:51.920 --> 01:16:52.580]  your
+[01:16:52.580 --> 01:16:53.000]  classes
+[01:16:53.000 --> 01:16:53.300]  but
+[01:16:53.300 --> 01:16:55.100]  if
+[01:16:55.100 --> 01:16:55.380]  it
+[01:16:55.380 --> 01:16:55.700]  were
+[01:16:55.700 --> 01:16:56.820]  Friday
+[01:16:56.820 --> 01:16:58.040]  morning
+[01:16:58.040 --> 01:17:00.300]  7
+[01:17:00.300 --> 01:17:00.900]  30
+[01:17:00.900 --> 01:17:01.560]  AM
+[01:17:01.560 --> 01:17:02.120]  what
+[01:17:02.120 --> 01:17:02.780]  how
+[01:17:02.780 --> 01:17:02.980]  many
+[01:17:02.980 --> 01:17:03.200]  of
+[01:17:03.200 --> 01:17:03.380]  you
+[01:17:03.380 --> 01:17:03.860]  actually
+[01:17:03.860 --> 01:17:04.300]  have
+[01:17:04.300 --> 01:17:05.380]  classes
+[01:17:05.380 --> 01:17:05.760]  at
+[01:17:05.760 --> 01:17:06.180]  7
+[01:17:06.180 --> 01:17:06.640]  30
+[01:17:06.640 --> 01:17:07.200]  AM
+[01:17:07.200 --> 01:17:07.420]  on
+[01:17:07.420 --> 01:17:07.600]  a
+[01:17:07.600 --> 01:17:08.100]  Friday
+[01:17:08.100 --> 01:17:14.660]  okay
+[01:17:14.660 --> 01:17:19.400]  all
+[01:17:19.400 --> 01:17:19.600]  right
+[01:17:19.600 --> 01:17:20.160]  so
+[01:17:20.160 --> 01:17:20.640]  what
+[01:17:20.640 --> 01:17:21.640]  out
+[01:17:21.640 --> 01:17:21.760]  of
+[01:17:21.760 --> 01:17:22.320]  curiosity
+[01:17:22.320 --> 01:17:22.620]  what
+[01:17:22.620 --> 01:17:23.020]  subject
+[01:17:23.020 --> 01:17:23.280]  is
+[01:17:23.280 --> 01:17:23.660]  that
+[01:17:23.660 --> 01:17:26.320]  mukhang
+[01:17:26.320 --> 01:17:26.720]  common
+[01:17:26.720 --> 01:17:27.500]  sa lahat
+[01:17:27.500 --> 01:17:29.560]  ah
+[01:17:29.560 --> 01:17:29.700]  hindi
+[01:17:29.700 --> 01:17:30.080]  not
+[01:17:30.080 --> 01:17:30.500]  counting
+[01:17:30.500 --> 01:17:30.700]  you
+[01:17:30.700 --> 01:17:31.540]  ha
+[01:17:31.540 --> 01:17:32.060]  LBY
+[01:17:32.060 --> 01:17:33.060]  TRN
+[01:17:33.060 --> 01:17:34.360]  ah
+[01:17:34.360 --> 01:17:34.480]  so
+[01:17:34.480 --> 01:17:34.700]  walang
+[01:17:34.700 --> 01:17:35.120]  problema
+[01:17:35.120 --> 01:17:36.000]  all
+[01:17:36.000 --> 01:17:36.220]  right
+[01:17:36.220 --> 01:17:37.040]  lahat
+[01:17:37.040 --> 01:17:37.200]  yan
+[01:17:37.200 --> 01:17:37.540]  lab
+[01:17:37.540 --> 01:17:37.800]  lang
+[01:17:37.800 --> 01:17:38.200]  naman
+[01:17:38.200 --> 01:17:38.720]  lab
+[01:17:38.720 --> 01:17:39.600]  okay
+[01:17:39.600 --> 01:17:40.560]  so
+[01:17:40.560 --> 01:17:40.960]  that's
+[01:17:40.960 --> 01:17:41.240]  the
+[01:17:41.240 --> 01:17:41.420]  one
+[01:17:41.420 --> 01:17:41.840]  that's
+[01:17:41.840 --> 01:17:42.140]  ah
+[01:17:42.140 --> 01:17:42.700]  LBY
+[01:17:42.700 --> 01:17:43.200]  Arch
+[01:17:43.200 --> 01:17:45.780]  most
+[01:17:45.780 --> 01:17:48.020]  G
+[01:17:48.020 --> 01:17:48.760]  ethics
+[01:17:48.760 --> 01:17:50.040]  ano
+[01:17:50.040 --> 01:17:50.160]  ba
+[01:17:50.160 --> 01:17:50.360]  naman
+[01:17:50.360 --> 01:17:50.560]  yan
+[01:17:50.560 --> 01:17:50.680]  yung
+[01:17:50.680 --> 01:17:50.840]  mga
+[01:17:50.840 --> 01:17:52.040]  pinagkukuha
+[01:17:52.040 --> 01:17:52.320]  ninyong
+[01:17:52.320 --> 01:17:52.500]  mga
+[01:17:52.500 --> 01:17:53.080]  subject
+[01:17:53.080 --> 01:17:55.280]  LBY
+[01:17:55.280 --> 01:17:55.800]  TRN
+[01:17:55.800 --> 01:17:56.100]  is not
+[01:17:56.100 --> 01:17:56.240]  a
+[01:17:56.240 --> 01:17:56.580]  problem
+[01:17:56.580 --> 01:17:56.920]  because
+[01:17:56.920 --> 01:17:57.160]  that
+[01:17:57.160 --> 01:17:57.340]  would
+[01:17:57.340 --> 01:17:57.520]  mean
+[01:17:57.520 --> 01:17:57.680]  that
+[01:17:57.680 --> 01:17:57.860]  you're
+[01:17:57.860 --> 01:17:58.260]  under
+[01:17:58.260 --> 01:17:58.660]  Sir
+[01:17:58.660 --> 01:17:58.920]  John
+[01:17:58.920 --> 01:17:59.320]  Nats
+[01:17:59.320 --> 01:18:00.220]  and
+[01:18:00.220 --> 01:18:01.860]  it's
+[01:18:01.860 --> 01:18:01.960]  a
+[01:18:01.960 --> 01:18:02.380]  unified
+[01:18:02.380 --> 01:18:03.320]  approach
+[01:18:03.320 --> 01:18:03.480]  that
+[01:18:03.480 --> 01:18:03.620]  they're
+[01:18:03.620 --> 01:18:04.000]  doing
+[01:18:04.000 --> 01:18:04.360]  so
+[01:18:04.360 --> 01:18:04.720]  it's
+[01:18:04.720 --> 01:18:04.940]  pretty
+[01:18:04.940 --> 01:18:05.360]  easy
+[01:18:05.360 --> 01:18:05.800]  to
+[01:18:05.800 --> 01:18:06.800]  shift
+[01:18:06.800 --> 01:18:07.100]  that
+[01:18:07.100 --> 01:18:07.560]  around
+[01:18:07.560 --> 01:18:07.960]  but
+[01:18:07.960 --> 01:18:08.800]  yeah
+[01:18:08.800 --> 01:18:09.200]  given
+[01:18:09.200 --> 01:18:09.500]  that
+[01:18:09.500 --> 01:18:09.840]  some
+[01:18:09.840 --> 01:18:10.000]  of
+[01:18:10.000 --> 01:18:10.160]  you
+[01:18:10.160 --> 01:18:10.580]  have
+[01:18:10.580 --> 01:18:11.080]  other
+[01:18:11.080 --> 01:18:11.660]  subjects
+[01:18:11.660 --> 01:18:11.920]  at
+[01:18:11.920 --> 01:18:12.120]  that
+[01:18:12.120 --> 01:18:12.460]  time
+[01:18:12.460 --> 01:18:17.060]  if
+[01:18:17.060 --> 01:18:18.060]  we
+[01:18:18.060 --> 01:18:18.720]  can't
+[01:18:18.720 --> 01:18:19.300]  synchronize
+[01:18:19.300 --> 01:18:19.440]  on
+[01:18:19.440 --> 01:18:19.800]  anything
+[01:18:19.800 --> 01:18:20.080]  we
+[01:18:20.080 --> 01:18:20.380]  might
+[01:18:20.380 --> 01:18:20.640]  be
+[01:18:20.640 --> 01:18:20.960]  forced
+[01:18:20.960 --> 01:18:21.200]  to
+[01:18:21.200 --> 01:18:21.400]  put
+[01:18:21.400 --> 01:18:21.600]  it
+[01:18:21.600 --> 01:18:21.900]  on
+[01:18:21.900 --> 01:18:22.260]  you
+[01:18:22.260 --> 01:18:22.420]  know
+[01:18:22.420 --> 01:18:24.040]  something
+[01:18:24.040 --> 01:18:24.340]  like
+[01:18:24.340 --> 01:18:24.620]  a
+[01:18:24.620 --> 01:18:25.780]  like
+[01:18:25.780 --> 01:18:25.940]  a
+[01:18:25.940 --> 01:18:26.220]  Saturday
+[01:18:26.220 --> 01:18:26.700]  morning
+[01:18:26.700 --> 01:18:27.020]  which
+[01:18:27.020 --> 01:18:27.260]  would
+[01:18:27.260 --> 01:18:27.540]  not
+[01:18:27.540 --> 01:18:27.800]  be
+[01:18:27.800 --> 01:18:28.400]  ideal
+[01:18:28.400 --> 01:18:32.280]  or
+[01:18:32.280 --> 01:18:32.620]  of
+[01:18:32.620 --> 01:18:32.900]  course
+[01:18:32.900 --> 01:18:33.540]  there's
+[01:18:33.540 --> 01:18:33.720]  always
+[01:18:33.720 --> 01:18:33.900]  the
+[01:18:33.900 --> 01:18:34.200]  option
+[01:18:34.200 --> 01:18:34.660]  of
+[01:18:34.660 --> 01:18:35.740]  Wednesday
+[01:18:35.740 --> 01:18:37.200]  morning
+[01:18:37.200 --> 01:18:37.480]  or
+[01:18:37.480 --> 01:18:37.880]  something
+[01:18:37.880 --> 01:18:38.540]  like that
+[01:18:38.540 --> 01:18:39.820]  okay
+[01:18:39.820 --> 01:18:40.200]  so
+[01:18:40.200 --> 01:18:40.920]  quick
+[01:18:40.920 --> 01:18:41.400]  survey
+[01:18:41.400 --> 01:18:41.680]  then
+[01:18:41.680 --> 01:18:41.900]  what
+[01:18:41.900 --> 01:18:42.200]  about
+[01:18:42.200 --> 01:18:43.060]  Wednesday
+[01:18:43.060 --> 01:18:43.820]  mornings
+[01:18:43.820 --> 01:18:44.160]  although
+[01:18:44.160 --> 01:18:45.000]  I have
+[01:18:45.000 --> 01:18:45.600]  meetings
+[01:18:45.600 --> 01:18:46.220]  typically
+[01:18:46.220 --> 01:18:46.540]  on
+[01:18:46.540 --> 01:18:47.880]  Wednesdays
+[01:18:47.880 --> 01:18:49.520]  Wednesday
+[01:18:49.520 --> 01:18:50.320]  Wednesday
+[01:18:50.320 --> 01:18:50.980]  dapat free
+[01:18:50.980 --> 01:18:51.320]  kayo
+[01:18:51.320 --> 01:18:52.500]  PE
+[01:18:52.500 --> 01:18:56.580]  alright
+[01:18:56.580 --> 01:18:57.540]  Wednesday
+[01:18:57.540 --> 01:18:57.880]  ano
+[01:18:57.880 --> 01:18:58.500]  aras yung
+[01:18:58.500 --> 01:18:58.860]  PE
+[01:18:58.860 --> 01:18:59.120]  mo
+[01:18:59.120 --> 01:18:59.540]  Miss
+[01:18:59.540 --> 01:19:00.060]  Shirley
+[01:19:00.060 --> 01:19:01.660]  Shirley
+[01:19:01.660 --> 01:19:03.140]  8
+[01:19:03.140 --> 01:19:03.280]  to
+[01:19:03.280 --> 01:19:03.720]  10
+[01:19:03.720 --> 01:19:05.200]  right
+[01:19:05.200 --> 01:19:07.140]  in
+[01:19:07.140 --> 01:19:07.260]  the
+[01:19:07.260 --> 01:19:07.540]  middle
+[01:19:07.540 --> 01:19:07.820]  of
+[01:19:07.820 --> 01:19:08.300]  the
+[01:19:08.300 --> 01:19:09.700]  that
+[01:19:09.700 --> 01:19:09.980]  is
+[01:19:09.980 --> 01:19:10.420]  terrible
+[01:19:10.420 --> 01:19:12.160]  okay
+[01:19:12.160 --> 01:19:18.960]  which
+[01:19:18.960 --> 01:19:19.140]  is
+[01:19:19.140 --> 01:19:19.420]  you know
+[01:19:19.420 --> 01:19:19.920]  actually
+[01:19:19.920 --> 01:19:20.320]  come to
+[01:19:20.320 --> 01:19:20.500]  think
+[01:19:20.500 --> 01:19:20.760]  of it
+[01:19:20.760 --> 01:19:21.040]  because
+[01:19:21.040 --> 01:19:21.260]  the
+[01:19:21.260 --> 01:19:22.740]  schedules
+[01:19:22.740 --> 01:19:23.360]  are wildly
+[01:19:23.360 --> 01:19:23.920]  different
+[01:19:23.920 --> 01:19:24.360]  in the
+[01:19:24.360 --> 01:19:24.600]  first
+[01:19:24.600 --> 01:19:24.900]  days
+[01:19:24.900 --> 01:19:25.100]  we
+[01:19:25.100 --> 01:19:25.400]  might
+[01:19:25.400 --> 01:19:25.680]  have
+[01:19:25.680 --> 01:19:25.940]  to
+[01:19:25.940 --> 01:19:26.000]  do
+[01:19:26.000 --> 01:19:26.260]  that
+[01:19:26.260 --> 01:19:27.080]  really
+[01:19:27.080 --> 01:19:28.680]  in
+[01:19:28.680 --> 01:19:28.840]  the
+[01:19:28.840 --> 01:19:29.240]  interest
+[01:19:29.240 --> 01:19:29.680]  of
+[01:19:29.680 --> 01:19:30.780]  keeping
+[01:19:30.780 --> 01:19:31.340]  the
+[01:19:31.340 --> 01:19:32.260]  test
+[01:19:32.260 --> 01:19:32.860]  time
+[01:19:32.860 --> 01:19:34.360]  and
+[01:19:34.360 --> 01:19:34.720]  day
+[01:19:34.720 --> 01:19:35.180]  the
+[01:19:35.180 --> 01:19:35.500]  same
+[01:19:35.500 --> 01:19:35.880]  for
+[01:19:35.880 --> 01:19:36.260]  all
+[01:19:36.260 --> 01:19:36.840]  sections
+[01:19:36.840 --> 01:19:38.620]  I guess
+[01:19:38.620 --> 01:19:39.080]  we really
+[01:19:39.080 --> 01:19:39.740]  have to
+[01:19:39.740 --> 01:19:40.600]  put it
+[01:19:40.600 --> 01:19:41.080]  onto
+[01:19:41.080 --> 01:19:41.380]  a
+[01:19:41.380 --> 01:19:41.900]  Saturday
+[01:19:41.900 --> 01:19:42.240]  and
+[01:19:42.240 --> 01:19:44.860]  well
+[01:19:44.860 --> 01:19:45.580]  nobody
+[01:19:45.580 --> 01:19:45.960]  should
+[01:19:45.960 --> 01:19:46.320]  have
+[01:19:46.320 --> 01:19:46.820]  a valid
+[01:19:46.820 --> 01:19:47.420]  excuse
+[01:19:47.420 --> 01:19:48.060]  of not
+[01:19:48.060 --> 01:19:48.580]  being able
+[01:19:48.580 --> 01:19:49.000]  to come
+[01:19:49.000 --> 01:19:49.380]  in on
+[01:19:49.380 --> 01:19:50.020]  a Saturday
+[01:19:50.020 --> 01:19:51.240]  alright
+[01:19:51.240 --> 01:19:53.140]  baka
+[01:19:53.140 --> 01:19:53.400]  ganyan
+[01:19:53.400 --> 01:19:53.520]  ang
+[01:19:53.520 --> 01:19:53.960]  mangyari
+[01:19:53.960 --> 01:19:55.700]  alright
+[01:19:55.700 --> 01:19:57.000]  90%
+[01:19:57.000 --> 01:19:58.140]  probability
+[01:19:58.140 --> 01:19:59.360]  okie
+[01:19:59.360 --> 01:19:59.840]  dokes
+[01:19:59.840 --> 01:20:02.440]  alright
+[01:20:02.440 --> 01:20:03.580]  sige
+[01:20:03.580 --> 01:20:04.200]  violent
+[01:20:04.200 --> 01:20:05.180]  reactions
+[01:20:05.180 --> 01:20:08.020]  alright
+[01:20:08.020 --> 01:20:09.320]  Marion
+[01:20:09.320 --> 01:20:09.700]  kanina
+[01:20:09.700 --> 01:20:09.860]  pa
+[01:20:09.860 --> 01:20:10.060]  naka
+[01:20:10.060 --> 01:20:10.340]  up
+[01:20:10.340 --> 01:20:10.520]  yung
+[01:20:10.520 --> 01:20:10.820]  hand
+[01:20:10.820 --> 01:20:11.100]  mo
+[01:20:11.100 --> 01:20:16.560]  alright
+[01:20:16.560 --> 01:20:17.040]  so
+[01:20:17.040 --> 01:20:17.300]  no
+[01:20:17.300 --> 01:20:17.860]  conflict
+[01:20:17.860 --> 01:20:18.080]  no
+[01:20:18.080 --> 01:20:19.300]  valid
+[01:20:19.300 --> 01:20:19.860]  excuses
+[01:20:19.860 --> 01:20:20.300]  for
+[01:20:20.300 --> 01:20:20.660]  a
+[01:20:20.660 --> 01:20:21.240]  Saturday
+[01:20:21.240 --> 01:20:21.880]  schedule
+[01:20:21.880 --> 01:20:22.200]  because
+[01:20:22.200 --> 01:20:22.320]  it
+[01:20:22.320 --> 01:20:22.580]  doesn't
+[01:20:22.580 --> 01:20:22.800]  look
+[01:20:22.800 --> 01:20:23.000]  like
+[01:20:23.000 --> 01:20:23.180]  we
+[01:20:23.180 --> 01:20:23.320]  have
+[01:20:23.320 --> 01:20:23.560]  any
+[01:20:23.560 --> 01:20:23.780]  other
+[01:20:23.780 --> 01:20:24.440]  option
+[01:20:24.440 --> 01:20:28.640]  rather
+[01:20:28.640 --> 01:20:29.000]  than
+[01:20:29.000 --> 01:20:30.240]  that
+[01:20:30.240 --> 01:20:30.560]  ok
+[01:20:30.560 --> 01:20:31.480]  sige
+[01:20:31.480 --> 01:20:33.280]  I guess
+[01:20:33.280 --> 01:20:33.660]  that
+[01:20:33.660 --> 01:20:34.880]  sort
+[01:20:34.880 --> 01:20:35.280]  of
+[01:20:35.280 --> 01:20:36.060]  half
+[01:20:36.060 --> 01:20:36.540]  settles
+[01:20:36.540 --> 01:20:36.760]  it
+[01:20:36.760 --> 01:20:37.000]  I'll
+[01:20:37.000 --> 01:20:37.580]  confirm
+[01:20:37.580 --> 01:20:38.040]  with
+[01:20:38.040 --> 01:20:38.780]  the
+[01:20:38.780 --> 01:20:39.140]  Tuesday
+[01:20:39.140 --> 01:20:39.820]  class
+[01:20:39.820 --> 01:20:40.920]  alright
+[01:20:40.920 --> 01:20:42.040]  but
+[01:20:42.040 --> 01:20:42.720]  keep
+[01:20:42.720 --> 01:20:42.940]  it
+[01:20:42.940 --> 01:20:44.400]  in mind
+[01:20:44.400 --> 01:20:45.160]  for now
+[01:20:45.160 --> 01:20:51.000]  27
+[01:20:51.000 --> 01:20:51.380]  27
+[01:20:51.380 --> 01:20:52.520]  ayaw
+[01:20:52.520 --> 01:20:52.620]  mo
+[01:20:52.620 --> 01:20:53.300]  ayaw
+[01:20:53.300 --> 01:20:53.400]  nyo
+[01:20:53.400 --> 01:20:53.560]  ba
+[01:20:53.560 --> 01:20:53.680]  sa
+[01:20:53.680 --> 01:20:54.140]  20
+[01:20:54.140 --> 01:20:54.360]  na
+[01:20:54.360 --> 01:20:54.840]  pwede
+[01:20:54.840 --> 01:20:55.000]  na
+[01:20:55.000 --> 01:20:55.100]  sa
+[01:20:55.100 --> 01:20:55.580]  20
+[01:20:55.580 --> 01:20:57.740]  not
+[01:20:57.740 --> 01:20:58.080]  yet
+[01:20:58.080 --> 01:20:58.540]  alright
+[01:20:58.540 --> 01:20:59.200]  27
+[01:20:59.200 --> 01:21:00.240]  alright
+[01:21:00.240 --> 01:21:01.460]  alright
+[01:21:01.460 --> 01:21:07.800]  in
+[01:21:07.800 --> 01:21:07.800] 
+[01:21:07.800 --> 01:21:07.920]  the
+[01:21:07.920 --> 01:21:08.220]  meantime
+[01:21:08.220 --> 01:21:08.780]  of
+[01:21:08.780 --> 01:21:09.120]  course
+[01:21:09.120 --> 01:21:10.080]  because
+[01:21:10.080 --> 01:21:10.440]  that's
+[01:21:10.440 --> 01:21:10.680]  a
+[01:21:10.680 --> 01:21:10.980]  long
+[01:21:10.980 --> 01:21:11.260]  way
+[01:21:11.260 --> 01:21:11.620]  off
+[01:21:11.620 --> 01:21:12.240]  we
+[01:21:12.240 --> 01:21:12.480]  will
+[01:21:12.480 --> 01:21:12.800]  still
+[01:21:12.800 --> 01:21:13.300]  continue
+[01:21:13.300 --> 01:21:13.560]  with
+[01:21:13.560 --> 01:21:13.700]  the
+[01:21:13.700 --> 01:21:14.100]  lessons
+[01:21:14.100 --> 01:21:14.560]  alright
+[01:21:14.560 --> 01:21:15.420]  we
+[01:21:15.420 --> 01:21:15.640]  will
+[01:21:15.640 --> 01:21:16.040]  forge
+[01:21:16.040 --> 01:21:16.460]  ahead
+[01:21:16.460 --> 01:21:16.980]  with
+[01:21:16.980 --> 01:21:18.480]  AC
+[01:21:18.480 --> 01:21:19.040]  analysis
+[01:21:19.040 --> 01:21:19.760]  of
+[01:21:19.760 --> 01:21:20.720]  bipolar
+[01:21:20.720 --> 01:21:21.080]  junction
+[01:21:21.080 --> 01:21:21.620]  transistor
+[01:21:21.620 --> 01:21:22.480]  okay
+[01:21:22.480 --> 01:21:23.060]  so
+[01:21:23.060 --> 01:21:23.300]  don't
+[01:21:23.300 --> 01:21:23.720]  expect
+[01:21:23.720 --> 01:21:23.940]  that
+[01:21:23.940 --> 01:21:24.060]  the
+[01:21:24.060 --> 01:21:24.380]  lessons
+[01:21:24.380 --> 01:21:24.620]  will
+[01:21:24.620 --> 01:21:24.980]  stop
+[01:21:24.980 --> 01:21:25.960]  we
+[01:21:25.960 --> 01:21:26.180]  will
+[01:21:26.180 --> 01:21:26.600]  forge
+[01:21:26.600 --> 01:21:27.000]  ahead
+[01:21:27.000 --> 01:21:27.720]  we'll
+[01:21:27.720 --> 01:21:27.960]  have
+[01:21:27.960 --> 01:21:29.940]  you
+[01:21:29.940 --> 01:21:30.120]  know
+[01:21:30.120 --> 01:21:30.620]  we'll
+[01:21:30.620 --> 01:21:30.860]  have
+[01:21:30.860 --> 01:21:31.280]  a few
+[01:21:31.280 --> 01:21:31.920]  exercises
+[01:21:31.920 --> 01:21:32.520]  again
+[01:21:32.520 --> 01:21:33.600]  further
+[01:21:33.600 --> 01:21:34.080]  on
+[01:21:34.080 --> 01:21:34.840]  plus
+[01:21:34.840 --> 01:21:35.840]  switching
+[01:21:35.840 --> 01:21:36.740]  and
+[01:21:36.740 --> 01:21:37.120]  then
+[01:21:37.120 --> 01:21:38.160]  move
+[01:21:38.160 --> 01:21:38.380]  to
+[01:21:38.380 --> 01:21:38.820]  AC
+[01:21:38.820 --> 01:21:39.400]  analysis
+[01:21:39.400 --> 01:21:40.060]  where
+[01:21:40.060 --> 01:21:40.240]  we
+[01:21:40.240 --> 01:21:40.480]  look
+[01:21:40.480 --> 01:21:40.680]  at
+[01:21:40.680 --> 01:21:40.860]  the
+[01:21:40.860 --> 01:21:41.200]  actual
+[01:21:41.200 --> 01:21:41.980]  amplification
+[01:21:41.980 --> 01:21:43.040]  okay
+[01:21:43.040 --> 01:21:43.680]  alright
+[01:21:43.680 --> 01:21:45.680]  thank
+[01:21:45.680 --> 01:21:46.040]  you

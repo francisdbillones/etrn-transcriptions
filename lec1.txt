@@ -1,0 +1,903 @@
+[00:00.000 --> 00:08.020]  All right. Resume recording. It was already recording.
+[00:09.720 --> 00:17.920]  Okay. All right. So hopefully everybody is here. If not, well, people have the opportunity to
+[00:17.920 --> 00:22.680]  review the video anyway, but that's not going to happen every time.
+[00:22.680 --> 00:32.120]  So we are at the very, very beginning of the trimester. And I believe, well, there are two
+[00:32.120 --> 00:39.860]  sections and I'm sure everybody's aware of this. The two sections have been split basically into
+[00:39.860 --> 00:48.260]  Monday, Thursday, and Tuesday, Friday kind of schedule. I'm handling both of them.
+[00:48.260 --> 00:57.900]  Um, and, uh, I guess this is more for those who are coming in from the, uh, section that
+[00:57.900 --> 01:08.120]  was handled by Ms. Dej last trimester. So, um, that would have been your C-Tron one. Um, and,
+[01:08.200 --> 01:14.100]  uh, so you, for those who are coming from Ms. Dej, uh, you don't know me that well at all,
+[01:14.100 --> 01:20.220]  uh, because you've had very, very minimal contact with me, but, uh, rest assured, um,
+[01:21.380 --> 01:26.920]  as you are very much aware, uh, the quizzes and the way the lectures and the format and the,
+[01:27.020 --> 01:33.080]  all the information that was provided by Ms. Dej basically was in coordination with me. So you
+[01:33.080 --> 01:38.160]  would have received pretty much the same, uh, lecture, maybe a little bit more. I don't know,
+[01:38.160 --> 01:45.660]  because given how, uh, how, how dedicated Ms. Dej was with the class, uh, maybe there were a little
+[01:45.660 --> 01:54.040]  bit of extra exercises. I'm not sure, but at any rate, um, unfortunately, uh, Ms. Dej is too buried
+[01:54.040 --> 02:01.820]  with, uh, her, her work, uh, as you are probably aware for the other section that was under me,
+[02:01.820 --> 02:10.640]  who's not aware, um, Ms. Dej is a, uh, she, well, she works full time for a company, uh, an IT company,
+[02:10.640 --> 02:17.380]  you know? So that's aside from the fact that she's also doing her, her, uh, PhD, uh, studies. So
+[02:17.380 --> 02:25.500]  unfortunately, juggling all of these three major responsibilities, uh, all at the same time,
+[02:25.500 --> 02:31.000]  I guess, uh, I guess was, uh, to, well, I would definitely not attempt to do anything like that.
+[02:31.580 --> 02:40.480]  So, uh, she had to basically, uh, bow out for the moment and not handle any subject. So perhaps,
+[02:40.680 --> 02:48.020]  hopefully, uh, in the future, she can, um, come back and, uh, join the teaching pool again of the,
+[02:48.020 --> 02:55.480]  uh, department. Okay. So for now, uh, uh, resign to the fact that,
+[02:55.500 --> 03:03.340]  uh, regardless of which section you join, it's still going to be me anyway. And so this is CETRON2.
+[03:03.900 --> 03:11.180]  All right. And having said that, uh, let's just delve into the syllabus for the moment rather quickly.
+[03:11.180 --> 03:20.060]  And, uh, we have to forge ahead and, uh, uh, get into the lesson early on. Okay. So maybe I won't
+[03:20.060 --> 03:25.420]  take up the whole one and a half hours. Uh, I might dismiss you a little bit early just today,
+[03:25.420 --> 03:31.820]  given that it's the first meeting, but, uh, we will still get into a bit of lecture today.
+[03:31.820 --> 03:40.560]  We'll be, uh, um, basically, uh, continuing where we left off from last trimester, wherever that might
+[03:40.560 --> 03:48.620]  have been. But, uh, well, we, we started talking about diodes last trimester. So maybe we'll backtrack
+[03:48.620 --> 03:54.860]  just a little bit and then move forward from there. Okay. All right. So, uh, again, of course,
+[03:54.860 --> 04:02.380]  if you have any questions, comments, or, uh, reactions that you'd like us to, um, have,
+[04:02.940 --> 04:09.500]  you know, uh, don't be shy. Uh, let me know somehow you have, uh, basically, uh, you know,
+[04:09.500 --> 04:16.300]  three different options to call my attention and, uh, get the spotlight briefly. Um, you can always, uh,
+[04:16.300 --> 04:22.620]  send me a message or send the whole class message if you like, uh, via the group chat here. Um,
+[04:23.340 --> 04:32.140]  or you could, uh, raise your hand using the, uh, emoticons, or of course you can just simply unmute
+[04:32.140 --> 04:37.260]  so that I can hear you because I am not always looking at the screen. Um,
+[04:37.260 --> 04:45.500]  um, so I may, might miss something right at that particular moment. Okay. So three, three possibilities
+[04:45.500 --> 04:53.900]  while we are, uh, online. And of course, uh, it's a different story. We are, um, face to face. All right.
+[04:53.900 --> 05:00.540]  So let's, uh, get into the thick of things. Uh, let me just share the syllabus here and, uh, let's hope
+[05:00.540 --> 05:13.180]  the system doesn't falter. All right. Uh, where is it here? Here we go. Okay. All right. Uh, I'm on the
+[05:13.180 --> 05:19.500]  assumption of course that, uh, everything here should work. Uh, there's this, uh, pen icon which
+[05:19.500 --> 05:27.340]  doesn't work. Okay. Let me just stop that. Okay. That didn't work. Um, I, I, I recall that I, uh, there
+[05:27.340 --> 05:32.620]  has to be a particular setting that will make that work. Uh, there's a little bit of, ah, it's not
+[05:32.620 --> 05:39.020]  probably not worth it. Uh, let me just check something here. I can waste some time today. Uh,
+[05:41.900 --> 05:53.580]  uh, let's see, let's see if this will fix this because this has been a problem with zoom software
+[05:53.580 --> 06:05.980]  ever since. Uh, uh, no, that doesn't work either because the thing disappeared. Okay. Nevermind.
+[06:06.780 --> 06:13.820]  It's again so much for that, uh, attempt. Um, I'll try to do something else with it, uh, in the future,
+[06:13.820 --> 06:20.220]  but it's not important for now because, uh, all we need to do is look at the syllabus. So it's no big
+[06:20.220 --> 06:28.380]  deal. Share. Okay. Here we go. All right. Uh, so here's the subject. Let me just, uh, get this thing
+[06:28.380 --> 06:38.940]  to its, uh, maximize size if we like, uh, so that, uh, you guys can all see it. Although you should
+[06:38.940 --> 06:45.500]  have a copy of this, um, because it's been available on canvas, uh, on our webpage, no, uh,
+[06:45.500 --> 06:55.180]  uh, uh, we S11, uh, S01, uh, section, which is what our session is now. So we are online. Uh,
+[06:55.180 --> 07:06.860]  our face-to-face meeting is every Thursday at, uh, Andrew A1110. Uh, I don't quite recall what this
+[07:06.860 --> 07:12.780]  classroom looks like, but based on the number, it's one of those that are towards the, uh,
+[07:12.780 --> 07:19.820]  ends of the hallway. Um, maybe we were even in this classroom last trimester. I don't remember.
+[07:19.820 --> 07:25.020]  All right. Uh, oddly enough, it's exactly the same thing for the second question, uh,
+[07:25.020 --> 07:32.540]  for the second section anyway. All right. And, uh, we have our normal learning outcomes over here.
+[07:32.540 --> 07:40.780]  So as you can see from the LOs, essentially it's all about, uh, discrete semiconductors. So,
+[07:40.780 --> 07:49.580]  uh, in Citron 1, we started with what we call as passive devices. Passive devices are devices that
+[07:49.580 --> 07:58.540]  basically do not take in electricity, technically speaking, all right. Um, such as resistors,
+[07:58.540 --> 08:05.020]  inductors, and capacitors. They work with signals, but they do not have the capability of, um,
+[08:05.740 --> 08:15.340]  doing things like amplifying or making a, uh, signal stronger. Um, so in the class of semiconductors
+[08:15.340 --> 08:24.780]  that we are going to be looking into, we are now moving into a set of devices that can basically work
+[08:24.780 --> 08:33.260]  with signals and have the, uh, capability of making these signals stronger. Um, and I'm using very
+[08:33.260 --> 08:41.260]  genetic terms here, all right. Uh, by saying that they make the signal stronger, they must have some
+[08:41.260 --> 08:51.260]  source of energy. And that energy is again, in the form of electricity. So, um, particularly with, uh,
+[08:51.260 --> 09:01.900]  uh, transistors, uh, transistors, uh, transistors work on a voltage, uh, source, uh, of power, um,
+[09:01.900 --> 09:07.180]  which, you know, in your case, uh, the easiest thing to associate would be a battery,
+[09:07.180 --> 09:14.940]  right. A power bank, or in terms of your, uh, smartphone, it is the rechargeable lithium-ion
+[09:14.940 --> 09:22.300]  battery inside your smartphone that provides this DC power. And that's where all the magic comes from.
+[09:22.300 --> 09:31.900]  Uh, the DC power is used by these transistors to do their operations that allow you now to be able
+[09:31.900 --> 09:41.500]  to participate in zoom sessions such as this, uh, do your calculations or, uh, find your entertainment
+[09:41.500 --> 09:48.460]  for the moment by watching a video or watching whatever is, uh, or, or sharing your thoughts over,
+[09:49.100 --> 09:54.460]  over your social media connections and so on and so forth. So all of this magic essentially is done
+[09:54.460 --> 10:03.660]  through the fact that your millions or billions, in fact, of transistors are operating inside your
+[10:04.540 --> 10:11.740]  phone or laptop for the moment. Billions of transistors are doing these functions, turning on and off,
+[10:12.860 --> 10:23.180]  um, manipulating the signals to represent binary ones and zeros so that this whole set of very complex
+[10:23.180 --> 10:53.180]  connections, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh
+[10:53.180 --> 11:02.700]  usable circuits with them. Okay, so the plan of action essentially is that of course there's going
+[11:02.700 --> 11:11.660]  to be the usual lectures and there will again be the departmental exams. In this particular case,
+[11:11.660 --> 11:17.820]  the departmental exam is all through me. There is no other person doing lectures so it's just me.
+[11:17.820 --> 11:30.060]  There will be no more excuse for long time before quizzes are returned. All the blame for the long
+[11:30.060 --> 11:36.140]  time before the quizzes are returned is just basically me not being able to check the papers.
+[11:36.140 --> 11:47.260]  Okay, theoretically there should be two departmental examinations and one final exam as well as one
+[11:47.260 --> 11:54.460]  major electronics project. So this is very, very similar of course to CETRON1 format. Don't expect
+[11:54.460 --> 12:03.500]  anything different. Okay, we have a rubric for assessment here for the project which I will give
+[12:03.500 --> 12:08.780]  sometime into the future. You might notice that there is a statement here about the printed circuit
+[12:08.780 --> 12:13.180]  board. Well, if we get the opportunity to do something along those lines well and good,
+[12:13.180 --> 12:20.300]  where you're expected to be putting your circuit on a printed circuit board as part of the requirements
+[12:20.300 --> 12:31.100]  of the project. So of course functionality is one thing and then translating it and putting it on a board
+[12:31.100 --> 12:37.020]  which theoretically should make it more reliable is the other thing. All right, so
+[12:37.020 --> 12:46.380]  the format or the way that the grade is going to be arrived at again is very similar to CETRON1.
+[12:47.020 --> 12:56.380]  There are two departmental exams, one final exam, the breakdown of the weights as you see here, 25% for the project,
+[12:56.380 --> 13:10.380]  simulation tool exercises and problem sets. Again, of course, please keep in mind that the weights and what appears here might change dependent on how the trimester goes.
+[13:10.380 --> 13:26.380]  All right, for a total of 100%, the translation, transportation table for the grade from a scale of 4 to 0 is shown here on the right.
+[13:26.380 --> 13:46.380]  Okay, this is the official range of values to get those high scores. Okay, all right. So the rest of it, of course, just looks into the details of what you are going to be expected to learn about.
+[13:46.380 --> 14:04.380]  So, you'll notice that the first portion is all about diodes. And we're starting off theoretically with a deeper look into the characteristics and operations. Okay, so the first meeting or two will be all about that.
+[14:04.380 --> 14:10.380]  Then you have the rest of the rest of the rest of the rest of the syllabus.
+[14:10.380 --> 14:24.380]  So, bottom line is, well, it's pretty much the same deal in the sense that we probably are not going to get the very, very end of the syllabus for various reasons.
+[14:24.380 --> 14:33.380]  Okay, so the discussion here, particularly about the thyristors, the SCRs, the diac, triac stuff, as well as the CETRON1.
+[14:34.380 --> 14:53.380]  What's this insulated gate bipolar transistor, as well as the BIFET may or may not be reachable in lieu of the many possible disruptions that might take place.
+[14:53.380 --> 14:54.380]  All right.
+[14:54.380 --> 15:13.380]  If you are fascinated by books, then there are several references here, all of which are particularly boring, except maybe for the last one, which is the Horowitz and Hill, very, very famous and well acknowledged reference.
+[15:13.380 --> 15:18.380]  Tom, which is the art of electronics.
+[15:18.380 --> 15:39.980]  If you have access to a copy of one of these books, you're most welcome to cross-reference it because if there's any book that an electronics engineering student should have had looked into and used, it would be the art of electronics.
+[15:39.980 --> 15:46.980]  It's a very, very thick book, by the way.
+[15:46.980 --> 15:51.980]  Fortunately or fortunately, dependent on the viewpoint here.
+[15:51.980 --> 15:52.980]  What's this?
+[15:52.980 --> 15:55.980]  There are, of course, electronic copies floating around.
+[15:55.980 --> 15:57.980]  But yeah.
+[15:57.980 --> 15:58.980]  Okay.
+[15:58.980 --> 15:59.980]  So FYI.
+[15:59.980 --> 16:11.980]  I have an original legit copy which I purchased a very, very long time ago, but it's the second edition.
+[16:11.980 --> 16:15.980]  So they came up with the third edition in 2015.
+[16:15.980 --> 16:18.980]  And it hasn't been changed ever since.
+[16:18.980 --> 16:22.980]  But that's just how good the book is.
+[16:22.980 --> 16:24.980]  There's really not much to change.
+[16:24.980 --> 16:25.980]  Okay.
+[16:25.980 --> 16:26.980]  So that's our syllabus.
+[16:26.980 --> 16:35.980]  Of course, if you need further details, I would highly recommend, of course, that you look into the syllabus that's been provided.
+[16:35.980 --> 16:37.980]  There are some things that are missing here.
+[16:37.980 --> 16:48.980]  There's supposed to be a signature which basically says that this has been approved and looked into by the department chair and so on and so forth.
+[16:48.980 --> 16:59.980]  And this is an infinite copy which we can easily replace when the time comes because I haven't given it to the department chair as yet.
+[16:59.980 --> 17:20.980]  But this is basically pretty much a copy of what was available as a syllabus for the last couple of CETRON2 sessions or subjects that were offered by the department over the past several years.
+[17:20.980 --> 17:33.980]  So there's absolutely no reason to expect that anything will be changed from what you see or the copy that is on campus right now except for the signatures.
+[17:33.980 --> 17:34.980]  Okay.
+[17:34.980 --> 17:36.980]  So are there any questions about this?
+[17:36.980 --> 17:39.980]  I don't suppose that there should be any, right?
+[17:39.980 --> 17:41.980]  Are there any questions?
+[17:41.980 --> 17:43.980]  Are we good?
+[17:43.980 --> 17:45.980]  Are people still awake over there?
+[17:45.980 --> 17:46.980]  Hello.
+[17:46.980 --> 17:47.980]  Yes.
+[17:47.980 --> 17:48.980]  All right.
+[17:48.980 --> 17:49.980]  Okay.
+[17:49.980 --> 17:50.980]  Okay.
+[17:50.980 --> 17:55.980]  So given this, I think we can start.
+[17:55.980 --> 18:07.980]  As I said, we'd like to get back to where we started talking about from last trimester.
+[18:07.980 --> 18:11.980]  Let me just find the correct place.
+[18:11.980 --> 18:12.980]  Okay.
+[18:12.980 --> 18:13.980]  Okay.
+[18:13.980 --> 18:28.980]  Because there are again, a couple of things that I want to not bother with the skip because we don't want it to become too difficult to understand.
+[18:28.980 --> 18:29.980]  Wait.
+[18:29.980 --> 18:30.980]  Okay.
+[18:30.980 --> 18:32.980]  I think I skipped too much here.
+[18:32.980 --> 18:37.980]  Let me just find a nice slide to begin with.
+[18:37.980 --> 18:38.980]  Okay.
+[18:38.980 --> 18:39.980]  Okay.
+[18:39.980 --> 18:40.980]  Oh, well, okay.
+[18:40.980 --> 18:42.980]  Why don't we do it this way?
+[18:42.980 --> 18:45.980]  I'll just skip certain portions.
+[18:45.980 --> 18:54.980]  Ah, well, and this might be a different set of what's this PowerPoint slides that you're going to be seeing anyway.
+[18:54.980 --> 18:58.980]  So I'll just put it up on screen and then I'll just skip on the fly.
+[18:58.980 --> 18:59.980]  All right.
+[18:59.980 --> 19:01.980]  Show, start the slide show.
+[19:01.980 --> 19:04.980]  And let me just capture this here.
+[19:04.980 --> 19:05.980]  Share.
+[19:05.980 --> 19:06.980]  Okay.
+[19:06.980 --> 19:07.980]  And I think everybody can see this properly.
+[19:07.980 --> 19:08.980]  So we're good.
+[19:08.980 --> 19:09.980]  All right.
+[19:09.980 --> 19:21.980]  So diodes are the subject of this start.
+[19:21.980 --> 19:28.980]  Diodes are basically semiconductors coming from the end of last term.
+[19:28.980 --> 19:33.980]  And, okay, where's the pen?
+[19:33.980 --> 19:34.980]  Here.
+[19:34.980 --> 19:36.980]  We just turn the pen on.
+[19:36.980 --> 19:43.980]  And what is the color that's been selected?
+[19:43.980 --> 19:44.980]  Okay.
+[19:44.980 --> 19:46.980]  Let's test this.
+[19:46.980 --> 19:47.980]  Yeah, it works.
+[19:47.980 --> 19:48.980]  Okay.
+[19:48.980 --> 19:56.980]  And what you see here on the first slide is a sampling of different diode packages.
+[19:56.980 --> 20:22.980]  All of them basically are pretty tiny devices that we see here, inclusive of that final project that you did last trimester where you took a bunch of lights, okay, and tried them out and tested them for things like power factor and brightness and so on and so forth.
+[20:22.980 --> 20:32.980]  So I hope that that was educational and you learned something from that experience.
+[20:32.980 --> 20:35.980]  Not all LED lights are the same.
+[20:35.980 --> 20:36.980]  Okay.
+[20:36.980 --> 20:37.980]  Okay.
+[20:37.980 --> 20:49.980]  So they are a class of semiconductors that are the most simple in nature, particularly for the diodes that are designed not to really produce light.
+[20:49.980 --> 20:50.980]  All right.
+[20:50.980 --> 20:52.980]  So they have a different function.
+[20:52.980 --> 21:02.980]  So, the use of diode to produce lighting in our houses are a much, much more recent kind of innovation.
+[21:02.980 --> 21:03.980]  All right.
+[21:03.980 --> 21:17.980]  So small LEDs such as this have been around for a fairly long enough time, much longer than their availability for general lighting.
+[21:17.980 --> 21:36.980]  So, originally, they were just used as indicators, convenient, long-lasting indicators to tell you that something is turned on or off or that's a warning light telling you that something's not right and so on and so forth.
+[21:36.980 --> 21:43.980]  So, as indicators, discrete LEDs have been available for a significant amount of time.
+[21:43.980 --> 22:02.980]  So, it has taken, you know, another set of innovations to basically turn them into a lighting kind of gadget or device that's become commercially available all around the world.
+[22:02.980 --> 22:09.980]  So, we'll get to that perhaps in a short while, but just to let you know.
+[22:09.980 --> 22:17.980]  The innovation that was necessary for that to happen was the invention of the blue-colored LED.
+[22:17.980 --> 22:31.980]  So, LEDs basically started with just being available as red in color, very, very quickly followed by, what's this, green as well as yellow.
+[22:31.980 --> 22:36.980]  So, those were the three colors that were generally available quite easily.
+[22:36.980 --> 22:47.980]  And as such, they basically stayed as indicators only, just little LEDs that would light up to tell you that something is there or not.
+[22:47.980 --> 22:57.980]  So, it required the development of the blue-colored LED to make it a technology that was viable enough for general lighting.
+[22:57.980 --> 23:05.980]  Because as you know, combining red, green, and blue produces a whitish colored light.
+[23:05.980 --> 23:08.980]  And that's what the world was essentially waiting for.
+[23:08.980 --> 23:26.980]  When white light became viable to produce using LEDs, that's when they were developed to the point that they were able to now provide us with lighting for the house and for the streets and so on and so forth.
+[23:26.980 --> 23:33.980]  So, nobody wants to work in a room that's colored red from light, right?
+[23:33.980 --> 23:41.980]  Or green, just a single monochromatic type of illumination is impossible to work with.
+[23:41.980 --> 23:49.980]  So, it took the development of the blue LED to get us to this point where white light was being produced.
+[23:49.980 --> 23:54.980]  And we'll talk a little bit more about this when we get to that point.
+[23:54.980 --> 23:57.980]  But anyway, so let's look at the diodes first.
+[23:57.980 --> 24:07.980]  We already know from last term that diodes are basically devices that conduct electricity only in one direction.
+[24:07.980 --> 24:09.980]  This is more or less correct.
+[24:09.980 --> 24:17.980]  But in fact, when we look at the details a little bit later, you'll find out that it's not 100% true.
+[24:17.980 --> 24:31.980]  There is going to be a little bit of conduction in the backward direction, but it's so small that for all practical purposes, we can ignore that negative direction or opposite direction current flow.
+[24:31.980 --> 24:32.980]  All right?
+[24:32.980 --> 24:34.980]  So, it is a very simple device.
+[24:34.980 --> 24:36.980]  It just got two terminals.
+[24:36.980 --> 24:37.980]  All right?
+[24:37.980 --> 24:42.980]  As you saw from the picture, by the way, it has only two terminals.
+[24:42.980 --> 24:56.980]  Two wires that extend from it and have this particular form if they are what you'd call as a through-hole device.
+[24:56.980 --> 25:03.980]  A through-hole device has legs like this or terminals that allow you to insert them onto the PCB.
+[25:03.980 --> 25:12.980]  They are now also very, very much available in what you call as surface mount packaging.
+[25:12.980 --> 25:13.980]  All right?
+[25:13.980 --> 25:14.980]  Surface mount packaging.
+[25:14.980 --> 25:22.980]  And so, as you can see, the major difference between these two diodes, they're not pictured to scale by the way.
+[25:22.980 --> 25:23.980]  All right?
+[25:23.980 --> 25:26.980]  This is, in fact, exactly the same body.
+[25:26.980 --> 25:27.980]  All right?
+[25:27.980 --> 25:29.980]  It's just that this one is more close up.
+[25:29.980 --> 25:39.980]  In fact, this particular one, the only difference is the fact that the legs, the terminals, have been made into just little stumps like that.
+[25:39.980 --> 25:46.980]  And the idea here is that these are soldered onto the PCB quite directly.
+[25:46.980 --> 25:48.980]  So, they're put onto the surface.
+[25:48.980 --> 25:54.980]  That's why they're called surface mount device or packaging or SMDs for that matter.
+[25:54.980 --> 25:55.980]  You can see that same thing here.
+[25:55.980 --> 26:02.980]  If there were a PCB underneath, you'd find a copper pad under that where these things would have been soldered.
+[26:02.980 --> 26:07.980]  So, they're right on the surface of the printed circuit board.
+[26:07.980 --> 26:09.980]  Very much like what you would...
+[26:09.980 --> 26:10.980]  No, no.
+[26:10.980 --> 26:11.980]  Okay.
+[26:11.980 --> 26:13.980]  Well, I got a couple of...
+[26:13.980 --> 26:14.980]  Oh, it's not visible.
+[26:14.980 --> 26:15.980]  Okay.
+[26:15.980 --> 26:16.980]  As usual, it's blanking out.
+[26:16.980 --> 26:17.980]  Oh, never mind.
+[26:17.980 --> 26:18.980]  Okay.
+[26:18.980 --> 26:19.980]  We're face-to-face tonight.
+[26:19.980 --> 26:20.980]  All right.
+[26:20.980 --> 26:21.980]  So, yeah.
+[26:21.980 --> 26:23.980]  So, let's go forward with that.
+[26:23.980 --> 26:24.980]  All right.
+[26:24.980 --> 26:26.980]  We talked about this.
+[26:26.980 --> 26:29.980]  This was hopefully covered last term.
+[26:29.980 --> 26:31.980]  We can just go very, very quickly.
+[26:31.980 --> 26:37.980]  People are not going to be interested into finding out what the hell is inside these things.
+[26:37.980 --> 26:38.980]  All right.
+[26:38.980 --> 26:41.980]  So, as long as it works, then it's fine.
+[26:41.980 --> 26:42.980]  All right.
+[26:42.980 --> 26:56.980]  So, a semiconductor such as a diode is basically just two pieces of different kinds of dope material put together to form a P and N junction.
+[26:56.980 --> 26:57.980]  All right.
+[26:57.980 --> 26:59.980]  A junction, a P and N junction.
+[26:59.980 --> 27:07.980]  This meeting point between the P-type material and the N-type material is called a P-N junction.
+[27:07.980 --> 27:08.980]  All right.
+[27:08.980 --> 27:27.980]  And that's basically what gives it its magical properties of being able to conduct electricity in only one direction, whereas the attempt to flow the current in the reverse direction basically meets with an open circuit.
+[27:27.980 --> 27:28.980]  Okay.
+[27:28.980 --> 27:29.980]  All right.
+[27:29.980 --> 27:53.980]  So, as such, it basically works as an automatic switch, if you like, where the switch basically closes to allow electricity to flow if the electricity is attempting to flow in the correct direction, following basically the diode symbol like this.
+[27:53.980 --> 27:58.980]  Current flows basically from left to right, like so.
+[27:58.980 --> 28:08.980]  And any attempt of the current to flow in the opposite direction will result in the diode basically becoming an open circuit.
+[28:08.980 --> 28:09.980]  Okay.
+[28:09.980 --> 28:10.980]  All right.
+[28:10.980 --> 28:14.980]  Now, it is not a perfect conductor.
+[28:14.980 --> 28:17.980]  It is not like a wire.
+[28:17.980 --> 28:18.980]  Okay.
+[28:18.980 --> 28:23.980]  So, at the very least, a wire has a certain degree of resistance.
+[28:23.980 --> 28:24.980]  Okay.
+[28:24.980 --> 28:35.980]  And so, the diode also has what you might call as a nonlinear resistive characteristic when it is conducting.
+[28:35.980 --> 28:36.980]  All right.
+[28:36.980 --> 28:49.980]  And in the reverse direction, you can think of the diode as pretty much equal to a very, very, very high resistance in the opposite direction.
+[28:49.980 --> 28:50.980]  Okay.
+[28:50.980 --> 28:54.980]  So, when we look at the V versus I plot.
+[28:54.980 --> 28:55.980]  Wait.
+[28:55.980 --> 28:56.980]  Why is everything tagilid?
+[28:56.980 --> 28:57.980]  All right.
+[28:57.980 --> 28:57.980] 
+[28:57.980 --> 28:59.980]  It's because the tablet's tagilid.
+[28:59.980 --> 29:00.980]  Here we go.
+[29:00.980 --> 29:01.980]  All right.
+[29:01.980 --> 29:02.980]  Okay.
+[29:02.980 --> 29:08.980]  We can look at its conduction characteristic using a voltage versus current plot.
+[29:08.980 --> 29:09.980]  Okay.
+[29:09.980 --> 29:18.980]  And we're going to be able to see that in this voltage versus current plot, there are basically three regions of interest.
+[29:18.980 --> 29:21.980]  So, let's have a look at that.
+[29:21.980 --> 29:34.980]  And we're also going to be delving into the difference between a real diode characteristic versus what is called as the ideal diode characteristic.
+[29:34.980 --> 29:38.980]  So, the ideal diode is a device that doesn't exist.
+[29:38.980 --> 29:39.980]  All right.
+[29:39.980 --> 29:53.980]  So, it's something that we would want a diode to have, but unfortunately, the real world device falls a little bit short of this ideal.
+[29:53.980 --> 29:54.980]  All right.
+[29:54.980 --> 30:07.980]  And so, here is the conduction curve characteristic of, well, more or less what a diode should look like.
+[30:07.980 --> 30:08.980]  Okay.
+[30:08.980 --> 30:17.980]  So, there are basically three areas of operation for a diode, one of which is the forward bias region.
+[30:17.980 --> 30:18.980]  Okay.
+[30:18.980 --> 30:26.980]  And in the forward bias region, the voltage across the diode is greater than zero.
+[30:26.980 --> 30:30.980]  Here is, by the way, that curve or that plot.
+[30:30.980 --> 30:39.980]  Notice that the voltage is along the horizontal axis and the current is on the vertical axis.
+[30:39.980 --> 30:40.980]  Okay.
+[30:40.980 --> 30:53.980]  So, this region to the right and above of the axis, this is what you'd call as the forward bias region.
+[30:53.980 --> 30:54.980]  All right.
+[30:54.980 --> 30:56.980]  This is where you have your forward bias.
+[30:56.980 --> 30:57.980]  Okay.
+[30:57.980 --> 31:11.980]  And that's essentially characterized by a diode voltage that is greater than zero following the polarities that are showed in the picture above.
+[31:11.980 --> 31:12.980]  All right.
+[31:12.980 --> 31:12.980] 
+[31:12.980 --> 31:12.980] 
+[31:12.980 --> 31:23.980]  When you say that it has a positive voltage across it, it is with reference to the positive being here and the negative being here.
+[31:23.980 --> 31:30.980]  By the way, if you have forgotten, for reference, this side of the diode is called the anode.
+[31:30.980 --> 31:31.980]  All right.
+[31:31.980 --> 31:34.980]  And this side of the diode is called the cathode.
+[31:34.980 --> 31:35.980]  All right.
+[31:35.980 --> 31:50.980]  So, a positive voltage or a voltage greater than zero means that the anode is more positive than the cathode.
+[31:50.980 --> 31:51.980]  Okay.
+[31:51.980 --> 31:54.980]  The anode is more positive than the cathode.
+[31:54.980 --> 32:08.980]  And you'll notice that as far as this conduction curve, all right, this V versus I curve looks, you'll see that this V sub D greater than zero is limited, no?
+[32:08.980 --> 32:13.980]  It's fairly limited only to a small positive voltage.
+[32:13.980 --> 32:14.980]  All right.
+[32:14.980 --> 32:17.980]  It's only a small positive voltage.
+[32:17.980 --> 32:26.980]  It goes slightly above zero and at that point, the diode begins conducting current, all right?
+[32:26.980 --> 32:28.980]  The diode begins conducting current.
+[32:28.980 --> 32:44.980]  And even as the current is very high, even if you ask the diode to conduct a lot of current, okay, even if you ask the diode to conduct a lot of current, the voltage across the diode remains pretty small.
+[32:44.980 --> 32:47.980]  It's quite limited, all right?
+[32:47.980 --> 32:58.980]  And if you have only a small amount of current, it makes very, very little difference that forward voltage is still going to be small, but even smaller than before.
+[32:58.980 --> 33:04.980]  And definitely at extremely low currents, the forward voltage is even lower.
+[33:04.980 --> 33:09.980]  But beyond a certain point, the diode basically stops conducting.
+[33:09.980 --> 33:10.980]  Okay.
+[33:10.980 --> 33:12.980]  Beyond a certain point, the diode stops conducting.
+[33:12.980 --> 33:14.980]  It becomes an open circuit.
+[33:14.980 --> 33:15.980]  All right?
+[33:15.980 --> 33:22.980]  Now, for the reverse bias region, which is this one that you see over here.
+[33:22.980 --> 33:23.980]  Well, not quite over there.
+[33:23.980 --> 33:24.980]  Sorry.
+[33:24.980 --> 33:27.980]  It is, it is, it is, it is.
+[33:27.980 --> 33:28.980]  Ayan.
+[33:28.980 --> 33:29.980]  Okay.
+[33:29.980 --> 33:30.980]  Okay.
+[33:30.980 --> 33:32.980]  For this region over here.
+[33:32.980 --> 33:33.980]  Okay.
+[33:33.980 --> 33:34.980]  Okay.
+[33:34.980 --> 33:38.980]  This is what you call as the reverse bias region, if you like.
+[33:38.980 --> 33:39.980]  All right.
+[33:39.980 --> 33:54.980]  Where your polarity, all right, across the anode and cathode, all right, is following this particular positive negative condition.
+[33:54.980 --> 33:59.980]  So you'll notice that the anode is more negative than the cathode.
+[33:59.980 --> 34:00.980]  All right.
+[34:00.980 --> 34:01.980]  All right.
+[34:01.980 --> 34:03.980]  This is in contrast to the previous one.
+[34:03.980 --> 34:04.980]  All right.
+[34:04.980 --> 34:15.980]  So in this particular case, all right, this basically is going to happen if we are attempting to flow current in the opposite direction.
+[34:15.980 --> 34:26.980]  You remember, if we're talking about resistors, people, kung pagdanto yung flow ng current, magkakaroon tayo ng positive and negative polarity across the resistor following that.
+[34:26.980 --> 34:40.980]  So if I had a resistor like this and I wanted to try to flow the current in the right to left direction, we're going to get a positive negative polarity like so.
+[34:40.980 --> 34:42.980]  So same banana.
+[34:42.980 --> 34:53.980]  If we have a current that's attempting to flow in the opposite direction, it would normally build or it would have a, you'd have to have a voltage that looks like this across the device.
+[34:53.980 --> 35:07.980]  And when you have that, this is basically having a voltage across the diode that is seen as being a negative voltage.
+[35:07.980 --> 35:14.980]  And when you have that, we are entering or we are in what we call as the reverse bias region.
+[35:14.980 --> 35:20.980]  And in the reverse bias region, the diode remains an open circuit.
+[35:20.980 --> 35:42.980]  Okay, so you'll notice that even as we increase the voltage negativeness, the magnitude of the voltage, even as we increase it from negative one to negative 10 or whatever, the current across the diode remains zero.
+[35:42.980 --> 35:44.760]  How is that possible?
+[35:44.760 --> 35:46.420]  Well, the answer is very simple.
+[35:46.420 --> 35:52.420]  It's because the diode is basically acting as an open circuit.
+[35:52.420 --> 35:59.420]  So regardless of the voltage that you put there, no current is going to flow.
+[35:59.420 --> 36:01.420]  Are you following people?
+[36:01.420 --> 36:02.420]  Gets niyo ba?
+[36:02.420 --> 36:03.420]  All right.
+[36:03.420 --> 36:05.420]  Any issues so far?
+[36:05.420 --> 36:06.420]  All right.
+[36:06.420 --> 36:15.420]  So even if we put a large voltage because the diode is acting like an open circuit, there is no current flowing.
+[36:15.420 --> 36:18.420]  Okay, so we got a thumbs up from some people.
+[36:18.420 --> 36:19.420]  So very good.
+[36:19.420 --> 36:21.420]  So we're okay with that.
+[36:21.420 --> 36:22.420]  All right.
+[36:22.420 --> 36:23.420]  Hopefully, don't be shy.
+[36:23.420 --> 36:26.420]  If you need to ask a question, please ask.
+[36:26.420 --> 36:27.420]  Okay.
+[36:27.420 --> 36:32.420]  So as you can see, there's a big X over there, which says that there's no current flowing.
+[36:32.420 --> 36:33.420]  All right.
+[36:33.420 --> 36:39.420]  And finally, we get to what is called as a breakdown region.
+[36:39.420 --> 36:40.420]  All right.
+[36:40.420 --> 36:40.420] 
+[36:40.420 --> 36:41.420]  All right.
+[36:41.420 --> 36:42.420]  A breakdown region.
+[36:42.420 --> 36:43.420]  All right.
+[36:43.420 --> 36:44.420]  All right.
+[36:44.420 --> 37:06.420]  Is a region of possible operation for the diode where the voltage in the reverse direction is so large that it gets to what we call as a region where the insulation, if you like, of the diode breaks down.
+[37:06.420 --> 37:09.420]  So that it suddenly starts conducting.
+[37:09.420 --> 37:10.420]  Okay.
+[37:10.420 --> 37:29.420]  Think of an open circuit where the voltage becomes so large that it is large enough to actually break down the insulation of the air.
+[37:29.420 --> 37:36.420]  So a very good example of this might be.
+[37:36.420 --> 37:38.420]  Oh, well.
+[37:38.420 --> 37:44.420]  I have something here that could be a good example of that.
+[37:44.420 --> 37:45.420]  Okay.
+[37:45.420 --> 37:50.420]  So I don't know if you know what this thing is, but yeah.
+[37:50.420 --> 37:51.420]  Okay.
+[37:51.420 --> 37:54.420]  So this is a mosquito swatter.
+[37:54.420 --> 37:57.420]  If you don't recognize, it's not a tennis racket.
+[37:57.420 --> 37:59.420]  It's a mosquito swatter.
+[37:59.420 --> 38:06.420]  And so this is a device essentially that you know sparks when there is a mosquito that comes in.
+[38:06.420 --> 38:18.420]  But you can imagine that in certain cases, especially for the badly manufactured ones, you may have noticed a certain phenomena where even if there's no insect there, it already starts sparking.
+[38:18.420 --> 38:19.420]  All right.
+[38:19.420 --> 38:21.420]  You already hear the thing go.
+[38:21.420 --> 38:32.420]  And that's essentially because the voltage is high enough such that the air is ionized to the point that the air becomes a conductor.
+[38:32.420 --> 38:42.420]  And so once that insulative property of the air is broken, we get a connection path.
+[38:42.420 --> 38:46.420]  And that is what causes the electricity to actually spark.
+[38:46.420 --> 38:55.420]  And I don't know if you're aware, but when that happens, that particular spark characteristic is a conduction process.
+[38:55.420 --> 38:56.420]  All right.
+[38:56.420 --> 39:00.420]  So it's the same thing here with the Zener diode.
+[39:00.420 --> 39:14.420]  Sorry, with the diode, we can get, if we have a voltage that is high enough, we can enter what we call as the Zener voltage or the voltage when it reaches such a point.
+[39:14.420 --> 39:15.420]  All right.
+[39:15.420 --> 39:19.420]  We can get a breakdown and the thing starts suddenly conducting.
+[39:19.420 --> 39:24.420]  And you'll notice that it stops at that particular voltage.
+[39:24.420 --> 39:35.420]  It's a very, very hard-ish voltage limit that you cannot easily go above because the thing basically says, wait, that's way too large a voltage.
+[39:35.420 --> 39:38.420]  So I'm just going to conduct fully.
+[39:38.420 --> 39:39.420]  All right.
+[39:39.420 --> 39:47.420]  So this is what we call as the breakdown region and the voltage associated with that breakdown region.
+[39:47.420 --> 39:48.420]  All right.
+[39:48.420 --> 39:48.420] 
+[39:48.420 --> 39:53.420]  How the magnitude of that, how big that voltage is, is called the Zener voltage.
+[39:53.420 --> 39:54.420]  All right.
+[39:54.420 --> 39:56.420]  The Zener voltage.
+[39:56.420 --> 40:03.420]  And manufacturers can actually control.
+[40:03.420 --> 40:04.420]  All right.
+[40:04.420 --> 40:11.420]  At what voltage this breakdown will happen to a certain extent.
+[40:11.420 --> 40:28.420]  So we now also have a certain class of diodes that are basically designed primarily to be used in this Zener conduction voltage region.
+[40:28.420 --> 40:29.420]  Okay.
+[40:29.420 --> 40:45.420]  So they, manufacturers can change the doping and so on and so forth to produce Zener voltages that are higher or lower dependent on the actual requirements.
+[40:45.420 --> 40:50.420]  But they're only, unfortunately, a select set of voltages.
+[40:50.420 --> 40:53.420]  And it's not an infinitely variable availability.
+[40:53.420 --> 40:54.420]  All right.
+[40:54.420 --> 41:03.420]  So just like resistors are available only in certain values, same thing with the Zener's.
+[41:03.420 --> 41:08.420]  They're available only with a certain set of voltages.
+[41:08.420 --> 41:09.420]  Okay.
+[41:09.420 --> 41:11.420]  So anyway, we'll get into that also.
+[41:11.420 --> 41:18.420]  Don't worry, because part of the lecture towards the end will contain or include more details about Zener diodes.
+[41:18.420 --> 41:19.420]  Okay.
+[41:19.420 --> 41:23.420]  So for now, that's the discussion.
+[41:23.420 --> 41:27.420]  These are the basic characteristics of a standard diode.
+[41:27.420 --> 41:28.420]  All right.
+[41:28.420 --> 41:29.420]  Okay.
+[41:29.420 --> 41:32.420]  So I hope that there is no problem with that.
+[41:32.420 --> 41:39.420]  Let's look at a couple of stupidly easy to solve examples.
+[41:39.420 --> 41:40.420]  All right.
+[41:40.420 --> 41:41.420]  If R is equal to 2 kilo ohms.
+[41:41.420 --> 41:41.420] 
+[41:41.420 --> 41:54.420]  Find I if VS is equal to 5 volts and find I if VS is equal to negative 5 volts.
+[41:54.420 --> 42:07.420]  And the voltage across the diode VD the diode assume VD if is equal to 0 if it is forward biased.
+[42:07.420 --> 42:12.420]  And V sub Z is equal to infinity if reverse biased.
+[42:12.420 --> 42:13.420]  Okay.
+[42:13.420 --> 42:21.420]  So going back to the examples or the quick lecture that you saw here.
+[42:21.420 --> 42:22.420]  All right.
+[42:22.420 --> 42:37.420]  And that's if the voltage source and whatever other combination of devices that you have here.
+[42:37.420 --> 42:38.420]  All right.
+[42:38.420 --> 42:39.420]  All right.
+[42:39.420 --> 42:50.420]  Are going to provide that with a voltage where the anode is going to be more positive than the cathode.
+[42:50.420 --> 42:52.420]  And so again, this is your anode.
+[42:52.420 --> 42:54.420]  This is your cathode.
+[42:54.420 --> 43:01.420]  And as you can see here, if we're following this convention where we have a positive and negative here for V sub S.
+[43:01.420 --> 43:06.420]  And we have what is a voltage equal to 5 volts.
+[43:06.420 --> 43:14.420]  Then we can trace the imaginary current and say that it will be going in the clockwise direction.
+[43:14.420 --> 43:17.420]  And we'll thus produce a positive here.
+[43:17.420 --> 43:21.420]  And as it goes through the device, the negative comes out on the other end.
+[43:21.420 --> 43:25.420]  Of course, we have a positive negative here as well as on the resistor.
+[43:25.420 --> 43:33.420]  And you'll notice that as far as polarity of the voltage across the diode is going to be,
+[43:33.420 --> 43:41.420]  this is voltage polarity that will tell the diode to conduct.
+[43:41.420 --> 43:42.420]  All right.
+[43:42.420 --> 43:50.420]  This will be a condition where the diode will be conducting and or forward bias.
+[43:50.420 --> 44:02.420]  And it says here, assume that V sub D is equal to zero if the diode is forward biased, meaning that it is acting as a perfect conductor,
+[44:02.420 --> 44:08.420]  aka just like a switch that is turned on.
+[44:08.420 --> 44:09.420]  Okay.
+[44:09.420 --> 44:11.420]  It's acting like a switch that's turned on.
+[44:11.420 --> 44:22.420]  And if you have a switch that's turned on, even if there is a technical polarity like so, the voltage across it is zero, which again, of course, that does not make sense.
+[44:22.420 --> 44:23.420]  But yeah.
+[44:23.420 --> 44:24.420]  All right.
+[44:24.420 --> 44:30.420]  So if it's hard for your brain to process, think of the voltage as being infinitely small.
+[44:30.420 --> 44:31.420]  All right.
+[44:31.420 --> 44:38.420]  So that there is still a polarity, but it is so small that we consider it to be zero.
+[44:38.420 --> 44:39.420]  Okay.
+[44:39.420 --> 44:40.420]  All right.
+[44:40.420 --> 44:44.420]  So therefore, our diode should be conducting at this point.
+[44:44.420 --> 44:54.420]  And because it's basically acting as a perfectly good switch, we're going to get also five volts across our resistor.
+[44:54.420 --> 45:05.420]  And so therefore, we can calculate, of course, that our current I, all right, is going to be five volts divided by two kilo ohms.
+[45:05.420 --> 45:06.420]  All right.
+[45:06.420 --> 45:07.420]  Okay.
+[45:07.420 --> 45:09.420]  And so that's really easy.
+[45:09.420 --> 45:10.420]  Okay.
+[45:10.420 --> 45:13.420]  So I don't suppose that that should be a problem.
+[45:13.420 --> 45:17.420]  And so we know that this is going to be 2.5 milliampere.
+[45:17.420 --> 45:18.420]  Okay.
+[45:18.420 --> 45:20.420]  Are there questions about this, people?
+[45:20.420 --> 45:21.420]  Okay.
+[45:21.420 --> 45:22.420]  Let's go.
+[45:22.420 --> 45:25.420]  I forgot about my coffee here.
+[45:25.420 --> 45:26.420]  Okay.
+[45:26.420 --> 45:29.420]  So no problem.
+[45:29.420 --> 45:30.420]  Okay.
+[45:30.420 --> 45:31.420]  So it's pretty easy.
+[45:31.420 --> 45:40.420]  Of course, if we now look at the reverse condition, we will have negative five volts.
+[45:40.420 --> 45:42.420]  So this is going to be minus five.
+[45:42.420 --> 45:43.420]  All right.
+[45:43.420 --> 45:44.420]  Still with that.
+[45:44.420 --> 45:55.420]  And so therefore, what's going to happen is that the current will attempt to go in the opposite direction, which would be counterclockwise.
+[45:55.420 --> 45:59.420]  This would produce a polarity that looks like this.
+[45:59.420 --> 46:04.420]  And so therefore, this will be a condition where our diode is reverse biased.
+[46:04.420 --> 46:05.420]  Okay.
+[46:05.420 --> 46:14.420]  And given that it's reverse biased, of course, it will act like an open circuit.
+[46:14.420 --> 46:15.420]  All right.
+[46:15.420 --> 46:18.420]  It will become an open circuit.
+[46:18.420 --> 46:22.420]  This is why your voltage across it.
+[46:22.420 --> 46:23.420]  Well, okay.
+[46:23.420 --> 46:34.420]  The Zener voltage is considered to be infinity, which means that regardless of how big the magnitude of the negative voltage applied, it will always remain open.
+[46:34.420 --> 46:35.420]  Okay.
+[46:35.420 --> 46:36.420]  All right.
+[46:36.420 --> 46:39.420]  You can't make diodes that are really like that.
+[46:39.420 --> 46:42.420]  But what the hell.
+[46:42.420 --> 46:43.420]  All right.
+[46:43.420 --> 46:48.420]  And so if it is an open circuit like so, we don't have any conduction path.
+[46:48.420 --> 46:53.420]  And so therefore, under that condition, we know that I is equal to zero.
+[46:53.420 --> 46:54.420]  Okay.
+[46:54.420 --> 46:59.420]  There will be no current flowing because it is an open circuit.
+[46:59.420 --> 47:00.420]  Okay.
+[47:00.420 --> 47:02.420]  So this is pretty easy.
+[47:02.420 --> 47:13.420]  And this is the result essentially of assuming that we have what we call as an ideal diode.
+[47:13.420 --> 47:14.420]  Okay.
+[47:14.420 --> 47:21.420]  So the characteristics that we've shown here are that of an ideal diode.
+[47:21.420 --> 47:31.420]  When it conducts, it perfectly conducts where the resulting voltage across the diode is zero.
+[47:31.420 --> 47:41.420]  And when it is reverse biased, it remains to be an open circuit where there is absolutely no current flowing.
+[47:41.420 --> 47:42.420]  All right.
+[47:42.420 --> 47:43.420]  All right.
+[47:43.420 --> 47:55.420]  And the diode will remain in that condition even if the voltage across it approaches or reaches infinity.
+[47:55.420 --> 47:56.420]  Okay.
+[47:56.420 --> 47:57.420]  All right.
+[47:57.420 --> 48:07.420]  So hopefully there are no questions about this, but there's one thing that I'd like to probably emphasize.
+[48:07.420 --> 48:08.420]  All right.
+[48:08.420 --> 48:16.420]  And I will go to this particular slide because it's surprising how confused people can get.
+[48:16.420 --> 48:17.420]  Okay.
+[48:17.420 --> 48:35.420]  What we see in this particular case is a V versus I plot where the diode conduction and reverse bias condition characteristics as well as the Zener region or breakdown region is being shown.
+[48:35.420 --> 48:36.420]  Okay.
+[48:36.420 --> 48:40.420]  So the question that I have for you is, all right.
+[48:40.420 --> 49:03.420]  If I asked you to graph an ideal diode, I versus V curve, all right, what would the curve look like or what will that graph look like?
+[49:03.420 --> 49:04.420]  All right.
+[49:04.420 --> 49:04.420] 
+[49:04.420 --> 49:07.420]  So this particular graph, let me reiterate.
+[49:07.420 --> 49:08.420]  Okay.
+[49:08.420 --> 49:32.420]  This particular graph that we're looking at over here shows a more realistic diode characteristic because it has a forward region which shows that the diode requires a little bit of forward voltage to actually conduct.
+[49:32.420 --> 49:37.420]  So this particular V is a particular V sub V. It's not equal to zero.
+[49:37.420 --> 49:38.420]  Okay.
+[49:38.420 --> 49:39.420]  Okay.
+[49:39.420 --> 49:59.420]  And when we have the reverse characteristic, you'll look, if you squint very, very carefully, you might be able to perceive that this blue line is slightly a little bit below this actual zero current.
+[49:59.420 --> 50:00.420]  It's a little bit below.
+[50:00.420 --> 50:01.420]  It's a little bit below.
+[50:01.420 --> 50:06.420]  You'll see that the blue is slightly below that blue, below that black line.
+[50:06.420 --> 50:16.420]  So in fact, if you look very carefully, you might be able to see that there is a slight amount of negative current.
+[50:16.420 --> 50:17.420]  Okay.
+[50:17.420 --> 50:18.420]  Okay.
+[50:18.420 --> 50:25.420]  And then finally, at a particularly large negative voltage, the thing suddenly conducts.
+[50:25.420 --> 50:26.420]  All right.
+[50:26.420 --> 50:28.420]  What we call as reverse breakdown.
+[50:28.420 --> 50:45.420]  So if I were to ask you to graph an ideal diode, all right, I versus V curve, what would it look like?
+[50:45.420 --> 50:46.420]  Okay.
+[50:46.420 --> 50:47.420]  Okay.
+[50:47.420 --> 50:50.420]  That's the question that I have.
+[50:50.420 --> 50:53.420]  If we were to graph an ideal diode.
+[50:53.420 --> 50:54.420]  Okay.
+[50:54.420 --> 50:55.420]  Let's change the color.
+[50:55.420 --> 50:56.420]  Okay.
+[50:56.420 --> 51:01.420]  Let's change the color.
+[51:01.420 --> 51:04.420]  Where's the color?
+[51:04.420 --> 51:05.420]  Okay.
+[51:05.420 --> 51:06.420]  Okay.
+[51:06.420 --> 51:07.420]  Okay.
+[51:07.420 --> 51:08.420]  Okay.
+[51:08.420 --> 51:09.420]  Okay.
+[51:09.420 --> 51:10.420]  So ayan.
+[51:10.420 --> 51:11.420]  Ayan.
+[51:11.420 --> 51:12.420]  Ayan.
+[51:12.420 --> 51:13.420]  Ayan.
+[51:13.420 --> 51:13.420] 
+[51:13.420 --> 51:18.420]  So we now have our axis over there.
+[51:18.420 --> 51:24.420]  Let's change the color again to back to our violet.
+[51:24.420 --> 51:25.420]  Okay.
+[51:25.420 --> 51:29.420]  Oh, I versus V for the ideal diode.
+[51:29.420 --> 51:31.420]  What would it look like people?
+[51:31.420 --> 51:32.420]  Okay.
+[51:32.420 --> 51:35.420]  So again, what is the ideal diode characteristic?
+[51:35.420 --> 51:39.420]  We go back to this problem that we just talked about here.
+[51:39.420 --> 51:40.420]  All right.
+[51:40.420 --> 51:43.420]  So this is the ideal diode characteristic.
+[51:43.420 --> 51:48.420]  When it conducts, it's like a short circuit.
+[51:49.420 --> 51:58.420]  In a short circuit like this, the voltage across it is zero volts, regardless of how much current is flowing.
+[51:58.420 --> 52:01.420]  Be it big or small.
+[52:01.420 --> 52:11.420]  When we are in reverse conduction, it acts like an open circuit, which means that there is zero current flowing.
+[52:11.420 --> 52:19.420]  And it does not have a breakdown or Zener voltage.
+[52:19.420 --> 52:24.420]  It does not have any breakdown voltage.
+[52:24.420 --> 52:31.420]  If you can make the magnitude in the negative polarity as big as you want, it will remain an open circuit.
+[52:31.420 --> 52:35.420]  So what does that graph basically look like?
+[52:35.420 --> 52:36.420]  Okay.
+[52:36.420 --> 52:39.420]  So to answer that question, it's very easy.
+[52:39.420 --> 52:51.420]  In the forward region, the thing acts like a short circuit, like a switch that's closed, where the voltage across the switch will always be zero.
+[52:51.420 --> 53:00.420]  So in the forward region, the current flowing through it can become as big as you want, and it will just conduct.
+[53:00.420 --> 53:06.420]  And so here you see that your forward voltage, all right?
+[53:06.420 --> 53:13.420]  So this is your forward region where V sub D is equal to zero.
+[53:13.420 --> 53:14.420]  That's your ideal.
+[53:14.420 --> 53:15.420]  All right?
+[53:15.420 --> 53:16.420]  That's your ideal.
+[53:16.420 --> 53:23.420]  When we now reverse the polarity, all right?
+[53:23.420 --> 53:33.420]  When we reverse the polarity, the diode acts like an open circuit without any conduction at all.
+[53:33.420 --> 53:40.420]  So therefore, the current across the diode is basically zero.
+[53:40.420 --> 53:41.420]  Okay?
+[53:41.420 --> 53:48.420]  The current going through the diode is going to be zero.
+[53:48.420 --> 53:49.420]  Okay?
+[53:49.420 --> 53:50.420]  All right?
+[53:50.420 --> 53:52.420]  And so that's what is going to happen.
+[53:52.420 --> 54:17.420]  So ito po, all right?
+[54:17.420 --> 54:23.420]  If you are not clear, hopefully this has enlightened you.
+[54:23.420 --> 54:28.420]  So this is the curve of an ideal diode, all right?
+[54:28.420 --> 54:37.420]  Ito po, ideal diode curve or conduction characteristic.
+[54:37.420 --> 54:45.420]  It is basically just a 90 degree letter L, if you like, all right?
+[54:45.420 --> 54:47.420]  The letter L that's lying down.
+[54:47.420 --> 54:52.420]  So ganyan ang itsura where this one basically goes all the way to infinity.
+[54:52.420 --> 54:52.420] 
+[54:52.420 --> 54:53.420]  Okay?
+[54:53.420 --> 54:58.420]  So in the forward conduction, it just conducts, no voltage drop.
+[54:58.420 --> 55:02.420]  And in the reverse, it just simply doesn't conduct.
+[55:02.420 --> 55:03.420]  Okay?
+[55:03.420 --> 55:05.420]  That is your ideal diode.
+[55:05.420 --> 55:13.420]  Now, compare and contrast that, ladies and gentlemen, to what we see on the right side here,
+[55:13.420 --> 55:22.420]  where your real world diode has a very, very different looking conduction curve.
+[55:22.420 --> 55:23.420]  Okay?
+[55:23.420 --> 55:26.420]  So ang layo ng dalawa, di ba?
+[55:26.420 --> 55:27.420]  All right?
+[55:27.420 --> 55:37.420]  So we can see here essentially that the real world diode versus the ideal diode is quite different.
+[55:37.420 --> 55:38.420]  Okay?
+[55:38.420 --> 55:42.420]  So hopefully there is no point of confusion.
+[55:42.420 --> 55:43.420]  All right?
+[55:43.420 --> 55:46.420]  Everybody hopefully can understand.
+[55:46.420 --> 55:54.420]  So you can see that this curve here is very different from the one on the opposite side.
+[55:54.420 --> 55:55.420]  Okay.
+[55:55.420 --> 55:56.420]  Are there questions?
+[55:56.420 --> 55:57.420]  Tanong?
+[55:57.420 --> 55:58.420]  May tanong ba?
+[55:58.420 --> 55:59.420]  Okay ba tayo?
+[55:59.420 --> 56:00.420]  Okay?
+[56:00.420 --> 56:01.420]  Okay?
+[56:01.420 --> 56:02.420]  Okay?
+[56:02.420 --> 56:04.420]  Tanong, tulog na lahat.
+[56:04.420 --> 56:05.420]  Hello, yoohoo!
+[56:05.420 --> 56:06.420]  Okay?
+[56:06.420 --> 56:07.420]  All right.
+[56:07.420 --> 56:09.420]  All right.
+[56:09.420 --> 56:10.420]  All right.
+[56:10.420 --> 56:11.420]  All right.
+[56:11.420 --> 56:12.420]  All right.
+[56:12.420 --> 56:25.420]  So, if we were to look with more detail at the conduction curve, all right, here is a better,
+[56:25.420 --> 56:34.420]  or what you might call as a more visible, all right, a more visible deviation from the ideal.
+[56:34.420 --> 56:41.420]  Highly magnified, all right, because the scales have been changed.
+[56:41.420 --> 56:44.420]  This is what you call as an expanded scale, all right?
+[56:44.420 --> 56:48.420]  Dito expanded siya, dito compressed, all right?
+[56:48.420 --> 57:03.420]  Para lang makita talaga yung real diode characteristic conduction as well in the forward region as well as in the reverse biased region.
+[57:03.420 --> 57:04.420]  Okay?
+[57:04.420 --> 57:16.420]  So in the forward conduction region, you'll notice as with more detail here that a real world diode made out of silicon, by the way,
+[57:16.420 --> 57:24.420]  because diodes can be manufactured using a different base semiconductor material.
+[57:24.420 --> 57:32.420]  So this particular curve here is associated with a silicon type diode, SI, all right?
+[57:32.420 --> 57:48.420]  When you're talking about the silicon diode, then in general, the forward conduction basically begins somewhere around the 0.5 volts of, you know, forward bias.
+[57:48.420 --> 57:49.420]  Okay?
+[57:49.420 --> 57:58.420]  And we get an exponential kind of current versus voltage curve.
+[57:58.420 --> 58:15.420]  As soon as we go beyond 0.5, we see that this basically rises very, very quickly, such that we get this really steep, almost vertical kind of I versus V curve,
+[58:15.420 --> 58:20.420]  once the voltage reaches approximately 0.7 volts.
+[58:20.420 --> 58:21.420]  Okay?
+[58:21.420 --> 58:26.420]  So this is the characteristic of a silicon type diode.
+[58:26.420 --> 58:27.420]  Okay?
+[58:27.420 --> 58:28.420]  All right?
+[58:28.420 --> 58:42.420]  In the reverse, all right, when we reverse the voltage across the diode, the diode acts like an almost perfect.
+[58:42.420 --> 58:45.420]  Open circuit.
+[58:45.420 --> 58:46.420]  Open circuit.
+[58:46.420 --> 59:01.420]  But if you have equipment, you can actually measure and be able to see that the diode is actually still slightly conducting, all right?
+[59:01.420 --> 59:08.420]  a very, very tiny amount of current, even when it is reverse bias.
+[59:08.420 --> 59:10.420]  So it's not a perfect insulator.
+[59:10.420 --> 59:14.420]  It will conduct some current.
+[59:14.420 --> 59:29.420]  And this current in the negative region, all right, despite being very, very small, all right, actually does increase slightly with voltage.
+[59:29.420 --> 59:34.420]  You'll see that there is a very slight increase in the amount of current versus over here.
+[59:34.420 --> 59:36.420]  All right?
+[59:36.420 --> 59:41.420]  Unfortunately, it is also temperature dependent.
+[59:41.420 --> 59:42.420]  Okay?
+[59:42.420 --> 59:49.420]  So the exact magnitude is hard to say, but it does increase with temperature.
+[59:49.420 --> 59:50.420]  All right?
+[59:50.420 --> 01:00:01.420]  So the hotter the diode happens to be, the more it will conduct slightly when it is reverse biased.
+[01:00:01.420 --> 01:00:02.420]  How small is small?
+[01:00:02.420 --> 01:00:04.420]  So you might be wondering, gaano ba kaliit?
+[01:00:04.420 --> 01:00:13.420]  Well, the reverse biased current is usually in the nanoampere region.
+[01:00:13.420 --> 01:00:14.420]  Okay?
+[01:00:14.420 --> 01:00:25.420]  For a good silicon diode, the reverse biased current, all right, the reverse biased current is in the nanoampere region.
+[01:00:25.420 --> 01:00:40.420]  And if you have a big fat diode, all right, designed for power, then it would probably also possibly conduct a little bit more, but it would be measured in the microampere kind of region.
+[01:00:40.420 --> 01:00:41.420]  Okay?
+[01:00:41.420 --> 01:00:42.420]  Okay?
+[01:00:42.420 --> 01:00:49.420]  So napakaliit, nanoampere or microampere lang ang reverse current typically.
+[01:00:49.420 --> 01:00:50.420]  All right?
+[01:00:50.420 --> 01:00:55.420]  So that's why, as we said, it's practically negligible.
+[01:00:55.420 --> 01:00:57.420]  All right?
+[01:00:57.420 --> 01:01:07.420]  And we'll only really start to conduct once we get into the voltage where breakdown actually happens.
+[01:01:07.420 --> 01:01:08.420]  Okay?
+[01:01:08.420 --> 01:01:09.420]  All right.
+[01:01:09.420 --> 01:01:23.420]  So there is a calculatable conduction characteristic, which is defined over here, where the current through the diode is defined by this particular equation.
+[01:01:23.420 --> 01:01:26.420]  We don't have to get into the details of that.
+[01:01:26.420 --> 01:01:29.420]  As I said, we can probably skip a couple of things.
+[01:01:29.420 --> 01:01:30.420]  All right?
+[01:01:30.420 --> 01:01:31.420]  Okay?
+[01:01:31.420 --> 01:01:36.420]  That's kind of redundant.
+[01:01:36.420 --> 01:01:37.420]  Okay.
+[01:01:37.420 --> 01:01:38.420]  Okay.
+[01:01:38.420 --> 01:01:39.420]  Okay.
+[01:01:39.420 --> 01:01:40.420]  Okay.
+[01:01:40.420 --> 01:01:48.420]  So I've already explained everything actually here.
+[01:01:48.420 --> 01:01:49.420]  Okay?
+[01:01:49.420 --> 01:01:52.420]  So, I've already explained everything actually here.
+[01:01:52.420 --> 01:01:58.420]  So generally, the forward conduction begins at approximately 0.5 volts.
+[01:01:58.420 --> 01:02:00.420]  Could be a little bit less than that.
+[01:02:00.420 --> 01:02:01.420]  All right?
+[01:02:01.420 --> 01:02:05.420]  Could be a little bit less than that, dependent on the specific diode that you have.
+[01:02:05.420 --> 01:02:07.420]  Could be a little bit more than that.
+[01:02:07.420 --> 01:02:08.420]  All right?
+[01:02:08.420 --> 01:02:15.420]  The current exponentially increases and the voltage drop typically lies in an hour range from 0.6 to 0.8 volts.
+[01:02:15.420 --> 01:02:18.420]  So that 0.6 up to 0.8.
+[01:02:18.420 --> 01:02:19.420]  All right?
+[01:02:19.420 --> 01:02:27.420]  In a typical diode, particularly if the amount of current flowing through it is not humongously large.
+[01:02:27.420 --> 01:02:28.420]  All right?
+[01:02:28.420 --> 01:02:40.420]  And when we talk of how much current is going through the diode, there typically will be in the milliampperes to the hundreds of milliampperes to the amperes.
+[01:02:40.420 --> 01:02:45.420]  It's 1, 2, 3 amperes in the forward direction.
+[01:02:45.420 --> 01:02:46.420]  All right?
+[01:02:46.420 --> 01:02:54.420]  So, expect to get a voltage drop across the diode from 0.6 to about 0.8 volts.
+[01:02:54.420 --> 01:03:07.420]  If it's really heavily conducting under very high current, the very fat diodes, you might breach or get to about 1 volt of voltage drop.
+[01:03:07.420 --> 01:03:08.420]  Okay?
+[01:03:08.420 --> 01:03:14.420]  1 volt of voltage drop would be typically the highest that you'd see under normal circumstances.
+[01:03:14.420 --> 01:03:18.420]  Beyond that, the diode will typically blow up.
+[01:03:18.420 --> 01:03:19.420]  All right?
+[01:03:19.420 --> 01:03:32.420]  This basically simply means if you ever hit more than 1 volt, it basically means that there is a very, very large amount of current flowing through the diode, much more than what the diode is designed to handle.
+[01:03:32.420 --> 01:03:33.420]  Okay?
+[01:03:33.420 --> 01:03:38.420]  There are such things as large and small diodes.
+[01:03:38.420 --> 01:03:39.420]  All right?
+[01:03:39.420 --> 01:03:52.420]  Big fat diodes are designed to work with higher amounts of currents without blowing up.
+[01:03:52.420 --> 01:03:58.420]  Of course, there is a slight difference in terms of the price of such things.
+[01:03:58.420 --> 01:03:59.420]  All right?
+[01:03:59.420 --> 01:04:00.420]  Okay.
+[01:04:00.420 --> 01:04:01.420]  Sige.
+[01:04:01.420 --> 01:04:03.420]  So, that's pretty easy stuff.
+[01:04:03.420 --> 01:04:04.420]  All right?
+[01:04:04.420 --> 01:04:14.420]  Now, silicon is not the only base material that can be used to produce a semiconductor diode.
+[01:04:14.420 --> 01:04:15.420]  Okay?
+[01:04:15.420 --> 01:04:23.420]  So, the curve that you see here where we have it as an approximated by 0.7 volts is for silicon.
+[01:04:23.420 --> 01:04:24.420]  Okay?
+[01:04:24.420 --> 01:04:30.420]  So, there is an alternative base material or element which is germanium.
+[01:04:30.420 --> 01:04:33.420]  Shorten here, GE.
+[01:04:33.420 --> 01:04:36.420]  Short for germanium.
+[01:04:36.420 --> 01:04:37.420]  All right?
+[01:04:37.420 --> 01:04:44.420]  And so, the typical forward conduction voltage of a germanium is 0.3 volts.
+[01:04:44.420 --> 01:04:45.420]  All right?
+[01:04:45.420 --> 01:04:50.420]  And you'll notice that that's much lower than a silicon diode.
+[01:04:50.420 --> 01:04:51.420]  Okay?
+[01:04:51.420 --> 01:04:51.420] 
+[01:04:51.420 --> 01:04:52.420]  Okay?
+[01:04:52.420 --> 01:05:03.420]  So, these are the two most popular semiconductor base materials that are used to produce our diode.
+[01:05:03.420 --> 01:05:04.420]  Okay?
+[01:05:04.420 --> 01:05:05.420]  All right?
+[01:05:05.420 --> 01:05:11.420]  Where the most prevalent available is the silicon diode.
+[01:05:11.420 --> 01:05:16.420]  And so, you might kind of wonder why.
+[01:05:16.420 --> 01:05:23.420]  And an answer to that will be that if you look at the reverse current.
+[01:05:23.420 --> 01:05:24.420]  All right?
+[01:05:24.420 --> 01:05:26.420]  Shown here.
+[01:05:26.420 --> 01:05:40.420]  The reverse current for a silicon diode here is being said to be in the 0.01 microampere range, which is 10 nanoamperes.
+[01:05:40.420 --> 01:05:41.420]  All right?
+[01:05:41.420 --> 01:05:55.420]  Whereas, if you look at the reverse current conduction for a diode that's based on germanium, you'll notice that it is quite a bit larger.
+[01:05:55.420 --> 01:06:08.420]  So, you'll see here that the reverse current is approximately, you know, several magnitudes larger in the microampere region automatically.
+[01:06:08.420 --> 01:06:12.420]  And this will get worse with temperature as well.
+[01:06:12.420 --> 01:06:24.420]  So, the reverse characteristic for a germanium is more deviated, all right, from the ideal compared to the silicon.
+[01:06:24.420 --> 01:06:27.420]  So, is this a significant difference?
+[01:06:27.420 --> 01:06:29.420]  Well, sometimes it can be.
+[01:06:29.420 --> 01:06:30.420]  All right?
+[01:06:30.420 --> 01:06:37.420]  And so, that's one of the reasons why silicon is the more prevalently used material.
+[01:06:37.420 --> 01:07:00.420]  The other thing that is not being shown here, all right, is the fact that even if a germanium diode already begins conducting very early, 0.1 volt and going all the way to about 0.3 volts, okay, very typically, this is a rather sloppy and weak kind of curve.
+[01:07:00.420 --> 01:07:09.420]  In the sense that germanium is not designed or typically are not designed to handle a large amount of forward current.
+[01:07:09.420 --> 01:07:20.420]  So, this 0.3 will basically continue although it's got a slightly softer curve compared to that of a silicon.
+[01:07:20.420 --> 01:07:35.420]  So, overall, if we're talking about larger amounts of current, the germanium is not a good underlying material to use to manufacture a diode, okay?
+[01:07:35.420 --> 01:07:41.420]  So, larger currents, you would stick to silicon-type diodes.
+[01:07:41.420 --> 01:07:56.420]  And that's where we are at this point in time, where there are a couple of germanium diodes that are still readily available, but you will find that the vast majority of diodes are made using silicon.
+[01:07:56.420 --> 01:08:02.420]  And these devices are fairly inexpensive.
+[01:08:02.420 --> 01:08:16.420]  You can purchase silicon diodes as well as germanium diodes for, you know, something like one peso or something like that, two pesos for small signal silicon diodes.
+[01:08:16.420 --> 01:08:17.420]  So, they're very, very cheap, all right?
+[01:08:17.420 --> 01:08:19.420]  So, they're very, very cheap.
+[01:08:19.420 --> 01:08:20.420]  All right.
+[01:08:20.420 --> 01:08:21.420]  They're very, very cheap.
+[01:08:21.420 --> 01:08:23.420]  So, all right.
+[01:08:23.420 --> 01:08:25.420]  So, that's where we are.
+[01:08:25.420 --> 01:08:26.420]  Let's see.
+[01:08:26.420 --> 01:08:27.420]  Yike.
+[01:08:27.420 --> 01:08:28.420]  Never mind that.
+[01:08:28.420 --> 01:08:29.420]  Okay.
+[01:08:29.420 --> 01:08:31.420]  We can skip that.
+[01:08:31.420 --> 01:08:33.420]  Blah, blah, yada, yada.
+[01:08:33.420 --> 01:08:36.420]  I don't know if I have to talk about this.
+[01:08:36.420 --> 01:08:44.420]  So, there are a couple of other equations that we see here that probably are not going to be that important.
+[01:08:44.420 --> 01:08:50.420]  But I think that's a good enough wrap-up for today.
+[01:08:50.420 --> 01:08:54.420]  I said that we won't, you know, take up the whole time.
+[01:08:54.420 --> 01:08:59.420]  And it's almost, well, it's 8.40, all right?
+[01:08:59.420 --> 01:09:01.420]  So, I can probably stop here.
+[01:09:01.420 --> 01:09:04.420]  And we can probably continue.
+[01:09:04.420 --> 01:09:13.420]  By the way, if I may, all right, a quick reminder, of course, but everybody is aware of this.
+[01:09:13.420 --> 01:09:20.420]  So, we are going to remain basically online for the whole week this week.
+[01:09:20.420 --> 01:09:21.420]  Okay?
+[01:09:21.420 --> 01:09:22.420]  Okay?
+[01:09:22.420 --> 01:09:23.420]  Don't have to go to school.
+[01:09:23.420 --> 01:09:26.420]  We don't, unless you have issues that you need to go to school.
+[01:09:26.420 --> 01:09:31.420]  But our lectures are going to remain online.
+[01:09:31.420 --> 01:09:39.420]  So, on Thursday, we will still meet, all right, using this same Zoom link.
+[01:09:39.420 --> 01:09:40.420]  All right?
+[01:09:40.420 --> 01:09:43.420]  So, please remember that.
+[01:09:43.420 --> 01:09:51.420]  For those who are in the lab class, everybody should be in the lab class, more or less.
+[01:09:51.420 --> 01:09:52.420]  All right?
+[01:09:52.420 --> 01:09:53.420]  Same thing.
+[01:09:53.420 --> 01:10:07.420]  The first meeting, or in this particular case, because this happens to be a week where we are all online as required, even the first meeting for the lab is going to be online.
+[01:10:07.420 --> 01:10:08.420]  Okay?
+[01:10:08.420 --> 01:10:14.420]  So, we are going to be online for our first meeting for the lab as well.
+[01:10:14.420 --> 01:10:15.420]  Okay?
+[01:10:15.420 --> 01:10:16.420]  All right.
+[01:10:16.420 --> 01:10:17.420]  So, I hope that's clear.
+[01:10:17.420 --> 01:10:20.420]  Are there any questions at this point?
+[01:10:20.420 --> 01:10:31.420]  May tanong ba regarding what we just took up or anything about the subject that you might want to ask at this point?
+[01:10:31.420 --> 01:10:33.420]  Any questions?
+[01:10:33.420 --> 01:10:34.420]  Questions?
+[01:10:34.420 --> 01:10:35.420]  Questions?
+[01:10:35.420 --> 01:10:36.420]  Questions?
+[01:10:36.420 --> 01:10:37.420]  Wala!
+[01:10:37.420 --> 01:10:38.420]  Okay?
+[01:10:38.420 --> 01:10:40.420]  Sigurado kayo?
+[01:10:40.420 --> 01:10:41.420]  All right.
+[01:10:41.420 --> 01:10:45.420]  Kung walang mga tanong, paki-thumbs up para malaman kung nandyan pa kayo.
+[01:10:45.420 --> 01:10:46.420]  Hello?
+[01:10:46.420 --> 01:10:47.420]  Ah!
+[01:10:47.420 --> 01:10:49.420]  Yung mga iba, wala.
+[01:10:49.420 --> 01:10:50.420]  Tingnan mo.
+[01:10:50.420 --> 01:10:52.420]  Bo and Lee, where are you?
+[01:10:53.420 --> 01:10:54.420]  Not here.
+[01:10:54.420 --> 01:10:55.420]  Ah, mayroon.
+[01:10:55.420 --> 01:10:56.420]  Nakuli lang.
+[01:10:56.420 --> 01:10:57.420]  Okay.
+[01:10:57.420 --> 01:10:59.420]  Miss Panganiban.
+[01:10:59.420 --> 01:11:00.420]  Hello, Diane.
+[01:11:00.420 --> 01:11:01.420]  All right.
+[01:11:01.420 --> 01:11:02.420]  Okay.
+[01:11:02.420 --> 01:11:03.420]  Sigurado kayo.
+[01:11:03.420 --> 01:11:05.420]  So, for now, thank you for joining us.
+[01:11:05.420 --> 01:11:06.420]  Yes?
+[01:11:06.420 --> 01:11:09.420]  Will the Zoom meeting be uploaded?
+[01:11:09.420 --> 01:11:12.420]  Will the Zoom meeting be uploaded?
+[01:11:12.420 --> 01:11:16.420]  This particular Zoom meeting has been recorded to the cloud.
+[01:11:16.420 --> 01:11:18.420]  So, you should be able to find it there.
+[01:11:19.420 --> 01:11:20.420]  Yep.
+[01:11:21.420 --> 01:11:22.420]  Okay.
+[01:11:26.420 --> 01:11:27.420]  Sigurado kayo.
+[01:11:27.420 --> 01:11:28.420]  Other questions?
+[01:11:28.420 --> 01:11:31.420]  So, if there are no questions, thank you very much for joining us today.
+[01:11:31.420 --> 01:11:37.420]  And I'll see you again online on Thursday.
+[01:11:37.420 --> 01:11:38.420]  Thank you.
+[01:11:40.420 --> 01:11:41.420]  Bye, sir.
+[01:11:41.420 --> 01:11:42.420]  Thank you, Paul.
+[01:11:42.420 --> 01:11:54.420]  Good night.
+[01:11:54.420 --> 01:11:54.420] 
+[01:11:54.420 --> 01:11:54.420] 
+[01:11:54.420 --> 01:11:54.420] 
+[01:11:54.420 --> 01:11:54.420] 
+[01:11:54.420 --> 01:11:54.420] 
+[01:11:54.420 --> 01:11:54.420] 
+[01:11:54.420 --> 01:11:54.420] 
+[01:11:54.420 --> 01:11:54.420] 
+[01:11:54.420 --> 01:11:54.420] 
+[01:11:54.420 --> 01:11:55.440]  Good night.
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 
+[01:11:55.440 --> 01:11:55.440] 

@@ -1,0 +1,3953 @@
+[00:00.000 --> 00:10.660]  I'm turning on the recording and here is where we left off from last time.
+[00:11.580 --> 00:20.240]  There we are. Okay. Okay. So we should be good. I think, yeah, everybody can see this.
+[00:20.360 --> 00:28.920]  All right. The question for this particular problem is determine VB2, IB, and V sub O or V sub zero.
+[00:28.920 --> 00:39.720]  And we already actually talked a little bit about this at the very, very last part of the meeting last Thursday.
+[00:40.380 --> 00:49.420]  So you'll notice that in this particular case, we have an attempt for the current to flow in the clockwise direction,
+[00:49.420 --> 00:55.180]  given that we have a power source here of 12 volts.
+[00:55.180 --> 01:03.640]  Okay. And so just to make it a little bit more visible, I can draw the voltage source over here.
+[01:03.920 --> 01:08.200]  And we take note that this particular node is at 12 volts.
+[01:08.200 --> 01:19.120]  So the hope current direction will be in the clockwise direction.
+[01:19.120 --> 01:31.660]  And you'll notice that as far as that is concerned, we would be going in the same direction as the first diode here would allow.
+[01:32.040 --> 01:41.180]  Whereas the second diode, because the current is flowing in the opposite direction that it would normally get with,
+[01:41.180 --> 01:42.180]  the second diode is going in the second diode.
+[01:42.180 --> 01:47.920]  The second diode is going to be in its non-conductive state.
+[01:47.920 --> 01:52.100]  Okay. So the first one is going to be forward biased.
+[01:53.160 --> 01:57.960]  Okay. Whereas this guy is going to be reverse biased.
+[01:57.960 --> 02:02.460]  And because of that, it essentially acts as an open circuit.
+[02:02.460 --> 02:06.120]  Okay. So we don't have a complete circuit there.
+[02:06.120 --> 02:15.020]  Obviously, we can already answer that I sub D is going to be practically zero on that basis.
+[02:15.540 --> 02:18.640]  Okay. So that's your first answer there.
+[02:19.200 --> 02:23.320]  I sub D is going to be zero.
+[02:23.320 --> 02:33.000]  I'm not going to place it as exactly zero because we know that even when a diode is reverse biased,
+[02:33.560 --> 02:40.000]  it will still conduct a very, very small amount of negative current.
+[02:40.240 --> 02:41.540]  Ano ba yung sinabi natin?
+[02:42.020 --> 02:48.540]  Because these are silicon diodes, we expect the currents to be in the nanoampere's range.
+[02:48.540 --> 02:53.340]  Okay. So it's going to be, you know, one nanoampere, 10 nanoampere.
+[02:53.560 --> 02:55.520]  It's really going to be very, very small.
+[02:55.840 --> 02:57.520]  So it's practically zero.
+[02:58.360 --> 02:59.660]  Okay. All right.
+[03:00.080 --> 03:07.500]  Because of that, we can say that because IR, we only have one city circuit here,
+[03:08.300 --> 03:14.700]  our I sub R is also going to be equal to I sub D.
+[03:14.700 --> 03:22.760]  And because that is practically zero, okay, therefore, IR is zero.
+[03:23.400 --> 03:23.740]  Okay.
+[03:24.400 --> 03:33.400]  And because IR is zero, then V sub R is equal to IR times 5.6K.
+[03:33.960 --> 03:39.360]  And we can say that V sub R is going to be practically zero.
+[03:39.940 --> 03:40.500]  All right.
+[03:40.500 --> 03:49.760]  And because V sub R is practically zero, and we take note that V sub zero is equal to V sub R,
+[03:50.200 --> 03:57.040]  we can also say that this one is practically equal to zero.
+[03:57.800 --> 03:58.140]  Okay.
+[03:58.900 --> 03:59.300]  All right.
+[04:00.000 --> 04:03.180]  That leaves us with just one final question.
+[04:03.860 --> 04:08.100]  What is the voltage for V D2?
+[04:08.100 --> 04:08.860]  All right.
+[04:08.960 --> 04:12.120]  So what is our voltage for V sub D2?
+[04:12.600 --> 04:17.800]  This should be something that will sort of be a little bit more difficult to answer.
+[04:17.920 --> 04:18.840]  Maybe I don't know.
+[04:19.240 --> 04:27.740]  So could somebody volunteer if you could tell me what the expected voltage of V D2 is,
+[04:28.240 --> 04:36.100]  given that we know that it's basically pretty much operating close to not practically an open circuit?
+[04:36.320 --> 04:37.100]  What's V D2?
+[04:37.100 --> 04:37.740]  Anybody?
+[04:41.580 --> 04:42.280]  All right.
+[04:43.060 --> 04:43.320]  Yeah.
+[04:43.640 --> 04:44.000]  All right.
+[04:44.120 --> 04:47.540]  So V D2, is it negative?
+[04:48.000 --> 04:48.280]  All right.
+[04:48.580 --> 04:49.280]  Is it negative?
+[04:51.000 --> 04:54.660]  We notice that we have current attempting to flow in this direction,
+[04:55.380 --> 04:58.140]  because current is attempting to flow in this direction,
+[04:58.840 --> 05:02.100]  the polarity that we expect to see across these.
+[05:02.100 --> 05:04.540]  By the way, it's a good guess here.
+[05:04.540 --> 05:05.260]  All right.
+[05:05.320 --> 05:14.840]  But there will be a voltage due to the voltage forward conduction characteristic of the first diode.
+[05:15.380 --> 05:15.840]  Right.
+[05:15.840 --> 05:17.580]  And we'll take note that that is silicon.
+[05:18.320 --> 05:22.280]  And it doesn't say here how we're supposed to treat this thing.
+[05:22.280 --> 05:27.640]  But the easiest one is to basically just follow model two.
+[05:28.340 --> 05:28.740]  Okay.
+[05:28.740 --> 05:32.980]  To be a bit more realistic, we'll use the model two as the basis here.
+[05:32.980 --> 05:39.960]  And we expect then, because the conduction characteristic of a model two is like this.
+[05:41.120 --> 05:41.500]  Okay.
+[05:42.060 --> 05:45.220]  We're going to get about 0.7 volts across this guy.
+[05:45.220 --> 05:46.220]  All right.
+[05:46.220 --> 05:48.000]  So it's going to be 0.7 here.
+[05:48.840 --> 05:49.220]  All right.
+[05:49.600 --> 05:52.060]  And it stops right here.
+[05:52.840 --> 06:03.080]  Therefore, we are going to have the equation V D2 is equal to 12 minus 0.7 volts,
+[06:03.580 --> 06:06.160]  which gives us 11.3 volts.
+[06:06.380 --> 06:06.620]  Okay.
+[06:07.060 --> 06:10.520]  If you didn't quite follow that, you will KVL the thing.
+[06:10.800 --> 06:11.060]  All right.
+[06:11.060 --> 06:19.640]  KVL, so minus 12 plus 0.7 plus V sub D2.
+[06:20.220 --> 06:29.140]  And we know that the voltage across R, okay, V sub R2, if you like, all right, is equal to 0.
+[06:29.140 --> 06:40.680]  And because V sub R2 is 0, all right, then we are left with V D2 is equal to plus 12 minus 0.7,
+[06:40.940 --> 06:43.660]  which gives us 11.3 volts.
+[06:43.900 --> 06:44.120]  Okay.
+[06:44.160 --> 06:45.420]  So that's the answer there.
+[06:46.120 --> 06:46.500]  All right.
+[06:47.060 --> 06:49.100]  11.3 volts.
+[06:49.300 --> 06:49.560]  Okay.
+[06:50.080 --> 06:50.500]  All right.
+[06:50.500 --> 06:54.240]  So all questions answered.
+[06:54.360 --> 07:01.420]  They're pretty straightforward if you, you know, manage to figure out the trick behind it.
+[07:01.580 --> 07:01.720]  Okay.
+[07:01.840 --> 07:04.280]  Not really much of a trick there, but what the hell.
+[07:04.780 --> 07:09.320]  So getting to know your diode characteristics, that's what it's going to turn out to be.
+[07:09.900 --> 07:10.880]  Any questions?
+[07:11.260 --> 07:13.420]  Are we okay with this, people?
+[07:13.420 --> 07:20.460]  Questions?
+[07:20.980 --> 07:22.360]  O, mga, ano, mga
+[07:22.360 --> 07:24.220]  hindi pa maanda rin utak. Hello?
+[07:25.500 --> 07:26.740]  Huwaga na. Gising na.
+[07:27.400 --> 07:28.760]  Hindi pa gising. Ayan.
+[07:28.920 --> 07:30.900]  O, ayan. O, kape, kape, kape.
+[07:31.180 --> 07:32.880]  O. Questions?
+[07:33.540 --> 07:35.040]  If there are no questions, can we have
+[07:35.040 --> 07:36.540]  a thumbs up, please, from
+[07:36.540 --> 07:39.060]  and verify that everybody gets this?
+[07:39.860 --> 07:40.340]  Okay.
+[07:40.900 --> 07:41.260]  Excellent.
+[07:41.260 --> 07:41.740]  Okay.
+[07:43.420 --> 07:45.620]  Let's go to the next slide.
+[07:46.140 --> 07:46.380]  Okay.
+[07:46.580 --> 07:47.680]  Here's another problem.
+[07:48.680 --> 07:53.160]  Determine I1, VB1, VB2, and V0.
+[07:55.140 --> 07:55.520]  Okay.
+[07:56.300 --> 07:56.700]  All right.
+[07:58.440 --> 08:00.940]  So what is the
+[08:00.940 --> 08:04.200]  expected set of answers
+[08:04.200 --> 08:05.880]  for this problem?
+[08:06.120 --> 08:06.220]  Okay.
+[08:06.240 --> 08:07.440]  At least this one,
+[08:07.500 --> 08:10.160]  they've actually explicitly drawn a parse source now.
+[08:10.160 --> 08:10.460]  Okay.
+[08:10.580 --> 08:11.180]  So this one,
+[08:11.180 --> 08:12.920]  what I hate about this is
+[08:12.920 --> 08:14.300]  it's just a floating thing.
+[08:14.480 --> 08:15.560]  For my brain,
+[08:15.640 --> 08:17.500]  I have more difficulties thinking about it.
+[08:17.560 --> 08:20.180]  But here we have an explicit voltage source.
+[08:20.400 --> 08:21.540]  It's 10 volts.
+[08:21.640 --> 08:24.280]  It's going into a 330-ohm resistor.
+[08:24.460 --> 08:27.740]  I hate it when people write it this way.
+[08:28.400 --> 08:29.580]  This is really awkward.
+[08:29.580 --> 08:31.720]  So why not just
+[08:31.720 --> 08:33.400]  that?
+[08:33.400 --> 08:33.480]  Okay.
+[08:34.240 --> 08:35.260]  Same value.
+[08:35.800 --> 08:37.800]  So 330-ohms
+[08:37.800 --> 08:40.100]  going into
+[08:40.100 --> 08:43.200]  these two diodes over here.
+[08:43.860 --> 08:45.120]  V sub D1,
+[08:45.240 --> 08:46.300]  V sub D2,
+[08:46.520 --> 08:47.180]  I1,
+[08:47.320 --> 08:48.980]  and V sub O.
+[08:49.640 --> 08:49.880]  Okay.
+[08:49.920 --> 08:50.920]  Can you figure this one out?
+[08:50.960 --> 08:51.640]  This one's easy.
+[08:52.120 --> 08:52.440]  Right?
+[08:53.740 --> 08:54.600]  It's easy.
+[08:54.600 --> 08:57.380]  Does it make any difference
+[08:57.380 --> 08:58.520]  that two diodes
+[08:58.520 --> 09:00.020]  are in parallel
+[09:00.020 --> 09:01.080]  with each other?
+[09:01.220 --> 09:01.820]  So again,
+[09:02.500 --> 09:03.760]  it does say
+[09:03.760 --> 09:05.340]  that these are silicon diodes.
+[09:05.500 --> 09:06.160]  They're basically
+[09:06.160 --> 09:06.760]  pretty much
+[09:06.760 --> 09:07.720]  the same characteristic.
+[09:08.480 --> 09:09.140]  And again,
+[09:09.320 --> 09:10.520]  for simplicity,
+[09:11.220 --> 09:12.520]  we are going to assume
+[09:12.520 --> 09:13.860]  that it's a model 2
+[09:13.860 --> 09:15.460]  for both
+[09:15.460 --> 09:16.600]  of these diodes.
+[09:17.220 --> 09:17.980]  All right.
+[09:18.020 --> 09:18.880]  It's not a good idea
+[09:18.880 --> 09:19.980]  to mix and match
+[09:19.980 --> 09:20.940]  models
+[09:20.940 --> 09:21.840]  because you're going
+[09:21.840 --> 09:23.080]  to get really confused.
+[09:23.080 --> 09:25.160]  So if you say that,
+[09:25.280 --> 09:25.380]  okay,
+[09:25.420 --> 09:26.160]  I'm going to use
+[09:26.160 --> 09:27.480]  model 2 for it,
+[09:27.600 --> 09:28.580]  then it must be
+[09:28.580 --> 09:29.560]  model 2 for
+[09:29.560 --> 09:31.020]  all the diodes
+[09:31.020 --> 09:31.900]  because if not,
+[09:31.960 --> 09:32.500]  you're going to get
+[09:32.500 --> 09:33.500]  really weird answers.
+[09:34.180 --> 09:35.460]  So model 2,
+[09:36.060 --> 09:36.520]  again,
+[09:36.740 --> 09:37.280]  the conduction
+[09:37.280 --> 09:38.020]  characteristic
+[09:38.020 --> 09:39.380]  of our model 2
+[09:39.380 --> 09:41.040]  basically is
+[09:41.040 --> 09:43.540]  a 90 degree
+[09:43.540 --> 09:45.580]  conduction
+[09:45.580 --> 09:47.780]  beginning at
+[09:47.780 --> 09:48.940]  0.7 volts
+[09:48.940 --> 09:49.720]  and then if
+[09:49.720 --> 09:50.700]  ever anything
+[09:50.700 --> 09:52.020]  on the opposite side,
+[09:52.020 --> 09:53.360]  it basically
+[09:53.360 --> 09:54.620]  follows the ideal
+[09:54.620 --> 09:55.080]  diode,
+[09:55.600 --> 09:56.540]  which is that
+[09:56.540 --> 09:57.860]  it is open circuit
+[09:57.860 --> 09:59.220]  regardless of
+[09:59.220 --> 09:59.940]  how big
+[09:59.940 --> 10:00.600]  the magnitude
+[10:00.600 --> 10:01.840]  of the reverse bias
+[10:01.840 --> 10:02.180]  is.
+[10:02.700 --> 10:02.940]  Okay.
+[10:03.320 --> 10:03.640]  All right.
+[10:03.700 --> 10:04.720]  So how do we solve
+[10:04.720 --> 10:05.440]  this problem?
+[10:05.960 --> 10:06.760]  Is this hard
+[10:06.760 --> 10:07.440]  or easy?
+[10:07.720 --> 10:08.000]  All right.
+[10:08.360 --> 10:10.200]  So if
+[10:10.200 --> 10:11.660]  they have
+[10:11.660 --> 10:13.040]  exactly the same
+[10:13.040 --> 10:13.880]  characteristic,
+[10:14.320 --> 10:15.400]  then we can
+[10:15.400 --> 10:16.580]  expect that
+[10:16.580 --> 10:17.860]  a current
+[10:17.860 --> 10:18.500]  will attempt
+[10:18.500 --> 10:19.220]  to flow
+[10:19.220 --> 10:20.280]  I1
+[10:20.280 --> 10:21.240]  going around
+[10:21.240 --> 10:21.940]  like so.
+[10:23.160 --> 10:23.520]  Okay.
+[10:24.220 --> 10:25.860]  And it will
+[10:25.860 --> 10:26.560]  basically
+[10:26.560 --> 10:27.320]  encounter
+[10:27.320 --> 10:28.060]  this guy
+[10:28.060 --> 10:28.620]  which will
+[10:28.620 --> 10:29.480]  pull the
+[10:29.480 --> 10:30.440]  voltage down
+[10:30.440 --> 10:31.600]  so that
+[10:31.600 --> 10:32.920]  it conducts
+[10:32.920 --> 10:33.480]  and we know
+[10:33.480 --> 10:33.840]  that the
+[10:33.840 --> 10:34.260]  conduction
+[10:34.260 --> 10:35.000]  voltage
+[10:35.000 --> 10:35.680]  of the
+[10:35.680 --> 10:36.020]  diode
+[10:36.020 --> 10:37.100]  is basically
+[10:37.100 --> 10:38.800]  0.7
+[10:38.800 --> 10:39.340]  volts.
+[10:40.240 --> 10:40.540]  All right.
+[10:40.620 --> 10:41.160]  And so
+[10:41.160 --> 10:42.120]  that's the
+[10:42.120 --> 10:43.240]  voltage that
+[10:43.240 --> 10:43.600]  we're going
+[10:43.600 --> 10:44.280]  to get across
+[10:44.280 --> 10:44.560]  here.
+[10:44.560 --> 10:45.320]  the big
+[10:45.320 --> 10:45.980]  question mark
+[10:45.980 --> 10:46.540]  is what
+[10:46.540 --> 10:47.120]  about this
+[10:47.120 --> 10:47.940]  other one?
+[10:48.200 --> 10:48.500]  Of course.
+[10:48.700 --> 10:48.980]  All right.
+[10:49.060 --> 10:49.640]  What about
+[10:49.640 --> 10:50.300]  this guy?
+[10:50.580 --> 10:50.820]  Well,
+[10:51.960 --> 10:53.420]  if they have
+[10:53.420 --> 10:54.680]  exactly the
+[10:54.680 --> 10:55.060]  same
+[10:55.060 --> 10:55.660]  conduction
+[10:55.660 --> 10:56.400]  voltage,
+[10:57.080 --> 10:57.420]  all right,
+[10:58.260 --> 10:59.640]  0.7
+[10:59.640 --> 11:00.520]  volts also,
+[11:01.820 --> 11:02.260]  then
+[11:02.260 --> 11:03.260]  because
+[11:03.260 --> 11:04.000]  they are
+[11:04.000 --> 11:04.860]  remember
+[11:04.860 --> 11:05.960]  that as
+[11:05.960 --> 11:06.960]  far as
+[11:06.960 --> 11:08.840]  the
+[11:08.840 --> 11:11.660]  simplification
+[11:11.660 --> 11:12.840]  is concerned.
+[11:13.500 --> 11:13.780]  All right.
+[11:13.780 --> 11:15.060]  or even
+[11:15.060 --> 11:16.060]  if not
+[11:16.060 --> 11:16.780]  thinking about
+[11:16.780 --> 11:17.720]  the simplification,
+[11:18.460 --> 11:19.020]  even a
+[11:19.020 --> 11:19.600]  real world
+[11:19.600 --> 11:20.080]  diode,
+[11:20.240 --> 11:20.500]  a more
+[11:20.500 --> 11:21.000]  realistic
+[11:21.000 --> 11:22.100]  characteristic
+[11:22.100 --> 11:23.200]  is that
+[11:23.200 --> 11:24.180]  its
+[11:24.180 --> 11:25.420]  conduction
+[11:25.420 --> 11:26.620]  characteristic
+[11:26.620 --> 11:28.940]  can be
+[11:28.940 --> 11:30.060]  thought of
+[11:30.060 --> 11:31.100]  as
+[11:31.100 --> 11:33.260]  load line
+[11:33.260 --> 11:33.820]  analysis.
+[11:34.480 --> 11:34.700]  All right.
+[11:34.960 --> 11:35.580]  We can
+[11:35.580 --> 11:36.320]  think of
+[11:36.320 --> 11:36.540]  its
+[11:36.540 --> 11:37.320]  conduction
+[11:37.320 --> 11:38.180]  characteristic
+[11:38.180 --> 11:38.860]  as having
+[11:38.860 --> 11:39.640]  an equivalent
+[11:39.640 --> 11:41.740]  resistance.
+[11:42.540 --> 11:42.640]  So
+[11:42.640 --> 11:43.120]  remember
+[11:43.120 --> 11:43.820]  this one
+[11:43.820 --> 11:44.440]  where we
+[11:44.440 --> 11:45.920]  talked about
+[11:45.920 --> 11:47.800]  the
+[11:47.800 --> 11:49.300]  equivalent
+[11:49.300 --> 11:51.140]  resistance
+[11:51.140 --> 11:52.180]  in the
+[11:52.180 --> 11:52.780]  conduction
+[11:52.780 --> 11:53.340]  mode.
+[11:53.720 --> 11:53.900]  So we
+[11:53.900 --> 11:54.400]  have the
+[11:54.400 --> 11:55.460]  static
+[11:55.460 --> 11:56.400]  or DC
+[11:56.400 --> 11:57.220]  type
+[11:57.220 --> 11:57.700]  resistance.
+[11:57.960 --> 11:58.140]  We have
+[11:58.140 --> 11:58.580]  the AC
+[11:58.580 --> 11:59.380]  or dynamic
+[11:59.380 --> 11:59.900]  resistance
+[11:59.900 --> 12:00.580]  or the
+[12:00.580 --> 12:01.020]  average.
+[12:01.140 --> 12:01.300]  Now,
+[12:01.660 --> 12:02.180]  in this
+[12:02.180 --> 12:02.700]  particular
+[12:02.700 --> 12:03.300]  problem
+[12:03.300 --> 12:03.760]  that we're
+[12:03.760 --> 12:04.440]  looking at,
+[12:05.440 --> 12:05.620]  okay,
+[12:06.020 --> 12:07.160]  the obvious
+[12:07.160 --> 12:08.320]  choice of
+[12:08.320 --> 12:08.940]  the
+[12:08.940 --> 12:10.340]  resistive
+[12:10.340 --> 12:11.160]  characteristic
+[12:11.160 --> 12:12.800]  is going
+[12:12.800 --> 12:13.360]  to be
+[12:13.360 --> 12:14.420]  that of
+[12:14.420 --> 12:15.080]  the DC
+[12:15.080 --> 12:16.040]  or static
+[12:16.040 --> 12:16.540]  type
+[12:16.540 --> 12:17.200]  resistance.
+[12:17.760 --> 12:18.120]  Bakit?
+[12:18.300 --> 12:18.460]  Eh,
+[12:18.460 --> 12:18.680]  kasi
+[12:18.680 --> 12:19.620]  ang source
+[12:19.620 --> 12:20.220]  natin
+[12:20.220 --> 12:20.460]  ng
+[12:20.460 --> 12:21.140]  kuryente
+[12:21.140 --> 12:22.640]  sa problem,
+[12:23.200 --> 12:23.660]  all right,
+[12:23.980 --> 12:24.560]  is a
+[12:24.560 --> 12:25.880]  non-changing
+[12:25.880 --> 12:27.460]  voltage source.
+[12:27.600 --> 12:27.720]  Sorry,
+[12:27.820 --> 12:28.260]  it's so far
+[12:28.260 --> 12:28.560]  away.
+[12:28.560 --> 12:31.180]  It's a
+[12:31.180 --> 12:31.960]  non-changing
+[12:31.960 --> 12:33.000]  DC
+[12:33.000 --> 12:33.760]  voltage
+[12:33.760 --> 12:34.240]  of
+[12:34.240 --> 12:34.680]  10
+[12:34.680 --> 12:35.060]  volts.
+[12:35.200 --> 12:35.600]  We don't
+[12:35.600 --> 12:36.240]  have any
+[12:36.240 --> 12:36.980]  signal
+[12:36.980 --> 12:38.040]  except for
+[12:38.040 --> 12:38.680]  a steady
+[12:38.680 --> 12:39.240]  state
+[12:39.240 --> 12:39.740]  DC.
+[12:40.380 --> 12:40.580]  So,
+[12:41.080 --> 12:41.340]  the
+[12:41.340 --> 12:42.100]  conduction
+[12:42.100 --> 12:43.040]  characteristic,
+[12:43.260 --> 12:43.760]  although it's
+[12:43.760 --> 12:44.540]  modeled here,
+[12:44.680 --> 12:45.200]  model 2
+[12:45.200 --> 12:46.000]  nga nakasulat,
+[12:46.060 --> 12:46.400]  is a
+[12:46.400 --> 12:46.940]  straight line
+[12:46.940 --> 12:47.300]  upward,
+[12:47.720 --> 12:48.160]  which means
+[12:48.160 --> 12:48.740]  resistance
+[12:48.740 --> 12:49.340]  is equal
+[12:49.340 --> 12:49.920]  to zero.
+[12:50.620 --> 12:51.420]  Even if
+[12:51.420 --> 12:52.140]  you get
+[12:52.140 --> 12:52.540]  a more
+[12:52.540 --> 12:53.020]  realistic
+[12:53.020 --> 12:53.780]  model,
+[12:54.180 --> 12:54.460]  all right,
+[12:54.520 --> 12:54.840]  if you
+[12:54.840 --> 12:55.400]  change this
+[12:55.400 --> 12:55.680]  to a
+[12:55.680 --> 12:56.280]  model 3,
+[12:56.820 --> 12:57.600]  then the
+[12:57.600 --> 12:58.420]  curve is
+[12:58.420 --> 12:58.840]  going to
+[12:58.840 --> 12:59.740]  look slightly
+[12:59.740 --> 13:00.240]  tilted,
+[13:00.580 --> 13:01.100]  and you're
+[13:01.100 --> 13:01.460]  going to
+[13:01.460 --> 13:02.000]  have this
+[13:02.000 --> 13:02.660]  intersection
+[13:02.660 --> 13:03.180]  point,
+[13:03.700 --> 13:04.220]  and they're
+[13:04.220 --> 13:04.600]  going to
+[13:04.600 --> 13:05.000]  be the
+[13:05.000 --> 13:05.340]  same.
+[13:05.460 --> 13:05.860]  It's the
+[13:05.860 --> 13:06.560]  same model
+[13:06.560 --> 13:07.320]  for both
+[13:07.320 --> 13:07.820]  of these
+[13:07.820 --> 13:08.260]  diodes.
+[13:08.780 --> 13:09.040]  So,
+[13:09.040 --> 13:10.440]  for whatever
+[13:10.440 --> 13:11.360]  current is
+[13:11.360 --> 13:12.080]  developed,
+[13:12.640 --> 13:12.960]  all right,
+[13:13.460 --> 13:13.840]  you can
+[13:13.840 --> 13:14.540]  think of
+[13:14.540 --> 13:15.460]  this as
+[13:15.460 --> 13:17.020]  0.7
+[13:17.020 --> 13:18.260]  plus a
+[13:18.260 --> 13:18.820]  series
+[13:18.820 --> 13:19.680]  resistance,
+[13:20.440 --> 13:20.840]  all right,
+[13:21.180 --> 13:22.740]  0.7
+[13:22.740 --> 13:25.060]  all right,
+[13:25.240 --> 13:26.080]  0.7
+[13:26.080 --> 13:27.720]  plus a
+[13:27.720 --> 13:28.660]  series
+[13:28.660 --> 13:29.400]  resistance
+[13:29.400 --> 13:30.400]  of R
+[13:30.400 --> 13:31.020]  sub D
+[13:31.020 --> 13:32.600]  for one
+[13:32.600 --> 13:33.180]  of them,
+[13:33.220 --> 13:33.780]  and then the
+[13:33.780 --> 13:34.440]  other one
+[13:34.440 --> 13:35.380]  is exactly
+[13:35.380 --> 13:36.040]  the same,
+[13:36.440 --> 13:36.860]  where we
+[13:36.860 --> 13:37.540]  have another
+[13:37.540 --> 13:38.080]  diode,
+[13:38.460 --> 13:38.880]  well,
+[13:39.040 --> 13:40.140]  diode,
+[13:40.820 --> 13:41.240]  all right,
+[13:41.600 --> 13:42.300]  which is
+[13:42.300 --> 13:43.840]  emulated or
+[13:43.840 --> 13:45.400]  substituted with
+[13:45.400 --> 13:47.380]  a 0.7
+[13:47.380 --> 13:47.880]  volts,
+[13:48.940 --> 13:49.300]  all right,
+[13:49.380 --> 13:50.260]  along with
+[13:50.260 --> 13:52.080]  a R sub
+[13:52.080 --> 13:52.360]  D
+[13:52.360 --> 13:53.020]  equivalent,
+[13:53.440 --> 13:53.640]  okay,
+[13:53.700 --> 13:54.300]  so there you
+[13:54.300 --> 13:54.580]  go with
+[13:54.580 --> 13:54.740]  that.
+[13:54.820 --> 13:54.940]  Now,
+[13:55.020 --> 13:55.680]  if they are
+[13:55.680 --> 13:56.520]  exactly the
+[13:56.520 --> 13:56.900]  same,
+[13:57.380 --> 13:57.760]  all right,
+[13:58.440 --> 13:58.980]  R sub
+[13:58.980 --> 13:59.580]  D here
+[13:59.580 --> 14:00.460]  is equal
+[14:00.460 --> 14:01.340]  to the
+[14:01.340 --> 14:02.200]  other R
+[14:02.200 --> 14:02.720]  sub D,
+[14:03.300 --> 14:04.000]  then we
+[14:04.000 --> 14:04.980]  expect that
+[14:04.980 --> 14:07.240]  I1 will
+[14:07.240 --> 14:07.820]  basically
+[14:07.820 --> 14:09.600]  branch off
+[14:09.600 --> 14:10.380]  equally
+[14:10.380 --> 14:12.020]  between the
+[14:12.020 --> 14:12.820]  two points,
+[14:13.820 --> 14:14.260]  okay,
+[14:14.680 --> 14:15.480]  it's going
+[14:15.480 --> 14:16.080]  to branch
+[14:16.080 --> 14:16.960]  out equally
+[14:16.960 --> 14:17.880]  between the
+[14:17.880 --> 14:18.420]  two points,
+[14:18.540 --> 14:18.880]  and so
+[14:18.880 --> 14:20.360]  given that
+[14:20.360 --> 14:21.000]  this is
+[14:21.000 --> 14:22.740]  on the
+[14:22.740 --> 14:23.100]  assumption
+[14:23.100 --> 14:23.820]  that R sub
+[14:23.820 --> 14:24.340]  D is
+[14:24.340 --> 14:24.900]  0,
+[14:25.040 --> 14:25.580]  because we
+[14:25.580 --> 14:26.200]  did say
+[14:26.200 --> 14:26.620]  that it
+[14:26.620 --> 14:26.960]  is a
+[14:26.960 --> 14:27.520]  model 2,
+[14:27.520 --> 14:28.800]  then we
+[14:28.800 --> 14:29.680]  still hold
+[14:29.680 --> 14:30.140]  the same
+[14:30.140 --> 14:30.840]  characteristic
+[14:30.840 --> 14:31.660]  that the
+[14:31.660 --> 14:32.380]  current is
+[14:32.380 --> 14:33.340]  expected to
+[14:33.340 --> 14:34.880]  split equally
+[14:34.880 --> 14:35.960]  between the
+[14:35.960 --> 14:36.760]  two diodes.
+[14:37.220 --> 14:37.540]  In other
+[14:37.540 --> 14:37.820]  words,
+[14:38.320 --> 14:38.780]  I sub
+[14:38.780 --> 14:39.860]  D1 plus
+[14:39.860 --> 14:40.640]  I sub
+[14:40.640 --> 14:41.960]  D2 is
+[14:41.960 --> 14:42.620]  equal to
+[14:42.620 --> 14:43.540]  I sub
+[14:43.540 --> 14:44.140]  1.
+[14:44.300 --> 14:44.760]  It will
+[14:44.760 --> 14:45.940]  split equally
+[14:45.940 --> 14:46.620]  between the
+[14:46.620 --> 14:46.840]  two,
+[14:47.340 --> 14:47.900]  so all we
+[14:47.900 --> 14:48.380]  need to do
+[14:48.380 --> 14:49.100]  now is
+[14:49.100 --> 14:49.780]  basically
+[14:49.780 --> 14:50.880]  calculate
+[14:50.880 --> 14:52.480]  the current
+[14:52.480 --> 14:53.540]  that's expected
+[14:53.540 --> 14:54.280]  to flow,
+[14:54.780 --> 14:55.180]  all right,
+[14:55.320 --> 14:56.700]  and that is
+[14:56.700 --> 14:57.340]  going to be
+[14:57.340 --> 14:57.920]  given by
+[14:57.920 --> 14:58.460]  the simple
+[14:58.460 --> 14:59.120]  equation
+[14:59.120 --> 15:00.560]  that I
+[15:00.560 --> 15:01.340]  1,
+[15:01.540 --> 15:01.860]  all right,
+[15:01.920 --> 15:02.340]  very good,
+[15:02.440 --> 15:02.900]  thank you,
+[15:03.440 --> 15:04.200]  is equal
+[15:04.200 --> 15:04.820]  to,
+[15:05.560 --> 15:06.060]  all right,
+[15:06.180 --> 15:06.640]  how do I
+[15:06.640 --> 15:07.600]  calculate it,
+[15:09.120 --> 15:09.560]  all right,
+[15:10.240 --> 15:10.740]  I have a
+[15:10.740 --> 15:11.220]  10 volt
+[15:11.220 --> 15:11.820]  source
+[15:11.820 --> 15:12.840]  minus
+[15:12.840 --> 15:14.080]  0.7
+[15:14.080 --> 15:14.620]  volts,
+[15:14.940 --> 15:15.600]  forget the
+[15:15.600 --> 15:16.560]  minus 0.7
+[15:16.560 --> 15:17.160]  because there's
+[15:17.160 --> 15:17.960]  a voltage drop
+[15:17.960 --> 15:18.340]  there,
+[15:18.880 --> 15:19.900]  divided by
+[15:19.900 --> 15:21.220]  330
+[15:21.220 --> 15:22.300]  ohms,
+[15:22.800 --> 15:23.080]  okay,
+[15:23.340 --> 15:23.700]  all right,
+[15:25.020 --> 15:26.640]  so that is
+[15:26.640 --> 15:27.200]  equal to
+[15:27.200 --> 15:28.160]  9.3
+[15:28.160 --> 15:28.640]  volts
+[15:28.640 --> 15:29.440]  divided
+[15:29.440 --> 15:30.180]  by
+[15:30.180 --> 15:31.720]  330
+[15:31.720 --> 15:32.660]  ohms,
+[15:33.160 --> 15:34.120]  and whatever
+[15:34.120 --> 15:34.680]  that turns
+[15:34.680 --> 15:35.260]  out to be,
+[15:36.060 --> 15:36.640]  all right,
+[15:36.760 --> 15:37.620]  so somebody
+[15:37.620 --> 15:38.140]  here has done
+[15:38.140 --> 15:38.660]  a very quick
+[15:38.660 --> 15:39.300]  calculation,
+[15:39.920 --> 15:40.840]  is it
+[15:40.840 --> 15:41.680]  0.03
+[15:41.680 --> 15:42.320]  amperes,
+[15:42.900 --> 15:43.140]  is it
+[15:43.140 --> 15:44.060]  30
+[15:44.060 --> 15:44.760]  milliampere,
+[15:45.140 --> 15:45.840]  let me just
+[15:45.840 --> 15:46.300]  think for a
+[15:46.300 --> 15:46.500]  while,
+[15:47.100 --> 15:47.340]  okay,
+[15:48.440 --> 15:49.860]  I'm poor
+[15:49.860 --> 15:50.720]  with these
+[15:50.720 --> 15:51.040]  things,
+[15:51.160 --> 15:51.240]  no,
+[15:51.320 --> 15:51.660]  I can't
+[15:51.660 --> 15:52.340]  approximate it
+[15:52.340 --> 15:52.880]  that quickly,
+[15:53.420 --> 15:53.760]  all right,
+[15:53.760 --> 15:54.480]  so 330,
+[15:55.480 --> 15:56.680]  and it's
+[15:56.680 --> 15:57.000]  very,
+[15:57.100 --> 15:57.600]  very close
+[15:57.600 --> 15:58.180]  to that,
+[15:58.500 --> 15:58.920]  practically
+[15:58.920 --> 15:59.580]  speaking,
+[15:59.920 --> 16:00.300]  all right,
+[16:01.060 --> 16:05.000]  so 0.0282,
+[16:05.480 --> 16:05.940]  all right,
+[16:06.440 --> 16:08.900]  so 28.2
+[16:08.900 --> 16:10.140]  milliampere,
+[16:10.540 --> 16:10.840]  okay,
+[16:11.320 --> 16:11.940]  so there's
+[16:11.940 --> 16:13.480]  your exact,
+[16:13.980 --> 16:14.720]  more exact
+[16:14.720 --> 16:15.180]  answer,
+[16:15.280 --> 16:15.720]  all of these
+[16:15.720 --> 16:16.180]  are just,
+[16:16.320 --> 16:16.560]  you know,
+[16:16.620 --> 16:17.420]  floating points
+[16:17.420 --> 16:18.040]  going around,
+[16:18.400 --> 16:18.640]  yes,
+[16:18.640 --> 16:19.520]  it's approximately
+[16:19.520 --> 16:20.800]  30 milliampere,
+[16:21.640 --> 16:21.940]  correct,
+[16:22.600 --> 16:22.980]  all right,
+[16:23.640 --> 16:24.220]  Diane,
+[16:24.420 --> 16:24.880]  thank you,
+[16:25.600 --> 16:26.560]  and because
+[16:26.560 --> 16:28.080]  it's approximately
+[16:28.080 --> 16:29.420]  30 milliampere,
+[16:29.580 --> 16:30.340]  you just split
+[16:30.340 --> 16:31.160]  it into two,
+[16:31.800 --> 16:32.260]  all right,
+[16:33.100 --> 16:35.500]  the voltage,
+[16:35.840 --> 16:36.400]  voltage,
+[16:36.400 --> 16:36.880]  I'm not
+[16:36.880 --> 16:37.260]  correct,
+[16:38.480 --> 16:38.760]  okay,
+[16:38.940 --> 16:40.140]  voltage across
+[16:40.140 --> 16:41.020]  D1 and
+[16:41.020 --> 16:41.520]  D2
+[16:41.520 --> 16:43.560]  is 0.7
+[16:43.560 --> 16:44.100]  volts,
+[16:45.340 --> 16:45.700]  okay,
+[16:46.200 --> 16:47.320]  all right,
+[16:47.320 --> 16:50.080]  bakit nga
+[16:50.080 --> 16:50.400]  ganon,
+[16:50.500 --> 16:50.680]  di ba,
+[16:51.520 --> 16:52.200]  is it asking
+[16:52.200 --> 16:53.020]  for BD1
+[16:53.020 --> 16:53.760]  and BD2
+[16:53.760 --> 16:54.540]  or is it asking
+[16:54.540 --> 16:55.580]  for ID1
+[16:55.580 --> 16:56.600]  and ID2,
+[16:57.060 --> 16:57.600]  labo naman
+[16:57.600 --> 16:58.300]  ang tanong na to,
+[16:58.380 --> 16:59.040]  bakit ganyan,
+[16:59.160 --> 16:59.400]  all right,
+[16:59.480 --> 16:59.960]  but yes,
+[17:00.060 --> 17:01.560]  if you're asking
+[17:01.560 --> 17:02.760]  for the current
+[17:02.760 --> 17:04.200]  across the diodes,
+[17:04.340 --> 17:04.680]  indeed,
+[17:04.800 --> 17:05.560]  it is just
+[17:05.560 --> 17:07.900]  28.2 milliampere
+[17:07.900 --> 17:09.340]  divided by two,
+[17:10.020 --> 17:10.400]  all right,
+[17:10.480 --> 17:10.880]  and so
+[17:10.880 --> 17:12.060]  ID1
+[17:12.060 --> 17:13.460]  is going to be
+[17:13.460 --> 17:15.160]  14.1
+[17:15.160 --> 17:16.180]  milliampere,
+[17:16.180 --> 17:17.600]  ID2
+[17:17.600 --> 17:19.320]  is 14.1
+[17:19.320 --> 17:20.240]  milliampere,
+[17:20.640 --> 17:21.020]  and
+[17:21.020 --> 17:22.140]  V sub
+[17:22.140 --> 17:23.320]  zero
+[17:23.320 --> 17:24.740]  is just
+[17:24.740 --> 17:25.680]  taken across
+[17:25.680 --> 17:26.540]  each of these
+[17:26.540 --> 17:26.840]  diodes,
+[17:26.900 --> 17:27.460]  this is a
+[17:27.460 --> 17:28.460]  parallel circuit,
+[17:29.180 --> 17:29.460]  and so
+[17:29.460 --> 17:29.840]  therefore,
+[17:30.140 --> 17:30.440]  we know
+[17:30.440 --> 17:31.180]  that V sub
+[17:31.180 --> 17:31.500]  zero
+[17:31.500 --> 17:32.180]  is equal
+[17:32.180 --> 17:33.540]  to 0.7
+[17:33.540 --> 17:33.940]  volts,
+[17:34.440 --> 17:34.800]  all right,
+[17:35.300 --> 17:36.140]  so that's
+[17:36.140 --> 17:37.000]  your answer,
+[17:37.820 --> 17:38.220]  okay,
+[17:38.260 --> 17:38.820]  for this
+[17:38.820 --> 17:39.340]  particular
+[17:39.340 --> 17:39.840]  problem,
+[17:40.520 --> 17:40.760]  okay,
+[17:40.940 --> 17:41.460]  all right,
+[17:41.980 --> 17:42.440]  so this is a
+[17:42.440 --> 17:42.840]  question of
+[17:42.840 --> 17:43.360]  getting used
+[17:43.360 --> 17:43.760]  to it,
+[17:43.760 --> 17:44.820]  it's not
+[17:44.820 --> 17:45.120]  really
+[17:45.120 --> 17:45.580]  difficult
+[17:45.580 --> 17:46.160]  at all,
+[17:46.760 --> 17:48.080]  just a
+[17:48.080 --> 17:48.460]  little bit
+[17:48.460 --> 17:49.020]  of getting
+[17:49.020 --> 17:49.640]  used to
+[17:49.640 --> 17:50.640]  this weird
+[17:50.640 --> 17:51.620]  diode
+[17:51.620 --> 17:52.460]  conduction
+[17:52.460 --> 17:53.920]  characteristic,
+[17:54.500 --> 17:54.780]  okay,
+[17:55.120 --> 17:55.440]  all right,
+[17:55.720 --> 17:56.020]  are there
+[17:56.020 --> 17:56.680]  questions about
+[17:56.680 --> 17:57.120]  this,
+[17:57.320 --> 17:57.680]  are we
+[17:57.680 --> 17:57.960]  good,
+[17:59.080 --> 17:59.440]  okay ba
+[17:59.440 --> 17:59.780]  tayo,
+[17:59.900 --> 18:00.320]  thumbs up
+[18:00.320 --> 18:00.520]  uli,
+[18:00.760 --> 18:01.140]  mga
+[18:01.140 --> 18:02.160]  sudyante,
+[18:02.400 --> 18:02.660]  hello,
+[18:02.980 --> 18:03.840]  if you understood
+[18:03.840 --> 18:04.200]  it,
+[18:04.520 --> 18:04.980]  if not,
+[18:05.060 --> 18:05.620]  this is a
+[18:05.620 --> 18:06.580]  good opportunity
+[18:06.580 --> 18:07.320]  to ask
+[18:07.320 --> 18:07.960]  questions
+[18:07.960 --> 18:09.080]  before you
+[18:09.080 --> 18:09.720]  get even
+[18:09.720 --> 18:10.800]  more confused,
+[18:10.800 --> 18:12.580]  all right,
+[18:12.680 --> 18:13.780]  any questions,
+[18:14.280 --> 18:15.820]  any questions,
+[18:19.740 --> 18:20.300]  are we
+[18:20.300 --> 18:20.820]  going,
+[18:21.400 --> 18:21.780]  gone,
+[18:21.940 --> 18:22.140]  okay,
+[18:22.260 --> 18:22.740]  so let's
+[18:22.740 --> 18:23.140]  go,
+[18:23.400 --> 18:24.140]  all right,
+[18:27.340 --> 18:27.800]  how,
+[18:28.060 --> 18:29.380]  okay,
+[18:29.460 --> 18:29.900]  how did
+[18:29.900 --> 18:30.320]  we get
+[18:30.320 --> 18:31.180]  0.7,
+[18:31.180 --> 18:31.620]  okay,
+[18:31.620 --> 18:38.440]  how is
+[18:38.440 --> 18:38.940]  p sub
+[18:38.940 --> 18:39.360]  0
+[18:39.360 --> 18:40.040]  equal to
+[18:40.040 --> 18:40.780]  0.7,
+[18:40.980 --> 18:41.180]  you'll
+[18:41.180 --> 18:42.100]  notice that
+[18:42.100 --> 18:43.160]  V sub
+[18:43.160 --> 18:43.880]  0 here
+[18:43.880 --> 18:44.560]  is connected
+[18:44.560 --> 18:45.480]  across
+[18:45.480 --> 18:46.720]  the diode,
+[18:46.920 --> 18:47.160]  right,
+[18:47.460 --> 18:48.960]  so V sub
+[18:48.960 --> 18:49.880]  0 is
+[18:49.880 --> 18:50.780]  equal to
+[18:50.780 --> 18:52.300]  Vb2,
+[18:52.940 --> 18:54.260]  and this
+[18:54.260 --> 18:55.040]  guy is also
+[18:55.040 --> 18:55.600]  in parallel
+[18:55.600 --> 18:56.240]  with it,
+[18:56.500 --> 18:57.120]  and voltage,
+[18:57.580 --> 18:59.140]  and components
+[18:59.140 --> 18:59.600]  that are
+[18:59.600 --> 19:00.320]  parallel with
+[19:00.320 --> 19:00.860]  each other
+[19:00.860 --> 19:01.560]  will have
+[19:01.560 --> 19:02.320]  the same
+[19:02.320 --> 19:03.400]  voltage,
+[19:04.220 --> 19:04.440]  okay,
+[19:04.440 --> 19:04.540]  okay,
+[19:04.540 --> 19:07.880]  all right,
+[19:07.880 --> 19:09.860]  so because
+[19:09.860 --> 19:10.740]  it is all
+[19:10.740 --> 19:11.220]  in parallel,
+[19:11.540 --> 19:11.840]  all right,
+[19:12.280 --> 19:12.620]  okay,
+[19:12.820 --> 19:13.220]  so there
+[19:13.220 --> 19:13.660]  you go,
+[19:14.260 --> 19:16.760]  all right,
+[19:16.860 --> 19:17.100]  other
+[19:17.100 --> 19:17.720]  questions,
+[19:19.500 --> 19:19.740]  okay,
+[19:19.820 --> 19:21.840]  going,
+[19:23.840 --> 19:23.980]  going,
+[19:24.120 --> 19:24.400]  going,
+[19:24.660 --> 19:25.240]  okay,
+[19:25.240 --> 19:25.780]  let's go
+[19:25.780 --> 19:26.100]  forward,
+[19:26.260 --> 19:26.560]  or what
+[19:26.560 --> 19:27.000]  about this
+[19:27.000 --> 19:27.280]  one,
+[19:28.080 --> 19:29.780]  series of
+[19:29.780 --> 19:30.960]  circuits
+[19:30.960 --> 19:31.480]  here that
+[19:31.480 --> 19:32.880]  are not
+[19:32.880 --> 19:33.380]  at all
+[19:33.380 --> 19:34.300]  difficult
+[19:34.300 --> 19:34.600]  out,
+[19:34.600 --> 19:35.840]  figure out,
+[19:36.360 --> 19:37.080]  E1 is
+[19:37.080 --> 19:37.980]  20 volts,
+[19:38.140 --> 19:38.960]  E2 is
+[19:38.960 --> 19:39.680]  4 volts,
+[19:39.780 --> 19:40.220]  now we've
+[19:40.220 --> 19:40.740]  gone back
+[19:40.740 --> 19:41.120]  to that
+[19:41.120 --> 19:42.020]  stupid format
+[19:42.020 --> 19:42.740]  where the
+[19:42.740 --> 19:44.160]  voltage sources
+[19:44.160 --> 19:45.100]  are not
+[19:45.100 --> 19:46.440]  explicitly drawn,
+[19:46.600 --> 19:47.700]  but I'll
+[19:47.700 --> 19:48.300]  help you guys
+[19:48.300 --> 19:48.640]  out,
+[19:48.720 --> 19:49.960]  let's put
+[19:49.960 --> 19:51.360]  what is
+[19:51.360 --> 19:52.140]  stated here,
+[19:52.240 --> 19:52.720]  this is
+[19:52.720 --> 19:53.820]  4 volts,
+[19:54.400 --> 19:55.240]  this is
+[19:55.240 --> 19:56.600]  20 volts,
+[19:56.820 --> 19:57.160]  okay,
+[19:57.840 --> 19:58.300]  so you're
+[19:58.300 --> 19:58.840]  asked to
+[19:58.840 --> 19:59.720]  determine the
+[19:59.720 --> 20:01.060]  current I,
+[20:01.060 --> 20:02.740]  okay,
+[20:03.180 --> 20:03.760]  so how
+[20:03.760 --> 20:04.140]  do you
+[20:04.140 --> 20:04.800]  do that,
+[20:05.260 --> 20:05.720]  well,
+[20:06.140 --> 20:06.960]  if you
+[20:06.960 --> 20:08.040]  forget about
+[20:08.040 --> 20:08.820]  the diodes,
+[20:09.020 --> 20:09.500]  this is
+[20:09.500 --> 20:10.460]  very obviously
+[20:10.460 --> 20:11.180]  just a
+[20:11.180 --> 20:11.940]  KVL,
+[20:12.140 --> 20:12.360]  right,
+[20:12.560 --> 20:13.660]  it always
+[20:13.660 --> 20:14.480]  is anyway,
+[20:14.720 --> 20:14.940]  right,
+[20:15.300 --> 20:15.540]  okay,
+[20:15.760 --> 20:16.220]  so the
+[20:16.220 --> 20:16.740]  big question
+[20:16.740 --> 20:17.480]  is what
+[20:17.480 --> 20:18.580]  happens as
+[20:18.580 --> 20:19.440]  we put
+[20:19.440 --> 20:20.180]  in these
+[20:20.180 --> 20:20.820]  two diodes,
+[20:20.920 --> 20:21.200]  so you'll
+[20:21.200 --> 20:21.720]  notice that
+[20:21.720 --> 20:22.120]  these two
+[20:22.120 --> 20:22.820]  diodes are
+[20:22.820 --> 20:23.360]  in parallel
+[20:23.360 --> 20:23.860]  with each
+[20:23.860 --> 20:24.220]  other,
+[20:24.400 --> 20:25.080]  and they
+[20:25.080 --> 20:25.480]  are back
+[20:25.480 --> 20:25.980]  to back,
+[20:26.700 --> 20:27.100]  okay,
+[20:27.320 --> 20:27.740]  all right,
+[20:27.860 --> 20:28.080]  now,
+[20:28.740 --> 20:29.540]  how do,
+[20:29.920 --> 20:30.380]  or what
+[20:30.380 --> 20:31.200]  happens
+[20:31.200 --> 20:32.080]  when we
+[20:32.080 --> 20:32.760]  have two
+[20:32.760 --> 20:33.580]  diodes like
+[20:33.580 --> 20:34.140]  this that
+[20:34.140 --> 20:34.820]  are back
+[20:34.820 --> 20:35.300]  to back,
+[20:35.440 --> 20:35.680]  well,
+[20:36.340 --> 20:36.880]  if the
+[20:36.880 --> 20:37.400]  current is
+[20:37.400 --> 20:38.160]  attempting to
+[20:38.160 --> 20:38.580]  flow in
+[20:38.580 --> 20:39.320]  this direction
+[20:39.320 --> 20:40.060]  and on the
+[20:40.060 --> 20:40.740]  assumption that
+[20:40.740 --> 20:41.400]  there's enough
+[20:41.400 --> 20:42.280]  voltage to
+[20:42.280 --> 20:42.720]  put them
+[20:42.720 --> 20:43.180]  into the
+[20:43.180 --> 20:43.860]  forward biased
+[20:43.860 --> 20:44.280]  region,
+[20:44.940 --> 20:45.680]  then we're
+[20:45.680 --> 20:46.140]  going to
+[20:46.140 --> 20:46.860]  get a
+[20:46.860 --> 20:47.360]  forward
+[20:47.360 --> 20:48.060]  conduction
+[20:48.060 --> 20:49.860]  of this
+[20:49.860 --> 20:50.440]  particular
+[20:50.440 --> 20:50.980]  diode
+[20:50.980 --> 20:52.220]  with a
+[20:52.220 --> 20:52.980]  voltage drop
+[20:52.980 --> 20:54.120]  of 0.7
+[20:54.120 --> 20:54.360]  volts,
+[20:54.440 --> 20:54.920]  because again,
+[20:54.960 --> 20:55.300]  it's made
+[20:55.300 --> 20:55.640]  out of
+[20:55.640 --> 20:55.940]  silicon.
+[20:56.520 --> 20:56.960]  What about
+[20:56.960 --> 20:57.600]  the other
+[20:57.600 --> 20:57.980]  diode?
+[20:58.140 --> 20:58.300]  Well,
+[20:58.360 --> 20:58.740]  if the
+[20:58.740 --> 20:59.220]  current is
+[20:59.220 --> 20:59.960]  attempting to
+[20:59.960 --> 21:00.780]  flow in
+[21:00.780 --> 21:01.140]  this
+[21:01.140 --> 21:01.740]  direction
+[21:01.740 --> 21:02.340]  as shown
+[21:02.340 --> 21:02.780]  here,
+[21:03.240 --> 21:03.920]  then it's
+[21:03.920 --> 21:04.720]  only this
+[21:04.720 --> 21:05.620]  guy that
+[21:05.620 --> 21:06.140]  will be
+[21:06.140 --> 21:06.840]  forward
+[21:06.840 --> 21:07.620]  biased,
+[21:08.440 --> 21:09.940]  and the
+[21:09.940 --> 21:10.480]  second
+[21:10.480 --> 21:11.580]  diode here,
+[21:11.660 --> 21:12.080]  D2,
+[21:12.160 --> 21:12.860]  will be
+[21:12.860 --> 21:13.740]  reverse
+[21:13.740 --> 21:14.400]  biased,
+[21:16.460 --> 21:16.620]  okay?
+[21:17.280 --> 21:17.740]  And so,
+[21:17.980 --> 21:18.480]  this will
+[21:18.480 --> 21:19.480]  basically act
+[21:19.480 --> 21:20.280]  as an
+[21:20.280 --> 21:21.280]  open circuit,
+[21:21.700 --> 21:22.620]  whereas this
+[21:22.620 --> 21:23.340]  guy will
+[21:23.340 --> 21:24.580]  act as a,
+[21:24.740 --> 21:24.940]  well,
+[21:25.100 --> 21:26.020]  closed switch
+[21:26.020 --> 21:27.760]  with a 0.7
+[21:27.760 --> 21:28.500]  volt drop,
+[21:28.500 --> 21:29.760]  okay?
+[21:30.360 --> 21:30.680]  So,
+[21:30.820 --> 21:31.140]  in other
+[21:31.140 --> 21:31.680]  words,
+[21:32.280 --> 21:32.940]  it's as
+[21:32.940 --> 21:33.880]  if this
+[21:33.880 --> 21:34.740]  guy does
+[21:34.740 --> 21:35.780]  not exist
+[21:35.780 --> 21:37.380]  if the
+[21:37.380 --> 21:37.920]  current is
+[21:37.920 --> 21:38.700]  flowing in
+[21:38.700 --> 21:39.300]  the left
+[21:39.300 --> 21:40.280]  to right
+[21:40.280 --> 21:41.520]  direction,
+[21:41.520 --> 21:42.800]  okay?
+[21:43.720 --> 21:44.180]  On the
+[21:44.180 --> 21:45.060]  other hand,
+[21:45.480 --> 21:46.740]  if the
+[21:46.740 --> 21:47.740]  current is
+[21:47.740 --> 21:48.580]  attempting to
+[21:48.580 --> 21:49.280]  flow in
+[21:49.280 --> 21:50.380]  the opposite
+[21:50.380 --> 21:51.280]  direction,
+[21:52.680 --> 21:53.080]  all right,
+[21:53.240 --> 21:53.700]  in the
+[21:53.700 --> 21:54.700]  opposite direction,
+[21:54.900 --> 21:55.760]  it is this
+[21:55.760 --> 21:56.900]  guy that
+[21:56.900 --> 21:57.740]  will conduct
+[21:57.740 --> 21:58.020]  naman,
+[21:58.180 --> 21:58.520]  and again,
+[21:58.600 --> 21:59.220]  the polarity
+[21:59.220 --> 21:59.840]  will turn out
+[21:59.840 --> 22:00.420]  this way,
+[22:00.920 --> 22:01.320]  all right,
+[22:01.660 --> 22:02.020]  you'll get
+[22:02.020 --> 22:02.740]  a 0.7
+[22:02.740 --> 22:03.380]  volt drop,
+[22:03.900 --> 22:04.640]  and this
+[22:04.640 --> 22:05.360]  one is
+[22:05.360 --> 22:05.840]  the guy
+[22:05.840 --> 22:06.400]  that will
+[22:06.400 --> 22:07.100]  be like
+[22:07.100 --> 22:07.640]  a closed
+[22:07.640 --> 22:08.120]  switch,
+[22:08.180 --> 22:08.700]  except that
+[22:08.700 --> 22:09.140]  it's dropping
+[22:09.140 --> 22:09.860]  0.7,
+[22:10.340 --> 22:11.180]  whereas this
+[22:11.180 --> 22:11.620]  guy,
+[22:11.980 --> 22:12.560]  D1,
+[22:12.640 --> 22:13.220]  will be
+[22:13.220 --> 22:13.720]  reverse
+[22:13.720 --> 22:14.180]  biased,
+[22:14.920 --> 22:15.400]  and so,
+[22:15.540 --> 22:15.920]  it will
+[22:15.920 --> 22:16.780]  act as
+[22:16.780 --> 22:17.640]  an open
+[22:17.640 --> 22:18.120]  circuit.
+[22:18.620 --> 22:18.940]  That,
+[22:19.160 --> 22:19.480]  again,
+[22:19.720 --> 22:20.320]  is on the
+[22:20.320 --> 22:20.700]  assumption
+[22:20.700 --> 22:21.200]  that the
+[22:21.200 --> 22:21.680]  current's
+[22:21.680 --> 22:22.660]  flowing from
+[22:22.660 --> 22:24.080]  right to
+[22:24.080 --> 22:24.420]  left,
+[22:25.080 --> 22:25.340]  okay?
+[22:25.340 --> 22:26.000]  So,
+[22:26.120 --> 22:26.300]  again,
+[22:26.400 --> 22:26.840]  just look
+[22:26.840 --> 22:27.120]  at the
+[22:27.120 --> 22:27.500]  direction
+[22:27.500 --> 22:27.900]  of the
+[22:27.900 --> 22:28.380]  current
+[22:28.380 --> 22:29.680]  in relation
+[22:29.680 --> 22:30.460]  to the
+[22:30.460 --> 22:31.900]  arrow of
+[22:31.900 --> 22:33.040]  the diode
+[22:33.040 --> 22:33.620]  symbol,
+[22:34.120 --> 22:34.480]  okay?
+[22:34.820 --> 22:35.140]  All right,
+[22:35.200 --> 22:35.340]  so,
+[22:35.500 --> 22:35.940]  with that
+[22:35.940 --> 22:36.560]  in mind,
+[22:37.100 --> 22:38.640]  with that
+[22:38.640 --> 22:39.140]  in mind,
+[22:39.460 --> 22:39.960]  let's go
+[22:39.960 --> 22:40.620]  back to
+[22:40.620 --> 22:41.660]  this problem.
+[22:42.280 --> 22:42.560]  So,
+[22:42.700 --> 22:43.400]  I have
+[22:43.400 --> 22:44.080]  a 20
+[22:44.080 --> 22:45.080]  volt source,
+[22:45.780 --> 22:47.680]  and I
+[22:47.680 --> 22:49.180]  have another
+[22:49.180 --> 22:50.780]  voltage here,
+[22:51.120 --> 22:51.840]  which is
+[22:51.840 --> 22:53.480]  4 volts,
+[22:53.980 --> 22:54.320]  okay?
+[22:54.320 --> 22:55.040]  So,
+[22:55.120 --> 22:55.420]  I have
+[22:55.420 --> 22:55.880]  a 20
+[22:55.880 --> 22:56.320]  volt and
+[22:56.320 --> 22:56.840]  4 volt
+[22:56.840 --> 22:57.280]  source.
+[22:58.140 --> 22:58.480]  The big
+[22:58.480 --> 22:58.800]  question,
+[22:58.920 --> 22:59.180]  of course,
+[22:59.260 --> 23:00.140]  is what
+[23:00.140 --> 23:00.740]  is the
+[23:00.740 --> 23:01.500]  direction of
+[23:01.500 --> 23:01.640]  flow?
+[23:01.760 --> 23:01.860]  So,
+[23:02.340 --> 23:04.580]  if current
+[23:04.580 --> 23:05.000]  is going
+[23:05.000 --> 23:05.320]  to be
+[23:05.320 --> 23:05.920]  flowing from
+[23:05.920 --> 23:06.420]  left to
+[23:06.420 --> 23:06.760]  right,
+[23:07.440 --> 23:08.140]  then it
+[23:08.140 --> 23:08.940]  is this
+[23:08.940 --> 23:09.640]  diode that
+[23:09.640 --> 23:10.160]  will conduct.
+[23:10.800 --> 23:11.460]  If current
+[23:11.460 --> 23:12.100]  is flowing
+[23:12.100 --> 23:13.740]  right to
+[23:13.740 --> 23:14.040]  left,
+[23:14.340 --> 23:15.020]  then this
+[23:15.020 --> 23:15.500]  diode will
+[23:15.500 --> 23:15.760]  conduct.
+[23:15.880 --> 23:16.020]  So,
+[23:16.180 --> 23:17.040]  either way,
+[23:17.140 --> 23:17.560]  there's going
+[23:17.560 --> 23:18.100]  to be at
+[23:18.100 --> 23:18.880]  least one
+[23:18.880 --> 23:19.660]  diode that
+[23:19.660 --> 23:20.400]  is conducting,
+[23:20.920 --> 23:21.100]  right?
+[23:21.180 --> 23:21.540]  There's at
+[23:21.540 --> 23:22.040]  least one
+[23:22.040 --> 23:22.560]  diode that's
+[23:22.560 --> 23:22.960]  conducting,
+[23:22.960 --> 23:24.220]  and again,
+[23:24.340 --> 23:24.720]  if you
+[23:24.720 --> 23:25.360]  have this
+[23:25.360 --> 23:26.420]  model
+[23:26.420 --> 23:28.180]  2 assumption,
+[23:28.760 --> 23:29.660]  then it's
+[23:29.660 --> 23:30.160]  just a
+[23:30.160 --> 23:31.340]  fixed 0.7
+[23:31.340 --> 23:32.060]  volt drum,
+[23:32.700 --> 23:32.980]  okay?
+[23:33.200 --> 23:33.720]  Now,
+[23:33.960 --> 23:34.660]  it's very
+[23:34.660 --> 23:35.160]  obvious,
+[23:35.320 --> 23:35.860]  given that
+[23:35.860 --> 23:36.540]  the voltage
+[23:36.540 --> 23:37.000]  on the
+[23:37.000 --> 23:37.700]  left side
+[23:37.700 --> 23:38.640]  is bigger
+[23:38.640 --> 23:39.580]  than the
+[23:39.580 --> 23:40.520]  voltage on
+[23:40.520 --> 23:41.140]  the right
+[23:41.140 --> 23:41.580]  side,
+[23:42.140 --> 23:42.960]  it is obvious
+[23:42.960 --> 23:43.640]  that current
+[23:43.640 --> 23:44.180]  is going to
+[23:44.180 --> 23:44.660]  be flowing
+[23:44.660 --> 23:45.240]  in this
+[23:45.240 --> 23:45.700]  particular
+[23:45.700 --> 23:46.360]  direction,
+[23:47.040 --> 23:47.320]  okay?
+[23:47.320 --> 23:48.880]  left to
+[23:48.880 --> 23:49.240]  right,
+[23:49.740 --> 23:50.300]  following,
+[23:50.660 --> 23:51.100]  you know,
+[23:51.280 --> 23:52.620]  the standard
+[23:52.620 --> 23:54.460]  engineering
+[23:54.460 --> 23:55.700]  notion of
+[23:55.700 --> 23:56.340]  current
+[23:56.340 --> 23:56.700]  flow,
+[23:57.340 --> 23:57.680]  right?
+[23:57.880 --> 23:58.280]  So,
+[23:58.760 --> 23:59.520]  given that,
+[23:59.820 --> 24:00.720]  you can
+[24:00.720 --> 24:01.960]  easily figure
+[24:01.960 --> 24:02.420]  out,
+[24:02.580 --> 24:02.940]  all right,
+[24:03.220 --> 24:03.660]  hopefully,
+[24:03.860 --> 24:04.460]  you can easily
+[24:04.460 --> 24:05.200]  figure out
+[24:05.200 --> 24:06.200]  the current
+[24:06.200 --> 24:07.380]  that's going
+[24:07.380 --> 24:07.920]  to be going
+[24:07.920 --> 24:08.500]  through the
+[24:08.500 --> 24:09.540]  resistor R,
+[24:10.200 --> 24:10.440]  okay?
+[24:10.440 --> 24:10.760]  so,
+[24:11.180 --> 24:11.700]  we can
+[24:11.700 --> 24:12.300]  say that
+[24:12.300 --> 24:13.140]  I is
+[24:13.140 --> 24:13.860]  equal to
+[24:13.860 --> 24:14.620]  20
+[24:14.620 --> 24:15.340]  volts
+[24:15.340 --> 24:16.540]  minus
+[24:16.540 --> 24:17.360]  4
+[24:17.360 --> 24:17.920]  volts
+[24:17.920 --> 24:19.100]  minus
+[24:19.100 --> 24:20.340]  0.7
+[24:20.340 --> 24:20.860]  volts,
+[24:21.280 --> 24:21.680]  are you guys
+[24:21.680 --> 24:22.080]  following,
+[24:22.720 --> 24:23.620]  divided by
+[24:23.620 --> 24:25.180]  2.2
+[24:25.180 --> 24:26.160]  kilo ohms,
+[24:26.520 --> 24:26.780]  okay?
+[24:26.900 --> 24:27.240]  And so,
+[24:27.300 --> 24:28.240]  that is your
+[24:28.240 --> 24:29.240]  current
+[24:29.240 --> 24:30.200]  flowing through
+[24:30.200 --> 24:30.740]  the circuit,
+[24:31.000 --> 24:31.240]  okay?
+[24:31.260 --> 24:31.460]  Now,
+[24:31.480 --> 24:32.060]  if you've got
+[24:32.060 --> 24:32.620]  a little bit
+[24:32.620 --> 24:33.240]  confused,
+[24:33.380 --> 24:34.020]  because I
+[24:34.020 --> 24:35.500]  put the
+[24:35.500 --> 24:36.220]  voltages
+[24:36.220 --> 24:37.520]  not necessarily
+[24:37.520 --> 24:38.240]  in sequence,
+[24:38.940 --> 24:39.320]  well,
+[24:39.440 --> 24:40.200]  as we said,
+[24:40.200 --> 24:40.780]  all right,
+[24:40.880 --> 24:41.380]  this is
+[24:41.380 --> 24:42.320]  plus minus
+[24:42.320 --> 24:43.080]  and it
+[24:43.080 --> 24:45.020]  is 0.7
+[24:45.020 --> 24:45.340]  volts.
+[24:45.420 --> 24:45.540]  So,
+[24:45.620 --> 24:45.980]  if you really
+[24:45.980 --> 24:46.900]  insist on
+[24:46.900 --> 24:47.500]  writing out
+[24:47.500 --> 24:47.940]  the KBL
+[24:47.940 --> 24:48.480]  equation,
+[24:49.160 --> 24:49.460]  all right,
+[24:49.500 --> 24:50.200]  it's negative
+[24:50.200 --> 24:51.080]  20,
+[24:52.420 --> 24:52.920]  all right,
+[24:53.180 --> 24:54.860]  plus
+[24:54.860 --> 24:56.100]  V sub
+[24:56.100 --> 24:56.700]  R
+[24:56.700 --> 24:58.820]  plus
+[24:58.820 --> 25:00.680]  0.7,
+[25:01.160 --> 25:01.620]  all right,
+[25:02.300 --> 25:04.100]  plus
+[25:04.100 --> 25:04.960]  4
+[25:04.960 --> 25:05.920]  is equal
+[25:05.920 --> 25:06.940]  to 0,
+[25:07.240 --> 25:07.560]  all right?
+[25:07.620 --> 25:07.780]  So,
+[25:07.780 --> 25:08.580]  we did a
+[25:08.580 --> 25:09.060]  loop like
+[25:09.060 --> 25:09.420]  that,
+[25:09.420 --> 25:10.240]  okay?
+[25:10.340 --> 25:10.480]  So,
+[25:10.540 --> 25:10.900]  this is
+[25:10.900 --> 25:11.620]  your KBL
+[25:11.620 --> 25:12.360]  equation,
+[25:13.260 --> 25:13.620]  all right,
+[25:13.720 --> 25:14.120]  KBL
+[25:14.120 --> 25:14.720]  equation,
+[25:15.520 --> 25:16.360]  and we
+[25:16.360 --> 25:16.840]  can say
+[25:16.840 --> 25:17.580]  that V
+[25:17.580 --> 25:17.860]  sub
+[25:17.860 --> 25:18.380]  R
+[25:18.380 --> 25:19.200]  is equal
+[25:19.200 --> 25:19.740]  to,
+[25:19.740 --> 25:20.920]  okay,
+[25:21.920 --> 25:25.140]  20
+[25:25.140 --> 25:26.100]  minus
+[25:26.100 --> 25:27.220]  4
+[25:27.220 --> 25:28.000]  minus
+[25:28.000 --> 25:28.660]  0.7,
+[25:28.760 --> 25:29.020]  which is
+[25:29.020 --> 25:29.540]  exactly what
+[25:29.540 --> 25:29.920]  I wrote,
+[25:30.260 --> 25:30.540]  okay?
+[25:31.060 --> 25:31.700]  That's what
+[25:31.700 --> 25:32.000]  you're going
+[25:32.000 --> 25:32.520]  to be left
+[25:32.520 --> 25:32.880]  with,
+[25:33.800 --> 25:34.140]  okay?
+[25:34.140 --> 25:34.660]  And so,
+[25:34.720 --> 25:35.080]  therefore,
+[25:35.360 --> 25:36.260]  because of
+[25:36.260 --> 25:36.940]  Ohm's law,
+[25:37.080 --> 25:37.620]  we can say
+[25:37.620 --> 25:38.320]  that I
+[25:38.320 --> 25:38.980]  is equal
+[25:38.980 --> 25:40.160]  to this
+[25:40.160 --> 25:41.100]  thing on
+[25:41.100 --> 25:41.440]  top,
+[25:42.040 --> 25:42.540]  all right?
+[25:42.780 --> 25:43.560]  Why bother
+[25:43.560 --> 25:44.140]  writing that?
+[25:44.560 --> 25:44.940]  This thing
+[25:44.940 --> 25:45.360]  on top
+[25:45.360 --> 25:46.680]  from here
+[25:46.680 --> 25:48.020]  divided by
+[25:48.020 --> 25:48.520]  its
+[25:48.520 --> 25:50.200]  resistance,
+[25:50.640 --> 25:50.880]  okay?
+[25:51.260 --> 25:51.540]  So,
+[25:51.540 --> 25:52.020]  there you go.
+[25:52.260 --> 25:52.440]  Now,
+[25:52.560 --> 25:53.400]  what does that
+[25:53.400 --> 25:54.260]  turn out to be?
+[25:55.560 --> 25:56.400]  Let's use
+[25:56.400 --> 25:56.980]  my little
+[25:56.980 --> 25:57.920]  calculator here.
+[25:57.920 --> 25:58.760]  I pressed
+[25:58.760 --> 25:59.260]  something.
+[26:00.060 --> 26:00.340]  Oops.
+[26:06.660 --> 26:06.900]  Okay,
+[26:07.040 --> 26:07.480]  I don't know.
+[26:07.980 --> 26:08.320]  I pressed
+[26:08.320 --> 26:08.660]  something.
+[26:08.780 --> 26:08.880]  Now,
+[26:08.940 --> 26:09.260]  it's in a
+[26:09.260 --> 26:09.540]  different
+[26:09.540 --> 26:09.880]  mode,
+[26:10.020 --> 26:10.360]  but let's
+[26:10.360 --> 26:10.700]  see if it
+[26:10.700 --> 26:11.320]  still works.
+[26:12.800 --> 26:13.040]  So,
+[26:14.000 --> 26:18.040]  15.3
+[26:18.040 --> 26:22.360]  divided
+[26:22.360 --> 26:22.760]  by
+[26:22.760 --> 26:24.300]  2,200
+[26:24.300 --> 26:25.920]  is equal
+[26:25.920 --> 26:26.480]  to
+[26:26.480 --> 26:29.120]  6.95
+[26:29.120 --> 26:30.800]  milliampere.
+[26:31.380 --> 26:31.660]  Okay?
+[26:32.480 --> 26:34.300]  6.95
+[26:34.300 --> 26:37.100]  milliampere.
+[26:38.100 --> 26:39.120]  All right?
+[26:40.160 --> 26:41.200]  There we go.
+[26:46.200 --> 26:46.920]  Okay,
+[26:46.920 --> 26:47.560]  Docs?
+[26:49.960 --> 26:50.640]  Clear?
+[26:53.320 --> 26:54.120]  All right?
+[26:54.280 --> 26:55.140]  There's your answer.
+[26:55.920 --> 26:57.060]  6.95
+[26:57.060 --> 26:58.680]  milliampere.
+[26:59.620 --> 27:00.020]  Unless
+[27:00.020 --> 27:01.240]  my calculator's
+[27:01.240 --> 27:02.160]  joking.
+[27:02.960 --> 27:03.840]  There's a weird
+[27:03.840 --> 27:04.500]  symbol that
+[27:04.500 --> 27:05.400]  suddenly came out.
+[27:05.520 --> 27:05.800]  I don't know
+[27:05.800 --> 27:06.440]  what I pressed.
+[27:07.020 --> 27:07.380]  Darn it!
+[27:07.740 --> 27:07.940]  Okay,
+[27:08.380 --> 27:08.740]  questions!
+[27:10.300 --> 27:10.800]  May tanong?
+[27:11.160 --> 27:11.840]  Okay mo tayo?
+[27:11.960 --> 27:12.100]  Wala,
+[27:12.220 --> 27:12.360]  di ba?
+[27:12.460 --> 27:12.740]  Madali.
+[27:12.980 --> 27:13.380]  So,
+[27:13.560 --> 27:13.880]  easy.
+[27:14.080 --> 27:14.880]  Easy peasy!
+[27:15.640 --> 27:15.900]  All right?
+[27:16.740 --> 27:17.520]  Let's go to
+[27:17.520 --> 27:18.180]  the next one.
+[27:18.980 --> 27:19.540]  Oh,
+[27:19.780 --> 27:20.800]  this looks so much
+[27:20.800 --> 27:21.580]  more complex.
+[27:21.700 --> 27:22.040]  Or is it?
+[27:22.680 --> 27:22.800]  Okay.
+[27:23.020 --> 27:24.240]  Walang challenge pa rin.
+[27:24.500 --> 27:25.300]  Madalang madali.
+[27:25.300 --> 27:26.500]  Determine I1,
+[27:26.600 --> 27:27.060]  I2,
+[27:27.240 --> 27:28.400]  and I sub D.
+[27:30.840 --> 27:32.100]  Nasaan yung I sub T?
+[27:35.100 --> 27:35.740]  Okay.
+[27:36.220 --> 27:37.120]  What the heck?
+[27:37.120 --> 27:39.420]  I1,
+[27:39.920 --> 27:41.420]  I2,
+[27:41.420 --> 27:44.300]  I sub D.
+[27:44.300 --> 27:44.760]  I2,
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:44.760] 
+[27:44.760 --> 27:51.560]  Para madali ang buha.
+[27:53.560 --> 27:56.440]  Okay, I sub D1 and I sub D.
+[27:57.060 --> 28:00.780]  Ayan, sige, para sure tayo kasi it doesn't say which one it is.
+[28:01.080 --> 28:02.460]  That's crazy, right?
+[28:02.460 --> 28:05.160]  Okay, I sub D1 and I sub D2.
+[28:05.860 --> 28:10.640]  And again, let's assume we have a model 2 type of diode.
+[28:11.480 --> 28:14.440]  Okay, and let's try answering the question.
+[28:14.760 --> 28:16.700]  Try some, a little bit of analysis.
+[28:17.020 --> 28:18.540]  Is this difficult?
+[28:19.880 --> 28:21.740]  Same thing, same, same.
+[28:28.820 --> 28:29.420]  Anybody?
+[28:29.420 --> 28:35.380]  Go try solving it and let's put your answers here on the chat.
+[28:35.500 --> 28:37.260]  You can just message me if you like.
+[28:38.040 --> 28:38.340]  All right.
+[28:44.760 --> 28:47.760]  Give it a go.
+[28:47.940 --> 28:49.960]  Oh, walang tutulog-tulog dyan, ha?
+[28:50.100 --> 28:50.600]  Attempt.
+[28:51.040 --> 28:53.140]  Use your brain and figure out.
+[28:53.400 --> 28:53.760]  All right.
+[28:53.900 --> 28:58.700]  What is the answer?
+[28:59.740 --> 29:00.080]  Woohoo.
+[29:00.080 --> 29:04.480]  This might be a little bit challenging, admittedly.
+[29:12.140 --> 29:14.440]  Let me just try something else to make sure.
+[29:15.260 --> 29:15.660]  Ah, yeah.
+[29:15.840 --> 29:16.660]  It's obvious.
+[29:16.660 --> 29:17.160]  It's obvious.
+[29:17.160 --> 29:37.180]  Oh, that's interesting.
+[29:37.180 --> 29:41.340]  Yeah, yeah, yeah, yeah.
+[29:41.400 --> 29:41.940]  Okay, okay.
+[29:42.080 --> 29:43.320]  Yeah, that makes sense.
+[29:44.220 --> 29:45.180]  And then.
+[29:50.560 --> 29:51.600]  Yeah, yeah, yeah.
+[29:51.680 --> 29:52.140]  Yeah, okay.
+[29:52.720 --> 29:53.100]  All right.
+[29:53.400 --> 29:54.260]  No problem.
+[29:54.560 --> 29:54.680]  Ha!
+[29:57.340 --> 29:58.080]  Makes sense.
+[29:58.440 --> 29:58.640]  Okay.
+[29:59.340 --> 29:59.620]  Ano?
+[30:00.060 --> 30:01.600]  Nobody is giving answer.
+[30:01.600 --> 30:02.080]  Hello.
+[30:03.620 --> 30:04.060]  Yoohoo.
+[30:06.220 --> 30:08.040]  Anybody want to try?
+[30:09.420 --> 30:09.680]  Okay.
+[30:10.640 --> 30:13.120]  So again, of course, let's form the KBL.
+[30:17.120 --> 30:18.240]  KBL, KBL.
+[30:21.060 --> 30:27.140]  And this one can potentially be a little bit tricky to answer,
+[30:27.400 --> 30:30.120]  but in this case, it's not.
+[30:30.380 --> 30:30.640]  All right.
+[30:30.640 --> 30:36.900]  It really depends on how the values or the resistance values,
+[30:37.040 --> 30:38.620]  et cetera, were chosen.
+[30:39.780 --> 30:43.520]  In this case, we don't have any problem
+[30:43.520 --> 30:50.200]  that the thing will turn out to be particularly tricky.
+[30:50.760 --> 30:51.060]  Okay.
+[30:51.060 --> 30:54.260]  So this one is pretty straightforward.
+[30:54.260 --> 30:59.220]  It will follow the most basic.
+[31:03.400 --> 31:04.680]  What's the proper term?
+[31:05.020 --> 31:05.980]  It's not assumption.
+[31:07.980 --> 31:08.540]  Attempt.
+[31:08.900 --> 31:09.220]  Okay.
+[31:09.220 --> 31:13.400]  It will follow your intuitive guess.
+[31:13.400 --> 31:14.320]  All right.
+[31:15.020 --> 31:23.280]  But so let's solve this and then I'll point out a possible complication that might happen.
+[31:24.060 --> 31:24.240]  Okay.
+[31:24.740 --> 31:25.060]  All right.
+[31:25.060 --> 31:27.700]  So how do we solve this problem?
+[31:27.980 --> 31:30.840]  Well, if you look at it very, very carefully,
+[31:31.320 --> 31:42.200]  it's simply that we have one single important loop here,
+[31:42.200 --> 31:48.080]  going from the voltage source,
+[31:48.460 --> 31:50.300]  all right, going around like so,
+[31:51.600 --> 31:54.380]  winding back at the beginning,
+[31:54.920 --> 31:58.660]  except that we have a little bit of a complication
+[31:58.660 --> 32:03.700]  because we have this branching of the current possibly into the R1.
+[32:04.200 --> 32:07.160]  You'll notice that in this particular case,
+[32:07.500 --> 32:14.220]  hopefully everybody can see that R1 is simply in parallel with B2.
+[32:14.600 --> 32:14.880]  All right.
+[32:14.880 --> 32:20.380]  And so it's just that it's been drawn in that place on top,
+[32:20.940 --> 32:24.100]  but you could easily have drawn it over here.
+[32:24.600 --> 32:24.840]  All right.
+[32:26.340 --> 32:32.660]  And you can now see that it is just in parallel with our D2.
+[32:33.500 --> 32:33.780]  Okay.
+[32:34.020 --> 32:34.400]  All right.
+[32:34.480 --> 32:40.860]  So how does that turn out or what will happen given this kind of a situation?
+[32:40.860 --> 32:46.120]  Well, nothing really particularly significant because of the values that are involved,
+[32:46.280 --> 32:48.800]  but let's just give it a go.
+[32:49.300 --> 32:49.700]  All right.
+[32:50.500 --> 32:56.940]  The basic KVL equation going from the starting point here
+[32:56.940 --> 33:04.760]  is that it is basically negative 20 plus V sub D1.
+[33:06.220 --> 33:06.900]  Okay.
+[33:06.900 --> 33:06.980]  Okay.
+[33:07.620 --> 33:09.940]  Plus V sub D2.
+[33:11.440 --> 33:12.260]  All right.
+[33:13.520 --> 33:16.460]  Plus V sub R2.
+[33:16.980 --> 33:20.940]  And you will take note that V sub R1.
+[33:21.160 --> 33:22.020]  All right.
+[33:22.020 --> 33:27.020]  Is equal to V sub D2 because the two of them are in parallel.
+[33:28.220 --> 33:28.360]  Okay.
+[33:28.360 --> 33:30.400]  So you could have used either one of them.
+[33:31.180 --> 33:34.820]  Again, the fundamental equation is going to be pretty much the same.
+[33:34.820 --> 33:35.420]  Okay.
+[33:35.420 --> 33:38.760]  And because you've gotten over to V sub R2 over here,
+[33:38.820 --> 33:42.840]  you're back at your starting point and you can close that equation by,
+[33:42.900 --> 33:45.700]  you know, setting that equal to zero.
+[33:46.360 --> 33:46.620]  Okay.
+[33:46.900 --> 33:49.280]  So there's your standard equation.
+[33:49.820 --> 33:52.760]  And we know that because they are silicon diodes,
+[33:53.280 --> 33:57.080]  then these two are simply equal to 0.7 volts.
+[33:58.800 --> 33:59.360]  Okay.
+[33:59.360 --> 34:00.800]  And that makes it really easy.
+[34:01.880 --> 34:08.180]  Maybe several of you already jumped and figured out that the underlying equation,
+[34:08.400 --> 34:08.780]  right,
+[34:09.740 --> 34:13.520]  is very simply that it is,
+[34:13.520 --> 34:16.960]  if you wanted to calculate,
+[34:17.120 --> 34:17.640]  for example,
+[34:17.840 --> 34:19.520]  the total current flowing here,
+[34:20.400 --> 34:20.700]  right,
+[34:21.420 --> 34:34.760]  you would say that I is equal to 20 minus 1.4 volts divided by 5,600 ohms.
+[34:35.800 --> 34:36.140]  Okay.
+[34:36.140 --> 34:41.560]  And this will turn out to be equal to,
+[34:42.160 --> 34:42.580]  all right,
+[34:44.080 --> 34:47.240]  20 minus 1.4,
+[34:47.940 --> 34:53.320]  that's 18.6 volts over 5.6 K.
+[34:53.320 --> 35:00.360]  And that is equal to 3.32,
+[35:00.360 --> 35:02.180]  all right,
+[35:03.760 --> 35:04.620]  milliampere.
+[35:05.280 --> 35:05.580]  Okay.
+[35:06.080 --> 35:08.180]  That's equal to 3.32 milliampere,
+[35:08.420 --> 35:11.640]  which doesn't really answer any of the problems quite yet,
+[35:11.800 --> 35:12.560]  but, you know,
+[35:12.620 --> 35:13.480]  we're getting there.
+[35:13.600 --> 35:13.860]  All right.
+[35:13.960 --> 35:15.920]  So I2,
+[35:16.400 --> 35:17.160]  in fact,
+[35:17.400 --> 35:17.740]  all right,
+[35:17.740 --> 35:18.980]  if you look at this,
+[35:19.880 --> 35:24.980]  I2 is equal to I because that's the same current that's flowing.
+[35:25.180 --> 35:25.820]  So in fact,
+[35:26.340 --> 35:26.600]  okay,
+[35:26.680 --> 35:29.120]  there's already one answer,
+[35:29.320 --> 35:29.640]  hooray.
+[35:30.640 --> 35:30.960]  Okay.
+[35:31.420 --> 35:35.520]  3.32 milliampere for I2.
+[35:36.160 --> 35:36.480]  Now,
+[35:36.720 --> 35:37.740]  what is,
+[35:37.980 --> 35:39.120]  I will answer I1.
+[35:39.640 --> 35:39.880]  Well,
+[35:39.960 --> 35:42.620]  we can already also answer I1.
+[35:43.080 --> 35:43.640]  Okay.
+[35:43.640 --> 35:48.140]  Because we know that this is equal to 0.7 volts,
+[35:48.660 --> 35:48.940]  all right,
+[35:49.040 --> 35:51.480]  0.7 across this diode.
+[35:52.140 --> 35:52.440]  Therefore,
+[35:52.700 --> 35:57.940]  the voltage across this resistor will also be equal to 0.7 volts.
+[35:59.060 --> 35:59.340]  All right.
+[35:59.440 --> 36:00.240]  And so therefore,
+[36:00.600 --> 36:02.780]  we can calculate I1,
+[36:03.840 --> 36:04.240]  okay,
+[36:04.360 --> 36:07.580]  which is equal to I1,
+[36:07.580 --> 36:08.760]  R1,
+[36:09.320 --> 36:17.200]  which is equal to 0.7 volts divided by 3.3 K.
+[36:17.920 --> 36:20.120]  And the answer to that,
+[36:20.480 --> 36:20.760]  right,
+[36:20.860 --> 36:23.380]  would be 0.7 divided by 3,
+[36:23.480 --> 36:23.640]  3,
+[36:23.760 --> 36:24.100]  0,
+[36:24.600 --> 36:28.980]  0 is 2.12,
+[36:28.980 --> 36:29.660]  oh,
+[36:30.100 --> 36:30.500]  pangin.
+[36:30.980 --> 36:31.220]  Okay.
+[36:31.980 --> 36:38.480]  212.12 microampere.
+[36:38.860 --> 36:39.200]  Okay.
+[36:39.400 --> 36:41.300]  So there's your I1.
+[36:43.140 --> 36:47.520]  212.12 microampere.
+[36:48.020 --> 36:48.500]  Okay,
+[36:48.500 --> 36:48.820]  docks.
+[36:48.880 --> 36:49.300]  Got that?
+[36:50.000 --> 36:56.260]  From the fact that the voltage drop across the 3.3 K resistor is 0.7.
+[36:56.760 --> 36:57.100]  All right.
+[36:57.100 --> 36:57.340]  Okay.
+[36:58.300 --> 36:58.580]  Okay.
+[36:58.600 --> 36:58.860]  Okay.
+[36:59.860 --> 37:04.060]  And is there anything else that we actually need to solve here?
+[37:06.020 --> 37:08.460]  If we want to get I sub D2,
+[37:08.600 --> 37:09.380]  in that case,
+[37:09.500 --> 37:22.680]  I sub D2 is equal to 3.32 milliamperes minus 212.12 microampere.
+[37:23.560 --> 37:23.880]  Okay.
+[37:24.020 --> 37:25.780]  And for whatever that turns out to be,
+[37:25.780 --> 37:27.480]  it's a very small amount of current.
+[37:28.200 --> 37:28.600]  Okay.
+[37:35.060 --> 37:37.400]  Divided by 212.12,
+[37:37.940 --> 37:39.740]  I extend to the minus 6.
+[37:39.740 --> 37:41.560]  Daming pinipindot-pindot.
+[37:42.180 --> 37:42.400]  Hey,
+[37:42.760 --> 37:43.700]  mali pa yung sagot.
+[37:45.020 --> 37:45.620]  Oops.
+[37:45.620 --> 37:47.820]  I obviously pressed something wrong.
+[37:47.820 --> 38:01.920]  3.32 times 10 to the minus 3 minus 2.12.12 times 10 to the minus 6.
+[38:01.920 --> 38:03.620]  gives us,
+[38:03.620 --> 38:04.560]  okay,
+[38:05.700 --> 38:06.000]  sorry,
+[38:06.220 --> 38:08.620]  3.107.
+[38:14.620 --> 38:15.620]  Or whatever,
+[38:15.800 --> 38:16.920]  3.11
+[38:16.920 --> 38:19.220]  milliampere.
+[38:19.420 --> 38:20.360]  It's really tiny.
+[38:20.900 --> 38:21.160]  All right.
+[38:21.220 --> 38:22.160]  It's quite small.
+[38:22.160 --> 38:25.440]  And so that's your answer.
+[38:25.860 --> 38:26.040]  Okay.
+[38:26.220 --> 38:27.720]  I sub D2.
+[38:30.720 --> 38:31.200]  Okay.
+[38:31.300 --> 38:31.980]  Ano pa po lang?
+[38:33.380 --> 38:34.860]  I sub D1.
+[38:35.360 --> 38:36.120]  Meron na rin yan.
+[38:36.120 --> 38:38.920]  Kasi nakalculate na rin natin.
+[38:39.040 --> 38:40.480]  It's the same amount of current.
+[38:40.620 --> 38:48.400]  So I sub D1 is equal to 3.32 milliampere because it's all just going around over there.
+[38:49.240 --> 38:49.500]  Okay.
+[38:49.500 --> 38:58.500]  And I think that basically answers all of the questions here.
+[38:59.540 --> 38:59.680]  Okay.
+[39:00.900 --> 39:01.960]  Na-gets ba rin yung?
+[39:02.140 --> 39:02.480]  All right.
+[39:02.580 --> 39:02.780]  Now,
+[39:03.460 --> 39:06.660]  this problem,
+[39:07.440 --> 39:07.880]  all right,
+[39:07.980 --> 39:10.220]  you have to be careful with this one
+[39:10.220 --> 39:15.720]  because you'll notice that we have the KVL equation here
+[39:15.720 --> 39:25.960]  where we've assumed that the diode drop for this one is equal to 0.7 volts.
+[39:27.400 --> 39:27.440]  Okay.
+[39:27.820 --> 39:32.820]  So everything else is sort of pretty straightforward.
+[39:33.780 --> 39:34.840]  But this one,
+[39:34.920 --> 39:36.700]  you have to be very careful with
+[39:36.700 --> 39:41.320]  because dependent on the resistor value,
+[39:43.240 --> 39:43.660]  okay,
+[39:43.660 --> 39:52.900]  there is a possibility that we may not get to 0.7 volts.
+[39:53.440 --> 39:53.520]  Okay.
+[39:53.660 --> 39:56.120]  Baka hindi umabot sa 0.7
+[39:56.120 --> 40:02.040]  on the basis that we have a certain amount of current flowing here
+[40:02.040 --> 40:07.240]  which will branch out between these two.
+[40:08.840 --> 40:09.200]  Okay.
+[40:09.200 --> 40:13.640]  So some of that is going to go through the diode
+[40:13.640 --> 40:17.140]  but there is also some current that will flow
+[40:17.140 --> 40:19.660]  and go through this particular resistor.
+[40:20.380 --> 40:20.580]  Now,
+[40:21.160 --> 40:22.240]  we calculated,
+[40:22.620 --> 40:23.000]  all right,
+[40:23.080 --> 40:25.540]  that if it reaches 0.7,
+[40:26.280 --> 40:29.420]  then the amount of current flowing I1
+[40:29.420 --> 40:31.540]  is going to be very,
+[40:31.660 --> 40:32.320]  very small.
+[40:32.320 --> 40:36.760]  It's going to be only 212 micro amperes.
+[40:36.820 --> 40:38.260]  And as such,
+[40:38.560 --> 40:38.900]  all right,
+[40:38.980 --> 40:41.760]  it does not affect anything,
+[40:41.960 --> 40:42.640]  all right,
+[40:42.700 --> 40:43.660]  in the calculation.
+[40:43.660 --> 40:47.260]  But let's have a quick look
+[40:47.260 --> 40:49.960]  and let's change the problem
+[40:49.960 --> 40:51.860]  so that you can understand this.
+[40:52.460 --> 40:55.480]  And let's make this resistor value here.
+[40:55.540 --> 40:58.000]  Instead of it being 3.3k,
+[40:58.320 --> 40:59.780]  let's change it.
+[40:59.860 --> 41:04.300]  I'm going to make this equal to 100 ohms.
+[41:05.020 --> 41:06.220]  Let me just check.
+[41:06.220 --> 41:06.540]  Okay.
+[41:07.340 --> 41:07.820]  Points.
+[41:09.680 --> 41:10.000]  Okay.
+[41:11.560 --> 41:11.820]  Ayan.
+[41:12.000 --> 41:12.200]  Okay.
+[41:12.440 --> 41:12.580]  So,
+[41:12.980 --> 41:14.060]  ito magkakaroon na ng,
+[41:14.060 --> 41:14.340]  ano,
+[41:14.940 --> 41:16.960]  magkakaroon na ng malaking efekto.
+[41:17.260 --> 41:17.460]  All right.
+[41:17.800 --> 41:20.180]  Let's say that the original problem,
+[41:20.340 --> 41:20.820]  all right,
+[41:21.160 --> 41:23.960]  had R1 equal to 100 ohms
+[41:23.960 --> 41:24.640]  and, you know,
+[41:24.720 --> 41:25.680]  that's what was given.
+[41:26.160 --> 41:27.520]  Then you're asked to calculate.
+[41:28.240 --> 41:30.380]  Make the same calculations.
+[41:30.840 --> 41:31.060]  All right.
+[41:31.060 --> 41:32.020]  And so this one
+[41:32.020 --> 41:33.400]  is going to be
+[41:33.400 --> 41:35.640]  a little bit more difficult to do.
+[41:35.640 --> 41:40.840]  Right.
+[41:41.360 --> 41:41.640]  Now,
+[41:41.740 --> 41:43.800]  why is it going to be more difficult?
+[41:44.200 --> 41:44.400]  Well,
+[41:44.680 --> 41:44.980]  okay.
+[41:45.700 --> 41:46.740]  Quick inspection.
+[41:47.080 --> 41:48.580]  We already know that
+[41:48.580 --> 41:51.360]  if we indeed have
+[41:51.360 --> 41:54.040]  0.7 across here
+[41:54.040 --> 41:57.600]  and 0.7 across P2,
+[41:57.960 --> 41:59.680]  then we would have calculated
+[41:59.680 --> 42:01.520]  that the total current
+[42:01.520 --> 42:03.000]  I sub 2,
+[42:03.080 --> 42:04.240]  we already had that value
+[42:04.240 --> 42:05.040]  a while ago.
+[42:05.040 --> 42:06.300]  I shouldn't have erased it.
+[42:06.840 --> 42:07.000]  Okay.
+[42:07.500 --> 42:09.460]  Ano nga ba yung sagot natin dito kanina?
+[42:09.640 --> 42:11.060]  Ilan milliampere dito?
+[42:11.200 --> 42:14.040]  3.32 milliampere.
+[42:14.860 --> 42:15.280]  Thank you.
+[42:15.620 --> 42:15.920]  All right.
+[42:16.040 --> 42:18.620]  It's 3.32 milliampere only
+[42:18.620 --> 42:19.820]  for everything,
+[42:20.000 --> 42:21.200]  for all the current flowing.
+[42:21.820 --> 42:22.040]  Now,
+[42:22.380 --> 42:23.060]  look at it.
+[42:23.060 --> 42:25.960]  If we follow through
+[42:25.960 --> 42:26.840]  with this assumption
+[42:26.840 --> 42:28.620]  that there's 0.7 volts
+[42:28.620 --> 42:29.440]  across here,
+[42:29.900 --> 42:30.960]  then the voltage
+[42:30.960 --> 42:31.700]  across
+[42:31.700 --> 42:35.340]  the 100 ohm resistor
+[42:35.340 --> 42:36.960]  is also
+[42:36.960 --> 42:38.360]  0.7 volts.
+[42:38.520 --> 42:38.960]  You following?
+[42:39.280 --> 42:39.480]  All right.
+[42:39.520 --> 42:40.420]  Because they're in parallel.
+[42:40.760 --> 42:41.600]  So 0.7.
+[42:42.160 --> 42:43.880]  0.7 across this guy,
+[42:44.080 --> 42:45.080]  0.7 then
+[42:45.080 --> 42:46.320]  across R1.
+[42:46.320 --> 42:47.000]  Now,
+[42:47.360 --> 42:48.020]  have a look.
+[42:48.440 --> 42:50.240]  What is I1 now?
+[42:50.780 --> 42:51.880]  0.7
+[42:51.880 --> 42:52.920]  divided by
+[42:52.920 --> 42:54.440]  100 ohms
+[42:54.440 --> 42:55.380]  is equal to
+[42:55.380 --> 42:56.180]  7
+[42:56.180 --> 42:57.440]  milliampere.
+[42:57.820 --> 42:58.920]  So you'll notice
+[42:58.920 --> 42:59.520]  that
+[42:59.520 --> 43:00.940]  the current
+[43:00.940 --> 43:01.860]  that will
+[43:01.860 --> 43:02.940]  flow through
+[43:02.940 --> 43:03.780]  this resistor
+[43:03.780 --> 43:04.900]  is greater
+[43:04.900 --> 43:05.500]  than
+[43:05.500 --> 43:06.520]  the amount
+[43:06.520 --> 43:07.060]  of current
+[43:07.060 --> 43:08.060]  flowing through
+[43:08.060 --> 43:09.660]  this
+[43:09.660 --> 43:10.320]  circuit
+[43:10.320 --> 43:11.980]  in theory.
+[43:12.260 --> 43:12.460]  So,
+[43:13.360 --> 43:13.880]  obviously,
+[43:14.180 --> 43:15.180]  something is wrong.
+[43:15.380 --> 43:16.700]  It cannot be possible
+[43:16.700 --> 43:18.420]  that the current
+[43:18.420 --> 43:19.980]  flowing outward,
+[43:21.180 --> 43:22.360]  3.32
+[43:22.360 --> 43:23.340]  milliampere,
+[43:24.460 --> 43:25.400]  paano magiging
+[43:25.400 --> 43:26.320]  0.7
+[43:26.320 --> 43:28.380]  milliampere
+[43:28.380 --> 43:29.240]  yung nandito,
+[43:29.800 --> 43:30.760]  mas malaki pa
+[43:30.760 --> 43:31.680]  ang lumabas
+[43:31.680 --> 43:32.320]  kesa dun
+[43:32.320 --> 43:33.580]  sa pumasok.
+[43:34.140 --> 43:34.280]  Okay?
+[43:34.420 --> 43:34.600]  So,
+[43:35.080 --> 43:36.020]  alam natin
+[43:36.020 --> 43:37.200]  that
+[43:37.200 --> 43:37.960]  there is
+[43:37.960 --> 43:38.400]  something
+[43:38.400 --> 43:39.040]  wrong.
+[43:39.040 --> 43:40.420]  we have made
+[43:40.420 --> 43:41.500]  an incorrect
+[43:41.500 --> 43:42.280]  assumption.
+[43:43.420 --> 43:43.640]  Okay?
+[43:44.120 --> 43:44.400]  So,
+[43:44.500 --> 43:45.200]  you need to be
+[43:45.200 --> 43:45.500]  very,
+[43:45.620 --> 43:46.220]  very careful
+[43:46.220 --> 43:47.180]  about this.
+[43:47.500 --> 43:47.680]  So,
+[43:48.080 --> 43:48.900]  given that
+[43:48.900 --> 43:49.480]  we have
+[43:49.480 --> 43:50.360]  a simple
+[43:50.360 --> 43:51.320]  and easy
+[43:51.320 --> 43:52.400]  to calculate
+[43:52.400 --> 43:53.680]  and visualize
+[43:53.680 --> 43:54.880]  kind of situation,
+[43:55.000 --> 43:55.400]  given that
+[43:55.400 --> 43:56.340]  it's a model 2,
+[43:56.940 --> 43:57.640]  the correct
+[43:57.640 --> 43:58.320]  way of
+[43:58.320 --> 43:58.900]  actually
+[43:58.900 --> 43:59.480]  approaching
+[43:59.480 --> 44:00.440]  this problem
+[44:00.440 --> 44:01.260]  is to
+[44:01.260 --> 44:01.800]  determine
+[44:01.800 --> 44:02.320]  there are
+[44:02.320 --> 44:02.720]  two
+[44:02.720 --> 44:03.660]  possible
+[44:03.660 --> 44:04.360]  cases.
+[44:07.360 --> 44:07.520]  Okay?
+[44:09.040 --> 44:10.160]  Okay?
+[44:10.420 --> 44:10.980]  There are
+[44:10.980 --> 44:11.640]  two possible
+[44:11.640 --> 44:12.180]  cases
+[44:12.180 --> 44:13.560]  for this
+[44:13.560 --> 44:14.500]  particular
+[44:14.500 --> 44:15.500]  circuit.
+[44:16.160 --> 44:16.820]  And it's
+[44:16.820 --> 44:17.360]  dependent
+[44:17.360 --> 44:18.340]  on the
+[44:18.340 --> 44:19.500]  resistor value
+[44:19.500 --> 44:20.720]  R of,
+[44:21.040 --> 44:21.800]  the resistive
+[44:21.800 --> 44:22.440]  value of
+[44:22.440 --> 44:23.320]  R1.
+[44:23.960 --> 44:25.140]  If it is
+[44:25.140 --> 44:26.020]  a high
+[44:26.020 --> 44:26.640]  enough
+[44:26.640 --> 44:27.640]  resistance,
+[44:28.220 --> 44:28.600]  all right,
+[44:28.920 --> 44:29.460]  the amount
+[44:29.460 --> 44:29.980]  of current
+[44:29.980 --> 44:30.800]  flowing through
+[44:30.800 --> 44:31.500]  here,
+[44:32.360 --> 44:32.780]  all right,
+[44:33.160 --> 44:34.020]  I1,
+[44:34.680 --> 44:35.220]  will
+[44:35.220 --> 44:37.120]  be within
+[44:37.120 --> 44:38.660]  the amount
+[44:38.660 --> 44:39.740]  of current
+[44:39.740 --> 44:41.100]  going in,
+[44:41.440 --> 44:41.800]  all right?
+[44:41.860 --> 44:42.220]  And so,
+[44:42.380 --> 44:42.960]  if you do
+[44:42.960 --> 44:43.280]  that,
+[44:43.360 --> 44:43.980]  you can assume
+[44:43.980 --> 44:44.440]  that the
+[44:44.440 --> 44:45.320]  diode will
+[44:45.320 --> 44:45.900]  hold it
+[44:45.900 --> 44:46.400]  down to
+[44:46.400 --> 44:47.080]  0.7.
+[44:47.680 --> 44:48.540]  On the
+[44:48.540 --> 44:49.220]  other hand,
+[44:49.740 --> 44:50.200]  all right,
+[44:50.640 --> 44:51.360]  if the
+[44:51.360 --> 44:52.400]  resistor value
+[44:52.400 --> 44:53.000]  here is
+[44:53.000 --> 44:53.820]  lower,
+[44:54.580 --> 44:55.500]  then it's
+[44:55.500 --> 44:56.180]  not going
+[44:56.180 --> 44:56.840]  to reach
+[44:56.840 --> 44:57.820]  0.7.
+[44:57.960 --> 44:58.160]  Kasi
+[44:58.160 --> 44:58.700]  ang source
+[44:58.700 --> 44:58.860]  mo,
+[44:58.940 --> 44:59.800]  3.32
+[44:59.800 --> 45:00.460]  milliampers
+[45:00.460 --> 45:01.020]  lang at
+[45:01.020 --> 45:01.600]  most.
+[45:02.200 --> 45:02.440]  Okay?
+[45:02.440 --> 45:02.960]  So,
+[45:03.080 --> 45:03.380]  what's going
+[45:03.380 --> 45:03.960]  to happen
+[45:03.960 --> 45:04.620]  here is
+[45:04.620 --> 45:05.620]  that all
+[45:05.620 --> 45:06.280]  the current
+[45:06.280 --> 45:06.820]  will flow
+[45:06.820 --> 45:07.080]  through
+[45:07.080 --> 45:07.540]  here,
+[45:08.140 --> 45:08.640]  okay,
+[45:09.200 --> 45:10.080]  3.32
+[45:10.080 --> 45:10.960]  milliampers,
+[45:11.120 --> 45:12.000]  and ito
+[45:12.000 --> 45:12.480]  hindi
+[45:12.480 --> 45:13.300]  aabot
+[45:13.300 --> 45:14.060]  ng 0.7.
+[45:14.160 --> 45:14.560]  In fact,
+[45:14.680 --> 45:15.340]  hindi ito
+[45:15.340 --> 45:15.800]  magiging
+[45:15.800 --> 45:16.640]  3.32
+[45:16.640 --> 45:17.280]  milliampers.
+[45:17.360 --> 45:17.600]  It's going
+[45:17.600 --> 45:18.020]  to be a
+[45:18.020 --> 45:18.460]  little bit
+[45:18.460 --> 45:18.880]  less than
+[45:18.880 --> 45:19.040]  that.
+[45:19.340 --> 45:19.520]  So,
+[45:19.620 --> 45:19.900]  there are
+[45:19.900 --> 45:20.220]  two
+[45:20.220 --> 45:21.880]  possibilities.
+[45:22.220 --> 45:22.500]  What you
+[45:22.500 --> 45:22.860]  need to
+[45:22.860 --> 45:23.480]  do is
+[45:23.480 --> 45:23.880]  you need
+[45:23.880 --> 45:24.680]  to solve,
+[45:25.320 --> 45:25.760]  all right,
+[45:26.100 --> 45:26.960]  two separate
+[45:26.960 --> 45:27.780]  situations.
+[45:28.740 --> 45:29.060]  So,
+[45:29.660 --> 45:30.260]  the first
+[45:30.260 --> 45:30.840]  equation
+[45:30.840 --> 45:32.180]  assumes
+[45:32.180 --> 45:34.500]  that the
+[45:34.500 --> 45:35.080]  amount of
+[45:35.080 --> 45:35.340]  current
+[45:35.340 --> 45:35.780]  flowing
+[45:35.780 --> 45:36.100]  through
+[45:36.100 --> 45:36.720]  I1
+[45:36.720 --> 45:37.300]  is going
+[45:37.300 --> 45:37.760]  to be
+[45:37.760 --> 45:38.780]  less than
+[45:38.780 --> 45:39.840]  the source
+[45:39.840 --> 45:40.380]  current
+[45:40.380 --> 45:41.560]  going in,
+[45:42.120 --> 45:43.020]  and thus,
+[45:43.220 --> 45:44.100]  the 0.7
+[45:44.100 --> 45:44.600]  volts
+[45:44.600 --> 45:46.540]  is true.
+[45:47.300 --> 45:47.700]  So,
+[45:47.960 --> 45:49.120]  that's your
+[45:49.120 --> 45:50.240]  first equation.
+[45:50.560 --> 45:50.660]  So,
+[45:50.840 --> 45:51.580]  case one,
+[45:52.000 --> 45:52.460]  all right,
+[45:52.860 --> 45:53.900]  is what we
+[45:53.900 --> 45:54.300]  solved
+[45:54.300 --> 45:55.360]  kanina,
+[45:56.000 --> 45:56.620]  and it will
+[45:56.620 --> 45:57.140]  take on
+[45:57.140 --> 45:57.780]  the form
+[45:57.780 --> 45:58.420]  of
+[45:58.420 --> 46:01.000]  the assumption
+[46:01.000 --> 46:01.900]  where we
+[46:01.900 --> 46:02.220]  have
+[46:02.220 --> 46:02.940]  minus
+[46:02.940 --> 46:03.700]  20
+[46:03.700 --> 46:04.440]  plus
+[46:04.440 --> 46:06.100]  0.7
+[46:06.100 --> 46:06.840]  plus
+[46:06.840 --> 46:08.180]  0.7
+[46:08.180 --> 46:09.820]  plus
+[46:09.820 --> 46:10.820]  V
+[46:10.820 --> 46:11.020]  sub
+[46:11.020 --> 46:11.700]  R2
+[46:11.700 --> 46:12.820]  is equal
+[46:12.820 --> 46:13.600]  to 0,
+[46:14.220 --> 46:14.620]  all right,
+[46:15.120 --> 46:16.020]  and you'll be
+[46:16.020 --> 46:16.820]  able to solve
+[46:16.820 --> 46:17.400]  V
+[46:17.400 --> 46:17.620]  sub
+[46:17.620 --> 46:18.160]  R2
+[46:18.160 --> 46:18.820]  is equal
+[46:18.820 --> 46:19.320]  to
+[46:19.320 --> 46:26.380]  18.6
+[46:26.380 --> 46:26.920]  volts,
+[46:26.920 --> 46:28.020]  and then
+[46:28.020 --> 46:28.400]  you'll be
+[46:28.400 --> 46:28.880]  able to
+[46:28.880 --> 46:29.260]  solve
+[46:29.260 --> 46:30.260]  that I,
+[46:30.840 --> 46:31.320]  the current
+[46:31.320 --> 46:32.380]  flowing I,
+[46:32.880 --> 46:33.480]  is equal
+[46:33.480 --> 46:35.300]  to 18.6
+[46:35.300 --> 46:35.740]  volts
+[46:35.740 --> 46:36.820]  divided by
+[46:36.820 --> 46:39.100]  5.6
+[46:39.100 --> 46:39.380]  K.
+[46:39.700 --> 46:39.920]  So,
+[46:40.000 --> 46:40.580]  this is
+[46:40.580 --> 46:41.240]  your case
+[46:41.240 --> 46:41.600]  one,
+[46:41.700 --> 46:42.060]  which is
+[46:42.060 --> 46:42.540]  what we
+[46:42.540 --> 46:43.380]  did a
+[46:43.380 --> 46:43.960]  while ago.
+[46:45.000 --> 46:45.260]  Okay?
+[46:45.920 --> 46:47.180]  This equation
+[46:47.180 --> 46:47.940]  would hold
+[46:47.940 --> 46:48.380]  true
+[46:48.380 --> 46:49.420]  if the
+[46:49.420 --> 46:49.840]  value
+[46:49.840 --> 46:50.180]  of
+[46:50.180 --> 46:50.940]  R1
+[46:50.940 --> 46:51.380]  is
+[46:51.380 --> 46:51.920]  fairly
+[46:51.920 --> 46:52.460]  big,
+[46:52.820 --> 46:53.040]  which
+[46:53.040 --> 46:53.380]  means
+[46:53.380 --> 46:53.780]  that
+[46:53.780 --> 46:54.740]  I1
+[46:54.740 --> 46:55.320]  is going
+[46:55.320 --> 46:55.680]  to be
+[46:55.680 --> 46:56.460]  a small
+[46:56.460 --> 46:57.100]  value
+[46:57.100 --> 46:57.940]  that is
+[46:57.940 --> 46:58.840]  less than
+[46:58.840 --> 46:59.740]  the current
+[46:59.740 --> 47:00.260]  that you're
+[47:00.260 --> 47:00.740]  going to be
+[47:00.740 --> 47:01.080]  able to
+[47:01.080 --> 47:01.520]  calculate
+[47:01.520 --> 47:01.980]  here.
+[47:02.680 --> 47:03.240]  On the
+[47:03.240 --> 47:03.900]  other hand,
+[47:04.220 --> 47:04.840]  for case
+[47:04.840 --> 47:05.300]  two,
+[47:06.220 --> 47:06.900]  where it
+[47:06.900 --> 47:07.300]  is
+[47:07.300 --> 47:09.420]  going to
+[47:09.420 --> 47:09.860]  be that
+[47:09.860 --> 47:10.240]  there's
+[47:10.240 --> 47:11.080]  a large
+[47:11.080 --> 47:11.460]  amount
+[47:11.460 --> 47:11.860]  of current
+[47:11.860 --> 47:12.200]  flowing
+[47:12.200 --> 47:12.420]  through
+[47:12.420 --> 47:12.720]  here,
+[47:12.820 --> 47:13.120]  it will
+[47:13.120 --> 47:13.400]  get
+[47:13.400 --> 47:13.960]  all of
+[47:13.960 --> 47:14.120]  the
+[47:14.120 --> 47:14.420]  current
+[47:14.420 --> 47:14.700]  in
+[47:14.700 --> 47:14.920]  B
+[47:14.920 --> 47:15.280]  ito
+[47:15.280 --> 47:16.020]  aabot,
+[47:16.660 --> 47:17.060]  all right,
+[47:17.060 --> 47:17.860]  doon sa
+[47:17.860 --> 47:19.020]  0.7
+[47:19.020 --> 47:19.540]  ng
+[47:19.540 --> 47:20.160]  diode
+[47:20.160 --> 47:20.600]  2,
+[47:21.300 --> 47:22.000]  so case
+[47:22.000 --> 47:22.360]  two
+[47:22.360 --> 47:23.220]  will be
+[47:23.220 --> 47:23.700]  that
+[47:23.700 --> 47:24.100]  the
+[47:24.100 --> 47:24.580]  equation
+[47:24.580 --> 47:25.180]  is going
+[47:25.180 --> 47:25.700]  to look
+[47:25.700 --> 47:25.960]  like
+[47:25.960 --> 47:26.380]  this,
+[47:26.960 --> 47:27.300]  minus
+[47:27.300 --> 47:28.160]  20
+[47:28.160 --> 47:29.700]  plus
+[47:29.700 --> 47:30.300]  the
+[47:30.300 --> 47:30.780]  first
+[47:30.780 --> 47:31.140]  one,
+[47:31.280 --> 47:31.380]  which
+[47:31.380 --> 47:31.540]  is
+[47:31.540 --> 47:31.800]  still
+[47:31.800 --> 47:32.580]  0.7
+[47:32.580 --> 47:33.080]  volts,
+[47:34.520 --> 47:34.680]  okay,
+[47:35.700 --> 47:36.380]  plus
+[47:36.380 --> 47:37.620]  V
+[47:37.620 --> 47:38.040]  sub
+[47:38.040 --> 47:38.920]  R1
+[47:38.920 --> 47:39.560]  instead,
+[47:39.920 --> 47:40.400]  because we
+[47:40.400 --> 47:40.960]  don't know
+[47:40.960 --> 47:41.360]  if it
+[47:41.360 --> 47:41.820]  will get
+[47:41.820 --> 47:43.060]  all the
+[47:43.060 --> 47:43.320]  way to
+[47:43.320 --> 47:44.020]  0.7,
+[47:44.660 --> 47:45.060]  all right,
+[47:45.560 --> 47:46.060]  plus
+[47:46.060 --> 47:46.660]  V
+[47:46.660 --> 47:47.000]  sub
+[47:47.000 --> 47:47.620]  R2
+[47:47.620 --> 47:48.380]  is
+[47:48.380 --> 47:48.800]  equal
+[47:48.800 --> 47:49.220]  to
+[47:49.220 --> 47:50.120]  0,
+[47:51.120 --> 47:51.760]  okay,
+[47:52.160 --> 47:52.620]  all right,
+[47:53.060 --> 47:53.980]  then you
+[47:53.980 --> 47:54.560]  of course
+[47:54.560 --> 47:55.440]  substitute,
+[47:56.160 --> 47:56.520]  all right,
+[47:56.680 --> 47:57.480]  given that
+[47:57.480 --> 47:57.940]  case,
+[47:58.420 --> 47:58.980]  the current
+[47:58.980 --> 47:59.580]  flow is
+[47:59.580 --> 48:00.020]  going to
+[48:00.020 --> 48:00.560]  be like
+[48:00.560 --> 48:01.220]  this,
+[48:01.680 --> 48:01.980]  all right,
+[48:02.080 --> 48:02.660]  based on
+[48:02.660 --> 48:03.440]  that equation,
+[48:04.380 --> 48:04.800]  all right,
+[48:05.020 --> 48:05.440]  so we're
+[48:05.440 --> 48:05.720]  going to
+[48:05.720 --> 48:06.380]  have an
+[48:06.380 --> 48:06.880]  I
+[48:06.880 --> 48:07.600]  flowing
+[48:07.600 --> 48:08.060]  going
+[48:08.060 --> 48:08.500]  around
+[48:08.500 --> 48:09.160]  like that,
+[48:09.600 --> 48:10.120]  so you're
+[48:10.120 --> 48:10.620]  going to
+[48:10.620 --> 48:10.940]  get
+[48:10.940 --> 48:11.420]  minus
+[48:11.420 --> 48:12.040]  20
+[48:12.040 --> 48:12.640]  plus
+[48:12.640 --> 48:14.040]  0.7
+[48:14.040 --> 48:15.240]  plus
+[48:15.240 --> 48:16.120]  I
+[48:16.120 --> 48:17.320]  times
+[48:17.320 --> 48:18.960]  whatever
+[48:18.960 --> 48:19.780]  resistance,
+[48:20.460 --> 48:21.020]  R1,
+[48:21.820 --> 48:22.620]  plus
+[48:22.620 --> 48:23.500]  I
+[48:23.500 --> 48:24.300]  times
+[48:24.300 --> 48:25.160]  R2
+[48:25.160 --> 48:25.720]  is
+[48:25.720 --> 48:26.160]  equal
+[48:26.160 --> 48:26.560]  to
+[48:26.560 --> 48:27.200]  0,
+[48:27.600 --> 48:28.060]  okay,
+[48:28.420 --> 48:29.420]  so again,
+[48:29.740 --> 48:30.560]  it's still
+[48:30.560 --> 48:31.540]  your basic
+[48:31.540 --> 48:32.120]  KBL,
+[48:32.940 --> 48:33.640]  you have
+[48:33.640 --> 48:34.600]  your
+[48:34.600 --> 48:35.740]  constant
+[48:35.740 --> 48:36.580]  resistance
+[48:36.580 --> 48:37.180]  values,
+[48:37.280 --> 48:37.700]  because it
+[48:37.700 --> 48:38.000]  would have
+[48:38.000 --> 48:38.500]  been given
+[48:38.500 --> 48:38.900]  in the
+[48:38.900 --> 48:39.320]  problem,
+[48:39.460 --> 48:39.700]  so in
+[48:39.700 --> 48:40.100]  this case,
+[48:40.140 --> 48:40.340]  you would
+[48:40.340 --> 48:40.480]  have
+[48:40.480 --> 48:41.240]  substituted
+[48:41.240 --> 48:43.900]  5600,
+[48:44.200 --> 48:44.960]  and R2
+[48:44.960 --> 48:46.500]  here is
+[48:46.500 --> 48:47.760]  100 ohms,
+[48:47.840 --> 48:48.080]  so we're
+[48:48.080 --> 48:48.340]  going to
+[48:48.340 --> 48:48.760]  put that
+[48:48.760 --> 48:49.040]  in,
+[48:49.440 --> 48:49.880]  and you're
+[48:49.880 --> 48:50.160]  going to
+[48:50.160 --> 48:50.680]  be able
+[48:50.680 --> 48:51.420]  to calculate
+[48:51.420 --> 48:52.260]  that this
+[48:52.260 --> 48:53.020]  is equal
+[48:53.020 --> 48:55.820]  to 19.3
+[48:55.820 --> 48:56.320]  volts
+[48:56.320 --> 48:57.620]  divided by
+[48:57.620 --> 48:59.720]  5700
+[48:59.720 --> 49:00.820]  ohms,
+[49:01.140 --> 49:01.540]  and that
+[49:01.540 --> 49:01.900]  gives you
+[49:01.900 --> 49:02.380]  a particular
+[49:02.380 --> 49:03.100]  answer,
+[49:03.980 --> 49:04.240]  okay,
+[49:04.760 --> 49:05.120]  all right,
+[49:05.480 --> 49:06.220]  then you
+[49:06.220 --> 49:06.860]  go back
+[49:06.860 --> 49:07.400]  and say
+[49:07.400 --> 49:08.100]  that given
+[49:08.100 --> 49:09.340]  the answer
+[49:09.340 --> 49:09.900]  here,
+[49:10.400 --> 49:10.760]  all right,
+[49:11.280 --> 49:12.960]  19.3
+[49:12.960 --> 49:13.920]  divided
+[49:13.920 --> 49:14.500]  by
+[49:14.500 --> 49:16.400]  5700,
+[49:17.280 --> 49:17.840]  that gives
+[49:17.840 --> 49:18.000]  you
+[49:18.000 --> 49:20.220]  3.386,
+[49:20.460 --> 49:20.920]  all right,
+[49:21.460 --> 49:25.160]  3.386
+[49:25.160 --> 49:27.740]  milliampere,
+[49:28.620 --> 49:29.040]  all right,
+[49:29.140 --> 49:29.720]  that's the
+[49:29.720 --> 49:30.440]  amount of
+[49:30.440 --> 49:30.700]  current
+[49:30.700 --> 49:31.100]  that's going
+[49:31.100 --> 49:31.380]  to be
+[49:31.380 --> 49:31.660]  flowing,
+[49:31.760 --> 49:32.060]  it's a
+[49:32.060 --> 49:32.580]  little bit
+[49:32.580 --> 49:33.020]  higher than
+[49:33.020 --> 49:33.480]  before,
+[49:33.940 --> 49:34.320]  all right,
+[49:34.900 --> 49:35.080]  kasi
+[49:35.080 --> 49:36.160]  isang 0.7
+[49:36.160 --> 49:36.560]  lang ang
+[49:36.560 --> 49:37.300]  binaban yan,
+[49:37.300 --> 49:39.640]  so 3.386
+[49:39.640 --> 49:40.560]  milliampere,
+[49:40.920 --> 49:41.600]  you're now
+[49:41.600 --> 49:42.100]  going to be
+[49:42.100 --> 49:42.600]  able to
+[49:42.600 --> 49:43.320]  calculate
+[49:43.320 --> 49:44.560]  V sub
+[49:44.560 --> 49:45.320]  R2
+[49:45.320 --> 49:46.320]  is going
+[49:46.320 --> 49:46.680]  to be
+[49:46.680 --> 49:47.440]  equal to
+[49:47.440 --> 49:50.780]  3.386
+[49:50.780 --> 49:51.600]  milliampere
+[49:51.600 --> 49:52.640]  multiplied
+[49:52.640 --> 49:53.640]  to 100
+[49:53.640 --> 49:54.500]  ohms,
+[49:55.060 --> 49:55.820]  and that
+[49:55.820 --> 49:56.680]  gives us
+[49:56.680 --> 49:57.940]  a voltage
+[49:57.940 --> 49:58.320]  of
+[49:58.320 --> 50:02.080]  0.338,
+[50:02.080 --> 50:04.180]  sorry,
+[50:04.440 --> 50:04.560]  yeah,
+[50:04.680 --> 50:06.400]  386
+[50:06.400 --> 50:07.480]  volts,
+[50:07.760 --> 50:08.040]  okay,
+[50:08.440 --> 50:08.800]  too many
+[50:08.800 --> 50:09.680]  decimal places
+[50:09.680 --> 50:09.940]  na,
+[50:10.320 --> 50:10.620]  all right,
+[50:10.620 --> 50:11.320]  so yan
+[50:11.320 --> 50:12.200]  ang lalabas,
+[50:12.280 --> 50:12.420]  now,
+[50:12.560 --> 50:12.860]  anong
+[50:12.860 --> 50:14.300]  conclusion
+[50:14.300 --> 50:14.760]  natin
+[50:14.760 --> 50:15.100]  dito,
+[50:15.560 --> 50:16.240]  so given
+[50:16.240 --> 50:17.620]  this voltage,
+[50:17.880 --> 50:18.260]  all right,
+[50:18.540 --> 50:19.280]  the voltage
+[50:19.280 --> 50:20.280]  across
+[50:20.280 --> 50:21.820]  VD2
+[50:21.820 --> 50:22.680]  is equal
+[50:22.680 --> 50:23.660]  to the voltage
+[50:23.660 --> 50:24.320]  on
+[50:24.320 --> 50:25.320]  Vr2
+[50:25.320 --> 50:25.640]  because
+[50:25.640 --> 50:26.200]  they are
+[50:26.200 --> 50:26.960]  in parallel,
+[50:27.480 --> 50:27.820]  and you'll
+[50:27.820 --> 50:28.280]  find that
+[50:28.280 --> 50:28.960]  VB2
+[50:28.960 --> 50:29.640]  is equal
+[50:29.640 --> 50:31.660]  to 0.3386
+[50:31.660 --> 50:32.700]  volts
+[50:32.700 --> 50:33.300]  because they're
+[50:33.300 --> 50:33.840]  in parallel,
+[50:34.100 --> 50:34.380]  okay,
+[50:34.380 --> 50:35.220]  so,
+[50:35.220 --> 50:36.420]  hindi
+[50:36.420 --> 50:37.340]  umabot
+[50:37.340 --> 50:38.780]  sa 0.7,
+[50:39.380 --> 50:40.000]  bakit?
+[50:40.000 --> 50:40.820]  Kasi
+[50:40.820 --> 50:41.660]  lahat
+[50:41.660 --> 50:41.880]  ng
+[50:41.880 --> 50:42.380]  current
+[50:42.380 --> 50:43.240]  dumaan
+[50:43.240 --> 50:43.980]  dito
+[50:43.980 --> 50:45.420]  sa ating
+[50:45.420 --> 50:46.040]  100
+[50:46.040 --> 50:46.760]  ohms,
+[50:47.240 --> 50:47.620]  and the
+[50:47.620 --> 50:48.140]  voltage
+[50:48.140 --> 50:49.480]  that results
+[50:49.480 --> 50:50.140]  from that
+[50:50.140 --> 50:50.600]  100
+[50:50.600 --> 50:51.100]  ohms
+[50:51.100 --> 50:52.360]  is only
+[50:52.360 --> 50:55.120]  0.34
+[50:55.120 --> 50:56.180]  volts.
+[50:56.320 --> 50:56.680]  It's
+[50:56.680 --> 50:57.340]  less
+[50:57.340 --> 50:57.960]  than
+[50:57.960 --> 50:58.660]  the
+[50:58.660 --> 50:59.120]  conduction
+[50:59.120 --> 50:59.820]  voltage
+[50:59.820 --> 51:00.300]  of
+[51:00.300 --> 51:00.780]  the
+[51:00.780 --> 51:01.100]  second
+[51:01.100 --> 51:01.600]  diode.
+[51:02.120 --> 51:02.240]  So,
+[51:02.360 --> 51:02.780]  looking at
+[51:02.780 --> 51:03.220]  the curve
+[51:03.220 --> 51:03.520]  of the
+[51:03.520 --> 51:03.780]  second
+[51:03.780 --> 51:04.160]  diode,
+[51:04.440 --> 51:04.860]  if it's
+[51:04.860 --> 51:05.100]  at
+[51:05.100 --> 51:06.480]  0.7,
+[51:07.120 --> 51:07.760]  the voltage
+[51:07.760 --> 51:08.140]  that was
+[51:08.140 --> 51:08.620]  developed
+[51:08.620 --> 51:09.380]  was only
+[51:09.380 --> 51:09.860]  about
+[51:09.860 --> 51:10.840]  approximately
+[51:10.840 --> 51:11.340]  half
+[51:11.340 --> 51:11.940]  of that
+[51:11.940 --> 51:12.920]  0.34.
+[51:13.660 --> 51:13.940]  So,
+[51:14.300 --> 51:14.620]  hindi siya
+[51:14.620 --> 51:15.060]  abot
+[51:15.060 --> 51:15.920]  sa conduction
+[51:15.920 --> 51:16.560]  voltage
+[51:16.560 --> 51:17.340]  ng diode.
+[51:17.500 --> 51:17.580]  So,
+[51:17.660 --> 51:18.080]  in fact,
+[51:18.500 --> 51:19.120]  this diode
+[51:19.120 --> 51:19.540]  is going
+[51:19.540 --> 51:20.060]  to act
+[51:20.060 --> 51:20.400]  like
+[51:20.400 --> 51:21.100]  an open
+[51:21.100 --> 51:21.740]  circuit
+[51:21.740 --> 51:23.140]  because
+[51:23.140 --> 51:24.060]  all of
+[51:24.060 --> 51:24.240]  the
+[51:24.240 --> 51:25.680]  voltage
+[51:25.680 --> 51:28.080]  is across
+[51:28.080 --> 51:28.700]  the resistor
+[51:28.700 --> 51:29.140]  alone.
+[51:29.760 --> 51:29.900]  Alright?
+[51:30.480 --> 51:30.660]  So,
+[51:30.760 --> 51:30.980]  I hope
+[51:30.980 --> 51:31.520]  you follow
+[51:31.520 --> 51:31.940]  that.
+[51:32.080 --> 51:32.160]  So,
+[51:32.200 --> 51:32.480]  this is
+[51:32.480 --> 51:33.300]  an important
+[51:33.300 --> 51:34.200]  distinction.
+[51:34.740 --> 51:34.840]  Alright?
+[51:35.020 --> 51:35.340]  This is
+[51:35.340 --> 51:35.740]  a very,
+[51:35.900 --> 51:36.320]  very
+[51:36.320 --> 51:38.540]  possibly
+[51:38.540 --> 51:39.240]  a tricky
+[51:39.240 --> 51:39.800]  problem.
+[51:40.060 --> 51:40.180]  So,
+[51:40.280 --> 51:40.780]  you need
+[51:40.780 --> 51:41.860]  to calculate
+[51:41.860 --> 51:43.220]  case 1
+[51:43.220 --> 51:44.160]  and case 2
+[51:44.160 --> 51:44.640]  here
+[51:44.640 --> 51:45.760]  and find
+[51:45.760 --> 51:46.760]  out which
+[51:46.760 --> 51:47.480]  of the
+[51:47.480 --> 51:47.840]  two
+[51:47.840 --> 51:49.200]  are the
+[51:49.200 --> 51:50.160]  correct
+[51:50.160 --> 51:51.740]  result.
+[51:52.440 --> 51:52.580]  Okay?
+[51:52.760 --> 51:53.680]  And the
+[51:53.680 --> 51:54.660]  correctness
+[51:54.660 --> 51:55.340]  or which
+[51:55.340 --> 51:56.140]  one is
+[51:56.140 --> 51:56.800]  the correct
+[51:56.800 --> 51:57.440]  case
+[51:57.440 --> 51:58.860]  is dependent
+[51:58.860 --> 51:59.780]  on how
+[51:59.780 --> 52:00.260]  much
+[52:00.260 --> 52:01.200]  voltage
+[52:01.200 --> 52:02.780]  will develop
+[52:02.780 --> 52:03.640]  across
+[52:03.640 --> 52:04.340]  the
+[52:04.340 --> 52:05.140]  resistor
+[52:05.140 --> 52:06.300]  that is
+[52:06.300 --> 52:07.040]  in parallel
+[52:07.040 --> 52:07.640]  with
+[52:07.640 --> 52:08.240]  diode
+[52:08.240 --> 52:08.700]  number
+[52:08.700 --> 52:09.220]  2.
+[52:09.780 --> 52:09.980]  Okay?
+[52:10.440 --> 52:10.660]  So,
+[52:11.000 --> 52:11.420]  if you
+[52:11.420 --> 52:11.780]  start
+[52:11.780 --> 52:12.580]  for example
+[52:12.580 --> 52:12.920]  with
+[52:12.920 --> 52:13.580]  case 2
+[52:13.580 --> 52:15.540]  and then
+[52:15.540 --> 52:16.200]  you calculate
+[52:16.200 --> 52:16.700]  it
+[52:16.700 --> 52:17.680]  and then
+[52:17.680 --> 52:18.260]  you find
+[52:18.260 --> 52:18.880]  out that
+[52:18.880 --> 52:19.140]  the
+[52:19.140 --> 52:19.820]  resulting
+[52:19.820 --> 52:20.740]  answer
+[52:20.740 --> 52:21.460]  is
+[52:21.460 --> 52:21.940]  all right?
+[52:22.060 --> 52:22.800]  Pag calculate
+[52:22.800 --> 52:23.200]  mo ng
+[52:23.200 --> 52:23.580]  current
+[52:23.580 --> 52:24.360]  whatever
+[52:24.360 --> 52:25.060]  that turns
+[52:25.060 --> 52:25.480]  out to
+[52:25.480 --> 52:25.700]  be
+[52:25.700 --> 52:26.820]  minultiply
+[52:26.820 --> 52:27.180]  mo ng
+[52:27.180 --> 52:27.760]  resistor
+[52:27.760 --> 52:28.380]  value
+[52:28.380 --> 52:28.600]  ng
+[52:28.600 --> 52:29.240]  R1
+[52:29.240 --> 52:30.200]  you'll
+[52:30.200 --> 52:30.400]  get
+[52:30.400 --> 52:30.900]  sorry
+[52:30.900 --> 52:31.200]  R
+[52:31.200 --> 52:31.900]  ay mali
+[52:31.900 --> 52:32.460]  bakit
+[52:32.460 --> 52:32.840]  2
+[52:32.840 --> 52:32.880]  2
+[52:32.880 --> 52:33.020]  2
+[52:33.020 --> 52:34.860]  V R1
+[52:34.860 --> 52:35.320]  Duh
+[52:35.320 --> 52:35.860]  Okay?
+[52:36.500 --> 52:37.440]  When you calculate
+[52:37.440 --> 52:38.600]  it and you find
+[52:38.600 --> 52:39.240]  out that
+[52:39.240 --> 52:40.220]  ah ang lumabas
+[52:40.220 --> 52:41.000]  sakin dito
+[52:41.000 --> 52:41.380]  sa
+[52:41.380 --> 52:43.600]  particular
+[52:43.600 --> 52:44.280]  value
+[52:44.280 --> 52:44.740]  it's not
+[52:44.740 --> 52:45.540]  100 ohms
+[52:45.540 --> 52:46.100]  it's a different
+[52:46.100 --> 52:46.400]  thing
+[52:46.400 --> 52:47.100]  lumabas
+[52:47.100 --> 52:47.460]  dito
+[52:47.460 --> 52:48.160]  for example
+[52:48.160 --> 52:48.980]  1 volt
+[52:48.980 --> 52:50.560]  okay?
+[52:50.880 --> 52:51.520]  Let's just say
+[52:51.520 --> 52:52.140]  that based
+[52:52.140 --> 52:52.720]  on that
+[52:52.720 --> 52:53.200]  assumption
+[52:53.200 --> 52:54.100]  all right?
+[52:54.200 --> 52:54.640]  You tried
+[52:54.640 --> 52:55.340]  case 2
+[52:55.340 --> 52:56.140]  and you
+[52:56.140 --> 52:56.760]  calculated
+[52:56.760 --> 52:57.480]  and it turns
+[52:57.480 --> 52:57.860]  out that
+[52:57.860 --> 52:58.620]  umabot
+[52:58.620 --> 52:59.060]  siya ng
+[52:59.060 --> 52:59.720]  1 volt
+[52:59.720 --> 53:00.620]  ah!
+[53:01.000 --> 53:01.340]  Okay
+[53:01.340 --> 53:02.140]  now you
+[53:02.140 --> 53:02.520]  know
+[53:02.520 --> 53:03.940]  if the
+[53:03.940 --> 53:04.360]  voltage
+[53:04.360 --> 53:05.560]  is potentially
+[53:05.560 --> 53:06.180]  high
+[53:06.180 --> 53:06.720]  enough
+[53:06.720 --> 53:07.600]  to turn
+[53:07.600 --> 53:08.460]  diode
+[53:08.460 --> 53:09.260]  D2
+[53:09.260 --> 53:10.560]  on
+[53:10.560 --> 53:11.900]  it will
+[53:11.900 --> 53:12.600]  forward
+[53:12.600 --> 53:13.440]  conduct
+[53:13.440 --> 53:14.500]  okay?
+[53:14.660 --> 53:15.060]  It will
+[53:15.060 --> 53:15.580]  forward
+[53:15.580 --> 53:15.980]  conduct
+[53:15.980 --> 53:16.760]  because
+[53:16.760 --> 53:17.660]  this is
+[53:17.660 --> 53:18.520]  greater
+[53:18.520 --> 53:19.220]  than
+[53:19.220 --> 53:20.040]  right?
+[53:20.240 --> 53:20.460]  This
+[53:20.460 --> 53:21.140]  is greater
+[53:21.140 --> 53:21.480]  than
+[53:21.480 --> 53:22.160]  0.7
+[53:22.160 --> 53:22.500]  volts
+[53:22.500 --> 53:23.300]  so if
+[53:23.300 --> 53:24.120]  it gets
+[53:24.120 --> 53:24.880]  to greater
+[53:24.880 --> 53:25.880]  than 0.7
+[53:25.880 --> 53:26.720]  the diode
+[53:26.720 --> 53:27.460]  will conduct
+[53:27.460 --> 53:28.020]  and so
+[53:28.020 --> 53:28.380]  therefore
+[53:28.380 --> 53:29.480]  once the diode
+[53:29.480 --> 53:30.440]  starts conducting
+[53:30.440 --> 53:30.980]  it will
+[53:30.980 --> 53:31.800]  limit it
+[53:31.800 --> 53:33.440]  to 0.7
+[53:33.440 --> 53:33.920]  volts
+[53:33.920 --> 53:34.520]  okay?
+[53:34.580 --> 53:34.900]  It will
+[53:34.900 --> 53:35.520]  limit it
+[53:35.520 --> 53:36.720]  to 0.7
+[53:36.720 --> 53:37.140]  volts
+[53:37.140 --> 53:38.320]  in that
+[53:38.320 --> 53:38.800]  case
+[53:38.800 --> 53:39.460]  you know
+[53:39.460 --> 53:40.020]  that you
+[53:40.020 --> 53:40.660]  should have
+[53:40.660 --> 53:41.080]  used
+[53:41.080 --> 53:42.120]  the case
+[53:42.120 --> 53:42.500]  1
+[53:42.500 --> 53:43.380]  equation
+[53:43.380 --> 53:44.180]  okay?
+[53:44.340 --> 53:44.700]  So it
+[53:44.700 --> 53:45.420]  will be
+[53:45.420 --> 53:46.240]  that instead
+[53:46.240 --> 53:48.380]  of VR1
+[53:48.380 --> 53:49.180]  we will
+[53:49.180 --> 53:49.860]  know that
+[53:49.860 --> 53:50.560]  the voltage
+[53:50.560 --> 53:51.320]  is limited
+[53:51.320 --> 53:52.220]  to only
+[53:52.220 --> 53:53.240]  0.7
+[53:53.240 --> 53:53.640]  volts
+[53:53.640 --> 53:54.080]  and then
+[53:54.080 --> 53:54.620]  you calculate
+[53:54.620 --> 53:55.240]  it based
+[53:55.240 --> 53:55.700]  on that
+[53:55.700 --> 53:56.580]  okay?
+[53:56.900 --> 53:57.280]  All right?
+[53:57.840 --> 53:58.940]  So that's
+[53:58.940 --> 54:00.220]  what you
+[54:00.220 --> 54:00.740]  need to
+[54:00.740 --> 54:01.720]  do with
+[54:01.720 --> 54:02.480]  something
+[54:02.480 --> 54:03.400]  that looks
+[54:03.400 --> 54:04.180]  like this
+[54:04.180 --> 54:04.820]  okay?
+[54:05.180 --> 54:05.540]  And this
+[54:05.540 --> 54:06.000]  is also
+[54:06.000 --> 54:06.420]  why
+[54:06.420 --> 54:07.620]  when I
+[54:07.620 --> 54:08.080]  asked you
+[54:08.080 --> 54:08.500]  to try
+[54:08.500 --> 54:08.920]  to look
+[54:08.920 --> 54:09.340]  at it
+[54:09.340 --> 54:09.660]  I was
+[54:09.660 --> 54:10.060]  doing my
+[54:10.060 --> 54:10.300]  own
+[54:10.300 --> 54:10.920]  calculations
+[54:10.920 --> 54:11.420]  first
+[54:11.420 --> 54:12.260]  making
+[54:12.260 --> 54:12.740]  sure
+[54:12.740 --> 54:13.240]  that
+[54:13.240 --> 54:14.160]  the
+[54:14.160 --> 54:16.480]  values
+[54:16.480 --> 54:16.760]  that
+[54:16.760 --> 54:16.940]  were
+[54:16.940 --> 54:17.360]  shown
+[54:17.360 --> 54:18.100]  essentially
+[54:18.100 --> 54:19.480]  will
+[54:19.480 --> 54:19.880]  hold
+[54:19.880 --> 54:20.360]  for
+[54:20.360 --> 54:21.700]  the
+[54:21.700 --> 54:22.660]  0.7
+[54:22.660 --> 54:23.040]  volt
+[54:23.040 --> 54:23.640]  assumption
+[54:23.640 --> 54:25.120]  all right?
+[54:25.300 --> 54:25.880]  So that's
+[54:25.880 --> 54:26.380]  a little bit
+[54:26.380 --> 54:27.100]  complex
+[54:27.100 --> 54:27.580]  a little
+[54:27.580 --> 54:28.200]  bit tricky
+[54:28.200 --> 54:30.180]  are there
+[54:30.180 --> 54:30.840]  questions?
+[54:31.040 --> 54:31.280]  Were you
+[54:31.280 --> 54:32.060]  able to
+[54:32.060 --> 54:32.580]  follow
+[54:32.580 --> 54:33.180]  this
+[54:33.180 --> 54:34.160]  particular
+[54:34.160 --> 54:36.080]  you know
+[54:36.080 --> 54:39.620]  complexity
+[54:39.620 --> 54:40.920]  for this
+[54:40.920 --> 54:41.640]  problem?
+[54:42.140 --> 54:42.620]  Questions?
+[54:43.260 --> 54:43.440]  Get
+[54:43.440 --> 54:43.560]  it?
+[54:45.900 --> 54:46.500]  Yeah?
+[54:46.760 --> 54:47.200]  All right?
+[54:48.200 --> 54:48.480]  Okay?
+[54:49.820 --> 54:50.140]  Tignan
+[54:50.140 --> 54:50.300]  nang
+[54:50.300 --> 54:50.700]  mabuti
+[54:50.700 --> 54:50.880]  yung
+[54:50.880 --> 54:51.320]  problem
+[54:51.320 --> 54:51.680]  ha?
+[54:52.480 --> 54:52.940]  All right?
+[54:53.160 --> 54:53.400]  Mga
+[54:53.400 --> 54:53.780]  ganto
+[54:53.780 --> 54:54.240]  medyo
+[54:54.240 --> 54:55.120]  possibly
+[54:55.120 --> 54:55.860]  confusing
+[54:55.860 --> 54:56.880]  all right?
+[54:57.220 --> 54:57.420]  Ayan
+[54:57.420 --> 54:57.820]  tignan
+[54:57.820 --> 54:57.920]  mo
+[54:57.920 --> 54:58.200]  that's
+[54:58.200 --> 54:58.340]  why
+[54:58.340 --> 54:58.660]  it went
+[54:58.660 --> 54:58.880]  into
+[54:58.880 --> 54:59.260]  all of
+[54:59.260 --> 54:59.460]  that
+[54:59.460 --> 54:59.700]  so
+[54:59.700 --> 55:00.000]  never
+[55:00.000 --> 55:00.320]  mind.
+[55:00.760 --> 55:01.060]  So that
+[55:01.060 --> 55:01.420]  was the
+[55:01.420 --> 55:01.700]  most
+[55:01.700 --> 55:02.600]  complex
+[55:02.600 --> 55:03.240]  example
+[55:03.240 --> 55:03.800]  that we
+[55:03.800 --> 55:04.060]  have
+[55:04.060 --> 55:04.400]  here
+[55:04.400 --> 55:05.800]  okay?
+[55:05.800 --> 55:10.500]  So let's
+[55:10.500 --> 55:11.340]  go to
+[55:11.340 --> 55:12.020]  diode
+[55:12.020 --> 55:13.020]  circuits
+[55:13.020 --> 55:13.860]  okay?
+[55:14.060 --> 55:14.580]  Diode
+[55:14.580 --> 55:15.340]  circuits
+[55:15.340 --> 55:16.720]  tama na yan
+[55:16.720 --> 55:17.440]  all right?
+[55:17.980 --> 55:18.720]  What are
+[55:18.720 --> 55:19.500]  diodes
+[55:19.500 --> 55:20.280]  useful
+[55:20.280 --> 55:21.060]  for?
+[55:21.800 --> 55:22.420]  Why the
+[55:22.420 --> 55:22.700]  heck
+[55:22.700 --> 55:23.280]  are we
+[55:23.280 --> 55:23.820]  studying
+[55:23.820 --> 55:24.260]  it?
+[55:24.920 --> 55:25.220]  Okay?
+[55:25.720 --> 55:26.300]  So here
+[55:26.300 --> 55:26.960]  are a
+[55:26.960 --> 55:27.300]  couple
+[55:27.300 --> 55:27.840]  of
+[55:27.840 --> 55:28.860]  general
+[55:28.860 --> 55:29.400]  use
+[55:29.400 --> 55:29.920]  cases
+[55:29.920 --> 55:30.880]  all right?
+[55:31.380 --> 55:31.680]  Where
+[55:31.680 --> 55:31.960]  are
+[55:31.960 --> 55:32.480]  diodes
+[55:32.480 --> 55:33.960]  mostly
+[55:33.960 --> 55:34.900]  used?
+[55:34.900 --> 55:36.000]  okay?
+[55:36.660 --> 55:37.000]  So the
+[55:37.000 --> 55:37.500]  first
+[55:37.500 --> 55:39.760]  what is
+[55:39.760 --> 55:40.160]  oh it's
+[55:40.160 --> 55:40.300]  not
+[55:40.300 --> 55:40.680]  appearing
+[55:40.680 --> 55:41.500]  appear
+[55:41.500 --> 55:41.980]  appear
+[55:41.980 --> 55:42.500]  okay?
+[55:43.060 --> 55:43.280]  The
+[55:43.280 --> 55:43.880]  first
+[55:43.880 --> 55:46.960]  large
+[55:46.960 --> 55:48.440]  use
+[55:48.440 --> 55:48.980]  case
+[55:48.980 --> 55:49.420]  of
+[55:49.420 --> 55:50.120]  diodes
+[55:50.120 --> 55:51.140]  is
+[55:51.140 --> 55:51.980]  for
+[55:51.980 --> 55:52.980]  the
+[55:52.980 --> 55:53.480]  purpose
+[55:53.480 --> 55:53.980]  of
+[55:53.980 --> 55:55.440]  rectification
+[55:55.440 --> 55:57.020]  okay?
+[55:57.160 --> 55:57.760]  A diode
+[55:57.760 --> 55:58.440]  is used
+[55:58.440 --> 55:59.180]  as a
+[55:59.180 --> 56:00.220]  rectifier
+[56:00.220 --> 56:02.020]  meron
+[56:02.020 --> 56:02.280]  pang
+[56:02.280 --> 56:02.840]  pronunciation
+[56:02.840 --> 56:03.600]  dito
+[56:03.600 --> 56:04.720]  all right?
+[56:04.900 --> 56:05.500]  dates
+[56:05.500 --> 56:05.840]  back
+[56:05.840 --> 56:06.080]  to
+[56:06.080 --> 56:07.000]  1611
+[56:07.000 --> 56:08.160]  all right?
+[56:08.880 --> 56:09.080]  A
+[56:09.080 --> 56:09.860]  rectifier
+[56:09.860 --> 56:10.480]  is a
+[56:10.480 --> 56:11.020]  device
+[56:11.020 --> 56:11.420]  that
+[56:11.420 --> 56:12.760]  rectifies
+[56:12.760 --> 56:14.200]  okay?
+[56:15.560 --> 56:16.240]  Now what
+[56:16.240 --> 56:16.500]  the hell
+[56:16.500 --> 56:16.720]  does
+[56:16.720 --> 56:17.760]  rectify
+[56:17.760 --> 56:18.880]  mean?
+[56:19.840 --> 56:20.100]  All right?
+[56:20.680 --> 56:21.300]  In normal
+[56:21.300 --> 56:22.000]  English
+[56:22.000 --> 56:23.340]  rectify
+[56:23.340 --> 56:24.040]  is to
+[56:24.040 --> 56:24.480]  make
+[56:24.480 --> 56:25.140]  correct
+[56:25.140 --> 56:26.820]  but
+[56:26.820 --> 56:27.360]  you know
+[56:27.360 --> 56:27.720]  that's
+[56:27.720 --> 56:28.000]  normal
+[56:28.000 --> 56:28.480]  English
+[56:28.480 --> 56:30.320]  you rectify
+[56:30.320 --> 56:31.100]  a situation
+[56:31.100 --> 56:32.380]  you fix
+[56:32.380 --> 56:33.080]  a problem
+[56:33.080 --> 56:33.720]  you make
+[56:33.720 --> 56:34.120]  things
+[56:34.120 --> 56:34.720]  correct
+[56:34.720 --> 56:35.580]  if
+[56:35.580 --> 56:35.940]  there's
+[56:35.940 --> 56:36.540]  something
+[56:36.540 --> 56:37.120]  wrong
+[56:37.120 --> 56:38.880]  you ask
+[56:38.880 --> 56:39.760]  somebody
+[56:39.760 --> 56:40.160]  to
+[56:40.160 --> 56:41.160]  rectify
+[56:41.160 --> 56:42.160]  the situation
+[56:42.160 --> 56:44.240]  ayusin mo ang problema
+[56:44.240 --> 56:45.660]  all right?
+[56:45.660 --> 56:46.640]  but that's
+[56:46.640 --> 56:47.020]  normal
+[56:47.020 --> 56:47.540]  English
+[56:47.540 --> 56:48.440]  in
+[56:48.440 --> 56:50.560]  electronics
+[56:50.560 --> 56:51.700]  and
+[56:51.700 --> 56:52.360]  electrical
+[56:52.360 --> 56:53.260]  systems
+[56:53.260 --> 56:54.880]  rectify
+[56:54.880 --> 56:56.220]  means
+[56:56.220 --> 56:56.800]  to
+[56:56.800 --> 56:58.220]  change
+[56:58.220 --> 56:58.720]  an
+[56:58.720 --> 56:59.940]  alternating
+[56:59.940 --> 57:00.680]  current
+[57:00.680 --> 57:01.540]  current
+[57:01.540 --> 57:02.080]  that is
+[57:02.080 --> 57:03.040]  alternating
+[57:03.040 --> 57:04.900]  and make
+[57:04.900 --> 57:05.700]  it into
+[57:05.700 --> 57:06.560]  a non
+[57:06.560 --> 57:07.460]  changing
+[57:07.460 --> 57:11.660]  current
+[57:11.660 --> 57:12.720]  direction
+[57:12.720 --> 57:13.800]  a
+[57:13.800 --> 57:14.360]  direct
+[57:14.360 --> 57:14.940]  current
+[57:14.940 --> 57:15.420]  in other
+[57:15.420 --> 57:15.840]  words
+[57:15.840 --> 57:16.400]  okay?
+[57:16.760 --> 57:17.120]  So you
+[57:17.120 --> 57:17.600]  go from
+[57:17.600 --> 57:18.620]  alternating
+[57:18.620 --> 57:19.660]  to
+[57:19.660 --> 57:20.660]  non
+[57:20.660 --> 57:21.380]  alternating
+[57:21.380 --> 57:22.340]  which is
+[57:22.340 --> 57:22.860]  basically
+[57:22.860 --> 57:23.400]  called
+[57:23.400 --> 57:24.540]  a direct
+[57:24.540 --> 57:25.060]  current
+[57:25.060 --> 57:25.380]  now
+[57:25.380 --> 57:26.260]  this can
+[57:26.260 --> 57:26.780]  potentially
+[57:26.780 --> 57:27.800]  be confusing
+[57:27.800 --> 57:28.500]  because
+[57:28.500 --> 57:29.800]  your notion
+[57:29.800 --> 57:30.500]  of a
+[57:30.500 --> 57:30.880]  direct
+[57:30.880 --> 57:31.320]  current
+[57:31.320 --> 57:31.820]  at this
+[57:31.820 --> 57:32.120]  point
+[57:32.120 --> 57:32.580]  is
+[57:32.580 --> 57:33.720]  to have
+[57:33.720 --> 57:34.260]  something
+[57:34.260 --> 57:34.800]  that is
+[57:34.800 --> 57:35.160]  a
+[57:35.160 --> 57:35.800]  non
+[57:35.800 --> 57:36.500]  changing
+[57:36.500 --> 57:38.620]  static
+[57:38.620 --> 57:40.560]  current
+[57:40.560 --> 57:41.320]  a
+[57:41.320 --> 57:41.580]  non
+[57:41.580 --> 57:41.900]  changing
+[57:41.900 --> 57:42.380]  static
+[57:42.380 --> 57:42.780]  current
+[57:42.780 --> 57:43.300]  which is
+[57:43.300 --> 57:43.640]  what we
+[57:43.640 --> 57:43.840]  call
+[57:43.840 --> 57:44.120]  a
+[57:44.120 --> 57:44.400]  DC
+[57:44.400 --> 57:44.760]  current
+[57:44.760 --> 57:45.000]  a
+[57:45.000 --> 57:45.440]  steady
+[57:45.440 --> 57:46.080]  state
+[57:46.080 --> 57:46.680]  current
+[57:46.680 --> 57:48.060]  okay?
+[57:48.700 --> 57:49.120]  So
+[57:49.120 --> 57:49.840]  maybe
+[57:49.840 --> 57:50.160]  the
+[57:50.160 --> 57:50.520]  better
+[57:50.520 --> 57:50.940]  thing
+[57:50.940 --> 57:51.380]  here
+[57:51.380 --> 57:52.440]  is
+[57:52.440 --> 57:52.740]  to
+[57:52.740 --> 57:53.260]  assume
+[57:53.260 --> 57:53.760]  okay
+[57:53.760 --> 57:54.200]  given
+[57:54.200 --> 57:54.460]  that
+[57:54.460 --> 57:54.560]  you
+[57:54.560 --> 57:54.680]  have
+[57:54.680 --> 57:55.000]  an
+[57:55.000 --> 57:55.580]  AC
+[57:55.580 --> 57:56.380]  current
+[57:56.380 --> 57:59.240]  alternating
+[57:59.240 --> 58:00.240]  means
+[58:00.240 --> 58:00.660]  that
+[58:00.660 --> 58:01.280]  the
+[58:01.280 --> 58:02.660]  polarity
+[58:02.660 --> 58:03.600]  all right
+[58:03.600 --> 58:04.460]  of the
+[58:04.460 --> 58:04.960]  current
+[58:04.960 --> 58:07.400]  alternates
+[58:07.400 --> 58:08.480]  okay?
+[58:08.540 --> 58:08.780]  It
+[58:08.780 --> 58:09.540]  changes
+[58:09.540 --> 58:10.680]  from
+[58:10.680 --> 58:11.340]  positive
+[58:11.340 --> 58:12.000]  to
+[58:12.000 --> 58:12.600]  negative
+[58:12.600 --> 58:14.460]  all right?
+[58:15.020 --> 58:15.780]  And
+[58:15.780 --> 58:16.420]  if
+[58:16.420 --> 58:16.720]  you
+[58:16.720 --> 58:17.900]  rectify
+[58:17.900 --> 58:18.400]  the
+[58:18.400 --> 58:18.840]  current
+[58:18.840 --> 58:20.260]  you
+[58:20.260 --> 58:20.780]  are
+[58:20.780 --> 58:22.060]  doing
+[58:22.060 --> 58:22.820]  something
+[58:22.820 --> 58:23.440]  so
+[58:23.440 --> 58:23.820]  that
+[58:23.820 --> 58:24.140]  the
+[58:24.140 --> 58:24.580]  current
+[58:24.580 --> 58:25.300]  becomes
+[58:25.300 --> 58:26.980]  unipolar
+[58:26.980 --> 58:27.100] !
+[58:28.340 --> 58:28.420]  Okay?
+[58:28.820 --> 58:29.740]  Unipolar
+[58:29.740 --> 58:30.200]  meaning
+[58:30.200 --> 58:31.140]  of a
+[58:31.140 --> 58:32.200]  single
+[58:32.200 --> 58:34.380]  polarity
+[58:34.380 --> 58:35.940]  all right?
+[58:36.560 --> 58:37.100]  By
+[58:37.100 --> 58:37.520]  using
+[58:37.520 --> 58:37.900]  that
+[58:37.900 --> 58:38.460]  particular
+[58:38.460 --> 58:39.080]  term
+[58:39.080 --> 58:40.000]  there is
+[58:40.000 --> 58:40.200]  an
+[58:40.200 --> 58:40.720]  important
+[58:40.720 --> 58:41.440]  distinction.
+[58:42.480 --> 58:42.840]  DC
+[58:42.840 --> 58:43.900]  implies
+[58:43.900 --> 58:44.580]  that
+[58:44.580 --> 58:45.540]  it is
+[58:45.540 --> 58:46.740]  unipolar
+[58:46.740 --> 58:47.380]  it's of
+[58:47.380 --> 58:47.860]  single
+[58:47.860 --> 58:48.680]  polarity
+[58:48.680 --> 58:49.260]  but
+[58:49.260 --> 58:50.020]  it is
+[58:50.020 --> 58:51.040]  steady.
+[58:51.800 --> 58:52.480]  That's
+[58:52.480 --> 58:53.140]  the problem
+[58:53.140 --> 58:54.560]  okay?
+[58:55.020 --> 58:55.680]  Non-changing
+[58:55.680 --> 58:57.100]  but
+[58:57.100 --> 58:58.740]  this
+[58:58.740 --> 58:59.860]  all right
+[58:59.860 --> 59:01.040]  alternating
+[59:01.040 --> 59:01.840]  current
+[59:01.840 --> 59:03.080]  if we
+[59:03.080 --> 59:03.860]  were to
+[59:03.860 --> 59:05.920]  rectify
+[59:05.920 --> 59:06.280]  it,
+[59:06.280 --> 59:07.420]  it would
+[59:07.420 --> 59:08.060]  change
+[59:08.060 --> 59:08.720]  into
+[59:08.720 --> 59:09.380]  a
+[59:09.380 --> 59:11.000]  unipolar
+[59:11.000 --> 59:14.340]  signal,
+[59:14.840 --> 59:15.600]  a signal
+[59:15.600 --> 59:16.260]  of
+[59:16.260 --> 59:17.160]  single
+[59:17.160 --> 59:17.940]  polarity
+[59:17.940 --> 59:19.340]  and it
+[59:19.340 --> 59:19.740]  might,
+[59:19.940 --> 59:20.480]  for example,
+[59:20.820 --> 59:21.400]  look like
+[59:21.400 --> 59:21.840]  this.
+[59:23.140 --> 59:23.440]  Right?
+[59:23.940 --> 59:25.240]  This is
+[59:25.240 --> 59:26.280]  the result
+[59:26.280 --> 59:27.300]  of the
+[59:27.300 --> 59:28.380]  rectification
+[59:28.380 --> 59:29.380]  process.
+[59:29.380 --> 59:30.660]  you go
+[59:30.660 --> 59:31.380]  from an
+[59:31.380 --> 59:32.480]  alternating
+[59:32.480 --> 59:33.780]  polarity
+[59:33.780 --> 59:34.600]  to one
+[59:34.600 --> 59:35.200]  of a
+[59:35.200 --> 59:36.140]  single
+[59:36.140 --> 59:37.220]  polarity.
+[59:37.940 --> 59:38.060]  So
+[59:38.060 --> 59:40.000]  that's
+[59:40.000 --> 59:40.240]  your
+[59:40.240 --> 59:40.960]  rectification
+[59:40.960 --> 59:41.600]  or if
+[59:41.600 --> 59:42.220]  you choose
+[59:42.220 --> 59:42.720]  right,
+[59:42.860 --> 59:43.260]  you can
+[59:43.260 --> 59:44.000]  also get
+[59:44.000 --> 59:44.840]  a waveform
+[59:44.840 --> 59:46.040]  for example
+[59:46.040 --> 59:46.740]  that looks
+[59:46.740 --> 59:47.420]  like this.
+[59:48.220 --> 59:48.720]  Here,
+[59:49.240 --> 59:49.940]  the resulting
+[59:49.940 --> 59:51.140]  output
+[59:51.140 --> 59:51.940]  current
+[59:51.940 --> 59:53.060]  again is
+[59:53.060 --> 59:53.700]  still
+[59:53.700 --> 59:55.260]  unipolar.
+[59:55.260 --> 01:00:03.980]  one
+[01:00:03.980 --> 01:00:04.940]  polarity
+[01:00:04.940 --> 01:00:07.940]  unified
+[01:00:07.940 --> 01:00:08.440]  kasi.
+[01:00:09.140 --> 01:00:09.440]  All right?
+[01:00:09.780 --> 01:00:10.200]  One
+[01:00:10.200 --> 01:00:10.880]  polarity,
+[01:00:11.040 --> 01:00:11.440]  this one
+[01:00:11.440 --> 01:00:12.340]  is positive
+[01:00:12.340 --> 01:00:13.020]  and this
+[01:00:13.020 --> 01:00:13.460]  one would
+[01:00:13.460 --> 01:00:13.980]  be a
+[01:00:13.980 --> 01:00:14.640]  negative
+[01:00:14.640 --> 01:00:15.180]  current.
+[01:00:15.420 --> 01:00:15.600]  So
+[01:00:15.600 --> 01:00:16.860]  technically
+[01:00:16.860 --> 01:00:17.800]  speaking,
+[01:00:18.200 --> 01:00:18.560]  all right,
+[01:00:19.400 --> 01:00:20.000]  this is
+[01:00:20.000 --> 01:00:20.700]  really what
+[01:00:20.700 --> 01:00:21.200]  direct
+[01:00:21.200 --> 01:00:22.180]  current
+[01:00:22.180 --> 01:00:24.120]  implies.
+[01:00:24.120 --> 01:00:25.000]  direct
+[01:00:25.000 --> 01:00:25.460]  current
+[01:00:25.460 --> 01:00:26.120]  implies
+[01:00:26.120 --> 01:00:27.620]  unipolarity
+[01:00:27.620 --> 01:00:29.300]  and what
+[01:00:29.300 --> 01:00:29.900]  is wrong
+[01:00:29.900 --> 01:00:30.300]  at this
+[01:00:30.300 --> 01:00:30.820]  point is
+[01:00:30.820 --> 01:00:31.580]  that our
+[01:00:31.580 --> 01:00:32.280]  notion
+[01:00:32.280 --> 01:00:32.960]  from
+[01:00:32.960 --> 01:00:34.200]  CNETRON1
+[01:00:34.200 --> 01:00:35.620]  is that
+[01:00:35.620 --> 01:00:37.440]  a steady
+[01:00:37.440 --> 01:00:37.780]  state
+[01:00:37.780 --> 01:00:38.380]  current,
+[01:00:38.700 --> 01:00:39.100]  all right,
+[01:00:39.320 --> 01:00:39.880]  which we
+[01:00:39.880 --> 01:00:40.520]  defined as
+[01:00:40.520 --> 01:00:41.440]  DC current,
+[01:00:41.900 --> 01:00:42.680]  needs to be
+[01:00:42.680 --> 01:00:43.060]  steady,
+[01:00:43.280 --> 01:00:43.900]  but that's
+[01:00:43.900 --> 01:00:45.240]  not actually
+[01:00:45.240 --> 01:00:45.920]  correct.
+[01:00:46.640 --> 01:00:46.820]  Okay?
+[01:00:47.340 --> 01:00:47.680]  So
+[01:00:47.680 --> 01:00:48.780]  take a
+[01:00:48.780 --> 01:00:49.100]  battery
+[01:00:49.100 --> 01:00:49.840]  voltage,
+[01:00:50.120 --> 01:00:51.400]  over time
+[01:00:51.400 --> 01:00:52.320]  the current
+[01:00:52.320 --> 01:00:52.820]  will go
+[01:00:52.820 --> 01:00:53.820]  down because
+[01:00:53.820 --> 01:00:54.540]  the battery
+[01:00:54.540 --> 01:00:55.700]  will weaken.
+[01:00:56.920 --> 01:00:57.060]  Okay?
+[01:00:57.440 --> 01:00:57.920]  So it's
+[01:00:57.920 --> 01:00:58.660]  not really
+[01:00:58.660 --> 01:00:59.460]  steady if
+[01:00:59.460 --> 01:00:59.880]  you look at
+[01:00:59.880 --> 01:01:00.260]  it over
+[01:01:00.260 --> 01:01:00.700]  the long
+[01:01:00.700 --> 01:01:00.980]  term.
+[01:01:01.840 --> 01:01:02.020]  Okay?
+[01:01:02.220 --> 01:01:02.760]  And yet
+[01:01:02.760 --> 01:01:03.300]  we call
+[01:01:03.300 --> 01:01:04.020]  it DC
+[01:01:04.020 --> 01:01:04.920]  because
+[01:01:04.920 --> 01:01:05.760]  DC
+[01:01:05.760 --> 01:01:07.420]  means
+[01:01:07.420 --> 01:01:08.600]  single
+[01:01:08.600 --> 01:01:09.540]  polarity,
+[01:01:09.900 --> 01:01:10.200]  period.
+[01:01:10.720 --> 01:01:11.180]  Sa toto
+[01:01:11.180 --> 01:01:11.480]  a lot.
+[01:01:11.820 --> 01:01:12.080]  All right?
+[01:01:12.380 --> 01:01:13.120]  So DC
+[01:01:13.120 --> 01:01:14.120]  means
+[01:01:14.120 --> 01:01:15.020]  single
+[01:01:15.020 --> 01:01:15.840]  polarity.
+[01:01:15.840 --> 01:01:16.720]  It does
+[01:01:16.720 --> 01:01:17.920]  not mean
+[01:01:17.920 --> 01:01:18.640]  that the
+[01:01:18.640 --> 01:01:19.460]  thing has
+[01:01:19.460 --> 01:01:19.920]  to be
+[01:01:19.920 --> 01:01:20.520]  steady.
+[01:01:22.000 --> 01:01:22.440]  All right?
+[01:01:22.720 --> 01:01:23.060]  Okay?
+[01:01:23.060 --> 01:01:23.520]  I hope
+[01:01:23.520 --> 01:01:23.860]  that's
+[01:01:23.860 --> 01:01:24.140]  clear.
+[01:01:24.800 --> 01:01:25.120]  So
+[01:01:25.120 --> 01:01:26.500]  when
+[01:01:26.500 --> 01:01:27.720]  we say
+[01:01:27.720 --> 01:01:28.280]  direct
+[01:01:28.280 --> 01:01:28.760]  current
+[01:01:28.760 --> 01:01:30.040]  starting at
+[01:01:30.040 --> 01:01:30.660]  this point,
+[01:01:30.960 --> 01:01:31.340]  all right,
+[01:01:31.660 --> 01:01:32.360]  think of
+[01:01:32.360 --> 01:01:33.220]  it simply
+[01:01:33.220 --> 01:01:34.220]  as a
+[01:01:34.220 --> 01:01:35.540]  unipolar
+[01:01:35.540 --> 01:01:37.120]  polarity
+[01:01:37.120 --> 01:01:38.380]  current
+[01:01:38.380 --> 01:01:39.600]  or voltage
+[01:01:39.600 --> 01:01:40.060]  for that
+[01:01:40.060 --> 01:01:40.420]  matter.
+[01:01:41.220 --> 01:01:41.500]  Okay?
+[01:01:41.500 --> 01:01:43.940]  All right?
+[01:01:44.320 --> 01:01:44.800]  Not
+[01:01:44.800 --> 01:01:46.220]  necessarily
+[01:01:46.220 --> 01:01:47.060]  a steady
+[01:01:47.060 --> 01:01:47.920]  value.
+[01:01:48.480 --> 01:01:49.020]  It can be
+[01:01:49.020 --> 01:01:49.580]  changing.
+[01:01:49.580 --> 01:01:50.580]  All right?
+[01:01:53.160 --> 01:01:53.960]  As long
+[01:01:53.960 --> 01:01:54.320]  as it
+[01:01:54.320 --> 01:01:54.640]  doesn't
+[01:01:54.640 --> 01:01:55.200]  change
+[01:01:55.200 --> 01:01:55.860]  polarity.
+[01:01:56.320 --> 01:01:56.500]  Okay?
+[01:01:56.720 --> 01:01:57.020]  All right.
+[01:01:57.160 --> 01:01:57.680]  So
+[01:01:57.680 --> 01:01:59.960]  let's
+[01:01:59.960 --> 01:02:00.800]  look at
+[01:02:00.800 --> 01:02:01.600]  diode
+[01:02:01.600 --> 01:02:02.780]  usage.
+[01:02:03.160 --> 01:02:03.260]  So
+[01:02:03.260 --> 01:02:04.880]  it can
+[01:02:04.880 --> 01:02:05.320]  be used
+[01:02:05.320 --> 01:02:05.720]  for
+[01:02:05.720 --> 01:02:07.320]  rectification
+[01:02:07.320 --> 01:02:07.900]  purposes.
+[01:02:08.220 --> 01:02:09.140]  If you
+[01:02:09.140 --> 01:02:09.680]  do that,
+[01:02:09.760 --> 01:02:10.180]  then it's
+[01:02:10.180 --> 01:02:10.460]  called
+[01:02:10.460 --> 01:02:10.800]  a
+[01:02:10.800 --> 01:02:11.700]  rectifier.
+[01:02:12.780 --> 01:02:12.940]  Okay?
+[01:02:12.940 --> 01:02:13.840]  And so
+[01:02:13.840 --> 01:02:14.220]  let's
+[01:02:14.220 --> 01:02:15.000]  look at
+[01:02:15.000 --> 01:02:15.560]  a
+[01:02:15.560 --> 01:02:16.140]  simple
+[01:02:16.140 --> 01:02:16.860]  use.
+[01:02:17.820 --> 01:02:18.080]  All right?
+[01:02:18.720 --> 01:02:19.300]  How do you
+[01:02:19.300 --> 01:02:19.920]  use or
+[01:02:19.920 --> 01:02:20.420]  how do you
+[01:02:20.420 --> 01:02:20.820]  place a
+[01:02:20.820 --> 01:02:21.800]  diode and
+[01:02:21.800 --> 01:02:22.700]  let it
+[01:02:22.700 --> 01:02:23.720]  become a
+[01:02:23.720 --> 01:02:24.380]  half
+[01:02:24.380 --> 01:02:25.080]  wave
+[01:02:25.080 --> 01:02:26.040]  rectifier?
+[01:02:26.220 --> 01:02:26.460]  Actually,
+[01:02:26.620 --> 01:02:27.280]  I'm
+[01:02:27.280 --> 01:02:27.700]  dito.
+[01:02:27.820 --> 01:02:28.420]  But what
+[01:02:28.420 --> 01:02:28.760]  the hell?
+[01:02:29.020 --> 01:02:29.280]  All right?
+[01:02:29.720 --> 01:02:30.360]  And we'll
+[01:02:30.360 --> 01:02:31.100]  also see
+[01:02:31.100 --> 01:02:31.720]  that with
+[01:02:31.720 --> 01:02:32.140]  a little
+[01:02:32.140 --> 01:02:32.760]  bit of
+[01:02:32.760 --> 01:02:34.600]  change
+[01:02:34.600 --> 01:02:35.220]  in the
+[01:02:35.220 --> 01:02:35.560]  circuit,
+[01:02:36.100 --> 01:02:36.520]  we can
+[01:02:36.520 --> 01:02:37.820]  also make
+[01:02:37.820 --> 01:02:38.520]  the diodes
+[01:02:38.520 --> 01:02:39.620]  work as
+[01:02:39.620 --> 01:02:40.460]  a full
+[01:02:40.460 --> 01:02:41.300]  wave
+[01:02:41.300 --> 01:02:42.260]  rectifier.
+[01:02:42.640 --> 01:02:43.040]  So what
+[01:02:43.040 --> 01:02:43.460]  the hell
+[01:02:43.460 --> 01:02:43.880]  is a
+[01:02:43.880 --> 01:02:44.200]  half
+[01:02:44.200 --> 01:02:44.420]  wave
+[01:02:44.420 --> 01:02:45.060]  rectifier?
+[01:02:45.240 --> 01:02:45.500]  And what
+[01:02:45.500 --> 01:02:45.820]  the hell
+[01:02:45.820 --> 01:02:46.180]  is a
+[01:02:46.180 --> 01:02:46.560]  full
+[01:02:46.560 --> 01:02:47.020]  wave
+[01:02:47.020 --> 01:02:48.080]  rectifier?
+[01:02:48.740 --> 01:02:49.040]  All right?
+[01:02:49.560 --> 01:02:50.100]  And
+[01:02:50.100 --> 01:02:50.980]  aside from
+[01:02:50.980 --> 01:02:51.400]  those,
+[01:02:51.820 --> 01:02:52.320]  we also
+[01:02:52.320 --> 01:02:52.840]  have what
+[01:02:52.840 --> 01:02:53.200]  we call
+[01:02:53.200 --> 01:02:53.840]  the bridge
+[01:02:53.840 --> 01:02:54.540]  rectifier,
+[01:02:55.060 --> 01:02:55.620]  which in
+[01:02:55.620 --> 01:02:55.920]  fact
+[01:02:55.920 --> 01:02:57.200]  produces
+[01:02:57.200 --> 01:02:57.980]  a full
+[01:02:57.980 --> 01:02:58.460]  wave
+[01:02:58.460 --> 01:02:59.760]  signal at
+[01:02:59.760 --> 01:03:00.300]  its output
+[01:03:00.300 --> 01:03:00.720]  as well.
+[01:03:01.080 --> 01:03:01.580]  So let's
+[01:03:01.580 --> 01:03:01.900]  look at
+[01:03:01.900 --> 01:03:02.580]  those circuits.
+[01:03:03.300 --> 01:03:03.340]  Okay?
+[01:03:03.980 --> 01:03:04.280]  All right.
+[01:03:04.360 --> 01:03:05.200]  So here
+[01:03:05.200 --> 01:03:06.400]  is a
+[01:03:06.400 --> 01:03:07.440]  not yet
+[01:03:07.440 --> 01:03:08.900]  circuit
+[01:03:08.900 --> 01:03:09.660]  that will
+[01:03:09.660 --> 01:03:10.440]  show you
+[01:03:10.440 --> 01:03:11.040]  what's
+[01:03:11.040 --> 01:03:11.520]  supposed to
+[01:03:11.520 --> 01:03:11.900]  happen,
+[01:03:12.100 --> 01:03:12.860]  but let's
+[01:03:12.860 --> 01:03:13.260]  see here.
+[01:03:13.660 --> 01:03:14.240]  So here's
+[01:03:14.240 --> 01:03:14.720]  a diode
+[01:03:14.720 --> 01:03:15.580]  with a
+[01:03:15.580 --> 01:03:15.900]  voltage
+[01:03:15.900 --> 01:03:16.420]  source,
+[01:03:16.580 --> 01:03:17.100]  V1,
+[01:03:17.720 --> 01:03:18.760]  and it
+[01:03:18.760 --> 01:03:19.320]  is placed
+[01:03:19.320 --> 01:03:19.720]  here,
+[01:03:20.220 --> 01:03:20.600]  and we
+[01:03:20.600 --> 01:03:21.360]  have a
+[01:03:21.360 --> 01:03:21.880]  resistor
+[01:03:21.880 --> 01:03:22.720]  that,
+[01:03:22.840 --> 01:03:23.720]  well,
+[01:03:24.040 --> 01:03:24.700]  acts as
+[01:03:24.700 --> 01:03:25.220]  a load
+[01:03:25.220 --> 01:03:25.620]  resistor,
+[01:03:25.800 --> 01:03:26.360]  something that
+[01:03:26.360 --> 01:03:27.000]  completes
+[01:03:27.000 --> 01:03:27.640]  the circuit,
+[01:03:28.120 --> 01:03:28.500]  and then
+[01:03:28.500 --> 01:03:28.920]  we will
+[01:03:28.920 --> 01:03:29.480]  monitor
+[01:03:29.480 --> 01:03:30.680]  what kind
+[01:03:30.680 --> 01:03:31.340]  of signal
+[01:03:31.340 --> 01:03:32.100]  appears
+[01:03:32.100 --> 01:03:32.900]  across
+[01:03:32.900 --> 01:03:33.640]  our
+[01:03:33.640 --> 01:03:34.500]  resistor.
+[01:03:35.440 --> 01:03:35.820]  Okay?
+[01:03:36.500 --> 01:03:37.320]  Represented
+[01:03:37.320 --> 01:03:37.940]  here by
+[01:03:37.940 --> 01:03:38.620]  V sub
+[01:03:38.620 --> 01:03:39.420]  O,
+[01:03:39.860 --> 01:03:40.440]  or V
+[01:03:40.440 --> 01:03:40.640]  sub
+[01:03:40.640 --> 01:03:41.000]  zero.
+[01:03:42.120 --> 01:03:42.260]  Okay?
+[01:03:42.740 --> 01:03:42.980]  So,
+[01:03:43.400 --> 01:03:43.640]  oh,
+[01:03:43.940 --> 01:03:44.100]  yeah,
+[01:03:44.300 --> 01:03:44.580]  all right.
+[01:03:44.900 --> 01:03:45.100]  So,
+[01:03:45.520 --> 01:03:46.300]  V1,
+[01:03:46.880 --> 01:03:47.240]  right?
+[01:03:48.000 --> 01:03:48.600]  Assuming
+[01:03:48.600 --> 01:03:49.700]  that V1
+[01:03:49.700 --> 01:03:50.460]  has this
+[01:03:50.460 --> 01:03:51.140]  kind of a
+[01:03:51.140 --> 01:03:51.820]  signal on
+[01:03:51.820 --> 01:03:52.020]  it,
+[01:03:52.320 --> 01:03:52.920]  although it
+[01:03:52.920 --> 01:03:53.660]  is not
+[01:03:53.660 --> 01:03:54.460]  correct to
+[01:03:54.460 --> 01:03:55.060]  show
+[01:03:55.060 --> 01:03:55.320]  this,
+[01:03:55.380 --> 01:03:55.680]  we should
+[01:03:55.680 --> 01:03:56.220]  actually
+[01:03:56.220 --> 01:03:56.740]  have
+[01:03:56.740 --> 01:03:57.820]  a symbol
+[01:03:57.820 --> 01:03:58.300]  that looks
+[01:03:58.300 --> 01:03:58.860]  like this.
+[01:03:59.020 --> 01:03:59.280]  Ayan.
+[01:03:59.660 --> 01:03:59.820]  Okay?
+[01:04:00.200 --> 01:04:00.440]  So,
+[01:04:00.800 --> 01:04:01.880]  V1,
+[01:04:02.000 --> 01:04:02.420]  in this
+[01:04:02.420 --> 01:04:02.900]  case,
+[01:04:03.100 --> 01:04:03.940]  is an
+[01:04:03.940 --> 01:04:04.960]  alternating
+[01:04:04.960 --> 01:04:06.100]  current
+[01:04:06.100 --> 01:04:07.020]  voltage
+[01:04:07.020 --> 01:04:07.600]  source.
+[01:04:08.640 --> 01:04:08.840]  Okay?
+[01:04:09.560 --> 01:04:10.500]  V1 is an
+[01:04:10.500 --> 01:04:10.920]  alternating
+[01:04:10.920 --> 01:04:11.600]  current
+[01:04:11.600 --> 01:04:12.060]  voltage
+[01:04:12.060 --> 01:04:12.600]  source.
+[01:04:13.220 --> 01:04:13.360]  So,
+[01:04:13.560 --> 01:04:14.120]  the output
+[01:04:14.120 --> 01:04:14.880]  signal from
+[01:04:14.880 --> 01:04:15.680]  V1 looks
+[01:04:15.680 --> 01:04:16.460]  like this,
+[01:04:16.900 --> 01:04:17.320]  and that
+[01:04:17.320 --> 01:04:17.700]  is what
+[01:04:17.700 --> 01:04:18.460]  is feeding
+[01:04:18.460 --> 01:04:19.360]  our
+[01:04:19.360 --> 01:04:21.360]  diode-resistor
+[01:04:21.360 --> 01:04:22.620]  combination.
+[01:04:22.620 --> 01:04:23.660]  Okay?
+[01:04:23.740 --> 01:04:23.900]  Now,
+[01:04:23.980 --> 01:04:24.700]  this point
+[01:04:24.700 --> 01:04:25.340]  where it
+[01:04:25.340 --> 01:04:25.760]  can get
+[01:04:25.760 --> 01:04:26.120]  a little
+[01:04:26.120 --> 01:04:26.480]  bit
+[01:04:26.480 --> 01:04:28.320]  challenging
+[01:04:28.320 --> 01:04:29.000]  in the
+[01:04:29.000 --> 01:04:29.380]  beginning.
+[01:04:30.120 --> 01:04:30.380]  All right?
+[01:04:30.720 --> 01:04:31.440]  What will
+[01:04:31.440 --> 01:04:32.000]  happen?
+[01:04:32.820 --> 01:04:33.000]  Okay?
+[01:04:33.060 --> 01:04:33.520]  What will
+[01:04:33.520 --> 01:04:33.940]  happen?
+[01:04:34.660 --> 01:04:35.000]  So,
+[01:04:35.560 --> 01:04:36.320]  we take
+[01:04:36.320 --> 01:04:37.540]  the
+[01:04:37.540 --> 01:04:38.900]  analysis
+[01:04:38.900 --> 01:04:39.740]  by
+[01:04:39.740 --> 01:04:41.100]  basically
+[01:04:41.100 --> 01:04:42.400]  looking at
+[01:04:42.400 --> 01:04:42.960]  the
+[01:04:42.960 --> 01:04:43.760]  signal
+[01:04:43.760 --> 01:04:44.760]  one
+[01:04:44.760 --> 01:04:45.340]  portion
+[01:04:45.340 --> 01:04:45.800]  at a
+[01:04:45.800 --> 01:04:46.220]  time
+[01:04:46.220 --> 01:04:46.900]  and
+[01:04:46.900 --> 01:04:47.600]  determining
+[01:04:47.600 --> 01:04:48.720]  if our
+[01:04:48.720 --> 01:04:49.220]  diode
+[01:04:49.220 --> 01:04:50.260]  is going
+[01:04:50.260 --> 01:04:50.680]  to be
+[01:04:50.680 --> 01:04:51.340]  conducting
+[01:04:51.340 --> 01:04:52.160]  or
+[01:04:52.160 --> 01:04:52.600]  non-conducting.
+[01:04:52.620 --> 01:04:54.140]  In other
+[01:04:54.140 --> 01:04:54.460]  words,
+[01:04:54.560 --> 01:04:54.940]  we have
+[01:04:54.940 --> 01:04:55.440]  to find
+[01:04:55.440 --> 01:04:56.140]  out if
+[01:04:56.140 --> 01:04:56.500]  our
+[01:04:56.500 --> 01:04:57.380]  diode is
+[01:04:57.380 --> 01:04:57.760]  going to
+[01:04:57.760 --> 01:04:58.000]  be
+[01:04:58.000 --> 01:04:58.460]  forward
+[01:04:58.460 --> 01:04:59.200]  or
+[01:04:59.200 --> 01:05:00.120]  reverse
+[01:05:00.120 --> 01:05:00.800]  biased
+[01:05:00.800 --> 01:05:04.320]  based
+[01:05:04.320 --> 01:05:04.880]  on
+[01:05:04.880 --> 01:05:05.420]  the
+[01:05:05.420 --> 01:05:06.420]  dynamic
+[01:05:06.420 --> 01:05:07.320]  waveform
+[01:05:07.320 --> 01:05:08.600]  that is
+[01:05:08.600 --> 01:05:09.220]  presented
+[01:05:09.220 --> 01:05:10.200]  to the
+[01:05:10.200 --> 01:05:10.580]  diode.
+[01:05:11.800 --> 01:05:12.060]  Okay?
+[01:05:12.640 --> 01:05:12.980]  All right.
+[01:05:13.080 --> 01:05:13.360]  So,
+[01:05:13.560 --> 01:05:13.800]  there's
+[01:05:13.800 --> 01:05:14.140]  something
+[01:05:14.140 --> 01:05:15.080]  incomplete
+[01:05:15.080 --> 01:05:15.840]  here with
+[01:05:15.840 --> 01:05:16.520]  the animation.
+[01:05:16.760 --> 01:05:17.080]  If there's
+[01:05:17.080 --> 01:05:17.800]  any animation
+[01:05:17.800 --> 01:05:18.140]  that's
+[01:05:18.140 --> 01:05:18.460]  happening,
+[01:05:18.700 --> 01:05:19.420]  the software
+[01:05:19.420 --> 01:05:20.660]  application
+[01:05:20.660 --> 01:05:21.280]  here goes
+[01:05:21.280 --> 01:05:21.800]  nuts.
+[01:05:21.800 --> 01:05:22.280]  but
+[01:05:22.280 --> 01:05:26.480]  if we
+[01:05:26.480 --> 01:05:27.020]  take
+[01:05:27.020 --> 01:05:27.400]  this
+[01:05:27.400 --> 01:05:27.960]  portion
+[01:05:27.960 --> 01:05:28.580]  of
+[01:05:28.580 --> 01:05:28.820]  the
+[01:05:28.820 --> 01:05:29.340]  waveform
+[01:05:29.340 --> 01:05:29.780]  from
+[01:05:29.780 --> 01:05:30.040]  here
+[01:05:30.040 --> 01:05:30.240]  to
+[01:05:30.240 --> 01:05:30.560]  here,
+[01:05:31.080 --> 01:05:31.340]  which
+[01:05:31.340 --> 01:05:31.620]  I'm
+[01:05:31.620 --> 01:05:31.800]  going
+[01:05:31.800 --> 01:05:32.000]  to
+[01:05:32.000 --> 01:05:32.380]  box,
+[01:05:33.440 --> 01:05:33.740]  all right?
+[01:05:34.280 --> 01:05:34.900]  So,
+[01:05:35.020 --> 01:05:35.300]  you'll
+[01:05:35.300 --> 01:05:36.060]  notice that
+[01:05:36.060 --> 01:05:36.800]  the voltage
+[01:05:36.800 --> 01:05:37.660]  polarity
+[01:05:37.660 --> 01:05:38.120]  is
+[01:05:38.120 --> 01:05:38.880]  positive
+[01:05:38.880 --> 01:05:39.940]  in
+[01:05:39.940 --> 01:05:40.420]  comparison
+[01:05:40.420 --> 01:05:41.260]  to this
+[01:05:41.260 --> 01:05:41.560]  one.
+[01:05:41.740 --> 01:05:41.960]  So,
+[01:05:42.080 --> 01:05:42.240]  we'll
+[01:05:42.240 --> 01:05:42.840]  just put
+[01:05:42.840 --> 01:05:43.480]  a plus
+[01:05:43.480 --> 01:05:44.160]  symbol
+[01:05:44.160 --> 01:05:45.240]  here to
+[01:05:45.240 --> 01:05:45.800]  show that
+[01:05:45.800 --> 01:05:46.440]  the voltage
+[01:05:46.440 --> 01:05:47.100]  polarity
+[01:05:47.100 --> 01:05:47.860]  is positive.
+[01:05:47.860 --> 01:05:48.940]  so,
+[01:05:49.140 --> 01:05:49.340]  we're
+[01:05:49.340 --> 01:05:49.820]  going to
+[01:05:49.820 --> 01:05:50.240]  get
+[01:05:50.240 --> 01:05:50.860]  a
+[01:05:50.860 --> 01:05:51.800]  voltage
+[01:05:51.800 --> 01:05:52.460]  being
+[01:05:52.460 --> 01:05:53.080]  applied
+[01:05:53.080 --> 01:05:53.960]  or
+[01:05:53.960 --> 01:05:54.340]  being
+[01:05:54.340 --> 01:05:54.820]  produced
+[01:05:54.820 --> 01:05:55.580]  by the
+[01:05:55.580 --> 01:05:56.300]  voltage
+[01:05:56.300 --> 01:05:56.700]  source
+[01:05:56.700 --> 01:05:57.160]  that looks
+[01:05:57.160 --> 01:05:57.660]  like this.
+[01:05:58.160 --> 01:05:58.440]  And so,
+[01:05:58.540 --> 01:05:58.860]  therefore,
+[01:05:59.440 --> 01:06:00.200]  the current
+[01:06:00.200 --> 01:06:00.840]  will attempt
+[01:06:00.840 --> 01:06:01.440]  to flow
+[01:06:01.440 --> 01:06:02.300]  in the
+[01:06:02.300 --> 01:06:03.040]  clockwise
+[01:06:03.040 --> 01:06:04.180]  direction.
+[01:06:05.560 --> 01:06:05.660]  Okay?
+[01:06:06.180 --> 01:06:06.600]  And you'll
+[01:06:06.600 --> 01:06:07.240]  notice that
+[01:06:07.240 --> 01:06:07.900]  if the current
+[01:06:07.900 --> 01:06:08.380]  is flowing
+[01:06:08.380 --> 01:06:08.720]  in the
+[01:06:08.720 --> 01:06:09.020]  clockwise
+[01:06:09.020 --> 01:06:09.600]  direction,
+[01:06:09.800 --> 01:06:10.220]  it is
+[01:06:10.220 --> 01:06:10.620]  indeed
+[01:06:10.620 --> 01:06:11.160]  following
+[01:06:11.160 --> 01:06:12.280]  the arrow
+[01:06:12.280 --> 01:06:13.960]  of the
+[01:06:13.960 --> 01:06:14.340]  diode.
+[01:06:14.920 --> 01:06:15.260]  And so,
+[01:06:15.420 --> 01:06:15.880]  the diode
+[01:06:15.880 --> 01:06:16.780]  will basically
+[01:06:16.780 --> 01:06:17.880]  be forward
+[01:06:17.880 --> 01:06:19.180]  biased.
+[01:06:19.960 --> 01:06:20.820]  And when
+[01:06:20.820 --> 01:06:21.440]  it's forward
+[01:06:21.440 --> 01:06:21.900]  biased,
+[01:06:22.180 --> 01:06:22.840]  it basically
+[01:06:22.840 --> 01:06:23.700]  acts as a
+[01:06:23.700 --> 01:06:24.640]  closed switch.
+[01:06:24.760 --> 01:06:24.920]  You'll
+[01:06:24.920 --> 01:06:25.480]  notice that
+[01:06:25.480 --> 01:06:26.200]  the diode
+[01:06:26.200 --> 01:06:26.960]  voltage here,
+[01:06:27.480 --> 01:06:27.740]  all right?
+[01:06:28.240 --> 01:06:29.320]  V sub D
+[01:06:29.320 --> 01:06:30.000]  equal to
+[01:06:30.000 --> 01:06:30.880]  zero is
+[01:06:30.880 --> 01:06:31.240]  on the
+[01:06:31.240 --> 01:06:31.640]  assumption
+[01:06:31.640 --> 01:06:32.060]  that you
+[01:06:32.060 --> 01:06:32.520]  have a
+[01:06:32.520 --> 01:06:32.800]  model
+[01:06:32.800 --> 01:06:34.060]  one,
+[01:06:34.520 --> 01:06:34.980]  which is
+[01:06:34.980 --> 01:06:35.680]  an ideal
+[01:06:35.680 --> 01:06:36.060]  diode.
+[01:06:36.400 --> 01:06:36.680]  And for
+[01:06:36.680 --> 01:06:36.980]  now,
+[01:06:37.100 --> 01:06:37.560]  I guess,
+[01:06:37.920 --> 01:06:38.240]  to make
+[01:06:38.240 --> 01:06:38.880]  life easy,
+[01:06:38.980 --> 01:06:39.280]  we can
+[01:06:39.280 --> 01:06:39.980]  assume that.
+[01:06:40.380 --> 01:06:40.500]  All right?
+[01:06:40.560 --> 01:06:40.700]  So,
+[01:06:40.780 --> 01:06:41.440]  model one,
+[01:06:41.440 --> 01:06:42.640]  ideal diode.
+[01:06:44.980 --> 01:06:45.580]  Right?
+[01:06:45.860 --> 01:06:46.440]  And so,
+[01:06:46.520 --> 01:06:46.900]  what is
+[01:06:46.900 --> 01:06:47.480]  the diode
+[01:06:47.480 --> 01:06:48.120]  conduction
+[01:06:48.120 --> 01:06:48.940]  characteristic
+[01:06:48.940 --> 01:06:49.660]  for the
+[01:06:49.660 --> 01:06:50.300]  ideal?
+[01:06:50.740 --> 01:06:51.080]  All right?
+[01:06:51.180 --> 01:06:51.580]  And so,
+[01:06:52.100 --> 01:06:52.920]  just so
+[01:06:52.920 --> 01:06:53.380]  that
+[01:06:53.380 --> 01:06:54.880]  that is
+[01:06:54.880 --> 01:06:56.880]  very clear
+[01:06:56.880 --> 01:06:57.260]  in your
+[01:06:57.260 --> 01:06:58.000]  brain so
+[01:06:58.000 --> 01:06:58.340]  that you
+[01:06:58.340 --> 01:06:58.920]  don't make
+[01:06:58.920 --> 01:06:59.340]  any
+[01:06:59.340 --> 01:07:00.120]  mistakes,
+[01:07:00.400 --> 01:07:00.780]  right?
+[01:07:02.920 --> 01:07:03.960]  The diode
+[01:07:03.960 --> 01:07:04.560]  conduction
+[01:07:04.560 --> 01:07:05.360]  characteristic
+[01:07:05.360 --> 01:07:05.980]  for the
+[01:07:05.980 --> 01:07:06.900]  ideal diode
+[01:07:06.900 --> 01:07:07.580]  looks like
+[01:07:07.580 --> 01:07:08.120]  this.
+[01:07:08.640 --> 01:07:08.740]  Okay?
+[01:07:09.560 --> 01:07:09.720]  So,
+[01:07:09.860 --> 01:07:10.120]  ayan,
+[01:07:10.540 --> 01:07:10.780]  pula.
+[01:07:11.440 --> 01:07:17.340]  Okay?
+[01:07:17.760 --> 01:07:18.160]  In an
+[01:07:18.160 --> 01:07:19.040]  ideal diode,
+[01:07:19.240 --> 01:07:19.620]  it just
+[01:07:19.620 --> 01:07:20.500]  conducts.
+[01:07:20.580 --> 01:07:21.080]  As long
+[01:07:21.080 --> 01:07:21.400]  as the
+[01:07:21.400 --> 01:07:21.820]  direction
+[01:07:21.820 --> 01:07:22.180]  of the
+[01:07:22.180 --> 01:07:22.440]  current
+[01:07:22.440 --> 01:07:23.040]  is correct,
+[01:07:23.160 --> 01:07:23.500]  it will
+[01:07:23.500 --> 01:07:23.980]  conduct,
+[01:07:24.180 --> 01:07:24.560]  and it
+[01:07:24.560 --> 01:07:25.080]  will conduct
+[01:07:25.080 --> 01:07:26.000]  perfectly.
+[01:07:26.580 --> 01:07:26.860]  Walang
+[01:07:26.860 --> 01:07:27.780]  0.7
+[01:07:27.780 --> 01:07:28.560]  volt drop.
+[01:07:29.320 --> 01:07:29.580]  Okay?
+[01:07:30.200 --> 01:07:30.520]  So,
+[01:07:30.780 --> 01:07:31.060]  given
+[01:07:31.060 --> 01:07:31.540]  that,
+[01:07:33.280 --> 01:07:34.200]  okay,
+[01:07:35.000 --> 01:07:36.220]  what will
+[01:07:36.220 --> 01:07:36.540]  happen?
+[01:07:36.540 --> 01:07:37.140]  Well,
+[01:07:37.300 --> 01:07:37.980]  what happens
+[01:07:37.980 --> 01:07:38.660]  is it's
+[01:07:38.660 --> 01:07:39.340]  as if
+[01:07:39.340 --> 01:07:40.000]  the voltage
+[01:07:40.000 --> 01:07:40.500]  source
+[01:07:40.500 --> 01:07:42.080]  is directly
+[01:07:42.080 --> 01:07:42.740]  connected
+[01:07:42.740 --> 01:07:43.300]  to
+[01:07:43.300 --> 01:07:44.240]  our
+[01:07:44.240 --> 01:07:44.960]  resistor.
+[01:07:45.580 --> 01:07:45.800]  So,
+[01:07:45.880 --> 01:07:46.180]  therefore,
+[01:07:46.600 --> 01:07:47.280]  the voltage
+[01:07:47.280 --> 01:07:47.860]  that will
+[01:07:47.860 --> 01:07:48.660]  be produced
+[01:07:48.660 --> 01:07:49.620]  across the
+[01:07:49.620 --> 01:07:50.140]  resistor,
+[01:07:50.920 --> 01:07:51.360]  V sub
+[01:07:51.360 --> 01:07:51.700]  O,
+[01:07:52.120 --> 01:07:52.700]  will simply
+[01:07:52.700 --> 01:07:53.340]  be equal
+[01:07:53.340 --> 01:07:54.340]  to V sub
+[01:07:54.340 --> 01:07:54.580]  1.
+[01:07:54.580 --> 01:07:55.480]  Alright?
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:55.480] 
+[01:07:55.480 --> 01:07:56.480]  What happened?
+[01:07:56.480 --> 01:07:57.480]  What happened?
+[01:07:57.480 --> 01:07:59.480]  What happened?
+[01:07:59.480 --> 01:08:00.480]  What happened?
+[01:08:00.480 --> 01:08:02.480]  What happened?
+[01:08:02.480 --> 01:08:03.480]  Alright?
+[01:08:03.480 --> 01:08:08.480]  So V sub O will equal to V sub 1.
+[01:08:08.480 --> 01:08:14.480]  The input voltage, given that it is just a straight connection, will be reproduced across the resistor.
+[01:08:14.480 --> 01:08:23.480]  So if we were to draw out the voltage across our resistor, V sub R, we are going to get exactly the same thing.
+[01:08:23.480 --> 01:08:26.480]  Sorry, it's a very poor drawing.
+[01:08:26.480 --> 01:08:32.480]  This is the voltage across our V sub R.
+[01:08:32.480 --> 01:08:36.480]  It's just that it's connected, very straight forward.
+[01:08:36.480 --> 01:08:41.480]  So I hope there's no problem with that.
+[01:08:41.480 --> 01:08:42.480]  Alright?
+[01:08:42.480 --> 01:08:50.480]  And so when we get on the other hand to this portion of the graph, where the voltage polarity is negative.
+[01:08:50.480 --> 01:08:53.480]  Okay?
+[01:08:53.480 --> 01:08:58.480]  So, ganyan ang lalabas.
+[01:08:58.480 --> 01:09:02.480]  There's an attempt now for the current to flow in the opposite direction.
+[01:09:02.480 --> 01:09:12.480]  And because there's now the direction being opposite, alright, of the diode symbol, the diode acts as an open circuit.
+[01:09:12.480 --> 01:09:15.480]  It is reverse biased.
+[01:09:15.480 --> 01:09:23.480]  And given that it's an open circuit, obviously, our voltage source is no longer connected to our resistor.
+[01:09:23.480 --> 01:09:27.480]  Therefore, the voltage across the resistor becomes zero.
+[01:09:27.480 --> 01:09:32.480]  So for this second part, the output voltage V sub O is zero.
+[01:09:32.480 --> 01:09:35.480]  And of course, that is the point here.
+[01:09:35.480 --> 01:09:36.480]  Alright?
+[01:09:36.480 --> 01:09:39.480]  We get to this point.
+[01:09:39.480 --> 01:09:42.480]  And then the cycle again happens.
+[01:09:42.480 --> 01:09:46.480]  And so we're back to this first situation.
+[01:09:46.480 --> 01:09:55.480]  So if we were to draw out the complete waveform, combining this, we see that the output is going to look like this.
+[01:09:55.480 --> 01:10:02.480]  And for the second portion, it will come up and go down again, exactly just like before.
+[01:10:02.480 --> 01:10:03.480]  Okay?
+[01:10:03.480 --> 01:10:05.480]  And so on and so forth.
+[01:10:05.480 --> 01:10:17.480]  So this simple diode circuit will produce a voltage across or current across our resistor that basically looks like this.
+[01:10:17.480 --> 01:10:18.480]  Okay?
+[01:10:18.480 --> 01:10:24.480]  And there is your rectifier action, rectification action.
+[01:10:24.480 --> 01:10:25.480]  Okay?
+[01:10:25.480 --> 01:10:26.480]  Okay?
+[01:10:26.480 --> 01:10:36.480]  And so you get now a single polarity voltage across our resistor.
+[01:10:36.480 --> 01:10:37.480]  Okay?
+[01:10:37.480 --> 01:10:47.480]  Except that, alright, that single polarity current or voltage is dropping out, alright, every now and then.
+[01:10:47.480 --> 01:10:49.480]  So ito yung malalabas, okay?
+[01:10:49.480 --> 01:10:57.480]  So ayan, ito drawing natin, sundan natin to, ayan ang magiging voltage across our resistor.
+[01:10:57.480 --> 01:10:58.480]  Okay?
+[01:10:58.480 --> 01:10:59.480]  Alright?
+[01:10:59.480 --> 01:11:02.480]  That's the voltage that will happen.
+[01:11:02.480 --> 01:11:18.480]  And because it's missing that negative portion, alright, this is what we call as half wave, alright, rectification.
+[01:11:18.480 --> 01:11:19.480]  Half wave.
+[01:11:19.480 --> 01:11:20.480]  Half wave.
+[01:11:20.480 --> 01:11:21.480]  Half wave.
+[01:11:21.480 --> 01:11:24.480]  Kalahate lang ang nirectify.
+[01:11:24.480 --> 01:11:26.480]  In other words, alright?
+[01:11:26.480 --> 01:11:29.480]  Kalahati lang ang narectify.
+[01:11:29.480 --> 01:11:31.480]  So what's the use of rectifying an alternating current?
+[01:11:31.480 --> 01:11:32.480]  Well, exactly that.
+[01:11:32.480 --> 01:11:47.480]  It allows you to produce a unipolar, aka DC current from an AC source.
+[01:11:47.480 --> 01:11:49.480]  Okay?
+[01:11:49.480 --> 01:11:50.480]  Okay?
+[01:11:50.480 --> 01:11:56.480]  So your Meralco power is alternating.
+[01:11:56.480 --> 01:12:08.480]  Many of your gadgets and appliances actually operate on DC, alright?
+[01:12:08.480 --> 01:12:15.480]  Many of your appliances actually operate on DC.
+[01:12:15.480 --> 01:12:21.480]  Last term you were working with your LED lights.
+[01:12:21.480 --> 01:12:23.480]  Ang bahay, di ba?
+[01:12:23.480 --> 01:12:30.480]  The LED lights actually operate on DC.
+[01:12:30.480 --> 01:12:48.480]  So the question would be, if many of the appliances that we have actually operate on DC, how do we use electricity that is AC, alright, on appliances that are actually DC?
+[01:12:48.480 --> 01:12:55.480]  The answer is, inside the appliance there is a rectifier.
+[01:12:55.480 --> 01:13:10.480]  So that internally, the AC electricity from Meralco is converted into DC.
+[01:13:10.480 --> 01:13:18.480]  So that the internal components or whatever in that appliance can work with that electricity.
+[01:13:18.480 --> 01:13:25.480]  So internally, there is rectification that takes place, alright?
+[01:13:25.480 --> 01:13:47.480]  At the heart, at the very beginning, not the heart, at the very, very beginning of that appliance, if it actually internally operates on DC, you will find, alright, diodes doing their job of taking the alternating current and converting it into a DC.
+[01:13:47.480 --> 01:13:54.480]  And then, in fact, the rest of the appliance can operate on it.
+[01:13:54.480 --> 01:13:55.480]  Okay, docks?
+[01:13:55.480 --> 01:14:08.480]  And so, the case of the LED lights, for example, that you have in your house, they are definitely units or devices.
+[01:14:08.480 --> 01:14:09.480]  LED lights are devices that operate on DC.
+[01:14:09.480 --> 01:14:11.480]  LED lights are devices that operate on DC.
+[01:14:11.480 --> 01:14:20.480]  So if you open up the LED light and look at the circuit inside, you will actually find that part of that circuit is a rectifier.
+[01:14:20.480 --> 01:14:21.480]  Alright?
+[01:14:21.480 --> 01:14:28.480]  And actually, as a technicality, the LEDs themselves are already diodes in the first place.
+[01:14:28.480 --> 01:14:35.480]  So they really only produce a light if you provide them with the correct polarity.
+[01:14:35.480 --> 01:14:44.480]  Because if not, reverse means that the LED itself will not even conduct.
+[01:14:44.480 --> 01:14:45.480]  Okay?
+[01:14:45.480 --> 01:14:46.480]  Alright.
+[01:14:46.480 --> 01:14:51.480]  So that's a very important use for the diode.
+[01:14:51.480 --> 01:14:52.480]  Okay?
+[01:14:52.480 --> 01:14:53.480]  Okay?
+[01:14:53.480 --> 01:14:59.480]  And what has been illustrated here is what we call as half-wave rectification.
+[01:14:59.480 --> 01:15:20.480]  In this particular case, given the direction of the diode, we would see that the resulting waveform across our resistor is a positive-only signal.
+[01:15:20.480 --> 01:15:21.480]  Okay?
+[01:15:21.480 --> 01:15:25.480]  It's a unipolar signal that is all positive.
+[01:15:25.480 --> 01:15:26.480]  Positive.
+[01:15:26.480 --> 01:15:27.480]  Positive lang.
+[01:15:27.480 --> 01:15:29.480]  Wala siyang negative portion.
+[01:15:29.480 --> 01:15:30.480]  Okay?
+[01:15:30.480 --> 01:15:31.480]  Alright?
+[01:15:31.480 --> 01:15:47.480]  Kung binaliktad natin yung diode, alright, if we had put in the diode the other way, then you would get an output signal feeding the resistor that basically looked like this naman.
+[01:15:47.480 --> 01:15:57.480]  It would only allow the negative portion to get through and it would remove the positive part of the waveform.
+[01:15:57.480 --> 01:16:02.480]  So this is still half-wave rectification.
+[01:16:02.480 --> 01:16:03.480]  Okay?
+[01:16:03.480 --> 01:16:04.480]  Are you guys following?
+[01:16:04.480 --> 01:16:05.480]  Are we okay?
+[01:16:05.480 --> 01:16:06.480]  Okay?
+[01:16:06.480 --> 01:16:07.480]  Okay.
+[01:16:07.480 --> 01:16:12.480]  Diane, hopefully you got your answer.
+[01:16:12.480 --> 01:16:13.480]  Okay?
+[01:16:13.480 --> 01:16:14.480]  Alright.
+[01:16:14.480 --> 01:16:15.480]  Sige.
+[01:16:15.480 --> 01:16:16.480]  Let's go forward.
+[01:16:16.480 --> 01:16:17.480]  Alright.
+[01:16:17.480 --> 01:16:18.480]  Alright.
+[01:16:18.480 --> 01:16:22.480]  So half-wave rectifier.
+[01:16:22.480 --> 01:16:30.480]  So if from the real, from the ideal diode, okay?
+[01:16:30.480 --> 01:16:51.480]  From the ideal diode, if we now go to a more realistic model, okay, for our diode, if we were using a model 3, for example, the model 3, model 3 conduction characteristic would look like this.
+[01:16:51.480 --> 01:16:52.480]  Okay?
+[01:16:52.480 --> 01:16:53.480]  Okay?
+[01:16:53.480 --> 01:17:06.480]  And if you use the model 3, okay, which is more realistic, your rectified output, the voltage being supplied to the resistor.
+[01:17:06.480 --> 01:17:21.480]  By the way, the resistor here is just a substitute possibly for anything that you're trying to power up that requires a DC current or voltage.
+[01:17:21.480 --> 01:17:22.480]  Okay?
+[01:17:22.480 --> 01:17:29.480]  So here you'll notice again that it's emphasized it's a load emulated by the resistor.
+[01:17:29.480 --> 01:17:39.480]  But either way, if you have a diode there with a more realistic conduction curve like a model 3, the input signal would look like this.
+[01:17:39.480 --> 01:17:40.480]  Alright?
+[01:17:40.480 --> 01:17:46.480]  And then the output of the diode would have a more realistic characteristic.
+[01:17:46.480 --> 01:17:47.480]  Alright?
+[01:17:47.480 --> 01:17:50.480]  So here it's being said that this is actual.
+[01:17:50.480 --> 01:17:51.480]  Alright?
+[01:17:51.480 --> 01:17:52.480]  Where it looks something like this.
+[01:17:52.480 --> 01:17:58.480]  So it does not start conducting until the input reaches 0.7 volts.
+[01:17:58.480 --> 01:17:59.480]  Okay?
+[01:17:59.480 --> 01:18:02.480]  It doesn't start conducting.
+[01:18:02.480 --> 01:18:17.480]  And the greater current, if we pull in a greater amount of current, alright, then the voltage drop across the diode becomes slightly larger than 0.7.
+[01:18:17.480 --> 01:18:34.480]  And so we can see that at the very, very peak, the voltage drop of the diode might be something in the notion of maybe closer to 1 volt, where it actually begins at about, oh, even 0.5, for example.
+[01:18:34.480 --> 01:18:36.480]  If it's just a low, 0.5.
+[01:18:36.480 --> 01:18:42.480]  If it's a peak amount of current, maybe it's dropping closer to 1 volt.
+[01:18:42.480 --> 01:18:43.480]  Okay?
+[01:18:43.480 --> 01:18:48.480]  So in an ideal diode, it perfectly conducts without any losses.
+[01:18:48.480 --> 01:18:58.480]  In a real diode, there's going to be a little bit of voltage drop, which actually varies with the amount of current that the diode is providing.
+[01:18:58.480 --> 01:18:59.480]  Okay?
+[01:18:59.480 --> 01:19:03.480]  So here it says 0.7, but it could be greater than that.
+[01:19:03.480 --> 01:19:11.480]  Remember that it is not a straight line upward, stilted.
+[01:19:11.480 --> 01:19:12.480]  Alright?
+[01:19:12.480 --> 01:19:14.480]  So it could be greater than 0.7.
+[01:19:14.480 --> 01:19:15.480]  Okay?
+[01:19:15.480 --> 01:19:20.480]  But more or less, you expect to get this voltage drop, and this is going to be highly visible.
+[01:19:20.480 --> 01:19:29.480]  It could be a significantly visible voltage drop, dependent on the magnitude of the input voltage.
+[01:19:29.480 --> 01:19:39.480]  So isipin ninyo kung 1 volt peak to peak o kung 1 volt peak lang yan, e kung 0.7 yung binaba niya, e di yung lalabas dito, ganito lang kalaki.
+[01:19:39.480 --> 01:19:40.480]  Alright?
+[01:19:40.480 --> 01:19:41.480]  Alright?
+[01:19:41.480 --> 01:19:47.480]  So it will look like a very, very terrible looking rectification process.
+[01:19:47.480 --> 01:19:48.480]  Why?
+[01:19:48.480 --> 01:19:52.480]  Because the input voltage is only 1 volt peak.
+[01:19:52.480 --> 01:19:53.480]  Alright?
+[01:19:53.480 --> 01:19:57.480]  Kung 1 volt peak lang yan, 0.7 yung tinanggal ng diode.
+[01:19:57.480 --> 01:19:59.480]  At halos wala nang natira.
+[01:19:59.480 --> 01:20:01.480]  0.3 volts na lang yung natira sa output.
+[01:20:01.480 --> 01:20:02.480]  Gets nyo?
+[01:20:02.480 --> 01:20:03.480]  Alright?
+[01:20:03.480 --> 01:20:06.480]  So if you have a very, very, very big waveform.
+[01:20:06.480 --> 01:20:07.480]  Alright?
+[01:20:07.480 --> 01:20:17.480]  If this were 10 volts, for example, kung 10 volts yan, e di yung 0.7 would be much, much less significant.
+[01:20:17.480 --> 01:20:18.480]  Okay?
+[01:20:18.480 --> 01:20:20.480]  There's your 0.7 volts.
+[01:20:20.480 --> 01:20:29.480]  So it would look like a much, much, well, because it is, it's a much smaller fraction of the input waveform.
+[01:20:29.480 --> 01:20:30.480]  Okay?
+[01:20:30.480 --> 01:20:38.480]  So this is, the way it looks is going to be very dependent on how big the input waveform is.
+[01:20:38.480 --> 01:20:39.480]  Okay?
+[01:20:39.480 --> 01:20:40.480]  So please keep that in mind.
+[01:20:40.480 --> 01:20:42.480]  Why am I telling you all of this?
+[01:20:42.480 --> 01:20:53.480]  Well, although you won't experience it quite yet, alright, in experiment two, we're going to be looking at, you know, circuits such as this.
+[01:20:53.480 --> 01:20:58.480]  The rectification action as well as clipping and clamping action of diodes.
+[01:20:58.480 --> 01:21:02.480]  So that's going to be coming up in experiment number two.
+[01:21:02.480 --> 01:21:03.480]  Okay?
+[01:21:03.480 --> 01:21:07.480]  So this is half wave rectification.
+[01:21:07.480 --> 01:21:09.480]  Are there questions about it?
+[01:21:09.480 --> 01:21:10.480]  Okay?
+[01:21:10.480 --> 01:21:12.480]  8.50 still, 8.53.
+[01:21:12.480 --> 01:21:14.480]  We have a few more minutes.
+[01:21:14.480 --> 01:21:16.480]  Kaya pa natin tapusin ito.
+[01:21:16.480 --> 01:21:17.480]  Alright?
+[01:21:17.480 --> 01:21:18.480]  Ah, ito na nga.
+[01:21:18.480 --> 01:21:19.480]  Okay.
+[01:21:19.480 --> 01:21:23.480]  So more examples of half wave rectification.
+[01:21:23.480 --> 01:21:26.480]  Yeah, this just does exactly the same thing.
+[01:21:26.480 --> 01:21:27.480]  We've already discussed this.
+[01:21:27.480 --> 01:21:28.480]  Alright?
+[01:21:28.480 --> 01:21:33.480]  So for half the cycle, it's conducting.
+[01:21:33.480 --> 01:21:36.480]  Therefore, you're going to get an output B sub O.
+[01:21:36.480 --> 01:21:38.480]  Sorry for how fuzzy it looks.
+[01:21:38.480 --> 01:21:39.480]  Alright?
+[01:21:39.480 --> 01:21:44.480]  For the second half of the input cycle, it is non-conducting.
+[01:21:44.480 --> 01:21:46.480]  It acts like an open circuit.
+[01:21:46.480 --> 01:21:48.480]  And so therefore, the output is zero.
+[01:21:48.480 --> 01:21:49.480]  Okay?
+[01:21:49.480 --> 01:21:50.480]  Alright.
+[01:21:50.480 --> 01:21:51.480]  So yes, we know this.
+[01:21:51.480 --> 01:21:54.480]  So this is half wave rectification.
+[01:21:54.480 --> 01:21:57.480]  A few comments just to close this thing off.
+[01:21:57.480 --> 01:21:58.480]  Alright?
+[01:21:58.480 --> 01:22:07.480]  For half wave rectified signal, the effective DC voltage is 0.318 V sub O.
+[01:22:07.480 --> 01:22:08.480]  V sub M.
+[01:22:08.480 --> 01:22:10.480]  What the hell is that?
+[01:22:10.480 --> 01:22:11.480]  Okay?
+[01:22:11.480 --> 01:22:14.480]  So if you've forgotten from Citron 1.
+[01:22:14.480 --> 01:22:15.480]  Okay?
+[01:22:15.480 --> 01:22:16.480]  Alright?
+[01:22:16.480 --> 01:22:21.480]  That V sub M that it is talking about is this one.
+[01:22:21.480 --> 01:22:23.480]  This is V sub M.
+[01:22:23.480 --> 01:22:29.480]  In the equation, V is equal to V sub M sine.
+[01:22:29.480 --> 01:22:30.480]  Alright?
+[01:22:30.480 --> 01:22:31.480]  Theta.
+[01:22:31.480 --> 01:22:32.480]  Alright?
+[01:22:32.480 --> 01:22:34.480]  So V sub M.
+[01:22:34.480 --> 01:22:35.480]  Alright?
+[01:22:35.480 --> 01:22:46.480]  And the effective DC voltage for a half wave rectified signal is approximately 0.318 V sub M.
+[01:22:46.480 --> 01:22:47.480]  Okay?
+[01:22:47.480 --> 01:22:52.480]  So saan lang galing yung 0.318 na yan?
+[01:22:52.480 --> 01:22:53.480]  Alright?
+[01:22:53.480 --> 01:22:53.480] 
+[01:22:53.480 --> 01:22:53.480] 
+[01:22:53.480 --> 01:22:53.480] 
+[01:22:53.480 --> 01:22:53.480] 
+[01:22:53.480 --> 01:22:54.480]  Alright?
+[01:22:54.480 --> 01:22:55.480]  Alright?
+[01:22:55.480 --> 01:22:55.480] 
+[01:22:55.480 --> 01:22:55.480] 
+[01:22:55.480 --> 01:22:56.480]  Alright?
+[01:22:56.480 --> 01:22:57.480]  Alright?
+[01:22:57.480 --> 01:22:58.480]  Alright?
+[01:22:58.480 --> 01:22:58.480] 
+[01:22:58.480 --> 01:22:58.480] 
+[01:22:58.480 --> 01:22:59.420]  Alright?
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:22:59.420] 
+[01:22:59.420 --> 01:23:01.060]  Why is it 0.318?
+[01:23:10.740 --> 01:23:12.040]  Approximate lang naman.
+[01:23:13.980 --> 01:23:16.000]  Where did that come from?
+[01:23:16.000 --> 01:23:25.680]  The answer basically is that's approximately half of the RMS voltage.
+[01:23:26.240 --> 01:23:27.540]  Remember your V RMS?
+[01:23:27.540 --> 01:23:33.980]  So, yung V RMS, saan galing yung V RMS?
+[01:23:34.360 --> 01:23:37.680]  The V RMS is basically this one.
+[01:23:38.880 --> 01:23:44.500]  It's the effective voltage that you get.
+[01:23:45.860 --> 01:23:52.880]  It's the effective DC voltage that you get from your alternating current.
+[01:23:52.880 --> 01:23:53.320]  Okay?
+[01:23:55.320 --> 01:24:03.020]  So, if we take out half of it because it's not getting through our diode, then the effective voltage
+[01:24:03.020 --> 01:24:08.340]  becomes half of that V RMS voltage, which is pretty close to this one.
+[01:24:09.040 --> 01:24:09.320]  Okay?
+[01:24:09.320 --> 01:24:11.340]  So, that's where that's coming from.
+[01:24:13.200 --> 01:24:13.320]  Okay?
+[01:24:13.780 --> 01:24:20.760]  And if you bother to consider the diode drop V sub D, then it becomes V M minus V D because
+[01:24:20.760 --> 01:24:23.540]  it will remove that little bit over there.
+[01:24:24.100 --> 01:24:27.640]  And that's going to be your new peak voltage.
+[01:24:28.140 --> 01:24:28.500]  Okay?
+[01:24:28.500 --> 01:24:34.380]  The peak voltage will be a little bit smaller because of the diode forward conduction.
+[01:24:35.000 --> 01:24:38.640]  So, you just factor that in and then you multiply by 0.31.
+[01:24:39.320 --> 01:24:39.480]  Okay?
+[01:24:39.700 --> 01:24:40.020]  All right.
+[01:24:40.100 --> 01:24:40.680]  So, that's it.
+[01:24:41.420 --> 01:24:41.580]  Okay.
+[01:24:41.580 --> 01:24:45.040]  So, unfortunately, we're out of time.
+[01:24:45.400 --> 01:24:47.740]  But just very briefly.
+[01:24:48.340 --> 01:24:48.640]  All right?
+[01:24:48.820 --> 01:24:50.020]  Just very briefly.
+[01:24:50.220 --> 01:24:51.360]  Para lang alam ninyo.
+[01:24:52.000 --> 01:24:52.260]  Okay?
+[01:24:52.900 --> 01:24:55.760]  With a little bit of rearrangement.
+[01:24:56.060 --> 01:24:56.440]  All right?
+[01:24:56.900 --> 01:25:04.420]  If we had two voltage sources that we could put together, both producing an alternating current,
+[01:25:04.420 --> 01:25:13.820]  we could put the two diodes together like this, and one of them will conduct through one cycle,
+[01:25:14.280 --> 01:25:19.540]  and the other one will conduct at the negative cycle of the other one.
+[01:25:19.980 --> 01:25:24.100]  And the other one will now produce a positive output here.
+[01:25:24.100 --> 01:25:34.460]  And the result, essentially, is that we get this kind of an output waveform going into our load resistor.
+[01:25:35.560 --> 01:25:35.660]  Okay?
+[01:25:35.880 --> 01:25:44.880]  And you'll notice that this is now a waveform which produces all of the humps, if you like.
+[01:25:45.240 --> 01:25:45.500]  All right?
+[01:25:45.860 --> 01:25:49.440]  And so, this is what we call as a full wave rectifier.
+[01:25:50.000 --> 01:25:50.260]  Okay?
+[01:25:50.260 --> 01:25:53.100]  Now, we're going to analyze this.
+[01:25:53.760 --> 01:25:54.000]  All right?
+[01:25:54.100 --> 01:25:59.560]  How is it possible that we are getting this full wave?
+[01:26:00.300 --> 01:26:02.040]  What exactly is happening?
+[01:26:02.160 --> 01:26:04.880]  You can't necessarily visualize that at this point.
+[01:26:05.340 --> 01:26:11.320]  So, that's what we're going to start off with on Thursday.
+[01:26:12.300 --> 01:26:12.560]  Okay?
+[01:26:12.920 --> 01:26:13.320]  All right.
+[01:26:13.320 --> 01:26:23.760]  Now, just as an FYI, just to remind you, if you are in the first lab section, then we are
+[01:26:23.760 --> 01:26:29.660]  going to be face-to-face on Thursday.
+[01:26:29.660 --> 01:26:35.500]  Because it would mean that despite the fact that our lecture...
+[01:26:35.500 --> 01:26:36.260]  Yeah.
+[01:26:36.260 --> 01:26:42.160]  You might have a question, is the lecture going to be face-to-face or online?
+[01:26:42.160 --> 01:26:46.500]  Well, the answer is that it's still going to be online.
+[01:26:46.500 --> 01:26:53.880]  Because we have a mixed set of students, no?
+[01:26:53.880 --> 01:26:55.880]  There are two sections for lecture.
+[01:26:55.880 --> 01:27:00.240]  And then there are three lab sections.
+[01:27:00.240 --> 01:27:06.860]  So, that single lab section will be seeing each other face-to-face on Thursday.
+[01:27:06.860 --> 01:27:07.860]  Okay?
+[01:27:07.860 --> 01:27:11.640]  But we can have students like you, all right?
+[01:27:11.640 --> 01:27:14.360]  Who are in the first lab section.
+[01:27:14.640 --> 01:27:16.700]  And some of you are in the second lab.
+[01:27:16.800 --> 01:27:18.220]  And some of you are in the third lab.
+[01:27:18.600 --> 01:27:19.160]  So, magulo.
+[01:27:19.700 --> 01:27:20.040]  All right?
+[01:27:20.480 --> 01:27:25.360]  So, our lecture is still going to be online on Thursday.
+[01:27:26.020 --> 01:27:35.040]  And only students in the first lab section will be expected at 11 o'clock in G407.
+[01:27:35.680 --> 01:27:36.220]  Okay, dooks.
+[01:27:36.640 --> 01:27:38.340]  So, that's it for now.
+[01:27:38.620 --> 01:27:39.400]  Are there questions?
+[01:27:39.400 --> 01:27:41.100]  It's 9 o'clock.
+[01:27:41.740 --> 01:27:42.640]  Naroon bang tanong?
+[01:27:44.500 --> 01:27:45.020]  Questions?
+[01:27:45.140 --> 01:27:45.440]  Questions?
+[01:27:45.760 --> 01:27:46.420]  Don't be shy.
+[01:27:46.660 --> 01:27:47.040]  Ask.
+[01:27:48.300 --> 01:27:50.060]  Or forever hold your peace.
+[01:27:51.560 --> 01:27:51.980]  Wala.
+[01:27:52.760 --> 01:27:53.200]  Sige.
+[01:27:54.000 --> 01:27:55.120]  So, walang tanong.
+[01:27:55.400 --> 01:27:55.820]  All right.
+[01:27:55.940 --> 01:27:56.500]  Very good.
+[01:27:56.640 --> 01:27:57.720]  Thank you very much.
+[01:27:58.420 --> 01:28:00.520]  And I'll see you next time.
+[01:28:00.640 --> 01:28:00.880]  Goodbye.

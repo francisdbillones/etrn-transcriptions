@@ -1,0 +1,1097 @@
+[00:00.000 --> 00:21.240]  Okay, I think we ought to start if this is, yeah, it's okay, it's recording and we are
+[00:21.240 --> 00:30.200]  touching the audio through. Okay, everything seems to be in place. Okay, so essentially this is pretty
+[00:30.200 --> 00:37.760]  much where we left off from last time. We started talking about the Zener diode and we've shown you
+[00:37.760 --> 00:50.860]  how to basically calculate or estimate at least how a Zener diode would perform in a situation where
+[00:50.860 --> 01:02.080]  we have certain limits as to the demand of the load. So if you are kind of lost, a quick reminder,
+[01:02.080 --> 01:14.220]  essentially, okay, this is where we were. The idea behind the Zener is that it can produce a
+[01:14.220 --> 01:23.740]  steadier output voltage. Okay, so by acting as a clamp into what you'd normally see as a voltage
+[01:23.740 --> 01:35.760]  divider situation. Okay, so the idea here essentially is that if you need to drop a higher voltage such as
+[01:35.760 --> 01:45.660]  this particular situation where you had 24 volts and you wanted a steady voltage of, say, for example,
+[01:45.740 --> 01:57.160]  about 10 volts, you could use a voltage divider if you know how much current your load is going to take.
+[01:57.160 --> 02:08.300]  Okay, because you're able to calculate an equivalent RL given that you want 10 volts and you know what the load
+[02:08.300 --> 02:16.180]  of characteristic is like. So if your load characteristic is constant, right, if your load characteristic is
+[02:16.180 --> 02:25.180]  constant, say that it is known that it will always take 25 milliampperes, then it's pretty easy. You can just use a
+[02:25.180 --> 02:32.520]  voltage divider. So you'll be able to calculate an RL, all right, out of this, you have all the variables
+[02:32.520 --> 02:40.320]  here. You know that the supply voltage will be 24 volts. You can easily calculate R because you know
+[02:40.320 --> 02:48.240]  that basically it will just simply follow the voltage divider formula. So you'd have your RL over your R
+[02:48.240 --> 02:57.180]  plus RL and this is a one variable equation again. So it's pretty straightforward. Now, unfortunately,
+[02:57.700 --> 03:05.480]  most loads, realistically speaking, are not like resistors. Most loads will have variations in the
+[03:05.480 --> 03:16.300]  amount of power that they demand. A cell phone that is idle will take in very little current and this is
+[03:16.300 --> 03:22.560]  why you can have your cell phone just sitting around for the whole day with, you know, a lot of battery
+[03:22.560 --> 03:29.860]  power left. Well, on the other hand, if you happen to load in a game, for example, or you're actively
+[03:29.860 --> 03:36.640]  watching a video, the battery power goes down very, very much more quickly. And so we know that the
+[03:36.640 --> 03:50.020]  thing is demanding a lot more current, okay? So the situation essentially is that RL is when it is being
+[03:50.020 --> 03:57.300]  used to model a particular load is seldom going to be of a singular value. So you take your extremes,
+[03:58.200 --> 04:03.980]  you know that the most power that you'll be ever demanding is this much current and you know that the
+[04:03.980 --> 04:08.900]  least amount of current that you're going to be demanding is so much. And then you can calculate
+[04:08.900 --> 04:19.320]  the equivalent question points or Q points just as we showed last time. And the end result,
+[04:19.620 --> 04:25.300]  oh, by the way, I did make a mistake last time. I got confused with the resistor value. So it looks like
+[04:25.300 --> 04:33.280]  this is just about correct, no? The values that are shown here. Either way, all right, it's an example.
+[04:34.240 --> 04:40.980]  And so the result essentially is that we get two DC load lines. And from those two DC load lines,
+[04:41.040 --> 04:51.540]  we can extract essentially how much voltage variation we expect to be coming out from the situations
+[04:51.540 --> 05:02.400]  with the two different load resistances. So in this case, the variation has been determined to be about 0.5 volts,
+[05:02.400 --> 05:17.480]  all right? Going from about 10 volts down to 9.5. So 10 volts at the 6 kilo ohm load and down to 9.5 with the 1.2k load.
+[05:17.480 --> 05:28.180]  Okay? So that's where we stopped last time. So without the Zener, such a large variation in RL,
+[05:28.340 --> 05:40.080]  all right? Such a large variation in RL from 1k to 6k would produce a huge variation in the voltage divider
+[05:40.080 --> 05:49.140]  because it's acting as a voltage divider. If your load resistance changes so much, then the output voltage is going to change humongously,
+[05:49.240 --> 05:58.280]  right? In proportion to what the value of the load resistor is. Okay. So having said that, let's go forward.
+[05:58.420 --> 06:05.700]  Hopefully there are no questions about this. And if you happen to have a question, kindly let me know by unmuting or whatever.
+[06:05.700 --> 06:19.020]  Okay? So we got those answers already, all right? We know that the DC load line will produce 11.67 to 12.92 milliampperes.
+[06:19.220 --> 06:26.060]  And the result is a 0.5 volt variation. Okay. All right. So having said that, let's go forward.
+[06:26.060 --> 06:37.060]  Let's see. Here's an example of an ideal Zener diode, all right? This Zener does not exist, but what the hell.
+[06:37.460 --> 06:47.620]  But it's here to highlight a problem that you already are aware of from the diode examples last time.
+[06:47.620 --> 06:56.780]  But, and this is a very, very similar problem, but it's placed here to highlight this and remind you of this issue.
+[06:57.520 --> 07:01.740]  All right. So in this particular case, we have a 15 volt source.
+[07:02.300 --> 07:07.980]  There is a 100 ohm series resistor. Okay.
+[07:07.980 --> 07:16.340]  And then we have a load, which is not quite defined here because it's a variable load.
+[07:16.640 --> 07:21.720]  And you'll see that you're asked to calculate the output voltage.
+[07:21.860 --> 07:25.520]  What is VO going into the load? Okay.
+[07:25.520 --> 07:38.920]  So if the load current is 0 and if it is 30 and if it is 80 milliampperes.
+[07:39.280 --> 07:46.340]  So these basically represent, you know, three different values of resistance.
+[07:46.340 --> 07:57.440]  In other words, if you're emulating this as a load resistance here, an IL of 0 will mean that our L is basically infinite.
+[07:58.660 --> 08:08.260]  And for 30, all right, for 30 and 80 milliampperes, we see that the Zener voltage is 10 volts.
+[08:08.780 --> 08:10.540]  All right. You see that it's 10 volts.
+[08:11.000 --> 08:14.500]  Therefore, you can calculate an equivalent R sub L.
+[08:14.500 --> 08:19.380]  All right. Now, do we need to really put in an R sub L?
+[08:19.560 --> 08:29.140]  Well, actually, what's more important and highly possible in this situation is to just simply look at the amount of current that's being taken in.
+[08:29.440 --> 08:34.560]  You don't really have to put in a resistor if you can already calculate what the results are going to be.
+[08:35.240 --> 08:41.260]  All right. And that is aided by the fact that we have an ideal Zener
+[08:41.260 --> 08:48.940]  for which you can see that we have a totally vertical Zener knee voltage.
+[08:49.480 --> 08:52.320]  All right. It's right there at 10 volts.
+[08:52.420 --> 09:00.020]  It just stops. And that is regardless of the amount of current that is going through the Zener.
+[09:00.460 --> 09:03.380]  All right. That's regardless of the amount of current going through the Zener.
+[09:03.380 --> 09:08.160]  Be it zero all the way to some ridiculously high value.
+[09:08.380 --> 09:14.700]  Of course, realistically speaking, this current cannot be so high because the Zener will blow up.
+[09:14.980 --> 09:17.320]  But, you know, this is ideal.
+[09:17.940 --> 09:22.380]  All right. So how do we attempt to answer this question?
+[09:22.380 --> 09:26.720]  Well, I think it's pretty easy.
+[09:27.040 --> 09:31.880]  You don't actually even have to do any calculation or you may be tempted.
+[09:32.480 --> 09:39.160]  You may be tempted not to bother with the calculation because you can see that the transfer function is just straight up.
+[09:39.160 --> 09:52.360]  So if I L is zero, all right, if the load current here is zero, then all the current through this guy will go through our Zener diode.
+[09:52.560 --> 09:55.000]  It has to go through the Zener diode.
+[09:55.000 --> 09:59.340]  You can calculate, all right, your source current.
+[09:59.600 --> 10:05.140]  In fact, given that we have this transfer function like this, it just stops at 10 volts.
+[10:05.140 --> 10:12.260]  Obviously, I sub S is equal to 15 volts minus 10 volts.
+[10:12.520 --> 10:16.980]  That's the voltage across the Zener and we'll just write it down like so.
+[10:17.660 --> 10:18.900]  Okay. We have 10 volts here.
+[10:18.980 --> 10:20.480]  We have 15 volts from the supply.
+[10:21.160 --> 10:30.720]  Therefore, I sub S is 15 minus 10 divided by 100 ohms, which gives us 5 volts over 100 ohms,
+[10:30.720 --> 10:35.420]  which is equal to how many 50 milliampperes.
+[10:36.000 --> 10:36.280]  Okay.
+[10:36.780 --> 10:41.960]  So our source current is 50 milliampperes.
+[10:41.960 --> 10:53.020]  If our load current is zero, okay, then 50 milliampperes goes through the Zener and that might be maybe that's somewhere here.
+[10:53.200 --> 10:57.540]  50 milliampperes following the sign here because it's negative.
+[10:57.540 --> 11:01.340]  All right. Maybe that's where your 50 milliampperes is.
+[11:01.860 --> 11:08.780]  And if you were to bother to even draw a line over there, you would see that the answer is 10 volts.
+[11:08.920 --> 11:17.700]  And so therefore, we can say that for our VO, VO is going to be equal to 10 volts.
+[11:18.380 --> 11:19.220]  All right.
+[11:19.320 --> 11:22.100]  If the load current is zero.
+[11:22.100 --> 11:23.500]  All right.
+[11:24.420 --> 11:24.900]  Okay.
+[11:25.000 --> 11:25.720]  Are you following?
+[11:26.000 --> 11:38.260]  And of course, if our load current is 30 milliampperes, all right, if it's 30 milliampperes, then we will have 30 milliampperes going through here.
+[11:38.540 --> 11:41.240]  Our source is 20 milliampperes.
+[11:41.240 --> 11:45.600]  Therefore, because it branches out, this is 50 milliampperes.
+[11:45.940 --> 11:50.660]  Because it branches out like this, we'll have 20 milliampperes going through our diode.
+[11:51.180 --> 11:58.740]  And that 20 milliampperes might be somewhere here following the sign here, negative 20 milliampperes.
+[11:58.920 --> 12:05.320]  And again, you will see that if you draw a line across, the answer is still going to be the same.
+[12:06.040 --> 12:09.280]  It's still going to be 10 volts.
+[12:09.280 --> 12:11.020]  Are you guys following?
+[12:11.360 --> 12:12.980]  Do we have a thumbs up, please?
+[12:15.680 --> 12:15.900]  Eh?
+[12:17.420 --> 12:18.200]  All right.
+[12:19.500 --> 12:21.220]  Nothing could be simpler, right?
+[12:21.460 --> 12:21.660]  Okay.
+[12:21.820 --> 12:24.720]  So now we get to the last question.
+[12:25.060 --> 12:29.340]  What happens if the load is 80 milliampperes?
+[12:29.340 --> 12:42.740]  Again, as you can see, we cannot just blindly answer that the voltage is going to be 10 volts because it's not going to be 10 volts.
+[12:42.740 --> 12:48.220]  So this is where it gets strange, perhaps, for some.
+[12:48.380 --> 12:50.380]  So this is why you have to be careful.
+[12:51.060 --> 12:56.460]  Looking at the problem originally without doing any calculations, you would have been tempted to say,
+[12:56.560 --> 12:59.120]  oh, well, look, the transfer function is just a straight line.
+[12:59.540 --> 13:02.100]  Therefore, it's going to be 10 volts all the time.
+[13:02.100 --> 13:08.040]  But there's a certain point where this does not hold true.
+[13:09.120 --> 13:09.280]  Okay?
+[13:10.080 --> 13:20.480]  You'll notice that if the load current even manages to reach anything greater than 50 or even if, well, if you're at 50, you're fine.
+[13:20.480 --> 13:29.780]  If you're at 51 milliampperes, okay, if you are at 51 milliampperes, look at what happens.
+[13:30.260 --> 13:40.700]  There can no longer be any current through our diode because the source was calculated to provide only 50 milliampperes.
+[13:41.000 --> 13:43.480]  So how can you even reach 51?
+[13:43.480 --> 13:56.480]  Well, the answer essentially is that something must not be holding true because the output current cannot be greater than the input current.
+[13:58.300 --> 13:58.460]  Okay?
+[13:59.220 --> 13:59.640]  All right?
+[14:00.440 --> 14:05.760]  So where does or how do we calculate it?
+[14:05.760 --> 14:19.840]  Well, the answer is, all right, if the load current is indeed 80 milliampperes, then we are going to have to assume that that is true.
+[14:20.360 --> 14:21.120]  All right?
+[14:21.160 --> 14:26.280]  Because it said that, well, the current is going to be 80 milliampperes.
+[14:26.600 --> 14:27.440]  All right?
+[14:27.760 --> 14:33.440]  Which means that if it is 80 milliampperes, this thing is getting really messed up.
+[14:33.440 --> 14:35.440]  So let me just erase everything here.
+[14:36.220 --> 14:36.400]  All right?
+[14:37.080 --> 14:50.940]  If it is indeed 80 milliampperes, then there's only one possibility, which is this must be supplying 80 milliampperes.
+[14:51.160 --> 14:52.000]  Are you guys following?
+[14:52.380 --> 14:52.660]  All right?
+[14:53.160 --> 14:55.020]  That's the only way that that can happen.
+[14:55.020 --> 15:00.400]  And of course, we can assume that there's practically no current going through our Zener anymore.
+[15:00.920 --> 15:04.440]  Because at 50, wala nang ang pumapasok sa Zener.
+[15:04.580 --> 15:06.320]  Eh, di syempre sa 80, lalo nang wala.
+[15:07.020 --> 15:07.640]  All right?
+[15:08.140 --> 15:15.140]  And if there's 80 milliampperes flowing through, your I sub S is basically equal to your I sub L,
+[15:15.860 --> 15:23.380]  then you must be dropping a large voltage across this 100 ohm resistor.
+[15:23.380 --> 15:38.840]  So in fact, you can easily calculate that using Ohm's law, where V sub 100 ohm is equal to 80 milliampperes times 100 ohms,
+[15:39.220 --> 15:41.880]  which is equal to 8 volts.
+[15:42.700 --> 15:42.980]  Okay?
+[15:42.980 --> 15:50.760]  So we now know that the voltage across our resistor is 8 volts.
+[15:51.280 --> 15:59.400]  15 minus 8 leaves us with 7 volts across our load.
+[16:00.340 --> 16:00.460]  Okay?
+[16:00.460 --> 16:10.040]  And so from the previous answers, we get 10 volts, 10 volts, 7 volts.
+[16:10.380 --> 16:10.740]  Okay?
+[16:11.520 --> 16:12.480]  V sub O.
+[16:13.020 --> 16:13.440]  All right?
+[16:14.600 --> 16:18.920]  So yan ang lalabas na result.
+[16:18.920 --> 16:19.820]  Okay?
+[16:19.820 --> 16:34.200]  So the Zener can only work properly if it is in a position to hold the voltage down by absorbing some of that excess current.
+[16:35.260 --> 16:42.200]  However, if all of the current is already going into the load, the Zener cannot do anything about that.
+[16:42.340 --> 16:45.820]  It cannot manufacture extra current.
+[16:45.820 --> 16:48.100]  It's not the device that can do that.
+[16:48.780 --> 16:49.020]  All right?
+[16:49.620 --> 16:59.960]  So the regulation works only up to the point where the supply, current, and voltage, for that matter,
+[17:00.320 --> 17:09.180]  are able to cater to the situation for the load and for the Zener to work properly.
+[17:10.160 --> 17:10.440]  Okay?
+[17:10.440 --> 17:10.480]  Okay?
+[17:11.720 --> 17:13.800]  Hopefully, you've been able to follow that.
+[17:14.260 --> 17:18.440]  The rest, well, here's where the slides basically show this.
+[17:18.800 --> 17:19.080]  All right?
+[17:19.300 --> 17:20.220]  That's there.
+[17:21.080 --> 17:31.940]  When IL, so just to repeat, when IL happens to be greater than 50 milliampere, the Zener loses its regulation capacity.
+[17:32.780 --> 17:33.740]  All right?
+[17:33.740 --> 17:36.780]  It cannot manufacture extra current.
+[17:37.500 --> 17:51.440]  And then because of that, the output voltage begins to drop because our source resistor, the 100 ohm, must now supply and must continue to supply all of that current.
+[17:51.580 --> 17:57.100]  And the only way it can do that is by having more voltage across it.
+[17:58.180 --> 17:58.440]  Okay?
+[17:59.040 --> 17:59.460]  All right?
+[17:59.460 --> 18:04.220]  So are there questions regarding this?
+[18:04.280 --> 18:11.480]  So yes, these are the answers as we already talked about.
+[18:11.900 --> 18:12.060]  Okay?
+[18:12.060 --> 18:20.440]  So another way of expressing this is given this particular circuit, all right?
+[18:20.440 --> 18:26.740]  Given this particular circuit and rephrasing a question, all right?
+[18:26.880 --> 18:28.720]  Changing this a little bit.
+[18:28.720 --> 18:41.700]  What is the maximum possible I sub L for the voltage to remain at 10 volts?
+[18:43.180 --> 18:43.500]  Okay?
+[18:43.500 --> 18:54.760]  What is the maximum possible value for I sub L for the output voltage to be 10 volts, to remain at 10 volts?
+[18:54.760 --> 18:58.680]  Well, we've answered this question already, all right?
+[18:59.260 --> 19:01.900]  And it comes from voltage division.
+[19:02.840 --> 19:03.040]  Okay?
+[19:03.500 --> 19:11.960]  So in this particular case, you're going to say that, well, 10 volts is going to be the output voltage.
+[19:12.580 --> 19:12.940]  All right?
+[19:12.940 --> 19:16.960]  10 volts is going to be the output voltage.
+[19:16.960 --> 19:30.180]  Therefore, given that the supply is 15 volts and we are getting 10 volts at the output, the source current we have already calculated is 50 milliampere.
+[19:30.180 --> 19:31.180]  Okay?
+[19:31.180 --> 19:31.180] 
+[19:31.180 --> 19:32.180]  Okay?
+[19:32.180 --> 19:34.180]  So that's the answer.
+[19:34.180 --> 19:37.180]  That's the maximum possible I sub L.
+[19:37.180 --> 19:48.600]  The answer is that the maximum possible I sub L is 50 ma.
+[19:48.600 --> 19:52.620]  Anything greater than that, the output will drop.
+[19:52.620 --> 19:53.460]  Okay?
+[19:54.000 --> 19:56.220]  And, well, this one's pretty straightforward.
+[19:56.220 --> 20:05.040]  What is the load resistance under this kind of a situation where the load is taking 50 milliampere?
+[20:05.200 --> 20:07.000]  Well, that's pretty straightforward.
+[20:07.720 --> 20:13.220]  10 volts divided by 50 milliampere gives us 50.
+[20:14.600 --> 20:14.820]  Eh?
+[20:15.460 --> 20:15.780]  How about?
+[20:18.160 --> 20:18.880]  Wait.
+[20:18.980 --> 20:19.460]  Let me think.
+[20:20.520 --> 20:20.840]  Ah!
+[20:21.140 --> 20:23.240]  Move the decimal places around.
+[20:23.680 --> 20:23.920]  Okay?
+[20:23.920 --> 20:24.020]  Okay.
+[20:26.220 --> 20:27.220]  Okay.
+[20:27.220 --> 20:27.900]  Hindi nang nabali.
+[20:28.900 --> 20:29.900]  Ikakalkula ko na.
+[20:30.060 --> 20:32.080]  My brain is not working.
+[20:32.360 --> 20:32.640]  All right?
+[20:32.640 --> 20:39.880]  So, 10 divided by 50 times 10 to the minus 3 is equal to 200.
+[20:41.740 --> 20:42.320]  Okay?
+[20:42.800 --> 20:49.180]  So there is your minimum load resistance equivalent.
+[20:49.680 --> 20:49.920]  Okay?
+[20:49.920 --> 20:53.380]  This is your minimum possible.
+[20:53.380 --> 20:54.380]  Okay?
+[20:54.380 --> 20:57.380]  This is your minimum possible.
+[20:58.020 --> 20:58.420]  Okay?
+[21:00.100 --> 21:02.780]  For the thing to work properly.
+[21:04.180 --> 21:10.520]  To maintain VO equals 10 volts.
+[21:10.800 --> 21:11.100]  Okay?
+[21:11.480 --> 21:15.180]  To maintain VO is equal to 10 volts.
+[21:15.740 --> 21:16.160]  All right?
+[21:16.160 --> 21:16.780]  Okay?
+[21:16.780 --> 21:16.820]  Okay?
+[21:17.120 --> 21:23.360]  Now, going back to this, if you say, for example, that, okay, well, hang on.
+[21:23.720 --> 21:34.620]  What if I want to be able to cater to 80 milliampere of load and still maintain 10 volts?
+[21:34.620 --> 21:35.860]  All right?
+[21:35.860 --> 21:35.960]  All right?
+[21:35.960 --> 21:47.180]  So here's another possible variation or more possible question generated from such a simple schematic.
+[21:47.920 --> 22:01.640]  What if you wanted to maintain that the output remains at 10 volts even if the load is 80 milliampere?
+[22:01.640 --> 22:03.500]  How would you do that?
+[22:04.580 --> 22:08.120]  Can we hear some answers from you guys?
+[22:08.200 --> 22:09.340]  Can you make some suggestions?
+[22:09.560 --> 22:11.980]  Of course, you're going to have to change something.
+[22:12.500 --> 22:12.780]  All right?
+[22:13.200 --> 22:21.780]  So what would you do if you wanted that this would still produce 10 volts for VO?
+[22:22.860 --> 22:23.200]  Okay?
+[22:23.980 --> 22:25.020]  Anong pwede natin gawin?
+[22:25.020 --> 22:29.520]  Can we see some answers, please, here at the chat?
+[22:29.780 --> 22:35.940]  You can message directly if you want, or you can just unmute and shout it out if you have a suggestion.
+[22:42.400 --> 22:43.940]  Ay, nakikinig ba kayo?
+[22:44.820 --> 22:45.260]  Hello?
+[22:45.260 --> 22:45.380]  Hello?
+[22:51.380 --> 22:52.360]  Ah, gee.
+[22:55.020 --> 22:58.760]  All right?
+[22:59.900 --> 23:00.660]  All right.
+[23:00.920 --> 23:02.820]  Can we see a show of hands, please?
+[23:03.360 --> 23:07.200]  Who are actually there and on their computer?
+[23:08.200 --> 23:09.820]  Give me an emoticon, please.
+[23:09.980 --> 23:14.380]  Kindly raise your, or put some, okay, thank you.
+[23:16.880 --> 23:18.540]  Oh, karamihan naman nandyan.
+[23:19.200 --> 23:19.460]  Sige.
+[23:21.360 --> 23:22.200]  All right.
+[23:22.540 --> 23:22.880]  Thanks.
+[23:22.880 --> 23:26.780]  So, again, let me reiterate.
+[23:28.160 --> 23:33.540]  What if we wanted the supply voltage to the load, all right?
+[23:33.760 --> 23:39.080]  What if we wanted the VO to remain at 10 volts?
+[23:40.220 --> 23:44.820]  Even with 80 milliampers of load, how can we do it?
+[23:46.260 --> 23:48.240]  Anybody want to try?
+[23:49.240 --> 23:50.340]  Giving me any answer?
+[23:50.340 --> 23:50.420]  Okay.
+[23:52.880 --> 23:54.800]  Wala?
+[23:54.800 --> 23:55.280]  Wala?
+[23:55.500 --> 23:55.720]  Wala?
+[23:58.220 --> 23:58.740]  Okay.
+[24:03.680 --> 24:04.160]  Okay.
+[24:06.500 --> 24:10.440]  Adonis, are you raising your hand, meaning that you want to answer the question?
+[24:10.700 --> 24:10.920]  No?
+[24:11.120 --> 24:11.320]  Okay.
+[24:12.160 --> 24:12.720]  Wasn't...
+[24:12.720 --> 24:15.560]  Wala.
+[24:15.560 --> 24:16.560]  Okay.
+[24:16.560 --> 24:16.560] 
+[24:16.560 --> 24:19.900]  The answer to this problem is very simple.
+[24:20.120 --> 24:26.160]  You can simply change the resistance value to something lower so that it will accommodate more current.
+[24:26.160 --> 24:27.160]  Isn't that obvious?
+[24:27.160 --> 24:28.160]  Okay.
+[24:28.880 --> 24:43.460]  So, here, if we were to modify the resistor value to something of a lower resistance, then the maximum current that it could supply, or the current that it could supply, would become greater.
+[24:43.460 --> 24:48.820]  So, again, we calculated I sub S equals 50 milliampere.
+[24:48.820 --> 24:53.040]  So, on the assumption that the Zener or the Zener would hold this thing at 10 volts.
+[24:54.080 --> 24:54.220]  Okay?
+[24:54.220 --> 24:55.220]  Okay.
+[24:55.220 --> 25:17.320]  So, if we want to make this 80 milliampere, then we can calculate our RS on the basis that RS is 15 minus 10 divided by 80 milliampere.
+[25:17.320 --> 25:18.980]  That's pretty easy, right?
+[25:18.980 --> 25:19.460]  Okay.
+[25:19.460 --> 25:19.560]  Okay.
+[25:20.120 --> 25:34.500]  And so, our new calculated resistance value, all right, is equal to 62.5 ohms.
+[25:36.140 --> 25:37.140]  All right?
+[25:37.360 --> 25:42.100]  So, we changed this resistor value to 62.5 ohms.
+[25:42.100 --> 26:12.080]  So, we changed this resistor value to 62.5 ohms.
+[26:12.080 --> 26:16.400]  So, we changed this resistor value to 63, all right, which is how many?
+[26:16.700 --> 26:18.940]  50 milliampere.
+[26:19.700 --> 26:27.400]  And if the load is 80 milliampere, then no more current is flowing through the Zener.
+[26:27.400 --> 26:30.240]  Everything is going into the load.
+[26:30.240 --> 26:42.360]  So, the net result of that, of course, is that because we have a perfect diode, the output voltage will now remain constant.
+[26:42.360 --> 26:47.860]  Because in the first situation, there may be somewhere over here.
+[26:48.020 --> 26:51.320]  And that's the assumption here that this line goes all the way to infinity.
+[26:51.860 --> 26:53.540]  So, this is at 80 milliampere.
+[26:53.540 --> 26:57.420]  This one is at 30 milliampere.
+[26:57.860 --> 27:00.120]  And this one will be at zero.
+[27:00.320 --> 27:04.300]  And the output voltage is going to be at 10 volts all the time.
+[27:04.740 --> 27:04.940]  Okay?
+[27:05.200 --> 27:08.060]  That's one way of doing it.
+[27:08.060 --> 27:20.720]  And I guess it's pretty obvious that the alternative would be to retain this 100 ohms, but change this voltage to something bigger,
+[27:21.060 --> 27:31.580]  such that we fulfill the same end result where your I sub S is equal to 80 milliampere.
+[27:31.580 --> 27:32.740]  All right?
+[27:33.140 --> 27:33.500]  Okay?
+[27:34.060 --> 27:37.520]  So, in this case, we can calculate V sub S.
+[27:37.840 --> 27:38.200]  All right?
+[27:38.980 --> 27:42.240]  So, we want the net result.
+[27:42.480 --> 27:42.960]  All right?
+[27:43.440 --> 27:56.500]  And have to calculate that 80 milliampere is equal to V sub S minus 10 volts divided by 100 ohms.
+[27:57.080 --> 27:57.740]  All right?
+[27:57.740 --> 28:09.180]  And if you go ahead and do that calculation, you should be able to determine what the V sub S will happen to be.
+[28:09.660 --> 28:09.920]  All right?
+[28:10.440 --> 28:21.080]  So, we can see that 100 ohms times 80 milliampere is equal to how many?
+[28:21.560 --> 28:22.400]  Eight volts.
+[28:22.680 --> 28:22.900]  Right?
+[28:22.900 --> 28:27.900]  So, the net result here is that...
+[28:29.900 --> 28:30.600]  Huh?
+[28:30.720 --> 28:31.100]  Tama ba?
+[28:33.920 --> 28:34.960]  Let's make sure.
+[28:35.900 --> 28:36.100]  Okay?
+[28:39.320 --> 28:45.900]  This is the problem of times 10 to the minus 3 times 100.
+[28:46.780 --> 28:47.020]  Tama.
+[28:47.140 --> 28:47.860]  Eight volts, di ba?
+[28:48.140 --> 28:50.480]  So, eight is equal to V sub S.
+[28:50.600 --> 28:50.880]  Maa.
+[28:50.980 --> 28:51.160]  Okay.
+[28:51.500 --> 28:52.200]  There's a gap.
+[28:52.200 --> 28:52.740]  All right.
+[28:52.900 --> 28:56.180]  And Vs is equal to 18 volts.
+[28:56.580 --> 28:56.820]  Okay?
+[28:57.380 --> 28:59.480]  So, that's the net result of that.
+[28:59.640 --> 29:08.840]  When you swing this thing over, all right, this becomes 8 plus 10, which gives you 18 volts.
+[29:09.300 --> 29:09.560]  Okay?
+[29:10.060 --> 29:18.620]  So, by modifying the source voltage to 18, we can get 80 milliampere flowing through that 100 ohm.
+[29:18.620 --> 29:19.620]  We should have been obvious, right?
+[29:19.620 --> 29:19.620] 
+[29:19.620 --> 29:21.180]  So, there we go.
+[29:21.180 --> 29:22.680]  All right?
+[29:22.680 --> 29:27.680]  So, any of those methods would have worked.
+[29:27.680 --> 29:32.860]  There could have been many variations to this.
+[29:32.860 --> 29:39.020]  Of course, the most challenging probably would be to say that, well, let's be more realistic.
+[29:39.020 --> 29:42.940]  We can't really have this ideal diode.
+[29:42.940 --> 29:53.080]  So, it will be slanted slightly, which means that you'd have to be recalculating and re-estimating every time by looking at the DC load line.
+[29:53.080 --> 29:53.840]  All right?
+[29:53.840 --> 29:54.080]  Okay.
+[29:54.080 --> 29:54.680]  Okay.
+[29:54.800 --> 29:55.800]  So, there you go with that.
+[29:56.920 --> 29:57.520]  Questions?
+[29:59.640 --> 30:00.700]  May tanong ba?
+[30:00.920 --> 30:01.700]  Okay ba tayo?
+[30:02.200 --> 30:02.880]  Hello?
+[30:02.880 --> 30:02.960]  Hello?
+[30:10.880 --> 30:13.040]  Ay, wala na naman mga sumasagot.
+[30:13.160 --> 30:13.440]  Hello?
+[30:13.840 --> 30:14.060]  You?
+[30:14.280 --> 30:15.340]  Are we okay?
+[30:17.480 --> 30:18.040]  Yes.
+[30:18.240 --> 30:18.620]  Okay.
+[30:19.460 --> 30:19.660]  Sige.
+[30:19.920 --> 30:21.160]  So, let's go forward.
+[30:22.980 --> 30:23.180]  Okay.
+[30:24.460 --> 30:27.080]  So, tapos na tayo more or less with Zinners.
+[30:27.280 --> 30:27.660]  All right?
+[30:28.000 --> 30:29.760]  There are a lot more intricacies.
+[30:29.760 --> 30:30.480]  Ah, okay.
+[30:30.640 --> 30:34.400]  A last point, which is not on the slide.
+[30:35.160 --> 30:35.340]  Okay?
+[30:36.160 --> 30:43.800]  Although, it is probably not the intent of the lesson at all.
+[30:44.500 --> 30:53.680]  All of the calculations and stuff that we've been showing you is just to introduce the concept without getting too much into the details.
+[30:54.080 --> 30:54.500]  All right?
+[30:54.640 --> 30:56.340]  Of real-world diodes.
+[30:56.340 --> 31:05.460]  But there is probably one important aspect that you need to be aware of.
+[31:06.360 --> 31:06.700]  Okay?
+[31:07.220 --> 31:12.640]  When you look at this graph over here, okay, yes, it's ideal.
+[31:14.060 --> 31:14.400]  All right?
+[31:14.400 --> 31:25.340]  And even if the real-world diodes doesn't have quite that beautiful Zinner name, all right?
+[31:25.340 --> 31:39.900]  Again, if we are willing to sort of accept a slight degree or some inaccuracy in our estimates of the result, okay?
+[31:40.460 --> 31:43.620]  Then, you know, that's perfectly okay.
+[31:44.340 --> 31:44.820]  All right?
+[31:44.860 --> 31:47.520]  Or it gives you at least a ballpark answer.
+[31:47.520 --> 32:05.680]  But there's also one other aspect that's important that is not being shown here, which is the fact that a real-world Zinner, okay, which you saw in the lab, all right?
+[32:06.240 --> 32:11.580]  A real-world Zinner has a particular size, all right?
+[32:11.580 --> 32:13.820]  The one that you saw in the lab was really tiny.
+[32:13.980 --> 32:22.180]  It was the size of the 1N60, which is also the same size of 1N4148, and so on and so forth.
+[32:22.680 --> 32:25.560]  It's a very popular package, all right?
+[32:25.640 --> 32:28.360]  This particular tiny little thing here.
+[32:28.360 --> 32:45.140]  And if you look at it, all right, if you look at it, you might wonder, all right, if there is any limit to how much power a Zinner can handle.
+[32:46.220 --> 32:48.560]  Why is there this concept of power?
+[32:48.560 --> 32:55.100]  Well, the Zinner absorbs some of that current.
+[32:55.640 --> 32:56.300]  Look at this.
+[32:56.300 --> 33:13.140]  When your load is zero, all right, and your source is 50 milliampere, all of that current, your I sub Z here must be 50 milliampere.
+[33:13.580 --> 33:24.020]  All of the source current must flow into the Zinner because we are stating that the load has zero current, okay?
+[33:24.020 --> 33:41.800]  So given that I sub Z is 50 milliampere and the fact that there is a voltage across the Zinner of 10 volts, we can calculate that the Zinner has power going through it.
+[33:41.800 --> 33:44.800]  It is just like a resistor.
+[33:44.800 --> 33:56.080]  It is dissipating a certain amount of power, and we can calculate that as 10 volts times 50 milliampere.
+[33:56.080 --> 33:57.560]  Okay?
+[33:57.560 --> 34:06.740]  So 10 volts times 50 milliampere is 0.5 watts.
+[34:07.420 --> 34:11.220]  500 milliwatts.
+[34:12.080 --> 34:12.360]  Okay?
+[34:12.360 --> 34:16.080]  So 500 milliwatts.
+[34:16.080 --> 34:23.280]  It's a small amount of power, not that big, half a watt, but it's there.
+[34:23.860 --> 34:24.800]  It's finite.
+[34:25.300 --> 34:42.260]  And in fact, all right, for a Zinner diode, the size of what you were holding in the laboratory, if you took up, if you were there in the lab last Thursday, face-to-face, all right?
+[34:42.360 --> 34:53.820]  And if you were not, because you were doing the virtual version of the lab, all right, that's rather unfortunate because you would not have been able to see that.
+[34:54.060 --> 35:03.080]  But 1N4148s and 1N60s and small signal diodes are tiny little packages.
+[35:04.780 --> 35:04.960]  Okay?
+[35:05.020 --> 35:06.340]  They're tiny little packages.
+[35:06.340 --> 35:15.640]  Oh, well, this, unfortunately, this one doesn't have an example of it.
+[35:17.220 --> 35:25.740]  I'd have to go down and pick up a diode from the labrador, from the workshop set of parts.
+[35:26.140 --> 35:28.940]  I was hoping that I'd have one in my hand, but no.
+[35:29.240 --> 35:29.680]  All right.
+[35:29.680 --> 35:33.080]  Anyway, they're practically tiny, all right?
+[35:33.480 --> 35:46.200]  And in fact, the one that you would have been using is indeed rated with typically a maximum power handling of half a watt or so for a small Zinner.
+[35:46.200 --> 35:47.000]  Okay?
+[35:47.000 --> 36:00.620]  So in this case, if we were to follow this, then we would actually be at the thermal or power dissipation limit of that particular Zinner diode.
+[36:01.100 --> 36:01.760]  Real world.
+[36:02.440 --> 36:12.180]  That's as much power, aka that is the maximum amount of current that the Zinner can have flowing through it.
+[36:12.180 --> 36:18.800]  If you were to go beyond this, the Zinner would probably get too hot and it would get destroyed.
+[36:19.720 --> 36:19.880]  Okay?
+[36:20.520 --> 36:22.200]  So that's the bottom line.
+[36:22.320 --> 36:30.760]  In fact, you're not supposed to operate a Zinner anywhere really close to its limit of dissipation.
+[36:31.680 --> 36:32.100]  All right?
+[36:32.100 --> 36:44.940]  It's not good practice because it would mean that it would be running very, very hot and would probably contribute to a very, very smudged, curtailed life.
+[36:45.300 --> 36:45.380]  No?
+[36:45.680 --> 36:46.000]  Okay?
+[36:46.460 --> 37:00.720]  So maybe that 50 milliampere, all right, for practical purposes is the limit of this particular Zinner diode because 50 times 10 is half a watt, which would be the diode rating.
+[37:00.720 --> 37:03.700]  So ito na yun, 50 milliampere.
+[37:04.280 --> 37:13.160]  And you can tell that that's the limit by the fact that the manufacturer, if the manufacturer is providing a graph, will only graph up to there.
+[37:13.900 --> 37:14.040]  Okay?
+[37:14.700 --> 37:15.940]  Bakit hindi niya tinuloy?
+[37:16.060 --> 37:18.740]  Eh kasi you're not supposed to operate beyond that point.
+[37:19.080 --> 37:19.260]  Okay?
+[37:19.760 --> 37:20.360]  So yan, yan.
+[37:21.740 --> 37:30.400]  Ziners are available at different power dissipation ratings.
+[37:30.720 --> 37:34.660]  The smallest ones are rated at 0.5 watts.
+[37:35.480 --> 37:40.320]  The next step up in size would be a 1 watt Zinner.
+[37:41.020 --> 37:44.180]  Then I believe there is a 2 watt Zinner.
+[37:44.500 --> 37:46.880]  And it doesn't really go much beyond that.
+[37:46.880 --> 37:47.560]  Okay?
+[37:47.700 --> 37:59.400]  It's just a family of devices, a set of voltages, where the Zinner is rated at half a watt.
+[37:59.400 --> 38:04.760]  A similar family rated at 1 watt.
+[38:05.340 --> 38:11.280]  And a smaller selection rated at 2 watts and maybe a bit more.
+[38:11.380 --> 38:11.880]  And that's it.
+[38:11.980 --> 38:19.260]  The vast bulk, all right, is rated at 0.5 and 1 watt and nothing much more.
+[38:19.260 --> 38:20.180]  Okay?
+[38:20.480 --> 38:20.740]  All right.
+[38:20.800 --> 38:29.440]  So they're not really meant to handle a large amount of current or power for that matter.
+[38:30.320 --> 38:30.880]  Okie dokes?
+[38:31.140 --> 38:32.160]  So there you go with that.
+[38:32.400 --> 38:34.140]  So those are the practical limits.
+[38:34.320 --> 38:43.240]  And of course, you will obviously want to ask, well, if the power dissipation is only half a watt or 1 watt,
+[38:43.240 --> 38:47.200]  what happens if we need more power?
+[38:47.400 --> 38:47.880]  Well, okay.
+[38:47.960 --> 38:49.900]  So we'll answer that in the future.
+[38:50.280 --> 38:50.460]  Okay?
+[38:50.540 --> 39:01.500]  The answer essentially is, well, you'd have to use some other components to enhance the capacity of the Zinner.
+[39:01.500 --> 39:06.500]  In fact, this is why we have things like transistors.
+[39:07.140 --> 39:07.200]  Okay?
+[39:07.800 --> 39:08.060]  Okay.
+[39:08.220 --> 39:12.220]  So let's go forward from here because we've covered that.
+[39:12.220 --> 39:15.560]  So another, okay, what are we talking about?
+[39:15.640 --> 39:17.140]  We're talking about diodes.
+[39:17.320 --> 39:21.340]  And we've seen that diodes can be used as rectifiers.
+[39:22.140 --> 39:28.240]  We've seen that special diodes called Ziners can be used as voltage regulators.
+[39:28.840 --> 39:29.760]  Okay?
+[39:30.300 --> 39:42.040]  And now we move on to another possible application of diodes, which is the general concept of wave shaping.
+[39:42.220 --> 39:43.520]  Okay?
+[39:43.520 --> 39:43.560]  Okay?
+[39:44.560 --> 40:08.220]  So wave shaping means that you modify the source waveform in a certain way such that the output of the wave shaping circuit is a signal which is, you know, similar or having come from the input waveform.
+[40:08.220 --> 40:12.020]  And you're changing it in a certain way.
+[40:13.700 --> 40:19.480]  Technically speaking, rectification is a form of wave shaping.
+[40:19.480 --> 40:26.160]  It is a specific subcategory of a wave shaper.
+[40:27.740 --> 40:28.020]  All right?
+[40:30.140 --> 40:34.020]  Now, so rectification is a pretty simple thing.
+[40:34.220 --> 40:39.200]  So obviously in this case, we're talking about going a little bit beyond that.
+[40:39.840 --> 40:40.040]  Okay?
+[40:40.200 --> 40:40.500]  All right.
+[40:40.500 --> 40:44.460]  So why would we need to wave shape?
+[40:44.460 --> 41:06.680]  Well, essentially it's because wave shaping is a necessary underlying functional requirement to do things like estimate the strength of a signal, for example, that is changing all the time.
+[41:06.680 --> 41:10.820]  If you say, I want to have an average value.
+[41:11.280 --> 41:16.200]  I want a representative numerical value of how strong a signal is.
+[41:16.600 --> 41:17.760]  This is just an example.
+[41:18.320 --> 41:26.640]  You could wave shape the changing signal to produce a BC equivalent of that ever-changing signal.
+[41:27.240 --> 41:28.200]  And how would you do that?
+[41:28.200 --> 41:31.860]  Well, this is why we're talking about wave shaping circuits.
+[41:32.520 --> 41:32.800]  All right?
+[41:34.560 --> 41:49.420]  Sometimes you need to do wave shaping to be able to recover an original signal where the signal went through a certain process that changed it in a particular way.
+[41:49.420 --> 42:09.600]  And the wave shaping is a counterpart or a demodulation or a counterpart process to go from the manipulation that happened to bring it back to its original wave shape.
+[42:09.600 --> 42:09.640]  Okay?
+[42:10.640 --> 42:10.880]  Okay?
+[42:10.880 --> 42:10.880] 
+[42:10.880 --> 42:10.940]  Okay?
+[42:10.940 --> 42:11.380]  Okay?
+[42:11.380 --> 42:21.220]  So these are the kinds of things that some of these diodes and Zener diodes can be used for.
+[42:22.000 --> 42:22.320]  Okay?
+[42:22.800 --> 42:25.040]  So let's have a look at that now.
+[42:25.460 --> 42:25.760]  All right?
+[42:25.860 --> 42:32.220]  So diodes and Zener diodes are used for basically clipping and clamping.
+[42:32.220 --> 42:40.900]  So clipping and clamping essentially are some wave shaping techniques.
+[42:41.920 --> 42:42.220]  All right?
+[42:42.360 --> 42:47.820]  Or processes that diodes and Zener diodes can do.
+[42:48.620 --> 42:49.080]  All right?
+[42:49.400 --> 42:51.160]  Clipping and clamping.
+[42:51.840 --> 42:53.600]  Clipping and clamping.
+[42:53.700 --> 42:57.140]  So what the hell is clipping and clamping?
+[42:57.540 --> 42:57.780]  All right?
+[42:57.780 --> 43:03.600]  So we're not going to go into too much detail here, I guess.
+[43:04.400 --> 43:13.280]  But here is a variety of limiting circuits.
+[43:14.860 --> 43:15.480]  All right?
+[43:15.580 --> 43:16.700]  Let me just look ahead.
+[43:16.840 --> 43:17.220]  Sandali.
+[43:18.640 --> 43:19.100]  Ah, okay.
+[43:19.180 --> 43:20.640]  May mga details naman dito.
+[43:20.640 --> 43:34.440]  So this is a very, very quick overview of transformations that diodes, right, can do.
+[43:37.180 --> 43:45.580]  And the resulting wave shape or transfer function that can be expected.
+[43:46.420 --> 43:46.560]  Okay?
+[43:46.560 --> 43:53.560]  So as an example, we're probably, well, okay, it's not here.
+[43:54.140 --> 44:05.240]  But the original series diode, which looks like this, all right, something that we've taken up.
+[44:05.300 --> 44:07.800]  This is your rectifier function.
+[44:09.080 --> 44:09.600]  Okay?
+[44:10.100 --> 44:15.400]  What would its transfer function basically look like?
+[44:15.400 --> 44:16.360]  All right?
+[44:16.360 --> 44:16.400]  All right?
+[44:16.680 --> 44:22.700]  Because here we have examples of circuits that you have not possibly seen before.
+[44:23.460 --> 44:30.600]  And the transformation that it does, all right, looks like this.
+[44:31.340 --> 44:31.640]  All right?
+[44:31.740 --> 44:37.120]  So let's start out with something that you're a little bit more familiar with already,
+[44:37.300 --> 44:39.360]  which is this particular circuit.
+[44:40.020 --> 44:40.280]  Okay?
+[44:40.280 --> 44:48.940]  So given this particular circuit like so, what would its transfer function look like?
+[44:49.940 --> 44:51.560]  In and out.
+[44:51.980 --> 44:56.340]  If you were to graph the transfer function, okay?
+[44:56.340 --> 45:08.620]  If you were to graph the transfer function, it is basically a graph of input versus output.
+[45:09.300 --> 45:09.780]  Okay?
+[45:09.940 --> 45:14.300]  Maybe I should write it as V sub I and V sub O.
+[45:15.240 --> 45:15.580]  All right?
+[45:15.580 --> 45:17.080]  So ito yung circuit.
+[45:17.320 --> 45:22.240]  We already know how this thing works as a rectifier.
+[45:22.800 --> 45:28.540]  But if you were to ask to graph its actual transfer function, what would it be like?
+[45:28.620 --> 45:35.000]  And let's assume for the sake of simplicity, we're looking here at an ideal diode.
+[45:35.700 --> 45:35.980]  Okay?
+[45:35.980 --> 45:36.020]  Okay.
+[45:36.660 --> 45:41.880]  The next slide or the slide after this shows diodes in action that are not ideal.
+[45:43.400 --> 45:49.800]  They're usually using a model 2 or a model 3-ish representation.
+[45:50.140 --> 45:52.440]  But in this case, let's make life easy for us.
+[45:52.440 --> 46:07.120]  Let's decide and look at what would the transfer function of this circuit be like if we had a model 1 representation of the diode performance in this case.
+[46:07.380 --> 46:18.440]  So we know from a previous lecture that if your input signal were sinusoidal, okay?
+[46:18.440 --> 46:33.160]  If this is your V sub I, okay, then the output of this circuit would be essentially a half wave rectified output.
+[46:33.920 --> 46:34.260]  Okay?
+[46:34.420 --> 46:34.720]  Why?
+[46:34.720 --> 46:45.060]  Because the diode will only conduct in one direction forward and in the reverse direction, the thing would not conduct.
+[46:45.060 --> 46:50.260]  So what does the transfer function of the circuit look like?
+[46:50.800 --> 47:05.700]  Well, the answer here is in the positive excursion, in the positive excursion, the output is simply connected to the input through the action of the ideal diode.
+[47:05.700 --> 47:17.480]  Therefore, the output and input basically simply track each other because they're just one and the same thing.
+[47:18.020 --> 47:22.880]  So if you were to plot that, if the input is zero, the output is zero.
+[47:23.040 --> 47:25.640]  If the input is one volt, the output is one volt.
+[47:25.740 --> 47:28.340]  If the input is two volts, the output is two volts.
+[47:28.340 --> 47:29.760]  And so on and so forth.
+[47:30.080 --> 47:33.900]  What we get is a transfer function that basically looks like this.
+[47:34.040 --> 47:45.380]  It's just, you know, a 45 degree incline because we have input and output being exactly the same value.
+[47:46.180 --> 47:47.100]  Are you guys following?
+[47:47.840 --> 47:48.240]  All right.
+[47:48.240 --> 47:52.060]  Where's my mouse?
+[47:52.620 --> 47:52.780]  Okay.
+[47:52.900 --> 47:53.380]  The mouse.
+[47:53.580 --> 47:55.220]  The mousey is mousy.
+[47:55.660 --> 47:56.100]  Okay.
+[47:56.680 --> 47:59.220]  My mouse went to speed.
+[48:00.180 --> 48:00.420]  Okay.
+[48:00.760 --> 48:01.140]  All right.
+[48:01.380 --> 48:06.320]  So that's what it would look like for the positive portion.
+[48:06.520 --> 48:10.140]  For this portion here, that's what we're going to get.
+[48:10.140 --> 48:16.460]  What about when the voltage becomes, what happens when the input voltage becomes negative?
+[48:16.720 --> 48:25.320]  When V sub I is zero or less, all right, the diode acts as an open circuit.
+[48:25.860 --> 48:27.720]  The diode acts as an open circuit.
+[48:27.880 --> 48:30.900]  Therefore, VO is always going to be zero.
+[48:31.900 --> 48:32.720]  And so there you go.
+[48:32.720 --> 48:42.500]  So there's that transfer function, right, for our rectifier, halfway rectifier circuit.
+[48:42.820 --> 48:43.020]  Okay.
+[48:43.460 --> 48:47.220]  So now that you can visualize what the transfer function looks like.
+[48:47.880 --> 48:48.400]  Okay.
+[48:48.820 --> 48:50.060]  So it's just that.
+[48:50.600 --> 48:50.880]  Okay.
+[48:51.040 --> 48:53.080]  Ganyan ang transfer function natin.
+[48:55.560 --> 48:56.280]  Okay.
+[48:56.700 --> 48:58.440]  Ganyan ang transfer function natin.
+[48:58.440 --> 48:58.480]  Okay.
+[48:59.480 --> 49:03.440]  Let's look at some of these other circuits.
+[49:04.080 --> 49:07.920]  What do these other circuits do?
+[49:08.620 --> 49:13.100]  And what kind of a transfer function will they produce?
+[49:13.100 --> 49:15.760]  And that's actually already answered here.
+[49:16.600 --> 49:16.720]  Okay.
+[49:16.840 --> 49:19.480]  So these sample circuits over here.
+[49:20.060 --> 49:20.400]  All right.
+[49:20.460 --> 49:23.860]  We interchange the resistor and diode.
+[49:24.480 --> 49:26.780]  And this is the end result of that.
+[49:27.540 --> 49:27.760]  Okay.
+[49:27.760 --> 49:33.180]  It's actually just the negative of what we saw.
+[49:33.620 --> 49:33.880]  All right.
+[49:34.240 --> 49:40.480]  So what would the transfer function look like if it were an ideal diode?
+[49:40.600 --> 49:42.660]  Well, the answer is it would look like this.
+[49:43.460 --> 49:43.620]  Okay.
+[49:43.640 --> 49:44.740]  So one is to one.
+[49:45.160 --> 49:51.060]  And then when it gets into the positive region, then there's no output.
+[49:51.280 --> 49:52.540]  Why did that happen?
+[49:52.540 --> 49:57.040]  Can you trace out and discover and figure out the thing for yourself?
+[49:57.040 --> 49:59.820]  Well, the answer is basically pretty simple.
+[50:00.020 --> 50:06.260]  If we provide a positive bias through the diode, the diode will conduct.
+[50:07.220 --> 50:10.160]  And because it's conducting, it will act like a short circuit.
+[50:10.880 --> 50:11.120]  All right.
+[50:11.240 --> 50:17.400]  So that the output voltage will, if you're using model two, will be 0.7.
+[50:17.400 --> 50:25.800]  Or if you're using the ideal diode model, then it will conduct practically, all right, without any forward voltage.
+[50:25.800 --> 50:26.600]  It will be 0.
+[50:26.600 --> 50:30.520]  So here is your ideal, okay?
+[50:30.520 --> 50:31.960]  Or model one.
+[50:31.960 --> 50:35.460]  And this is your model.
+[50:35.460 --> 50:37.180]  Sort of model two.
+[50:37.660 --> 50:41.240]  It's a little bit better than that because you can see that there's a curve over there.
+[50:41.360 --> 50:47.940]  So it's not like this where it suddenly has this very sharp transition.
+[50:48.620 --> 50:50.680]  But you get the point, okay?
+[50:50.680 --> 50:53.000]  So there's this particular circuit.
+[50:53.240 --> 50:58.780]  If we put the diode in the opposite direction, then it will be open circuit.
+[50:59.060 --> 51:03.600]  If the current is going in the forward direction, it's open circuit.
+[51:03.780 --> 51:05.900]  Therefore, the output follows the input.
+[51:05.900 --> 51:11.800]  And then if the current attempts to go in the opposite direction, it shorts out.
+[51:12.000 --> 51:17.420]  And so therefore, it will limit a reverse to just 0.7 volts.
+[51:17.520 --> 51:24.180]  And again, of course, if we're talking about the ideal diode, then it will actually be 0 volts, okay?
+[51:25.420 --> 51:28.120]  And so on and so forth, all right?
+[51:28.540 --> 51:29.560]  So on and so forth.
+[51:29.620 --> 51:33.460]  So we get these changes over here, all right?
+[51:33.460 --> 51:35.940]  We can modify the transfer function.
+[51:36.600 --> 51:39.860]  These are just logical extensions of what's been discussed, no?
+[51:40.180 --> 51:46.280]  So one here is the diode in the forward or going towards ground direction.
+[51:46.700 --> 51:48.980]  The other one is the diode in the opposite.
+[51:49.300 --> 51:50.360]  It's going upward.
+[51:50.500 --> 51:51.420]  It's pointed upward.
+[51:51.900 --> 51:53.640]  What happens if we put both?
+[51:53.840 --> 51:58.680]  Well, the answer is then the circuit basically clamps everything, all right?
+[51:58.680 --> 52:18.420]  And squishes it so that we only get a transfer of plus 0.7 down to negative 0.7, again, on the assumption that this is a model 2 being used.
+[52:18.700 --> 52:20.840]  Now, sir, what happens if it's model 1?
+[52:20.960 --> 52:22.780]  What does the transfer function look like?
+[52:22.780 --> 52:32.880]  Well, the answer is if you have a model 1, then nothing gets through because one diode totally conducts, you know, with the current going in this direction.
+[52:33.020 --> 52:34.180]  This guy is going to be active.
+[52:34.360 --> 52:37.540]  And when it's in the opposite direction, this guy is going to be active.
+[52:37.660 --> 52:41.100]  And they're both going to be clamping everything to 0, okay?
+[52:41.100 --> 52:44.240]  So you're not going to get any signal going out.
+[52:44.380 --> 52:44.820]  Congratulations.
+[52:45.260 --> 52:46.480]  This is a stupid idea.
+[52:46.980 --> 52:54.740]  But if you need something that realistically limits the voltages to plus 0.7, minus 0.7,
+[52:55.320 --> 53:09.580]  diodes are actually a very, very ideal, simple, and inexpensive choice that will allow you to limit voltages, okay?
+[53:09.580 --> 53:20.880]  If we add a battery or voltage source to the diode, we can modify the point at which the diode begins conducting, all right?
+[53:21.400 --> 53:30.440]  Because as far as the diode is concerned, 0 volts all the way up to whatever this voltage here is, it looks like a negative voltage to it.
+[53:30.760 --> 53:38.720]  So it won't conduct until we get to the voltage of the voltage source here plus 0.7.
+[53:38.720 --> 53:50.280]  So we get a clamp at 5.7 volts because, ow, man, the source voltage in this case happens to be 5 volts.
+[53:50.400 --> 53:52.000]  And I overruled it here.
+[53:52.540 --> 53:52.700]  Okay.
+[53:53.580 --> 53:53.960]  All right?
+[53:54.400 --> 53:56.280]  And what about this guy?
+[53:56.640 --> 54:01.460]  Well, here we have two Zener's that are back-to-back, okay?
+[54:01.460 --> 54:01.540]  Okay.
+[54:02.020 --> 54:12.980]  And whatever the Zener voltage is plus 0.7 because if this guy's acting as a forward conduction,
+[54:13.300 --> 54:19.120]  then this one will be acting as a Zener in the knee and vice versa.
+[54:19.960 --> 54:20.120]  Okay?
+[54:20.240 --> 54:23.160]  Maybe I need to trace this out because you're going to get confused.
+[54:23.480 --> 54:24.400]  Going too fast.
+[54:25.400 --> 54:25.920]  Okay.
+[54:25.920 --> 54:26.400]  Okay.
+[54:26.760 --> 54:27.560]  Pen.
+[54:27.840 --> 54:28.080]  Okay.
+[54:28.460 --> 54:35.540]  So if I have a polarity that is following this, the current will flow in this direction.
+[54:36.680 --> 54:37.040]  Okay?
+[54:37.700 --> 54:44.420]  And if it's flowing in the clockwise direction, it's following this particular Zener diode's direction.
+[54:44.960 --> 54:50.020]  Therefore, this guy will be acting like a forward bias ordinary diode.
+[54:50.020 --> 54:51.100]  Okay?
+[54:51.100 --> 54:51.160]  Okay.
+[54:51.500 --> 54:57.220]  So we're going to get 0.7 volts across Z1.
+[54:58.520 --> 54:59.540]  All right?
+[54:59.940 --> 55:11.800]  And as we enter Z2, as voltage here is increasing, all right, we will get to a voltage where Z2 will reach its knee voltage.
+[55:12.800 --> 55:13.300]  All right?
+[55:13.300 --> 55:22.680]  So therefore, this will limit the output voltage to basically the knee voltage plus 0.7.
+[55:23.220 --> 55:31.120]  And that's for the positive portion here, which means that when voltages are lower than the Zener knee,
+[55:31.540 --> 55:34.460]  you'll get a straight 1 is to 1 transfer.
+[55:34.460 --> 55:41.840]  And then when you hit the voltage knee plus 0.7, the thing will suddenly conduct.
+[55:43.460 --> 55:43.760]  Okay?
+[55:44.060 --> 55:46.660]  So that explains the positive portion.
+[55:47.380 --> 56:03.120]  Now, when we have the negative excursion on the other hand, you can hopefully already figure it out for yourself that essentially it is the reverse condition here.
+[56:03.120 --> 56:10.880]  The current is flowing in the opposite direction because the voltages are reversed like so.
+[56:11.300 --> 56:13.840]  Negative on top, positive at the bottom.
+[56:14.380 --> 56:16.700]  Therefore, the current is flowing this way.
+[56:17.420 --> 56:17.700]  All right?
+[56:18.180 --> 56:18.600]  Eh?
+[56:20.120 --> 56:21.000]  Tama ba?
+[56:21.320 --> 56:21.540]  Okay?
+[56:22.340 --> 56:23.880]  Current is flowing this way.
+[56:23.880 --> 56:32.520]  And so therefore, what happens essentially is that we'll get 0.7 volts across Z2 this time.
+[56:32.520 --> 56:46.020]  And then we'll only get conduction of the Zener knee voltage on Z1 if the voltage magnitude is big enough to hit the knee voltage plus 0.7.
+[56:46.020 --> 56:50.820]  So without it, we get the 1 is to 1 transfer because this is open circuit.
+[56:51.480 --> 56:58.660]  And once we hit Zener knee, Zener knee plus 0.7, the circuit conducts and clamps.
+[56:59.080 --> 56:59.720]  All right?
+[56:59.820 --> 57:02.400]  And limits the voltage to just that.
+[57:02.580 --> 57:05.860]  And so that's where you get this particular transfer function.
+[57:06.740 --> 57:07.020]  Okay?
+[57:07.020 --> 57:14.080]  Now, keep in mind, transfer functions are transfer functions.
+[57:14.560 --> 57:18.020]  They graph VO against VI.
+[57:18.500 --> 57:24.500]  So you can see what the circuit transformation looks like.
+[57:24.880 --> 57:25.060]  Okay?
+[57:25.060 --> 57:39.220]  If you give the circuit a waveform, then you can use the transfer function to discover what the output waveform is going to look like.
+[57:39.600 --> 57:39.980]  Okay?
+[57:39.980 --> 57:55.300]  And you do that essentially by either graphically estimating it by multiplying this waveform against the transfer function and looking at what comes out.
+[57:55.680 --> 58:00.080]  Or you say, you know, you might have some other way of doing it in your brain.
+[58:00.760 --> 58:01.040]  Okay?
+[58:01.300 --> 58:05.800]  So let's have a look at that as a function.
+[58:05.920 --> 58:06.160]  Hang on.
+[58:06.240 --> 58:07.540]  Let me just check what time it is.
+[58:07.540 --> 58:08.640]  Hang on.
+[58:08.740 --> 58:08.700]  Hang on.
+[58:08.780 --> 58:09.260]  Hang on.
+[58:09.360 --> 58:09.840]  Eh, 30.
+[58:09.980 --> 58:10.200]  Okay.
+[58:10.420 --> 58:11.640]  So we have 30 more minutes.
+[58:12.040 --> 58:12.200]  Okay?
+[58:12.640 --> 58:12.920]  All right.
+[58:13.000 --> 58:17.520]  So let's look at a point-by-point trace.
+[58:17.800 --> 58:18.140]  All right?
+[58:18.580 --> 58:21.000]  So here is a circuit.
+[58:21.680 --> 58:22.480]  All right?
+[58:22.480 --> 58:22.500]  All right?
+[58:23.020 --> 58:25.560]  Composed of two diodes.
+[58:26.940 --> 58:27.580]  Okay?
+[58:28.300 --> 58:32.340]  And in this case, let's make life easy.
+[58:32.720 --> 58:33.180]  All right?
+[58:33.840 --> 58:36.820]  By assuming that the diodes are ideal.
+[58:37.540 --> 58:44.780]  And we have a 6-volt source connected to one of the diodes.
+[58:44.960 --> 58:47.280]  And the other one has a 9-volt source.
+[58:47.740 --> 58:54.420]  So the trick here, all right, is to basically ignore this for the moment.
+[58:54.780 --> 58:59.600]  But just keep in mind that it is the voltage source of the signal.
+[58:59.600 --> 59:00.600]  Okay?
+[59:00.600 --> 59:01.600]  Okay?
+[59:01.600 --> 59:01.680]  Okay?
+[59:02.180 --> 59:08.760]  But let's look at this and find out what its transfer function is first.
+[59:10.020 --> 59:10.200]  Okay?
+[59:10.200 --> 59:10.240]  Okay.
+[59:10.820 --> 59:13.820]  So here actually may sagot na yan.
+[59:14.500 --> 59:19.640]  The transfer function of this circuit here looks like this.
+[59:20.420 --> 59:20.780]  All right?
+[59:20.780 --> 59:21.380]  Okay.
+[59:21.380 --> 59:27.900]  So again, once you get the hang of it, you already know that if I have 6 volts here,
+[59:28.380 --> 59:30.340]  then in the forward direction...
+[59:30.340 --> 59:30.520]  Okay.
+[59:30.940 --> 59:36.960]  In the reverse direction, this thing simply doesn't conduct because we're attempting to flow current
+[59:36.960 --> 59:40.480]  in the wrong way across diode B.
+[59:40.480 --> 59:43.660]  So this guy remains open circuit.
+[59:43.940 --> 59:51.100]  And so therefore, this thing does not do anything for the positive polarity of the signal.
+[59:51.900 --> 59:52.160]  Okay?
+[59:52.360 --> 59:54.320]  So we're only looking at this guy here.
+[59:54.720 --> 01:00:02.020]  Now, for voltages that are less than 6 volts, diode A remains open circuit
+[01:00:02.020 --> 01:00:14.400]  because our voltage source biases the diode or provides a voltage to the diode that puts it in its reverse region.
+[01:00:15.020 --> 01:00:15.660]  Okay?
+[01:00:15.960 --> 01:00:17.680]  So it remains open circuit.
+[01:00:17.860 --> 01:00:24.020]  And so therefore, whatever the voltage is going in here, given that these two are open circuit,
+[01:00:24.200 --> 01:00:27.200]  whatever goes in is the same voltage coming out.
+[01:00:27.700 --> 01:00:30.900]  Therefore, you're going to get a 1 is to 1 transfer function.
+[01:00:30.900 --> 01:00:32.740]  VEM is equal to V out.
+[01:00:34.040 --> 01:00:34.440]  All right?
+[01:00:35.560 --> 01:00:45.500]  If the voltage here reaches 6 volts, however, that is enough to put the voltage across our diode to 0.
+[01:00:45.980 --> 01:00:47.560]  Before, it was always negative.
+[01:00:48.260 --> 01:00:54.900]  Now, if our input voltage is 6 volts, that's enough to put 0 volts across our diode.
+[01:00:54.900 --> 01:01:00.040]  And because it's an ideal diode, it's just about ready to conduct.
+[01:01:00.900 --> 01:01:07.720]  And anything above 6 volts means that our diode is already conducting.
+[01:01:07.980 --> 01:01:13.840]  And therefore, we'll hold that output voltage to just 6 volts.
+[01:01:13.960 --> 01:01:19.080]  So we get a transfer function that looks like this for the positive excursion.
+[01:01:19.080 --> 01:01:20.700]  Okay?
+[01:01:20.700 --> 01:01:20.760]  Okay?
+[01:01:20.760 --> 01:01:20.820]  Okay?
+[01:01:21.820 --> 01:01:26.000]  So the output is clamped to 6 volts.
+[01:01:26.180 --> 01:01:27.980]  It stops at 6 volts.
+[01:01:28.420 --> 01:01:31.140]  Anything below 6 volts, it will just let through.
+[01:01:32.300 --> 01:01:32.640]  All right?
+[01:01:32.700 --> 01:01:37.060]  And that's what happens for our positive signal.
+[01:01:38.620 --> 01:01:39.260]  Okay?
+[01:01:39.760 --> 01:01:40.220]  All right?
+[01:01:41.540 --> 01:01:42.460]  I don't know if you're following.
+[01:01:42.460 --> 01:01:43.460]  I hope you're following.
+[01:01:43.460 --> 01:01:43.640]  Okay?
+[01:01:43.640 --> 01:01:44.760]  Okay?
+[01:01:46.040 --> 01:01:54.500]  So let's now look at what happens when our signal changes polarity.
+[01:01:54.920 --> 01:01:58.120]  What about when it is negative?
+[01:02:00.080 --> 01:02:00.360]  Okay?
+[01:02:00.880 --> 01:02:07.800]  So when the signal is negative, current is attempting to flow in the opposite direction.
+[01:02:07.800 --> 01:02:14.440]  And as you can see, if we're talking about the opposite direction, it's against diode A.
+[01:02:14.700 --> 01:02:17.720]  And so therefore, this one remains an open circuit.
+[01:02:18.460 --> 01:02:25.800]  And so therefore, we can just ignore the first diode plus 6 volt source.
+[01:02:26.500 --> 01:02:26.780]  Okay?
+[01:02:27.040 --> 01:02:33.260]  So we now concentrate on our second diode, diode B, and the 9 volt source.
+[01:02:33.420 --> 01:02:34.780]  And again, it's the same thing.
+[01:02:34.780 --> 01:02:41.860]  If the voltage is less than 9 volts, it's not enough for the diode to turn on.
+[01:02:42.080 --> 01:02:47.160]  The diode will be in its reverse condition.
+[01:02:48.180 --> 01:02:48.420]  All right?
+[01:02:48.500 --> 01:02:49.440]  Reverse operation.
+[01:02:50.100 --> 01:02:53.800]  And given that, it will act as an open circuit.
+[01:02:54.380 --> 01:03:01.680]  And if it is open circuit, then whatever the voltage is going into the resistor will be the same voltage coming out.
+[01:03:01.680 --> 01:03:12.760]  So again, we get a 1 is the 1 transfer function all the way up to when the magnitude of the signal reaches 9 volts.
+[01:03:13.340 --> 01:03:22.040]  And when it does, we will have 0 volts across diode B, and it will essentially be pretty much ready to conduct.
+[01:03:22.040 --> 01:03:27.620]  Such that any voltage greater than 9 volts, the thing will basically clamp.
+[01:03:28.520 --> 01:03:28.840]  All right?
+[01:03:28.920 --> 01:03:32.160]  And stop the voltage from rising any further.
+[01:03:32.760 --> 01:03:40.640]  Therefore, the voltage will remain at 9 volts, even as the voltage at the input increases.
+[01:03:41.340 --> 01:03:41.560]  Okay?
+[01:03:42.020 --> 01:03:42.300]  All right.
+[01:03:42.300 --> 01:03:45.540]  So this is our transfer function.
+[01:03:45.540 --> 01:03:46.660]  All right?
+[01:03:46.660 --> 01:03:49.660]  For this particular circuit.
+[01:03:50.780 --> 01:03:51.180]  All right?
+[01:03:51.640 --> 01:04:06.060]  So we see that it will allow any input signal to get through as long as that input signal falls between plus 6 and minus 9 volts.
+[01:04:06.060 --> 01:04:13.480]  And if the signal goes beyond plus 6, the circuit will limit it to 6.
+[01:04:13.980 --> 01:04:21.540]  And if the signal goes beyond negative 9, the circuit will limit it to negative 9.
+[01:04:22.400 --> 01:04:22.720]  Okay?
+[01:04:23.020 --> 01:04:26.260]  So that's the transfer function of the circuit.
+[01:04:26.260 --> 01:04:49.380]  And so the last thing is what happens now if the input signal is actually a sinusoidal waveform that is varying, all right, with a magnitude of V sub M of 15.
+[01:04:49.380 --> 01:04:50.720]  All right?
+[01:04:50.840 --> 01:05:08.960]  Which means that we expect that it will have a positive excursion going all the way to plus 15 and a negative excursion going all the way to minus 15 by definition of this sine function.
+[01:05:09.900 --> 01:05:12.080]  15 times sine.
+[01:05:12.680 --> 01:05:13.140]  All right?
+[01:05:13.140 --> 01:05:18.640]  Which is where a sine function goes from 1 to negative 1.
+[01:05:19.300 --> 01:05:19.560]  Okay?
+[01:05:19.660 --> 01:05:23.140]  So we'll get plus 15 all the way to minus 15 as our swing.
+[01:05:23.800 --> 01:05:33.720]  And as it enters this circuit, the transfer function dictates that any voltage that is less than 6 volts, it will just let through.
+[01:05:33.720 --> 01:05:44.880]  But once the sine wave reaches 6 and attempts to go all the way up to 15, the circuit will limit it to just 6 volts.
+[01:05:45.380 --> 01:05:45.740]  Okay?
+[01:05:46.180 --> 01:05:51.040]  So it goes all the way up to 15 and then starts coming downward, down, down, down.
+[01:05:51.640 --> 01:05:53.780]  Circuit is still limiting to 6.
+[01:05:53.780 --> 01:05:56.900]  When the input reaches just 6 volts, they're just equal.
+[01:05:57.400 --> 01:06:02.720]  And when the input falls below 6, then the diode stops conducting.
+[01:06:03.320 --> 01:06:05.220]  The signal just gets through again.
+[01:06:06.120 --> 01:06:06.460]  All right?
+[01:06:06.860 --> 01:06:08.120]  So there we go with that.
+[01:06:08.240 --> 01:06:10.020]  That's for the positive excursion.
+[01:06:10.020 --> 01:06:23.320]  And as the signal goes into the negative region, again, it's just the circuit remains an open circuit up to the point where the input voltage reaches negative 9,
+[01:06:23.320 --> 01:06:33.060]  at which point the diode D will start conducting and limit the output so that it will only get up to negative 9 volts.
+[01:06:33.060 --> 01:06:45.960]  And then as the input signal goes from negative 15 back down to negative 9, down to negative 8, 7, 6, 5, 4, 3, 2, 1, the thing will start conducting again.
+[01:06:46.080 --> 01:06:48.960]  And of course, the cycle just repeats itself again and again.
+[01:06:48.960 --> 01:06:58.760]  And so we're going to get a sinusoidal waveform that is limited or clipped asymmetrically.
+[01:06:59.300 --> 01:06:59.580]  All right?
+[01:06:59.580 --> 01:07:11.460]  We have an asymmetric clipping where the positive portion is limited to 6 and the negative portion is limited to negative 9.
+[01:07:12.020 --> 01:07:12.440]  All right?
+[01:07:12.640 --> 01:07:18.560]  And that's what the clipper circuit here is basically doing.
+[01:07:19.300 --> 01:07:19.540]  Okay?
+[01:07:19.940 --> 01:07:20.300]  All right.
+[01:07:20.780 --> 01:07:21.700]  Are there questions?
+[01:07:23.420 --> 01:07:24.260]  Tanong?
+[01:07:25.200 --> 01:07:26.420]  Did you guys follow?
+[01:07:26.900 --> 01:07:27.340]  Kaya ba?
+[01:07:29.580 --> 01:07:34.760]  Kaya, di ba?
+[01:07:35.840 --> 01:07:36.440]  Okay?
+[01:07:36.440 --> 01:07:40.960]  So, clipping circuits are fairly simple.
+[01:07:41.360 --> 01:07:41.500]  All right?
+[01:07:41.780 --> 01:07:49.600]  By the way, all of the functions that we've been showing you up to this point, they are all called clipping.
+[01:07:49.600 --> 01:08:02.360]  Now, even I, all right, make some mistakes, all right, by having called some of these as clamping.
+[01:08:02.460 --> 01:08:09.500]  We're sort of assuming that these two terminologies are synonymous.
+[01:08:09.940 --> 01:08:13.460]  Because, you know, clamp means to make it stop.
+[01:08:13.960 --> 01:08:15.620]  Clip means what?
+[01:08:15.620 --> 01:08:16.240]  All right?
+[01:08:16.900 --> 01:08:17.420]  All right?
+[01:08:17.420 --> 01:08:17.460]  All right?
+[01:08:17.460 --> 01:08:17.460] 
+[01:08:17.460 --> 01:08:17.460] 
+[01:08:17.460 --> 01:08:17.460] 
+[01:08:17.460 --> 01:08:17.960]  All right?
+[01:08:17.960 --> 01:08:25.480]  But technically speaking, all right, there is a difference in definition, particularly for circuits like this.
+[01:08:25.480 --> 01:08:33.940]  So, any functions that you've seen so far, all of the functions that you've seen so far here.
+[01:08:35.340 --> 01:08:35.720]  Yike.
+[01:08:37.680 --> 01:08:38.420]  All right?
+[01:08:38.980 --> 01:08:40.460]  What did I just do?
+[01:08:40.680 --> 01:08:41.280]  Erase.
+[01:08:41.280 --> 01:08:41.600]  Erase.
+[01:08:45.020 --> 01:08:45.500]  Yeah.
+[01:08:45.940 --> 01:08:46.220]  All right?
+[01:08:47.740 --> 01:09:05.620]  All of the circuits that we've shown you here, be it simple diodes like this, resistor diode, resistor diode, resistor diode with voltage source, resistor with zenners, and whatever other combinations that we've seen here, up to here.
+[01:09:05.620 --> 01:09:09.460]  All of these are basically called clippers.
+[01:09:10.360 --> 01:09:10.500]  Okay?
+[01:09:10.500 --> 01:09:12.500]  They're only called clippers.
+[01:09:13.760 --> 01:09:13.980]  Okay?
+[01:09:14.280 --> 01:09:14.620]  All right?
+[01:09:15.140 --> 01:09:17.080]  So, let's put that into our brain.
+[01:09:17.580 --> 01:09:17.920]  All right?
+[01:09:17.920 --> 01:09:24.620]  So, clamping, all right, is a different thing by definition.
+[01:09:25.240 --> 01:09:35.880]  It produces possibly output signals that might look a little bit like clipping.
+[01:09:36.820 --> 01:09:37.240]  All right?
+[01:09:37.240 --> 01:09:41.820]  But there is a major difference.
+[01:09:42.680 --> 01:09:42.960]  All right?
+[01:09:43.100 --> 01:09:47.460]  And we'll show you that here.
+[01:09:48.040 --> 01:09:48.540]  All right?
+[01:09:49.600 --> 01:09:53.860]  A clamp basically moves the signal.
+[01:09:54.400 --> 01:09:55.360]  All right?
+[01:09:55.560 --> 01:09:56.480]  Up or down.
+[01:09:56.480 --> 01:10:09.700]  It moves the entire signal upwards or downwards against a graph where the vertical axis is voltage.
+[01:10:10.160 --> 01:10:10.320]  Okay?
+[01:10:10.400 --> 01:10:11.160]  Just to be clear.
+[01:10:11.160 --> 01:10:20.120]  So, on a graph where the vertical axis is voltage, a clamping circuit moves the signal.
+[01:10:20.120 --> 01:10:28.840]  The input signal gets moved by the clamping circuits upwards or downwards as a result of its action.
+[01:10:29.580 --> 01:10:29.640]  Okay?
+[01:10:30.020 --> 01:10:31.240]  And we're going to see that.
+[01:10:31.480 --> 01:10:33.080]  Well, you can see that over here.
+[01:10:33.380 --> 01:10:33.620]  All right?
+[01:10:33.680 --> 01:10:34.600]  You can see that over here.
+[01:10:34.740 --> 01:10:37.840]  So, the input signal, V sub in.
+[01:10:38.200 --> 01:10:38.600]  All right?
+[01:10:38.760 --> 01:10:46.140]  The input signal, V sub in, is a signal that basically swings symmetrically above and below zero.
+[01:10:46.280 --> 01:10:46.540]  Okay?
+[01:10:46.760 --> 01:10:48.460]  Well, why is the frequency different?
+[01:10:48.600 --> 01:10:48.800]  Sorry.
+[01:10:48.800 --> 01:10:48.840]  Okay?
+[01:10:48.840 --> 01:10:48.920]  Okay?
+[01:10:49.820 --> 01:10:50.060]  Okay?
+[01:10:52.760 --> 01:10:54.320]  Let's erase all of that.
+[01:10:55.020 --> 01:10:55.160]  Okay?
+[01:10:56.200 --> 01:11:00.700]  So, our sinusoidal signal, I'll try to be a little bit more accurate here.
+[01:11:03.520 --> 01:11:04.040]  Okay?
+[01:11:04.440 --> 01:11:06.980]  This is where, more or less, where it crosses zero.
+[01:11:06.980 --> 01:11:11.600]  So, halfway through is here.
+[01:11:11.800 --> 01:11:13.080]  Halfway through is here.
+[01:11:13.080 --> 01:11:19.000]  So, our input sinusoidal signal, basically, sorry.
+[01:11:19.640 --> 01:11:21.420]  It's not easy to draw.
+[01:11:21.920 --> 01:11:22.060]  All right?
+[01:11:22.440 --> 01:11:24.000]  Basically, it looks like this.
+[01:11:25.000 --> 01:11:25.220]  Okay?
+[01:11:25.220 --> 01:11:34.980]  And our clamping circuit, all right, produces an output that looks like this against the input signal.
+[01:11:34.980 --> 01:11:35.140]  Okay?
+[01:11:35.140 --> 01:11:38.260]  So, what do you think?
+[01:11:38.260 --> 01:11:46.060]  Ang napansin natin sana is that the input signal is sinusoidal.
+[01:11:46.160 --> 01:11:48.500]  The output signal still looks sinusoidal.
+[01:11:48.620 --> 01:11:53.240]  It looks the same, but it has moved downwards.
+[01:11:54.760 --> 01:11:56.740]  It has moved downwards.
+[01:11:58.880 --> 01:12:03.680]  And so this is what a clamping circuit does.
+[01:12:03.680 --> 01:12:05.280]  All right?
+[01:12:05.440 --> 01:12:09.140]  The basic function of a clamping circuit is to move the signal.
+[01:12:09.660 --> 01:12:16.660]  Now, in the process, it could mean that the signal gets changed slightly,
+[01:12:16.960 --> 01:12:22.200]  or it could be that the clamping circuit is combined with clipping,
+[01:12:22.420 --> 01:12:26.240]  which would mean that the waveform would change much more radically.
+[01:12:27.140 --> 01:12:27.440]  All right?
+[01:12:27.440 --> 01:12:34.620]  But as a basic function, a clamp changes the position of the signal.
+[01:12:35.260 --> 01:12:35.480]  All right?
+[01:12:36.020 --> 01:12:38.880]  The clamp changes the position of the signal.
+[01:12:40.000 --> 01:12:48.540]  On a waveform graph where the vertical axis is the voltage.
+[01:12:49.440 --> 01:12:49.700]  Okay?
+[01:12:50.060 --> 01:12:50.380]  All right.
+[01:12:50.540 --> 01:12:53.440]  So we will get back to this in a few moments.
+[01:12:53.540 --> 01:12:54.700]  I skipped a slide.
+[01:12:54.700 --> 01:12:55.260]  All right?
+[01:12:55.260 --> 01:12:55.280]  All right?
+[01:12:55.280 --> 01:12:58.540]  So that's just a preview.
+[01:12:59.100 --> 01:12:59.360]  All right?
+[01:12:59.500 --> 01:13:06.700]  So let's look at a clipper with a more practical implementation.
+[01:13:07.500 --> 01:13:08.640]  What the heck is this for?
+[01:13:08.840 --> 01:13:09.140]  Sandoly.
+[01:13:10.460 --> 01:13:11.160]  Ah, okay.
+[01:13:12.180 --> 01:13:12.500]  All right.
+[01:13:13.040 --> 01:13:17.720]  So going over to this one back here, all right,
+[01:13:17.720 --> 01:13:28.460]  you'll notice that, okay, if we wanted to have, you know, a clipping action using diodes such as these,
+[01:13:28.460 --> 01:13:41.180]  we'd have to put in voltage sources to achieve a clipping that is, you know, of a voltage higher than 0.7 volts.
+[01:13:41.180 --> 01:13:44.160]  And the reason is very simple.
+[01:13:44.160 --> 01:13:54.140]  It's because we are limited by the fact that our diodes, you know, start conducting at 0.7 period, at least as a first approximation.
+[01:13:55.280 --> 01:13:55.500]  Okay?
+[01:13:55.500 --> 01:14:05.020]  So to get a modification of their point of operation or when they start providing some kind of action,
+[01:14:05.740 --> 01:14:14.260]  we might need to put voltage sources to modify exactly where they start operating.
+[01:14:14.260 --> 01:14:33.740]  And that's why we are able to achieve clipping points like plus 6 and minus 9 with the addition of the proper voltage sources as modifications to where the diode begins operating and conducting.
+[01:14:35.140 --> 01:14:35.400]  Okay?
+[01:14:35.740 --> 01:14:36.120]  All right.
+[01:14:36.120 --> 01:14:43.100]  Now, this works in theory and in practice, it would also work.
+[01:14:43.100 --> 01:14:59.680]  However, it may not be particularly convenient or possible to put in a voltage source like that into the circuit.
+[01:15:00.980 --> 01:15:01.040]  Okay?
+[01:15:03.080 --> 01:15:12.960]  So is there a more practical, if you needed to do this clipping, all right, is there a more practical solution?
+[01:15:13.100 --> 01:15:14.100]  So is there a more practical solution?
+[01:15:14.100 --> 01:15:17.740]  Rather than putting a diode plus a voltage source?
+[01:15:18.380 --> 01:15:29.980]  Well, the answer essentially is that you could replace the diode, sorry, the voltage source with a zener.
+[01:15:32.020 --> 01:15:32.160]  Okay?
+[01:15:32.160 --> 01:15:32.200]  Okay?
+[01:15:33.000 --> 01:15:39.540]  So following that circuit a while ago, all right?
+[01:15:39.540 --> 01:15:57.360]  Following that circuit a while ago, if we replace the batteries with zener and we take into consideration the 0.7 volt characteristic of the diodes before they conduct,
+[01:15:57.360 --> 01:16:05.880]  we might be able to do this, we might be able to do this, we might be able to find zeners that will approximate the same conduction voltage.
+[01:16:05.880 --> 01:16:18.500]  So as an example, a 5.4 volt Zener plus an ordinary diode will conduct at roughly 6 volts, 6.1 volts.
+[01:16:19.160 --> 01:16:28.740]  And an 8.4 volt Zener with a diode will conduct at roughly 9 volts.
+[01:16:28.740 --> 01:16:36.140]  It really depends on your viewpoint or approximation of where the diodes will start conducting.
+[01:16:36.780 --> 01:16:40.720]  So 0.6 to 0.7 is the approximation.
+[01:16:42.020 --> 01:16:57.020]  So with the addition of these Zener's, replacing the batteries or voltage sources, we can get this same clipping function.
+[01:16:58.740 --> 01:17:16.440]  The end result of this implementation will be an output waveform that looks like this if you provide a sinusoidal voltage source or signal source of the same characteristic.
+[01:17:16.440 --> 01:17:22.540]  So this would be a much more practical implementation.
+[01:17:23.380 --> 01:17:27.720]  Kasi nga, saan ka kang kuha ng 6 volts at 9 volts?
+[01:17:28.420 --> 01:17:35.040]  So replace na lang natin, at least meron tayong Zener's na pwedeng ilagay.
+[01:17:35.040 --> 01:17:36.160]  All right?
+[01:17:36.160 --> 01:17:54.740]  And given this, if you recognize it, you can simplify the circuit even further by just putting these two Zener's like so.
+[01:17:54.740 --> 01:17:56.740]  All right?
+[01:17:56.740 --> 01:17:56.740] 
+[01:17:56.740 --> 01:17:56.740] 
+[01:17:56.740 --> 01:17:57.740]  All right?
+[01:17:57.740 --> 01:18:10.600]  So this one in the forward direction acts as an ordinary diode conducting at roughly 0.6 volts or 0.7 volts for that matter.
+[01:18:10.600 --> 01:18:26.740]  And when the voltage reaches 6 volts in total, all right, we will get enough voltage across, all right, such that this Zener diode begins to function.
+[01:18:27.280 --> 01:18:34.340]  And so it will limit the voltage excursion to approximately 6 volts in the forward direction.
+[01:18:34.340 --> 01:18:35.340]  Okay?
+[01:18:35.340 --> 01:18:36.340]  All right?
+[01:18:36.340 --> 01:18:44.480]  From the Zener knee of 5.4 plus the forward conduction of 0.6, we get 6 volts.
+[01:18:45.300 --> 01:18:45.420]  Okay?
+[01:18:45.940 --> 01:18:57.400]  And in the reverse direction, all right, in the reverse direction, this acts as an ordinary diode which will drop by about 0.6 or 0.7 volts.
+[01:18:57.400 --> 01:19:07.400]  And then we will get conduction when the voltage across becomes large enough such that this other Zener becomes conductive.
+[01:19:08.240 --> 01:19:12.540]  And that's what happens when we have 8.4 volts across this diode.
+[01:19:12.980 --> 01:19:25.080]  So 8.4 plus 0.6 gives us negative 9 volts, which is the point at which this circuit will limit the excursion of our input voltage.
+[01:19:25.080 --> 01:19:39.940]  And so you'll notice that it produces pretty much the same, all right, plus 6 to negative 9, all right, transfer function.
+[01:19:40.720 --> 01:19:40.960]  All right?
+[01:19:41.160 --> 01:19:44.760]  So these guys are basically equivalents of each other.
+[01:19:44.960 --> 01:19:49.080]  This is simpler because you've removed the extra diodes.
+[01:19:49.080 --> 01:19:55.880]  You realize that, hey, these diets can do the same thing in the forward direction anyway.
+[01:19:56.560 --> 01:19:56.860]  All right?
+[01:19:57.220 --> 01:20:05.300]  And this is the most simple and practical implementation of this guide.
+[01:20:05.940 --> 01:20:06.240]  All right?
+[01:20:07.520 --> 01:20:09.260]  So there you go with that.
+[01:20:09.260 --> 01:20:09.900]  Okay?
+[01:20:09.900 --> 01:20:09.900] 
+[01:20:11.900 --> 01:20:20.040]  So from this circuit over to this more practical implementation.
+[01:20:20.800 --> 01:20:20.960]  Okay?
+[01:20:21.480 --> 01:20:21.880]  All right.
+[01:20:22.040 --> 01:20:24.420]  So are there questions about this?
+[01:20:25.100 --> 01:20:25.960]  Okay ba tayo?
+[01:20:30.960 --> 01:20:31.720]  Questions?
+[01:20:32.120 --> 01:20:32.440]  Questions?
+[01:20:32.740 --> 01:20:33.640]  Ah, walang tanong.
+[01:20:33.640 --> 01:20:34.040]  Okay?
+[01:20:35.040 --> 01:20:39.400]  Hindi ako sure kung walang tanong dahil wala talagang tanong.
+[01:20:39.560 --> 01:20:41.940]  Malinaw o kaya tulog lahat.
+[01:20:42.080 --> 01:20:43.160]  Hello, you who?
+[01:20:43.760 --> 01:20:45.000]  Earth calling students.
+[01:20:45.460 --> 01:20:46.160]  Are we okay?
+[01:20:46.860 --> 01:20:49.280]  Thumbs up please if everybody's okay.
+[01:20:49.620 --> 01:20:50.180]  All right?
+[01:20:50.360 --> 01:20:50.920]  Very good.
+[01:20:52.140 --> 01:20:52.340]  Sige.
+[01:20:53.000 --> 01:20:53.340]  All right.
+[01:20:53.740 --> 01:20:56.020]  So I think we'll stop here.
+[01:20:56.380 --> 01:20:56.660]  All right?
+[01:20:56.700 --> 01:20:57.960]  Why are we going to stop here?
+[01:20:58.020 --> 01:21:02.680]  I already talked a little bit about the clamping, but, you know, we'll talk more about this.
+[01:21:02.680 --> 01:21:03.720]  Okay?
+[01:21:04.260 --> 01:21:07.280]  So that you get a clear picture of how the thing works.
+[01:21:07.420 --> 01:21:10.460]  But I think it's brain overload, number one.
+[01:21:10.620 --> 01:21:14.780]  And number two, we're ahead of the second class a little bit.
+[01:21:14.840 --> 01:21:16.480]  So I want to be able to synchronize.
+[01:21:16.680 --> 01:21:18.760]  So I'll stop here.
+[01:21:19.640 --> 01:21:20.080]  All right?
+[01:21:21.700 --> 01:21:26.540]  If you have any questions, this is a good time to start asking.
+[01:21:28.580 --> 01:21:29.060]  Wala.
+[01:21:29.680 --> 01:21:30.740]  Going, going.
+[01:21:30.740 --> 01:21:37.940]  Any questions about what we took up today's lesson or even the previous lesson?
+[01:21:38.140 --> 01:21:39.080]  Wala bang tanong dyan?
+[01:21:40.020 --> 01:21:40.240]  Okay?
+[01:21:40.720 --> 01:21:41.040]  All right.
+[01:21:41.180 --> 01:21:44.200]  So kung walang tanong, thank you for joining us today.
+[01:21:44.480 --> 01:21:48.740]  And I will see you again on Thursday online.
+[01:21:49.600 --> 01:21:49.920]  All right?
+[01:21:51.200 --> 01:21:51.640]  Goodbye.
+[01:21:51.640 --> 01:21:51.780]  Goodbye.
+[01:21:51.780 --> 01:21:51.800]  Goodbye.
+[01:21:51.800 --> 01:21:51.800] 
+[01:21:51.800 --> 01:21:51.800] 
+[01:21:51.800 --> 01:21:51.800] 
+[01:21:51.800 --> 01:21:51.800] 
+[01:21:51.800 --> 01:21:51.800] 
+[01:21:51.800 --> 01:21:51.800] 
+[01:21:51.800 --> 01:21:51.800] 
+[01:21:51.800 --> 01:21:51.800] 
+[01:21:51.800 --> 01:21:51.800] 
+[01:21:51.800 --> 01:21:53.800]  Goodbye.
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:21:54.260] 
+[01:21:54.260 --> 01:22:24.240]  Thank you.

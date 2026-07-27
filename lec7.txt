@@ -1,0 +1,1132 @@
+[00:00.000 --> 00:29.980]  Thank you.
+[00:30.000 --> 00:37.520]  I'll put the screen up and let's get back to where we left off last time.
+[00:38.760 --> 00:46.360]  Okay, start from the current slide and let me just share it.
+[00:48.260 --> 00:49.860]  Here's the slideshow.
+[00:53.720 --> 00:55.000]  Okay, here we go.
+[00:55.820 --> 00:58.000]  Hang on, let me just pull something.
+[00:58.000 --> 01:01.020]  I just want to be checking the, yikes.
+[01:02.220 --> 01:04.020]  Quite a bit of CPU load there.
+[01:07.240 --> 01:07.760]  Okay.
+[01:08.400 --> 01:09.080]  All right.
+[01:09.180 --> 01:11.600]  Well, it's within bounds, so not a big deal.
+[01:12.580 --> 01:14.220]  30, 40%.
+[01:14.220 --> 01:14.640]  Okay.
+[01:17.640 --> 01:18.760]  Peaking at 60.
+[01:19.240 --> 01:19.680]  Gosh.
+[01:20.940 --> 01:21.980]  Zoom is heavy.
+[01:21.980 --> 01:22.780]  Okay.
+[01:23.200 --> 01:23.540]  All right.
+[01:23.660 --> 01:25.560]  So let's go with this.
+[01:25.900 --> 01:32.540]  We actually stopped a couple of slides downstream from here, but let me just back this up a little
+[01:32.540 --> 01:36.300]  bit and remind some people about something.
+[01:37.000 --> 01:37.200]  Okay.
+[01:37.200 --> 01:38.200]  Okay.
+[01:38.200 --> 01:46.880]  So if we've been talking about light emitting diodes and there are various colors, as well
+[01:46.880 --> 01:57.140]  as wavelengths or emissions that are actually outside of the human perception range.
+[01:57.140 --> 02:06.420]  So the thing that I wanted to point out again here is that the forward voltage of these different
+[02:06.420 --> 02:13.220]  colored diodes, if you like, are quite different from each other.
+[02:13.220 --> 02:18.980]  If you look very carefully, the range here does overlap.
+[02:21.280 --> 02:28.400]  And that's simply reflective of the fact that, you know, the way that the manufacturer actually
+[02:28.400 --> 02:31.220]  produces these colors might vary.
+[02:31.560 --> 02:36.980]  The technology underneath the hood, if you like, does vary a little bit.
+[02:36.980 --> 02:46.120]  So for example, the blue colored LED has a very, very big range of possibilities in terms of forward bias.
+[02:46.540 --> 02:56.080]  You'll also notice that we, you know, the actual color or wavelength that's produced varies quite a bit.
+[02:56.080 --> 03:07.760]  And really that's the reason why a particular LED might have a, you know, larger or smaller forward voltage than expected.
+[03:08.580 --> 03:08.740]  Okay.
+[03:08.980 --> 03:22.820]  So having mentioned this, the thing that I want to point out really is that if you want to light up several LEDs at the same time, right?
+[03:22.820 --> 03:38.440]  Unlike incandescent bulbs where it is perfectly possible to use an incandescent bulb like so, right?
+[03:38.980 --> 03:47.920]  And you've had this from CETRON1, you can put these things basically in parallel, all right?
+[03:47.920 --> 03:55.220]  It is perfectly acceptable to operate these bulbs essentially in parallel.
+[03:56.120 --> 03:59.920]  And they'll just light up if they are incandescent.
+[04:01.080 --> 04:06.540]  You'll also notice that our electrical appliances in the house are basically all connected.
+[04:07.220 --> 04:10.060]  When you plug them into the outlet, they're all connected in parallel.
+[04:10.060 --> 04:21.120]  So you might be tempted to think that you can take LEDs, for example, and simply connect them in parallel, all right?
+[04:21.260 --> 04:29.420]  Like so, for example, I want to have three LEDs connected together, all right?
+[04:29.520 --> 04:37.920]  And I'll put a series resistor because that's what's needed to hold the current to a reasonable limit.
+[04:37.920 --> 04:44.380]  Remember that the LED conduction curve basically means that you have to current limit it.
+[04:44.480 --> 04:53.100]  If not, there's nothing to control how much current it will take in and the LED will blow up, okay?
+[04:53.400 --> 04:59.860]  So if we have three LEDs connected like this, is this going to work properly?
+[04:59.860 --> 05:09.820]  Okay, so the answer basically is if the LEDs have a reasonably matched forward voltage,
+[05:10.580 --> 05:18.260]  which means that they generally have to come from the same color, all right?
+[05:18.320 --> 05:29.000]  If they're of the same color and they are manufactured by the same manufacturer, all right?
+[05:29.000 --> 05:41.740]  Then, yes, they will have roughly the same forward voltage and you can get away with paralleling the units
+[05:41.740 --> 05:46.420]  and they will light up more or less with the same brightness, okay?
+[05:46.420 --> 05:52.680]  However, if you attempt to do something like combine, all right?
+[05:52.780 --> 06:02.180]  A red LED, which happens to have something like a 1.7 volt forward voltage, okay?
+[06:02.860 --> 06:07.560]  And you paralleled it with the blue LED, for example, all right?
+[06:07.560 --> 06:16.360]  So I have a red here, a blue here, and for example, a green, all right?
+[06:16.960 --> 06:19.900]  Will this actually light up?
+[06:20.920 --> 06:33.380]  And the answer is it's definite that they will not all light up when you do this, all right?
+[06:33.380 --> 06:34.660]  Why not?
+[06:35.280 --> 06:44.800]  Well, as you can see, the color or the LED forward voltages are different from each other, okay?
+[06:45.200 --> 06:47.220]  So we go over here as an example.
+[06:48.360 --> 06:56.380]  And say you try to light up, you know, the LEDs by putting that parallel combination.
+[06:56.380 --> 07:06.360]  You'll notice that the red LED, for example, if you push something like 20 milliampperes through the red LED,
+[07:07.500 --> 07:16.380]  its forward voltage is going to be, as stated, somewhere around the 1.6, 1.7 volts voltage.
+[07:17.320 --> 07:25.700]  So you can write this and say that, oh, okay, I'm going to get about 1.7 volts across the LED, right?
+[07:25.700 --> 07:34.660]  Now, in comparison to that, if you look at the blue as an example, the blue LED is way over here.
+[07:35.600 --> 07:41.520]  So with a forward voltage of 1.7, remember that they are in parallel.
+[07:42.700 --> 07:50.240]  If they are in parallel, then 1.7 across this guy means that there is also 1.7 across this guy,
+[07:50.580 --> 07:53.780]  which also means that this is 1.7 across the green.
+[07:53.780 --> 08:06.460]  And you'll notice that at 1.7 volts, 1.7 volts never intersects the green nor the blue, okay?
+[08:06.920 --> 08:13.420]  It does not intersect the green or the blue conduction line, right?
+[08:13.420 --> 08:20.400]  So, or if it does, well, okay, you can argue that it does way down here, right?
+[08:21.340 --> 08:29.920]  Which means that your red LED will be glowing really brightly,
+[08:30.700 --> 08:35.500]  whereas if you even get any light out of the green or the blue,
+[08:36.060 --> 08:39.000]  it is going to be extremely dim.
+[08:39.000 --> 08:44.920]  There's very, very little current flowing through it, if ever there is any.
+[08:45.480 --> 08:51.500]  So you could, in fact, if you had a bunch of sample LEDs, you could try this out, no?
+[08:51.500 --> 09:05.120]  So paralleling LEDs of different colors almost guarantees that there is going to be one or more
+[09:05.120 --> 09:10.540]  that is not going to be lit as brightly as the other, okay?
+[09:10.800 --> 09:13.380]  So that's the bottom line, okay?
+[09:13.380 --> 09:22.520]  You'll get a lot more, you know, synchronization in terms of lighting up.
+[09:22.620 --> 09:30.840]  If your colors are, you know, the type of LEDs that have a similar forward voltage.
+[09:30.980 --> 09:35.560]  Oh, by the way, one thing, don't take these graphs too seriously, no?
+[09:35.600 --> 09:37.060]  This is just an example.
+[09:37.060 --> 09:46.240]  For example, the graphs here do not actually correspond to the voltages as presented in this previous slide.
+[09:46.760 --> 09:54.060]  For example, the blue is 2.5 to 3.7.
+[09:54.860 --> 09:58.340]  The green is 1.9, right?
+[09:58.760 --> 09:59.320]  To 4.
+[09:59.320 --> 10:04.040]  And if you look at that, this lower bound is very, very far apart.
+[10:04.480 --> 10:09.980]  Yet when it comes to the curve, you see that these two are supposed to be very, very similar to each other,
+[10:10.080 --> 10:12.680]  which is obviously not true, okay?
+[10:12.680 --> 10:21.420]  So please take note that this is just, you know, for entertainment, if you like,
+[10:21.560 --> 10:30.740]  or, you know, purpose of emphasizing that the forward voltages are quite different from each other.
+[10:30.860 --> 10:32.960]  So don't take the graphs too seriously.
+[10:33.180 --> 10:36.320]  But bottom line is, yes, they are quite different.
+[10:36.320 --> 10:45.900]  And so therefore, if you wanted to light up different LEDs, all right, different colored LEDs,
+[10:46.840 --> 10:50.720]  typically you will not be able to do that in parallel.
+[10:51.040 --> 10:58.760]  Either you put an individual resistor each, all right, like this,
+[10:58.760 --> 11:06.380]  so that each one can develop its own forward voltage.
+[11:06.840 --> 11:10.160]  And you have to take that into consideration, all right?
+[11:10.680 --> 11:14.180]  If this is the green, then it will forward bias at 1.9.
+[11:14.280 --> 11:16.720]  This red will forward bias at 1.7.
+[11:17.260 --> 11:22.520]  And our blue will forward bias at 2.5 volts, all right?
+[11:22.520 --> 11:31.520]  And then you now have the ability to set the amount of current flowing individually,
+[11:31.520 --> 11:36.040]  which is going to be dependent on your supply voltage going in
+[11:36.040 --> 11:40.240]  and you calculating a different resistor,
+[11:40.560 --> 11:46.720]  one for the red, one for the blue, and one for the green individually
+[11:46.720 --> 11:51.600]  so that you can set the amount of current flowing through the diode.
+[11:51.600 --> 11:55.500]  And thus setting its brightness, okay?
+[11:55.980 --> 12:00.840]  The other factor that's of importance, which you may or may not be aware,
+[12:01.300 --> 12:09.740]  is that these LEDs with their different colors do have different, if you like, efficiencies, all right?
+[12:10.360 --> 12:17.360]  The blue LED, for example, takes very little current to light up pretty brightly.
+[12:17.360 --> 12:23.460]  And that's despite the fact that the human eye is not particularly, you know, sensitized to blue.
+[12:23.660 --> 12:27.460]  Our blue perception is kind of weak, all right?
+[12:27.580 --> 12:35.620]  So blue LEDs are actually high, very, very bright for the amount of current flowing through them.
+[12:35.620 --> 12:41.540]  So you might have to just simply throw in the towel and say, okay,
+[12:41.700 --> 12:48.060]  that means that, you know, I'll have to use different resistor values to set the different currents
+[12:48.060 --> 12:56.120]  just so that the presentation of the different colors have roughly the same brightness.
+[12:56.920 --> 12:57.220]  Okay?
+[12:57.220 --> 12:59.680]  So I hope that that's clear.
+[13:00.780 --> 13:00.900]  Okay?
+[13:01.460 --> 13:08.860]  The other thing that, well, the last touch or piece of information that I'd like to point out,
+[13:08.940 --> 13:13.980]  this is more of a complaint, is that a lot of the products that we see on the market nowadays,
+[13:14.180 --> 13:18.920]  for some weird reason, like to light up the LEDs extremely bright.
+[13:18.920 --> 13:24.640]  This is true, for example, for computer fans and stuff like that.
+[13:24.680 --> 13:26.740]  Well, I guess because you want to attract attention.
+[13:27.660 --> 13:34.360]  But even manufacturers of everyday appliances, like an air conditioner,
+[13:35.080 --> 13:39.000]  tend to always have the LEDs a little bit too bright.
+[13:39.140 --> 13:44.200]  And this is really annoying because when it comes down to nighttime or whatever,
+[13:44.200 --> 13:49.840]  it's very annoying to have this air conditioner with these LED lights, you know,
+[13:50.100 --> 13:54.400]  lighting up that little portion in the room such that, you know,
+[13:54.460 --> 13:57.120]  when you're trying to sleep, it's really bothersome.
+[13:57.460 --> 14:05.300]  So fortunately, most manufacturers recognize this and they give you the option to,
+[14:05.380 --> 14:09.340]  you know, set it in such a way that either the LEDs are dimmed out
+[14:09.340 --> 14:17.260]  or they're turned off completely so that they don't indicate anything anymore after you turn it on.
+[14:17.980 --> 14:19.080]  Okay, so there you go.
+[14:19.320 --> 14:21.940]  Are there questions at this point?
+[14:22.020 --> 14:25.060]  So you might want to see this, no?
+[14:25.180 --> 14:32.620]  So for an indicator LED, using LEDs basically that look something like this,
+[14:33.260 --> 14:37.580]  your starting point should be about 5 milliampers.
+[14:37.580 --> 14:43.000]  You see a lot of books and references say that, you know,
+[14:43.080 --> 14:45.620]  you should go for something like 20 milliampers.
+[14:46.000 --> 14:48.400]  That is actually way too high.
+[14:49.100 --> 14:54.000]  It will not give you a very, you know, it's going to be very bright.
+[14:54.460 --> 15:02.020]  Whereas 5 milliampers is still bright typically and enough for the LED
+[15:02.020 --> 15:08.740]  to visibly be distinguishably on and indicating that, hey, I'm on.
+[15:09.280 --> 15:13.020]  So even 1 to 2 milliampers is visible.
+[15:13.400 --> 15:21.040]  So 5 milliampers is heaps unless the LED is working in bright sunlight or whatever, you know.
+[15:21.040 --> 15:32.000]  So 5 milliampers is what I can recommend as a starting point for how much current you design the circuit to push into the LED
+[15:32.000 --> 15:37.460]  if you are trying to make something with, you know, these as indicators.
+[15:38.140 --> 15:38.280]  Okay.
+[15:38.760 --> 15:39.160]  All right.
+[15:39.460 --> 15:42.580]  So calculate it as such.
+[15:42.840 --> 15:43.060]  All right.
+[15:43.060 --> 15:50.160]  So an example, all right, I want to light up a particular LED, whatever it happens to be.
+[15:50.940 --> 16:00.700]  We know that the forward voltage at the current that it is being designed for, all right,
+[16:00.700 --> 16:08.000]  is 10 milliampers and its forward voltage is going to be 1.8 volts.
+[16:08.140 --> 16:09.240]  Where did that come from?
+[16:09.240 --> 16:13.160]  Maybe you had a graph that was like this, assuming that it was accurate.
+[16:14.300 --> 16:14.580]  All right.
+[16:15.040 --> 16:24.680]  And so 10 milliampers, you know, it would have a forward voltage of 1.8 volts.
+[16:24.880 --> 16:30.540]  So perhaps that LED happens to be a yellow LED, right?
+[16:31.620 --> 16:36.140]  So, well, yeah, the color of the LED is yellowish, orange yellowish.
+[16:36.200 --> 16:37.840]  So maybe it is a yellow LED.
+[16:37.840 --> 16:40.160]  So it's 1.8 volts.
+[16:40.700 --> 16:44.260]  So the supply voltage happens to be 5 volts.
+[16:44.700 --> 16:50.820]  What's the correct resistor value to give you this operating condition?
+[16:51.140 --> 16:52.980]  So the formula is very simple.
+[16:53.580 --> 17:04.340]  You calculate the series resistor based on the voltage drop anticipated divided by the current that you want to go through.
+[17:04.340 --> 17:06.360]  So you're going to substitute this.
+[17:06.360 --> 17:08.720]  The source voltage is 5 volts.
+[17:09.200 --> 17:17.640]  The forward voltage is predicted to be 1.8 volts at a current of 10 milliampers.
+[17:17.880 --> 17:20.900]  And you get your series resistor value.
+[17:21.200 --> 17:28.720]  And going through the calculations, you'll find that that is a value of 320 ohms, which, of course, does not exist.
+[17:28.720 --> 17:40.960]  So just look for a resistor that is easily purchasable or is in your junk box, which is of close enough value.
+[17:40.960 --> 17:50.820]  So based on the EIA 12 series of resistors, the closest match would be a 330 ohms.
+[17:50.820 --> 18:01.900]  And it's recommended that you go higher than the calculated series resistance value so that you don't push the LED to a higher current.
+[18:01.900 --> 18:13.380]  Instead, it's always better to run LEDs at a lower current because low current equals longer life.
+[18:13.380 --> 18:14.300]  All right.
+[18:14.820 --> 18:18.060]  So LEDs are subject to degradation.
+[18:19.060 --> 18:25.720]  You probably noticed that the LEDs in your house are, you know, when you first install them, they're very bright.
+[18:25.900 --> 18:33.020]  And then after some time, very short amounts of time, you may have perceived that they are less bright than before.
+[18:33.520 --> 18:35.520]  This is not because of dirt.
+[18:35.880 --> 18:38.780]  This is because the LEDs are degrading.
+[18:38.780 --> 18:39.220]  All right.
+[18:39.220 --> 18:46.660]  They have this mechanism where the light output will go down.
+[18:47.100 --> 18:47.740]  All right.
+[18:47.800 --> 18:48.580]  Over time.
+[18:48.580 --> 18:59.000]  And if you always run the LEDs at high currents, meaning that they, you know, they're operated very hard, they get very hot.
+[18:59.340 --> 19:04.060]  This will contribute to how quickly the LED itself degrades.
+[19:04.520 --> 19:04.680]  Okay.
+[19:04.680 --> 19:11.740]  So it's always better to just run them on low current because that will make their life much longer.
+[19:12.360 --> 19:12.700]  Okay.
+[19:13.140 --> 19:13.520]  All right.
+[19:13.640 --> 19:15.160]  So I hope that's clear.
+[19:15.540 --> 19:16.600]  Are there questions?
+[19:17.160 --> 19:18.080]  Can we go forward?
+[19:18.200 --> 19:20.040]  This is the last stuff about LEDs.
+[19:21.080 --> 19:22.760]  Will we get the thumbs up, please?
+[19:22.760 --> 19:23.760]  Okay.
+[19:28.220 --> 19:28.740]  Okay.
+[19:29.100 --> 19:34.420]  So let's go to, you know, just a couple of diodes that, you know, exist.
+[19:36.240 --> 19:42.480]  So, so far, what you've seen are diodes can be used for rectification.
+[19:42.840 --> 19:44.260]  Diodes can be used for lighting.
+[19:44.520 --> 19:47.520]  Diodes can be used for clipping and clamping.
+[19:48.000 --> 19:48.380]  All right.
+[19:48.380 --> 19:48.420]  Okay.
+[19:49.580 --> 19:58.100]  And of course, you have your Zener diodes, which provide, you know, voltage regulation or voltage referencing.
+[19:59.060 --> 19:59.200]  Okay.
+[19:59.340 --> 20:04.540]  So those are the diodes that we've taken up so far, but there are many different other kinds of diodes as well.
+[20:05.540 --> 20:15.920]  Sometimes with the same function, but for a specific region or operation where ordinary diodes cannot be used.
+[20:15.920 --> 20:18.240]  So let's have a look at that.
+[20:18.580 --> 20:18.680]  Okay.
+[20:19.080 --> 20:30.500]  So one of the diode designs would be, you know, or variations would be what is called as a varactor diode.
+[20:31.300 --> 20:37.520]  You might want to take note of things like this because obviously it's going to be released in the quiz, in the objective questions.
+[20:38.100 --> 20:38.340]  Okay.
+[20:38.340 --> 20:42.580]  So a varactor diode is a special diode.
+[20:42.580 --> 20:47.020]  There's a lot of sentences and phrases that are stated here.
+[20:47.160 --> 20:50.360]  So let me just try to make it more concise.
+[20:50.920 --> 21:01.720]  A varactor diode is a special diode where it's the capacitance of the diode junction itself is its important characteristic.
+[21:02.600 --> 21:02.860]  Okay.
+[21:02.860 --> 21:02.900]  Okay.
+[21:03.380 --> 21:07.620]  So the junction capacitance, the capacitance of the diode itself.
+[21:07.920 --> 21:08.300]  All right.
+[21:08.680 --> 21:15.740]  The capacitance of the diode itself, which has this kind of a symbol, by the way, you can see the capacitor there.
+[21:16.200 --> 21:16.500]  Okay.
+[21:16.500 --> 21:18.780]  It's part of the drawing.
+[21:18.780 --> 21:19.980]  It's a single thing.
+[21:20.140 --> 21:22.900]  It's not that, you know, it's not two separate parts.
+[21:23.520 --> 21:23.700]  All right.
+[21:23.700 --> 21:28.100]  The capacitance of the junction of the diode has been enhanced.
+[21:28.620 --> 21:29.460]  All right.
+[21:29.840 --> 21:34.260]  So that it becomes, you know, significant.
+[21:35.040 --> 21:49.020]  Under normal circumstances, you don't want a significant amount of capacitance because this will mean that the ability of the diode to switch on and off will be slower, which limits its high frequency applicability.
+[21:49.020 --> 21:53.480]  But in this particular case, for rectification, all right, for rectification.
+[21:54.100 --> 22:04.240]  But in this particular case, these values have been specially designed so that the capacitance is actually big or as big as possible or has a target value.
+[22:05.120 --> 22:10.720]  And the whole idea here is that this capacitance can actually vary.
+[22:10.980 --> 22:13.820]  There's that symbol of having the ability to vary.
+[22:13.820 --> 22:19.980]  It's a diagonal arrow, which means that it's a variable amount of capacitance.
+[22:20.920 --> 22:30.860]  The amount of capacitance of the junction changes with the bias, right, with the voltage across the diode.
+[22:31.660 --> 22:31.840]  Okay.
+[22:31.840 --> 22:40.260]  So lumalaki at lumiliit yung capacitance through a change in voltage across the diode.
+[22:40.260 --> 22:44.020]  And what is the use of such a thing?
+[22:44.020 --> 22:56.640]  Well, nowadays, for example, almost all of our devices that are using radio frequencies to do something,
+[22:56.640 --> 23:10.380]  a.k.a. you know, radios, smartphones, all right, televisions, which need to select a particular channel,
+[23:11.480 --> 23:17.540]  a.k.a. frequency over the air, for example, to receive a particular station.
+[23:17.540 --> 23:18.900]  Okay.
+[23:18.900 --> 23:31.060]  You might wonder, okay, so how does the circuit inside select a particular range of frequencies or a frequency band to actually receive?
+[23:31.060 --> 23:43.800]  Well, the answer to that is that in traditional systems before, you had what you call as a tuned radio frequency circuit.
+[23:43.940 --> 23:50.680]  That tuned radio frequency circuit usually was composed of an inductor and a capacitor,
+[23:51.320 --> 23:56.840]  either in this configuration, which is in parallel, or in series.
+[23:56.840 --> 23:57.840]  Okay.
+[23:57.840 --> 23:58.400]  Okay.
+[23:58.520 --> 24:01.040]  Most of the time, it was in parallel, to be honest.
+[24:01.180 --> 24:02.040]  Not this one.
+[24:02.100 --> 24:02.940]  This was harder to use.
+[24:03.260 --> 24:03.380]  Okay.
+[24:03.600 --> 24:08.420]  So a parallel combination of inductor and capacitor.
+[24:08.680 --> 24:12.820]  And they had to make one of those variables so that when you turn something,
+[24:13.420 --> 24:18.240]  the frequency that the thing receives will change.
+[24:18.680 --> 24:18.900]  Okay.
+[24:19.180 --> 24:24.440]  So yung radio, gusto kong makinig sa 97.1 megahertz.
+[24:24.440 --> 24:31.320]  So you turn the knob, all right, and, you know, the circuit goes over and tunes itself
+[24:31.320 --> 24:38.400]  and receives only the frequencies near 97.1, centered at 97.1.
+[24:38.560 --> 24:39.500]  How was that done?
+[24:39.500 --> 24:51.140]  Well, again, the capacitance and inductance combined, you remember the parallel resist inductor-capacitor formula from C-Tron 1, all right?
+[24:51.140 --> 24:56.280]  So when you tune the knob, you're actually changing the capacitance inside.
+[24:57.320 --> 25:05.900]  So that can be done if you turn it or have something that will provide that rotary motion.
+[25:06.540 --> 25:11.120]  But you'll notice that today's devices don't have anything like that.
+[25:11.220 --> 25:13.500]  It's all electronically tuned.
+[25:13.960 --> 25:15.140]  So how do they do it?
+[25:15.140 --> 25:17.680]  Well, the answer is using varactor diodes.
+[25:18.080 --> 25:18.220]  Okay.
+[25:18.220 --> 25:35.180]  So varactor diodes are used in today's electronics to tune, all right, circuits so that you have this ability to center on a frequency range of interest.
+[25:35.180 --> 25:36.060]  Okay?
+[25:36.060 --> 25:52.440]  So it's much easier to generate a variable voltage to provide the voltage needed by the diode across itself to change the capacitance using pure electronics.
+[25:52.900 --> 25:58.280]  Unlike here, where the capacitance needs to be changed by physical means.
+[25:58.280 --> 25:58.880]  Okay?
+[25:58.880 --> 25:58.900]  Okay.
+[25:59.000 --> 26:05.120]  Ito, mavavari mo yung capacitance electronically or electrically for that matter.
+[26:05.840 --> 26:06.060]  Okay?
+[26:06.700 --> 26:11.220]  So they are also called voltage variable capacitance diodes.
+[26:11.700 --> 26:13.520]  Varactor diodes.
+[26:13.700 --> 26:13.880]  Okay?
+[26:14.480 --> 26:14.840]  All right.
+[26:15.040 --> 26:19.120]  So I don't know if that's probably enough information.
+[26:19.720 --> 26:19.900]  Okay?
+[26:20.380 --> 26:24.720]  And if you have any questions about it, of course, feel free to ask.
+[26:25.280 --> 26:25.580]  All right?
+[26:25.580 --> 26:26.100]  Okay.
+[26:26.240 --> 26:27.940]  Here's another kind of diode.
+[26:28.200 --> 26:37.060]  And as computer science students, you'll hear a lot more of these mentioned again and again, the particular name, Scott Key.
+[26:37.700 --> 26:38.060]  All right?
+[26:38.460 --> 26:48.840]  So Scott Key diodes are a special, again, specialized kind of diode where you have exactly the opposite design.
+[26:49.360 --> 26:49.640]  All right?
+[26:49.640 --> 26:53.860]  When you talk about varactor diodes, you're trying to maximize the capacitance.
+[26:53.860 --> 26:56.920]  In Scott Key diodes, it's the exact opposite.
+[26:57.240 --> 26:59.740]  You're trying to minimize the capacitance on the junction.
+[27:00.760 --> 27:00.980]  All right?
+[27:01.700 --> 27:09.240]  And not only that, using some special internal design techniques.
+[27:09.580 --> 27:09.780]  All right?
+[27:10.360 --> 27:19.560]  Scott Key diodes are designed so that they can switch at extremely high speeds.
+[27:20.380 --> 27:20.640]  All right?
+[27:20.640 --> 27:21.260]  Okay.
+[27:21.260 --> 27:28.380]  Ordinary silicon diodes cannot turn on and off very, very quickly.
+[27:28.800 --> 27:31.660]  They take a finite amount of time.
+[27:32.560 --> 27:40.520]  And typically, the bigger or heavier the junction of the diode, meaning that it's designed for higher currents of operation,
+[27:40.520 --> 27:48.160]  the slower or the longer it takes for the diode to switch off in particular.
+[27:48.160 --> 27:48.680]  Okay?
+[27:48.680 --> 27:49.240]  Okay?
+[27:49.240 --> 27:49.300]  Okay?
+[27:50.020 --> 27:57.600]  Now, Scott Key diodes have been designed so that they can switch off and on very, very quickly.
+[27:58.460 --> 28:01.140]  So what's this?
+[28:01.140 --> 28:11.480]  The claim to fame of these guys, given that they have the ability to switch on and off, is that they can be used in high frequency operation circuits.
+[28:12.160 --> 28:12.400]  All right?
+[28:12.400 --> 28:17.360]  Particularly for turning on and off or gating.
+[28:18.460 --> 28:18.820]  All right?
+[28:19.520 --> 28:20.760]  Current through.
+[28:21.560 --> 28:24.200]  And so where will you find them being applied?
+[28:24.200 --> 28:54.180]  All right.
+[28:54.180 --> 29:08.260]  It's possible nowadays because people have redesigned the basic power supply such that it now operates at very, very high frequency.
+[29:08.260 --> 29:20.980]  So unlike before where traditional transformers are limited to operating at the line frequency provided, which is 50 or 60 hertz.
+[29:21.980 --> 29:22.260]  All right?
+[29:22.720 --> 29:25.460]  Thus, transformers were big and bulky.
+[29:26.300 --> 29:26.680]  All right?
+[29:26.680 --> 29:37.680]  Nowadays, these switch mode power supplies are operating at frequencies of 80 kilohertz, 100 kilohertz, way above.
+[29:37.960 --> 29:38.360]  All right?
+[29:38.400 --> 29:39.760]  Our ability to hear.
+[29:40.340 --> 29:44.800]  And because they are doing that, the transformers are now extremely small.
+[29:44.800 --> 29:54.380]  So if you look over here where I'm pointing, for example, this is actually a transformer that's rated at something like 50 or 60 watts.
+[29:54.700 --> 30:00.960]  So this little tiny thing here is a transformer that's rated at 50 or 60 watts.
+[30:00.960 --> 30:11.540]  Whereas traditionally, a transformer would be something that is at least this big, what I'm forming here in my hand.
+[30:12.120 --> 30:19.280]  The transformer for a 50 to 60 watt rating would be about this big if it were operating at 60 hertz.
+[30:19.280 --> 30:23.840]  So now it is only this big, all right?
+[30:23.840 --> 30:32.480]  It's only this big because this thing is operating at at least 40 kilohertz and probably more.
+[30:33.400 --> 30:33.460]  Okay?
+[30:33.880 --> 30:36.180]  So that's the beauty of that one.
+[30:36.280 --> 30:45.320]  Now, the thing here is when you're operating at 40, 80 kilohertz or something like that, the output of this circuit is still AC.
+[30:45.740 --> 30:47.840]  We need to convert it into DC.
+[30:47.840 --> 30:55.780]  And so you'd recognize that this AC to DC conversion must be done using diodes.
+[30:56.600 --> 30:57.400]  Rectification.
+[30:58.280 --> 31:00.280]  So the point here, I'm pointing the wrong way.
+[31:00.640 --> 31:00.780]  All right?
+[31:00.840 --> 31:03.240]  So the output here, all right, is DC.
+[31:03.780 --> 31:04.060]  All right?
+[31:04.100 --> 31:04.640]  Is DC.
+[31:05.060 --> 31:12.820]  So from AC in the transformer, it is made into DC through rectification.
+[31:12.820 --> 31:23.600]  That means that the diodes here must be able to do their job at a frequency of 80 kilohertz.
+[31:23.600 --> 31:25.100]  All right?
+[31:25.100 --> 31:29.140]  And ordinary diodes cannot operate at 80 kilohertz.
+[31:29.220 --> 31:34.120]  That's way too fast for them to switch on and off properly.
+[31:35.000 --> 31:35.280]  All right?
+[31:35.280 --> 31:43.620]  So the output of this guy, all right, the output diode, the rectifier diode for this guy is a Scott Key diode.
+[31:44.040 --> 31:44.300]  All right?
+[31:44.720 --> 31:46.180]  It's a Scott Key diode.
+[31:47.620 --> 31:48.240]  There you go.
+[31:48.240 --> 32:02.640]  So this is one of those modern designs that has, well, is now extremely, you know, well used, right?
+[32:02.640 --> 32:08.500]  Because of the proliferation of switch mode power systems.
+[32:09.020 --> 32:09.140]  Okay?
+[32:09.480 --> 32:17.980]  So switch mode, more or less the diodes, if there are diodes in there at the output section, are Scott Key diodes.
+[32:18.360 --> 32:18.620]  Okay?
+[32:19.040 --> 32:19.340]  All right.
+[32:19.740 --> 32:20.600]  Are there questions?
+[32:21.760 --> 32:22.120]  Questions?
+[32:23.720 --> 32:26.400]  Can you tell if a diode is a Scott Key?
+[32:26.780 --> 32:29.440]  Well, generally speaking, they look the same.
+[32:30.260 --> 32:30.640]  All right?
+[32:30.640 --> 32:33.920]  They look the same as ordinary silicon diodes.
+[32:34.460 --> 32:42.940]  The only difference that you might notice about them is the fact that their number, what's printed on them.
+[32:43.580 --> 32:47.520]  Our typical diodes are 1N, all right?
+[32:48.500 --> 32:54.380]  1N4001, 1N4148, you know, things like that.
+[32:55.540 --> 32:57.600]  1N60, which is germanium.
+[32:57.700 --> 32:58.400]  How did we know?
+[32:58.400 --> 33:00.320]  Well, you just have to be familiar.
+[33:00.640 --> 33:07.700]  With Scott Key diodes, there's, you know, there are certain manufacturers that they have named them IS, all right?
+[33:07.800 --> 33:11.420]  Which just clues you in that, hey, this is a different thing.
+[33:11.520 --> 33:12.700]  It's not a 1N.
+[33:12.700 --> 33:20.500]  So the 1S might normally imply that it is a Scott Key, but that's not a rule, all right?
+[33:20.500 --> 33:29.560]  So you really have to look and see, all right?
+[33:29.560 --> 33:31.280]  Google will tell you, all right?
+[33:31.280 --> 33:41.900]  The other thing that you would probably notice with the Scott Key diode, all right, if you get the chance to test one, is that it's forward voltage, all right?
+[33:41.900 --> 33:51.740]  The forward voltage of the diode, the forward voltage of the diode, when you test it, you'll see that the forward voltage is equal to, you know, 0.2 to about 0.3 volts.
+[33:51.740 --> 33:55.300]  So it will look like it is a germanium diode.
+[33:55.300 --> 33:59.900]  The forward voltage is very, very small, all right?
+[33:59.900 --> 34:07.200]  But the other clue that you'll find is that its forward conduction curve is very, very sharp.
+[34:07.600 --> 34:13.120]  So unlike the germanium that does start at 0.2 also, it has a lazy curve.
+[34:13.660 --> 34:16.940]  So you'll know that this is a germanium diode, right?
+[34:16.940 --> 34:23.760]  And the other one, the Scott Key, all right, the Scott Key, has a much sharper curve.
+[34:23.920 --> 34:28.060]  Pareho silang 0.2 pero mabilis talaga umakat yung sa Scott Key.
+[34:28.420 --> 34:37.400]  Parang silicon diode siya na low, low, low ang forward voltage, okay?
+[34:37.900 --> 34:42.640]  So if you see something like this, all right, you know that it is a Scott Key.
+[34:42.640 --> 34:50.900]  And, you know, it will clue you in that you have a Scott Key diode if you see that it comes from a switch mode power supply.
+[34:51.720 --> 34:52.080]  All right?
+[34:52.440 --> 34:54.020]  Okay, so there you go with that.
+[34:55.660 --> 35:01.080]  Next, and never mind the current regulator diode, tunnel diode, siguro, pwede na to.
+[35:01.340 --> 35:08.080]  All right, so these are kinds of diodes that, you know, just you should be sort of familiar with.
+[35:08.180 --> 35:10.160]  We don't have to know everything.
+[35:10.160 --> 35:12.640]  Okay, so let's skip those.
+[35:13.520 --> 35:20.020]  And finally, all right, how do you test if you have a good or bad diode?
+[35:20.200 --> 35:21.320]  This is the last page.
+[35:21.920 --> 35:22.220]  All right?
+[35:22.920 --> 35:25.500]  So it's very simple.
+[35:26.320 --> 35:30.440]  You take a digital multimeter, okay?
+[35:30.440 --> 35:32.140]  You take your diode.
+[35:34.200 --> 35:42.580]  And your DMM, all right, has a setting where it is a diode symbol.
+[35:43.240 --> 35:44.200]  Nothing could be simpler.
+[35:44.920 --> 35:45.100]  Okay?
+[35:45.100 --> 35:53.140]  And you take your leads, all right, and connect them like so.
+[35:54.460 --> 35:55.040]  All right?
+[35:55.960 --> 36:06.660]  And you'll notice that if this is your black and this is your red, all right, this thing should basically say OL or open.
+[36:07.440 --> 36:08.100]  Okay?
+[36:08.360 --> 36:09.220]  Open circuit.
+[36:09.220 --> 36:09.340]  Why?
+[36:10.980 --> 36:11.580]  Why?
+[36:11.860 --> 36:15.960]  Well, because you're biasing the diode in the wrong way.
+[36:17.140 --> 36:17.440]  Okay?
+[36:17.540 --> 36:19.280]  You're biasing the diode in the wrong way.
+[36:19.340 --> 36:20.820]  This is reverse bias.
+[36:21.320 --> 36:23.700]  So your diode should remain open circuit.
+[36:23.840 --> 36:26.460]  So this is one of the things that you need to check and verify.
+[36:26.460 --> 36:29.220]  Is it an OL?
+[36:29.700 --> 36:33.780]  Is it an open circuit when I have it reverse bias?
+[36:34.980 --> 36:35.260]  Okay?
+[36:35.620 --> 36:36.140]  Got that?
+[36:37.300 --> 36:37.500]  Okay?
+[36:39.040 --> 36:51.840]  Now, on the other hand, if you now reorient your diode and put it this way, notice where the red is, okay?
+[36:51.840 --> 36:56.220]  You'll be biasing it in this direction, which means the current is going this way.
+[36:56.980 --> 36:57.240]  All right?
+[36:58.100 --> 37:00.600]  This is now forward bias.
+[37:00.920 --> 37:08.080]  And this thing should now display the forward voltage of the diode.
+[37:08.080 --> 37:25.220]  Now, if you know that it is an ordinary silicon diode, then you should be reading something in the neighborhood of babies, you know, 0.4 to about 0.7 something volts.
+[37:25.900 --> 37:28.720]  That's the expected range of values.
+[37:28.820 --> 37:33.320]  If it's Scott Key, then you'll see that it's 0.2 to 0.3.
+[37:33.800 --> 37:34.160]  All right?
+[37:34.680 --> 37:39.260]  So you need to check both, all right, directions.
+[37:40.440 --> 37:48.100]  If you get a reading, a voltage that looks suspiciously too low, it might also mean that it's busted, shortened.
+[37:48.820 --> 37:48.960]  Okay?
+[37:48.960 --> 37:54.620]  And because it could be shortened, that's why it's also important to always check the reverse direction.
+[37:55.360 --> 38:01.520]  If it shows that it's also conducting in the reverse direction, it's definitely a broken diode.
+[38:01.740 --> 38:11.980]  It might be not totally broken, but even a partial conduction in the reverse direction basically says that, hey, this diode is about to go kaputs.
+[38:12.300 --> 38:14.440]  Or it already is partially destroyed.
+[38:14.820 --> 38:15.960]  So you should throw it out.
+[38:16.360 --> 38:16.580]  Okay?
+[38:16.580 --> 38:24.580]  So check the forward as well as reverse characteristics.
+[38:25.320 --> 38:29.420]  They have to show that the diode is working.
+[38:29.720 --> 38:40.020]  And that's indicated essentially if you have the multimeter on the diode test mode, it will force a small amount of, you know,
+[38:40.220 --> 38:45.200]  biasing voltage and current through the diode to allow you to find out.
+[38:45.520 --> 38:46.160]  Okay?
+[38:46.580 --> 38:46.980]  All right.
+[38:46.980 --> 38:46.980] 
+[38:47.120 --> 38:51.740]  So that's something hopefully that you'll be able to do.
+[38:52.580 --> 38:52.740]  Okay?
+[38:53.280 --> 38:58.820]  I noticed that in the lab, nobody was actually doing that or testing the diodes.
+[38:59.140 --> 39:02.340]  You all assume that what was given to you is not broken.
+[39:02.680 --> 39:04.140]  That's very bad practice.
+[39:04.420 --> 39:04.580]  Okay?
+[39:05.080 --> 39:08.260]  So very least, try it out.
+[39:08.440 --> 39:10.260]  Make sure that the diode is okay.
+[39:10.260 --> 39:10.700]  Okay.
+[39:10.700 --> 39:11.260]  Okay.
+[39:11.260 --> 39:11.260] 
+[39:11.260 --> 39:17.720]  So let's say, okay, there is an upper limit as to how much forward voltage the multimeter can provide.
+[39:17.720 --> 39:19.720]  You might want to take note of this.
+[39:19.720 --> 39:24.500]  Sir, can I also test LEDs using the multimeter?
+[39:24.500 --> 39:26.500]  Answer is yes.
+[39:26.500 --> 39:26.820]  Yes.
+[39:26.820 --> 39:35.780]  Typically, if the LEDs have a forward voltage less than the internal supply voltage of the meter.
+[39:35.780 --> 39:42.920]  So most meters basically operate with about 3 volts of supply voltage internally.
+[39:42.920 --> 39:48.300]  They're powered through two AA batteries.
+[39:48.300 --> 39:50.140]  Or sometimes it's a 9 volts.
+[39:50.140 --> 39:52.920]  And then they regulate it down.
+[39:52.920 --> 40:01.480]  So typically, the forward voltage must be less than, say, for example, just a little over 2 volts.
+[40:02.080 --> 40:12.260]  If you're trying to test an LED like a blue colored LED, alright, or a white colored LED where the forward voltage is somewhere around 3 volts,
+[40:12.920 --> 40:13.200] !
+[40:13.200 --> 40:15.240]  They will simply not light up.
+[40:15.680 --> 40:15.760]  Okay?
+[40:15.880 --> 40:16.740]  Hindi yan sisindi.
+[40:16.740 --> 40:16.860]  Okay.
+[40:17.500 --> 40:27.720]  Pero kung tinatesting mo ay red na LED, on dial test, you will be able to see that a red LED will light up.
+[40:28.200 --> 40:31.180]  Mahinang-mahina yung ila pero makikita mo meron.
+[40:31.740 --> 40:31.980]  Okay?
+[40:31.980 --> 40:41.060]  So this can be used to test LEDs that are green, red, yellow, alright, or amber.
+[40:41.980 --> 40:46.380]  But anything aside from that, well, probably not.
+[40:46.740 --> 40:47.100]  Okay?
+[40:47.240 --> 40:48.400]  And that's the last slide.
+[40:50.980 --> 40:51.540]  Questions?
+[40:52.840 --> 40:53.080]  Alright?
+[40:54.140 --> 40:54.820]  Questions ba?
+[40:55.260 --> 40:59.360]  You might want to take note na yung mga pinagsasabi ko, medyo mabilis lang yan.
+[40:59.600 --> 40:59.780]  Alright?
+[40:59.920 --> 41:02.980]  That's on the top of my head.
+[41:02.980 --> 41:13.680]  And statements like these, advice and information, alright, will definitely come out in the quiz.
+[41:17.380 --> 41:17.900]  Okay?
+[41:18.040 --> 41:19.700]  Sayang points if you don't get it.
+[41:19.820 --> 41:20.000]  Okay?
+[41:20.080 --> 41:23.540]  So that's the last slide for dials.
+[41:23.900 --> 41:25.080]  Are there questions?
+[41:25.080 --> 41:29.520]  Tinanggal ko na yung slide pero pwede pa naman balikan kung may tanong.
+[41:30.120 --> 41:31.660]  Meron ba tanong o wala?
+[41:34.800 --> 41:35.260]  Okay?
+[41:35.940 --> 41:37.580]  Wala kasi tulog lahat.
+[41:38.420 --> 41:38.580]  Alright.
+[41:39.300 --> 41:40.420]  Show fans, please.
+[41:40.420 --> 41:44.360]  Ah, okay.
+[41:44.360 --> 41:44.420]  Okay.
+[41:46.420 --> 41:52.840]  Why does the testing only work on certain color diodes?
+[41:52.940 --> 41:59.100]  Again, let me reiterate that different diodes have different forward voltages.
+[41:59.100 --> 41:59.940]  Okay?
+[42:00.940 --> 42:11.200]  And the multimeter only provides up to about 2 volts of available forward, you know, testing voltage.
+[42:12.840 --> 42:13.500]  Yes?
+[42:15.200 --> 42:25.900]  So if you are talking about a blue diode, a blue diode or a white diode, this is not forward bias at 2 volts.
+[42:26.240 --> 42:27.140]  So it won't light up.
+[42:27.860 --> 42:28.080]  Alright?
+[42:28.080 --> 42:28.480]  Okay.
+[42:28.480 --> 42:29.040]  Sige.
+[42:30.040 --> 42:30.860]  Other questions?
+[42:34.480 --> 42:35.320]  Other questions?
+[42:35.440 --> 42:35.900]  Other questions?
+[42:39.380 --> 42:39.860]  Wala.
+[42:40.260 --> 42:40.460]  Alright.
+[42:40.460 --> 42:50.380]  So if there are no other questions, then we go to the next series of slides.
+[42:51.180 --> 42:51.260]  Okay?
+[42:51.940 --> 42:54.580]  And that is to do with...
+[42:54.580 --> 42:54.800]  Hang on.
+[42:54.860 --> 42:56.260]  Let me just get it up on screen.
+[42:57.200 --> 42:57.440]  Alright?
+[42:57.440 --> 43:12.740]  It's high time we start talking about one of the most important inventions of the century.
+[43:12.740 --> 43:15.120]  The prior century.
+[43:15.120 --> 43:16.120]  The 1950s.
+[43:16.120 --> 43:19.120]  All right?
+[43:19.120 --> 43:23.440]  And so let's put that up on screen.
+[43:23.440 --> 43:23.860]  Show.
+[43:23.860 --> 43:25.020]  Start slide show.
+[43:25.020 --> 43:26.400]  You might have come across this.
+[43:26.400 --> 43:33.520]  So you might have come across this already or parts of it presented, at least mentioned in CCICOMP.
+[43:33.520 --> 43:35.900]  But the general tendency of the CCICOMP.
+[43:35.900 --> 43:46.280]  But the general tendency of the CCICOMP features is to sort of gloss over this and just pass by it very, very quickly.
+[43:46.280 --> 43:50.660]  Because not everybody is going to go into electronics or anything like that.
+[43:50.660 --> 43:55.660]  So let's have a quick look at this.
+[43:55.660 --> 43:58.200]  Let me just capture it.
+[43:58.200 --> 43:59.520]  You're not seeing what I'm seeing.
+[43:59.520 --> 44:02.800]  So where is the Zoom meeting?
+[44:02.800 --> 44:04.260]  Here we go.
+[44:04.500 --> 44:04.820]  Share.
+[44:04.820 --> 44:05.820]  Here.
+[44:05.820 --> 44:06.820]  Here.
+[44:06.820 --> 44:07.820]  Here.
+[44:07.820 --> 44:07.820] 
+[44:07.820 --> 44:08.820]  Here.
+[44:08.820 --> 44:09.820]  Here.
+[44:09.820 --> 44:09.820] 
+[44:09.820 --> 44:10.820]  Here.
+[44:10.820 --> 44:11.820]  Here.
+[44:11.820 --> 44:12.820]  Okay.
+[44:12.820 --> 44:13.820]  All right.
+[44:13.820 --> 44:21.200]  Now, as promised, the next topic, the next big topic is about V transistor.
+[44:21.200 --> 44:22.200]  Okay.
+[44:22.200 --> 44:26.200]  So very, very quickly, we'll just look at the quick history of it.
+[44:26.200 --> 44:33.200]  And then after that, then, of course, we'll go into the technical details.
+[44:33.200 --> 44:34.200]  All right.
+[44:34.200 --> 44:36.200]  So let's talk about this.
+[44:36.200 --> 44:40.200]  Turn on the pen and go on to the next slide here.
+[44:40.200 --> 44:41.200]  Okay.
+[44:41.200 --> 44:43.200]  So just as a quick background.
+[44:43.200 --> 44:44.200]  Okay.
+[44:44.200 --> 44:48.200]  What's this?
+[44:48.200 --> 44:56.200]  In the 19th century, for example, all right, scientists were rarely inventors.
+[44:56.200 --> 44:58.200]  All right.
+[44:58.200 --> 45:05.200]  Samuel Morse, Alexander Graham Bell, and Thomas Alva Edison were not scientists.
+[45:05.200 --> 45:09.200]  They were geniuses.
+[45:09.200 --> 45:11.200]  All right.
+[45:11.200 --> 45:32.200]  So people with a flair and ability to think things through, but, you know, did not have necessarily the scientific background nor education.
+[45:32.200 --> 45:33.200]  All right.
+[45:33.200 --> 45:34.200]  So please take note.
+[45:34.200 --> 45:37.200]  We're not deriding these people.
+[45:37.200 --> 45:40.200]  They were obviously very brilliant.
+[45:40.200 --> 45:42.200]  As I said, they were geniuses.
+[45:42.200 --> 45:51.200]  Graham Bell associated with the invention of the telephone, although that's disputed.
+[45:51.200 --> 46:11.200]  Thomas Edison, which you've already encountered in Citron 1, all right, was most famous for many different inventions, including the phonograph and the incandescent light bulb, which is why he went into developing electricity.
+[46:11.200 --> 46:12.200]  All right.
+[46:12.200 --> 46:13.200]  All right.
+[46:13.200 --> 46:15.200]  Morse is known for what?
+[46:15.200 --> 46:18.200]  Well, Morse code and transmission of data.
+[46:18.200 --> 46:19.200]  All right.
+[46:19.200 --> 46:24.200]  So no doubt these inventions are great.
+[46:24.200 --> 46:25.200]  Okay.
+[46:25.200 --> 46:33.200]  But interestingly, none of these three are scientists by training.
+[46:33.200 --> 46:44.200]  On the other hand, if you talk about the 20th century, all right, scientists begin invading the domain of invention.
+[46:44.200 --> 46:46.200]  They start inventing things.
+[46:46.200 --> 47:00.200]  So from purely theoretical, now scientists are able to bring the theoretical aspect into something more tangible.
+[47:00.200 --> 47:02.200]  All right.
+[47:02.200 --> 47:12.200]  Nowadays, because it's kind of blurred, but typically, you know, the pure science tends to ride on the theoretical.
+[47:12.200 --> 47:23.200]  And then the theoretical ideas are brought into real world by engineers, right?
+[47:23.200 --> 47:32.200]  So you have that connection between scientists and engineers, and they work hand in hand to produce, you know, the technology.
+[47:32.200 --> 47:39.200]  Technology would not exist if the theory were not developed and discovered.
+[47:39.200 --> 47:54.200]  Some of the diodes that we were talking about certainly came from, all right, the minds of scientists figuring out, oh, we can get electrons to tunnel through this junction.
+[47:54.200 --> 47:55.200]  All right.
+[47:55.200 --> 47:58.200]  For example, tunneling diode.
+[47:58.200 --> 47:59.200]  All right.
+[47:59.200 --> 47:59.200] 
+[47:59.200 --> 48:08.200]  So John Fleming, for example, invented the vacuum tube diode.
+[48:08.200 --> 48:18.200]  And Lee DeForest is the inventor of the triode, which is a kind of vacuum tube that can amplify it.
+[48:18.200 --> 48:19.200]  All right.
+[48:19.200 --> 48:21.200]  So a vacuum tube diode.
+[48:21.200 --> 48:22.200]  All right.
+[48:22.200 --> 48:28.200]  Other than the four times when the diode, all right, does the same thing as what we've talked to you about diodes.
+[48:28.200 --> 48:34.200]  It's used for gating and rectification purposes.
+[48:34.200 --> 48:35.200]  All right.
+[48:35.200 --> 49:01.400]  Well, Lee DeForest invented, using the technology and ideas of the vacuum tube diode, he was able to add a third element into it to control the conduction characteristic, which is why it's called a triode, a third element, tri,
+[49:01.400 --> 49:06.940]  which now allows the conduction of the diode to be controllable.
+[49:08.140 --> 49:13.660]  And thus, this is now a device that can be used to amplify.
+[49:15.640 --> 49:19.420]  Now, it stayed that way for a very, very long time.
+[49:20.340 --> 49:27.840]  The problem with vacuum tube, you remember your CCI comp where they talked about the ENIAC, ENIAC being vacuum tubes, etc., etc.
+[49:27.840 --> 49:29.320]  All right?
+[49:30.360 --> 49:49.240]  Maybe what they didn't tell you is that, which is actually clearly in the history of it, and it's fascinating to read about the ENIAC, is that it was very, very, very unreliable.
+[49:49.240 --> 49:49.720]  Okay?
+[49:49.720 --> 49:49.720] 
+[49:51.560 --> 50:00.940]  So for all the celebration that we have, putting the ENIAC on a pedestal saying, hey, here's the first electronic computer.
+[50:02.080 --> 50:04.120]  It's not even the first computer.
+[50:04.740 --> 50:10.320]  The first computer, you know, predates the ENIAC by quite a bit.
+[50:10.320 --> 50:12.660]  But anyway, right?
+[50:14.380 --> 50:16.100]  Hopefully, CCI can't cover that.
+[50:16.220 --> 50:16.700]  I don't know.
+[50:16.900 --> 50:24.380]  But anyway, bottom line is, what they often don't mention is that the ENIAC was ridiculously unreliable.
+[50:25.240 --> 50:25.780]  Why?
+[50:26.280 --> 50:32.660]  Well, it had about 17,700 or so vacuum tubes.
+[50:32.660 --> 50:49.440]  And vacuum tube technology is basically, you know, a question of emitting electrons through the use of a very, very hot material.
+[50:51.060 --> 50:51.320]  Okay?
+[50:51.320 --> 51:00.760]  So the heart of a vacuum tube is a material that emits electrons, and the emission basically happens because of its high temperature.
+[51:02.160 --> 51:06.280]  And that high temperature is achieved using a heating element.
+[51:07.540 --> 51:07.780]  All right?
+[51:08.980 --> 51:19.320]  That heating element is there and needs to be powered to make that other material hot enough so that it starts emitting and is ready to emit electrons.
+[51:19.320 --> 51:21.320]  In fact, it emits electrons.
+[51:22.740 --> 51:23.120]  All right?
+[51:23.640 --> 51:27.460]  A lot of it, which is what allows the vacuum tube to conduct.
+[51:28.920 --> 51:29.280]  All right?
+[51:30.180 --> 51:41.440]  So the fact that you have heating means that eventually this heating element and everything there will deteriorate.
+[51:41.660 --> 51:45.700]  Anything that is hot, very hot, will die an early death.
+[51:46.380 --> 51:46.780]  All right?
+[51:47.300 --> 51:48.780]  And that's the case.
+[51:48.780 --> 51:59.880]  With so many vacuum tubes operating all at the same time, several of them, which are typically in very close proximity with each other,
+[52:00.640 --> 52:05.560]  there is no question of the vacuum tube eventually failing.
+[52:05.560 --> 52:15.760]  And with the large number of vacuum tubes, these failures will happen randomly.
+[52:15.760 --> 52:16.660]  All right?
+[52:16.660 --> 52:17.160]  All right?
+[52:17.160 --> 52:28.620]  But as a distribution over time, this randomness will distribute itself such that the thing will break down very often.
+[52:29.020 --> 52:31.900]  With one tube breaking down, you replace it.
+[52:32.740 --> 52:33.880]  You turn it back on.
+[52:34.140 --> 52:41.480]  Then a day or two later, another tube breaks down, a different one somewhere else, which you then have to replace.
+[52:41.480 --> 52:45.360]  That's even not counting.
+[52:46.160 --> 52:47.040]  All right?
+[52:47.840 --> 52:52.280]  Trying to determine that, hey, something is in error.
+[52:52.280 --> 52:56.700]  Oh, it's probably a vacuum tube that's broken.
+[52:56.700 --> 52:57.060]  Again.
+[52:58.740 --> 53:00.380]  Which vacuum tube is broken?
+[53:00.540 --> 53:01.540]  How the hell do we know?
+[53:01.680 --> 53:01.900]  All right?
+[53:01.980 --> 53:03.700]  So troubleshooting, et cetera.
+[53:03.700 --> 53:07.680]  Based on these symptoms, it's probably somewhere in the memory system.
+[53:08.200 --> 53:13.260]  Oh, the memory system has about, well, 15,000 vacuum tubes, you know, 10,000 vacuum tubes.
+[53:13.660 --> 53:16.440]  So how the hell do you find, you know, 4,000 vacuum tubes?
+[53:16.540 --> 53:19.360]  And so let's go each and every bag.
+[53:19.860 --> 53:21.720]  Oh, the bit pattern looks like this.
+[53:21.780 --> 53:23.400]  So probably it's this one.
+[53:24.160 --> 53:27.540]  You know, the debacle time can take a very, very long time.
+[53:27.540 --> 53:31.060]  So the ENIAC was not particularly reliable.
+[53:31.380 --> 53:31.860]  It worked.
+[53:32.320 --> 53:35.260]  It went down in history as the first electronic computer.
+[53:35.820 --> 53:36.940]  Hooray, big success.
+[53:37.820 --> 53:40.540]  But also that, hey, this is impractical.
+[53:41.160 --> 53:42.820]  It takes in a ton of power.
+[53:43.880 --> 53:44.300]  All right?
+[53:44.660 --> 53:56.280]  It took a small local power generator, a small generating plant to power it.
+[53:56.280 --> 54:00.660]  And it could never operate continuously.
+[54:01.220 --> 54:07.100]  You'd not be able to get, you know, one whole week of operation without something breaking down.
+[54:07.520 --> 54:09.880]  It would break down every couple of days.
+[54:10.640 --> 54:10.880]  All right?
+[54:11.740 --> 54:19.060]  So having that is good but definitely needed new technology.
+[54:19.740 --> 54:22.760]  And this is where transistors come in.
+[54:23.720 --> 54:24.200]  All right?
+[54:24.200 --> 54:24.260]  All right?
+[54:26.280 --> 54:30.640]  Transistors were invented by physicists.
+[54:31.400 --> 54:32.880]  A kind of scientist, obviously.
+[54:33.520 --> 54:33.800]  All right?
+[54:34.480 --> 54:42.200]  And these three very famous individuals, you need to know their names.
+[54:43.060 --> 54:43.340]  Why?
+[54:43.460 --> 54:44.620]  Because they'll come out in a piece.
+[54:45.380 --> 54:45.780]  All right?
+[54:45.780 --> 54:49.900]  So these three individuals, now, I don't know if this was covered in CCI Co.
+[54:50.000 --> 54:50.920]  It would have been stated.
+[54:51.560 --> 54:51.880]  All right?
+[54:52.380 --> 54:56.720]  So these three are as follows.
+[54:56.920 --> 54:58.680]  You have William B. Shockley.
+[54:59.580 --> 55:00.020]  All right?
+[55:00.280 --> 55:02.100]  He was born in 1910.
+[55:02.760 --> 55:04.960]  And I can't really read this.
+[55:05.240 --> 55:05.520]  All right?
+[55:05.520 --> 55:07.940]  I think he looks like 1989.
+[55:09.380 --> 55:09.660]  All right?
+[55:10.140 --> 55:11.580]  1989 yata yan.
+[55:13.680 --> 55:15.280]  The mind will really come out.
+[55:15.280 --> 55:16.280]  All right?
+[55:17.440 --> 55:20.240]  And he's known as the father of the transistor.
+[55:21.300 --> 55:22.040]  All right?
+[55:22.040 --> 55:29.120]  And maybe you remember that the transistor was basically invented in Bell Laboratories.
+[55:29.120 --> 55:34.480]  the same Bell as in Alexander Graham Bell.
+[55:35.680 --> 55:35.920]  Alright?
+[55:36.740 --> 55:41.480]  So, he joined Bell Laboratories in 1936.
+[55:42.440 --> 55:45.600]  Maraming inventions ng Bell Labs, FYI.
+[55:46.220 --> 55:46.420]  Alright?
+[55:47.500 --> 55:49.240]  Into the vacuum tube department.
+[55:49.460 --> 55:51.840]  1936, wala pa pong transistors.
+[55:52.560 --> 55:52.680]  Okay?
+[55:54.200 --> 55:58.280]  But, there was already such things as solid state.
+[55:59.120 --> 56:00.960]  Alright?
+[56:01.380 --> 56:01.960]  Solid state.
+[56:02.040 --> 56:04.180]  So, this was recognized very early on.
+[56:04.480 --> 56:12.140]  That, you know, solid state materials or elements have potential for something.
+[56:12.880 --> 56:15.460]  Particularly in the electronics.
+[56:16.080 --> 56:19.440]  Hindi pa invented yung electronics, well, electronics, vacuum tube.
+[56:19.440 --> 56:24.660]  But, knowing that there were certain materials that had the potential.
+[56:25.360 --> 56:25.420]  Alright?
+[56:25.420 --> 56:30.300]  He already came in with solid state physics as his background.
+[56:31.420 --> 56:31.560]  Okay?
+[56:32.040 --> 56:39.400]  And, later on, when the semiconductor laboratory was established, this laboratory was a lab in Bell Labs.
+[56:39.400 --> 56:53.940]  Particularly set up to investigate the possibilities of using semiconductors to produce, you know, something that could substitute for the vacuum tube.
+[56:54.660 --> 56:55.300]  Okay?
+[56:55.300 --> 56:56.880]  So, there's that quote.
+[56:58.300 --> 57:06.260]  It occurred to me that an amplifier using semiconductors rather than vacuum tubes is, in principle, possible.
+[57:07.420 --> 57:07.560]  Alright?
+[57:07.680 --> 57:09.560]  So, that was the state of it back then.
+[57:10.240 --> 57:10.380]  Alright?
+[57:10.380 --> 57:11.520]  That's William Shockley.
+[57:12.000 --> 57:13.040]  That's what he looks like.
+[57:14.040 --> 57:15.460]  Sorry for the bad picture.
+[57:15.620 --> 57:17.300]  But, it's fuzzy.
+[57:18.440 --> 57:18.740]  Alright?
+[57:20.660 --> 57:23.740]  So, aside from Shockley, there are two other individuals.
+[57:24.120 --> 57:26.140]  One is Walter Hauser Bratain.
+[57:26.820 --> 57:27.140]  Okay?
+[57:27.640 --> 57:31.960]  His background is, he's an experimental physicist.
+[57:32.760 --> 57:33.040]  Alright?
+[57:33.040 --> 57:41.700]  And, he joined Shockley and the third guy, who is John Bardeen, in the semiconductor research lab.
+[57:42.820 --> 57:43.100]  Okay?
+[57:43.820 --> 57:49.000]  Now, Walter Hauser Bratain is the oldest of the three.
+[57:49.740 --> 57:50.040]  Okay?
+[57:50.140 --> 57:53.460]  You can see here that he's got this white hair already.
+[57:53.600 --> 57:54.500]  He's really got a bit of a beard.
+[57:55.040 --> 57:55.760]  Okay?
+[57:55.760 --> 57:56.080]  Okay?
+[57:56.740 --> 58:00.980]  And, again, as I said, the third person is named John Bardeen.
+[58:01.920 --> 58:02.280]  Okay?
+[58:03.060 --> 58:10.760]  And, another physicist, okay, from the Naval Ordnance Laboratory, ordinance meaning munitions.
+[58:10.760 --> 58:11.420]  Alright?
+[58:13.560 --> 58:14.240]  Military.
+[58:15.500 --> 58:23.640]  And, among them, alright, 19, he joined, or he was with the Naval Ordnance Laboratory in 1941 to 1945.
+[58:24.600 --> 58:24.860]  Okay?
+[58:25.760 --> 58:29.360]  He joined Bell Labs in 1945.
+[58:30.500 --> 58:40.140]  And, eventually, he went over to become a professor of electrical engineering at the University of Illinois after he left Bell Labs.
+[58:41.240 --> 58:41.460]  Okay?
+[58:43.040 --> 58:54.420]  And, Bardeen, basically, alright, won the Nobel Prize in Physics for the transistor in 1956.
+[58:54.420 --> 58:59.420]  And, superconductivity in 1972.
+[59:00.160 --> 59:00.640]  Alright?
+[59:01.080 --> 59:02.600]  So, this guy is dying smart.
+[59:03.260 --> 59:03.620]  Okay?
+[59:04.560 --> 59:05.980]  And, that's John Bardeen.
+[59:07.080 --> 59:07.680]  Okay?
+[59:08.180 --> 59:08.400]  Alright.
+[59:08.520 --> 59:09.160]  So, there you go.
+[59:09.160 --> 59:25.900]  And, basically, Shockley, Bratain, and Bardeen started working on germanium and silicon semiconductors circa 1946 with Bardeen and Bratain.
+[59:25.900 --> 59:32.900]  The last two guys putting together the first transistor in 1947.
+[59:32.900 --> 59:33.300]  Okay?
+[59:33.300 --> 59:34.140]  Okay?
+[59:34.600 --> 59:35.040]  Okay?
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:35.040] 
+[59:35.040 --> 59:48.040]  Alright?
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:48.040] 
+[59:48.040 --> 59:54.600]  You had two little wires that they inserted and physically made contact.
+[59:55.740 --> 59:58.500]  And they had to wiggle, wiggle, wiggle those wires.
+[59:59.420 --> 01:00:01.660]  They were like whiskers of a cat.
+[01:00:03.180 --> 01:00:09.800]  And you just had to place them just right to make the thing work.
+[01:00:09.800 --> 01:00:29.880]  However, this momentous breakthrough and the demonstration that this thing was working and actually capable of amplifying came during December, right near Christmas.
+[01:00:29.880 --> 01:00:41.180]  These guys were supposed to be on vacation, but they were so dedicated to working that they were in the laboratory during that period of time.
+[01:00:41.720 --> 01:00:46.720]  And they were rewarded by actually getting it to work.
+[01:00:48.120 --> 01:00:48.300]  Okay?
+[01:00:48.940 --> 01:00:52.720]  So near around Christmas time, all of this happened.
+[01:00:53.060 --> 01:00:53.860]  Okay?
+[01:00:54.280 --> 01:00:59.580]  And this is what this first point contact transistor looked like.
+[01:00:59.880 --> 01:01:00.580]  Okay?
+[01:01:00.740 --> 01:01:03.980]  You can see how crude the thing is.
+[01:01:04.700 --> 01:01:05.100]  All right?
+[01:01:05.100 --> 01:01:17.760]  There is the contact, all right, being made to the little slab of germanium.
+[01:01:18.800 --> 01:01:19.040]  All right?
+[01:01:19.860 --> 01:01:25.240]  And you can see the classic three contacts.
+[01:01:25.360 --> 01:01:29.380]  A transistor has three legs or three connections.
+[01:01:29.380 --> 01:01:39.980]  And you can see that there is that one, two, and three as the connections to this laboratory prototype transistor.
+[01:01:40.980 --> 01:01:41.280]  Okay?
+[01:01:41.780 --> 01:01:42.740]  So there you go.
+[01:01:42.740 --> 01:01:54.280]  And after that, there's actually a picture of an oscilloscope showing the waveform coming out of that, but it's not here.
+[01:01:54.280 --> 01:02:01.000]  So Shakti immediately set out to define the effects that they had observed to explain the physics of transistors.
+[01:02:02.000 --> 01:02:11.400]  A few months later, Shakti devised the junction transistor, which is a true solid state device, which did not need those whiskers.
+[01:02:11.400 --> 01:02:13.400]  Because obviously, if you had those whiskers.
+[01:02:13.400 --> 01:02:20.320]  Because obviously, if you had those whiskers and you had to move them into place very, very carefully, it would be a very, very fragile transistor.
+[01:02:21.400 --> 01:02:21.500]  Okay?
+[01:02:21.740 --> 01:02:26.960]  More fragile than a vacuum tube, which was, you know, not usable.
+[01:02:26.960 --> 01:02:36.800]  So Shakti was able to translate, you know, what was developed into a true, all right?
+[01:02:37.880 --> 01:02:43.760]  Junction transistor, which had solid contacts, all right?
+[01:02:43.760 --> 01:02:53.900]  The interesting thing here is, Bell Labs did not capitalize on this invention that much.
+[01:02:53.900 --> 01:03:13.460]  They licensed the transistor to many different manufacturers and even waived the patent rights for the use of transistors in hearing aids in the spirit of its founder, Alexander Graham Bell.
+[01:03:13.760 --> 01:03:18.520]  So, yes, they did receive, all right?
+[01:03:19.880 --> 01:03:21.280]  Something out of it.
+[01:03:22.000 --> 01:03:23.760]  So they licensed it.
+[01:03:23.840 --> 01:03:29.180]  And for every manufacturer who makes transistors, they had to pay Bell Labs.
+[01:03:29.300 --> 01:03:32.360]  And obviously, that was a very, very large income for them.
+[01:03:33.200 --> 01:03:33.580]  All right?
+[01:03:34.580 --> 01:03:39.100]  So this is Shakti's sandwich transistor.
+[01:03:40.320 --> 01:03:40.760]  All right?
+[01:03:40.760 --> 01:03:56.500]  And because of its potential for humongous success, Shakti actually established the Shakti Semiconductor Labs in Palo Alto, very famous place, all right?
+[01:03:57.380 --> 01:03:59.400]  California in 1954.
+[01:04:00.220 --> 01:04:01.840]  And why is that famous?
+[01:04:01.840 --> 01:04:08.340]  Well, because Palo Alto is, in fact, what is called Silicon Valley.
+[01:04:08.340 --> 01:04:10.960]  This is where Silicon Valley is.
+[01:04:11.700 --> 01:04:20.040]  And it was started pretty much by the fact that the first semiconductors, all right?
+[01:04:20.120 --> 01:04:26.160]  The first few semiconductors that were coming out were from, you know, places like this.
+[01:04:26.640 --> 01:04:29.260]  Kaya nga siya tinawag na Silicon Valley.
+[01:04:29.840 --> 01:04:35.660]  Kasi semiconductors ang business, all right?
+[01:04:35.660 --> 01:04:37.780]  Ng mga company doon.
+[01:04:38.340 --> 01:04:39.100]  All right?
+[01:04:39.620 --> 01:04:52.220]  So Fairchild Semiconductor was founded in Mountain View, also in California, by eight Shakti employees, including Gordon Moore and Robert Noyce.
+[01:04:52.340 --> 01:04:55.760]  Now, these two guys are very, very famous as well.
+[01:04:56.840 --> 01:05:00.040]  You might even be familiar with their names.
+[01:05:00.040 --> 01:05:01.380]  I kind of doubt it, though.
+[01:05:01.380 --> 01:05:12.800]  Because Moore, for example, became extra famous as one of the founders and presidents of Intel Corporation.
+[01:05:12.800 --> 01:05:20.880]  So eventually, magbubolt out siya from Fairchild to establish Intel, all right?
+[01:05:21.440 --> 01:05:22.780]  But that's it.
+[01:05:22.860 --> 01:05:29.540]  So you'll notice that these names, they're all, you know, coming from here, all right?
+[01:05:29.540 --> 01:05:40.300]  Branching out and forming new companies, left and right, all based on semiconductor technology, okay?
+[01:05:40.300 --> 01:05:46.340]  Fairchild became a very, very big company, all right?
+[01:05:46.760 --> 01:05:49.340]  Producing various kinds of semiconductors.
+[01:05:50.060 --> 01:05:57.900]  Diodes, transistors, MOSFETs, bipolar junction transistors, MOSFETs, integrated circuits.
+[01:05:58.400 --> 01:05:58.700]  Dami.
+[01:05:58.700 --> 01:06:01.860]  Maraming contribution itong company na ito, okay?
+[01:06:02.540 --> 01:06:08.300]  And as stated here, it comes from eight Shakti employees coming from this laboratory.
+[01:06:08.500 --> 01:06:11.160]  Now, you might wonder, bakit nagbubolt out ito?
+[01:06:11.740 --> 01:06:16.060]  Why are they bolting from the company, all right?
+[01:06:16.060 --> 01:06:30.060]  Well, one of the things that's not mentioned here, all right, is the fact that Shockley, all right, despite the fact that he was, or maybe because he was very, very brilliant,
+[01:06:31.440 --> 01:06:41.880]  had a personality and, you know, that was not particularly easy to work with, all right?
+[01:06:43.880 --> 01:06:44.380]  Okay.
+[01:06:46.060 --> 01:06:48.020]  On the other hand, that's not surprising.
+[01:06:48.020 --> 01:06:54.700]  Steve Jobs and a lot of brilliant people are basically what you'd, including Thomas Edison, for example,
+[01:06:55.460 --> 01:07:07.860]  are, they need to have that possibly because they have that personality that leads to a certain, you know, big push that the company, you know, breaks grounds
+[01:07:07.860 --> 01:07:13.840]  because the one or two or three of the people are very brilliant and really pushing very, very hard,
+[01:07:13.840 --> 01:07:19.280]  making them toot people, censored, all right?
+[01:07:20.000 --> 01:07:21.260]  But that's how it is.
+[01:07:21.360 --> 01:07:25.800]  Now, on the other hand, the other interesting thing here is that
+[01:07:25.800 --> 01:07:31.720]  these other companies become highly successful,
+[01:07:31.720 --> 01:07:41.660]  very few people, in fact, remember or, you know, you don't see very much about Shockley Semiconductor.
+[01:07:42.620 --> 01:07:48.400]  It never actually became particularly big, all right?
+[01:07:48.400 --> 01:07:57.800]  And again, the big question of why, well, I, you'd have to read the history of Silicon Valley and, you know,
+[01:07:57.860 --> 01:08:03.640]  do a particular research into Shockley Semiconductor, but there's no doubt that it was because of,
+[01:08:04.040 --> 01:08:10.500]  partly because of his, you know, way he was thinking and his personality at the same time, okay?
+[01:08:10.500 --> 01:08:21.200]  So you had these brilliant people leaving the company and establishing successful semiconductor companies out of that, okay?
+[01:08:21.700 --> 01:08:22.520]  All right.
+[01:08:22.640 --> 01:08:32.260]  Now, Ben Labs made several improvements to the manufacturing of the silicon and germanium within your piece needed to create those working semiconductors.
+[01:08:32.260 --> 01:08:45.100]  Meanwhile, you have another very famous company called Texas Instruments coming out where somebody called Jack Kilby,
+[01:08:45.540 --> 01:08:49.380]  all right, figured out, all right?
+[01:08:49.480 --> 01:08:51.780]  Transistors were well-established already here.
+[01:08:51.780 --> 01:09:08.040]  And Jack Kilby's contribution was to, you know, develop the idea of putting transistors together in a circuit,
+[01:09:08.540 --> 01:09:14.300]  in a single semiconductor die, all right?
+[01:09:14.300 --> 01:09:20.900]  So discrete transistors are formed out of silicon cut up from wafers.
+[01:09:21.780 --> 01:09:24.880]  But there, that's it.
+[01:09:25.000 --> 01:09:27.860]  It's a single transistor with three legs.
+[01:09:28.960 --> 01:09:37.480]  Kilby figured out that we can take several of these all on the same die or all on the same wafer
+[01:09:37.480 --> 01:09:47.000]  and interconnect them already right there to form a circuit, all right?
+[01:09:47.000 --> 01:09:51.560]  So this is where the idea of an integrated circuit comes from.
+[01:09:51.780 --> 01:09:52.460]  All right?
+[01:09:52.460 --> 01:10:01.680]  Or this thought of Jack Kilby is to make a circuit, a functional circuit all on the same chip.
+[01:10:02.880 --> 01:10:03.220]  Okay?
+[01:10:03.620 --> 01:10:14.400]  So to do that, you'd have to have your transistors interconnected along with other components needed to make the circuit all on the same silicon.
+[01:10:14.400 --> 01:10:25.120]  okay and well they were able to do that okay and now because of that you now have
+[01:10:25.120 --> 01:10:33.680]  the microprocessor among other things as an offshoot of these concepts being put together
+[01:10:33.680 --> 01:10:43.720]  of course today's microprocessor have billions of transistors on them but the first microprocessor
+[01:10:43.720 --> 01:10:58.380]  invented by you know somebody called Ted all right had much less than that all right
+[01:10:58.380 --> 01:11:11.420]  Intel created the 4004 which is the first microprocessor okay using technologies that
+[01:11:11.420 --> 01:11:19.980]  were developed all right including the integrated circuit definitely by Texas Instruments and in fact
+[01:11:19.980 --> 01:11:28.680]  Fairchild also invented all right another kind of integrated circuit so you know it's a question
+[01:11:28.680 --> 01:11:35.140]  of attributing which company was actually should be attributed for it but the Texas Instruments
+[01:11:35.140 --> 01:11:43.520]  invention is more in line I believe with what an integrated circuit stands for nowadays okay
+[01:11:43.520 --> 01:11:52.580]  so Kilby was able to reduce the transistors to the size of a match hem and they were being sold at a
+[01:11:52.580 --> 01:12:03.140]  ridiculously high price of $450 imagine how much you know in the 1950s 1960s
+[01:12:03.140 --> 01:12:11.700]  $450 is $450 is a hell of a lot of money you could practically buy a car a second-hand car for this
+[01:12:11.700 --> 01:12:21.620]  amount of money and an integrated circuit could cost that much all right meanwhile at Fairchild Robert
+[01:12:21.620 --> 01:12:34.020]  noise adapted the system called planar okay and which where all transistors and resistors are formed on a single
+[01:12:34.580 --> 01:12:44.020]  silicon chip with metal wiring embedded in the silicon so this impact is a kind of integrated circuit all right
+[01:12:44.020 --> 01:12:52.580]  noise filed for a patent five months after TI and of course TI brought on the lawsuit they claimed that
+[01:12:52.580 --> 01:13:02.900]  this was patent infringement TI lost but companies needed licenses from both all right both TI and Fairchild
+[01:13:02.900 --> 01:13:11.460]  because concept here as well as concepts from TI integrated circuit invention from Jack Kilby
+[01:13:11.460 --> 01:13:15.460]  now form you know the basic ideas of
+[01:13:17.460 --> 01:13:25.300]  what a modern integrated circuit contains okay all right so here we go
+[01:13:25.300 --> 01:13:29.300]  uh okay we can skip this for now all right
+[01:13:33.860 --> 01:13:40.020]  so now that integrated circuits were established it became a question of what can we do what kind of
+[01:13:40.020 --> 01:13:46.740]  circuits can we make and how can we keep on improving it and these improvements in the beginning were
+[01:13:46.740 --> 01:13:54.660]  driven by trying to make things smaller and smaller to allow for more and more complex circuits so
+[01:13:56.660 --> 01:14:02.980]  Gordon Moore who was at that time still working for failed Fairchild semiconductors all right
+[01:14:04.100 --> 01:14:10.820]  had history on his side all right had history on his side
+[01:14:10.820 --> 01:14:23.940]  and was able to look at and see that hey our technology improves in such a way that we are able to see that you know this year
+[01:14:25.060 --> 01:14:29.380]  all right I was able to put in two or three transistors or four transistors on a chip
+[01:14:29.380 --> 01:14:42.820]  two years later this has become eight transistors all right and roughly you know 20 months or so
+[01:14:44.180 --> 01:14:51.140]  somebody has already been able to make it 16 transistors all in the same space all in the same space
+[01:14:51.140 --> 01:15:02.740]  all right so because he was able to see that trend he published an article in a magazine an electronics magazine saying hey look
+[01:15:04.020 --> 01:15:10.900]  you know here's the historic data and if you put it on you know a graph you can see that
+[01:15:11.620 --> 01:15:18.820]  the transistor numbers are doubling more or less every two years around 18 months all right
+[01:15:18.820 --> 01:15:29.460]  and because of this I Gordon Moore in this article I think that you know well it looks more or less like a straight line so if I take a ruler
+[01:15:30.260 --> 01:15:39.620]  all right if I take a ruler and connect these dots because I have this data look I'm showing you from Fairchild I have this data
+[01:15:40.260 --> 01:15:47.380]  all right and I connect the dots look at this by 10 years from now all right
+[01:15:47.380 --> 01:15:54.420]  if this line continues 10 years from now look we're going to have these many transistors
+[01:15:56.420 --> 01:16:01.300]  in an integrated circuit and you know the number was something like 10,000 something like that
+[01:16:02.500 --> 01:16:08.660]  and that's what the article stated that's all all right and it probably said something like hey look
+[01:16:08.660 --> 01:16:12.740]  that's amazing right what do you think we can make out of 10,000 transistors
+[01:16:12.740 --> 01:16:27.220]  that's all that it was and that article became the basis for Moore's law he never actually said that it was a law
+[01:16:28.660 --> 01:16:31.620]  what it was was an observation
+[01:16:31.620 --> 01:16:41.780]  here we are right now and because we are in this year if you go backwards you know here's the data
+[01:16:41.780 --> 01:16:50.180]  from Fairchild and other semiconductors this is what it looks like you can see that after every 18 months
+[01:16:50.180 --> 01:16:58.660]  we have about twice the number of transistors hey guess what if this continues 10 years from now we're going to have
+[01:16:58.660 --> 01:17:07.540]  this many transistors that's what the article was period okay and that's what became Moore's law
+[01:17:08.340 --> 01:17:17.060]  and well as they said Moore's law basically came about because it became that observation became the reference
+[01:17:17.700 --> 01:17:22.340]  for other semiconductor companies for all semiconductor companies to basically say
+[01:17:22.340 --> 01:17:28.020]  you know am i hitting the target and you know am i hitting the target if i can make and hit the target of
+[01:17:28.020 --> 01:17:40.020]  doubling my capability to produce transistors all right on a single wafer by twice that every 18 to 24 months
+[01:17:40.020 --> 01:17:46.020]  it basically means that i am at pace with the other semiconductor company
+[01:17:46.020 --> 01:17:50.260]  i am not going to be able to do that because it is not going to be able to do that because it is
+[01:17:50.260 --> 01:17:56.260]  basically because people are competing and checking each other all right so that's it
+[01:17:57.540 --> 01:18:09.620]  and that trend continued all the way up to the early 2000 right which is why right now we are at this point
+[01:18:09.620 --> 01:18:23.860]  where a single large ish die can contain you know a billion or more transistors it's because companies have been
+[01:18:25.140 --> 01:18:35.060]  pushing themselves to follow this trend okay and when you get left behind all right if you get left behind
+[01:18:35.060 --> 01:18:41.300]  tsmc versus intel versus whatever all right if you get left behind all right if you get left behind
+[01:18:41.300 --> 01:18:47.140]  all right all right if you get left behind then the business the companies who need to fabricate chips at
+[01:18:47.140 --> 01:18:54.820]  the cutting edge of the technology will go away you go away you don't have any business anymore you don't have
+[01:18:54.820 --> 01:18:59.700]  a company that is going to make money okay so there you go with that
+[01:18:59.700 --> 01:19:29.700]  uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh
+[01:19:29.700 --> 01:19:31.120]  And then Andy Grove.
+[01:19:31.660 --> 01:19:31.980]  All right?
+[01:19:32.320 --> 01:19:34.840]  These guys came from Fairchild.
+[01:19:35.360 --> 01:19:37.000]  Where did Fairchild come from?
+[01:19:37.240 --> 01:19:38.120]  From Shockley.
+[01:19:38.860 --> 01:19:39.260]  All right?
+[01:19:39.460 --> 01:19:40.200]  So there you go.
+[01:19:40.280 --> 01:19:41.800]  That's the quick history of it.
+[01:19:43.380 --> 01:19:43.940]  Okay?
+[01:19:44.320 --> 01:19:44.620]  All right.
+[01:19:44.680 --> 01:19:46.580]  So this is very, very long.
+[01:19:47.320 --> 01:19:53.140]  But I think that's about enough to establish, all right,
+[01:19:53.140 --> 01:20:04.780]  the fact that semiconductors, all right, by the 1960s, 50s, 60s,
+[01:20:04.780 --> 01:20:07.840]  were really establishing themselves.
+[01:20:08.740 --> 01:20:14.960]  And by the early 70s, we had gotten to the point that the semiconductors
+[01:20:14.960 --> 01:20:20.620]  could be made into an integrated circuit, all right,
+[01:20:20.620 --> 01:20:25.420]  with enough transistors to actually make a microprocessor.
+[01:20:26.960 --> 01:20:27.200]  All right?
+[01:20:28.000 --> 01:20:35.140]  So the 4004 came out in 1971.
+[01:20:36.700 --> 01:20:37.500]  All right?
+[01:20:37.680 --> 01:20:38.500]  1971.
+[01:20:40.140 --> 01:20:47.180]  The 8088 microprocessor, which makes the PC, all right,
+[01:20:47.180 --> 01:20:50.180]  came out in 1980.
+[01:20:50.620 --> 01:20:58.560]  Ancient history for you guys, perhaps, but not really that long ago.
+[01:21:00.100 --> 01:21:00.260]  Okay?
+[01:21:00.980 --> 01:21:07.360]  And the computers that you use now, all right,
+[01:21:07.360 --> 01:21:14.500]  are all based on this x86 architecture, all right,
+[01:21:14.500 --> 01:21:19.380]  which was established as early as 1980.
+[01:21:19.380 --> 01:21:20.680]  All right?
+[01:21:21.320 --> 01:21:29.080]  So we remain functionally able to execute instructions
+[01:21:29.080 --> 01:21:37.500]  that were established, you know, even as far back as the late 70s.
+[01:21:37.500 --> 01:21:44.880]  We are still evolving and adding to the instruction set of these CPUs.
+[01:21:45.380 --> 01:21:51.820]  And of course, there's now a push going towards ARM-type designs and so on and so forth.
+[01:21:51.820 --> 01:21:56.200]  But x86 is still alive.
+[01:21:56.200 --> 01:22:07.000]  Processors are still being made and developed competitively to make high-performance CPUs
+[01:22:07.000 --> 01:22:11.980]  that are executing the x86 extended instruction set.
+[01:22:11.980 --> 01:22:12.980]  Right?
+[01:22:12.980 --> 01:22:13.980]  Right?
+[01:22:13.980 --> 01:22:13.980] 
+[01:22:13.980 --> 01:22:13.980] 
+[01:22:13.980 --> 01:22:14.980]  Right?
+[01:22:14.980 --> 01:22:19.300]  And so these architectures are still viable and still with us all the way up to now,
+[01:22:19.300 --> 01:22:21.580]  which is kind of amazing.
+[01:22:21.580 --> 01:22:27.360]  You know, you think about it, it's 1980 to 2026.
+[01:22:28.280 --> 01:22:28.680]  All right?
+[01:22:29.280 --> 01:22:31.500]  So 60-plus years.
+[01:22:32.460 --> 01:22:37.000]  And we're still running on the same instruction set.
+[01:22:37.860 --> 01:22:41.560]  Much faster than before, admittedly.
+[01:22:42.100 --> 01:22:46.640]  But unfortunately, software has kept up with it.
+[01:22:46.640 --> 01:22:54.660]  Sloppy programming has kept up with it, such that the high performance of today's processors
+[01:22:54.660 --> 01:23:03.080]  are always spent on very, very terrible compilers and programming.
+[01:23:04.200 --> 01:23:07.380]  And of course, you also have the other side of it where, you know,
+[01:23:07.420 --> 01:23:11.960]  you have to protect your data and assets and all that with extra code
+[01:23:11.960 --> 01:23:14.980]  because hackers can get everything.
+[01:23:15.640 --> 01:23:15.920]  All right.
+[01:23:15.920 --> 01:23:18.020]  So I'm going to stop here.
+[01:23:18.720 --> 01:23:21.660]  We are probably well ahead of the other class at this point.
+[01:23:22.780 --> 01:23:26.400]  So that's your quick introduction to, you know, the history of transistors
+[01:23:26.400 --> 01:23:30.000]  and where they are now, more or less.
+[01:23:30.620 --> 01:23:34.500]  And next meeting, when I see you face-to-face,
+[01:23:35.280 --> 01:23:41.060]  we will start in earnest with, you know, transistor and its characteristics.
+[01:23:41.500 --> 01:23:42.760]  So ito history pa lang.
+[01:23:43.280 --> 01:23:43.620]  All right?
+[01:23:43.620 --> 01:23:49.960]  So next meeting, we'll talk about the, you know, transistor and what it does
+[01:23:49.960 --> 01:23:52.460]  and how you get it to do what it does.
+[01:23:53.000 --> 01:23:53.220]  Okay?
+[01:23:53.660 --> 01:23:53.960]  All right.
+[01:23:54.040 --> 01:23:55.200]  So are there any questions?
+[01:23:55.360 --> 01:23:56.580]  I suppose there are none.
+[01:23:56.580 --> 01:24:00.120]  waiting for your questions?
+[01:24:00.120 --> 01:24:01.120]  No questions?
+[01:24:01.120 --> 01:24:02.920]  No questions?
+[01:24:02.920 --> 01:24:06.800]  No questions?
+[01:24:06.800 --> 01:24:09.640]  Do we get the thumbs up before we dismiss you?
+[01:24:10.060 --> 01:24:10.380]  All right?
+[01:24:12.760 --> 01:24:13.320]  Okay?
+[01:24:13.320 --> 01:24:14.560]  All right.
+[01:24:15.300 --> 01:24:15.760]  See you again.
+[01:24:16.080 --> 01:24:17.740]  So thanks for joining us today.
+[01:24:18.460 --> 01:24:19.960]  I'll see you on Thursday.
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 
+[01:24:20.420 --> 01:24:20.420] 

@@ -1,0 +1,1186 @@
+[00:00.000 --> 00:06.000]  We're in here.
+[00:07.860 --> 00:15.120]  And as I said, we're picking up where we left off from last meeting.
+[00:15.120 --> 00:29.980]  So just as a very quick statement, although I think distinctly possible is that a little bit later when others check in or whatever,
+[00:30.000 --> 00:35.560]  somebody is inherently going to ask, sir, kasama ba to sa quiz?
+[00:35.860 --> 00:41.040]  Okay, so ang sagot dito is, what's this?
+[00:41.780 --> 00:47.180]  The quiz basically ends at transistor biasing.
+[00:47.180 --> 01:02.440]  And given that, the last part of the lesson, last meeting, as well as the lesson here on forward is really not part of quiz one.
+[01:02.440 --> 01:05.940]  Okay, but it's still about transistors anyway.
+[01:06.420 --> 01:11.000]  But yeah, that's for the next part.
+[01:12.300 --> 01:19.140]  So the quiz will not include whatever we're taking up right now.
+[01:19.520 --> 01:27.440]  Okay, so from here, from the last part of last meeting onwards is reserved for quiz number two.
+[01:27.440 --> 01:31.700]  Okay, so having said that, I hope that's clear.
+[01:32.700 --> 01:34.640]  Let's continue where we left off.
+[01:34.800 --> 01:40.440]  Okay, let me just get the elements of the system running.
+[01:41.660 --> 01:46.680]  And hopefully we won't have any issues.
+[01:47.100 --> 01:49.520]  Let's see if this thing works properly.
+[01:52.080 --> 01:55.300]  Where's the presentation anyway?
+[01:55.300 --> 01:55.420]  Here.
+[01:55.420 --> 01:56.700]  Here.
+[01:58.500 --> 02:07.940]  We basically ended at transistor as a switch.
+[02:08.100 --> 02:12.600]  But there are a couple of things that I'd like to backtrack on and reiterate.
+[02:14.060 --> 02:16.820]  Slideshow from the current slide.
+[02:17.820 --> 02:20.680]  And let me just capture this.
+[02:20.680 --> 02:21.680]  Okay.
+[02:33.360 --> 02:33.760]  Okay.
+[02:36.960 --> 02:37.360]  Yeah.
+[02:37.440 --> 02:42.340]  For those who are, there's a question, what time is the test on Saturday?
+[02:42.340 --> 02:45.440]  I haven't made any announcements yet as to what time it is.
+[02:45.580 --> 02:51.700]  But I would normally attempt to put it at early time.
+[02:51.860 --> 02:56.800]  So probably about 8 o'clock or so.
+[02:57.240 --> 02:57.480]  All right.
+[02:57.480 --> 02:59.840]  I will be requesting for 8 o'clock.
+[03:01.200 --> 03:09.600]  And that's going to be subject again to the, if there are any conflicts of room reservation.
+[03:09.760 --> 03:13.960]  But I kind of, I kind of assume that we shouldn't have any issues with that.
+[03:14.200 --> 03:18.620]  So 8 o'clock and we ought to be done by 9.30.
+[03:19.620 --> 03:19.980]  Okay.
+[03:19.980 --> 03:20.100]  Okay.
+[03:21.100 --> 03:24.700]  But wait for further announcements with regard to that.
+[03:25.020 --> 03:25.180]  Okay.
+[03:25.960 --> 03:26.280]  Okay.
+[03:26.400 --> 03:29.000]  So let's get back to today's lesson.
+[03:31.260 --> 03:31.780]  Share.
+[03:33.220 --> 03:34.440]  Share, share, share.
+[03:35.540 --> 03:38.080]  And not the desktop.
+[03:38.500 --> 03:39.900]  Ah, this is difficult.
+[03:40.100 --> 03:40.280]  Here.
+[03:40.500 --> 03:40.980]  Okay.
+[03:40.980 --> 03:44.300]  Okay.
+[03:44.820 --> 03:45.540]  So there we go.
+[03:46.580 --> 03:53.280]  Again, of course, as we go through today's coverage, let me know if you have any questions.
+[03:54.480 --> 03:54.720]  Okay.
+[03:55.860 --> 04:00.060]  And we'll try to address those as best as we can.
+[04:00.620 --> 04:00.820]  Okay.
+[04:01.100 --> 04:02.640]  So transistors has to switch.
+[04:02.640 --> 04:07.280]  This is the last part of the lesson last Thursday.
+[04:07.280 --> 04:07.400]  Okay.
+[04:08.300 --> 04:08.600]  Okay.
+[04:08.960 --> 04:16.220]  And I'd like to just backtrack a little bit and make sure that everybody sort of understands this.
+[04:16.440 --> 04:22.320]  So again, we are using the transistor in saturation or cutoff.
+[04:22.320 --> 04:22.960]  Okay.
+[04:22.960 --> 04:39.940]  And in this particular poorly presented example, there is a transistor with, and when you're using a transistor as a switch, typically it will be in common emitter configuration.
+[04:39.940 --> 04:57.300]  So one of the things that you might want to notice is regardless if you're using the transistor as a switch or not, when you are in common emitter configuration, whatever is the input signal, all right?
+[04:57.300 --> 05:11.900]  The input signal going into the base, all right, will have, after going through the transistor at the output, at the collector, you're going to get an inverted version of it.
+[05:12.540 --> 05:12.640]  Okay.
+[05:12.640 --> 05:22.240]  There is a phase inversion that happens when you are using a transistor in common emitter.
+[05:22.240 --> 05:23.240]  Okay.
+[05:23.240 --> 05:24.240]  Okay.
+[05:24.240 --> 05:27.840]  So in this particular example, it's very easy to understand, right?
+[05:27.840 --> 05:30.620]  Because it's being used as a switch.
+[05:30.620 --> 05:49.160]  So therefore, when we produce enough voltage to actually overcome and turn on the transistor through its voltage drop, VBE of 0.7, notice that we have 0.3 volts extra, all right?
+[05:49.160 --> 06:02.500]  So that 0.3 volts extra, all right, is the one that will allow current to go into the base, all right, and turn the transistor on.
+[06:03.080 --> 06:06.820]  And when the thing turns on, the transistor conducts, all right?
+[06:06.820 --> 06:28.400]  And so when the transistor conducts, we expect that because it's being used as a switch, for example, this thing is going to drop and try to turn on at its maximum possible, which will leave you with a VCE of approximately 0.3, or that's usually what the academic books will say, right?
+[06:28.400 --> 06:33.800]  Full saturation is approximately 0.3 volts across that.
+[06:34.540 --> 06:43.800]  And so therefore, a high, all right, even produces a transistor that turns on, which makes the output go low, all right?
+[06:43.800 --> 06:46.660]  So you see the phase relationship here.
+[06:47.240 --> 06:57.420]  If this is the input, if this is the output signal, as we see here, the input signal would have looked something like this, okay?
+[06:57.420 --> 07:03.260]  There's your input signal, and you can see that the output is reverse in phase.
+[07:03.260 --> 07:07.460]  So this is transistor as a switch in common emitter.
+[07:08.120 --> 07:18.780]  If we had the standard, you know, configuration where you have essentially a transistor in common emitter mode,
+[07:19.280 --> 07:28.480]  and you had biased it in such a way that it would have been in its active region, okay, if it were in its active region,
+[07:28.480 --> 07:36.820]  then you could have put in a sinusoidal wave like this, and the transistor would amplify it,
+[07:36.920 --> 07:41.620]  but the amplification process would have inverted the signal, all right?
+[07:41.680 --> 07:50.640]  And so it could have produced an output signal that is 180 degrees inverted against the input, all right?
+[07:50.640 --> 07:53.440]  And so same thing, all right?
+[07:53.500 --> 08:03.840]  It's the same thing even if the transistor is in its active region being used as a linear amplifier, okay?
+[08:03.920 --> 08:04.980]  Linear amplifier.
+[08:05.700 --> 08:06.360]  So there we go.
+[08:06.820 --> 08:08.440]  Please take note of that.
+[08:08.780 --> 08:14.060]  This is a characteristic of the common emitter configuration, okay?
+[08:14.060 --> 08:22.560]  All right, so let's just erase some of the elements here because that's a quick reminder, and hopefully you will remember that.
+[08:23.160 --> 08:26.120]  Okay, so let's get back to this, okay?
+[08:26.620 --> 08:32.780]  Now, in this poorly designed illustration, all right, in this poorly designed illustration,
+[08:33.620 --> 08:40.960]  the objective is simply to produce a signal, all right, that goes from 0 to 5 volts.
+[08:40.960 --> 08:48.440]  So it's a bigger signal compared to the input signal, which is going from 0 to 1 volt, okay?
+[08:48.900 --> 08:55.900]  And given this, the idea here is that we want to be able to calculate, all right,
+[08:55.940 --> 09:02.700]  we want to be able to calculate the values needed to actually get this thing done.
+[09:02.880 --> 09:06.080]  So let's have a quick look here, all right?
+[09:06.600 --> 09:08.680]  And let's see what this is trying to tell us.
+[09:08.680 --> 09:19.880]  So when the switch, when the transistor is fully turned on, what you're going to get essentially is the following.
+[09:20.680 --> 09:32.700]  The IC sat is the maximum current that you can expect going through the collector when the transistor is fully saturated.
+[09:32.700 --> 09:43.460]  And as we said, in saturation, we expect basically the VCE to be about 0.3 volts, all right?
+[09:43.500 --> 09:45.540]  That's as far as it will go.
+[09:45.900 --> 09:48.920]  It cannot really reach zero, okay?
+[09:48.920 --> 09:59.620]  So as a very, very quick, you know, approximation, even if we assume that this is roughly equal to 0,
+[10:00.100 --> 10:07.600]  then the maximum current that you're going to get essentially is the full voltage, no?
+[10:07.600 --> 10:16.320]  If this VCE is 0, then the full voltage going through the resistor basically is equal to VCC.
+[10:16.900 --> 10:21.200]  And that's what appears here at the numerator, okay?
+[10:21.200 --> 10:29.720]  And RC then can be equated simply as VCC over IC saturation.
+[10:30.280 --> 10:37.100]  Although in practice, really, you know, it's a very odd way of presenting it.
+[10:37.100 --> 10:44.860]  As I said, it's a very, very poor problem as far as the examples can go, all right?
+[10:44.860 --> 10:51.020]  Okay, so desired I sub C sat from the output characteristic plot.
+[10:51.240 --> 10:54.260]  No, that's not really what you're trying to do here.
+[10:54.940 --> 11:01.540]  The I sub C saturation typically is dependent on whatever you put as R sub C.
+[11:01.800 --> 11:12.300]  Again, as I mentioned last Thursday, this is usually based on the load, what you are trying to turn on and off, okay?
+[11:12.300 --> 11:19.000]  On the other hand, if you do put the resistor there, then it basically means that you're just trying to turn on and off the resistor.
+[11:19.440 --> 11:25.520]  Or you're just trying to put a silly signal that is bigger than what it would have been, okay?
+[11:25.880 --> 11:37.420]  So the other important equation here is to calculate how much base current you need at the minimum, all right?
+[11:37.420 --> 11:39.520]  So this is what's missing again here.
+[11:40.000 --> 11:45.460]  This equation is a minimum amount of base current that you need.
+[11:46.060 --> 11:50.420]  And here the denominator is the beta, no?
+[11:50.500 --> 11:57.360]  So it's based on how much collector current you're getting or you're going to pass through the transistor.
+[11:57.360 --> 12:05.940]  You calculate based on beta, where, of course, IC is equal to beta IB, all right?
+[12:06.000 --> 12:19.340]  And you just turn that equation around so that you can get the amount of base current that you need to turn the transistor into an on state, which is saturated.
+[12:19.340 --> 12:24.620]  Now, this is the absolute minimum that you can calculate.
+[12:24.820 --> 12:35.720]  It's very dangerous to use this because there's no guarantee that your assumed beta is going to be accurate, among other things.
+[12:35.720 --> 12:48.260]  So it is highly recommended that for whatever calculation that you get out of this, make sure that you actually push more base current than what you calculate.
+[12:48.400 --> 12:49.840]  So it's a minimum.
+[12:50.640 --> 13:02.140]  In practice, always do something like maybe even twice as much current, all right, through the base, if that's possible, okay?
+[13:02.140 --> 13:07.520]  All right, and so on that basis, you can now calculate your base resistor.
+[13:08.080 --> 13:13.620]  If you know how much base current you want, then the equation is extremely simple.
+[13:14.280 --> 13:27.580]  It's Vin minus that 0.7 volts divided by how much base current you want to have, and that allows you to calculate your R sub B, okay?
+[13:27.580 --> 13:38.440]  All right, so that's pretty straightforward, and as I said, at least it says here, choose a lower Rb to ensure that more Ib can pass.
+[13:38.940 --> 13:47.340]  But in this particular example, all right, this is done here as a calculation, and let's have a quick look at it.
+[13:47.340 --> 13:58.400]  Determine Rb and Rc if the transistor inverter is going to be operated such that I sub saturation is equal to 10 milliampere.
+[13:58.780 --> 14:02.140]  Okay, so it's an artificial problem, okay?
+[14:02.140 --> 14:12.080]  Given that we are going to be assuming, all right, that the input signal is 10 volts, going all the way up to 10 volts.
+[14:12.080 --> 14:22.000]  The output signal is also expected to go all the way to 10 volts and all the way as close to 0 as possible, okay?
+[14:22.000 --> 14:32.520]  So the implication here is that this is basically powered by a 10 volt supply because we can see that it reaches 10 volts when the transistor is off.
+[14:32.940 --> 14:46.340]  And it should go pretty close to 0 volts when the transistor is on, but realistically speaking, this is about 0.3 volts because that's the saturation voltage VCE.
+[14:46.340 --> 14:53.980]  But again, worst case, all right, we're going to just say that it reaches 0, okay?
+[14:54.140 --> 14:56.200]  So we're going to use that as the basis.
+[14:56.380 --> 14:59.680]  The target IC is 10 milliampere.
+[14:59.960 --> 15:10.480]  And so that's really easy to calculate because that obviously gives you an Rc, which is equal to 10 volts divided by 10 milliampere,
+[15:10.680 --> 15:15.560]  which gives us a 1k ohm R sub C, okay?
+[15:15.560 --> 15:24.520]  All right, and following through with that, okay, then we can calculate our I sub B, all right?
+[15:24.580 --> 15:29.060]  But it doesn't provide us with a transistor beta.
+[15:29.620 --> 15:31.280]  I think it's on the next slide.
+[15:31.440 --> 15:33.540]  Somebody forgot to put it, okay?
+[15:34.260 --> 15:36.180]  And so there it is, right?
+[15:36.300 --> 15:37.800]  The beta is 250.
+[15:38.100 --> 15:39.760]  Unfortunately, it's being covered.
+[15:39.900 --> 15:42.100]  So let's erase this, right?
+[15:42.100 --> 15:43.980]  250.
+[15:45.180 --> 15:48.880]  And given that it's a 250, all right?
+[15:49.200 --> 15:51.300]  Tama naman yung sagot natin kanina.
+[15:51.760 --> 15:55.620]  We can now calculate our I sub B, all right?
+[15:55.660 --> 16:04.940]  We can calculate our I sub B so that we can get our answer, all right?
+[16:04.940 --> 16:18.480]  And so this results in 10 milliampere divided by 250 for the beta, which gives you a 40 microampere base current requirement.
+[16:18.480 --> 16:24.080]  And proceeding with this bad practice, all right?
+[16:24.580 --> 16:39.140]  You'll find that substituting, you'll find your Rb is equal to 232.5 kilo ohms, 10 minus 0.7, all right?
+[16:39.140 --> 16:44.900]  Divided by 40 microampere gives you 232.5.
+[16:45.240 --> 16:51.900]  And so the slide natally says 230k ohms for R sub B, all right?
+[16:51.960 --> 16:54.000]  Now, this is something that I've added here.
+[16:54.400 --> 16:58.220]  In practice, use something lower to ensure saturation.
+[16:58.220 --> 17:20.520]  So again, I reiterate, to use the published beta is foolish because a manufacturer will provide you with a data sheet that produces an optimal sort of best case, typical beta.
+[17:20.520 --> 17:24.920]  So a transistor's beta is not really constant.
+[17:25.120 --> 17:26.960]  It might look like a curve like this.
+[17:27.020 --> 17:28.060]  It might look like this.
+[17:28.120 --> 17:31.840]  It might look pretty flat and then come tumbling down at higher currents.
+[17:32.300 --> 17:35.080]  And sometimes at low currents, it's suboptimal.
+[17:35.080 --> 17:41.960]  So generally speaking, all right, your beta curve, think of your beta curve as a curve.
+[17:42.560 --> 17:43.660]  It really curves.
+[17:43.660 --> 17:53.440]  And that maximum beta is what the transistor manufacturer provides on the data sheet.
+[17:54.360 --> 17:54.500]  Okay?
+[17:54.580 --> 18:01.360]  There's a parameter on the data sheet which is called HFE, which is basically equivalent of beta.
+[18:01.920 --> 18:05.680]  It's one and the same parameter, just called something different.
+[18:06.100 --> 18:09.500]  And we'll find out what HFE is in a later lecture.
+[18:09.980 --> 18:12.400]  But anyway, that is transistor beta.
+[18:12.400 --> 18:14.660]  They'll get it at its best.
+[18:15.160 --> 18:25.960]  Now, you might be operating the transistor somewhere at a lower point or you might be at a higher current than that optimal point.
+[18:26.240 --> 18:35.080]  And so do not assume that you'll ever really get the full possible beta because again, that's an optimal condition.
+[18:35.080 --> 18:44.060]  So personally speaking, I would put in at least twice the base current that is calculated.
+[18:45.000 --> 18:45.160]  Okay?
+[18:45.280 --> 18:57.900]  So instead of 40, if you calculate that it should require 40 microamperes, I would recalculate that and say that, okay, times 2, it is 80 microamperes.
+[18:57.900 --> 19:01.240]  At least 80 microamperes that I will target.
+[19:01.580 --> 19:12.160]  I might go even more than that as long as the signal that is driving the transistor can handle that additional current.
+[19:12.160 --> 19:12.760]  Okay?
+[19:12.760 --> 19:13.000]  Okay?
+[19:13.000 --> 19:17.560]  So for whatever you calculate here, it's a very, very simple thing.
+[19:17.940 --> 19:19.540]  Just divide it by 2.
+[19:19.980 --> 19:20.340]  All right?
+[19:20.420 --> 19:24.800]  Just divide it by 2 so that your base current is twice what you calculated.
+[19:25.180 --> 19:30.300]  So in this case, instead of using 230K ohms, which doesn't exist by the way.
+[19:30.840 --> 19:31.160]  All right?
+[19:31.220 --> 19:33.940]  So this would be a real life 220K.
+[19:33.940 --> 19:39.100]  So instead of using 220K, I would put in a much lower value.
+[19:39.620 --> 19:44.060]  So dividing that by 2, that's going to be 110K ohms.
+[19:44.500 --> 19:49.960]  But it might be hard to find 110K because again, it's one of those weird values.
+[19:50.280 --> 19:51.740]  So I'd go even lower.
+[19:52.000 --> 19:56.840]  I would use 100 kilo ohms in this particular case.
+[19:57.320 --> 19:57.700]  All right?
+[19:57.920 --> 19:59.320]  So there you go.
+[19:59.440 --> 20:01.400]  So please remember this.
+[20:01.400 --> 20:02.820]  It's not on the slide.
+[20:03.600 --> 20:03.860]  Okay?
+[20:03.940 --> 20:05.280]  It is not on the slide.
+[20:05.600 --> 20:12.660]  But I have mentioned it in this lecture several times.
+[20:13.180 --> 20:13.460]  Okay?
+[20:13.660 --> 20:15.360]  And trying to make that clear.
+[20:16.160 --> 20:16.360]  Okay?
+[20:17.060 --> 20:23.600]  So when you get to the quiz or whatever, more importantly, not in a quiz, but in the real
+[20:23.600 --> 20:30.740]  life, in the real world, if you're faced with an interfacing issue or problem or application
+[20:30.740 --> 20:37.680]  requirement, where you need to use a transistor as a switch, remember this lesson and remember
+[20:37.680 --> 20:39.740]  what I have just stated.
+[20:39.740 --> 20:40.580]  Okay?
+[20:40.580 --> 20:41.080]  Okay?
+[20:41.080 --> 20:45.800]  It does not hurt the transistor to put in more base current.
+[20:45.800 --> 20:46.760]  Okay?
+[20:46.760 --> 20:51.560]  It's an insurance that the transistor will operate as expected.
+[20:51.560 --> 20:52.680]  Okay?
+[20:52.680 --> 20:53.360]  All right?
+[20:53.360 --> 20:53.520]  All right?
+[20:53.520 --> 20:54.060]  All right?
+[20:54.060 --> 21:01.920]  The only limitation, again, here, is the fact that when you attempt to put in more base
+[21:01.920 --> 21:08.100]  current, this will obviously demand more from whatever signal is driving this thing.
+[21:08.100 --> 21:17.420]  So in this particular case, 80 microamperes, 100 microamperes is a very, very small value.
+[21:18.020 --> 21:27.000]  So it's very likely that whatever is driving it should have no issue with providing that little extra base current.
+[21:27.780 --> 21:27.860]  Okay?
+[21:28.360 --> 21:28.660]  All right.
+[21:28.760 --> 21:30.440]  So that's it for that slide.
+[21:31.040 --> 21:32.380]  I hope that's clear.
+[21:34.080 --> 21:34.240]  Okay?
+[21:35.080 --> 21:37.520]  Are there questions about this?
+[21:38.100 --> 21:38.480]  Okay?
+[21:38.660 --> 21:39.080]  Tanong.
+[21:44.220 --> 21:44.820]  Questions?
+[21:45.180 --> 21:45.480]  Questions?
+[21:46.600 --> 21:47.300]  Are we clear?
+[21:47.420 --> 21:56.640]  Can we get a thumbs up please to see that everybody has picked up this lesson and sort of understands?
+[21:56.920 --> 21:57.260]  Okay.
+[21:57.620 --> 21:58.200]  Very good.
+[22:00.440 --> 22:00.720]  Wait.
+[22:00.940 --> 22:01.200]  Okay.
+[22:03.760 --> 22:05.680]  Yes, Mr. Infante.
+[22:05.900 --> 22:06.480]  That's right.
+[22:06.480 --> 22:10.260]  Dividing Rb by 2 will increase the base current by a factor of 2.
+[22:12.040 --> 22:14.260]  Yes, it's more ideal.
+[22:14.640 --> 22:15.460]  Oh my God.
+[22:16.400 --> 22:18.480]  I have to repeat myself.
+[22:21.020 --> 22:22.940]  It's more ideal.
+[22:22.940 --> 22:30.020]  We want to ensure that there's more than enough base current to saturate the transistor.
+[22:33.720 --> 22:34.360]  Okay?
+[22:34.360 --> 22:34.460]  Okay.
+[22:38.460 --> 22:39.140]  Ulitin ko.
+[22:39.140 --> 22:40.340]  Mr. Infante.
+[22:40.480 --> 22:41.680]  Makinig ka ng mabuti.
+[22:43.140 --> 22:43.980]  Sinabi ko na.
+[22:44.300 --> 22:51.080]  Ang beta na ganyan, hindi talaga normally ina-assume, naaabot.
+[22:51.080 --> 22:59.920]  Because what's published is always on the highest possible value.
+[23:00.240 --> 23:02.480]  This is what I've been drawing since a while ago.
+[23:02.700 --> 23:02.960]  Please.
+[23:03.500 --> 23:03.780]  Okay?
+[23:03.780 --> 23:04.000]  Okay.
+[23:05.560 --> 23:06.160]  Okay.
+[23:06.160 --> 23:15.080]  So, individual transistors and the fact that you might be operating the transistor at a non-ideal point.
+[23:15.080 --> 23:20.500]  How did you know that 10 milliampere is a nice operating current?
+[23:20.640 --> 23:21.680]  But, you know, what the hell?
+[23:22.080 --> 23:24.080]  So, it may not be 250.
+[23:24.340 --> 23:26.400]  It might be less than 250.
+[23:26.660 --> 23:30.160]  So, all right?
+[23:30.360 --> 23:34.620]  We're keeping our fingers crossed really here that, you know, it's not as bad.
+[23:34.620 --> 23:37.200]  You know, that it's half of that.
+[23:38.040 --> 23:40.240]  Hopefully, it's better than half of that.
+[23:40.800 --> 23:41.000]  Okay?
+[23:41.920 --> 23:42.460]  Sige.
+[23:43.460 --> 23:44.160]  All right.
+[23:44.340 --> 23:45.400]  So, let's go forward.
+[23:46.600 --> 23:46.980]  Okay?
+[23:49.040 --> 23:50.020]  What is this?
+[23:50.140 --> 23:50.300]  Okay.
+[23:50.700 --> 23:52.080]  So, we're done.
+[23:52.820 --> 23:55.300]  Babalikan natin ang transistor switching.
+[23:55.660 --> 24:02.140]  We'll get back to that when we talk about digital logic in the future.
+[24:02.140 --> 24:06.140]  As well as, you know, look at more interfacing problems.
+[24:06.960 --> 24:10.400]  Because after all of, after this, all right?
+[24:10.460 --> 24:14.960]  After this, we're looking, going to be looking into, what's this?
+[24:15.320 --> 24:18.000]  The amplification itself.
+[24:18.380 --> 24:18.700]  All right?
+[24:18.760 --> 24:21.680]  This is why we're going to be looking at the LPSPY simulation.
+[24:21.680 --> 24:34.860]  And we are also going to know how to hand calculate the expected amplification factor, more or less.
+[24:35.580 --> 24:35.840]  All right?
+[24:35.980 --> 24:41.100]  And then, after that, we look at transistor application.
+[24:41.360 --> 24:43.180]  So, all of this is theoretical.
+[24:43.700 --> 24:45.900]  You'll learn that, okay, I can use it as a switch.
+[24:46.000 --> 24:48.320]  And I can use it as a linear amplifier.
+[24:48.320 --> 24:52.080]  So, where do I use transistor?
+[24:52.400 --> 24:57.120]  So, transistor applications will be the next, next topic.
+[24:57.700 --> 24:57.940]  All right?
+[24:58.060 --> 25:02.300]  And so, how do I put transistors together to produce this kind of a signal?
+[25:02.740 --> 25:06.340]  Or to meet the requirements of the application.
+[25:06.900 --> 25:07.160]  All right?
+[25:07.160 --> 25:19.520]  So, transistor applications will be the next, next topic after understanding, you know, active region linear amplification.
+[25:20.020 --> 25:20.180]  Okay?
+[25:20.280 --> 25:24.900]  And to basically show you this, because, you know, we haven't gone to the lab.
+[25:25.280 --> 25:26.780]  But, you know, this will do.
+[25:26.780 --> 25:36.820]  So, I'm going to basically show you, right, what happens when we have a transistor circuit, basically, that looks like this.
+[25:37.060 --> 25:45.600]  So, simulate the circuit below, display 10 cycles of the input current, collector current, and the voltage across the collector and emitter.
+[25:45.600 --> 25:49.820]  With the input signal, so, oops, sorry.
+[25:50.360 --> 25:51.060]  What the hell?
+[25:51.360 --> 25:58.140]  With the input signal, I hit something on the tablet, which told the software to stop presenting.
+[25:58.520 --> 26:05.760]  Let me just put it back on.
+[26:06.540 --> 26:06.940]  Okay.
+[26:07.700 --> 26:09.820]  And recapture it.
+[26:09.880 --> 26:10.600]  Sorry about that.
+[26:11.380 --> 26:11.960]  What the hell?
+[26:12.660 --> 26:13.280]  Share.
+[26:13.280 --> 26:13.280] 
+[26:14.280 --> 26:15.280]  Sana punta.
+[26:15.600 --> 26:18.280]  This is a joke.
+[26:20.020 --> 26:21.400]  So, what was it that I hit?
+[26:22.040 --> 26:22.200]  Okay.
+[26:23.340 --> 26:24.200]  Stupid tablet.
+[26:24.660 --> 26:24.780]  Okay.
+[26:26.060 --> 26:30.060]  We're going to be looking at the simulation of this.
+[26:30.420 --> 26:30.700]  All right?
+[26:30.800 --> 26:34.860]  And the input signal is a sinusoidal signal.
+[26:34.860 --> 26:37.120]  So, this is something that you might want to take note of.
+[26:37.540 --> 26:37.860]  All right?
+[26:38.000 --> 26:45.460]  Which is sort of expected when you're using the transistor as a linear amplification unit.
+[26:45.600 --> 26:46.400]  So, you have a sinusoidal signal.
+[26:46.400 --> 26:47.400]  So, you have a sinusoidal signal.
+[26:47.400 --> 26:49.200]  So, you have a sinusoidal signal.
+[26:49.200 --> 26:56.200]  Again, a sinusoidal signal is very convenient as an academic input.
+[26:56.200 --> 26:59.800]  And even in practice in the laboratory, a sinusoidal signal.
+[26:59.800 --> 27:03.540]  And even in practice, in the laboratory, a sinusoidal input will provide you with a nice continuous function.
+[27:04.000 --> 27:04.640]  All right?
+[27:04.800 --> 27:10.680]  Whose input amplitude is probably going to be way too large for this transistor.
+[27:10.680 --> 27:12.280]  This is silly.
+[27:12.280 --> 27:12.940]  All right?
+[27:13.940 --> 27:19.780]  Stupid choice, again, of parameters here.
+[27:19.980 --> 27:21.480]  So, I'm going to change this.
+[27:21.560 --> 27:24.320]  We're going to have to adjust it a little bit.
+[27:24.780 --> 27:25.080]  All right?
+[27:25.080 --> 27:37.220]  But setting the frequency to 2,000 pi T, which basically is, if my brain is correct, is equal to 1,000 hertz.
+[27:37.220 --> 27:37.780]  All right?
+[27:37.880 --> 27:39.540]  This is equal to 1,000 hertz.
+[27:39.960 --> 27:42.380]  So, we're going to simulate this.
+[27:42.780 --> 27:43.300]  39K.
+[27:43.400 --> 27:47.920]  Hopefully, this is a transistor that is not in saturation, which is going to be silly.
+[27:48.640 --> 27:49.000]  All right?
+[27:49.000 --> 27:53.220]  I remember we did a bit of calculation on this one before.
+[27:54.420 --> 28:00.380]  And I don't remember what the VCE turned out to be.
+[28:00.680 --> 28:02.780]  I could probably do that very quickly.
+[28:05.140 --> 28:13.380]  But it's easier to just simulate it and see what happens.
+[28:13.540 --> 28:13.680]  Okay?
+[28:14.080 --> 28:16.200]  So, let's have a quick look at this.
+[28:16.200 --> 28:18.700]  People just try to memorize this.
+[28:19.660 --> 28:23.520]  39K, 3.9K, 10K, 1.5K.
+[28:24.420 --> 28:36.260]  Coming from a supply of 22 volts, we are going to use my brain to just put in arbitrary values, workable values for the capacitors here.
+[28:36.540 --> 28:38.820]  And we're going to try to simulate it.
+[28:38.960 --> 28:39.100]  Okay?
+[28:39.160 --> 28:42.200]  So, I'm going to stop sharing for this one.
+[28:42.800 --> 28:43.260]  Okay?
+[28:43.260 --> 28:45.720]  And let's put it up.
+[28:47.020 --> 28:48.520]  Where's my LTSpice?
+[28:51.920 --> 28:52.360]  Here.
+[28:56.780 --> 28:59.440]  As usual, it's stupidly trying to update.
+[29:00.020 --> 29:02.360]  And I have to tell it, no, don't update.
+[29:03.420 --> 29:03.720]  Okay?
+[29:03.720 --> 29:08.680]  And let me just share the LTSpice screen right now.
+[29:08.760 --> 29:09.340]  It's blank.
+[29:10.760 --> 29:11.040]  Okay?
+[29:11.800 --> 29:23.740]  And, of course, we shall put in a new schematic with the components as stated.
+[29:23.740 --> 29:24.240]  Okay?
+[29:24.240 --> 29:25.540]  So, hang on.
+[29:25.540 --> 29:30.980]  I might as well start with the two resistors.
+[29:31.680 --> 29:34.780]  And then we have our collector resistor.
+[29:35.520 --> 29:38.980]  And we have our emitter resistor.
+[29:38.980 --> 29:46.560]  And let's put in our NPN transistor, which should be this one here.
+[29:47.560 --> 29:47.900]  Okay?
+[29:48.080 --> 29:50.860]  And there we go.
+[29:52.000 --> 29:52.420]  All right?
+[29:52.500 --> 29:56.400]  And, of course, we need our supply voltage.
+[29:56.400 --> 29:58.660]  And that's over here.
+[29:59.360 --> 30:00.780]  Let's just put that there.
+[30:01.880 --> 30:03.740]  Voltage is 22.
+[30:04.840 --> 30:05.160]  Okay?
+[30:05.360 --> 30:12.900]  And let's put in our connections before putting in the actual values.
+[30:14.280 --> 30:14.580]  Okay?
+[30:14.580 --> 30:26.400]  Sorry if this is kind of clunky, but it's so much easier to just draw this by hand, actually.
+[30:26.740 --> 30:27.340]  Oh, sorry.
+[30:28.760 --> 30:32.380]  But computers.
+[30:32.380 --> 30:33.440]  Oh, boy.
+[30:35.020 --> 30:35.580]  Okay.
+[30:35.900 --> 30:38.200]  And this one goes here.
+[30:38.340 --> 30:42.720]  And, of course, that is supposed to go to ground as well.
+[30:42.720 --> 30:45.340]  So, I might as well just put the symbol over there.
+[30:45.660 --> 30:46.260]  There we go.
+[30:46.340 --> 30:46.980]  That's ground.
+[30:47.100 --> 30:50.480]  This is supposed to be a 39K.
+[30:51.300 --> 30:56.040]  This lower one, if you might recall, is 3.9 kOhms.
+[30:56.480 --> 31:01.720]  This is a 1.5K, which I would adjust if needed.
+[31:02.700 --> 31:02.920]  Right?
+[31:03.020 --> 31:04.880]  This one is a 10K.
+[31:05.700 --> 31:09.700]  And it didn't really say anything as to what transistor it is.
+[31:09.700 --> 31:17.880]  But we might as well put in the all-time favorite 2N2222, which is readily available.
+[31:19.820 --> 31:22.640]  Although I'm not too confident with...
+[31:22.640 --> 31:25.560]  Well, in this case, the beta is 200.
+[31:26.360 --> 31:29.000]  And I guess that's okay.
+[31:29.900 --> 31:32.440]  It's not 140 like it was stated there.
+[31:32.540 --> 31:33.180]  But what the hell?
+[31:33.240 --> 31:33.940]  That's good enough.
+[31:33.940 --> 31:34.800]  All right.
+[31:35.020 --> 31:37.740]  And, oh, I forgot the voltage.
+[31:38.880 --> 31:40.300]  But let's check first.
+[31:40.540 --> 31:42.100]  So, let's run the simulation.
+[31:42.800 --> 31:51.860]  And let's find out where the bias, Q point, what is the Q point of our transistor.
+[31:52.580 --> 31:52.780]  Okay?
+[31:52.860 --> 31:55.880]  So, we'll have to put in a simulation.
+[31:56.520 --> 31:56.940]  All right?
+[31:56.940 --> 31:59.880]  And say that we want an operating point.
+[32:00.880 --> 32:03.560]  We just run our simulation here.
+[32:04.300 --> 32:13.860]  And the very, very quick look through it shows that we're running about 8 mA through our collector.
+[32:14.960 --> 32:15.320]  All right?
+[32:15.380 --> 32:18.480]  That's 8 mA here, as you can see.
+[32:18.480 --> 32:26.460]  And it doesn't exactly tell us the voltages from collector to emitter, unfortunately.
+[32:26.880 --> 32:34.800]  But I think we can see what that is by just putting the cursor right there at that particular node.
+[32:35.800 --> 32:36.120]  Okay?
+[32:36.180 --> 32:39.520]  And we can see that the collector is at 13 volts.
+[32:40.020 --> 32:44.620]  And the emitter should be at about 1.3 volts.
+[32:44.620 --> 32:45.420]  All right?
+[32:45.740 --> 32:58.480]  13 volts and 1.3 with the 20 volt supply puts our transistor at, you know, a realistic center, more or less, of the whole possible voltage swing.
+[32:58.960 --> 33:06.740]  And so, that means that the thing is actually biased pretty much all right in the active region.
+[33:07.220 --> 33:07.500]  Okay?
+[33:07.700 --> 33:09.440]  So, that satisfies that.
+[33:09.440 --> 33:16.120]  And so, all right, let's go ahead and put in our signal.
+[33:17.280 --> 33:17.360]  Okay?
+[33:17.980 --> 33:24.940]  And in order to do that, of course, we would like to make a connection like so.
+[33:25.000 --> 33:25.340]  Hang on.
+[33:26.700 --> 33:28.060]  With a capacitor.
+[33:28.400 --> 33:37.160]  Because if not, what will happen is that the bias that we have so carefully set up, all right, will go nuts.
+[33:37.160 --> 33:39.760]  We don't need the output capacitor, actually.
+[33:40.620 --> 33:44.880]  But if I put it, well, that might be better as an illustration.
+[33:45.320 --> 33:49.780]  So, let me just complete this so that we can see it.
+[33:50.200 --> 34:01.500]  I'm not going to put the emitter, that third capacitor, which is on the, what's this, emitter resistor.
+[34:01.500 --> 34:01.980]  Okay?
+[34:01.980 --> 34:03.540]  I'm not going to put that in.
+[34:03.880 --> 34:07.120]  That's not needed for this particular illustration.
+[34:12.220 --> 34:16.900]  And let me complete the connections here.
+[34:17.400 --> 34:22.200]  This is a loading resistor just so that our capacitor settles down.
+[34:22.200 --> 34:25.320]  I'm going to make this a 10 microfarad capacitor.
+[34:26.300 --> 34:30.860]  And this one also is going to be a 10 microfarad capacitor.
+[34:31.720 --> 34:33.120]  Where did it go?
+[34:33.580 --> 34:33.780]  All right?
+[34:34.240 --> 34:39.380]  This is going to be a sinusoidal signal.
+[34:41.340 --> 34:43.100]  No offset voltage.
+[34:43.340 --> 34:43.720]  Zero.
+[34:44.040 --> 34:45.760]  The amplitude will be one volt.
+[34:48.920 --> 34:49.520]  No.
+[34:49.520 --> 34:55.300]  The amplitude will be 0.2 volts.
+[34:55.860 --> 34:56.040]  Okay?
+[34:56.520 --> 34:58.920]  Frequency is one kilohertz.
+[34:59.920 --> 35:01.620]  And that's there.
+[35:03.180 --> 35:12.880]  And we are going to put in a load here of, say, for example, a 100K just so that it settles down.
+[35:12.880 --> 35:19.300]  And we are going to edit the simulation command.
+[35:19.560 --> 35:20.060]  All right?
+[35:20.820 --> 35:23.620]  So that it now does a transient analysis.
+[35:23.920 --> 35:26.640]  Our frequency is one kilohertz.
+[35:27.100 --> 35:33.600]  We want to put in a couple of cycles there to allow for a certain amount of settling time.
+[35:33.600 --> 35:44.800]  So we'll allow the circuit to sort of settle first because we've got capacitors that will charge of this charge, particularly the output capacitor.
+[35:45.220 --> 35:50.880]  And with an R5 of 100K ohms, that's going to take quite a bit of time to settle down.
+[35:50.880 --> 35:58.780]  So we'll start looking at it after, say, for example, 500 milliseconds.
+[35:58.780 --> 36:05.000]  And we'll look at about 10 cycles of that.
+[36:06.940 --> 36:12.680]  Therefore, 510 milliseconds of actual output.
+[36:12.880 --> 36:14.280]  And that's what we're going to put here.
+[36:15.100 --> 36:15.280]  Okay?
+[36:15.480 --> 36:16.440]  So this is what I'm saying.
+[36:16.500 --> 36:18.020]  You have to sort of think about it.
+[36:18.120 --> 36:21.420]  And for all you know, my brain might not be functioning properly.
+[36:21.420 --> 36:25.900]  And so these parameters may not be particularly good either.
+[36:26.860 --> 36:29.740]  Let me just get this silly thing out of the way.
+[36:32.300 --> 36:32.900]  Okay.
+[36:33.400 --> 36:33.700]  All right.
+[36:33.780 --> 36:37.340]  And so our simulation's been set up here.
+[36:37.660 --> 36:39.100]  Let's see if it works.
+[36:39.520 --> 36:39.800]  All right.
+[36:39.860 --> 36:42.920]  Let's do a transient run.
+[36:43.280 --> 36:43.500]  Yeah.
+[36:43.600 --> 36:45.080]  Hopefully everybody can see this.
+[36:45.180 --> 36:45.420]  Right?
+[36:45.700 --> 36:46.020]  Okay.
+[36:46.020 --> 36:49.520]  So here is our input signal.
+[36:51.140 --> 36:53.540]  0.2 volts, as I put in.
+[36:53.700 --> 36:56.700]  So it'll go plus 0.2, minus 0.2.
+[36:56.860 --> 37:02.040]  For a 0.4 volt peak-to-peak signal, we should be seeing 10 cycles here.
+[37:02.420 --> 37:08.440]  Because this is a 500 to 510 millisecond simulation.
+[37:08.700 --> 37:10.300]  So that's 10 milliseconds in between.
+[37:10.400 --> 37:12.520]  That gives you exactly 10 cycles.
+[37:12.660 --> 37:14.540]  And so that's exactly as expected there.
+[37:14.540 --> 37:16.360]  So that's our input signal.
+[37:17.140 --> 37:23.960]  And of course, the piece of interest here is, does the circuit amplify?
+[37:24.440 --> 37:26.820]  And so let's go have a look at the output.
+[37:27.400 --> 37:28.940]  You see where I'm probing it here.
+[37:29.620 --> 37:35.180]  And the white trace is the output signal.
+[37:35.180 --> 37:43.400]  So you've seen that LTSpice, obviously, the simulation graphical output automatically scales the thing.
+[37:43.620 --> 37:54.520]  And we can now see that the output is doing a 1.2 volt up and 1.2 volt down, plus minus 1.2 volts.
+[37:54.520 --> 38:00.520]  So this gives us a 2.4 volt peak-to-peak signal.
+[38:01.260 --> 38:01.500]  All right?
+[38:02.000 --> 38:06.720]  That is a 2.4 volt peak-to-peak signal.
+[38:06.880 --> 38:08.680]  So let me just write that down for you.
+[38:09.180 --> 38:09.520]  All right?
+[38:09.600 --> 38:10.700]  Let's write that down.
+[38:10.900 --> 38:11.180]  All right?
+[38:11.180 --> 38:26.260]  So Vout is equal to 2.4 volts peak-to-peak, whereas our Vin is basically equal to 0.4 volts peak-to-peak.
+[38:26.640 --> 38:27.020]  All right?
+[38:27.780 --> 38:29.080]  Everybody following?
+[38:29.500 --> 38:29.840]  All right?
+[38:29.840 --> 38:33.420]  And so we now can calculate our voltage gain.
+[38:34.000 --> 38:34.400]  All right?
+[38:34.500 --> 38:35.680]  Our voltage gain.
+[38:36.340 --> 38:36.700]  All right?
+[38:37.140 --> 38:43.100]  Voltage amplification factor is 2.4 over 0.4.
+[38:43.860 --> 38:54.580]  And according to my very beautiful calculator here, that is a voltage gain of about 6.
+[38:54.920 --> 38:55.260]  All right?
+[38:55.260 --> 39:02.560]  So the amplification factor, as you can see here, is about 6 times.
+[39:03.000 --> 39:03.200]  All right?
+[39:03.260 --> 39:04.180]  About 6 times.
+[39:04.240 --> 39:07.560]  It's a very, very modest amplification.
+[39:07.900 --> 39:09.520]  It's a very modest amplification.
+[39:10.380 --> 39:21.080]  And that's simply because I did not ask the transistor to actually try to maximize its possible amplification factor.
+[39:21.240 --> 39:23.620]  I wanted to keep the thing as linear as possible.
+[39:23.620 --> 39:28.740]  So we can see here that that's a, you know, it works.
+[39:29.180 --> 39:31.100]  And the output, all right?
+[39:31.220 --> 39:35.160]  The output, let's try to have a better look at this if you like.
+[39:35.580 --> 39:35.880]  All right?
+[39:36.200 --> 39:36.680]  Oops.
+[39:38.220 --> 39:38.580]  All right?
+[39:39.040 --> 39:43.780]  And let's magnify this so that you can see a little bit better.
+[39:44.280 --> 39:44.560]  All right?
+[39:44.560 --> 39:52.160]  And you can see that as far as the signal is concerned, we have a very nice-looking output.
+[39:52.480 --> 39:55.060]  It looks quite sinusoidal.
+[39:55.320 --> 39:55.540]  All right?
+[39:55.580 --> 39:57.060]  It looks quite sinusoidal.
+[39:57.560 --> 40:03.100]  Any distortions are not that apparent, at least visually speaking.
+[40:03.860 --> 40:04.220]  All right?
+[40:04.220 --> 40:13.940]  And that's exactly what we expect the transistor circuit to be doing, especially under these conditions where the output swing is fairly small.
+[40:13.940 --> 40:15.020]  All right?
+[40:15.020 --> 40:25.680]  The output swing is fairly small so that it is remaining in the most linear possible amplification region of our circuit.
+[40:26.540 --> 40:26.800]  Okay?
+[40:26.800 --> 40:38.320]  You'll also notice that, of course, we have a symmetrical swing going from, you know, negative 1.2 all the way to positive 1.2, which means that it's centered at zero.
+[40:38.700 --> 40:39.260]  All right?
+[40:39.300 --> 40:40.700]  It's centered right at zero.
+[40:40.840 --> 40:43.820]  And that's care of the output coupling capacitor.
+[40:44.440 --> 40:46.120]  So this is a different story.
+[40:46.120 --> 40:53.120]  If I were to change this, for example, all right, let's remove the input signal.
+[40:54.100 --> 40:55.620]  We're only looking at the output now.
+[40:56.180 --> 40:56.380]  Okay?
+[40:56.740 --> 41:01.420]  Let's look at the signal before the capacitor.
+[41:01.840 --> 41:02.020]  Okay?
+[41:02.080 --> 41:06.500]  So before the capacitor, this is what the signal looks like.
+[41:06.620 --> 41:08.760]  So you see that it's all the way up there.
+[41:09.760 --> 41:10.260]  Okay?
+[41:10.300 --> 41:11.440]  It's all the way up there.
+[41:13.520 --> 41:14.040]  Okay?
+[41:14.040 --> 41:19.280]  And again, the scaling here is pretty obvious.
+[41:19.520 --> 41:28.040]  But you'll notice that our signal, in fact, is without that capacitor, right?
+[41:28.160 --> 41:33.620]  Without that capacitor, we can see that the signal is going basically up here.
+[41:33.760 --> 41:35.200]  It's supposed to be centered.
+[41:35.440 --> 41:42.100]  Remember where our collector voltage was when we did our DC simulation?
+[41:42.100 --> 41:44.860]  It was at about 13 volts.
+[41:45.540 --> 41:49.660]  So that 13 volts, all right, is the coefficient point.
+[41:50.260 --> 42:04.440]  And when we put an input signal, the collector voltage goes down and up, all right, by that same amplitude of up by 1.2 and down by negative 1.2.
+[42:04.440 --> 42:14.200]  So to make that clear, let's try removing this capacitor output.
+[42:14.980 --> 42:21.080]  Let's just concentrate on what the collector voltage actually is.
+[42:21.500 --> 42:21.760]  All right?
+[42:22.200 --> 42:30.720]  And so you can see over here, all right, you can see over here that collector voltage-wise, let me just drag this out of the way for heaven's sake.
+[42:32.080 --> 42:33.040]  Go away, go away.
+[42:33.040 --> 42:33.920]  All right, there we go.
+[42:33.920 --> 42:47.600]  We can see that as we had simulated earlier, the coefficient point is at approximately close to about 13.2 volts maybe at the center.
+[42:47.600 --> 43:04.480]  And then we have it going upwards by 1.2 volts, reaching about 14.3 volts, and going downwards by 1.2 volts, reaching about 11.9 volts or so.
+[43:04.480 --> 43:11.360]  So of course, we can get the actual values if we place a cursor over there, all right?
+[43:11.360 --> 43:15.160]  We click on it, and we can move this thing around.
+[43:15.540 --> 43:15.740]  Oops.
+[43:16.440 --> 43:18.080]  Where's the value?
+[43:19.040 --> 43:19.200]  Okay.
+[43:19.360 --> 43:20.360]  Nandito sa kabila.
+[43:21.040 --> 43:22.500]  It's on the other screen.
+[43:22.500 --> 43:23.060]  Okay.
+[43:23.060 --> 43:31.980]  And you can see that the upward peak is at 14.3 and the negative peak is at 11.95.
+[43:32.920 --> 43:33.240]  All right?
+[43:33.280 --> 43:34.400]  So approximately there.
+[43:34.600 --> 43:42.860]  And that puts our center voltage, you know, somewhere around, probably somewhere around there.
+[43:43.380 --> 43:43.540]  Okay.
+[43:44.540 --> 43:44.940]  Okay.
+[43:44.940 --> 43:46.760]  13.1, 13.2 volts.
+[43:46.760 --> 43:51.040]  So there's your transistor amplifier.
+[43:51.640 --> 43:51.700]  Okay.
+[43:51.700 --> 43:54.160]  That's your transistor amplifier.
+[43:54.780 --> 43:59.060]  Now, if you're thinking that, well, the gain looks really small.
+[43:59.180 --> 44:00.580]  It's only a time six.
+[44:00.960 --> 44:10.820]  For most purposes, all right, you are really not looking at amplifying the signal by a very, very large degree.
+[44:10.820 --> 44:34.260]  But just to prove to you that this is because of the circuit choice, the way that the thing has been, you know, the values that were chosen and the particular configuration, let me just clear this up.
+[44:34.400 --> 44:37.040]  Let's go and modify the circuit.
+[44:37.500 --> 44:37.820]  All right?
+[44:37.820 --> 44:40.140]  Let's go and modify the circuit a little bit.
+[44:40.940 --> 44:46.820]  And in this case, I am going to be adding, all right, that capacitor here.
+[44:49.800 --> 44:50.580]  All right?
+[44:52.680 --> 44:56.800]  As shown in the original slide.
+[44:57.260 --> 45:01.960]  And in this particular case, I am putting in a 100 microcarad capacitor.
+[45:02.460 --> 45:06.120]  Don't ask me why those values are such, all right?
+[45:06.120 --> 45:16.580]  It's my brain automatically scaling based on what I know about the circuit and the values that have been chosen there.
+[45:16.580 --> 45:28.600]  So, what's going to happen with this, essentially, is that you're going to see that the voltage gain of the circuit will shoot up by a humongous factor.
+[45:29.340 --> 45:29.580]  Okay?
+[45:29.660 --> 45:32.120]  By a very, very, very, very large factor.
+[45:32.120 --> 45:50.120]  So much so that with an input signal of 0.2 volts, all right, peak to peak, the output will actually bang itself to its limit and produce a very, very distorted looking signal.
+[45:51.400 --> 45:52.020]  All right?
+[45:52.020 --> 45:54.000]  So, let's run the simulation.
+[45:54.600 --> 45:59.460]  And I've already told you to expect that the output is going to look horrible.
+[46:00.440 --> 46:00.720]  All right?
+[46:01.000 --> 46:04.660]  So, here again is our input signal.
+[46:04.960 --> 46:08.960]  It is still a perfect sine wave because after all, it's a simulation.
+[46:09.760 --> 46:12.180]  Let's look at the output signal now.
+[46:12.740 --> 46:12.900]  Okay?
+[46:13.100 --> 46:13.360]  Ito.
+[46:14.080 --> 46:16.820]  Ano yung itsura ng output signal natin?
+[46:17.380 --> 46:17.740]  Ayan.
+[46:18.760 --> 46:19.260]  Okay?
+[46:19.260 --> 46:25.000]  So, as you can see, the output signal is really terrible.
+[46:25.520 --> 46:25.760]  All right?
+[46:25.840 --> 46:26.900]  It's really terrible.
+[46:27.200 --> 46:29.100]  It is banged all the way.
+[46:29.740 --> 46:31.640]  This is what happens, essentially.
+[46:31.960 --> 46:40.420]  You don't even see that it has any semblance of a sinusoidal waveform anymore because we have overdriven.
+[46:40.420 --> 46:43.980]  The gain of the transistor is so high at this point.
+[46:43.980 --> 46:53.160]  Its voltage amplification factor is so high that that input signal is driving the output all the way up to saturation.
+[46:54.480 --> 46:54.560]  Okay?
+[46:55.080 --> 47:00.780]  It's driving the output all the way to saturation, which is over here, that saturation.
+[47:01.420 --> 47:05.840]  And it is also driving the output all the way to cutoff.
+[47:06.420 --> 47:06.840]  All right?
+[47:06.840 --> 47:10.880]  So, the transistor is driven to saturation and cutoff.
+[47:11.080 --> 47:13.140]  And we can see that.
+[47:13.480 --> 47:13.840]  All right?
+[47:13.980 --> 47:15.860]  Let's have a look here.
+[47:17.200 --> 47:20.960]  I'm going to remove all of these traces.
+[47:22.420 --> 47:22.980]  Okay?
+[47:22.980 --> 47:26.700]  And let's look at the collector voltage in itself.
+[47:26.700 --> 47:27.300]  All right?
+[47:27.300 --> 47:33.860]  So, you see the collector here going all the way down as low as it can.
+[47:34.000 --> 47:40.840]  It doesn't reach zero for the simple reason that our emitter is at about 1.3 volts.
+[47:40.840 --> 47:47.480]  So, it can only go down as low as the emitter voltage, a little bit above that.
+[47:47.700 --> 47:47.960]  All right?
+[47:48.080 --> 47:53.540]  So, 1.3 volts, a little bit above, maybe about 1.5, 1.6 volts.
+[47:53.760 --> 47:54.460]  All right?
+[47:54.500 --> 47:55.380]  For saturation.
+[47:55.900 --> 48:03.660]  And then here it is practically turning off, reaching all the way up to almost the supply voltage of 22.
+[48:04.500 --> 48:04.940]  All right?
+[48:04.940 --> 48:16.260]  And that's really all the transistor can actually manage because it is already reaching its minimum and maximum possible outputs.
+[48:16.780 --> 48:16.940]  Okay?
+[48:17.300 --> 48:19.120]  So, what can we do about this?
+[48:19.120 --> 48:28.940]  Well, obviously, if you configure the transistor this way, then it's because you want it to amplify the signal a very large amount.
+[48:28.940 --> 48:35.180]  And the anticipated signal is going to be very small.
+[48:36.180 --> 48:36.400]  All right?
+[48:36.580 --> 48:47.140]  The input signal must have been anticipated to be very, very small, which is why you wanted to amplify it by such a large factor.
+[48:47.720 --> 48:52.120]  So, let's be more realistic and scale this thing down.
+[48:52.440 --> 48:52.840]  All right?
+[48:52.840 --> 48:58.640]  And let's make this smaller, possibly by a factor of 10.
+[48:58.940 --> 49:04.920]  So, here's 0.02 volts of amplitude.
+[49:05.580 --> 49:08.280]  And let's simulate this again.
+[49:08.280 --> 49:24.780]  And as you can see, even with 0.02 volts, all right, the transistor is happily magnifying this input signal into something significantly bigger.
+[49:24.780 --> 49:28.780]  So, again, here is the input signal.
+[49:30.780 --> 49:37.560]  20 millivolts, a.k.a. 40 millivolts peak to peak.
+[49:37.560 --> 49:50.620]  And when we look at the output, the output is basically going from almost 5 volts.
+[49:50.940 --> 49:51.200]  Okay?
+[49:51.280 --> 50:01.460]  Let's just guesstimate that and say that's 4.7 all the way down to negative 6.3.
+[50:01.460 --> 50:02.600]  All right?
+[50:02.600 --> 50:02.680]  All right?
+[50:02.680 --> 50:03.080]  All right?
+[50:03.080 --> 50:04.120]  All right?
+[50:04.640 --> 50:08.280]  Now, how many volts peak to peak is that?
+[50:08.720 --> 50:09.020]  All right?
+[50:09.240 --> 50:10.440]  So, what did I say?
+[50:12.300 --> 50:13.720]  Gamitin na nga natin ito.
+[50:13.800 --> 50:14.020]  Ayan.
+[50:14.260 --> 50:14.440]  Sige.
+[50:14.600 --> 50:17.020]  Para makita natin yung katotohanan.
+[50:17.420 --> 50:17.760]  All right?
+[50:17.880 --> 50:19.860]  Para makita natin ang katotohanan.
+[50:19.860 --> 50:21.140]  Nasa ng acting cursor.
+[50:21.880 --> 50:25.200]  That is a 4.6.
+[50:25.560 --> 50:26.100]  All right?
+[50:27.480 --> 50:34.600]  And that is going all the way down to negative 6.3.
+[50:34.600 --> 50:35.200]  Okay?
+[50:35.560 --> 50:43.440]  So, 6.3 plus 4.6 is 10.9 volts peak to peak.
+[50:43.920 --> 50:44.600]  All right?
+[50:44.960 --> 50:47.620]  So, let's do a quick calculation on that.
+[50:48.160 --> 50:48.560]  All right?
+[50:49.860 --> 50:53.400]  10.9 volts peak to peak.
+[50:53.600 --> 50:54.920]  This is your V out.
+[50:55.900 --> 50:56.160]  All right?
+[50:56.700 --> 50:58.420]  The V in.
+[50:58.840 --> 50:59.200]  All right?
+[50:59.320 --> 51:07.880]  V in is basically equal to 0.04 volts peak to peak.
+[51:08.660 --> 51:09.160]  Okay?
+[51:09.620 --> 51:12.780]  So, our voltage gain now is how big?
+[51:13.040 --> 51:13.420]  All right?
+[51:13.460 --> 51:17.940]  So, let's divide 10.9 by 0.04.
+[51:18.580 --> 51:19.000]  All right?
+[51:19.000 --> 51:23.780]  And this turns out to be 272.5.
+[51:24.400 --> 51:24.740]  Okay?
+[51:24.960 --> 51:31.860]  This is a ridiculous, very, very, very, very, very big voltage gain.
+[51:32.060 --> 51:32.360]  All right?
+[51:32.420 --> 51:34.920]  So, 272.5.
+[51:34.920 --> 51:38.380]  I'm adding voltage gain.
+[51:38.380 --> 51:39.160]  All right?
+[51:39.160 --> 51:51.020]  So, you can get a very large amount of voltage gain from this circuit if you, you know, if you configure it in this particular way.
+[51:51.020 --> 51:56.360]  And why it suddenly shoots up to that amount.
+[51:56.360 --> 51:56.960]  All right?
+[51:56.960 --> 51:58.220]  All right?
+[51:58.220 --> 51:58.260]  All right?
+[51:58.260 --> 51:58.300]  All right?
+[51:58.300 --> 51:58.300] 
+[51:58.300 --> 51:58.300] 
+[51:58.300 --> 51:58.960]  All right?
+[51:58.960 --> 51:59.400]  All right?
+[51:59.400 --> 52:10.480]  And what are the principles that actually make this thing happen is what we're going to be taking up in the subsequent lessons forward.
+[52:11.060 --> 52:10.440] !
+[52:10.440 --> 52:11.360]  Okay?
+[52:11.820 --> 52:12.120]  All right.
+[52:12.200 --> 52:13.200]  Are there questions?
+[52:13.200 --> 52:15.140]  Are there questions?
+[52:15.140 --> 52:16.300]  Any questions?
+[52:16.300 --> 52:18.080]  Okay ba tayo?
+[52:18.080 --> 52:21.000]  Malino ba?
+[52:25.800 --> 52:26.400]  Yep.
+[52:26.720 --> 52:27.080]  All right.
+[52:27.740 --> 52:28.980]  Can we see a thumbs up?
+[52:29.080 --> 52:30.480]  Thank you, Mr. Infante.
+[52:30.920 --> 52:32.140]  What about the others?
+[52:32.140 --> 52:34.440]  You who matulog.
+[52:37.000 --> 52:37.420]  Okay?
+[52:38.420 --> 52:38.800]  All right.
+[52:38.900 --> 52:39.080]  Good.
+[52:39.760 --> 52:40.080]  All right.
+[52:40.080 --> 52:52.840]  So, one of the things that you probably would have noticed here is that the waveform at the output does not look particularly great.
+[52:53.320 --> 52:53.380]  Okay?
+[52:53.380 --> 53:05.780]  You can see, hopefully, you can distinguish the fact that in terms of a sinusoidal signal, it does not look particularly good.
+[53:06.560 --> 53:06.860]  Okay?
+[53:06.860 --> 53:09.240]  So, let's have a look here.
+[53:09.980 --> 53:18.440]  You can see that there is a very, very great degree of asymmetry between the top and the bottom portions of the waveform.
+[53:18.440 --> 53:24.440]  Compare this to a pure, very, very beautiful sinusoid.
+[53:25.760 --> 53:27.380]  Here is the input signal.
+[53:27.520 --> 53:33.820]  I'm going to magnify it by a factor of 250 because our calculated gain was 272.
+[53:34.680 --> 53:34.940]  Okay?
+[53:35.800 --> 53:36.060]  Okay.
+[53:36.180 --> 53:38.440]  Let's multiply this by a factor of 272.
+[53:39.580 --> 53:40.160]  All right?
+[53:40.160 --> 53:53.600]  And you will see that a good sinusoidal signal, if our amplifier were perfect, then the output should have looked something basically like this.
+[53:54.020 --> 53:54.300]  All right?
+[53:54.920 --> 54:00.300]  It should have looked like the green colored trace except that it would be inverted.
+[54:00.780 --> 54:03.080]  So, this is a beautiful looking sinusoid.
+[54:03.200 --> 54:04.300]  It's very symmetrical.
+[54:04.300 --> 54:09.520]  As you can see, the top and bottom halves of the signal look the same.
+[54:10.220 --> 54:10.480]  All right?
+[54:10.800 --> 54:19.740]  Whereas our amplified by a factor of 272 output looks squashed.
+[54:20.400 --> 54:20.560]  Okay?
+[54:21.160 --> 54:23.260]  This looks wide.
+[54:23.840 --> 54:24.300]  All right?
+[54:24.780 --> 54:27.420]  And compared to the other side, which looks narrow.
+[54:27.420 --> 54:33.820]  So, if you look at this one and you look at this one, the output looks narrower.
+[54:34.280 --> 54:38.580]  And then if you look at this one versus you look at this one, the output looks wider.
+[54:39.180 --> 54:46.180]  So, you can see that the transistor is not doing a particularly good job of doing amplification.
+[54:46.380 --> 54:49.880]  The linearity of the amplification is fairly poor.
+[54:49.880 --> 54:52.780]  And again, that's sort of expected.
+[54:54.640 --> 55:06.120]  The output distortion increases very, very significantly when we are asking the transistor to go to the limits of its supply.
+[55:07.140 --> 55:17.140]  And this is where you have a very, very large amount of collector current change, which shifts the beta of the transistor.
+[55:17.140 --> 55:20.380]  So, as I said, the transistor beta is not constant.
+[55:21.040 --> 55:26.520]  And as you move around the collector current, the beta will shift.
+[55:27.040 --> 55:34.060]  And so, therefore, you're going to get a very different amplification factor when the beta changes.
+[55:34.520 --> 55:40.280]  So, you really want your beta to remain constant so that the amplification factor remains constant.
+[55:40.760 --> 55:43.620]  But bottom line is it's not a perfect transistor.
+[55:44.300 --> 55:44.480]  Okay?
+[55:44.900 --> 55:45.180]  All right.
+[55:45.180 --> 55:46.140]  So, there you go with that.
+[55:46.140 --> 55:46.420]  Okay.
+[55:48.740 --> 55:51.300]  So, hopefully, there are no questions about this.
+[55:51.400 --> 56:05.040]  We'll get back into this thing about distortion and all that and ways by which we might attempt to reduce the apparent nonlinearities of the circuit.
+[56:05.040 --> 56:06.020]  All right?
+[56:06.840 --> 56:09.260]  In a future lesson.
+[56:10.260 --> 56:10.560]  Okay?
+[56:10.560 --> 56:10.600]  Okay.
+[56:11.020 --> 56:13.400]  So, let's move forward.
+[56:14.020 --> 56:17.880]  And let me just stop the share here.
+[56:18.040 --> 56:20.660]  And let's go to the next series of slides.
+[56:21.540 --> 56:21.820]  Okay?
+[56:25.920 --> 56:27.800]  It's asking if I want to save it.
+[56:27.920 --> 56:29.260]  No, I don't really have to save it.
+[56:29.560 --> 56:29.800]  Okay.
+[56:29.800 --> 56:30.800]  Okay.
+[56:30.800 --> 56:34.480]  So, let's go to the next series of slides here.
+[56:37.680 --> 56:38.660]  Where is it?
+[56:39.660 --> 56:40.220]  Okay.
+[56:40.420 --> 56:41.580]  I had it ready.
+[56:43.580 --> 56:44.580]  This one.
+[56:45.580 --> 56:46.100]  Okay.
+[56:48.400 --> 56:50.620]  Slide show.
+[56:53.460 --> 56:54.180]  Okay.
+[56:54.180 --> 56:56.020]  And capture.
+[56:56.020 --> 56:56.540]  Okay.
+[57:01.220 --> 57:01.660]  Okay.
+[57:01.780 --> 57:02.200]  Here we go.
+[57:02.720 --> 57:08.400]  So, AC analysis of BJP circuits is the next topic.
+[57:08.400 --> 57:15.380]  So, as I said, we're now going to be putting in a signal with the transistor, hopefully, in its active region.
+[57:15.960 --> 57:23.120]  And we want to be able to see and, among other things, be able to predict how much amplification we're going to get.
+[57:23.940 --> 57:24.200]  Okay?
+[57:24.520 --> 57:24.860]  All right.
+[57:24.860 --> 57:32.100]  So, unfortunately, this topic is quite a bit more involved.
+[57:32.440 --> 57:35.740]  But we'll try to simplify it as much as we can.
+[57:37.320 --> 57:40.040]  Not diving too deeply into it.
+[57:40.100 --> 57:45.380]  Because, after all, everybody can just run a computer simulation.
+[57:45.660 --> 57:51.180]  And you probably get more analysis opportunities with a simulation.
+[57:51.980 --> 57:52.160]  Okay.
+[57:52.160 --> 57:52.780]  So, anyway.
+[57:53.200 --> 57:54.960]  So, let's go forward with this.
+[57:55.700 --> 57:56.080]  All right.
+[57:56.460 --> 58:02.900]  So, the main objective is to look at a transistor circuit.
+[58:03.900 --> 58:04.540]  Okay.
+[58:04.540 --> 58:12.780]  And determine what the characteristic voltage gain is going to be.
+[58:13.260 --> 58:13.560]  All right.
+[58:14.100 --> 58:17.820]  What its current gain is going to be.
+[58:17.820 --> 58:26.640]  And just as important, what its input impedance and output impedance is going to be.
+[58:26.640 --> 58:27.060]  All right.
+[58:27.140 --> 58:40.800]  Now, there's at least one significant new thing here, which is the impedance of the circuit, both at its input and output.
+[58:41.480 --> 58:41.780]  Okay.
+[58:41.780 --> 58:45.860]  So, you're familiar with the term impedance.
+[58:45.860 --> 58:57.060]  And if you're still trying to wrap your head around it, just remember that impedance is basically just a complex version of resistance.
+[58:58.240 --> 58:58.400]  Okay.
+[58:58.400 --> 59:08.880]  So, if you have some difficulty with accepting the terminology, then substitute impedance with resistance.
+[59:09.180 --> 59:12.360]  Maybe it will go with your brain a little bit easier.
+[59:12.360 --> 59:13.360]  So, input resistance of the circuit.
+[59:13.360 --> 59:15.900]  So, input resistance of the circuit.
+[59:15.900 --> 59:20.200]  And output resistance of the circuit.
+[59:20.200 --> 59:21.320]  Okay.
+[59:21.320 --> 59:21.400]  Okay.
+[59:21.400 --> 59:37.860]  So, a large part of the input and output resistance of the circuit is a manifestation of the transistor characteristics itself.
+[59:38.440 --> 59:38.700]  All right.
+[59:38.700 --> 59:54.460]  So, the transistor in itself will have an input impedance and output impedance that is brought about by its functioning and the fact that it is connected to components in the circuit.
+[59:54.460 --> 59:55.540]  Okay.
+[59:55.540 --> 01:00:11.360]  And this input impedance will affect how well it can accept a signal and significantly how difficult a driving circuit will have.
+[01:00:11.660 --> 01:00:12.020]  All right.
+[01:00:12.120 --> 01:00:19.220]  The amount of difficulty that the driving circuit will have putting a signal into this amplifier circuit.
+[01:00:20.100 --> 01:00:20.740]  Okay.
+[01:00:20.740 --> 01:00:30.100]  And its output impedance, all right, will dictate how well it can drive a next circuit connected to it.
+[01:00:30.800 --> 01:00:31.040]  Okay.
+[01:00:31.480 --> 01:00:31.800]  All right.
+[01:00:31.880 --> 01:00:42.200]  So, to better understand these concepts, all right, we'll be refining these as we go along.
+[01:00:42.460 --> 01:00:42.680]  All right.
+[01:00:42.680 --> 01:00:52.180]  So, essentially, an amplifier circuit is there to increase the power of an AC signal.
+[01:00:52.900 --> 01:00:53.120]  All right.
+[01:00:53.520 --> 01:00:59.840]  So, amplification is the process of increasing the power of a signal.
+[01:01:00.700 --> 01:01:06.300]  Power is basically voltage times current.
+[01:01:06.300 --> 01:01:24.080]  And so, therefore, when we say that a circuit can do power amplification, it would mean that either of these two parameters here increases or both might increase.
+[01:01:24.860 --> 01:01:31.200]  And either way, all right, that constitutes a form of amplification.
+[01:01:32.360 --> 01:01:32.660]  Okay.
+[01:01:32.660 --> 01:01:38.780]  The other way of thinking about it is amplification can make the weak signal stronger.
+[01:01:39.340 --> 01:01:42.180]  But this is just the same definition, actually.
+[01:01:42.800 --> 01:01:46.020]  When you have a weak signal, its power is weak.
+[01:01:46.840 --> 01:01:53.380]  And amplification makes the signal stronger, which is greater in power.
+[01:01:53.640 --> 01:01:55.940]  So, it's actually meaning exactly the same thing.
+[01:01:56.600 --> 01:01:56.900]  All right.
+[01:01:56.900 --> 01:02:03.060]  Now, formally, though, amplifier properties include voltage gain.
+[01:02:03.580 --> 01:02:03.800]  All right.
+[01:02:03.840 --> 01:02:05.400]  So, this is the first factor here.
+[01:02:05.620 --> 01:02:19.900]  So, we can calculate the voltage gain objectively for a circuit by looking at the magnitude of the input signal versus the magnitude of the output signal,
+[01:02:19.900 --> 01:02:25.580]  which is what we were doing exactly in the simulation just a few moments ago.
+[01:02:25.580 --> 01:02:33.960]  So, we can also be looking in terms of the gain of the current instead.
+[01:02:34.260 --> 01:02:35.080]  All right.
+[01:02:35.220 --> 01:02:43.060]  Which is how much input current is required to drive the circuit and how much output current it's producing.
+[01:02:44.060 --> 01:02:44.380]  All right.
+[01:02:45.440 --> 01:02:48.620]  And so, that's another way of characterizing it.
+[01:02:48.660 --> 01:02:49.440]  It could be that.
+[01:02:49.440 --> 01:02:54.280]  You will see this in particular with the common collector configuration.
+[01:02:55.360 --> 01:02:55.600]  All right.
+[01:02:56.080 --> 01:02:58.540]  And then, we have input impedance.
+[01:02:59.080 --> 01:02:59.480]  All right.
+[01:02:59.640 --> 01:03:08.200]  And output impedance, which, as I said, can be thought of as input resistance and output resistance, which is an important factor as well.
+[01:03:08.200 --> 01:03:15.060]  Because, as an example, you can have a circuit with a humongous amount of voltage gain.
+[01:03:15.840 --> 01:03:16.480]  All right.
+[01:03:16.480 --> 01:03:25.760]  But, you might find that when you connect the output to another circuit, that humongous voltage gain suddenly comes tumbling down.
+[01:03:25.760 --> 01:03:29.740]  And so, you might be wondering, bakit nawala yung amplification ko?
+[01:03:29.840 --> 01:03:30.480]  Ano nangyari?
+[01:03:31.040 --> 01:03:44.780]  And then, you will find out that, oh, my circuit has a lot of voltage gain, but its output impedance, its ability to drive an external circuit is extremely poor.
+[01:03:44.780 --> 01:03:51.320]  And so, when I connect it to an external circuit, it gets crunched down.
+[01:03:52.040 --> 01:04:00.100]  So, all that voltage gain disappears because the output resistance or output impedance of that circuit is very, very high.
+[01:04:01.040 --> 01:04:01.300]  All right.
+[01:04:01.580 --> 01:04:10.580]  So, any form of output loading will reduce that output through a factor of voltage division.
+[01:04:11.260 --> 01:04:11.600]  Okay.
+[01:04:11.600 --> 01:04:12.280]  All right.
+[01:04:12.280 --> 01:04:18.020]  So, we'll see all of that as we go along in these slides over here.
+[01:04:18.400 --> 01:04:22.760]  And I think this is exactly what this first part is trying to explain.
+[01:04:23.260 --> 01:04:23.460]  Okay.
+[01:04:24.200 --> 01:04:30.200]  What is this concept of finite input and output impedance?
+[01:04:31.000 --> 01:04:31.300]  Okay.
+[01:04:31.800 --> 01:04:32.120]  All right.
+[01:04:32.180 --> 01:04:34.200]  So, let's have a look here.
+[01:04:34.200 --> 01:04:42.060]  I think we will be basically going up to the 9 a.m. time on this particular concept here.
+[01:04:42.360 --> 01:04:42.480]  Okay.
+[01:04:42.840 --> 01:04:47.200]  So, a typical input source signal.
+[01:04:47.420 --> 01:04:50.440]  This could be another amplifier, for example.
+[01:04:51.360 --> 01:04:51.760]  All right.
+[01:04:51.980 --> 01:04:56.120]  Whose output is feeding our amplifier.
+[01:04:57.500 --> 01:04:58.100]  Okay.
+[01:04:58.100 --> 01:05:11.620]  Now, that source signal might have a signal amplitude of one volt peak to peak.
+[01:05:12.120 --> 01:05:12.320]  All right.
+[01:05:12.360 --> 01:05:13.600]  One volt peak to peak.
+[01:05:14.160 --> 01:05:17.700]  But it also has an output impedance.
+[01:05:18.580 --> 01:05:18.860]  All right.
+[01:05:18.860 --> 01:05:27.260]  And in this case, it's represented, in all cases, really, it's represented by a series resistor,
+[01:05:27.700 --> 01:05:31.440]  which is representative of its output impedance.
+[01:05:32.020 --> 01:05:38.420]  So, in this particular case, the output impedance of this circuit, all right, is 10 k ohms.
+[01:05:38.420 --> 01:05:50.900]  So, if we view that whatever circuit it is as the signal source, we can think of it as a perfect signal source with a resistor,
+[01:05:51.160 --> 01:05:54.440]  with a series resistor connected to it.
+[01:05:55.460 --> 01:05:55.620]  Okay.
+[01:05:56.200 --> 01:05:56.560]  All right.
+[01:05:56.780 --> 01:06:00.660]  Now, what is the effect of that?
+[01:06:00.660 --> 01:06:09.080]  Well, let's just say that our amplifier has an input impedance of 1 k ohm.
+[01:06:10.140 --> 01:06:10.840]  All right.
+[01:06:10.920 --> 01:06:14.280]  It has an input impedance of 1 k ohm.
+[01:06:14.820 --> 01:06:25.360]  We know that our amplifier is supposed to magnify, all right, an input signal by a factor of 150.
+[01:06:25.360 --> 01:06:30.980]  It has a voltage gain of 150, all right?
+[01:06:31.580 --> 01:06:36.200]  But it has an input impedance of 1 k ohm.
+[01:06:36.680 --> 01:06:42.040]  And it also has an output impedance of 1 k ohm.
+[01:06:42.600 --> 01:06:43.060]  All right.
+[01:06:43.580 --> 01:06:45.700]  So, here is the output impedance.
+[01:06:46.120 --> 01:06:47.640]  Here is the input impedance.
+[01:06:47.860 --> 01:06:52.040]  So, the question here is what is going to happen?
+[01:06:52.040 --> 01:07:04.920]  Now, in theory, if you did not consider impedances, if you have a 1 volt peak-to-peak signal, all right,
+[01:07:04.920 --> 01:07:11.780]  and you have an amplifier that manages to amplify it by a factor of 150,
+[01:07:12.720 --> 01:07:19.980]  then obviously, the output here should have been 150 volts peak-to-peak.
+[01:07:19.980 --> 01:07:30.600]  In theory, assuming that, of course, the amplifier has that big an output swing capability.
+[01:07:31.160 --> 01:07:37.340]  Maybe this amplifier is operating from something like 200 volts, okay?
+[01:07:37.780 --> 01:07:40.820]  Maybe its supply is 200 volts.
+[01:07:40.980 --> 01:07:45.460]  That's why it can handle and produce 150 volts peak-to-peak.
+[01:07:45.820 --> 01:07:48.000]  That should be fine, all right?
+[01:07:48.000 --> 01:07:57.500]  But the reality of it is going to be that you're not really going to get 150 volts peak-to-peak,
+[01:07:57.880 --> 01:08:03.360]  even if the amplifier has an advertised gain of 150.
+[01:08:04.240 --> 01:08:05.320]  Why not?
+[01:08:06.080 --> 01:08:13.500]  Well, as you can see, this input impedance here will act as a voltage divider
+[01:08:13.500 --> 01:08:22.500]  through the fact that the signal source has a series impedance or output impedance of 10 k ohms.
+[01:08:22.500 --> 01:08:34.640]  So, dito pa lang ang ating input signal into our perfect amplifier is going to be smaller than 1 volt peak-to-peak.
+[01:08:34.640 --> 01:08:41.120]  In fact, all right, I don't know if the slides will actually show it, all right?
+[01:08:41.560 --> 01:08:47.320]  The actual V in can be calculated simply through voltage division.
+[01:08:47.320 --> 01:08:55.120]  And you would say that V in is equal to 1 volt peak-to-peak, which is our source,
+[01:08:56.040 --> 01:09:03.560]  multiplied to 1 k ohm divided by 1 k plus 10 k,
+[01:09:04.160 --> 01:09:12.880]  which makes your signal significantly smaller by a factor of more than 10, all right, times.
+[01:09:12.880 --> 01:09:17.180]  In fact, it's divided by 11, okay?
+[01:09:17.560 --> 01:09:22.460]  So, lumi-ir ang input signal natin, all right?
+[01:09:22.600 --> 01:09:26.040]  And so, in fact, let's try that as a calculation.
+[01:09:26.520 --> 01:09:27.860]  Do I need to do this?
+[01:09:27.960 --> 01:09:29.260]  But what the heck, all right?
+[01:09:29.260 --> 01:09:43.240]  1 divided by 11 times 1 volt peak-to-peak essentially is equal to 0.091 volts peak-to-peak.
+[01:09:43.340 --> 01:09:46.000]  Yan na lang yung natira sa input natin, right?
+[01:09:46.160 --> 01:09:47.640]  Yan na ang V in natin.
+[01:09:48.160 --> 01:09:51.200]  0.091 volts peak-to-peak.
+[01:09:51.200 --> 01:09:59.760]  Or if you like, this is basically 90.91 millivolts.
+[01:10:00.480 --> 01:10:00.780]  Okay?
+[01:10:01.300 --> 01:10:05.360]  90.91 millivolts talaga ang input natin.
+[01:10:06.200 --> 01:10:10.100]  Minultiply natin ang by factor of 150,
+[01:10:11.140 --> 01:10:15.600]  and that gives you basically an output signal here, all right?
+[01:10:15.600 --> 01:10:27.200]  Our V out is basically equal to 13.64 volts peak-to-peak.
+[01:10:28.000 --> 01:10:29.780]  Ang layo sa 150, di ba?
+[01:10:30.100 --> 01:10:30.460]  All right?
+[01:10:30.880 --> 01:10:35.120]  And that's only because of the input getting shrunk down, all right?
+[01:10:35.420 --> 01:10:39.040]  So, this is 13.64 volts peak-to-peak,
+[01:10:39.040 --> 01:10:50.540]  and that comes from 90.91 millivolts times 150 is equal to 13.64 volts peak-to-peak.
+[01:10:51.120 --> 01:10:58.280]  Then, we also have our output impedance driving the load of our load.
+[01:10:58.280 --> 01:10:59.640]  That's L, all right?
+[01:11:00.700 --> 01:11:02.480]  Of 500 ohms.
+[01:11:03.080 --> 01:11:05.580]  We have further voltage division.
+[01:11:05.580 --> 01:11:10.300]  So, ano ang ating actual V load na lalabas?
+[01:11:10.980 --> 01:11:11.240]  All right?
+[01:11:11.340 --> 01:11:13.600]  So, our V load, ladies and gentlemen,
+[01:11:14.160 --> 01:11:18.620]  is going to be equal to 13.6 volts peak-to-peak,
+[01:11:19.020 --> 01:11:21.580]  multiplied by 500 ohms,
+[01:11:21.680 --> 01:11:26.040]  divided by 500 plus 1K.
+[01:11:26.800 --> 01:11:27.160]  All right?
+[01:11:27.240 --> 01:11:30.600]  And that's a factor of divide by 3.
+[01:11:31.180 --> 01:11:31.580]  All right?
+[01:11:31.580 --> 01:11:43.620]  So, you're going to be left with just 4.54 volts peak-to-peak.
+[01:11:44.100 --> 01:11:44.400]  Okay?
+[01:11:44.940 --> 01:11:45.320]  All right?
+[01:11:45.700 --> 01:11:50.460]  So, all of this beautiful gain, all right,
+[01:11:50.460 --> 01:11:58.180]  has been negated to a certain extent, all right,
+[01:11:58.180 --> 01:12:06.580]  by the fact that we have impedances to deal with, all right?
+[01:12:06.580 --> 01:12:16.660]  So, this input and output impedance can drastically alter the amplification factor
+[01:12:16.660 --> 01:12:21.320]  because of the effect of its voltage division.
+[01:12:21.820 --> 01:12:27.840]  So, you'll notice that if our signal source had a lower output impedance,
+[01:12:28.800 --> 01:12:33.640]  if the impedance were 1K instead of 10K,
+[01:12:34.180 --> 01:12:39.840]  then our input signal would have been 0.5 volts peak-to-peak,
+[01:12:39.840 --> 01:12:47.220]  which would have been so much larger compared to 90.91 millivolts, all right?
+[01:12:47.840 --> 01:12:53.420]  So, we would have expected that the output would have been very, very, very much larger.
+[01:12:53.660 --> 01:12:57.140]  And that's all because the input impedance here, all right,
+[01:12:57.720 --> 01:13:06.340]  of our circuit is so much lower than the output impedance of the signal source, okay?
+[01:13:06.340 --> 01:13:16.180]  That series resistance is the biggest factor in this case for reducing the signal amplitude, okay?
+[01:13:16.400 --> 01:13:18.340]  So, are there any questions about this?
+[01:13:18.400 --> 01:13:19.460]  Is this clear, people?
+[01:13:19.900 --> 01:13:20.380]  The guess nyo?
+[01:13:21.000 --> 01:13:21.220]  Okay?
+[01:13:21.640 --> 01:13:26.640]  So, because of this very, very big disparity, all right,
+[01:13:27.220 --> 01:13:33.060]  it is highly important that when we do the calculations of the amplifier
+[01:13:33.060 --> 01:13:39.340]  that you are designing or putting together or analyzing, all right,
+[01:13:39.780 --> 01:13:45.020]  it's important that the input and output impedances are calculated
+[01:13:45.020 --> 01:13:53.180]  and taken into consideration so that the overall voltage as well as current gains
+[01:13:53.180 --> 01:13:56.600]  are correctly represented, okay?
+[01:13:57.140 --> 01:13:57.500]  All right.
+[01:13:57.960 --> 01:13:58.420]  Questions?
+[01:13:59.960 --> 01:14:00.640]  Okay ba tayo?
+[01:14:00.640 --> 01:14:00.640] 
+[01:14:03.060 --> 01:14:05.840]  Okay.
+[01:14:06.200 --> 01:14:06.640]  All right.
+[01:14:06.780 --> 01:14:08.020]  So, let's go forward.
+[01:14:08.220 --> 01:14:09.000]  Yike, what a mess.
+[01:14:10.760 --> 01:14:11.960]  Clear all my drawings.
+[01:14:12.860 --> 01:14:13.080]  All right.
+[01:14:13.080 --> 01:14:20.880]  So, a good amplifier, okay, going towards an ideal amplifier,
+[01:14:21.600 --> 01:14:28.960]  what we'd want is an amplifier possibly with high voltage gain, okay?
+[01:14:28.960 --> 01:14:33.480]  We want it to amplify by a large factor, all right?
+[01:14:33.480 --> 01:14:37.440]  It should have a high input impedance.
+[01:14:38.700 --> 01:14:45.880]  So, as you saw in this previous example, the problem really here is this very, very big mismatch.
+[01:14:45.880 --> 01:14:49.140]  The ideal case, all right?
+[01:14:49.140 --> 01:14:55.600]  If you do not have control of the source, which you typically don't, it's not your providence,
+[01:14:55.740 --> 01:15:03.780]  you're just being fed a signal, then this one would ideally be infinite, all right?
+[01:15:03.780 --> 01:15:08.600]  Sana infinitely high ang input impedance natin.
+[01:15:08.600 --> 01:15:13.340]  Kasi kung infinitely high ang input impedance, it will be like it's not there.
+[01:15:14.120 --> 01:15:24.860]  Which means that whatever is the signal output here is not going to get crunched down by the input impedance of the amplifier.
+[01:15:24.860 --> 01:15:31.900]  So, we want that Z in to be as high as possible, all right?
+[01:15:32.300 --> 01:15:35.920]  We want our input impedance to be as high as possible.
+[01:15:36.580 --> 01:15:48.140]  The ideal, all right, the ideal would be that it is infinite, all right, in impedance, infinitely high, all right?
+[01:15:48.560 --> 01:15:53.160]  We also would want our amplifier to have a low output impedance.
+[01:15:53.160 --> 01:16:02.600]  So, as you saw over there a while ago in the previous slide, as the amplifier drives a load, if the load impedance is very low,
+[01:16:02.980 --> 01:16:12.420]  then we are still going to get a further reduction due to the fact that the amplifier here in question has a finite output impedance.
+[01:16:12.420 --> 01:16:17.720]  It's not that high, 1k ohm, all right?
+[01:16:17.720 --> 01:16:26.780]  But it is not that low either such that a 500 ohm load will actually reduce it by a significant factor.
+[01:16:27.160 --> 01:16:32.740]  In this case, we saw a factor of 3 because of the ratio that we have, okay?
+[01:16:32.740 --> 01:16:46.400]  So, given this, all right, given this, we can say that the output impedance should be as low as possible.
+[01:16:47.060 --> 01:16:52.360]  But realistically speaking, all right, it won't be, all right?
+[01:16:52.360 --> 01:16:57.860]  So, in the ideal case, what is the ideal?
+[01:16:59.560 --> 01:17:05.320]  Well, the ideal pushes the impedance all the way down to 0 ohms, all right?
+[01:17:05.320 --> 01:17:21.840]  In the ideal case, the output impedance is 0 so that it can maintain its amplitude even if the load resistance, whatever you're driving, all right?
+[01:17:21.920 --> 01:17:27.980]  Even if whatever you're driving has a low input impedance, all right?
+[01:17:27.980 --> 01:17:32.020]  So, this is your ideal, 0, okay?
+[01:17:33.180 --> 01:17:41.000]  Another factor that is of consideration here is that sana it has high bandwidth.
+[01:17:41.360 --> 01:17:42.340]  What does that mean?
+[01:17:42.780 --> 01:17:52.760]  That it can basically amplify any frequency that you might want to put into it signal-wise, all right?
+[01:17:52.760 --> 01:18:00.520]  It doesn't care if the frequency of the input signal is low or very, very, very high.
+[01:18:00.720 --> 01:18:04.600]  It can amplify equally, all right?
+[01:18:05.560 --> 01:18:12.260]  So, maybe one of the other factors here that's, you know, not quite stated, aside from having high bandwidth,
+[01:18:12.260 --> 01:18:22.100]  meaning that you can amplify any input signal regardless of frequency, is that the gain is constant.
+[01:18:22.760 --> 01:18:32.240]  Regardless of frequency.
+[01:18:33.100 --> 01:18:35.920]  So, there is a difference, no?
+[01:18:36.180 --> 01:18:47.460]  You can say that my amplifier has high bandwidth, but maybe its voltage gain or current gain is not constant through that frequency range.
+[01:18:47.460 --> 01:18:55.660]  So, maybe I can have an amplifier that does 20 Hz all the way to 2 MHz, okay?
+[01:18:56.080 --> 01:19:06.280]  But the next question will be, is its amplification factor constant from 20 Hz all the way to 2 MHz or not?
+[01:19:06.680 --> 01:19:10.300]  Baka naman yung amplification factor mo eh, ganito yung itsura.
+[01:19:10.300 --> 01:19:11.300]  All right?
+[01:19:11.300 --> 01:19:11.720]  All right?
+[01:19:11.720 --> 01:19:20.040]  So, pabago-bago, which means that when you input a different frequency, it will amplify it more or less.
+[01:19:20.780 --> 01:19:26.140]  And that will create, you know, distortions and unpredictable characteristics perhaps.
+[01:19:26.560 --> 01:19:34.980]  Or at least problematic, you know, relations between the input signal and the output signal.
+[01:19:34.980 --> 01:19:35.540]  Okay?
+[01:19:36.540 --> 01:19:39.800]  So, these are just some of the things over here.
+[01:19:40.240 --> 01:19:41.120]  There are other factors.
+[01:19:41.360 --> 01:19:44.680]  The other factor, of course, is linearity, all right?
+[01:19:44.800 --> 01:19:47.100]  Which, interestingly, was not stated.
+[01:19:47.280 --> 01:19:49.240]  So, this should really have been included here.
+[01:19:50.040 --> 01:20:02.460]  A good amplifier will provide a very linear response, meaning that it will have great fidelity with the shape of the input signal.
+[01:20:02.460 --> 01:20:09.620]  If I put in a perfect sinusoid, hopefully its output will be as close to a perfect sinusoid as possible.
+[01:20:10.460 --> 01:20:10.800]  All right?
+[01:20:10.860 --> 01:20:18.480]  If I put in a triangular wave, then its output should look like a very good triangular wave.
+[01:20:18.880 --> 01:20:19.900]  And so on and so forth.
+[01:20:20.600 --> 01:20:20.760]  Okay?
+[01:20:21.100 --> 01:20:21.520]  All right.
+[01:20:23.380 --> 01:20:23.600]  Okay.
+[01:20:23.820 --> 01:20:26.720]  Now, what's this statement here?
+[01:20:26.720 --> 01:20:45.480]  Determine AC response of a BJP in circuit means that you will examine the AC response of the BJP by reviewing models frequently used to represent the transistor in the AC domain.
+[01:20:46.240 --> 01:20:46.400]  Okay?
+[01:20:46.640 --> 01:20:52.240]  So, there are several models used for the transistors, but we're not going to go in-depth.
+[01:20:52.240 --> 01:20:57.080]  So, we're going to use one of the simplest possible AC domain models.
+[01:20:57.780 --> 01:20:57.860]  Okay?
+[01:20:59.140 --> 01:21:16.380]  In my time and several years before this, we were using a much more complex model called the two-port hybrid model, which I'll briefly mention as we go along in the next meeting.
+[01:21:16.380 --> 01:21:16.900]  All right?
+[01:21:16.900 --> 01:21:16.920]  All right?
+[01:21:17.360 --> 01:21:31.220]  So, this two-port hybrid is the most traditionally used model representation for a transistor amplifier circuit and the transistor itself.
+[01:21:31.620 --> 01:21:31.940]  All right?
+[01:21:32.040 --> 01:21:33.780]  As a two-port hybrid.
+[01:21:34.500 --> 01:21:35.860]  What the hell is that?
+[01:21:35.980 --> 01:21:37.740]  I'll define that in the next meeting.
+[01:21:37.740 --> 01:21:46.180]  But needless to say, there are basically something like four important parameters in a two-port hybrid.
+[01:21:46.180 --> 01:21:58.780]  And it is a long series of calculations, but will provide you with a reasonably accurate result.
+[01:21:58.780 --> 01:21:59.780]  Okay?
+[01:21:59.780 --> 01:22:00.100]  Okay?
+[01:22:00.100 --> 01:22:00.140]  Okay?
+[01:22:01.620 --> 01:22:10.860]  But, it's a fairly complex way of arriving at the amplifier's performance parameters.
+[01:22:11.980 --> 01:22:13.880]  And we spent a lot of time.
+[01:22:13.980 --> 01:22:15.260]  I spent a lot of time.
+[01:22:15.700 --> 01:22:25.780]  My teachers spent a lot of time teaching about this hybrid two-port parameters, parameter system of modeling.
+[01:22:25.780 --> 01:22:36.000]  And, you know, bottom line is you'll still get a more accurate result anyway if you use something like L-T-Sports.
+[01:22:37.000 --> 01:22:37.420]  Okay?
+[01:22:37.660 --> 01:22:38.460]  But, anyway.
+[01:22:38.700 --> 01:22:38.920]  Sige.
+[01:22:38.920 --> 01:22:50.040]  So, having said that, I think we can basically stop here because, yeah, the equivalent models are coming up next.
+[01:22:50.580 --> 01:22:54.760]  And we're still a little bit ahead of the other class.
+[01:22:54.760 --> 01:23:06.140]  And, again, of course, there is the upcoming quiz one, which means that we don't really want to push the lessons too quickly because you're likely to not really register everything.
+[01:23:06.780 --> 01:23:07.000]  Okay?
+[01:23:07.320 --> 01:23:08.460]  So, I'm going to stop here.
+[01:23:10.680 --> 01:23:10.940]  Okay?
+[01:23:11.380 --> 01:23:14.300]  Are there any questions so far?
+[01:23:14.640 --> 01:23:18.000]  I'd like to hear them if you have any questions.
+[01:23:18.820 --> 01:23:19.820]  May tanong ba o wala?
+[01:23:20.000 --> 01:23:21.520]  Kung walang tanong, mag-thumbs up.
+[01:23:21.520 --> 01:23:25.920]  Okay?
+[01:23:27.540 --> 01:23:29.880]  Everybody reaching for the keyboard with a thumbs up.
+[01:23:30.100 --> 01:23:30.460]  All right.
+[01:23:30.800 --> 01:23:31.020]  Sige.
+[01:23:31.220 --> 01:23:34.660]  So, if there are no questions, we've seen a lot of people doing the thumbs up there.
+[01:23:35.120 --> 01:23:36.240]  Thank you for joining us.
+[01:23:36.320 --> 01:23:37.740]  And I'll see you again next time.
+[01:23:37.740 --> 01:23:38.200]  Alright.
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:23:38.200] 
+[01:23:38.200 --> 01:24:08.180]  Thank you.

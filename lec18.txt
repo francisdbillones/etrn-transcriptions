@@ -1,0 +1,1348 @@
+[00:00.000 --> 00:07.000]  Let's go and forge ahead with today's lesson anyway.
+[00:07.000 --> 00:13.000]  Let me just let PowerPoint slide going.
+[00:13.000 --> 00:15.000]  Show and...
+[00:15.000 --> 00:20.000]  PowerPoint slide.
+[00:20.000 --> 00:27.000]  And let me just turn on my video.
+[00:27.000 --> 00:35.000]  Yes, I'm here. And let's share this.
+[00:35.000 --> 00:41.000]  Okay. So let's forge ahead with today's lesson.
+[00:41.000 --> 00:47.000]  Okay. As I said, I am having issues remembering exactly where we left off,
+[00:47.000 --> 00:53.000]  given that two sections are not yet quite synchronized with each other.
+[00:53.000 --> 00:56.000]  I know that we've taken this one up.
+[00:56.000 --> 01:09.000]  I might believe or I might think that this is the last slide that we took up in class on Thursday, but I'm not entirely sure.
+[01:09.000 --> 01:12.000]  So this one is showing the self-bias circuit.
+[01:12.000 --> 01:22.000]  And I don't know if we got any further than this. Can somebody remind me, please?
+[01:22.000 --> 01:35.000]  I'm not sure if we're on a PowerPoint presentation, which basically forges ahead with a few more other things.
+[01:35.000 --> 01:38.000]  I'm not sure everybody has a fog brain at this point.
+[01:38.000 --> 01:45.000]  So maybe let's see if I show you the rest of the slides.
+[01:45.000 --> 01:48.000]  Did we touch on this topic, people?
+[01:48.000 --> 01:51.000]  Did we get up to here in our meeting?
+[01:51.000 --> 01:53.000]  What do JFETS look like?
+[01:53.000 --> 01:57.000]  And transistor testing, how to test a transistor?
+[01:57.000 --> 01:58.000]  Alright!
+[01:58.000 --> 01:58.000] 
+[01:58.000 --> 01:58.000] 
+[01:58.000 --> 01:58.000] 
+[01:58.000 --> 01:59.000]  Alright!
+[01:59.000 --> 02:00.000]  Alright!
+[02:00.000 --> 02:00.000] 
+[02:00.000 --> 02:01.000]  Alright!
+[02:01.000 --> 02:03.000]  Alright!
+[02:03.000 --> 02:05.000]  Alright!
+[02:05.000 --> 02:06.000]  Alright!
+[02:06.000 --> 02:06.000] 
+[02:06.000 --> 02:09.000]  Alright!
+[02:09.000 --> 02:09.000] 
+[02:09.000 --> 02:09.000] 
+[02:09.000 --> 02:10.020]  Alright!
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:11.020]  Alright!
+[02:11.020 --> 02:11.020] 
+[02:11.020 --> 02:10.020]  Alright!
+[02:10.020 --> 02:11.020]  Alright!
+[02:11.020 --> 02:10.020]  Alright!
+[02:10.020 --> 02:11.020]  Alright!
+[02:11.020 --> 02:10.020]  Alright!
+[02:10.020 --> 02:11.020]  Alright!
+[02:11.020 --> 02:10.020]  Alright!
+[02:10.020 --> 02:11.020]  Alright!
+[02:11.020 --> 02:10.020]  Alright!
+[02:10.020 --> 02:11.020]  Alright!
+[02:11.020 --> 02:10.020]  Alright!
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:10.020 --> 02:10.020] 
+[02:27.000 --> 02:34.180]  Ah, OK, Sige.
+[02:34.180 --> 02:37.000]  Thank you.
+[02:37.000 --> 02:39.900]  So we only reached what the JFETs look like.
+[02:39.900 --> 02:40.920]  Sige, Sige, Sige.
+[02:40.920 --> 02:42.160]  OK, yeah.
+[02:42.160 --> 02:43.500]  That makes sense.
+[02:43.500 --> 02:46.640]  OK, there's an intervening set of slides here
+[02:46.640 --> 02:51.960]  that I'd like to show you, which is one other way of biasing.
+[02:51.960 --> 02:54.300]  So I might as well include this, and then we'll
+[02:54.300 --> 02:56.040]  go to transistor testing.
+[02:56.040 --> 02:56.780]  OK?
+[02:56.780 --> 03:02.720]  All right, and there's quite a bit of slides after that.
+[03:02.720 --> 03:07.840]  So one other method for biasing.
+[03:07.840 --> 03:09.800]  So so far, we've taken up two, right?
+[03:09.800 --> 03:14.720]  So the first one requires basically two voltages, one
+[03:14.720 --> 03:20.060]  for the drain and one for the gate, a negative voltage
+[03:20.060 --> 03:21.620]  for the gate.
+[03:21.620 --> 03:25.820]  In the second circuit we looked at, it was the self-bias
+[03:25.820 --> 03:33.760]  circuit, which is this one, where the source resistor allows the source
+[03:33.760 --> 03:40.840]  leg to go upwards, creating a negative bias on the gate.
+[03:40.840 --> 03:42.780]  That's why it's called the self-bias.
+[03:42.780 --> 03:43.780]  OK.
+[03:43.780 --> 03:48.780]  So the third method of doing it is to sort of force the situation
+[03:48.780 --> 04:04.900]  where there is a missing dot there, where you use a voltage divider, all right, where you use a voltage divider to set a particular gate voltage.
+[04:04.900 --> 04:05.840]  All right?
+[04:05.840 --> 04:06.840]  All right.
+[04:06.840 --> 04:12.840]  And from there, it's no longer a self-bias.
+[04:12.840 --> 04:26.940]  You're forcing a particular biasing point by basically programming or setting up a voltage difference between gate and source.
+[04:26.940 --> 04:39.480]  And now, the way that this, again, this is how do you solve for the proper or the q point that will result from this kind of a circuit?
+[04:39.480 --> 04:42.720]  Well, here are the relative equations.
+[04:42.720 --> 04:53.780]  So V sub g is treated as an independent voltage divider because, again, the gate current is zero.
+[04:53.780 --> 05:01.280]  Therefore, it's as if R1 and R2 are not really connected anywhere except the supply voltage, VVP.
+[05:01.280 --> 05:10.660]  Therefore, you're going to get the gate voltage that is just a result of the voltage division process against the supply voltage.
+[05:10.660 --> 05:12.960]  And that's your V sub g, okay?
+[05:13.740 --> 05:30.760]  Now, given this, all right, given this, there will be a resulting drain current, which is simply equal to the source current, okay?
+[05:30.760 --> 05:42.800]  And that is going to be equal to, well, the voltage from here to here, which is basically V sub s because it's connected to ground, divided by R s itself.
+[05:43.240 --> 05:51.380]  That's your source current, which will also be equal to your drain current because it's not going to come from anywhere else.
+[05:51.980 --> 05:52.280]  All right?
+[05:52.280 --> 05:58.620]  And another way of expressing this would be Vg minus Vgs over R s.
+[05:58.740 --> 06:09.500]  Now, this does not help really because you don't know exactly what your Vs is going to be, all right?
+[06:09.500 --> 06:23.100]  And this really doesn't help very much as well because it requires that you're going to know what your gate to source voltage is going to happen to be.
+[06:23.460 --> 06:25.480]  But that's the problem really.
+[06:25.640 --> 06:27.240]  So how do you find out?
+[06:27.240 --> 06:39.140]  Well, there is a way of doing this, which is to use the load line if you have the transistor conduction curve characteristic.
+[06:39.140 --> 06:46.600]  So if you have a plot of that, which is basically this thing, all right?
+[06:46.960 --> 06:56.880]  If you have the JFETS characteristic curve, you can actually use DC load line analysis to get your answer, okay?
+[06:57.240 --> 07:01.560]  And assuming that you do have it, this is what you're supposed to do, all right?
+[07:01.580 --> 07:04.980]  So you have your transconductance curve, all right?
+[07:05.580 --> 07:09.500]  Or if you don't, then you can derive it from the specifications if you like.
+[07:09.880 --> 07:19.480]  But if you went through all that trouble, maybe it's not a good idea because supposedly the idea behind the DC load line is to be able to do it quickly, all right?
+[07:19.480 --> 07:22.740]  Now, calculate VG.
+[07:22.960 --> 07:24.740]  This is based on this equation.
+[07:25.080 --> 07:27.620]  Again, it's independent, so just put that in.
+[07:28.220 --> 07:36.120]  Now, plot VG on the positive axis and solve for ID following this equation.
+[07:36.300 --> 07:38.660]  Now, this does not make sense, all right?
+[07:39.180 --> 07:41.520]  It may not initially make sense.
+[07:42.240 --> 07:45.000]  ID is equal to VG over RS.
+[07:45.300 --> 07:48.880]  Now, you know that this equation is not true, all right?
+[07:48.880 --> 07:56.520]  It cannot possibly be VG divided by RS because VG is over here.
+[07:57.200 --> 08:00.080]  This is your V sub G, all right?
+[08:00.540 --> 08:12.400]  And this here, all right, if you want to get ID, which is equal to IS, it's supposed to be VS over RS, all right?
+[08:12.500 --> 08:13.760]  VS over RS.
+[08:13.880 --> 08:18.060]  But notice here that it is V sub G, all right?
+[08:18.060 --> 08:22.020]  Now, so that looks wrong, but have faith, all right?
+[08:22.100 --> 08:25.620]  Have faith because it's DC load line.
+[08:26.180 --> 08:34.140]  Now, when you're doing DC load line, you're plotting the worst case, and then you're extracting and extrapolating where it will actually wind up.
+[08:34.560 --> 08:36.860]  So follow these directions.
+[08:36.860 --> 08:42.500]  They may look wrong, okay?
+[08:42.500 --> 09:01.120]  Okay, and the reason there is you'll find out is plot I sub D found in 4 on the y-axis and extend the line to intersect the transconductance curve to obtain the Q point value, all right?
+[09:01.120 --> 09:03.120]  So that's the trick.
+[09:03.120 --> 09:09.500]  So this is an intermediate step just to set the slope of the line, all right?
+[09:10.120 --> 09:20.520]  Plot the first dot, all right, on the x-axis, and then plot the second dot using this equation.
+[09:20.520 --> 09:32.820]  Connect the two dots and allow the line to hit the transconductance curve, and that intersection point is your Q point, okay?
+[09:32.820 --> 09:42.400]  So this is better understood by looking at the graph and showing what it exactly means.
+[09:42.900 --> 09:48.020]  So let me just erase all of this, and let's go to the next slide, okay?
+[09:48.180 --> 09:51.460]  So here is what this was talking about.
+[09:52.400 --> 10:00.060]  So plot the DC bias line or DC load line, if you like, all right, for the voltage divider bias circuit.
+[10:00.060 --> 10:19.180]  So here's that first dot, V sub G, which is simply equal to the supply voltage multiplied to the voltage divider, which in this particular case was all 1.5 megohms.
+[10:19.340 --> 10:22.040]  R1 and R2 are both 1.5 megohms.
+[10:22.820 --> 10:27.540]  Let me just draw out the circuit here so that you're not confused, okay?
+[10:27.540 --> 10:29.740]  So this is the circuit.
+[10:32.740 --> 10:35.300]  This is your R1, I believe.
+[10:35.760 --> 10:38.380]  This is your R2, all right?
+[10:38.880 --> 10:42.600]  And this is your RS, and this is your R sub D.
+[10:43.100 --> 10:48.560]  And in this particular case, sorry, this is running on 30 volts, all right?
+[10:48.800 --> 10:50.460]  And those are ground.
+[10:50.460 --> 11:05.720]  So 1.5 meg, 1.5 meg, RD is 1.1k, and RS happens to be 10 kilo ohms, which is a rather high value.
+[11:06.860 --> 11:07.800]  Okay, all right?
+[11:08.640 --> 11:09.280]  Whatever.
+[11:10.000 --> 11:16.760]  I'm not saying that those values are good, but that's what the example problem is showing, all right?
+[11:16.760 --> 11:20.520]  IBSS is 16 milliampperes.
+[11:21.020 --> 11:23.320]  VGS off is 8 volts.
+[11:23.400 --> 11:26.660]  So that establishes these two points here.
+[11:27.100 --> 11:33.040]  However, the transconductance curve is, where did that come from?
+[11:33.120 --> 11:35.260]  Well, the manufacturer might have done it.
+[11:35.260 --> 11:39.660]  Or you could have plotted it yourself because there is that equation.
+[11:39.660 --> 11:56.000]  Remember that I sub D is equal to IBSS multiplied to 1 minus the VGS over VP equation or V off squared.
+[11:56.000 --> 12:04.620]  So you can actually get that transconductance curve if you like and plot it out, and you'll get something that looks like this.
+[12:05.040 --> 12:05.240]  All right?
+[12:05.440 --> 12:07.920]  So there you go with that, okay?
+[12:08.620 --> 12:13.860]  But if you took the time to do this equation, then you don't have to do the DC load line analysis, right?
+[12:13.860 --> 12:16.960]  But anyway, assuming you have the graph, all right?
+[12:17.480 --> 12:19.640]  So this first point is this one.
+[12:20.060 --> 12:30.860]  The second point is that equation we saw a while ago, all right, which is ID is equal to VG over R sub S.
+[12:31.200 --> 12:35.780]  And sorry for having written that because that will get right into the way of the graph.
+[12:36.500 --> 12:36.760]  Okay?
+[12:36.760 --> 12:38.780]  And let's go forward.
+[12:38.780 --> 12:41.340]  And that's it over here.
+[12:41.840 --> 12:44.160]  So you can see, all right, that's that.
+[12:45.040 --> 12:45.620]  Okay?
+[12:46.020 --> 12:58.260]  And the reason that, again, that we did that is simply so that we can now draw a line, all right, that establishes a particular slope, all right?
+[12:58.300 --> 12:58.860]  These two.
+[12:58.860 --> 13:17.420]  And when you draw this line and you extend it, extend it, extend it, extend it all the way up to the point that it actually intersects, then you find your actual operating point due to those parameters that you put.
+[13:17.940 --> 13:18.240]  All right?
+[13:18.240 --> 13:33.640]  So with a 15 volt V sub G, all right, and the rest of the resistor values like so, which is actually really quite strange, this is essentially what you get.
+[13:33.960 --> 13:34.100]  Okay?
+[13:34.240 --> 13:37.780]  So VG in this particular case is 15 volts.
+[13:38.260 --> 13:40.440]  RS is 10K.
+[13:40.920 --> 13:47.940]  And that gives you a 1.5 milliampere value, which is right here.
+[13:47.940 --> 13:48.580]  Okay?
+[13:48.880 --> 13:49.820]  So there you go.
+[13:50.100 --> 13:55.500]  That establishes the slope and the intersection is essentially your cue point.
+[13:56.140 --> 14:04.500]  And the way that that looks really is that, well, your I sub D is roughly 2 milliampere from the way it looks.
+[14:06.000 --> 14:07.180]  Yeah, there we go.
+[14:07.280 --> 14:08.400]  It's about 2 milliampere.
+[14:08.400 --> 14:31.820]  And you'll wind up with an actual VGS of about, well, that looks like VGS is roughly, this is 5, 4, 5, and, okay, negative 5.5 volts.
+[14:31.820 --> 14:32.160]  Okay?
+[14:32.480 --> 14:33.240]  So there you go.
+[14:35.280 --> 14:37.080]  Hopefully, that's clear enough.
+[14:37.840 --> 14:38.000]  Okay?
+[14:38.480 --> 14:38.780]  All right.
+[14:38.960 --> 14:39.700]  Any questions?
+[14:39.840 --> 14:41.540]  I suppose there are no questions about this.
+[14:41.620 --> 14:43.400]  People are just going, la, la, who cares?
+[14:44.000 --> 14:44.260]  Okay?
+[14:44.260 --> 14:47.960]  So that's the technique presented here.
+[14:48.140 --> 14:52.040]  So basically, you can use this if you have the transconductance curve.
+[14:52.620 --> 14:52.940]  Okay.
+[14:53.200 --> 14:59.500]  So going forward, this is essentially where we stopped last Thursday.
+[15:00.620 --> 15:00.880]  Okay?
+[15:00.880 --> 15:11.560]  And you'll notice that, sequentially speaking, this is here, but this one previous to that about the voltage divider bias was not.
+[15:11.880 --> 15:19.420]  As I said, this is a different set of PowerPoint slides, and I just decided to include that third method of biasing.
+[15:20.000 --> 15:20.160]  Okay?
+[15:20.540 --> 15:20.860]  All right.
+[15:20.920 --> 15:22.440]  So we know all this already.
+[15:23.500 --> 15:24.400]  A little bit more.
+[15:24.400 --> 15:40.480]  I don't remember if I said it correctly, but VS, all right, over here means that this is a P channel, all right, JFET.
+[15:41.920 --> 15:42.240]  Okay?
+[15:42.440 --> 15:52.340]  And the K over here means that this is an N channel, all right, JFET.
+[15:52.340 --> 15:52.940]  Okay?
+[15:53.360 --> 15:53.700]  All right.
+[15:53.700 --> 15:58.720]  And these are both basically Japanese, all right?
+[15:58.780 --> 16:04.920]  These are both Japanese, as identified by the fact that it is an S and a K.
+[16:05.280 --> 16:19.640]  Actually, the full term is this is a 2SJ74, and this one happens to be a 2SK170.
+[16:20.040 --> 16:23.620]  Well, there appears to be an F there at the very end.
+[16:23.700 --> 16:24.100]  Okay?
+[16:24.480 --> 16:24.820]  All right.
+[16:24.880 --> 16:25.440]  So there you go.
+[16:25.440 --> 16:25.460]  So there you go.
+[16:25.560 --> 16:43.000]  That's the transistor identification that is very convenient, or more convenient, at least, if your transistors happen to be manufactured by the Japanese,
+[16:43.000 --> 16:46.000]  or are clones of the Japanese transistors.
+[16:46.000 --> 16:53.500]  Because they decided to use that particular convention, the JIS Japanese.
+[16:53.500 --> 16:56.660]  I don't know what the IS stands for.
+[16:56.660 --> 16:58.160]  I'm sure Google can answer you.
+[16:58.160 --> 17:09.480]  Which provides standards for these conventions and so on and so forth in the Japanese industry.
+[17:10.160 --> 17:10.400]  Okay?
+[17:10.400 --> 17:11.040]  All right.
+[17:11.040 --> 17:11.080]  All right.
+[17:11.080 --> 17:12.340]  So that's that.
+[17:13.060 --> 17:14.140]  Let's go forward.
+[17:14.140 --> 17:20.760]  There's another thing that we'd like to talk about here, which might be useful for you.
+[17:20.760 --> 17:25.160]  And we're no longer constrained in this particular case.
+[17:25.320 --> 17:26.500]  We're done with JFETs.
+[17:26.720 --> 17:28.980]  Well, we're not yet quite done with JFETs.
+[17:28.980 --> 17:38.740]  But what we're going to talk about is how to check both BJT and JFETs.
+[17:39.260 --> 17:40.140]  All right?
+[17:40.920 --> 17:44.700]  BJTs and JFETs using a multimeter.
+[17:45.520 --> 17:45.700]  Okay?
+[17:45.700 --> 17:48.400]  Is this an important step, actually?
+[17:49.180 --> 17:59.340]  Because, you know, things like when you go to the lab and then you're blindly putting together your circuit for an experiment.
+[18:00.400 --> 18:08.740]  And then you spend an hour, an hour and a half just trying to get the circuit to work.
+[18:08.740 --> 18:16.240]  Until you finally give up and then you ask your teacher, sir, why is it working? Blah, blah. Can you help debug?
+[18:17.000 --> 18:24.200]  And then it always turns out to be a fairly simplistic problem.
+[18:25.520 --> 18:29.080]  Seldom required a few more, you know, a few seconds to figure out.
+[18:29.300 --> 18:32.960]  But there are instances admittedly where, huh?
+[18:33.460 --> 18:33.760]  Okay?
+[18:33.860 --> 18:35.620]  Why doesn't that seem to be working?
+[18:35.620 --> 18:42.880]  And I think the major problem is just the question of exposure and experience.
+[18:44.320 --> 18:53.560]  When circuits don't work, you tend not to know how to interpret the symptoms to allow it to tell you what is wrong.
+[18:54.540 --> 18:55.700]  That's what I noticed.
+[18:55.840 --> 18:56.620]  You go blind.
+[18:57.840 --> 18:58.020]  Okay?
+[18:58.140 --> 18:59.240]  It doesn't work.
+[18:59.580 --> 18:59.880]  Period.
+[18:59.880 --> 19:00.060]  Period.
+[19:01.060 --> 19:10.680]  So, look at the voltages that you're getting and think.
+[19:11.120 --> 19:14.880]  Engage that brain to try to debug.
+[19:15.020 --> 19:17.760]  It's just like programming, ladies and gentlemen.
+[19:18.580 --> 19:18.880]  All right?
+[19:19.320 --> 19:21.180]  It is just like programming.
+[19:21.180 --> 19:30.020]  When you write a program and it doesn't produce the results that it's supposed to, you go debug it.
+[19:30.220 --> 19:32.140]  Now, there's a very big difference.
+[19:32.260 --> 19:42.020]  When you write a program in high level, the compiler will give you error messages for things like syntax errors,
+[19:42.020 --> 19:46.760]  you know, incorrectly formatted here and there or whatever.
+[19:46.760 --> 19:49.900]  But once, which is not the same thing.
+[19:50.460 --> 19:50.680]  All right?
+[19:50.880 --> 19:59.020]  But once it's no longer complaining about anything and it's actually running your program and you still have bugs,
+[19:59.680 --> 20:03.600]  that's when you now go into debugging mode.
+[20:03.760 --> 20:05.160]  You try to look at.
+[20:05.160 --> 20:05.900]  So, what do you do?
+[20:05.900 --> 20:14.140]  You put printf statements to find out, okay, what's the state of the variable at this point?
+[20:14.440 --> 20:15.600]  What about over here?
+[20:15.760 --> 20:16.780]  What happened here?
+[20:17.260 --> 20:18.380]  Tama ba yung logic?
+[20:18.560 --> 20:19.420]  Paano ko malalaman?
+[20:19.580 --> 20:22.460]  Ay, dilagyan mo ng printout or whatever.
+[20:22.720 --> 20:26.520]  Look at what the value of variable x, y, and z are.
+[20:26.520 --> 20:35.500]  So, why is it that you know how to debug a program but you can't apply the same thing with your circuits?
+[20:36.200 --> 20:40.300]  Your circuit, if it doesn't work, has symptoms.
+[20:41.920 --> 20:49.640]  Use that information and your knowledge of how the thing's supposed to work to tell you where it's going wrong.
+[20:50.660 --> 20:51.860]  Nobody does that.
+[20:52.380 --> 20:52.660]  All right?
+[20:52.820 --> 20:53.680]  You go blind.
+[20:54.140 --> 20:55.980]  You just look at it and stare at it.
+[20:55.980 --> 20:57.400]  You start rewiring.
+[20:59.220 --> 21:02.160]  When in fact, maybe there's nothing wrong with the wiring.
+[21:03.240 --> 21:03.380]  Right?
+[21:03.980 --> 21:04.240]  Okay.
+[21:04.540 --> 21:13.700]  So, going forward, it is entirely possible that the transistor that you have is broken.
+[21:14.800 --> 21:15.120]  Okay?
+[21:15.820 --> 21:22.740]  So, this is the most difficult and easy problem at the same time.
+[21:23.460 --> 21:23.740]  Okay?
+[21:23.740 --> 21:29.920]  So, you turn the circuit on and it doesn't produce the voltages that you expect.
+[21:29.920 --> 21:33.300]  It's not at the cue point you expect.
+[21:33.300 --> 21:40.700]  When you stare at it and you say, maybe my circuit wiring is wrong.
+[21:40.700 --> 21:42.960]  You look at it again and again and again and again.
+[21:42.960 --> 21:43.040]  So, you look at it again and again.
+[21:43.040 --> 21:43.040] 
+[21:43.880 --> 21:45.300]  Parang tama naman, ah.
+[21:45.860 --> 21:46.800]  Tinignan mo na rin.
+[21:46.880 --> 21:48.340]  Tinignan na rin ang kasama mo.
+[21:48.460 --> 21:49.420]  Tama naman, eh.
+[21:49.940 --> 21:50.320]  All right?
+[21:50.720 --> 21:51.300]  Ah, di ba ali?
+[21:51.380 --> 21:52.300]  Rewire pa rin natin.
+[21:52.420 --> 21:53.420]  Oh, fine.
+[21:53.760 --> 21:54.920]  Which is kind of stupid.
+[21:54.920 --> 21:57.680]  You waste time rewiring it.
+[21:57.680 --> 21:59.700]  And you wind up with exactly the same thing.
+[22:00.700 --> 22:01.040]  All right?
+[22:01.880 --> 22:10.640]  But, if you are smart enough and you look at the voltages and it will tell you, all right?
+[22:10.700 --> 22:14.300]  It will give you very, very strong clues as to what might be wrong.
+[22:14.300 --> 22:19.880]  Now, if you can't figure that thing out, maybe, all right?
+[22:19.980 --> 22:31.880]  If you at least knew how to test if the transistor was broken or not, then, you know, that will at least eliminate that particular component being wrong or right.
+[22:32.480 --> 22:32.720]  Okay?
+[22:32.960 --> 22:40.100]  So, here's how it needs to be done because you might be able to identify the transistor.
+[22:40.100 --> 22:44.500]  It simply says that it's a 2N2222, all right?
+[22:44.900 --> 22:49.700]  But, what you don't know, again, is if the transistor is defective.
+[22:50.100 --> 23:03.100]  So, regardless if you don't know what the transistor is, you don't have your data sheet with you, pretend that you didn't know what a 2N2222 is.
+[23:03.160 --> 23:05.320]  You don't know if it's an NPN or a PNP.
+[23:06.060 --> 23:06.360]  Okay?
+[23:06.360 --> 23:06.400]  Okay?
+[23:07.640 --> 23:12.320]  Identify the polarity of an unknown transistor.
+[23:13.440 --> 23:16.900]  Identify which leg is which because you have three legs.
+[23:17.240 --> 23:18.160]  Which one is the base?
+[23:18.260 --> 23:19.000]  Which one's the collector?
+[23:19.140 --> 23:19.960]  Which one's the emitter?
+[23:20.760 --> 23:29.780]  And determine if the transistor is broken or maybe not broken.
+[23:29.780 --> 23:31.060]  Okay?
+[23:31.060 --> 23:31.060] 
+[23:31.060 --> 23:31.120]  Okay?
+[23:31.640 --> 23:37.680]  All that is needed to be able to do this is a multimeter.
+[23:38.600 --> 23:39.040]  All right?
+[23:39.580 --> 23:44.000]  Be it a digital multimeter or an analog multimeter.
+[23:44.240 --> 23:50.740]  Now, I'm going to assume that we're looking at a digital multimeter as the test instrument.
+[23:50.740 --> 23:51.460]  Okay?
+[23:51.460 --> 23:51.520]  Okay?
+[23:51.960 --> 24:01.020]  Digital multimeter because that's the cheapest and most readily available thing that you might purchase for yourself.
+[24:01.020 --> 24:10.700]  Or if you happen to be in the lab, that's the only, that's the kind of meter that would have been given to you while you're doing an experiment.
+[24:11.140 --> 24:16.400]  We do have, does the lab have, well, I have analog meters.
+[24:16.580 --> 24:18.340]  They're very, very beautiful instruments.
+[24:18.340 --> 24:24.740]  And they can tell you certain things that a digital multimeter cannot.
+[24:25.580 --> 24:27.760]  But, hey, that's old tech.
+[24:28.080 --> 24:29.460]  So, let's go forward.
+[24:30.240 --> 24:30.420]  Okay?
+[24:30.980 --> 24:37.020]  So, as an example, this transistor happens to be at PIP 31.
+[24:37.900 --> 24:38.240]  Okay?
+[24:38.640 --> 24:43.020]  And let's pretend that you don't know the pinouts of the PIP 31.
+[24:43.980 --> 24:44.620]  Okie dokes.
+[24:44.940 --> 24:45.220]  All right?
+[24:45.220 --> 24:49.140]  Now, this is hypothetical.
+[24:49.540 --> 24:49.660]  Okay?
+[24:49.720 --> 24:50.740]  This is hypothetical.
+[24:51.080 --> 24:56.520]  So, left to right is pin 1, 2, and 3 as an example.
+[24:57.500 --> 25:02.940]  And what we're going to do is we're going to get our multimeter.
+[25:04.340 --> 25:05.020]  Okay?
+[25:05.540 --> 25:09.760]  And set the multimeter into diode mode.
+[25:09.920 --> 25:11.160]  So, you're going to check.
+[25:11.400 --> 25:11.860]  All right?
+[25:12.700 --> 25:14.460]  Or put the multimeter into diode mode.
+[25:14.460 --> 25:16.100]  What does that do?
+[25:16.600 --> 25:23.460]  Well, in multimeter mode, all right, you can test a diode to see if it forward conducts.
+[25:24.620 --> 25:24.900]  All right?
+[25:25.320 --> 25:34.180]  And if the diode is unmarked, you'll be able to determine which one is the anode and which one is the cathode.
+[25:34.300 --> 25:38.500]  By the way that, you know, if you put the polarity correct, it will conduct.
+[25:38.500 --> 25:43.880]  And if you put the polarity reversed, it will be reverse biased and you'll get no conduction.
+[25:44.440 --> 25:44.580]  Okay?
+[25:44.960 --> 25:53.180]  So, in diode mode, the multimeter will basically, all right, assuming that this is the diode symbol over here.
+[25:53.640 --> 25:53.960]  All right?
+[25:53.960 --> 26:00.200]  The multimeter will basically simply show you two different possible readings.
+[26:00.480 --> 26:02.000]  There are two different possible readings.
+[26:02.520 --> 26:08.880]  Either it says OL, all right, which means that, you know, it doesn't sense that there's anything connected.
+[26:08.880 --> 26:18.500]  Or if the diode is conducting, it will read and produce a voltage which is equal to the forward voltage of diode.
+[26:19.060 --> 26:22.880]  So, maybe you'll see that it says 0.63.
+[26:24.220 --> 26:24.600]  All right?
+[26:24.600 --> 26:31.720]  So, this would represent the forward conduction of the junction.
+[26:32.800 --> 26:33.060]  All right?
+[26:33.460 --> 26:46.400]  So, in testing a BJP, all right, we start by putting the red probe on one of the pins.
+[26:46.400 --> 26:58.720]  Pick one, all right, and place the black probe on any of the other two pins and see if any of them will conduct.
+[26:59.840 --> 27:00.020]  Okay?
+[27:00.820 --> 27:10.700]  And if it does conduct, then you've identified a diode that is being forward biased.
+[27:11.600 --> 27:11.860]  Okay?
+[27:13.040 --> 27:13.660]  All right?
+[27:13.660 --> 27:28.680]  Now, the key here is if both connections conduct, remember it says place the red probe on one pin, on a pin, and place the black probe on the other two pins.
+[27:28.840 --> 27:29.620]  One at a time.
+[27:29.780 --> 27:30.260]  Hindi sabay.
+[27:30.360 --> 27:30.900]  Wag katanga.
+[27:31.640 --> 27:31.900]  All right?
+[27:32.240 --> 27:34.680]  Isa and pangalawa.
+[27:35.060 --> 27:35.420]  All right?
+[27:35.420 --> 27:49.780]  And if both attempts show a conduction, then your red probe, okay, the red probe is at the base of the transistor.
+[27:50.860 --> 27:51.040]  Okay?
+[27:51.040 --> 28:02.260]  So, remember that in an NPN or PNP transistor, there is that embedded diode, which looks like this.
+[28:02.720 --> 28:09.820]  There is a diode from base to emitter, and there is a diode from base to collector.
+[28:10.820 --> 28:18.700]  So, if you get these two points conducting, then your base, you've found the common point, which is the base.
+[28:18.700 --> 28:19.920]  All right?
+[28:19.920 --> 28:20.000]  All right?
+[28:21.320 --> 28:32.540]  Now, if only one connection conducts, the black probe is on the base and the transistor is PNP.
+[28:33.060 --> 28:33.300]  Okay?
+[28:33.880 --> 28:35.580]  Assuming that that's what happens.
+[28:36.060 --> 28:36.240]  Okay.
+[28:37.120 --> 28:40.280]  So, let's try to see.
+[28:40.500 --> 28:40.840]  All right?
+[28:42.080 --> 28:43.340]  Let's try to see.
+[28:44.460 --> 28:45.600]  Let's go forward.
+[28:45.600 --> 28:45.600] 
+[28:45.600 --> 28:45.600] 
+[28:48.700 --> 28:50.180]  Clear all drawings.
+[28:50.660 --> 28:50.840]  Okay?
+[28:51.760 --> 29:00.660]  Now, having found the base, the forward voltage that is larger between the two junctions is normally the base-emitter junction.
+[29:01.920 --> 29:02.200]  Okay?
+[29:02.760 --> 29:05.040]  The larger voltage between the two.
+[29:05.100 --> 29:14.960]  Remember that we found the base, and we found that there are those two legs or those two connections that produce a forward conduction voltage.
+[29:14.960 --> 29:21.080]  The forward conduction voltage that you're going to measure are going to be slightly different from each other.
+[29:21.760 --> 29:30.820]  Now, according to this, the base-emitter junction will have a slightly bigger voltage than the base-collector junction.
+[29:32.340 --> 29:32.420]  Okay?
+[29:33.180 --> 29:33.560]  All right?
+[29:34.060 --> 29:35.500]  So, according to this.
+[29:36.020 --> 29:37.300]  This is something I have to verify.
+[29:37.480 --> 29:39.000]  I'm not entirely sure about that one.
+[29:39.480 --> 29:39.800]  All right?
+[29:39.800 --> 29:43.040]  Reverse the polarity of the multimeter leads.
+[29:43.240 --> 29:48.460]  Make sure that there is no conduction from base to emitter and base to collector.
+[29:49.480 --> 29:49.560]  Okay?
+[29:50.140 --> 29:54.800]  Make sure that there is no conduction when you reverse the polarity.
+[29:55.520 --> 30:07.100]  Because if it conducts, it means that the transistor's internal semiconductor is slightly broken.
+[30:08.140 --> 30:08.460]  Okay?
+[30:08.460 --> 30:13.080]  If you read a conduction voltage, the transistor is highly suspect.
+[30:13.300 --> 30:15.660]  In other words, it's not in perfect condition.
+[30:16.300 --> 30:24.900]  It might still be usable, but it is not recommended that you ever actually use such a transistor.
+[30:24.900 --> 30:32.480]  If you can read a conduction in reverse, it basically means that it is already defective.
+[30:32.480 --> 30:33.320]  Okay?
+[30:33.320 --> 30:33.380]  Okay?
+[30:33.380 --> 30:38.520]  It might still be usable or workable, but it's definitely defective.
+[30:39.180 --> 30:39.380]  Okay?
+[30:39.960 --> 30:40.380]  All right?
+[30:41.600 --> 30:44.920]  Now, there's one other test.
+[30:45.440 --> 30:48.800]  Make sure that it also doesn't conduct from collector to emitter.
+[30:49.940 --> 30:50.200]  Okay?
+[30:50.200 --> 30:50.240]  Okay?
+[30:51.040 --> 30:54.820]  Pwede kasing mangyari, the semiconductor is burned.
+[30:54.820 --> 30:55.440]  All right?
+[30:55.440 --> 30:55.560]  All right?
+[30:55.560 --> 30:55.620]  All right?
+[30:55.620 --> 31:03.420]  Such that there is already a short from collector to emitter, but the base is still okay.
+[31:03.420 --> 31:04.020]  Okay?
+[31:04.020 --> 31:12.180]  So, when you make your measurement from base to collector and from base to emitter, parehong nag-conduct ng okay.
+[31:12.180 --> 31:13.080]  All right?
+[31:13.080 --> 31:13.200]  All right?
+[31:13.840 --> 31:21.640]  Ang hindi mo lang mapapansin possibly is that the forward conduction voltage of both is exactly the same.
+[31:22.540 --> 31:29.400]  And if that happens, make sure that you check the collector to emitter for a short.
+[31:30.100 --> 31:30.380]  Okay?
+[31:30.740 --> 31:35.980]  Use the ohm setting to check for a collector to emitter conduction.
+[31:36.420 --> 31:37.720]  It should not conduct.
+[31:38.460 --> 31:38.720]  Okay?
+[31:38.860 --> 31:40.260]  It should not conduct.
+[31:40.260 --> 31:43.520]  So, here is the okay.
+[31:45.260 --> 31:51.020]  Here is an example where we're looking at the transistor actually.
+[31:51.520 --> 31:54.300]  So, put the red probe on pin one.
+[31:57.000 --> 31:57.600]  Okay?
+[31:58.140 --> 32:00.980]  So, the red probe goes on pin one.
+[32:01.920 --> 32:03.840]  Put the black probe on pin two.
+[32:04.040 --> 32:04.980]  Does it conduct?
+[32:06.280 --> 32:06.640]  Okay?
+[32:06.640 --> 32:14.780]  And if it does, all right, put the black here and then you notice that it's 0.65, for example.
+[32:15.380 --> 32:18.400]  And put the black probe on pin three.
+[32:18.940 --> 32:19.880]  Does it conduct?
+[32:20.140 --> 32:22.820]  And if it does, you take note of the voltage as well.
+[32:24.020 --> 32:24.280]  Okay?
+[32:24.620 --> 32:24.980]  All right?
+[32:25.540 --> 32:26.620]  Reverse the conditions.
+[32:26.780 --> 32:27.880]  Black probe on pin one.
+[32:27.980 --> 32:29.080]  Red probe on pin two.
+[32:29.080 --> 32:30.440]  And then pin three.
+[32:30.440 --> 32:32.520]  And there should be no conduction.
+[32:35.800 --> 32:36.020]  Okay?
+[32:36.500 --> 32:38.020]  And so, congratulations.
+[32:38.920 --> 32:43.120]  If that was successful, you can conclude that it's NPN.
+[32:43.700 --> 32:44.020]  Why?
+[32:44.160 --> 32:46.180]  Because red from here to here.
+[32:46.560 --> 32:51.320]  And red from here to pin three, both conducted.
+[32:51.320 --> 32:51.620]  Okay?
+[32:51.620 --> 32:52.500]  Okay?
+[32:53.160 --> 32:58.840]  So, the fact that it did that, this must be basically your base.
+[32:59.600 --> 32:59.880]  Okay?
+[32:59.940 --> 33:00.900]  That's your base.
+[33:01.620 --> 33:03.300]  And it is NPN.
+[33:04.180 --> 33:04.480]  Okay?
+[33:05.000 --> 33:16.020]  If it were PNP, you'd need to have black and your red connections this way for it to conduct on both junctions.
+[33:16.420 --> 33:16.700]  Okay?
+[33:16.700 --> 33:19.400]  This would mean that this is PNP.
+[33:20.020 --> 33:24.160]  This one basically means that this is NPN.
+[33:24.800 --> 33:25.040]  All right?
+[33:25.520 --> 33:25.820]  Okay.
+[33:26.120 --> 33:37.900]  Now, since pin one to two is 0.65 and it's higher than one to three, pin two is the emitter and pin three would be the collector.
+[33:38.600 --> 33:43.900]  And thus, the pin out of this thing, all right, would be a BEC.
+[33:44.640 --> 33:45.020]  All right?
+[33:45.020 --> 33:53.160]  Going in sequence, it would be a BEC and an NPN.
+[33:53.640 --> 33:55.920]  If it came out that way.
+[33:56.380 --> 33:56.600]  All right?
+[33:56.800 --> 33:58.780]  If it came out that way.
+[33:59.860 --> 34:01.160]  So, there you go.
+[34:01.280 --> 34:08.460]  That's how you check for a transistor and verify if it is an okay transistor or not.
+[34:08.660 --> 34:08.800]  Okay.
+[34:08.800 --> 34:10.540]  So, this one is missing.
+[34:10.540 --> 34:14.560]  The last step here is to verify on ohms.
+[34:15.080 --> 34:15.380]  All right?
+[34:16.340 --> 34:29.760]  Test if there is any resistance from emitter to collector or collector to emitter.
+[34:30.180 --> 34:30.460]  Okay?
+[34:30.460 --> 34:31.880]  Both ways.
+[34:31.880 --> 34:32.820]  I-check ninyo.
+[34:33.180 --> 34:37.440]  Dapat, all right, dapat infinite resistance.
+[34:38.360 --> 34:42.880]  Meaning that your emitter to collector must not conduct.
+[34:42.880 --> 34:51.760]  If you measure a slight conduction, it basically means, again, that the transistor is a little bit defective.
+[34:52.260 --> 34:55.320]  It's highly recommended that you don't use it.
+[34:55.880 --> 34:56.120]  Okay?
+[34:56.820 --> 34:57.200]  All right?
+[34:57.200 --> 34:58.620]  So, there you go with that.
+[34:58.940 --> 35:10.620]  Hopefully, that helps you with verifying the transistor and knowing what it is, what polarity it is, as well as the pinout.
+[35:10.620 --> 35:19.240]  So, you can try this next time you go to the lab if you still will be doing anything with the 2N2222 or whatever other transistor there might be.
+[35:19.780 --> 35:29.160]  There is definitely an experiment that will, at the very last experiment, is one where you will use several different kinds of transistors.
+[35:29.160 --> 35:33.160]  So, it's a good way to check out if you can remember this procedure.
+[35:33.820 --> 35:38.240]  And, yes, by the way, one very important point.
+[35:38.760 --> 35:41.040]  This is only an example.
+[35:42.000 --> 35:42.440]  All right?
+[35:42.580 --> 35:44.000]  This is an example.
+[35:45.080 --> 35:53.520]  And the reality of it is the TIP31 has a pinout which is BCE.
+[35:54.260 --> 35:54.660]  All right?
+[35:55.080 --> 35:57.680]  The center pin is actually the collector.
+[35:57.680 --> 36:00.760]  So, this is reversed here.
+[36:01.060 --> 36:07.560]  And I believe I did this on purpose just so that, you know, it would be a different answer.
+[36:08.040 --> 36:10.980]  But the real TIP31, right?
+[36:11.080 --> 36:15.620]  If it's a TIP31, the connections are base collector-emitter.
+[36:16.080 --> 36:16.420]  All right?
+[36:17.540 --> 36:19.260]  Respectively, going from left to right.
+[36:19.880 --> 36:20.200]  Okay?
+[36:20.700 --> 36:22.640]  And why do I know that?
+[36:22.760 --> 36:24.400]  Well, because it's in my head.
+[36:24.840 --> 36:25.160]  Okay.
+[36:25.160 --> 36:28.720]  So, having said that, are there any questions?
+[36:28.900 --> 36:33.760]  At this point, let me get some responses and see if you are awake and alive.
+[36:35.460 --> 36:39.100]  Thumbs up, please, if this is okay.
+[36:39.100 --> 36:43.840]  All right.
+[36:44.040 --> 36:44.560]  Thank you.
+[36:45.220 --> 36:46.980]  So, let's move forward.
+[36:48.280 --> 36:48.500]  Okay?
+[36:49.720 --> 36:53.140]  Now, last check.
+[36:53.400 --> 36:53.520]  Ah, yeah.
+[36:53.660 --> 36:53.800]  Okay.
+[36:53.880 --> 36:58.740]  So, here's where I stated the thing about the Ohms reading.
+[36:58.740 --> 37:08.920]  Pin 2 and Pin 3 should read not zero.
+[37:09.240 --> 37:16.120]  Well, what I meant by zero is zero conduction.
+[37:17.120 --> 37:18.160]  All right?
+[37:18.540 --> 37:22.280]  Zero conduction, a.k.a.
+[37:22.980 --> 37:26.900]  infinite resistance.
+[37:26.900 --> 37:29.640]  Okay?
+[37:30.300 --> 37:31.160]  Make sure.
+[37:33.060 --> 37:33.700]  All right?
+[37:33.760 --> 37:38.780]  Now, remember that if you read any resistance, it could be just your fingers.
+[37:39.540 --> 37:39.740]  Okay?
+[37:39.820 --> 37:41.720]  So, please take note.
+[37:42.260 --> 37:42.600]  All right?
+[37:42.800 --> 37:48.380]  Now, for a transistor like this, this is what you call as the tab.
+[37:48.780 --> 37:49.120]  All right?
+[37:49.160 --> 37:51.580]  That's the tab that's used to mount the transistor.
+[37:51.580 --> 37:52.740]  All right?
+[37:53.040 --> 38:00.640]  The clue here is that the tab is normally the collector.
+[38:03.640 --> 38:04.240]  Okay?
+[38:04.500 --> 38:06.040]  They are...
+[38:06.040 --> 38:16.360]  So, there are two ways to connect the collector of a TO220 transistor.
+[38:16.360 --> 38:30.000]  You can make the tab or use the tab as the collector connection or whatever of the three pins that you find is the collector.
+[38:30.000 --> 38:35.100]  Now, the reality of it is in most cases.
+[38:36.100 --> 38:36.440]  All right?
+[38:36.440 --> 38:40.060]  I don't know of any case which is an exception.
+[38:41.120 --> 38:47.500]  The center pin is normally bonded and one and the same as the tab.
+[38:48.020 --> 38:48.420]  Okay?
+[38:48.840 --> 39:03.140]  So, the center pin is equal to the tab, which basically means that if the tab is the collector, then the center pin is, in fact, really the collector.
+[39:03.680 --> 39:03.940]  Okay?
+[39:03.940 --> 39:04.700]  All right?
+[39:04.700 --> 39:04.740]  All right?
+[39:05.200 --> 39:11.280]  So, this, again, is the real TIP31.
+[39:11.780 --> 39:11.960]  Okay?
+[39:12.300 --> 39:24.540]  And many of the transistors that are in a TO220 package would be laid out as BCE, base on the left, collector in the middle, emitter on the right.
+[39:24.980 --> 39:26.840]  Sometimes, it's inverted.
+[39:27.380 --> 39:30.140]  It will be ECB.
+[39:30.500 --> 39:31.020]  All right?
+[39:31.020 --> 39:34.120]  Meaning that the emitter, collector, base.
+[39:34.320 --> 39:38.360]  So, you'll notice that collector is always the middle leg.
+[39:38.980 --> 39:39.220]  Okay?
+[39:39.460 --> 39:39.840]  All right?
+[39:39.960 --> 39:42.080]  So, sometimes it's like that.
+[39:42.300 --> 39:42.600]  All right?
+[39:43.020 --> 39:49.780]  So, the ECB configuration is quite, is rarer.
+[39:49.780 --> 39:55.140]  It's more rare than the BCE left to right configuration.
+[39:55.580 --> 39:55.860]  Okay?
+[39:56.200 --> 39:56.560]  All right.
+[39:56.880 --> 39:57.940]  So, I hope that's clear.
+[39:58.360 --> 39:59.320]  Let's go forward.
+[40:01.040 --> 40:03.780]  Case 2, blah, blah, blah, PLP.
+[40:05.320 --> 40:05.700]  Anyway.
+[40:06.020 --> 40:06.160]  Okay.
+[40:06.160 --> 40:13.000]  So, transistors can come in different casings.
+[40:13.460 --> 40:13.740]  All right?
+[40:14.500 --> 40:22.340]  The casings basically typically reflect the power handling capability of the transistor.
+[40:22.340 --> 40:31.340]  You cannot expect a tiny little package like the 2N2222 to be able to handle 50 watts of power.
+[40:32.100 --> 40:32.260]  All right?
+[40:32.700 --> 40:34.980]  50 watts is a lot of energy.
+[40:35.240 --> 40:42.300]  And so, a tiny little package like that will instantaneously get extremely hot and just simply burn out.
+[40:42.960 --> 40:43.340]  All right?
+[40:43.340 --> 40:47.400]  So, we have the TO92 package.
+[40:48.000 --> 40:48.340]  All right?
+[40:49.140 --> 40:54.340]  And a similarly sized transistor but with a metal round casing.
+[40:55.120 --> 40:55.880]  All right?
+[40:56.320 --> 40:57.340]  Is called TO18.
+[40:59.280 --> 40:59.640]  All right?
+[40:59.740 --> 41:00.440]  TO18.
+[41:00.720 --> 41:09.500]  So, usually, as an example, the original 2N2222 was in a TO18 package.
+[41:09.980 --> 41:10.220]  All right?
+[41:10.220 --> 41:13.220]  The original 2N2222s when they first came out.
+[41:15.240 --> 41:22.120]  You know, epoxy plastic casings were not yet invented.
+[41:23.240 --> 41:23.480]  All right?
+[41:23.900 --> 41:30.340]  So, for a very long time, you just had small signal transistors in TO18 package.
+[41:30.840 --> 41:31.120]  All right?
+[41:31.560 --> 41:37.940]  And from TO18, there's the slightly larger one which is called the TO39.
+[41:38.940 --> 41:39.220]  Okay?
+[41:39.220 --> 41:47.220]  When you look at these transistors, you'll notice that if you look at the casing very carefully, you can see this here.
+[41:47.800 --> 41:49.060]  Let me just point it out.
+[41:49.200 --> 41:49.420]  Ayan.
+[41:49.560 --> 41:50.420]  Nakikita ninyo.
+[41:50.720 --> 41:51.080]  All right?
+[41:51.580 --> 41:52.300]  May ganyan.
+[41:53.020 --> 41:56.140]  I don't know if you can see it very well but there it is.
+[41:56.600 --> 41:56.820]  Okay?
+[41:56.820 --> 41:57.820]  Okay.
+[41:57.820 --> 42:02.260]  And even this one, it's not quite visible but there it is.
+[42:02.260 --> 42:07.520]  If you look at it in terms of a profile, what you're going to see, all right?
+[42:07.520 --> 42:13.200]  A profile, but plan view, is that it has this little thing here.
+[42:13.320 --> 42:19.040]  There's this little tab right over there in both cases.
+[42:19.040 --> 42:24.120]  And that actually signifies where it's closest, all right?
+[42:24.180 --> 42:27.760]  You'll find that it's got three legs like this arranged as a triangle.
+[42:27.760 --> 42:32.660]  And kung saan nakatapat yung tab, that is the emitter.
+[42:34.760 --> 42:35.020]  Okay?
+[42:35.360 --> 42:36.780]  That is the emitter.
+[42:37.760 --> 42:37.960]  Okay?
+[42:37.960 --> 42:44.380]  And the other trick here is that the casing, all right, is the collector.
+[42:45.960 --> 42:47.740]  The casing is the collector.
+[42:47.920 --> 42:48.520]  It's metal.
+[42:49.020 --> 42:49.340]  All right?
+[42:49.420 --> 42:50.780]  And so the casing is the collector.
+[42:50.920 --> 42:59.660]  So if you look at the legs under, you're going to find that this leg is basically just simply connected to the casing.
+[43:00.260 --> 43:00.560]  All right?
+[43:00.620 --> 43:02.660]  It's just simply connected to the casing.
+[43:02.660 --> 43:09.440]  Unlike these other two guys, pag tinignan man ang bobote, I'll just draw it bigger here so that it's very, very visible.
+[43:10.340 --> 43:11.800]  The leg, all right?
+[43:11.900 --> 43:13.300]  The leg is like this.
+[43:13.880 --> 43:16.560]  And you'll find an insulation around it.
+[43:17.540 --> 43:18.120]  All right?
+[43:18.300 --> 43:19.080]  Ganyan yung itsura.
+[43:19.920 --> 43:24.420]  And as we said, the one that is closest to the tab is the emitter.
+[43:25.040 --> 43:31.100]  And you look at the leg on the other side, which is here, wala siyang insulation.
+[43:31.100 --> 43:33.640]  Diretso siya papunta sa casing.
+[43:34.160 --> 43:36.400]  That's why you know that this is the collector.
+[43:37.160 --> 43:37.460]  All right?
+[43:37.640 --> 43:41.060]  And obviously, the only other one left must be the base.
+[43:41.240 --> 43:49.320]  And so this is your classic TO18 or TO39 transistor pinout.
+[43:49.500 --> 43:55.240]  It is always laid out as a triangle with emitter, base, and collector looking that way.
+[43:55.740 --> 43:56.120]  All right?
+[43:56.120 --> 43:59.100]  So look under and you'll be able to find it.
+[43:59.940 --> 44:12.320]  And well, I think all if not, well, most if not all cases, that is the pinout for those transistors.
+[44:13.020 --> 44:13.140]  Okay?
+[44:14.400 --> 44:17.040]  The TO92 came out much later.
+[44:17.040 --> 44:22.880]  It's a much less expensive casing because there's much less metal.
+[44:23.520 --> 44:23.700]  All right?
+[44:23.760 --> 44:25.100]  It's all plastic.
+[44:25.520 --> 44:29.620]  It's made out of plastic, you know, epoxy, molded epoxy.
+[44:30.280 --> 44:36.560]  So the only precious metals in there would be the semiconductor itself plus the legs.
+[44:37.060 --> 44:37.260]  Okay?
+[44:37.260 --> 44:45.400]  So this is a much later casing option designed for lower cost.
+[44:45.920 --> 44:46.000]  Okay?
+[44:46.340 --> 44:46.660]  All right.
+[44:46.780 --> 44:51.600]  And the sad thing about it is ito is straight and in line.
+[44:51.740 --> 44:55.360]  So kung titignan mo yung ilalim ng transistor, you're familiar with this.
+[44:55.740 --> 45:01.980]  You look at the ilalim of the transistor, you'll find that the three legs just are arranged in a straight line.
+[45:01.980 --> 45:05.500]  And that's where the problem lies.
+[45:06.240 --> 45:08.980]  The plastic is already non-conductive.
+[45:09.640 --> 45:18.460]  So you don't have that convenience of saying that, oh, the casing is the collector and all I have to do is find which leg is connected to the casing.
+[45:18.940 --> 45:20.160]  Well, walang ganon.
+[45:20.360 --> 45:22.900]  So hindi mo talaga alam kung alin yung collector.
+[45:23.440 --> 45:30.900]  And because they're all in a straight line, you don't have the triangle formation anymore, which might clue you as to which one is the base.
+[45:30.900 --> 45:37.820]  And the stupid casing doesn't even have the tab to tell you which one is the editor.
+[45:38.240 --> 45:39.540]  So that's why it's hopeless.
+[45:39.900 --> 45:40.160]  All right?
+[45:40.520 --> 45:50.180]  And that's why you have to have that skill and knowledge of how to test using a multimeter to find out which one is base, which one is collector, which one is editor.
+[45:50.700 --> 45:50.960]  Okay?
+[45:50.960 --> 45:56.000]  So for the TO92, really, it's necessary.
+[45:57.420 --> 45:57.800]  All right?
+[45:58.100 --> 46:01.060]  We already discussed the TO220 case.
+[46:01.620 --> 46:03.820]  And this last big one.
+[46:04.160 --> 46:04.400]  All right?
+[46:04.860 --> 46:07.380]  Notice that there are two mounting holes here.
+[46:07.940 --> 46:10.140]  This is a transistor that is this big.
+[46:10.360 --> 46:11.740]  Sorry, I don't have one on my table.
+[46:12.200 --> 46:14.840]  But this is what we call as the TO3 casing.
+[46:14.840 --> 46:15.560]  All right?
+[46:15.820 --> 46:26.460]  And so power dissipation-wise, you have typically transistors that are rated 80 to 250 watts.
+[46:26.760 --> 46:27.460]  All right?
+[46:27.560 --> 46:29.960]  That are in casings like this.
+[46:30.080 --> 46:31.720]  They are fat and big.
+[46:31.720 --> 46:53.540]  And the fact that they have two mounting holes means that they can be properly mounted on a heat sink where equal distribution of forces ensures that the metal surface of the transistor mates very well with the heat sink to allow for maximum heat transfer.
+[46:54.000 --> 46:58.120]  Because these transistors are designed to handle a lot of power.
+[46:58.120 --> 46:59.280]  All right?
+[46:59.280 --> 47:04.120]  And you need a heat sink to dissipate all of that heat into the environment.
+[47:05.100 --> 47:05.340]  All right?
+[47:05.880 --> 47:09.460]  The TO220s are a lot smaller.
+[47:09.940 --> 47:10.240]  All right?
+[47:10.300 --> 47:11.280]  They're a lot smaller.
+[47:11.900 --> 47:21.880]  They might be rated or packages like this will handle somewhere in the neighborhood of maybe about 35 watts or so.
+[47:21.880 --> 47:35.160]  So you go to this kind of packaging if your transistor is rated maybe in the neighborhood of about, you know, 20 watts, right?
+[47:35.320 --> 47:38.920]  20 watts over to about maybe 50 watts.
+[47:39.280 --> 47:45.780]  Now, and these guys, these are basically one watt or less.
+[47:46.520 --> 47:47.060]  Okay?
+[47:47.440 --> 47:50.740]  These ones might be about two watts to three watts.
+[47:50.740 --> 47:53.620]  So you'll notice that there are gaps, no?
+[47:53.940 --> 47:56.320]  There are gaps in the power rating.
+[47:56.320 --> 48:04.340]  And that's because there are transistor packages that are in between the ones that we've illustrated here.
+[48:04.340 --> 48:07.880]  Marami pang packages in between.
+[48:08.600 --> 48:08.840]  All right?
+[48:09.040 --> 48:16.160]  There are several package styles in between that are more centered to handle the power ratings.
+[48:16.160 --> 48:17.160]  But they overlap.
+[48:17.160 --> 48:17.720]  But they overlap.
+[48:18.140 --> 48:19.620]  They definitely overlap.
+[48:19.920 --> 48:20.060]  Okay?
+[48:20.520 --> 48:29.840]  So manufacturer might choose a particular casing when considering the power dissipation as well as the cost of the casing.
+[48:30.440 --> 48:30.700]  Okay?
+[48:30.940 --> 48:31.700]  So there you go.
+[48:32.120 --> 48:34.020]  These are just samples, no?
+[48:35.760 --> 48:37.840]  Of different styles.
+[48:38.540 --> 48:38.820]  Okay?
+[48:39.280 --> 48:39.640]  All right.
+[48:39.640 --> 48:47.960]  And the ones that we see here are the ones that happened to be at the top of my head when I was creating this slide.
+[48:48.560 --> 48:49.200]  Okie dokes.
+[48:49.420 --> 48:49.680]  All right.
+[48:49.840 --> 48:51.580]  So clear all drawings.
+[48:51.760 --> 48:53.660]  Are there questions about this?
+[48:54.200 --> 48:54.360]  Okay?
+[48:54.660 --> 48:55.240]  May tanong ba?
+[48:55.880 --> 48:56.120]  Okay?
+[48:56.940 --> 48:57.180]  Wala.
+[48:57.920 --> 48:58.520]  All right?
+[49:00.440 --> 49:00.940]  Okay.
+[49:01.280 --> 49:01.900]  No questions?
+[49:02.660 --> 49:04.180]  Do we get the thumbs up, please?
+[49:04.180 --> 49:08.020]  Yeah?
+[49:08.620 --> 49:09.120]  Okay.
+[49:13.120 --> 49:13.880]  Okay.
+[49:14.200 --> 49:15.560]  So let's go forward.
+[49:16.360 --> 49:16.600]  Okay.
+[49:16.660 --> 49:17.460]  Let's go forward.
+[49:17.860 --> 49:18.500]  Next slide.
+[49:19.180 --> 49:21.080]  What about JFETs?
+[49:21.260 --> 49:21.560]  All right?
+[49:21.940 --> 49:26.880]  Paano mag-testing at identify ng pins ng JFET?
+[49:27.680 --> 49:27.960]  Okay?
+[49:27.960 --> 49:34.400]  So number one, recall that a JFET has only one PN junction.
+[49:35.400 --> 49:36.920]  That's why, all right?
+[49:37.420 --> 49:37.700]  Okay?
+[49:37.800 --> 49:39.800]  That's why the symbol looks like this.
+[49:40.300 --> 49:42.320]  There's only one PN junction.
+[49:44.020 --> 49:47.480]  The JFET is a depletion mode device.
+[49:47.920 --> 49:56.180]  Therefore, if VGS is equal to zero, then drain to source is conducting.
+[49:56.180 --> 49:58.540]  By default.
+[49:59.740 --> 50:00.000]  Okay?
+[50:01.760 --> 50:03.120]  What the hell does this mean?
+[50:04.960 --> 50:08.280]  This means that if you take a JFET, all right?
+[50:08.280 --> 50:20.780]  If you take a JFET and you measure the resistance from drain to source with the gate not connected anywhere.
+[50:22.200 --> 50:22.380]  Okay?
+[50:22.380 --> 50:29.240]  Let's say, for example, that this particular sample here is GDS.
+[50:29.620 --> 50:29.860]  All right?
+[50:30.020 --> 50:31.140]  Gate drain source.
+[50:31.880 --> 50:36.780]  If you take your multimeter, put it on resistance mode.
+[50:37.780 --> 50:38.060]  Okay?
+[50:38.200 --> 50:40.380]  Kung ano saan man yung resistance mode na yan.
+[50:41.060 --> 50:41.300]  Okay?
+[50:41.300 --> 50:50.000]  And you put your probes from here to here, you will definitely measure a resistance value.
+[50:50.580 --> 50:52.080]  It's not going to be OL.
+[50:52.440 --> 50:55.720]  It has to be some lower resistance value.
+[50:56.180 --> 51:01.680]  Maybe it'll say something like, you know, 375 ohms.
+[51:01.860 --> 51:02.880]  Baka yun yung lumabas.
+[51:03.100 --> 51:03.480]  Who knows?
+[51:03.580 --> 51:04.680]  It depends on the JFET.
+[51:04.680 --> 51:05.240]  All right?
+[51:06.020 --> 51:12.220]  So, you'll notice that when you're doing this kind of a test, your gate is not even connected anywhere.
+[51:12.540 --> 51:13.100]  All right?
+[51:13.140 --> 51:14.480]  It's not connected anywhere.
+[51:14.700 --> 51:17.460]  Yet, the drain to source is already conducting.
+[51:17.880 --> 51:21.420]  Again, this is because it's a depletion mode device.
+[51:22.220 --> 51:22.460]  Okay?
+[51:22.820 --> 51:23.200]  All right?
+[51:23.200 --> 51:31.600]  Now, after verifying that, you can check your G2S or G2D.
+[51:31.920 --> 51:32.320]  All right?
+[51:32.440 --> 51:36.600]  G2S or G2D will read like a BJP.
+[51:36.840 --> 51:42.300]  In other words, there will be a polarity where it will conduct like a diode.
+[51:43.140 --> 51:46.060]  And when you reverse it, it should be open circuit.
+[51:47.100 --> 51:47.380]  Okay?
+[51:48.040 --> 51:48.720]  All right?
+[51:48.720 --> 51:51.560]  So, that's how you find your gate.
+[51:51.560 --> 51:58.880]  You put the probe on one of the legs and the other probe on the other two and find out.
+[51:59.340 --> 52:02.380]  Diode check-wise, nag-conduct ba o hindi.
+[52:02.900 --> 52:05.800]  Kung mag-conduct siya, eh, di nahanap mo yung gate.
+[52:06.000 --> 52:06.400]  Yun na yun.
+[52:06.700 --> 52:09.000]  Kung mag-conduct siya with both other legs.
+[52:09.440 --> 52:10.100]  That's the gate.
+[52:10.300 --> 52:13.100]  And there's no other way it will not do that.
+[52:13.380 --> 52:13.620]  All right?
+[52:14.080 --> 52:15.680]  There's no other way it will not do that.
+[52:15.680 --> 52:20.900]  If you find that the pattern looks weird, then your JFET is probably busted.
+[52:21.560 --> 52:22.080]  Okay?
+[52:22.680 --> 52:23.080]  All right.
+[52:23.920 --> 52:25.460]  Hopefully, that's clear.
+[52:26.140 --> 52:26.500]  All right?
+[52:26.700 --> 52:41.580]  And we'll aid you in the future in case you're faced with the situation that you need to find out the pinouts or verify that the JFET is working.
+[52:42.260 --> 52:42.560]  Okay?
+[52:42.700 --> 52:42.960]  All right.
+[52:42.960 --> 52:45.840]  So, that's the last of that.
+[52:46.580 --> 52:46.980]  All right?
+[52:46.980 --> 52:51.940]  And we go over to applications of JFET.
+[52:53.020 --> 53:03.800]  I already mentioned this before, but it's worth re-emphasizing that a JFET's transconductance characteristic is not, you know,
+[53:03.800 --> 53:12.000]  the figure of merit of JFET is its transconductance or mu value.
+[53:12.840 --> 53:21.540]  So, mu is similar conceptually to beta.
+[53:21.540 --> 53:31.700]  So, in a BJT, beta tells you, you know, the transistor's IC versus IP, its gain characteristic.
+[53:32.640 --> 53:32.780]  Okay?
+[53:33.360 --> 53:45.480]  In a JFET, it's the transconductance or mu value that tells you how well it translates the IP versus BGS.
+[53:45.480 --> 53:46.680]  All right?
+[53:46.880 --> 54:04.980]  Now, the thing here is a JFET's ultimately ability to do voltage amplification is much lower than a BJT.
+[54:06.180 --> 54:06.420]  Okay?
+[54:06.420 --> 54:20.700]  So, recall that when you looked at the 2N2222 in the lab with the emitter bypassed with the capacitor,
+[54:21.240 --> 54:24.460]  you could easily get a gain of over 100.
+[54:27.380 --> 54:33.360]  Voltage amplification-wise, you were getting a gain of over 100, 120 or so.
+[54:34.400 --> 54:34.640]  Okay?
+[54:34.640 --> 54:34.680]  Okay?
+[54:35.540 --> 54:49.640]  And in contrast to that, okay, in contrast to that, if you're using a JFET, you will get a gain much lower, maybe 20, 30, somewhere there.
+[54:49.760 --> 54:51.460]  20, 30, maybe 50.
+[54:51.980 --> 54:56.100]  It's nowhere near as high as a BJT.
+[54:56.100 --> 55:06.040]  And this is basically, again, because its transconductance factor is nowhere near the beta of a transistor.
+[55:07.720 --> 55:07.860]  Okay?
+[55:08.100 --> 55:11.780]  So, you might be wondering, why would you want to use a JFET?
+[55:11.780 --> 55:22.400]  Because we saw that regardless if it is a BJT or a JFET, both of them produce distortion when amplified.
+[55:23.080 --> 55:27.340]  And then here's the JFET, which doesn't even amplify as much.
+[55:28.340 --> 55:28.680]  All right?
+[55:28.680 --> 55:36.000]  And so, the answer essentially is that the JFET has a very, very high input impedance.
+[55:36.280 --> 55:40.340]  Remember that its gate is pretty much like an open circuit.
+[55:42.100 --> 55:42.380]  All right?
+[55:42.380 --> 55:48.800]  And a BJT simply does not have that high input impedance.
+[55:48.800 --> 55:57.400]  Remember that in our common emitter amplifier, when we were calculating the input impedance of a BJT,
+[55:57.400 --> 56:11.720]  it was typically somewhere in the neighborhood of, you know, a few kilo-ohms, a low few kilo-ohms, 1K, 2K, 5 kilo-ohms, something like that.
+[56:11.840 --> 56:25.380]  It's a fairly low value, 5 kilo-ohms at best, maybe, versus a JFET where the input impedance approaches theoretically infinity.
+[56:25.380 --> 56:35.800]  Reality, of course, would be that, you know, it's dependent on RG, and RG might be set to something like 4.7 meg-ohms.
+[56:36.140 --> 56:44.720]  So, regardless, you're talking of a few kilo-ohms for a BJT versus a few meg-ohms.
+[56:45.820 --> 56:47.620]  Sabihin mo ng worst case, 1 meg.
+[56:48.160 --> 56:48.700]  All right?
+[56:48.800 --> 56:51.400]  1 meg-ohm kung JFET.
+[56:52.020 --> 56:52.520]  All right?
+[56:52.520 --> 57:02.040]  So, the JFET's high input impedance, all right, is its, you know, strength.
+[57:02.660 --> 57:04.220]  That's its strength.
+[57:04.740 --> 57:14.840]  So, you can use a JFET, or if you use a JFET, it's basically because you need a high input impedance.
+[57:15.600 --> 57:15.900]  All right?
+[57:15.900 --> 57:26.040]  So, a JFET is usually used for impedance matching.
+[57:27.600 --> 57:41.800]  If your signal source has very high input impedance, you are, you know, better off using a JFET to buffer, all right?
+[57:41.800 --> 57:45.700]  JFET is good at buffering.
+[57:45.700 --> 57:54.980]  It does not offer very high voltage gain, but it will provide you with buffering.
+[57:55.060 --> 57:55.600]  What's buffer?
+[57:56.400 --> 57:59.120]  Low voltage gain, but more current.
+[57:59.120 --> 58:14.320]  So, high input impedance to lower output impedance, which will better match the rest of circuits, which are likely to be implemented using BJP.
+[58:15.020 --> 58:15.540]  All right?
+[58:15.540 --> 58:32.260]  So, if you look at circuits and applications of devices, you know, gadgets, and so on and so forth, radio devices, you might find that a JFET is the first stage.
+[58:33.480 --> 58:33.880]  All right?
+[58:34.280 --> 58:40.700]  Followed by transistors with the rest of the amplification chain, for example.
+[58:40.700 --> 58:41.720]  All right?
+[58:42.160 --> 58:54.500]  So, the JFET is basically used so that it matches a high impedance signal and brings the impedance down to match better the rest of the amplifying circuit.
+[58:54.620 --> 58:58.800]  So, it may not be there to do much amplification at all.
+[58:59.200 --> 59:00.300]  Very, very low gain.
+[59:00.420 --> 59:01.420]  Very modest gain.
+[59:01.760 --> 59:02.360]  Gain of 2.
+[59:02.460 --> 59:03.160]  Gain of 5.
+[59:03.820 --> 59:04.200]  All right?
+[59:04.460 --> 59:06.480]  But it's there for impedance matching.
+[59:07.280 --> 59:07.540]  Okay?
+[59:07.980 --> 59:08.240]  All right.
+[59:08.240 --> 59:09.380]  So, I hope that's clear.
+[59:10.700 --> 59:27.280]  Let's see if we can find ourselves a particular application that, you know, this characteristic is necessary and to allow you to appreciate the JFET.
+[59:28.020 --> 59:28.340]  Okay?
+[59:29.300 --> 59:31.200]  So, here's one.
+[59:32.420 --> 59:35.540]  So, I don't know if you've heard of Paizo.
+[59:36.260 --> 59:37.160]  All right?
+[59:37.260 --> 59:37.680]  Material.
+[59:38.480 --> 59:39.940]  Paizo is crystalline.
+[59:39.940 --> 59:49.320]  And the characteristic of Paizo is that it generates electricity when subjected to mechanical stress.
+[59:49.700 --> 59:49.860]  All right?
+[59:50.480 --> 59:55.620]  So, and it can produce a very, very high amount of voltage.
+[59:55.620 --> 01:00:09.160]  So, examples of the application of Paizo materials include, you know, that thing.
+[01:00:09.240 --> 01:00:10.600]  If you have a gas stove.
+[01:00:11.360 --> 01:00:11.640]  All right?
+[01:00:11.680 --> 01:00:15.340]  If you have an LPG-powered stove at home.
+[01:00:15.340 --> 01:00:19.480]  Or even if you don't, if you've seen these LPG-powered stoves.
+[01:00:20.120 --> 01:00:20.480]  All right?
+[01:00:21.000 --> 01:00:23.680]  You have your gas.
+[01:00:24.260 --> 01:00:24.680]  All right?
+[01:00:24.720 --> 01:00:26.580]  You have a knob that you turn.
+[01:00:27.580 --> 01:00:35.140]  And then, as you turn it, you hear the gas coming out already, but it's not yet burning.
+[01:00:35.300 --> 01:00:36.380]  You just hear a hiss.
+[01:00:37.020 --> 01:00:37.360]  All right?
+[01:00:37.360 --> 01:00:37.860]  All right?
+[01:00:37.860 --> 01:00:43.900]  And as you turn the knob, you'll get to a point where you'll hear a snap, a click.
+[01:00:44.480 --> 01:00:44.600]  Okay?
+[01:00:45.040 --> 01:00:46.400]  Pag-ikot mo niyan, pak!
+[01:00:46.740 --> 01:00:47.260]  Gaganon.
+[01:00:47.480 --> 01:00:47.800]  Tok!
+[01:00:48.440 --> 01:00:48.760]  All right?
+[01:00:48.960 --> 01:00:49.340]  Tok!
+[01:00:49.540 --> 01:00:50.480]  Tutunog ng ganon.
+[01:00:50.480 --> 01:00:56.320]  And that's a spring-loaded hammer, all right?
+[01:00:56.780 --> 01:00:59.660]  Hitting a Paizo crystal.
+[01:01:00.500 --> 01:01:13.880]  And that striking of that light hammer, all right, stresses the crystal enough so that it produces a high voltage that produces a spark.
+[01:01:13.880 --> 01:01:14.320]  Okay?
+[01:01:15.520 --> 01:01:22.620]  Now, you seldom see this because nobody is crazy enough to try to look inside at what's happening.
+[01:01:23.360 --> 01:01:23.600]  All right?
+[01:01:23.680 --> 01:01:24.840]  But that's what happens.
+[01:01:25.400 --> 01:01:39.460]  When you strike the Paizo with that spring-loaded hammer, it produces enough voltage such that a small spark between two points is generated.
+[01:01:39.460 --> 01:01:44.960]  And that's also where the gas happens to be, you know, it's near the gas exit point.
+[01:01:46.080 --> 01:01:46.320]  All right?
+[01:01:46.900 --> 01:01:54.240]  So that spark ignites the LPG and you get that nice blue flame to start cooking.
+[01:01:55.180 --> 01:01:55.440]  All right?
+[01:01:55.840 --> 01:02:02.000]  So Paizo produces a lot of voltage if you strike it hard.
+[01:02:02.660 --> 01:02:07.380]  And that's, of course, dependent on the size also of the crystal itself.
+[01:02:07.380 --> 01:02:13.020]  Now, you can also lay out the Paizo in this particular way.
+[01:02:13.980 --> 01:02:14.260]  All right?
+[01:02:14.600 --> 01:02:21.500]  And this is actually a transducer, meaning that it works both ways.
+[01:02:21.640 --> 01:02:28.700]  If you put in an electrical signal, okay, the Paizo material itself will bend.
+[01:02:28.700 --> 01:02:38.540]  And because it bends, it will produce pressure waves and you'll hear it as a chirp.
+[01:02:39.140 --> 01:02:39.600]  All right?
+[01:02:39.740 --> 01:02:40.660]  On this one.
+[01:02:41.180 --> 01:02:52.360]  So those little devices that do beep-beep or whatever, a lot of them have something like this inside.
+[01:02:52.360 --> 01:03:01.980]  In fact, if, you know, if you've had a Nintendo Game & Watch, for example, or if you've seen a Nintendo Game & Watch,
+[01:03:02.380 --> 01:03:05.000]  beep-beep-beep-beep-beep-beep-beep-beep-beep, all right?
+[01:03:05.000 --> 01:03:14.380]  The thing that's producing all of that sound is a Paizo device glued to the back of the Game & Watch.
+[01:03:14.380 --> 01:03:15.220]  Okay?
+[01:03:16.720 --> 01:03:26.160]  Multimeters, where you do this conductance testing, some of them use Paizo.
+[01:03:26.960 --> 01:03:27.360]  All right?
+[01:03:27.560 --> 01:03:31.100]  Some of them use Paizo as their beeper.
+[01:03:31.900 --> 01:03:32.140]  Okay?
+[01:03:32.620 --> 01:03:36.440]  Now, the interesting thing about this, you can actually buy these things, they're very cheap,
+[01:03:36.440 --> 01:03:44.860]  is that they are true transducers, meaning that you can, if you put in an electrical signal, they'll produce a sound.
+[01:03:45.400 --> 01:03:55.680]  And if you put pressure waves on them or if you strike them, they will also actually produce an electrical signal.
+[01:03:56.660 --> 01:03:57.240]  Okay?
+[01:03:57.340 --> 01:03:58.320]  So two-way shot.
+[01:03:59.220 --> 01:03:59.580]  All right?
+[01:03:59.580 --> 01:04:02.180]  So having said that, wow, look at that price.
+[01:04:02.620 --> 01:04:02.760]  Okay?
+[01:04:02.760 --> 01:04:12.980]  So you can use this, which is called the Paizo buzzer, as a microphone.
+[01:04:14.220 --> 01:04:15.940]  Yes, it's a shitty microphone.
+[01:04:16.140 --> 01:04:17.040]  It's very stiff.
+[01:04:17.680 --> 01:04:19.080]  So it sounds terrible.
+[01:04:20.040 --> 01:04:20.200]  Okay?
+[01:04:20.640 --> 01:04:32.140]  But if you were to glue a cone to it and speak loudly, you'd actually be able to pick out an electrical signal coming out of this Paizo material.
+[01:04:32.760 --> 01:04:33.440]  Okay?
+[01:04:33.760 --> 01:04:34.120]  All right?
+[01:04:34.380 --> 01:04:37.500]  So it can be used as a microphone.
+[01:04:38.840 --> 01:04:45.960]  The thing about it is the output has a very high impedance.
+[01:04:45.960 --> 01:04:54.480]  So the voltage output is fairly big, but the impedance is also very, very, very high.
+[01:04:55.260 --> 01:05:00.180]  So if you want to take this signal and you want to amplify it to something that's usable,
+[01:05:01.180 --> 01:05:04.360]  why would you want to make a karaoke microphone?
+[01:05:04.580 --> 01:05:05.500]  But yes, you could.
+[01:05:06.280 --> 01:05:06.680]  All right?
+[01:05:06.680 --> 01:05:07.680]  Okay.
+[01:05:07.680 --> 01:05:17.080]  So this high impedance characteristic as an output is best amplified by a JFET.
+[01:05:17.960 --> 01:05:18.240]  Okay?
+[01:05:18.460 --> 01:05:23.100]  So this is a good JFET application.
+[01:05:23.100 --> 01:05:30.740]  So I think let's see if I've written any further characteristic here.
+[01:05:30.900 --> 01:05:31.540]  Yeah, that's it.
+[01:05:32.260 --> 01:05:40.100]  At very high impedance, the typical Paizo transducers impedance is about one mega ohm.
+[01:05:40.880 --> 01:05:41.180]  All right?
+[01:05:41.660 --> 01:05:43.680]  Very, very, very high impedance.
+[01:05:43.680 --> 01:05:55.060]  And you can see, all right, that we can make an amplifier for this special high output impedance
+[01:05:55.060 --> 01:06:04.140]  by connecting it to a JFET self-biased circuit like so.
+[01:06:05.140 --> 01:06:05.400]  All right?
+[01:06:05.400 --> 01:06:07.580]  And, you know, it's very convenient.
+[01:06:08.520 --> 01:06:16.700]  This is acting more like an impedance, mature kind of circuit because the output signal of the Paizo
+[01:06:16.700 --> 01:06:18.180]  is already fairly big.
+[01:06:18.700 --> 01:06:21.560]  It's just that it's got a very, very high impedance.
+[01:06:21.740 --> 01:06:27.160]  So if you look at this, this thing is configured to have a very, very modest gain.
+[01:06:27.160 --> 01:06:34.380]  1.5K divided by 500 ohms is at most a three times voltage gain.
+[01:06:34.520 --> 01:06:36.600]  And it's going to be a lot less than that.
+[01:06:37.220 --> 01:06:37.560]  All right?
+[01:06:37.620 --> 01:06:44.160]  It will be a lot less than that in practice because of limited transconductance.
+[01:06:44.980 --> 01:06:50.900]  So maybe a gain of about two is more realistic for this circuit by itself.
+[01:06:51.200 --> 01:06:55.900]  And that's already enough because the input signal is actually quite large.
+[01:06:55.900 --> 01:06:58.060]  Malakas naman yung signal.
+[01:06:58.480 --> 01:06:59.960]  Mataas lang yung impedance.
+[01:07:00.460 --> 01:07:03.140]  So we can implement a self-biased circuit.
+[01:07:03.320 --> 01:07:08.300]  Notice that RG is 3.3 megs in this particular case.
+[01:07:08.880 --> 01:07:13.340]  And we just connect the signal straight in.
+[01:07:14.280 --> 01:07:17.160]  A Paizo acts very much like a capacitor.
+[01:07:17.820 --> 01:07:20.340]  It does not have resistance by itself.
+[01:07:20.940 --> 01:07:21.200]  All right?
+[01:07:21.740 --> 01:07:25.160]  So you notice that there's no need for an input capacitor at all.
+[01:07:25.160 --> 01:07:26.600]  You just connect it directly.
+[01:07:27.480 --> 01:07:37.480]  Power source followed by a coupling capacitor because this will be lifted, you know, hopefully somewhere around near 4.5.
+[01:07:38.000 --> 01:07:38.320]  Okay?
+[01:07:38.320 --> 01:07:52.080]  And the output there will now be the buffered and slightly amplified signal coming out from the excitation of the Paizo as a microphone.
+[01:07:52.640 --> 01:07:52.860]  Okay?
+[01:07:52.860 --> 01:07:54.380]  So there you go with that.
+[01:07:55.020 --> 01:07:56.500]  Fairly simple circuit.
+[01:07:57.040 --> 01:07:57.220]  Okay?
+[01:07:57.840 --> 01:08:02.600]  These two here, the 10 microfarads is a smoothing capacitor.
+[01:08:02.840 --> 01:08:09.120]  That's so that there's no electrical noise or you reduce the amount of possible electrical noise from the 9 volts force.
+[01:08:09.120 --> 01:08:24.440]  And this 220K resistor is just so that the natural voltage without any signal will settle to zero so that the output of this circuit will be a signal that basically is centered on zero.
+[01:08:24.800 --> 01:08:25.280]  That's it.
+[01:08:25.280 --> 01:08:25.320]  Okay?
+[01:08:25.640 --> 01:08:27.840]  That's all the...
+[01:08:27.840 --> 01:08:37.120]  It's a very, very simple amplifier and it does its job very nicely because of the well-matched characteristics to the transducer.
+[01:08:37.500 --> 01:08:37.760]  Okay?
+[01:08:38.260 --> 01:08:38.640]  All right.
+[01:08:39.800 --> 01:08:41.340]  Questions about this.
+[01:08:41.640 --> 01:08:45.120]  So this is your sample JFET application.
+[01:08:45.280 --> 01:08:46.660]  Let me just do a time check.
+[01:08:48.020 --> 01:08:49.100]  Oh, it's 8.41.
+[01:08:49.380 --> 01:08:50.460]  Alangangin yung oras.
+[01:08:50.460 --> 01:08:54.620]  So are there any questions about this?
+[01:08:57.780 --> 01:08:58.420]  Questions?
+[01:08:58.900 --> 01:08:59.700]  Are we okay?
+[01:09:01.040 --> 01:09:01.420]  All right.
+[01:09:03.420 --> 01:09:04.320]  No questions?
+[01:09:05.060 --> 01:09:05.340]  Okay.
+[01:09:05.440 --> 01:09:07.200]  So let's go forward.
+[01:09:07.880 --> 01:09:10.260]  This is not the only example that we have.
+[01:09:10.420 --> 01:09:12.320]  So let's look at this.
+[01:09:13.520 --> 01:09:13.940]  Okay.
+[01:09:14.540 --> 01:09:18.500]  You can use the JFET as some kind of a switch.
+[01:09:19.080 --> 01:09:19.540]  All right.
+[01:09:20.460 --> 01:09:30.060]  And when it's used as a switch, for example, we can put it in this particular configuration.
+[01:09:32.120 --> 01:09:36.400]  It's very awkward to use like this, but hey, this is an example.
+[01:09:37.300 --> 01:09:41.400]  You can use the JFET to shunt a signal to ground.
+[01:09:41.400 --> 01:09:43.360]  What does shunt mean?
+[01:09:43.360 --> 01:09:45.520]  To short a signal.
+[01:09:46.200 --> 01:09:46.440]  All right.
+[01:09:48.280 --> 01:09:50.720]  Short a signal to ground.
+[01:09:50.860 --> 01:09:52.240]  So here's the signal.
+[01:09:52.720 --> 01:09:53.960]  You have a series.
+[01:09:55.180 --> 01:09:57.840]  You have an R sub D over here.
+[01:09:58.280 --> 01:09:58.720]  All right.
+[01:09:59.160 --> 01:10:02.540]  And you have it connected to the drain.
+[01:10:03.040 --> 01:10:05.420]  And this is the output signal.
+[01:10:05.420 --> 01:10:06.260]  Okay.
+[01:10:08.260 --> 01:10:14.040]  You'll notice that, interestingly, this JFET is not connected to a supply voltage.
+[01:10:14.860 --> 01:10:21.440]  The signal is directly put in as the source to the drain resistor.
+[01:10:22.580 --> 01:10:22.820]  Okay.
+[01:10:22.820 --> 01:10:28.360]  Normally, itong drain resistor natin connected to sa supply voltage.
+[01:10:28.540 --> 01:10:28.620]  Diba?
+[01:10:29.060 --> 01:10:29.480]  No.
+[01:10:29.620 --> 01:10:34.460]  In this particular case, well, it's connected to the voltage going in.
+[01:10:35.460 --> 01:10:35.920]  V in.
+[01:10:36.520 --> 01:10:36.900]  All right.
+[01:10:36.900 --> 01:10:39.800]  And V out is taken right from it.
+[01:10:39.960 --> 01:10:41.320]  Now, here's the thing.
+[01:10:42.320 --> 01:10:56.220]  If the VGS, all right, if VGS is equal to zero, it means that the JFET is in its most conductive state.
+[01:10:56.620 --> 01:10:58.860]  Again, it's a depletion mode device.
+[01:10:58.860 --> 01:11:05.060]  So with VGS is equal to zero, the JFET is as on as it can be.
+[01:11:05.680 --> 01:11:10.740]  It will have a lowest possible drain-to-source resistance.
+[01:11:11.680 --> 01:11:11.940]  Okay.
+[01:11:12.320 --> 01:11:20.560]  Now, you'll notice that RD here and the drain-to-source resistance basically form a voltage divider.
+[01:11:20.560 --> 01:11:41.480]  Now, if RDS is low, all right, has a low resistance, and RD is something that is fairly high, say, for example, 10 kilo-ohms or something like that, or even higher, 47 kilo-ohms,
+[01:11:41.480 --> 01:11:49.940]  then a low RDS with a signal going in here means that the signal coming out is going to be very, very tiny.
+[01:11:50.780 --> 01:11:51.980]  And that's the whole idea.
+[01:11:51.980 --> 01:12:01.560]  It is a shunt or shunting the signal to ground so that the signal is muted.
+[01:12:02.120 --> 01:12:03.900]  Nakamute yung signal.
+[01:12:04.520 --> 01:12:05.940]  You've heard of mute, right?
+[01:12:06.040 --> 01:12:10.440]  You have that button on your remote control to tell the TV to shut up.
+[01:12:10.440 --> 01:12:11.440]  Okay.
+[01:12:11.700 --> 01:12:14.360]  So how are they making it shut up?
+[01:12:14.460 --> 01:12:16.920]  Well, this might be one of the ways of doing it.
+[01:12:17.360 --> 01:12:25.880]  That's the mute mode right now with VGS equal to zero, which means that there's no connection there.
+[01:12:26.040 --> 01:12:30.680]  You're just putting this this way so that VGS is equal to zero.
+[01:12:30.680 --> 01:12:49.720]  Now, when you unmute, okay, when you want to unmute, well, you provide VGS with a negative voltage equal to BP, equal to the pinch-off voltage, so that the transistor now acts as an open circuit.
+[01:12:49.720 --> 01:12:58.960]  With the JFET, with VGS equal to negative VP, basically RDS will be equal to infinity.
+[01:12:59.200 --> 01:13:00.980]  It becomes an open circuit.
+[01:13:01.540 --> 01:13:06.420]  And so given that it's an open circuit, it's like the resistor is no longer there.
+[01:13:06.420 --> 01:13:09.880]  And now your signal will just simply get through.
+[01:13:10.060 --> 01:13:16.040]  Even if it's a 47K, lulusot lang siya dahil wala naman nakalagay diyan.
+[01:13:16.560 --> 01:13:16.740]  Okay?
+[01:13:16.880 --> 01:13:18.400]  So it will just get through.
+[01:13:19.040 --> 01:13:20.740]  And that would be your unmute.
+[01:13:21.400 --> 01:13:21.960]  Alright?
+[01:13:22.340 --> 01:13:23.440]  Unmute mode.
+[01:13:24.460 --> 01:13:25.020]  Alright?
+[01:13:25.560 --> 01:13:26.720]  So there you go.
+[01:13:28.200 --> 01:13:29.500]  There you go with that.
+[01:13:30.280 --> 01:13:32.720]  So interesting circuit.
+[01:13:32.720 --> 01:13:33.440]  I don't know.
+[01:13:33.440 --> 01:13:33.880]  Alright?
+[01:13:34.440 --> 01:13:40.680]  It's a very simple signal through or signal not go through.
+[01:13:41.460 --> 01:13:41.740]  Okay?
+[01:13:44.760 --> 01:13:50.440]  Another possible application for it would be something like this.
+[01:13:50.760 --> 01:13:51.000]  Alright?
+[01:13:51.140 --> 01:13:53.980]  You can put your JFETs like so.
+[01:13:54.580 --> 01:13:59.180]  And dependent if they are on or off.
+[01:13:59.920 --> 01:14:00.240]  Alright?
+[01:14:00.240 --> 01:14:04.720]  The fact that their outputs are connected together.
+[01:14:05.360 --> 01:14:05.700]  Alright?
+[01:14:06.020 --> 01:14:07.180]  Into a Vout.
+[01:14:07.840 --> 01:14:17.540]  Basically means that you now have the ability to choose which input signal you want to have at the output.
+[01:14:17.700 --> 01:14:21.380]  So this analog multiplexer is a selector.
+[01:14:22.120 --> 01:14:23.000]  Signal.
+[01:14:24.580 --> 01:14:25.380]  Selector.
+[01:14:26.060 --> 01:14:26.380]  Okay?
+[01:14:26.540 --> 01:14:27.540]  Signal selector.
+[01:14:28.340 --> 01:14:28.840]  Alright?
+[01:14:28.840 --> 01:14:35.680]  So with this particular combination, you're choosing signal number one, which will be a sine wave.
+[01:14:36.380 --> 01:14:45.080]  And if you change the combination to this being off and this one being on, then the signal that gets through is a square wave.
+[01:14:45.800 --> 01:14:45.940]  Alright?
+[01:14:45.940 --> 01:14:56.760]  And of course, if you have this off and this one is now on, then your signal at the output becomes a triangle coming from the center connection.
+[01:14:57.420 --> 01:15:00.320]  So signal multiplexer.
+[01:15:00.920 --> 01:15:01.080]  Alright?
+[01:15:01.080 --> 01:15:01.140]  Alright?
+[01:15:01.140 --> 01:15:01.180]  Alright?
+[01:15:01.640 --> 01:15:06.020]  So dependent on which one gives a VGS is equal to zero.
+[01:15:06.240 --> 01:15:09.560]  That's a little bit hard to implement, but you get the idea.
+[01:15:10.280 --> 01:15:10.460]  Alright?
+[01:15:10.840 --> 01:15:14.960]  Whereas the others are set all the way down to negative V sub P.
+[01:15:15.300 --> 01:15:18.620]  That's the JFET that will be conducting.
+[01:15:19.040 --> 01:15:19.220]  Alright?
+[01:15:19.220 --> 01:15:19.340]  Alright?
+[01:15:19.780 --> 01:15:20.000]  Okay.
+[01:15:20.120 --> 01:15:20.800]  So there you go.
+[01:15:21.360 --> 01:15:22.760]  Analog multiplexer.
+[01:15:24.560 --> 01:15:24.820]  Okay?
+[01:15:26.820 --> 01:15:35.660]  And you can have an analog signal demultiplexer by having a mirror image of this circuit.
+[01:15:36.060 --> 01:15:36.300]  Okay?
+[01:15:36.300 --> 01:15:47.980]  Having a mirror image of this circuit so that you can have one input going into three separate possible outputs.
+[01:15:48.320 --> 01:15:55.080]  So it will basically be able to, alright, select.
+[01:15:55.080 --> 01:15:56.280]  Alright?
+[01:15:57.160 --> 01:16:09.120]  Based on the signal going in, it will be able to select, alright, which way that signal going in will go out into one of three possible signals.
+[01:16:09.220 --> 01:16:09.380]  Alright?
+[01:16:09.500 --> 01:16:12.160]  That's what the demultiplexer does.
+[01:16:12.900 --> 01:16:13.200]  Alright?
+[01:16:14.940 --> 01:16:15.540]  Questions.
+[01:16:16.600 --> 01:16:16.800]  Okay?
+[01:16:16.880 --> 01:16:18.320]  So JFET has a switch.
+[01:16:19.940 --> 01:16:20.140]  You know?
+[01:16:20.460 --> 01:16:21.120]  May talang ba?
+[01:16:21.300 --> 01:16:22.120]  Nagets ba rin niyo?
+[01:16:23.320 --> 01:16:23.540]  Okay?
+[01:16:23.540 --> 01:16:27.520]  Now, these are not complete implementations.
+[01:16:27.680 --> 01:16:30.060]  You'll notice that, well, there are no values.
+[01:16:30.240 --> 01:16:33.040]  And how do I get V1, V2, and V3?
+[01:16:33.240 --> 01:16:43.800]  Well, again, that's left for you to figure out as an engineer what we are just showing are concepts here.
+[01:16:44.180 --> 01:16:46.760]  Oh, I can use the JFET to do this.
+[01:16:47.180 --> 01:16:48.480]  So not complete.
+[01:16:48.880 --> 01:16:50.200]  Just ideas.
+[01:16:50.580 --> 01:16:50.740]  Alright?
+[01:16:50.740 --> 01:16:51.820]  Just ideas.
+[01:16:53.540 --> 01:17:03.420]  Of circuits which certainly have been implemented and are used in the real world.
+[01:17:04.540 --> 01:17:04.780]  Okay?
+[01:17:05.240 --> 01:17:06.500]  So there you go with that.
+[01:17:07.160 --> 01:17:08.160]  Clear drawings.
+[01:17:08.920 --> 01:17:09.300]  Questions.
+[01:17:09.920 --> 01:17:10.520]  Are we good?
+[01:17:10.880 --> 01:17:11.880]  Thumbs up, please.
+[01:17:11.880 --> 01:17:16.540]  Okay?
+[01:17:17.080 --> 01:17:17.340]  Alright.
+[01:17:18.700 --> 01:17:19.180]  Sige.
+[01:17:20.560 --> 01:17:21.360]  Ano ang next?
+[01:17:22.560 --> 01:17:22.820]  Okay.
+[01:17:24.460 --> 01:17:26.680]  Two-terminal constant current sink source.
+[01:17:27.340 --> 01:17:27.560]  Okay.
+[01:17:27.560 --> 01:17:36.580]  So we take advantage of the fact that IBSS is constant.
+[01:17:37.380 --> 01:17:37.900]  Alright?
+[01:17:37.900 --> 01:17:39.220]  At a certain...
+[01:17:39.220 --> 01:17:47.240]  When you have the JFET saturated.
+[01:17:47.240 --> 01:17:48.040]  Okay?
+[01:17:48.040 --> 01:17:52.440]  So remember that basically the curve looks something like this.
+[01:17:52.440 --> 01:17:58.520]  You get into saturation where this is your IBSS value.
+[01:17:59.240 --> 01:17:59.480]  Okay?
+[01:17:59.480 --> 01:18:07.720]  Now this particular IBSS is really dependent on the JFET characteristic itself.
+[01:18:08.040 --> 01:18:08.240]  Alright?
+[01:18:08.240 --> 01:18:13.880]  So different JFETs have different IBSS values.
+[01:18:14.680 --> 01:18:14.780]  Alright?
+[01:18:14.780 --> 01:18:15.780]  Now...
+[01:18:15.780 --> 01:18:16.780]  Now...
+[01:18:16.780 --> 01:18:22.660]  You can choose or try to work with...
+[01:18:22.660 --> 01:18:23.020]  Alright?
+[01:18:24.660 --> 01:18:26.780]  A particular JFET.
+[01:18:27.380 --> 01:18:27.720]  Okay?
+[01:18:27.780 --> 01:18:37.620]  And if you connect the gate to the source, then what happens is that you're ensuring that VGS will always be equal to zero.
+[01:18:37.620 --> 01:18:38.120]  Okay?
+[01:18:38.480 --> 01:18:38.900]  Okay?
+[01:18:39.380 --> 01:18:50.620]  And so if you connect it this way, alright, what will happen is that the transistor will operate like so as long as there is enough voltage VVD.
+[01:18:50.620 --> 01:18:51.620]  Alright?
+[01:18:52.340 --> 01:18:57.220]  Such that the current that is going to get provided to the load.
+[01:18:57.400 --> 01:18:58.040]  Alright?
+[01:18:58.040 --> 01:19:06.920]  The current that gets provided to the load is going to be equal to IBSS.
+[01:19:07.240 --> 01:19:07.400]  Alright?
+[01:19:07.620 --> 01:19:08.620]  It will be IBSS.
+[01:19:08.620 --> 01:19:09.240]  It will be IBSS.
+[01:19:09.240 --> 01:19:25.620]  In other words, your load will receive a constant amount of current regardless of VVD.
+[01:19:26.620 --> 01:19:27.340]  Alright?
+[01:19:27.460 --> 01:19:29.620]  You can change the value of VVD.
+[01:19:30.620 --> 01:19:31.120]  Alright?
+[01:19:31.120 --> 01:19:35.120]  Or load resistance.
+[01:19:37.120 --> 01:19:38.000]  Okay?
+[01:19:38.580 --> 01:19:48.320]  You can change either one or both of them and the JFET will work so that the current stays constant.
+[01:19:48.740 --> 01:19:50.540]  Within limits.
+[01:19:50.820 --> 01:19:51.060]  Okay?
+[01:19:51.320 --> 01:19:52.580]  Within limits.
+[01:19:52.780 --> 01:19:52.940]  Okay?
+[01:19:53.020 --> 01:19:54.240]  Huwag tayong engot.
+[01:19:54.240 --> 01:19:54.740]  Okay?
+[01:19:54.740 --> 01:19:54.780]  Okay?
+[01:19:54.780 --> 01:20:01.400]  Hindi pwedeng mangyari na 1V lang yung binigay mo tapos yung load mo ay 100 kOhms.
+[01:20:01.860 --> 01:20:06.880]  Hindi siyempre aabot sa IBSS dahil napakaliit ng current na yun.
+[01:20:07.200 --> 01:20:07.440]  Alright?
+[01:20:07.860 --> 01:20:15.520]  You will be operating the transistor somewhere down there which is not yet reaching its limit.
+[01:20:15.940 --> 01:20:16.200]  Okay?
+[01:20:16.440 --> 01:20:17.240]  IBSS.
+[01:20:17.240 --> 01:20:25.240]  So, for combinations that will be equal to IBSS or greater than IBSS.
+[01:20:25.700 --> 01:20:25.960]  Alright?
+[01:20:26.660 --> 01:20:31.000]  The resulting current will be IBSS only.
+[01:20:31.240 --> 01:20:33.020]  It will not go above that.
+[01:20:33.660 --> 01:20:34.380]  Okie dokes.
+[01:20:34.700 --> 01:20:34.880]  Alright?
+[01:20:34.880 --> 01:20:37.720]  So, there you go.
+[01:20:39.200 --> 01:20:43.040]  That's your two-terminal constant current source.
+[01:20:43.180 --> 01:20:44.480]  Paano siya naging two terminals?
+[01:20:44.740 --> 01:21:00.360]  Well, to the outside of the circuit because you've connected gate to source, you basically have only two connections available on that really simple circuit.
+[01:21:00.360 --> 01:21:05.040]  Just the connection to the supply voltage and the connection to the load.
+[01:21:05.860 --> 01:21:05.960]  Okay?
+[01:21:06.540 --> 01:21:08.060]  So, infactamento.
+[01:21:09.100 --> 01:21:09.780]  Alright?
+[01:21:12.120 --> 01:21:12.800]  Infactamento.
+[01:21:13.340 --> 01:21:16.720]  This is what you call as the low side load.
+[01:21:17.080 --> 01:21:17.380]  Okay?
+[01:21:17.480 --> 01:21:18.100]  Low side.
+[01:21:19.440 --> 01:21:20.080]  Load.
+[01:21:20.860 --> 01:21:24.180]  And low side because your load is connected to ground.
+[01:21:24.180 --> 01:21:30.160]  But it can also be connected as a high side load, which you will do.
+[01:21:30.700 --> 01:21:31.140]  I'm sorry.
+[01:21:31.560 --> 01:21:33.360]  Which you can implement.
+[01:21:34.040 --> 01:21:36.700]  I don't know if I have the droid, but maybe I do.
+[01:21:37.080 --> 01:21:39.640]  You can put your load on top.
+[01:21:40.060 --> 01:21:40.320]  Alright?
+[01:21:40.920 --> 01:21:43.280]  To your VDD, like so.
+[01:21:43.740 --> 01:21:50.040]  And your source is connected derecho to ground as well as your gate is connected to ground.
+[01:21:50.040 --> 01:21:54.740]  So, this is what it would look like if you want to have a high side load.
+[01:21:55.280 --> 01:21:55.500]  Okay?
+[01:21:55.520 --> 01:21:57.600]  A high side load meaning that it's on the top.
+[01:21:58.400 --> 01:21:58.540]  Alright?
+[01:21:59.080 --> 01:21:59.360]  Okay.
+[01:21:59.540 --> 01:22:00.600]  So, same thing.
+[01:22:00.800 --> 01:22:08.880]  You get exactly the same effect where it will be a constant current equal to IDSS.
+[01:22:09.440 --> 01:22:09.700]  Okay?
+[01:22:10.260 --> 01:22:10.480]  Alright.
+[01:22:10.480 --> 01:22:22.040]  So, this is, it is possible to buy a two-terminal constant current source or sink.
+[01:22:22.320 --> 01:22:22.620]  Alright?
+[01:22:23.520 --> 01:22:25.000]  As a device.
+[01:22:25.000 --> 01:22:30.380]  So, you will notice that such devices only have two legs.
+[01:22:31.100 --> 01:22:31.340]  Okay?
+[01:22:31.540 --> 01:22:37.600]  They only have two legs and they're labeled as a constant current sink or source.
+[01:22:37.600 --> 01:22:47.260]  where the spec of the device is in terms of what the current, the constant current is supposed to be I sub K.
+[01:22:47.560 --> 01:22:48.500]  May rating siya.
+[01:22:48.640 --> 01:22:49.700]  Yun ang binibili mo.
+[01:22:49.900 --> 01:22:53.380]  Or yun yung sinasabi mo dun sa nagbebenta.
+[01:22:53.940 --> 01:23:01.380]  Kailangan ko ng constant current, two-terminal constant current, where the current value is equal to what?
+[01:23:01.880 --> 01:23:04.220]  You know, 1 milliampere, 2 milliampere.
+[01:23:04.720 --> 01:23:04.980]  Okay?
+[01:23:04.980 --> 01:23:07.360]  So, may number yan.
+[01:23:07.800 --> 01:23:07.940]  Alright?
+[01:23:08.120 --> 01:23:09.720]  There's an identifying number.
+[01:23:10.400 --> 01:23:12.780]  And it's just like Zener diodes.
+[01:23:13.120 --> 01:23:13.340]  Alright?
+[01:23:13.840 --> 01:23:17.100]  Where not all current values are available.
+[01:23:17.620 --> 01:23:27.340]  Just the same way that not all Z, you don't have a particularly complete set of voltage values for Zener's.
+[01:23:27.340 --> 01:23:27.900]  Okay?
+[01:23:27.900 --> 01:23:34.360]  So, a few selected currents only in the neighborhood of about 1 milliampere.
+[01:23:34.480 --> 01:23:36.200]  It's only a small amount of current.
+[01:23:36.420 --> 01:23:36.560]  Okay?
+[01:23:36.680 --> 01:23:42.820]  So, if you see a device like this or if you, you know, if you try to purchase one and use one,
+[01:23:43.380 --> 01:23:50.180]  and you wonder what is in here that's doing it, well, actually, it's just a JFET.
+[01:23:50.180 --> 01:23:58.820]  So, technically, you can take an ordinary JFET and connect it in this way.
+[01:23:59.620 --> 01:23:59.800]  Right?
+[01:23:59.920 --> 01:24:01.160]  Connect it in this way.
+[01:24:01.580 --> 01:24:09.060]  And what you will get is the equivalent that, you know, of a two-legged constant current device.
+[01:24:09.520 --> 01:24:09.660]  Okay?
+[01:24:09.660 --> 01:24:15.080]  So, itong constant current device na ito, na two legs, ay actually JFET sa loob.
+[01:24:15.700 --> 01:24:15.940]  Okay?
+[01:24:16.240 --> 01:24:19.240]  Na hindi lang linabas yung gate connection.
+[01:24:20.280 --> 01:24:20.500]  Alright?
+[01:24:20.920 --> 01:24:21.140]  Okay.
+[01:24:21.280 --> 01:24:21.920]  So, there you go.
+[01:24:22.320 --> 01:24:23.280]  So, that's that.
+[01:24:25.760 --> 01:24:31.060]  So, these are simple applications of JFETs.
+[01:24:31.400 --> 01:24:34.520]  The ones that we've gone through, constant current.
+[01:24:34.960 --> 01:24:35.260]  Okay?
+[01:24:35.260 --> 01:24:41.040]  JFET as a switch, aka, in this case, as a multiplexer.
+[01:24:41.360 --> 01:24:45.780]  This one is for muting a signal, a single signal.
+[01:24:46.280 --> 01:24:46.580]  Alright?
+[01:24:47.160 --> 01:24:55.320]  And as an impedance matching device with a small amount of amplification if you wanted to.
+[01:24:55.320 --> 01:25:03.320]  So, these are three or four, dependent on how you count it, different applications of JFET.
+[01:25:03.320 --> 01:25:07.980]  Diaries are by no means exhaustive.
+[01:25:08.580 --> 01:25:15.800]  Again, these are just ideas where JFETs are particularly suitable.
+[01:25:16.460 --> 01:25:25.300]  Now, there is a last application that I wanted to show you because those three or four that we've looked at are simple.
+[01:25:25.300 --> 01:25:33.380]  But let's look at a fairly complex application example.
+[01:25:34.140 --> 01:25:36.600]  Unfortunately, we are out of time.
+[01:25:36.760 --> 01:25:43.080]  It will take, you know, 20 minutes or more to discuss this particular application.
+[01:25:43.720 --> 01:25:44.900]  So, I'll stop here.
+[01:25:44.900 --> 01:25:48.180]  It's almost 9 a.m. anyway.
+[01:25:48.920 --> 01:25:51.900]  And we will continue with this slide.
+[01:25:52.520 --> 01:25:52.800]  Alright?
+[01:25:53.380 --> 01:25:56.720]  In the next meeting when we see each other on Thursday.
+[01:25:57.460 --> 01:25:57.680]  Alright.
+[01:25:58.140 --> 01:25:59.060]  Are there questions?
+[01:25:59.840 --> 01:26:00.240]  Tanong?
+[01:26:03.420 --> 01:26:04.640]  Are there questions?
+[01:26:05.180 --> 01:26:10.580]  If there are no questions as usual, kindly give a thumbs up.
+[01:26:10.580 --> 01:26:13.920]  Alright?
+[01:26:13.920 --> 01:26:14.040]  Alright?
+[01:26:14.820 --> 01:26:15.100]  Okay.
+[01:26:15.520 --> 01:26:18.280]  So, because there are no questions, stop share here.
+[01:26:18.440 --> 01:26:20.020]  Thank you very much for joining us.
+[01:26:20.140 --> 01:26:21.920]  I'll see you again next time.
+[01:26:22.480 --> 01:26:22.820]  Goodbye.

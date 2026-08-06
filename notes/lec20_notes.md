@@ -14,7 +14,7 @@
   * Upcoming exam scheduled for **Saturday at 7:30 AM**.
   * Professor emphasized punctual attendance: *"Don't be late or I might be late, but just remember... knock early."*
   * Detailed format and specific coverage rules were announced directly in class.
-  * Recommended materials for solving: Yellow pad paper, calculators, standard writing tools.
+  * Recommended materials for solving: White version of yellow pad paper, calculators, standard writing tools.
 
 ### 1.2 Feedback on Student Quiz Performance
 * **Grading Assessment Observations:**

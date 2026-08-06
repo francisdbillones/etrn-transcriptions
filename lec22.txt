@@ -1,0 +1,777 @@
+[00:00.000 --> 00:29.980]  Thank you.
+[00:30.000 --> 00:31.260]  C, Tron2.
+[00:31.760 --> 00:32.020]  Okay.
+[00:33.040 --> 00:38.980]  Now, let me just get the presentation up and running here.
+[00:41.660 --> 00:44.440]  Show, start the slideshow here.
+[00:44.440 --> 00:49.140]  And, of course, I need to capture everything.
+[00:49.980 --> 00:51.440]  Let's share this.
+[00:56.880 --> 00:57.680]  Share.
+[01:00.000 --> 01:00.720]  Righto.
+[01:01.640 --> 01:03.380]  Hopefully you can see this.
+[01:03.640 --> 01:03.920]  All right.
+[01:04.000 --> 01:06.200]  So applications of bipolar transistors.
+[01:06.200 --> 01:10.360]  We already looked at one last time,
+[01:10.480 --> 01:16.240]  which was our phase splitter plus differential amplifier.
+[01:18.160 --> 01:21.420]  Now we go on to the digital world.
+[01:21.860 --> 01:22.020]  Okay.
+[01:22.640 --> 01:25.160]  So as we go through the lesson today,
+[01:25.220 --> 01:27.240]  of course, if you have any questions,
+[01:27.980 --> 01:29.240]  feel free to interrupt.
+[01:30.000 --> 01:31.960]  OK, let's try to go through this quickly.
+[01:31.960 --> 01:33.120]  This is not a hard lesson.
+[01:37.560 --> 01:40.120]  And so let's go.
+[01:40.120 --> 01:44.500]  OK, digital logic 8.
+[01:44.500 --> 01:47.360]  So the concentration, really, of this lecture
+[01:47.360 --> 01:51.280]  is on PPL logic, all right?
+[01:51.280 --> 01:52.620]  PPL logic.
+[01:52.620 --> 01:57.240]  PPL stands for transistor-transistor logic.
+[01:57.240 --> 01:58.000]  OK?
+[01:58.000 --> 02:02.600]  So real world, when you went to the lab, for example,
+[02:02.600 --> 02:04.440]  okay, yeah, you guys,
+[02:04.440 --> 02:07.740]  if you played around with the digital logic circuits,
+[02:07.740 --> 02:12.740]  the 74LS00, 74LS04 that's available in the CT lab,
+[02:16.160 --> 02:18.960]  which you might have done during CCI Comp Lab.
+[02:20.460 --> 02:23.560]  These are essentially logic gates
+[02:23.560 --> 02:26.900]  that are actually built on transistor-transistor logic.
+[02:26.900 --> 02:29.860]  The LS stands for low power Scott Key.
+[02:30.040 --> 02:35.880]  So it's a special slight variation on the standard DPL stuff,
+[02:36.780 --> 02:42.060]  which provides it with outstanding characteristics
+[02:42.060 --> 02:48.700]  combining speed with low power consumption.
+[02:49.560 --> 02:55.900]  But we are not going to be looking into the specifics of it,
+[02:55.900 --> 03:06.640]  But we're going to be looking at the grandfather, if you like, of these logic gates, which is plain transistor-transistor logic.
+[03:07.120 --> 03:07.120] 
+[03:07.640 --> 03:07.980]  All right.
+[03:08.080 --> 03:16.260]  So we're going to have a look inside at what the transistor circuitry looks like to make a digital logic circuit function.
+[03:16.960 --> 03:17.380]  Okay?
+[03:17.680 --> 03:18.040]  All right.
+[03:18.200 --> 03:22.900]  So we're going to be looking at the simplest one first.
+[03:22.900 --> 03:34.280]  So you're familiar, of course, with the electronic symbol for a logic gate, in this case an inverter.
+[03:34.520 --> 03:39.320]  So it looks like this on the left side of the drawing.
+[03:40.180 --> 03:45.940]  So this is a standard way of putting up a logic symbol like an inverter.
+[03:45.940 --> 03:58.540]  And if you try to think about what could be inside an inverter logic gate, you might think that it's basically just a transistor configuration that might look like this.
+[03:59.000 --> 04:07.300]  A simple common emitter amplifier might do the job of providing you with an inverting logic.
+[04:07.300 --> 04:20.060]  After all, a standard common emitter amplifier, as we know it, when it's doing its work in its active region, will invert the face of the signal.
+[04:20.200 --> 04:31.160]  If I have a signal that is basically going in, which has a face that looks or a signal that looks like this, then the output is going to be an inverted version.
+[04:31.360 --> 04:33.440]  And indeed, that is an inverter.
+[04:34.560 --> 04:36.880]  And this is an analog signal.
+[04:36.880 --> 04:45.600]  it's sinusoidal. So if we change this into a digital logic signal going for example from zero
+[04:45.600 --> 04:54.480]  to about three volts, then we expect that the output will just be the inverted version of this,
+[04:54.480 --> 05:04.960]  which will look basically like this. Okay, going from zero to well close to if not exactly five
+[05:04.960 --> 05:13.840]  volts, assuming of course that that's not V out. This is V supply for heaven's sake. Who wrote this?
+[05:13.840 --> 05:27.920]  Okay, V supply equals five volts. So it's pretty straightforward and it should work.
+[05:27.920 --> 05:40.180]  It should work because we can say that this is a logic 1, this one is a logic 0, and of course the output here is going to be a logic 0, and this one is going to be a logic 1.
+[05:40.320 --> 05:42.200]  And so yes, it does invert.
+[05:43.600 --> 05:52.060]  So are digital logic circuits built with something this simple, a single transistor?
+[05:52.060 --> 05:58.260]  Well, if it is an inverter, then maybe it would be okay to build it this way.
+[05:58.740 --> 06:02.200]  However, let's look at the real-world requirements.
+[06:02.800 --> 06:07.420]  What does a real-world logic gate have to do, all right,
+[06:07.660 --> 06:12.780]  aside from providing the required logic function, okay,
+[06:13.000 --> 06:15.460]  aside from just the logic function?
+[06:15.460 --> 06:31.920]  Well, the characteristics of a good logic gate, an ideal characteristic, would be that it has a lot of tolerance for signal noise.
+[06:32.620 --> 06:38.780]  After all, this is the marked difference between the analog and the digital world.
+[06:38.780 --> 06:43.880]  In the digital world, we just want to know if it's logic high or logic low.
+[06:43.880 --> 06:57.400]  But this logic high and logic low, all right, this logic high and low need to actually be voltages.
+[06:57.400 --> 07:24.360]  Okay? So the important thing here is that in the real world, if you have a lot of digital logic circuits functioning at the same time, okay, then there's a very good chance for these signals to interfere with each other.
+[07:24.360 --> 07:32.240]  digital logic circuits are in fact extremely noisy if you have a sensitive
+[07:32.240 --> 07:42.020]  piece of equipment that's capable of actually picking up the electromagnetic interference
+[07:42.020 --> 07:51.000]  generated by these digital logic chips you will find that they are producing a hell of a lot of
+[07:51.000 --> 07:57.780]  electromagnetic interference, unlike analog, right? Analog kasi you have these signals that are
+[07:57.780 --> 08:06.200]  slowly rising and falling, which means that the tendency to emanate this as a strong noise signal
+[08:06.200 --> 08:15.360]  is much, much ameliorated. When you have digital logic, you have voltages that rise and fall very
+[08:15.360 --> 08:23.920]  quickly. And every time you do this, there is a good chance that the rising and falling produces
+[08:23.920 --> 08:33.600]  a spike in the current, and this produces a magnetic response. Any delta I produces a magnetic
+[08:33.600 --> 08:41.440]  field. And so you get current and magnetic field combining to produce a radiofrequency signal,
+[08:41.440 --> 08:44.660]  which is called an electromagnetic wave.
+[08:45.300 --> 08:46.480]  And that's exactly it.
+[08:46.720 --> 08:50.520]  These electromagnetic waves can travel through free space.
+[08:50.960 --> 08:54.260]  They travel as a radio frequency wave,
+[08:54.600 --> 08:56.640]  just like the signals on your cell phone,
+[08:56.740 --> 09:02.860]  just like the signals on Wi-Fi can travel without the requirement of a wire.
+[09:03.240 --> 09:07.980]  And so here's your digital logic circuit happily chugging along with ones and zeros,
+[09:07.980 --> 09:12.380]  and it's actually producing a lot of electromagnetic interference.
+[09:13.300 --> 09:13.440]  Okay?
+[09:14.020 --> 09:19.320]  Now, imagine that you have digital logic circuits that are close to each other
+[09:19.320 --> 09:24.700]  and so therefore their electromagnetic interference can easily affect each other.
+[09:25.700 --> 09:29.200]  And because of that, all right, and because of that,
+[09:29.200 --> 09:37.000]  we need to have digital logic inputs that are very tolerant of noise.
+[09:37.000 --> 09:47.960]  In other words, there has to be a large degree of noise immunity in the inputs of our digital logic circuits.
+[09:48.380 --> 09:49.300]  What does this mean?
+[09:49.800 --> 10:01.340]  Well, this means essentially that the voltages that are associated with the logic high and logic low must have a big tolerance.
+[10:01.340 --> 10:02.740]  Okay?
+[10:03.440 --> 10:10.320]  There's a larger range of allowable voltages to represent a logic high
+[10:10.320 --> 10:17.760]  and there's a similarly large tolerance range that is acceptable to the logic gate
+[10:17.760 --> 10:20.520]  that will represent a logic low.
+[10:20.840 --> 10:26.280]  Tatanggapin niya and it will interpret it as a proper logic level.
+[10:27.200 --> 10:27.440]  Okay?
+[10:27.440 --> 10:31.060]  So hindi pwedeng very tight yung tolerance.
+[10:31.340 --> 10:37.880]  We cannot have a logic gate say that, oh, I'll only accept 4 volts as the logic high.
+[10:38.380 --> 10:40.060]  Anything else, I won't.
+[10:40.440 --> 10:41.340]  Hindi pwedeng ganon.
+[10:41.800 --> 10:42.040]  Okay?
+[10:42.700 --> 10:45.860]  I will only accept 0 volts as the logic low.
+[10:45.860 --> 10:49.000]  Anything greater than 0 volts, I will not accept.
+[10:49.580 --> 10:59.940]  So you can't have that because there is zero chance that these voltages can be adhered to in a real-world environment.
+[11:00.700 --> 11:00.840]  Okay?
+[11:00.840 --> 11:11.440]  So in practice, essentially, what happens is that the logic gate must be designed to have a fairly large tolerance of voltage.
+[11:12.400 --> 11:17.640]  Here, for example, representing a logic low or logic zero.
+[11:18.300 --> 11:29.900]  And a large tolerance as well for logic one, where it will say that any voltage that falls within a certain range is considered logic one.
+[11:29.900 --> 11:36.720]  and any voltage that falls within this particular lower range here is considered a logic zero.
+[11:37.000 --> 11:38.780]  So that's a requirement.
+[11:39.460 --> 11:43.280]  Now, if you go back to just this single transistor over here,
+[11:43.580 --> 11:47.820]  you'll find that that may not be the way that it works.
+[11:48.740 --> 11:53.860]  You may find that if you put in a weirdish voltage on it,
+[11:53.920 --> 11:57.140]  it might not produce a valid logic output.
+[11:57.140 --> 11:58.020]  Okay?
+[11:58.440 --> 11:58.760]  All right.
+[11:58.760 --> 12:01.640]  So that's particularly important.
+[12:03.520 --> 12:13.160]  Same thing, the output of a digital logic gate must also adhere to these input standards.
+[12:13.360 --> 12:21.340]  After all, you're expecting to connect logic gate outputs to other logic gate inputs.
+[12:21.540 --> 12:28.440]  Say, for example, you're going to be connecting an inverter over to the input of an AND gate.
+[12:28.440 --> 12:39.720]  So that connection there means that the output of the inverter must be compatible with the input of the digital logic gate.
+[12:39.720 --> 12:59.320]  And secondarily, it must provide an output that is the best possible output to avoid falling outside of the allowable voltage range for logic high and logic low.
+[12:59.320 --> 13:12.840]  Okay, so here it says, all right, it says here that the output, all right, would want to stay away from undefined voltage levels on its output.
+[13:13.160 --> 13:14.900]  What is undefined?
+[13:15.240 --> 13:23.700]  Voltages that are not going to be interpretable as a logic 1 or logic 0.
+[13:23.700 --> 13:37.140]  So in this particular case, we can shade this over here and say that these voltages, the voltages that fall within this range are what we call as undefined.
+[13:38.780 --> 13:40.660]  Okay? Undefined.
+[13:40.820 --> 13:51.020]  So hindi dapat maglabas ng voltaje yung logic gate na aabutan o papasok dito sa undefined range.
+[13:51.020 --> 13:56.300]  Because if it does, then the logic gate downstream is going to say, duh, what is that?
+[13:57.220 --> 13:57.420]  Okay?
+[13:57.980 --> 13:58.320]  All right.
+[13:58.500 --> 14:01.300]  So hopefully you understand these two.
+[14:01.780 --> 14:02.040]  All right?
+[14:03.120 --> 14:04.300]  Are we okay?
+[14:04.780 --> 14:05.220]  Yes, no?
+[14:05.680 --> 14:06.020]  All right?
+[14:06.480 --> 14:13.300]  So the other characteristics include it should take as little input signal parent as possible.
+[14:13.520 --> 14:13.800]  Why?
+[14:13.800 --> 14:19.980]  Because we want to be able to connect our logic gate output to several other inputs,
+[14:20.140 --> 14:24.640]  possibly because we're creating a monster Boolean function.
+[14:25.760 --> 14:25.840]  Okay.
+[14:26.580 --> 14:36.160]  So we want our logic gate output, all right, to be able to drive several logic gate inputs
+[14:36.160 --> 14:40.720]  because it might be that in your particular application,
+[14:40.720 --> 14:49.280]  you need to connect the output of a logic gate to several inputs of other logic gates
+[14:49.280 --> 14:56.280]  to give you that particular Boolean expression that you're trying to implement.
+[14:57.240 --> 14:58.000]  Okay? Alright?
+[14:58.560 --> 15:02.100]  So, dapat kaya niyang mag-drive ng several.
+[15:02.100 --> 15:11.160]  So this means that the output has to have a substantial sync and source current.
+[15:11.920 --> 15:14.900]  Source means that it can supply a logic one.
+[15:15.480 --> 15:18.700]  And sync means that it can absorb a logic zero.
+[15:19.600 --> 15:19.880]  All right?
+[15:19.880 --> 15:24.680]  And whatever it is connected to, which are other digital logic gates,
+[15:25.080 --> 15:31.860]  should have inputs that don't demand so much sourcing nor syncing.
+[15:32.100 --> 15:33.060]  individually.
+[15:33.900 --> 15:34.160]  Alright?
+[15:34.860 --> 15:36.560]  So that you can have many
+[15:36.560 --> 15:38.340]  at kakayangin pa rin
+[15:38.340 --> 15:39.240]  ng output
+[15:39.240 --> 15:40.920]  yung mga input
+[15:40.920 --> 15:42.360]  ng mga nakakonect.
+[15:43.220 --> 15:43.500]  Okay?
+[15:44.360 --> 15:44.960]  Finally,
+[15:45.240 --> 15:46.300]  we want to have
+[15:46.300 --> 15:47.300]  a logic gate
+[15:47.300 --> 15:48.920]  that by itself
+[15:48.920 --> 15:50.240]  does not take in
+[15:50.240 --> 15:51.280]  a large amount
+[15:51.280 --> 15:52.500]  of power.
+[15:53.700 --> 15:53.980]  Okay?
+[15:54.180 --> 15:55.880]  VCC along with
+[15:55.880 --> 15:57.180]  how much current
+[15:57.180 --> 15:58.120]  it takes in.
+[15:58.460 --> 15:59.680]  Because these guys
+[15:59.680 --> 16:00.960]  need to be connected
+[16:00.960 --> 16:09.080]  to the power supply. Typically for digital logic that is TTL based, that supply voltage is 5 volts.
+[16:09.780 --> 16:18.300]  So when you take a digital logic chip, you connect it to its supply so that it will function,
+[16:19.020 --> 16:28.180]  it will require some amount of power to operate. And we want to design the logic circuits such
+[16:28.180 --> 16:35.840]  that the chip itself does not demand so much power because, again, you're going to have a lot
+[16:35.840 --> 16:42.640]  of these digital logic chips operating at the same time to provide you with the digital logic
+[16:42.640 --> 16:52.880]  function, Boolean function that you need. And so you could have 20, 50 logic gates or more,
+[16:52.880 --> 16:57.740]  and each individual one will demand power from the power supply.
+[16:58.120 --> 17:01.720]  We can't create digital logic circuits that are too power hungry.
+[17:02.500 --> 17:02.620]  Okay?
+[17:02.940 --> 17:07.680]  So the ideal case would be to have as little power demand as possible.
+[17:07.680 --> 17:15.100]  So all of these characteristics are combined, all right,
+[17:15.840 --> 17:19.740]  such that the design of the logic inside,
+[17:19.740 --> 17:31.840]  The circuitry composed of all of those transistors that are inside to produce the logic function must have all of these characteristics as well.
+[17:32.460 --> 17:42.020]  So those are the design goals for the digital logic circuit, a.k.a. the transistor circuitry inside.
+[17:42.020 --> 17:55.020]  Okay? So it's not that simple. A single transistor like the common emitter, for example, will not be able to have all of these characteristics checkboxed.
+[17:55.720 --> 18:03.020]  Okay? All right. So that's the bottom line. So let's move forward and let's look at how they are actually implemented.
+[18:03.020 --> 18:12.100]  implemented. Okay? And well, we'll look at it step by step. Okay? So for the single transistor
+[18:12.100 --> 18:20.640]  inverter, for the input voltage, for example, how many volts is needed to produce a logic low at its
+[18:20.640 --> 18:30.140]  output? Okay? This one is easy to answer because all you have to do is turn on the transistor here.
+[18:30.140 --> 18:37.040]  But remember, there are also requirements as to how much it will be able to drive.
+[18:37.180 --> 18:44.720]  So, hindi pwedeng minimum current lang or minimum voltage lang kasi mag-aabsorb pa ito ng voltae.
+[18:45.400 --> 18:48.040]  It will have the IB, alright?
+[18:48.680 --> 18:56.140]  And that IB must be able to serve the individual current through this resistor here, alright?
+[18:56.140 --> 19:05.740]  And this is going to be connected to other logic gates, which would mean that these other logic gates will also demand some current.
+[19:05.740 --> 19:20.780]  Therefore, you can easily surmise that there will be a much greater input voltage to just make this a reliable logic low or logic zero.
+[19:21.500 --> 19:21.780]  Okay?
+[19:23.020 --> 19:26.180]  What about getting it to do a logic high?
+[19:26.320 --> 19:30.840]  Well, obviously, I need to put this all the way down to pretty close to zero volts.
+[19:30.840 --> 19:47.580]  It would have to be ideally zero, but it will be able to tolerate maybe up to something like 0.4 volts all the way down to zero to keep this transistor turned off and therefore this one producing a logic high at its output.
+[19:47.580 --> 19:52.960]  So you can put this into LP Spice and you can try simulating it if you like.
+[19:53.440 --> 20:00.620]  But what you're going to find essentially is that it does not have a particularly good noise immunity.
+[20:01.460 --> 20:01.780]  All right.
+[20:02.200 --> 20:09.580]  And you're also going to find that it does not have a particularly good output drive capability.
+[20:09.580 --> 20:22.040]  It is just not possible to do this good required characteristic functions that we've stated here with a single transistor.
+[20:23.260 --> 20:23.440]  Okay?
+[20:23.820 --> 20:24.220]  All right.
+[20:24.400 --> 20:28.620]  So we can go ahead and try simulating this.
+[20:29.260 --> 20:34.120]  Kung pinilit natin, so what happens if we connect it to another logic gate?
+[20:34.720 --> 20:35.120]  Okay?
+[20:35.120 --> 20:45.560]  And you're going to find that as you propagate it, on and on, it's going to get worse and worse.
+[20:46.000 --> 20:48.340]  So it's not going to work properly.
+[20:49.420 --> 20:53.860]  I'm going to skip that because we don't want to spend too much time with it.
+[20:54.780 --> 20:55.720]  All right.
+[20:55.720 --> 21:01.660]  So a single transistor just is not going to work.
+[21:01.660 --> 21:05.460]  And a single transistor does the job of inverting.
+[21:06.720 --> 21:16.060]  And even just that, okay, how do you build an AND gate or an OR gate or a NAND gate with a single transistor?
+[21:16.320 --> 21:20.480]  You'll find that it's basically not possible to do all of these functions.
+[21:20.900 --> 21:25.080]  And certainly you need these other logic functions.
+[21:25.980 --> 21:26.220]  Okay?
+[21:26.700 --> 21:27.060]  All right.
+[21:27.220 --> 21:30.140]  So you can't do that with just one transistor.
+[21:30.840 --> 21:36.480]  Secondly, the performance even of a single transistor, if you had a magical way to even use it,
+[21:36.480 --> 21:44.680]  is going to basically be inadequate as far as noise immunity and fan out is concerned.
+[21:45.460 --> 21:54.940]  Not to mention that the power demand of this single transistor approach is not going to be particularly good either
+[21:54.940 --> 22:00.460]  in terms of power requirement versus output speed.
+[22:01.420 --> 22:01.560]  Okay?
+[22:02.060 --> 22:02.440]  All right.
+[22:02.440 --> 22:08.580]  So here is a practical logic circuit.
+[22:09.440 --> 22:09.520]  Okay?
+[22:09.920 --> 22:12.180]  And in this particular example,
+[22:12.800 --> 22:15.580]  we are showing the same logic function,
+[22:15.840 --> 22:17.060]  which is an inverter.
+[22:17.620 --> 22:21.620]  Notice that from a single common emitter amplifier
+[22:21.620 --> 22:24.660]  that we know is not going to work particularly well,
+[22:24.940 --> 22:30.300]  the practical implementation suddenly jumps to several transistors.
+[22:31.260 --> 22:34.280]  This is still just an inverter.
+[22:34.780 --> 22:38.020]  It has one input and one output.
+[22:38.020 --> 22:44.960]  And if the label is correct, then obviously we expect that it will invert the logic.
+[22:45.740 --> 22:50.960]  Now, let's have a look as to how this circuit functions.
+[22:50.960 --> 22:51.800]  Okay?
+[22:52.700 --> 23:09.840]  Admittedly, it's complex looking, but don't be scared because transistors working inside a logic circuit are typically working as on or off switches only.
+[23:10.240 --> 23:14.780]  They are typically not operating in their active region.
+[23:14.780 --> 23:19.380]  or if even they go into their active region,
+[23:19.540 --> 23:22.900]  they do it only for a very, very brief amount of time.
+[23:23.740 --> 23:27.400]  So it's easy to actually analyze
+[23:27.400 --> 23:31.200]  how the circuit more or less works.
+[23:31.200 --> 23:34.260]  It's only when you get into the gritty-gritty details
+[23:34.260 --> 23:37.860]  that it gets a little bit more difficult.
+[23:38.340 --> 23:40.360]  So let's try to have a look.
+[23:40.820 --> 23:43.780]  There are four transistors here.
+[23:43.780 --> 23:52.100]  All right. And this output configuration that we see here is what we call as the totem pole.
+[23:53.140 --> 24:00.960]  All right. The name derives from the fact that we have two transistors stacked on top of each other.
+[24:00.960 --> 24:04.240]  and Totempole is the
+[24:04.240 --> 24:07.060]  well if you're familiar with
+[24:07.060 --> 24:11.240]  American Indians kind of stuff
+[24:11.240 --> 24:13.820]  alright or the
+[24:13.820 --> 24:15.480]  the
+[24:15.480 --> 24:21.220]  Incas for example
+[24:21.220 --> 24:24.780]  or some similar tribes I'm not sure if the Incas actually do it
+[24:24.780 --> 24:27.020]  where they put several
+[24:27.020 --> 24:29.640]  icons
+[24:29.640 --> 24:37.680]  or symbols, all right, or faces on top of each other to symbolize a certain something,
+[24:38.160 --> 24:40.980]  well, that's where the name comes from.
+[24:40.980 --> 24:46.000]  So this stacking of the symbols, heads, or whatever,
+[24:46.540 --> 24:52.960]  is something like what you have here where the transistors are stacked on top of each other.
+[24:53.560 --> 24:56.280]  So this is why it's called the totem pole configuration.
+[24:56.280 --> 25:01.900]  And we'll see in a short while how this time actually works.
+[25:02.220 --> 25:05.660]  So let's start with the first transistor here.
+[25:06.360 --> 25:06.400]  Okay?
+[25:07.180 --> 25:14.720]  So Q1 is what we call as the input which does the job of current steering.
+[25:15.660 --> 25:15.980]  Okay?
+[25:16.480 --> 25:17.480]  Current steering.
+[25:17.640 --> 25:18.920]  So makinigay na mabuti ha.
+[25:19.060 --> 25:19.260]  Alright?
+[25:19.260 --> 25:31.740]  You can think of Q1 as just this resistor here, R1, being connected to something like two diodes.
+[25:31.740 --> 25:39.900]  Because in fact, remember that the base-to-emitter is something where there is a diode from base-to-emitter.
+[25:40.280 --> 25:45.000]  And there is also another diode, which is the base-to-collector diode.
+[25:46.020 --> 25:46.200]  Okay?
+[25:46.580 --> 25:46.980]  All right.
+[25:46.980 --> 26:03.100]  Now, so concentrating on the equivalent transistor with resistor on the right side, okay, when V in is a logic 1, all right, remember that this is connected to VCC.
+[26:03.100 --> 26:10.040]  If you put V into logic 1, then there's not enough voltage here.
+[26:10.780 --> 26:16.580]  There's not enough voltage from base to emitter to turn that junction on.
+[26:17.300 --> 26:26.500]  Therefore, diode D1 basically acts as an off-circuit, as it basically is not conducting.
+[26:26.500 --> 26:38.040]  So the easiest way to think about this is you say that VCC is 5V and Vin is also 5V, which is representing logic 1.
+[26:38.720 --> 26:39.960]  For now, at least.
+[26:40.240 --> 26:45.120]  So kung parehong 5V, hindi ito nagkokonduct.
+[26:45.540 --> 26:48.260]  The transistor is going to be off.
+[26:49.380 --> 26:54.560]  If this is a logic 1 and we have 5V over there.
+[26:54.560 --> 27:10.840]  Transistor is off. Now, if the transistor is off, we still have potentially the supply voltage going in this direction through the base to collector diode.
+[27:10.840 --> 27:32.220]  So, aandar yung kuryente, alright? Hindi siya pupunta papunta sa left side because this guy is off. But it can and will go over to the right side if there's enough voltage potential across V2 to actually get it conducting.
+[27:32.220 --> 27:39.600]  In other words, if it will drop by 0.7, then it will actually conduct.
+[27:40.500 --> 27:40.640]  Okay?
+[27:41.160 --> 27:43.680]  So that's this first part.
+[27:44.180 --> 27:44.440]  Okay?
+[27:44.540 --> 27:49.000]  And we're only analyzing it in terms of a logic 1 for now.
+[27:50.140 --> 27:50.420]  Okay?
+[27:50.580 --> 27:50.880]  All right.
+[27:50.940 --> 27:54.720]  Now, before I erase anything here, can we check on you guys?
+[27:54.900 --> 27:57.860]  Are you able to follow what I'm saying so far?
+[27:57.940 --> 27:58.540]  Are we okay?
+[27:58.540 --> 28:04.800]  If so, please provide thumbs up and feedback information.
+[28:07.940 --> 28:10.180]  Alright, so let's move forward.
+[28:11.180 --> 28:12.660]  Let's move forward.
+[28:13.940 --> 28:17.860]  If we put a logic zero on the other hand,
+[28:19.280 --> 28:21.880]  if we put a logic zero,
+[28:23.500 --> 28:27.720]  we can think of this as being zero volts and this one is five volts.
+[28:28.200 --> 28:30.680]  Therefore, this guy will turn on.
+[28:30.800 --> 28:33.320]  There's going to be essentially a VBE.
+[28:33.920 --> 28:36.540]  This is going to be plus minus 0.7.
+[28:37.080 --> 28:41.540]  So therefore, this will pull this junction or this point down.
+[28:42.040 --> 28:42.360]  All right.
+[28:42.420 --> 28:45.320]  And it will turn the transistor on.
+[28:45.660 --> 28:50.520]  And when the transistor turns on, we expect to get the thing to saturate.
+[28:50.920 --> 28:54.600]  It's basically an on-off kind of logic.
+[28:54.600 --> 29:02.180]  So therefore, we're going to get 0.3 volts across the collector to emitter junction.
+[29:03.400 --> 29:03.480]  Okay?
+[29:04.080 --> 29:04.460]  All right?
+[29:04.840 --> 29:06.980]  So remember that.
+[29:07.200 --> 29:18.280]  And so if this is at 0 volts, all right, if it's at 0 volts and we have 0.3 volts, then this one here is at about 0.3 volts.
+[29:18.520 --> 29:18.960]  Okay?
+[29:19.240 --> 29:19.520]  All right.
+[29:19.560 --> 29:22.680]  So that's it for the first transistor.
+[29:23.380 --> 29:23.780]  All right?
+[29:23.780 --> 29:32.660]  Along with the fact, of course, that you have your transistor beta working, which allows a greater amount of current amplification.
+[29:33.380 --> 29:39.660]  But notice that that great current basically falls through to whatever is pulling this to ground.
+[29:40.240 --> 29:52.480]  Now, if that's a different logic gate, then that would mean that that logic gate has to fight any collector to emitter current coming from this logic steering transistor.
+[29:52.480 --> 30:03.780]  And that's fine. We'll see that a little bit later that that's exactly how it's been designed, that it's been designed to be able to handle that current flow when it pulls it down.
+[30:04.700 --> 30:06.340]  So let's go forward.
+[30:06.340 --> 30:18.260]  The next stage after it, that signal from the collector of Q1 is connected here to the second transistor Q2.
+[30:18.920 --> 30:29.700]  And you might recognize it essentially, the fact that it has an output at the collector and it has an output at the emitter means that it is essentially a phase splitter.
+[30:29.700 --> 30:38.040]  It produces an output that is outputs that are inverses of each other.
+[30:39.100 --> 30:39.180]  Okay?
+[30:39.880 --> 30:48.540]  So analyzing this, you're back to your common emitter phase splitter configuration that we just took up last meeting,
+[30:48.540 --> 30:55.960]  except that the signals here are expected to be just high or low, right?
+[30:56.120 --> 30:59.460]  High or low instead of sinusoidal.
+[30:59.700 --> 31:16.280]  So if VIN is low, all right, low voltage, 0.3 volts, 0.5 volts, all right, what happens is that the transistor is basically off, all right?
+[31:16.280 --> 31:22.280]  If this is low, then transistor Q2 is off, okay?
+[31:22.280 --> 31:34.560]  And if Q2 is off, then the voltage here is 0 volts and the voltage here is going to try to rise to plus 5 volts.
+[31:35.160 --> 31:35.600]  Bakit?
+[31:36.080 --> 31:40.320]  Kasi kung off siya, parang hindi siya connected, di ba?
+[31:40.540 --> 31:43.340]  If it's off, it's like it's not there.
+[31:43.340 --> 31:58.020]  So therefore, this thing at the top, okay, VO1 gets pulled up by R2 and VO2 gets pulled down by R3.
+[31:58.020 --> 32:06.300]  And so we can say that VO2 is basically ground or zero volts.
+[32:06.980 --> 32:15.520]  And the high voltage here, VO1 is equal to Vcc.
+[32:16.180 --> 32:20.000]  And that's what happens when the input is low.
+[32:20.000 --> 32:21.080]  Okay?
+[32:22.100 --> 32:31.120]  Conversely, if we have the input at high, all right, logic 1 is going in.
+[32:31.620 --> 32:34.240]  So this transistor then turns on.
+[32:35.380 --> 32:35.960]  Okay?
+[32:35.960 --> 32:42.060]  And if it turns on, it's like it is almost shorting together.
+[32:42.560 --> 32:48.900]  You'll get to see a 0.3 volt saturation across the collector to emitter.
+[32:48.900 --> 33:02.260]  okay and so v01 is still well it gets pulled downwards right and technically that is going to
+[33:02.260 --> 33:10.980]  be a lowish voltage and this guy should rise upward but it's actually connected to the output
+[33:10.980 --> 33:15.360]  transistor both of these guys are connected to the output transistor which you're going to find
+[33:15.360 --> 33:20.040]  is going to limit it to VBE of Q3.
+[33:20.240 --> 33:23.160]  In other words, this guy, 0.7.
+[33:23.460 --> 33:25.260]  So it will try to rise up,
+[33:25.760 --> 33:30.620]  but it will get limited by the third transistor here,
+[33:31.180 --> 33:34.500]  such that the output voltage can only go up
+[33:34.500 --> 33:38.380]  as high as VBE of this guy.
+[33:39.020 --> 33:41.700]  So aangat siya, pero pag pipigilan siya
+[33:41.700 --> 33:44.480]  kasi maroon tayo diode junction
+[33:44.480 --> 33:46.200]  dun sa output transistor.
+[33:46.940 --> 33:48.080]  Okay? Alright. So,
+[33:48.900 --> 33:50.920]  bottom line is, it's a phase splitter.
+[33:52.440 --> 33:52.760]  Okay?
+[33:53.660 --> 33:54.900]  And by
+[33:54.900 --> 33:56.880]  this configuration,
+[33:57.260 --> 33:58.920]  by the time we get to
+[33:58.920 --> 34:01.120]  the output portion,
+[34:02.040 --> 34:02.380]  okay,
+[34:03.040 --> 34:04.820]  the totem pole in itself,
+[34:05.340 --> 34:07.220]  alright, we will see
+[34:07.220 --> 34:09.260]  that these two
+[34:09.260 --> 34:11.180]  are driven by
+[34:11.180 --> 34:12.560]  the phase splitter.
+[34:14.120 --> 34:14.420]  Okay?
+[34:14.480 --> 34:18.460]  It's connected here through those two resistors, okay?
+[34:19.180 --> 34:21.880]  And let's see what happens, okay?
+[34:22.880 --> 34:40.440]  The output stage has been specifically designed such that Q3 provides the sync or logic low drive, okay?
+[34:40.440 --> 34:53.580]  And Q4 provides the source or logic high drive.
+[34:54.720 --> 34:59.240]  So they work alternately with each other.
+[34:59.900 --> 35:02.460]  They work alternately with each other.
+[35:02.460 --> 35:09.760]  Q3 provides a solid logic zero when it's turned on.
+[35:10.440 --> 35:15.180]  And Q4 provides a logic high when it's turned on.
+[35:15.180 --> 35:24.100]  We need to ensure that Q4 and Q3 do not turn on at the same time.
+[35:25.120 --> 35:25.180]  Okay?
+[35:25.620 --> 35:26.120]  Bakit?
+[35:26.880 --> 35:30.420]  Pag nag-on kasi pareho, pareho yan dun sa H-bridge.
+[35:31.060 --> 35:31.280]  Okay?
+[35:31.800 --> 35:36.580]  If the two transistors turn on at the same time, we're going to get a humongous amount of current
+[35:36.580 --> 35:42.440]  because VCC then shoots down through the transistors to ground, which could blow them up.
+[35:43.600 --> 35:46.200]  That's also essentially why there is an R4.
+[35:46.680 --> 35:49.580]  It's to limit the current so that they don't blow up.
+[35:50.400 --> 35:54.120]  But they're not going to be happy about being turned on at the same time.
+[35:54.120 --> 36:02.020]  So the circuit is designed to avoid turning on the two transistors at the same time,
+[36:02.300 --> 36:05.320]  which is why we have a phase splitter.
+[36:06.320 --> 36:17.060]  The face splitter's job is to produce a logic zero at its output and a logic one, the inverse of that at the other,
+[36:17.540 --> 36:22.880]  or a logic zero at the top and a logic one at the bottom.
+[36:22.880 --> 36:29.940]  They're always going to be mirror images of each other because that's the job of the face splitter.
+[36:29.940 --> 36:43.260]  And the whole idea, of course, is that because they are always alternatives of each other, only one of the output transistors will turn on while the other stays off.
+[36:44.240 --> 36:44.420]  Okay?
+[36:44.700 --> 36:48.320]  So that's how the thing is supposed to work.
+[36:48.320 --> 37:00.160]  For example, in this case, if my phase splitter is producing a logic 1 at its output and a logic 0 at its emitter,
+[37:00.720 --> 37:07.740]  sorry, a logic 1 at its collector and a logic 0 at its emitter by being off,
+[37:08.980 --> 37:11.100]  okay, this is what will happen.
+[37:11.100 --> 37:18.220]  Kung off siya, 1 yung nandito and 0 yung nandito.
+[37:18.440 --> 37:19.460]  How did that happen?
+[37:19.580 --> 37:23.720]  Again, if it's off, it's like the transistor is not there.
+[37:24.180 --> 37:24.300]  Diba?
+[37:24.740 --> 37:28.600]  And so meron tayong pabaan na koryente rito, alright?
+[37:28.980 --> 37:32.440]  Which turns this guy on, okay?
+[37:32.920 --> 37:35.900]  Whereas this guy is like it's connected to ground,
+[37:36.060 --> 37:37.960]  therefore there's no voltage here.
+[37:37.960 --> 37:41.440]  the second Q3 will be off.
+[37:42.180 --> 37:46.180]  Therefore, with the top transistor on
+[37:46.180 --> 37:49.280]  and the bottom transistor off,
+[37:49.680 --> 37:51.240]  we don't get a conflict
+[37:51.240 --> 37:55.860]  and the output is going to be logic high.
+[37:56.500 --> 37:57.120]  Do you follow?
+[37:57.500 --> 37:58.980]  Alright, saan nang galing yung logic high?
+[37:59.340 --> 38:03.820]  Nang galing siya sa fact na konektado ito to VCC
+[38:03.820 --> 38:08.700]  through R4 and the fact that Q4 is turned on.
+[38:09.200 --> 38:10.960]  And of course, it will pass through the diode.
+[38:11.120 --> 38:14.540]  Notice that the diode direction allows current to go through
+[38:14.540 --> 38:17.400]  from the supply going to the output.
+[38:17.640 --> 38:19.560]  Therefore, you're going to get a logic high.
+[38:19.560 --> 38:30.140]  So if you follow, look at the trace of the logic of on high.
+[38:30.140 --> 38:36.960]  And of course, if it's functioning properly, if the top is on, the bottom should be off.
+[38:37.780 --> 38:37.920]  Alright?
+[38:38.220 --> 38:42.280]  So off, on, ang output natin ay high.
+[38:43.020 --> 38:43.300]  Okay?
+[38:43.860 --> 38:44.180]  Alright?
+[38:44.180 --> 39:06.540]  On the other hand, if we now go with this one being on, if it is on, then this now becomes a logic zero here and the bottom one becomes a logic one or at least it will try to rise to logic one.
+[39:06.540 --> 39:12.780]  And because it tries to rise to logic 1, this guy will be turned on.
+[39:13.420 --> 39:18.380]  And because this is a logic 0, the top 1 is going to be off.
+[39:19.060 --> 39:19.380]  All right?
+[39:19.920 --> 39:26.800]  And if the bottom 1 is on, then our output is like it's shorted to ground.
+[39:27.380 --> 39:30.340]  Therefore, the output is going to be low.
+[39:30.340 --> 39:36.160]  So again, notice, phase splitter is on.
+[39:36.540 --> 39:42.580]  bottom transistor is on, therefore output is low.
+[39:43.480 --> 39:47.220]  And the top transistor is, of course, turned off
+[39:47.220 --> 39:50.360]  because it's taking its output from the phase splitter.
+[39:50.360 --> 39:57.180]  If the phase splitter is on, this is going to get pulled down to a low voltage,
+[39:57.380 --> 40:00.920]  which turns off the top transistor.
+[40:01.780 --> 40:01.920]  Okay?
+[40:02.460 --> 40:02.800]  All right.
+[40:02.800 --> 40:07.180]  So that's basically how the thing works.
+[40:07.940 --> 40:09.300]  Are you following so far?
+[40:10.940 --> 40:11.020]  Okay?
+[40:11.400 --> 40:11.980]  Gets nyo ba?
+[40:12.700 --> 40:13.500]  Are you following?
+[40:13.740 --> 40:14.340]  Are you okay?
+[40:19.060 --> 40:19.780]  Yeah.
+[40:20.380 --> 40:20.600]  Okay.
+[40:20.900 --> 40:25.520]  So let's take a look at the whole circuit working together.
+[40:26.120 --> 40:28.060]  Simulate this in our brain.
+[40:28.820 --> 40:29.100]  Okay?
+[40:29.100 --> 40:32.540]  So stage by stage, tinignan na natin.
+[40:32.800 --> 40:36.660]  So let's put in a logic high.
+[40:38.580 --> 40:38.900]  Okay.
+[40:39.320 --> 40:43.500]  Through here, a.k.a. logic 1, all right?
+[40:43.700 --> 40:47.820]  A.k.a. logic 1 through our tracing a while ago.
+[40:48.460 --> 40:48.920]  All right.
+[40:48.920 --> 40:59.280]  If we have a logic 1, this forces, of course, the voltage to go up, which turns transistor Q1 off.
+[41:00.840 --> 41:01.140]  Okay.
+[41:01.500 --> 41:01.800]  Follow?
+[41:02.420 --> 41:02.780]  All right.
+[41:02.800 --> 41:07.360]  Kung logic high, wala tayong enough VBE to turn it on.
+[41:07.980 --> 41:15.380]  But we still have current flowing from this guy over from the collector to emitter diode.
+[41:15.940 --> 41:20.480]  At collector, sorry, the base to emitter diode, right?
+[41:20.740 --> 41:25.180]  We still have the base to emitter diode conducting going into Q2.
+[41:25.380 --> 41:29.020]  Therefore, merong kuryente papasok sa base ng Q2.
+[41:29.020 --> 41:32.180]  Therefore, ang Q2 natin ay magiging on.
+[41:32.800 --> 41:49.420]  All right? If Q2 is on, going back to the previous slide, if Q2 is on, Q3 will also turn on. Q4, because it's a phase fitter, Q4 will be off.
+[41:51.060 --> 41:57.260]  If Q3 is on and Q4 is off, the output is logic low.
+[41:57.260 --> 41:58.860]  Follow?
+[41:59.380 --> 42:00.220]  Now look at this
+[42:00.220 --> 42:01.860]  What was our input?
+[42:02.500 --> 42:02.760]  High
+[42:02.760 --> 42:04.260]  What is our output?
+[42:04.700 --> 42:04.960]  Low
+[42:04.960 --> 42:06.360]  What did it do?
+[42:06.680 --> 42:07.920]  It inverted
+[42:07.920 --> 42:09.560]  Okay?
+[42:09.940 --> 42:11.980]  Kaya ka siya tinatawag na inverter
+[42:11.980 --> 42:14.520]  Oh, sige nga, totoo ba yan?
+[42:14.680 --> 42:17.480]  Sige nga natin kung high ang input natin
+[42:17.480 --> 42:18.940]  Low ang input natin
+[42:18.940 --> 42:19.900]  Alright?
+[42:20.420 --> 42:22.060]  What if we have a low?
+[42:22.680 --> 42:23.020]  Alright?
+[42:23.160 --> 42:24.620]  Or logic zero
+[42:24.620 --> 42:26.680]  What happens?
+[42:27.260 --> 42:29.580]  When we have a low, this thing gets pulled down.
+[42:30.160 --> 42:32.080]  This guy will conduct.
+[42:32.500 --> 42:34.240]  Therefore, it will turn on.
+[42:35.180 --> 42:35.420]  Alright?
+[42:35.680 --> 42:38.360]  If it turns on, it makes sure,
+[42:38.660 --> 42:42.760]  it will make sure that this point is also at a low voltage.
+[42:43.520 --> 42:45.440]  And if this point is at a low voltage,
+[42:45.440 --> 42:47.420]  this guy will turn off.
+[42:48.380 --> 42:49.500]  Saan ang galing yung low?
+[42:49.880 --> 42:54.820]  Dito sa kuryente yung papunta rito at papunta sa low.
+[42:55.440 --> 42:55.580]  Alright?
+[42:55.580 --> 42:57.620]  So therefore, this guy is off.
+[42:57.620 --> 43:09.280]  And if this guy is off, the output rises because, all right, the collector rises because it's as if this transistor is not connected.
+[43:09.880 --> 43:13.560]  Therefore, this guy will turn on through here.
+[43:14.160 --> 43:18.320]  And this guy will act like it is connected to ground.
+[43:18.440 --> 43:19.880]  The base is connected to ground.
+[43:20.040 --> 43:21.840]  Therefore, this one will turn off.
+[43:21.840 --> 43:29.420]  If we have Q4 on and Q3 off, the output is going to be high.
+[43:30.460 --> 43:37.560]  And so therefore, we see for a logic low input, the output is going to be high.
+[43:37.920 --> 43:43.560]  So indeed, this reinforces the fact that we have an inverter circuit.
+[43:44.780 --> 43:44.900]  Okay?
+[43:46.040 --> 43:47.660]  Are there questions?
+[43:48.000 --> 43:48.820]  Are we okay?
+[43:51.840 --> 43:55.560]  All right, now,
+[43:56.520 --> 43:58.160]  Hoy, thumbs up pa o hindi?
+[43:58.440 --> 43:59.180]  May tanong o wala?
+[44:00.800 --> 44:01.280]  You follow?
+[44:05.200 --> 44:06.500]  Yeah, all right.
+[44:08.320 --> 44:08.560]  Okay.
+[44:09.080 --> 44:14.260]  Now, again, the idea or the circuitry is complex
+[44:14.260 --> 44:19.520]  because not only does it provide the required logic function,
+[44:19.980 --> 44:21.160]  aka inversion,
+[44:21.840 --> 44:40.880]  These transistors over here are sized and designed so that they are capable, the totem pole configuration is capable of sinking a large amount of current.
+[44:41.960 --> 44:46.780]  We have a hefty, nice transistor over here capable of pulling low.
+[44:46.780 --> 45:06.840]  The logic high or sourcing capability is not particularly strong. Why? Because it has a resistor over there. Not to mention that Q4 is basically acting as a common collector circuit.
+[45:06.840 --> 45:16.920]  Alright? It's acting as a common collector circuit where it is not really running as an ideal high side switch.
+[45:17.160 --> 45:20.060]  You'll notice that the emitter is the output.
+[45:21.100 --> 45:24.260]  Ano ang sinabi natin dati sa lesson natin?
+[45:24.800 --> 45:30.480]  If you create or want to have a good high side switch, it has to be PNP.
+[45:31.000 --> 45:33.460]  But no, this is an NPN.
+[45:34.460 --> 45:35.760]  Alright? It's an NPN.
+[45:35.760 --> 45:39.980]  that's why its sourcing capability is kind of weak.
+[45:40.360 --> 45:45.400]  It is definitely weaker than the syncing capability.
+[45:46.320 --> 45:46.480]  Okay?
+[45:46.900 --> 45:49.180]  So sourcing, medyo mahina siya.
+[45:49.620 --> 45:51.740]  By actually a very large factor,
+[45:52.120 --> 45:56.080]  but more than enough to drive several other logic gates.
+[45:56.440 --> 46:00.120]  Because what you notice about the input of the logic gate
+[46:00.120 --> 46:06.160]  is that it doesn't really require much sourcing current at all.
+[46:06.300 --> 46:08.500]  If you want to pull the input high,
+[46:09.180 --> 46:11.100]  wala kang kailangan masyado
+[46:11.100 --> 46:14.520]  kasi hindi naman talaga tatakbo yung current papasok.
+[46:15.700 --> 46:15.940]  Okay?
+[46:15.940 --> 46:20.160]  You just want to be able to zero out your VBE.
+[46:20.420 --> 46:24.940]  Maging zero lang ang VBE mo para sigurado off itong transistor,
+[46:25.580 --> 46:26.220]  okay ka na.
+[46:26.840 --> 46:31.360]  So it really does not require any sourcing current at all.
+[46:31.460 --> 46:33.060]  All it needs is that you pull it up.
+[46:33.620 --> 46:37.580]  On the other hand, if you pull it downwards, okay,
+[46:37.580 --> 46:42.580]  if another logic gate whose output looks like this pulls this thing down,
+[46:43.120 --> 46:51.760]  this transistor must be able to sync the current of both the base resistor here
+[46:51.760 --> 46:57.080]  as well as any current that is present from this side of the thing
+[46:57.080 --> 47:00.460]  kasi ang transistor natin dito ay magiging on.
+[47:01.340 --> 47:09.560]  So therefore, it has to be able to sync any current going in the right to left direction.
+[47:09.560 --> 47:16.160]  And that's why it has typically a much larger syncing capability.
+[47:16.160 --> 47:26.700]  In fact, if we're looking at PPL as a logic family, the sourcing current is 0.4 milliampere.
+[47:27.140 --> 47:31.560]  And the sinking current is 16 milliampere.
+[47:31.700 --> 47:35.980]  You see that very, very, very big difference in capability.
+[47:36.520 --> 47:37.640]  But that's its nature.
+[47:37.640 --> 47:38.340]  Alright?
+[47:38.980 --> 47:41.540]  16 milliampere is very big
+[47:41.540 --> 47:44.360]  which allows it to be able to light up
+[47:44.360 --> 47:46.760]  things like LEDs if you wanted it to
+[47:46.760 --> 47:49.120]  for syncing.
+[47:49.880 --> 47:50.780]  But if...
+[47:50.780 --> 47:52.780]  So if you're going to connect an LED
+[47:52.780 --> 47:55.600]  to a TTL logic gate output,
+[47:56.060 --> 48:00.120]  make sure that you use its syncing capability,
+[48:00.360 --> 48:01.840]  not its sourcing.
+[48:02.260 --> 48:06.840]  Kasi pag linagay mo siya as a sourcing capability,
+[48:06.840 --> 48:13.120]  Linagay mo yung LED mo ng ganito, mahina lang ang maximum current niya.
+[48:13.420 --> 48:20.420]  It will not produce a bright enough light, not to mention that you're going to give this transistor a hard time.
+[48:21.140 --> 48:21.280]  Okay?
+[48:21.640 --> 48:29.220]  So, you can't put an LED this way, alright, at the output of a TPL.
+[48:29.420 --> 48:34.780]  It's not recommended because there's not enough sourcing current.
+[48:34.780 --> 48:35.780]  Okay?
+[48:35.780 --> 48:44.840]  Remember that LEDs light up with something like 1, 2, or 3 milliampperes to light them up decently.
+[48:45.500 --> 48:50.600]  In fact, old textbooks used to say 10, 20 milliampperes.
+[48:50.920 --> 48:56.140]  Nowadays, hindi na kailangan na ganun kalaki yung current because we have much more efficient LEDs.
+[48:56.860 --> 48:59.580]  But the recommendation before was to use 20 milliampperes.
+[48:59.680 --> 49:03.300]  And with 20 milliampperes, even the syncing capability is not enough.
+[49:03.300 --> 49:27.340]  Alright? Okay. So there you go with that. I hope this is clear. Okay? So the last part here, alright, we trace this out. Okay. Inisa-isa na natin to. Okay? So na-trace out na natin. Okay? Let's go to a much more complex looking circuit.
+[49:27.340 --> 49:46.580]  Okay, so ito na. This is the last part of the lesson. What is the logic function of this particular circuit? So have a good look. And let's trace out what actually happens.
+[49:46.580 --> 49:58.760]  Okay, subukan natin bilisan para makita agad. Kaya ba rin nyo? Can you work it out?
+[50:00.900 --> 50:13.340]  Okay, so because there are two inputs, the combination obviously is going to be 0, 0, 0, 1, 1, 0, and 1, 1.
+[50:13.340 --> 50:20.540]  You could probably eliminate one of these because they're just connected in the same way.
+[50:20.660 --> 50:22.180]  So tanggalin na natin ito.
+[50:23.660 --> 50:34.320]  And tignan nyo lang ano ang magiging output with these three possible combinations.
+[50:35.120 --> 50:38.180]  So gawa ng truth table.
+[50:39.180 --> 50:41.780]  X, Y, and Z.
+[50:41.780 --> 50:48.600]  Okay, 0, 0, 1, 0, and 1, 1.
+[50:49.760 --> 50:53.500]  And determine, ano ang output?
+[50:54.140 --> 50:59.880]  Okay, what is the output Z for the following input conditions?
+[51:00.220 --> 51:01.160]  And find out.
+[51:02.200 --> 51:04.920]  And by looking at the truth table, of course,
+[51:05.000 --> 51:07.900]  you'll be able to tell what kind of a logic gate it is.
+[51:07.900 --> 51:10.580]  Okay, so let's, do you want to,
+[51:10.580 --> 51:12.080]  we need to try this.
+[51:12.080 --> 51:12.340]  Alright?
+[51:12.760 --> 51:13.100]  Sige.
+[51:13.560 --> 51:14.360]  Alang-alang.
+[51:14.720 --> 51:15.740]  Alang-alang sa'yo niya.
+[51:16.240 --> 51:16.800]  Zero.
+[51:17.420 --> 51:18.100]  Tsaka zero.
+[51:18.340 --> 51:20.500]  So if I put a zero here,
+[51:21.300 --> 51:21.660]  okay,
+[51:22.180 --> 51:23.840]  this transistor turns on
+[51:23.840 --> 51:25.920]  and a zero on Y,
+[51:26.100 --> 51:28.120]  this transistor also turns on.
+[51:28.680 --> 51:28.940]  Alright?
+[51:29.400 --> 51:31.280]  And if they are on,
+[51:31.860 --> 51:34.120]  if either one of them are on,
+[51:34.820 --> 51:36.560]  this makes the voltage.
+[51:36.680 --> 51:38.620]  Remember that this is zero volts.
+[51:38.820 --> 51:39.020]  Okay?
+[51:39.100 --> 51:40.160]  This is zero volts.
+[51:40.580 --> 51:42.620]  Zero volts, zero volts.
+[51:42.620 --> 51:53.000]  And so if this is zero, this guy is conducting, this guy is conducting, the voltage here falls to zero-ish volts, okay, over here.
+[51:53.380 --> 51:57.820]  And because this is zero-ish volts, okay, this is going to be off.
+[51:58.980 --> 52:05.180]  And if this guy is off, this guy is also off, this one is going to be on.
+[52:06.700 --> 52:07.300]  Okay?
+[52:07.300 --> 52:12.920]  Just remember, the output at the emitter is non-inverting.
+[52:13.440 --> 52:16.240]  The output at the collector is inverting.
+[52:16.480 --> 52:20.540]  So kung off ito and you take the output at the emitter,
+[52:21.940 --> 52:25.160]  non-inverting, ito is zero wish.
+[52:25.500 --> 52:26.900]  Ito is off.
+[52:27.160 --> 52:29.980]  The output at the collector is the inverse of that.
+[52:30.200 --> 52:31.540]  It has to go high.
+[52:32.040 --> 52:33.540]  And so therefore, this guy turns on.
+[52:33.540 --> 52:36.300]  And so with on and off combined here,
+[52:36.300 --> 52:40.580]  the output is obviously going to be a logic 1.
+[52:40.900 --> 52:44.820]  So you put that as the output for a 0, 0.
+[52:45.900 --> 52:46.740]  Okay? Alright?
+[52:47.280 --> 52:47.860]  So there.
+[52:48.400 --> 52:51.720]  Paano kung 1, 0 ang input natin?
+[52:52.220 --> 52:52.380]  Okay?
+[52:52.560 --> 52:52.920]  Sige.
+[52:53.120 --> 52:53.980]  So tignan natin.
+[52:54.360 --> 52:59.200]  What happens if my input is a 1 and 0?
+[52:59.780 --> 53:02.520]  So let's trace that and let's find out.
+[53:03.400 --> 53:03.660]  Okay?
+[53:03.820 --> 53:04.620]  Magkakaiba ba?
+[53:04.620 --> 53:06.720]  Will it produce an actual difference?
+[53:07.320 --> 53:08.560]  And let's see.
+[53:09.180 --> 53:09.460]  All right?
+[53:09.900 --> 53:20.940]  So with a 1, 0 as the input, okay, with a 1, 0 as the input, if I have a 1 and a 0 here,
+[53:21.060 --> 53:24.500]  this is the equivalent of 5 volts and 0 volts.
+[53:25.040 --> 53:25.300]  Okay?
+[53:25.360 --> 53:32.340]  If this is a 5 and a 5, this guy, 5 and 5, all right, this guy will be off.
+[53:32.680 --> 53:34.540]  Q1 is going to be on.
+[53:35.440 --> 53:35.720]  Okay?
+[53:36.020 --> 53:39.960]  If Q1 is on, then we have electricity flowing this way, 2 to 0.
+[53:40.180 --> 53:42.760]  So therefore, this guy is also being off.
+[53:42.760 --> 53:48.220]  By virtue of the fact that the voltage here is zero-ish in voltage.
+[53:48.860 --> 53:49.120]  All right?
+[53:49.460 --> 53:50.500]  Zero-ish in voltage.
+[53:50.640 --> 53:51.700]  So this guy is off.
+[53:52.120 --> 53:59.340]  If this guy is going to be off, then non-inversion produces this guy being off.
+[53:59.720 --> 54:01.520]  This guy is still going to be on.
+[54:01.720 --> 54:04.540]  And so therefore, the output logic is a 1.
+[54:04.620 --> 54:07.020]  And so that's what you put here.
+[54:08.960 --> 54:09.100]  Okay?
+[54:09.600 --> 54:10.020]  All right.
+[54:10.600 --> 54:10.980]  Hooray!
+[54:11.620 --> 54:11.880]  Okay?
+[54:12.360 --> 54:16.140]  And so therefore, we go to the last combination.
+[54:16.840 --> 54:22.240]  And let's find out what actually happens when we have that last combination.
+[54:23.200 --> 54:23.480]  Okay?
+[54:23.840 --> 54:24.180]  All right.
+[54:24.280 --> 54:27.380]  So going forward, we have the following.
+[54:27.860 --> 54:29.280]  A 1 and a 1.
+[54:30.680 --> 54:33.820]  So this is 5 volts and this is 5 volts.
+[54:33.820 --> 54:36.920]  And we know that if we have 5 volts, this guy is going to be off.
+[54:37.360 --> 54:39.200]  This guy is also going to be off.
+[54:39.940 --> 54:47.440]  And if they are both off, then by logic steering, by current steering, the current flows in through there.
+[54:47.840 --> 54:50.440]  And so this guy will be turned on.
+[54:50.740 --> 54:53.680]  If it is on, then this guy is going to be on.
+[54:54.060 --> 54:55.720]  Q4 is going to be off.
+[54:55.980 --> 54:59.760]  And so therefore, this is going to be a logic zero.
+[55:00.480 --> 55:00.760]  Okay?
+[55:01.240 --> 55:01.640]  All right?
+[55:01.640 --> 55:03.120]  So there's your output.
+[55:03.820 --> 55:11.200]  And so the big question is what kind of a logic function does the gate provide?
+[55:11.200 --> 55:21.100]  Now, very obviously, we did not bother with a 0-1 combination, but you know that it will produce the same thing as this guy.
+[55:21.600 --> 55:24.560]  So looking at the truth table, what is it?
+[55:24.900 --> 55:27.200]  Well, obviously, it is...
+[55:28.200 --> 55:29.120]  Anong tawag dito?
+[55:31.340 --> 55:31.620]  Okay.
+[55:33.820 --> 55:34.420]  Ay!
+[55:35.620 --> 55:36.860]  Ano ang tawag dan?
+[55:37.280 --> 55:37.480]  Okay?
+[55:38.080 --> 55:38.360]  So,
+[55:39.040 --> 55:40.880]  0, 0, 1.
+[55:41.280 --> 55:42.640]  1, 0, 1.
+[55:42.880 --> 55:44.260]  1, 1, 0.
+[55:44.480 --> 55:45.540]  0, 1, 1.
+[55:46.160 --> 55:46.380]  Okay?
+[55:46.500 --> 55:47.420]  Alam na ninyo yan.
+[55:47.700 --> 55:48.200]  Okay, fine.
+[55:48.740 --> 55:49.220]  Alright?
+[55:49.780 --> 55:50.200]  Alright.
+[55:50.660 --> 55:51.440]  So, that's
+[55:51.440 --> 55:52.720]  kinda easy.
+[55:53.480 --> 55:53.900]  Tama ba?
+[55:54.740 --> 55:55.140]  Okay?
+[55:56.940 --> 55:58.220]  That's kinda easy.
+[56:00.500 --> 56:01.060]  Okay, doks?
+[56:01.060 --> 56:01.480]  So,
+[56:01.800 --> 56:02.640]  that's it.
+[56:03.820 --> 56:05.340]  Okay?
+[56:05.760 --> 56:06.860]  So, questions.
+[56:08.860 --> 56:09.620]  Questions.
+[56:10.680 --> 56:11.400]  For heaven's sake,
+[56:11.480 --> 56:14.300]  don't get your boolean logic wrong.
+[56:15.300 --> 56:19.120]  Dapat alam niyo yung function ng and or x or blah blah.
+[56:19.540 --> 56:19.880]  Okay.
+[56:20.220 --> 56:21.160]  So, that's it.
+[56:21.840 --> 56:22.060]  Alright?
+[56:22.240 --> 56:23.620]  That's the last page.
+[56:23.760 --> 56:23.940]  Now,
+[56:24.600 --> 56:26.260]  to confirm
+[56:26.260 --> 56:29.700]  that the circuitry
+[56:29.700 --> 56:30.940]  does indeed
+[56:30.940 --> 56:32.660]  respond to
+[56:32.660 --> 56:39.140]  So these voltage tolerances that we've been talking about for logic high, for example,
+[56:39.800 --> 56:45.220]  ano ba ang expected input voltage na it will interpret it as logic 1?
+[56:45.360 --> 56:46.840]  What are those voltage ranges?
+[56:46.840 --> 56:53.660]  Well, the answer is approximately 2.0 volts all the way to 5 volts is considered a logic 1.
+[56:53.660 --> 57:12.320]  And a logic low or logic zero is anything from zero volts all the way to about 0.7 volts is considered to be logic zero at its input.
+[57:13.240 --> 57:16.260]  So ito yung input characteristic niya.
+[57:16.980 --> 57:18.820]  Ito yung input characteristic niya.
+[57:18.820 --> 57:25.940]  And anything between 0.7 to about 2 volts is considered bad.
+[57:26.500 --> 57:26.820]  Okay?
+[57:26.960 --> 57:28.700]  This is considered bad.
+[57:30.080 --> 57:30.420]  Okay?
+[57:30.740 --> 57:31.160]  All right?
+[57:31.160 --> 57:49.440]  The output basically is guaranteed to go from having a high of 2.4 volts minimum all the way up to supposedly 5 volts, but it can't actually reach 5 volts.
+[57:49.440 --> 57:53.040]  but it's guaranteed to produce at least 2.4,
+[57:53.480 --> 57:57.140]  which means that if you connect it to a different logic gate
+[57:57.140 --> 57:58.520]  or to a second logic gate,
+[57:58.940 --> 58:03.580]  the output is guaranteed to be above the minimum required
+[58:03.580 --> 58:06.000]  to recognize that it's a logic 1.
+[58:07.520 --> 58:12.140]  Logic 0, the typical output is about 0.3 volts.
+[58:12.940 --> 58:19.100]  And so again, you will see that it is a lot lower than 0.7.
+[58:19.440 --> 58:23.240]  So this is your logic zero. This is your logic one.
+[58:24.200 --> 58:27.660]  And so there's compatibility, definitely.
+[58:28.020 --> 58:30.120]  There's margin for noise.
+[58:30.760 --> 58:38.120]  Then there's the question of can it really sink 60 milliampperes and source 0.4 milliampperes.
+[58:38.880 --> 58:43.000]  So things like that essentially can be simulated.
+[58:43.000 --> 58:51.880]  Okay? And that's the job of LTSpice and that's essentially your last experiment.
+[58:53.200 --> 59:02.140]  Okay? So gagawin natin itong experiment na to for the Thursday and Friday lab classes.
+[59:02.580 --> 59:07.700]  You'll just use LTSpice, alright, to simulate this circuit.
+[59:07.700 --> 59:22.920]  And you'll notice that there are resistor values as well as transistor characteristics already here so that you will get a, well, representative performance from the digital logic circuit.
+[59:23.840 --> 59:24.980]  Okay? Got that?
+[59:27.620 --> 59:28.640]  All right.
+[59:29.120 --> 59:31.360]  So that's for the experiment.
+[59:31.360 --> 59:40.360]  So that's the last lecture for CETRON2, at least, because, well, we are out of time.
+[59:40.520 --> 59:42.060]  It's the end of the trimester.
+[59:43.420 --> 59:43.740]  All right.
+[59:43.940 --> 59:45.600]  And so...

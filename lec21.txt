@@ -1,0 +1,1023 @@
+[00:00.000 --> 00:10.260]  Let's get this recording going and share the screen.
+[00:12.840 --> 00:15.360]  As soon as I find it, here we go.
+[00:16.340 --> 00:16.580]  Okay.
+[00:17.640 --> 00:17.960]  Right.
+[00:18.540 --> 00:21.860]  We're picking up where we left off from last meeting.
+[00:22.040 --> 00:24.560]  At this point, of course, if you have any questions,
+[00:24.560 --> 00:29.340]  the difficulty with online sessions is that I have no idea.
+[00:29.340 --> 00:35.500]  if you are actually there or not, and if you might have any questions or not. So type up
+[00:37.180 --> 00:46.060]  if you have anything that you'd like to clarify, kindly unmute and let me know. So we stopped here
+[00:46.060 --> 00:54.780]  last meeting with the speed issue of the Darlington configuration. And the last slide was this one.
+[00:54.780 --> 01:12.020]  the inability of the Darlington configuration to bleed the excess electrons in the second
+[01:12.020 --> 01:20.580]  transistor is alleviated by having a bleed resistor. So this allows the electrons to
+[01:20.580 --> 01:23.880]  discharge the ground when we do a turn off.
+[01:24.460 --> 01:24.560]  Okay.
+[01:24.860 --> 01:30.560]  So given this, there is, of course, the engineering trade off.
+[01:30.700 --> 01:36.460]  Again, I repeat off how low a value for R bleed you should have.
+[01:36.660 --> 01:41.380]  The lower the value, the better it will be for turning off the transistor.
+[01:41.380 --> 01:46.780]  But on the other hand, it also means that any current that's developed through the first
+[01:46.780 --> 01:54.780]  transistor will now have to be split between the base current of Q2 as well as the bleed
+[01:54.780 --> 02:01.840]  resistor, which cannot be taken out intelligently.
+[02:02.280 --> 02:02.480]  All right.
+[02:02.560 --> 02:04.420]  And so that's the limitation.
+[02:04.420 --> 02:11.920]  So this is essentially why Darlington packages, all right, the prepackaged Darlington transistor
+[02:11.920 --> 02:21.680]  configurations such as the TIP120 essentially have a fairly high gain, but it is not in the
+[02:21.680 --> 02:36.120]  10,000 range or 8,000 range. So TIP120, 2,500 beta because some of that emitter current from Q1
+[02:36.120 --> 02:41.400]  is actually being bled off by the internal resistor.
+[02:42.280 --> 02:42.340]  Okay.
+[02:42.820 --> 02:47.100]  But even then, even with this configuration,
+[02:47.260 --> 02:52.000]  rather unfortunately, it is not really that fast.
+[02:52.100 --> 02:54.860]  It's all a question of trade-offs.
+[02:55.260 --> 02:55.420]  Okay.
+[02:55.440 --> 02:58.360]  So there are ways around this problem,
+[02:58.360 --> 03:01.220]  but not using a Darlington configuration.
+[03:02.000 --> 03:02.220]  Okay.
+[03:02.480 --> 03:02.860]  All right.
+[03:02.860 --> 03:04.940]  So let's go forward with this.
+[03:04.940 --> 03:12.200]  okay sorry I feel like sneezing because I have the electric fan on
+[03:12.200 --> 03:17.240]  and it's one of those mornings okay so let's go forward
+[03:17.240 --> 03:24.820]  excuse me now I feel better okay so let's go to the next one here
+[03:24.820 --> 03:33.760]  on this next slide what we see essentially are considerations for discrete
+[03:33.760 --> 03:38.320]  combinations to produce a Darlington.
+[03:38.320 --> 03:46.960]  So yes, you can buy pre-manufactured Darlington transistor.
+[03:47.440 --> 03:52.460]  The 2N6055, for example, is another one of those.
+[03:52.540 --> 03:54.880]  So I've already mentioned the TIP120.
+[03:56.000 --> 04:00.740]  The 2N6055, if I might recall correctly,
+[04:00.740 --> 04:04.520]  is also another Darlington.
+[04:04.720 --> 04:08.740]  So this is the Darlington version of the 2N3055,
+[04:10.120 --> 04:15.940]  the ubiquitous high-powered transistor from the late 1970s.
+[04:15.940 --> 04:21.780]  Okay, so the thing here about these, all right,
+[04:21.880 --> 04:26.000]  is that they may not necessarily fit your requirements,
+[04:26.100 --> 04:28.960]  meaning that perhaps they're a little bit on the slow side,
+[04:29.500 --> 04:33.880]  Perhaps they don't quite have the power handling that you need.
+[04:33.940 --> 04:36.980]  You need something even more powerful or whatever.
+[04:37.160 --> 04:41.120]  Maybe their beta is still quite up to what you want.
+[04:41.820 --> 04:47.680]  So one other possibility, of course, is now that you know how to put the two transistors together to form a Darlington,
+[04:47.740 --> 04:52.600]  by all means, go ahead and choose your own transistors and make your own Darlington.
+[04:52.600 --> 05:01.120]  Okay, so things that you need to keep in mind from this earlier configuration, the vast majority of the current passes through Q2.
+[05:01.660 --> 05:06.640]  So your large current handling is through Q2.
+[05:07.540 --> 05:15.780]  Okay, Q1 only provides the base current as well as well, of course, the bleed current that's needed to turn Q2 off.
+[05:15.780 --> 05:25.840]  All right. Q2 then becomes really the slave, this high strength device in the Darlington configuration.
+[05:26.220 --> 05:39.380]  So this is what you'd put as the bigger transistor, while Q1 is generally just a small transistor because it provides just the base current for Q2 and whatever other small factors that you might have there.
+[05:39.380 --> 05:55.340]  Okay, so the advantage essentially really is that high power transistors betas are usually very moderate, whereas small transistors, the beta can be quite high as well.
+[05:55.500 --> 06:03.020]  Of course, you know, they actually turn on and turn off faster, but in this case, it's not really a big factor.
+[06:03.020 --> 06:15.580]  Okay, so as implied here in the drawing, this could be, for example, chosen as Q1 and this one can be chosen as Q2.
+[06:15.580 --> 06:27.220]  Okay, so by physical size alone, but let's look at the actual transistor characteristics that make up this combination, which is the primary consideration.
+[06:27.220 --> 06:38.820]  So here's another one here. So this could be, again, your Q1, and then this one could be your Q2. I'm just giving multiple examples here.
+[06:38.820 --> 06:59.960]  All right. So considerations would be that aside from the current, you'd want to take note that the collector emitter voltage rating of both transistors have to be capable of handling the requirements of the supply voltage.
+[06:59.960 --> 07:14.720]  Again, if you look at the Darlington configuration, essentially, you expect that the full voltage, whatever the supply is, for example, here is your load going to ground.
+[07:15.540 --> 07:19.100]  By the way, this makes it a high-size switch, which is not a good idea.
+[07:19.100 --> 07:34.100]  But even if we flip it around regardless, so even if we were to flip it around, when the transistor is basically off, then you have the full supply voltage.
+[07:34.900 --> 07:43.580]  The whole supply voltage is across the two transistors with some minor difference.
+[07:43.580 --> 07:51.500]  This one obviously has the full VS voltage. The first transistor has the VS voltage minus about
+[07:51.980 --> 08:02.300]  0.7, which is practically the same thing. So choose transistors that can handle the supply
+[08:02.300 --> 08:08.700]  voltage. Choose transistors that can handle the supply voltage. Both Q1 and Q2 must have
+[08:08.700 --> 08:17.480]  that capacity. So you don't need to have the two transistors have equal voltage ratings. They can
+[08:17.480 --> 08:26.440]  be different, but as long as their spec is greater than the supply voltage. And you need to be a
+[08:26.440 --> 08:33.140]  little bit on the conservative side with transistors. When you choose a transistor, you overfactor the
+[08:33.140 --> 08:42.300]  VCEO rating by maybe 25-30% just to be on the safe side. Okay, now second thing is most of the
+[08:42.300 --> 08:51.840]  power will go through Q2. It's max if you're using it as a switch, okay, then well maybe it's not that
+[08:51.840 --> 08:58.700]  bad but on the other hand, you know, it really depends a lot on the saturation voltage here
+[08:58.700 --> 09:11.880]  But because of that extra 0.7 at the very least, you are looking at a total voltage of about at least one volt or more.
+[09:12.800 --> 09:22.640]  And in a typical Darlington, it's actually a lot worse than that, which means that there's a significant amount of power dissipation on that second transistor.
+[09:22.640 --> 09:31.180]  So you have to make sure, again, that the power, typically anyway, these bigger transistors would be quite large.
+[09:31.960 --> 09:32.040]  Okay?
+[09:32.600 --> 09:32.960]  All right.
+[09:33.080 --> 09:47.860]  Now, the other thing that's stated here with all of these limitations and constraints, basically the idea is don't use a Darlington unless you really have to because there's so many considerations that you have to put in your head.
+[09:48.620 --> 09:48.880]  Okay?
+[09:49.480 --> 09:50.060]  All right.
+[09:50.060 --> 09:55.220]  So a couple of sample Q1, Q2 combinations that we have here.
+[09:55.320 --> 09:58.760]  You can write this down for future reference or whatever.
+[09:59.260 --> 10:05.700]  The first example that we had a while ago visually was something like the 2N222.
+[10:06.520 --> 10:11.720]  All right, 2N2222 with Q as Q1.
+[10:12.200 --> 10:16.580]  You might want to put in something like the TIP31 as Q2.
+[10:16.800 --> 10:18.340]  So how does that go?
+[10:18.340 --> 10:26.260]  Well, as far as specs are concerned, VCEO of a 282222 is 50 volts.
+[10:26.980 --> 10:30.660]  Beta could be in the neighborhood of about 200 to 300.
+[10:31.220 --> 10:34.500]  The maximum collector current is 800.
+[10:35.620 --> 10:37.660]  Missing here would be the power dissipation.
+[10:37.860 --> 10:46.760]  I believe the 282222 is something like only something like 600 milliwatts due to its tiny package.
+[10:47.720 --> 10:53.080]  In this case, you probably are not going to keep anywhere near its participation limit.
+[10:53.780 --> 10:59.600]  Whereas, okay, so the TIP31B, on the other hand, is a TO220 package.
+[10:59.900 --> 11:01.800]  It's quite a bit more robust.
+[11:02.280 --> 11:04.400]  Its VCO rating is 60V.
+[11:04.440 --> 11:06.540]  So you have a very strong similarity here.
+[11:06.540 --> 11:10.380]  They're both sort of low-ish voltage transistors.
+[11:11.060 --> 11:13.160]  The beta is only 25 to 50.
+[11:13.480 --> 11:15.900]  So this is the accuracy of the TIP31.
+[11:16.620 --> 11:20.680]  It's a very old transistor, but it's also quite cheap, right?
+[11:21.080 --> 11:24.320]  With a current rating of 3 amperes.
+[11:24.320 --> 11:29.820]  So it's a nice step up from the capacities of the 2N2222.
+[11:30.720 --> 11:38.240]  You can actually, the power dissipation of the TIP31 would be, you know, in a couple of watts.
+[11:38.840 --> 11:41.940]  Something like maybe 25, 30 watts, I don't quite remember.
+[11:42.140 --> 11:43.780]  But it's quite a bit bigger.
+[11:43.780 --> 11:54.860]  so this is a nice combination to use right if that is not enough so you can easily calculate
+[11:54.860 --> 12:02.720]  that with this kind of a combination you might get in the neighborhood of easily over a thousand
+[12:02.720 --> 12:11.500]  for the total beta for the Darlington even with the bleed resistor in place okay another
+[12:11.500 --> 12:19.660]  combination that might be possible would be the MJE15030, which is a transistor that basically
+[12:19.660 --> 12:28.520]  looks like this, right? And then the 2N3771, which is a very robust, big power transistor.
+[12:28.520 --> 12:38.240]  It looks like the 2N3055, but it says 2N3771. As far as its specs are concerned, look at that.
+[12:38.240 --> 12:43.340]  It's only 40 volts with a beta of 50 to 60, really pathetic.
+[12:43.920 --> 12:47.700]  But it has a current handling capacity of 30 amperes.
+[12:48.400 --> 12:50.240]  And that is humongous, right?
+[12:50.320 --> 12:53.660]  It's a very, very robust and big power transistor.
+[12:53.820 --> 12:57.100]  I believe it's rated at 200 watts of power dissipation.
+[12:57.600 --> 13:06.820]  So this is really hefty and very often used in power supplies, for example, where you need that capacity.
+[13:06.820 --> 13:19.820]  So this would be a medium current to high current, medium current to high current application requirement.
+[13:21.080 --> 13:21.160]  Okay.
+[13:21.980 --> 13:32.840]  The combination produces a modest beta because both of them do not have particularly high beta characteristics.
+[13:32.840 --> 13:34.380]  But hey, what the hell.
+[13:34.380 --> 13:43.260]  But still, when you multiply 50, 40 by another 40, that's still 1,600.
+[13:43.580 --> 13:48.600]  So again, you can pull easily a beta factor of about 1,000 maybe
+[13:48.600 --> 13:51.440]  or maybe 800 from such a combination.
+[13:52.400 --> 13:53.420]  Okay? All right.
+[13:54.280 --> 13:59.940]  Possible other pairs, TIP31 with the 2M3771.
+[13:59.940 --> 14:04.040]  So instead of this one, you replace it with this guy.
+[14:04.380 --> 14:12.860]  which is definitely possible. It's even probably even better. Okay. Although the TIP31 is a very
+[14:12.860 --> 14:21.900]  slow transistor, the MJE15030 is quite a bit faster. 2N2222 with the MJE15030 would also be
+[14:21.900 --> 14:29.580]  a possible combination. Definitely for its power handling, its current capacity, this would be a
+[14:29.580 --> 14:33.140]  a nice transistor to work with the 2N2222.
+[14:34.280 --> 14:38.880]  And as far as beta is concerned,
+[14:38.880 --> 14:43.340]  it's very, very similar to the TIP31.
+[14:43.340 --> 14:45.760]  It's got a significantly higher voltage rating,
+[14:45.760 --> 14:47.500]  which makes it, you know,
+[14:47.500 --> 14:50.580]  bitil, sayang, okay?
+[14:50.580 --> 14:51.740]  But what the hell?
+[14:53.220 --> 14:57.400]  If you want the high voltage, low, small transistor,
+[14:57.400 --> 15:02.080]  then the 2N5551 might be a much better choice.
+[15:02.280 --> 15:04.720]  It's a very high voltage transistor.
+[15:05.440 --> 15:07.960]  It's rated at about 150 volts,
+[15:07.960 --> 15:12.140]  which matches the VCEO of the NGE15030,
+[15:12.820 --> 15:16.800]  according to the memory system in my brain.
+[15:17.240 --> 15:20.800]  Okay, all of the specs that you see
+[15:20.800 --> 15:23.140]  that are printed here on this slide are correct.
+[15:23.660 --> 15:26.260]  Everything else that I have added from memory
+[15:26.260 --> 15:27.740]  are subject to verification.
+[15:28.460 --> 15:28.640]  Okay?
+[15:29.080 --> 15:30.600]  So, anyway, there you go with that.
+[15:30.700 --> 15:33.020]  Are there any questions regarding this
+[15:33.020 --> 15:34.900]  before we go on to the next slide?
+[15:35.940 --> 15:36.640]  We are okay?
+[15:38.080 --> 15:38.700]  Are we okay?
+[15:39.260 --> 15:39.660]  Yes?
+[15:39.880 --> 15:40.080]  No?
+[15:43.840 --> 15:44.400]  Alright.
+[15:45.060 --> 15:45.280]  Sige.
+[15:45.560 --> 15:46.960]  So, thumbs up.
+[15:47.160 --> 15:48.280]  Isa lang yun ang thumbs up.
+[15:48.360 --> 15:49.780]  Yung mga iba, puro ghost.
+[15:50.280 --> 15:50.800]  Okay.
+[15:51.640 --> 15:53.120]  So, let's go forward.
+[15:54.660 --> 15:54.960]  Okay?
+[15:54.960 --> 16:01.700]  So as a summary for the Darlington, the good side of it is we get very high current gain.
+[16:02.720 --> 16:10.440]  They're available as single packages already because of their obvious utility being recognized by the industry.
+[16:12.180 --> 16:17.280]  On the bad side of things, well, you have your higher saturation voltage,
+[16:17.280 --> 16:20.840]  slower switching speeds
+[16:20.840 --> 16:25.040]  and higher VBE requirement
+[16:25.040 --> 16:29.720]  because you need at least 1.4 volts or so
+[16:29.720 --> 16:31.700]  to turn on the Darlington
+[16:31.700 --> 16:33.260]  unlike a single transistor.
+[16:34.080 --> 16:34.800]  Okay, all right.
+[16:34.880 --> 16:36.600]  So that's it for that one.
+[16:36.700 --> 16:40.180]  And of course, there are a lot of other things here
+[16:40.180 --> 16:42.560]  about linearity and so on and so forth.
+[16:42.680 --> 16:45.120]  But this is the gist of it.
+[16:45.120 --> 16:58.540]  Okay, now, the other thing that another configuration for compound transistors is what we call the Ziklay pair, all right, the Ziklay pair.
+[16:59.360 --> 17:01.600]  Again, this is a compound transistor.
+[17:01.600 --> 17:07.540]  It's a two-transistor configuration that acts as a single unit, all right,
+[17:07.620 --> 17:18.060]  named after somebody who is called George Ziklai, a Hungarian who wound up in the United States in about 1930.
+[17:18.720 --> 17:23.960]  He has around 160 patents to his name, so he's obviously very intelligent, all right,
+[17:24.420 --> 17:28.980]  several of which are in television development, okay?
+[17:28.980 --> 17:40.720]  So this particular configuration appears in his 1956 patent on a push-pull amplifier configuration, push-pull amplifier used for audio reproduction purposes.
+[17:40.720 --> 18:08.560]  So the motivation behind George Ziklay's invention basically is the fact that the availability of symmetric opposite polarity transistors were hard to come by in the 1950s, 1960s.
+[18:08.560 --> 18:21.500]  So to create a competent push-pull audio amplifier, basically what you need are NPN and PNP pairs.
+[18:22.040 --> 18:33.340]  A pair of complementary transistors, power transistors.
+[18:33.340 --> 18:46.300]  okay, power transistors. All right. So the idea behind the push-pull configuration is that you have two opposite polarity transistors,
+[18:46.300 --> 19:00.060]  which basically look usually something like this. You'd have your, what's this, NPN on top, and then you'd have your PNP basically at the bottom,
+[19:00.060 --> 19:04.260]  and you'd have your positive and negative supply voltages
+[19:04.260 --> 19:07.740]  and these would be connected together through small resistors
+[19:07.740 --> 19:11.780]  and that's what's used to basically drive the loudspeaker.
+[19:12.860 --> 19:17.280]  The idea behind using this, of course, you probably recognize it,
+[19:17.360 --> 19:20.840]  is something similar to the high side, low side switch
+[19:20.840 --> 19:23.680]  except that when you drive a speaker,
+[19:23.980 --> 19:27.300]  you want to be able to drive it upwards and downwards.
+[19:27.300 --> 19:35.460]  So your supply voltages are usually set as positive and negative versus ground, which is zero.
+[19:35.960 --> 19:49.700]  Then you have these two transistors with complementary nature being able to drive the thing with as much mirror characteristics as possible to minimize distortion.
+[19:49.700 --> 20:06.520]  So the problem in the mid-1950s or early 1950s for that matter is that the NPN and PNP power transistors were vastly different.
+[20:06.660 --> 20:10.140]  You could not find complementary pairs.
+[20:10.820 --> 20:12.260]  They were difficult to come by.
+[20:12.260 --> 20:22.660]  And so the idea of George Ziklay was to create a transistor configuration
+[20:22.660 --> 20:28.260]  that could emulate a particular transistor polarity
+[20:28.920 --> 20:32.540]  using the opposite characteristic transistor.
+[20:33.280 --> 20:34.980]  So let's go over here.
+[20:35.600 --> 20:38.060]  Let's see what exactly that is.
+[20:38.060 --> 21:07.980]  So here are the details. Developed in a time when PNP transistors were more available and cheaper than NPN. But because they're built out of dissimilar technologies, one is germanium and the other one is silicon and so on and so forth, even if they were complementary, one is PNP, one is NPN, their characteristics really don't match.
+[21:08.060 --> 21:11.280]  They have very poor characteristics.
+[21:12.140 --> 21:12.360]  All right?
+[21:12.840 --> 21:23.700]  So the idea of Ziklai was to have, if it were possible, to make a PNP operate as an NPN.
+[21:24.420 --> 21:24.720]  All right?
+[21:24.760 --> 21:26.840]  Because these were more available.
+[21:27.120 --> 21:30.260]  The PNPs were more available than the NPN transistors.
+[21:30.260 --> 21:42.820]  The situation these days, starting from the 1970s towards the 1980s and so on and so forth, was that it switched around.
+[21:43.740 --> 21:53.540]  MPN became much more popular and widely available than their PNP counterparts.
+[21:53.540 --> 22:02.020]  So the same situation still arises, except that it's now of the opposite polarity.
+[22:02.720 --> 22:03.680]  Okay? All right.
+[22:04.280 --> 22:07.700]  So anyway, given this, that was the motivation.
+[22:07.940 --> 22:14.720]  That's why Ziklay came up with this configuration, the ability to change the polarity
+[22:14.720 --> 22:21.220]  or make a transistor act as an opposite polarity device.
+[22:21.220 --> 22:36.020]  But as it turns out, doing so using a compound transistor configuration also created a pair that had high data.
+[22:37.060 --> 22:50.020]  So that allowed for also an increase in data very, very similar to the Darlington with certain other advantages.
+[22:50.020 --> 23:01.120]  So let's have a look at this configuration, which is much less used nowadays, admittedly, but is still a very, very viable option.
+[23:01.700 --> 23:03.040]  So let's have a look at this.
+[23:03.200 --> 23:12.400]  So this is the ZikLite configuration, which is sometimes also called the complementary feedback pair or CFP for short.
+[23:12.400 --> 23:34.140]  So if you design or look at audio amplifiers and forums that discuss audio amplifiers these days, you will find that people, when they talk on the forums, mention this and usually they just simply say CFP.
+[23:34.800 --> 23:36.820]  So what the hell is a CFP?
+[23:36.820 --> 23:42.160]  Well, CFP stands for Complementary Feedback Pair, aka Zikline.
+[23:42.400 --> 23:47.840]  So these are just alternative names for each other.
+[23:48.560 --> 23:48.780]  Okay.
+[23:49.160 --> 23:49.500]  All right.
+[23:49.680 --> 23:51.200]  Something's getting covered here.
+[23:53.260 --> 23:57.600]  So the Ziklay or CFP configuration looks as follows.
+[23:57.600 --> 24:01.120]  You have one transistor here.
+[24:01.240 --> 24:03.440]  In this case, you see that this is an NPN.
+[24:04.360 --> 24:04.560]  All right.
+[24:04.640 --> 24:06.960]  So here's Q1, which is already stated here.
+[24:07.040 --> 24:07.260]  Sorry.
+[24:07.260 --> 24:13.720]  And in this case, the second transistor is always the opposite polarity.
+[24:14.160 --> 24:17.620]  The second transistor is always opposite polarity of the first one.
+[24:20.960 --> 24:27.260]  In a CFP, the compound configuration, that's this one that's being covered,
+[24:27.260 --> 24:43.140]  The compound configuration of the two basically is the equivalent of a single transistor following the polarity of the first transistor in the pair.
+[24:44.660 --> 24:48.200]  So the basic same concept applies here.
+[24:49.580 --> 24:55.060]  The second transistor is the more powerful one, just like the Darlington.
+[24:55.060 --> 25:05.080]  The first transistor is the driver that drives the second transistor and so can be a smaller device.
+[25:05.760 --> 25:12.960]  So back in 1956, there was a greater abundance of high-powered PMP transistors.
+[25:13.700 --> 25:19.240]  MPM transistors that were high-powered were harder to come by and much more expensive.
+[25:19.240 --> 25:24.400]  So this is a cost savings.
+[25:24.920 --> 25:43.040]  By being able to put the NPN small transistor, which makes it not so expensive, coupled to a large PNP, which is more available, we get a high-powered NPN equivalent.
+[25:44.320 --> 25:48.680]  And that can now be used for whatever purposes.
+[25:49.240 --> 25:58.180]  necessary. Okay. All right. Now there is a reason for calling it a feedback pair. All right. There
+[25:58.180 --> 26:04.760]  is a reason that it's called the feedback pair. And as you can see the configuration here where
+[26:04.760 --> 26:12.120]  you have the first transistor basically driving the second one, the output is taken at the collector
+[26:12.120 --> 26:18.140]  and drives it signal back into the first one. So that's why it's called the complementary
+[26:18.140 --> 26:20.440]  feedback pair. They are of
+[26:20.440 --> 26:22.680]  complementary polarity and there
+[26:22.680 --> 26:24.620]  is a feedback that takes
+[26:24.620 --> 26:26.540]  place. And so a little bit of
+[26:26.540 --> 26:28.580]  explanation about this configuration is
+[26:28.580 --> 26:29.740]  probably necessary.
+[26:31.800 --> 26:32.480]  Bottom
+[26:32.480 --> 26:34.460]  line is if we look at it,
+[26:34.520 --> 26:35.660]  the current gain
+[26:35.660 --> 26:37.200]  is
+[26:37.200 --> 26:40.800]  similar to the
+[26:40.800 --> 26:42.780]  Darlington but not
+[26:42.780 --> 26:44.760]  quite as big. So you're
+[26:44.760 --> 26:46.640]  going to see here that it is
+[26:46.640 --> 26:59.100]  basically equal to the beta of Q2 multiplied by the beta of Q1 with the beta of Q1 with the
+[26:59.100 --> 27:06.680]  additive factor. So you might recall that in a Darlington, there is the sum of beta of Q1 plus
+[27:06.680 --> 27:14.580]  the beta of Q2. So in this case, there's no beta for beta Q2 in the sum term. It's only the product
+[27:14.580 --> 27:21.780]  term that actually has it. So the overall data for this configuration is slightly lower than what
+[27:21.780 --> 27:30.020]  you could get if you used a Darlington. Okay? So again, if you just get the largest part of it,
+[27:30.020 --> 27:39.460]  it is the product term. And so in this particular, you know, engineering, hand-waving, basically,
+[27:39.460 --> 27:46.300]  the beta of the CFP and the Darlingtons are practically the same.
+[27:46.740 --> 27:48.640]  There's a very, very small difference.
+[27:49.080 --> 27:51.900]  So people just basically ignore it and say,
+[27:52.000 --> 27:55.400]  okay, they're pretty much similar when it comes to this aspect.
+[27:56.120 --> 27:57.040]  Okay? All right.
+[27:57.360 --> 28:00.720]  So what about the other characteristics?
+[28:00.860 --> 28:03.020]  So let's just say that the betas are equal.
+[28:03.020 --> 28:09.100]  Then why would we want to use a CFP instead of a Darlington and vice versa?
+[28:09.460 --> 28:11.680]  So let's look at the other characteristics.
+[28:11.900 --> 28:12.840]  What about the VBE?
+[28:14.700 --> 28:18.980]  So when you look at the VBE turn-on requirements,
+[28:18.980 --> 28:21.340]  remember that in a Darlington,
+[28:21.640 --> 28:30.100]  the VBE requirements are basically the VBE of the two transistors.
+[28:30.280 --> 28:33.180]  So it's VBE times two or roughly 1.4 volts.
+[28:33.640 --> 28:38.360]  In this case, you only have to turn on the first transistor,
+[28:38.360 --> 28:45.740]  which then begins its job of pulling the second transistor's base downward or upward,
+[28:46.080 --> 28:47.400]  depending on its polarity.
+[28:47.620 --> 28:57.620]  But yeah, so VBE, all right, of the CFP is basically equal to one junction.
+[28:58.500 --> 29:03.080]  One junction, which is equal to 0.7 volts.
+[29:03.080 --> 29:09.120]  Okay, so in a Darling Con, it's two junctions, which gives us 1.4.
+[29:09.280 --> 29:16.840]  And so therefore, as far as VBE is concerned, the CFP has a lower turn-on voltage requirement,
+[29:17.120 --> 29:24.160]  pretty much similar to a, well, pretty much equal to a single transistor VBE.
+[29:24.160 --> 29:33.060]  All right, so winner in this case is the CFP as far as turn-on voltage for the base is concerned.
+[29:33.080 --> 29:47.720]  Okay. All right. What else? All right. So let's go to the next one. Saturation. All right. So for saturation, this is actually pretty similar to the Darlington.
+[29:47.720 --> 29:55.560]  VBE voltage of Q2 plus the saturation voltage of Q1.
+[29:55.780 --> 30:10.720]  So we have this guy, VBE plus Vsat of Q1 as the total voltage requirement for the Vsat of CFP.
+[30:15.720 --> 30:16.640]  CFP.
+[30:16.640 --> 30:18.640]  Okay, so pareho lang.
+[30:19.100 --> 30:19.380]  All right.
+[30:20.480 --> 30:25.560]  Some references basically say that the CFP has slightly higher saturation.
+[30:27.280 --> 30:31.640]  Maybe because the second pair in this case is a PNP transistor,
+[30:32.400 --> 30:34.820]  which is usually slightly weaker of the two.
+[30:35.520 --> 30:40.880]  But yeah, we can probably again do a little bit of engineering,
+[30:41.160 --> 30:44.420]  hand-waving and saying that the saturation is practically the same.
+[30:44.780 --> 30:45.420]  Okay.
+[30:45.740 --> 30:46.220]  All right.
+[30:46.220 --> 30:50.320]  So that's that with the saturation.
+[30:52.380 --> 30:54.900]  What else do we have to look at here?
+[30:55.840 --> 30:59.680]  What about the speed to complete the analysis?
+[31:00.880 --> 31:06.240]  So in this case, the CFP also has a problem
+[31:06.240 --> 31:14.440]  where the second transistor does not have a bleed path
+[31:14.440 --> 31:15.940]  when it's turning off.
+[31:16.220 --> 31:34.240]  The electrons that are trapped in the second transistor cannot bleed out because they're blocked by the base to collector junction of the first guy.
+[31:35.600 --> 31:38.180]  And really, there's not much of a path there.
+[31:38.180 --> 31:43.420]  So the requirement in this case is the same.
+[31:43.420 --> 31:49.520]  put a bleed resistor as required to make it turn off quickly.
+[31:50.160 --> 31:50.780]  Okie dokes.
+[31:51.240 --> 31:59.700]  So that's it really for the analysis between the two as far as these configurations.
+[31:59.920 --> 32:02.680]  So you'll notice that they're very, very similar in nature.
+[32:04.260 --> 32:12.260]  The configuration that we showed you a while ago produces a compound transistor
+[32:12.260 --> 32:14.320]  that emulates an NPN.
+[32:14.680 --> 32:16.560]  Again, we can see that it follows
+[32:16.560 --> 32:19.300]  the first transistor's polarity.
+[32:19.820 --> 32:21.140]  And if you need to make
+[32:21.140 --> 32:23.420]  a complementary feedback pair
+[32:23.420 --> 32:26.020]  PNP equivalent,
+[32:26.340 --> 32:28.060]  then this is what it would look like.
+[32:28.360 --> 32:28.620]  All right?
+[32:28.680 --> 32:30.360]  So this is your PNP equivalent,
+[32:30.860 --> 32:35.780]  again, following the first transistor's polarity.
+[32:36.200 --> 32:36.480]  Okay?
+[32:36.600 --> 32:37.340]  So there you go.
+[32:37.440 --> 32:39.360]  So that's your CFP.
+[32:40.100 --> 32:40.540]  All right?
+[32:40.540 --> 32:43.360]  showing you both possibilities
+[32:43.360 --> 32:45.500]  as far as polarities are concerned.
+[32:45.980 --> 32:47.160]  Are there any questions?
+[32:48.320 --> 32:49.380]  Meron bang tanong?
+[32:54.960 --> 32:55.600]  Questions?
+[32:55.920 --> 32:56.700]  Kung walang tanong,
+[32:56.840 --> 32:58.460]  please indicate so
+[32:58.460 --> 32:59.820]  by saying that, you know,
+[33:01.260 --> 33:02.140]  thumbs up.
+[33:03.040 --> 33:03.420]  Okay.
+[33:04.140 --> 33:04.360]  Alright.
+[33:04.580 --> 33:05.920]  Isa lang ang sumasagot.
+[33:06.920 --> 33:07.760]  Mga iba!
+[33:08.000 --> 33:08.220]  Hello!
+[33:08.620 --> 33:08.780]  Hello!
+[33:08.780 --> 33:10.740]  are you there?
+[33:11.120 --> 33:12.440]  Earth calling students
+[33:12.440 --> 33:12.940]  okay
+[33:12.940 --> 33:15.240]  so
+[33:15.240 --> 33:19.440]  there's one last thing that we can look at here
+[33:19.440 --> 33:20.220]  alright
+[33:20.220 --> 33:23.800]  reasons for CFP versus Darlington
+[33:23.800 --> 33:24.620]  okay
+[33:24.620 --> 33:25.880]  aside from the VBE
+[33:25.880 --> 33:27.480]  the complementary
+[33:27.480 --> 33:31.120]  configuration of the CFP
+[33:31.120 --> 33:34.460]  complementary feedback there
+[33:34.460 --> 33:35.480]  alright
+[33:35.480 --> 33:38.100]  alright
+[33:38.780 --> 33:49.180]  allows us to create opposite polarity characteristic transistors through that compound combination,
+[33:49.180 --> 33:53.020]  whereas the darling does not. So that might be a reason.
+[33:56.300 --> 34:06.940]  We can create a cheaper N channel or P channel type, MPN or PNP type using the CFP as the basis.
+[34:06.940 --> 34:19.920]  All right? Okay. So the other thing with it, this is just additional information, is about the linearity of the device.
+[34:19.920 --> 34:47.720]  So when used as intended by George Ziklai as a polarity changer back then, and still retaining basically the idea of a CFP as an output transistor, but we can now in modern times create those of opposite polarity without any problem.
+[34:47.720 --> 35:11.500]  So either an equivalent N channel and an equivalent P channel put together as a high beta combination for audio amplification purposes, for driving a loudspeaker.
+[35:11.500 --> 35:18.980]  The characteristic of the CFP versus the Darlington is shown here.
+[35:19.980 --> 35:25.520]  Here you have two transistors, or two output stages.
+[35:26.120 --> 35:28.940]  One which is the Darlington output pair.
+[35:29.180 --> 35:33.580]  Just remember again that these are two transistors put together, Darlington, Darlington.
+[35:34.040 --> 35:36.400]  Darlington at the top, Darlington at the bottom.
+[35:36.400 --> 35:45.500]  As I said, Ziklay combination is CFP on top, CFP at the bottom, again of opposite polarity.
+[35:45.800 --> 35:47.300]  That's the only way that it will work.
+[35:47.800 --> 35:50.200]  And we use that to drive a loudspeaker.
+[35:50.860 --> 35:54.400]  Our supply voltages are of opposite polarity.
+[35:54.400 --> 36:08.740]  So what you'd want is with the best possible combination where the transfer function is as linear as possible.
+[36:08.740 --> 36:25.320]  So the ideal case is given this plot of input plus output voltage characteristic versus normalized beta transfer function.
+[36:27.320 --> 36:35.440]  We would want the characteristic to be as flat as possible.
+[36:35.440 --> 36:45.780]  This is not really beta, but rather V in versus V out over V in.
+[36:46.160 --> 36:47.600]  So this is V out.
+[36:47.840 --> 36:51.980]  Technically speaking, that's been normalized against V in.
+[36:52.080 --> 36:54.240]  That's why it only goes up to 1.0.
+[36:55.080 --> 37:00.280]  So if you look at it, you're measuring voltages here.
+[37:00.280 --> 37:08.220]  All right. So here is your complimentary feedback pair, which I'll just draw very briefly so that you know what we're looking at here.
+[37:10.840 --> 37:18.260]  Driving load with your V plus and V minus as the supply.
+[37:18.400 --> 37:20.440]  And then you have an input voltage here.
+[37:21.060 --> 37:26.780]  There is a missing thing here, which is your bias in between, but that just models up the discussion.
+[37:26.780 --> 37:28.880]  So I drive this.
+[37:29.520 --> 37:39.120]  Now the ideal characteristic is that these two transistors will work in their voltage zone of preference.
+[37:39.360 --> 37:43.640]  In this case, if you're in the positive zone, then it's this guy that's working.
+[37:44.040 --> 37:48.260]  If your input voltage is negative, then it's this other guy that's working.
+[37:48.260 --> 37:59.660]  And you would want them to basically produce a very, very symmetric linear output that follows the input exactly.
+[38:00.700 --> 38:04.960]  Now, you don't get a gain of 1 in this case.
+[38:05.060 --> 38:06.120]  It's a little bit lower.
+[38:07.160 --> 38:12.520]  But as you can see here, dependent on the load resistance, our load,
+[38:12.520 --> 38:29.380]  So with similar conditions, we can see that the transfer function of the Ziklai output pair matches and is much more linear compared to that of the Darlington.
+[38:30.060 --> 38:33.460]  Okay, so this is where the CFP is actually better.
+[38:33.460 --> 38:39.020]  It's the linearity of the device inherent because it's a feedback pair.
+[38:39.440 --> 38:42.320]  It's self-correcting through its own data.
+[38:42.520 --> 38:54.920]  And so we get a much cleaner transfer if the thing is configured as a ZipLight.
+[38:55.020 --> 38:59.380]  So this is one of the advantages of the CFP combination,
+[38:59.840 --> 39:07.660]  which is why certain audio amplifiers use the ZipLight configuration as their output.
+[39:07.660 --> 39:19.140]  But you will also find that there are a lot of audio solid-state transistor amplifiers that use a Darlington configuration because they're actually easier to work with.
+[39:19.140 --> 39:25.120]  One of the things that's not stated here is that the CFP is also a little bit more unstable.
+[39:25.340 --> 39:32.600]  So it's actually harder to get going properly compared to the Darlington.
+[39:32.600 --> 39:39.520]  But, you know, that's advanced info and not part of the discussion anymore.
+[39:39.960 --> 39:40.160]  Okay.
+[39:40.440 --> 39:42.220]  That was the last slide, I think.
+[39:42.900 --> 39:48.180]  And so it's high time we go to the next topic here.
+[39:48.600 --> 39:50.400]  We are by no means finished.
+[39:50.400 --> 39:54.940]  So let's just go over, show, start slide show.
+[39:55.660 --> 39:57.240]  And let me just capture this.
+[39:57.240 --> 40:01.920]  share
+[40:01.920 --> 40:06.220]  share
+[40:06.220 --> 40:07.420]  okay
+[40:07.420 --> 40:11.140]  so more applications of bipolar
+[40:11.140 --> 40:13.200]  transistors okay so this
+[40:13.200 --> 40:14.800]  is a very small collection
+[40:14.800 --> 40:16.800]  in fact it's pathetically
+[40:16.800 --> 40:19.240]  small just two configurations
+[40:19.240 --> 40:21.140]  that we'll see here which are very very similar
+[40:21.140 --> 40:21.880]  to each other
+[40:21.880 --> 40:24.660]  okay so
+[40:24.660 --> 40:26.960]  but it's important that we
+[40:26.960 --> 40:35.280]  know this because it's going to be useful in CETRON3. All right, so let's go forward. Okay,
+[40:35.280 --> 40:40.720]  so the first configuration, it's not even a configuration, it just looks like a standard
+[40:40.720 --> 40:48.640]  common emitter amplifier. But if you look at this, there is a slight difference. Okay, so
+[40:48.640 --> 40:53.740]  So this particular combination is what we call as a phase splitter.
+[40:54.740 --> 41:05.140]  And the transistor in this case, if you look at the emitter and the collector resistors,
+[41:05.140 --> 41:07.140]  they are of equal value.
+[41:07.640 --> 41:18.140]  They have the same resistance, which basically means that we don't expect that this transistor
+[41:18.140 --> 41:21.880]  has any voltage gain at all, all right?
+[41:21.920 --> 41:24.520]  So the voltage gain of this transistor
+[41:24.520 --> 41:28.860]  is basically pretty much one or a little less than one.
+[41:28.860 --> 41:32.200]  So it's not an amplifier, okay?
+[41:32.660 --> 41:35.320]  This is not an amplifier.
+[41:36.220 --> 41:40.980]  It's not being used to make the signal larger, okay?
+[41:41.440 --> 41:45.160]  In fact, the output here, all right,
+[41:45.160 --> 41:56.780]  From a single input signal, the output of this one is essentially basically taken at two places.
+[41:57.260 --> 42:00.640]  So here is output and here is another output.
+[42:01.240 --> 42:04.660]  So single supply into this configuration.
+[42:05.480 --> 42:11.740]  If we look at the collector signal, it's basically acting as a common emitter amplifier.
+[42:11.740 --> 42:18.740]  So the output of this one here on top is basically a signal of opposite polarity.
+[42:18.740 --> 42:25.740]  And let me just redraw this because people will get the wrong impression that it's got gain.
+[42:25.740 --> 42:30.740]  All right. So again, it does not have gain. Hang on. What happened here? All right.
+[42:30.740 --> 42:37.740]  Erase and go back. Okay. So we have this. All right.
+[42:37.740 --> 42:42.140]  The output on the first one, on the collector, looks like this.
+[42:42.560 --> 42:50.040]  Now, if we look at the signal at the emitter, on the other hand, it does not change the phase of the input signal.
+[42:50.500 --> 42:55.000]  So therefore, the output signal on the emitter will look like this.
+[42:55.200 --> 43:00.020]  So this is why we call it a phase splitter.
+[43:00.020 --> 43:13.980]  It produces, from a single input signal, it produces two outputs whose face is 180 degrees shifted.
+[43:14.560 --> 43:22.500]  In other words, we get a mirror characteristic signal between the two outputs.
+[43:22.500 --> 43:29.640]  Now, okay, so why would we want to do something like this?
+[43:29.640 --> 43:35.120]  Well, perhaps we just want to have a circuit that does exactly that.
+[43:35.280 --> 43:50.980]  We want it to produce an output that is both an inverting and a non-inverting version of the input signal.
+[43:51.660 --> 43:54.280]  Okay, so one output is inverting.
+[43:54.420 --> 43:57.400]  The other one is a non-inverting output.
+[43:57.400 --> 44:01.820]  and they'll always be mirror images of each other.
+[44:02.780 --> 44:02.900]  Okay?
+[44:03.580 --> 44:04.560]  So there you go.
+[44:05.160 --> 44:07.140]  Using a single transistor.
+[44:07.340 --> 44:11.200]  So this is what a face splitter is used.
+[44:11.440 --> 44:13.880]  Or, you know, what a face splitter can do.
+[44:14.500 --> 44:14.700]  Alright?
+[44:15.300 --> 44:18.240]  Are there any questions about this?
+[44:18.740 --> 44:18.980]  Okay?
+[44:19.220 --> 44:20.560]  May tanong ba tungkol dito?
+[44:20.660 --> 44:21.320]  Nagets nyo ba?
+[44:21.780 --> 44:22.740]  Kung ano yung...
+[44:22.740 --> 44:25.760]  Well, I think this is easy enough to understand.
+[44:26.160 --> 44:26.400]  Alright?
+[44:26.400 --> 44:31.060]  And so I don't suppose that there would be too much questions about this.
+[44:31.140 --> 44:37.060]  It's more like, okay, why would we want to have or where can we use something like this?
+[44:37.120 --> 44:43.460]  So as I said, it produces mirror images of each other, but it's all up in the air right now.
+[44:43.560 --> 44:45.180]  What the hell are we going to do with that?
+[44:46.600 --> 44:51.120]  Okay, so this one just goes into a little bit of an analysis about it.
+[44:51.120 --> 44:59.400]  I have already told you the voltage gain is expected to be pretty much 1.0 because it's RC over RE.
+[45:00.360 --> 45:12.240]  And the signal is basically complementary in terms of the phase with each other.
+[45:12.240 --> 45:23.420]  So one would be negative 1 times VS. The other one is positive 1 multiplied to the voltage source signal approximately.
+[45:24.180 --> 45:30.920]  Okay. All right. So if we look very carefully here, sorry, the circles are getting in the way.
+[45:30.920 --> 45:37.960]  Here is the phase splitter under LTSpice simulation.
+[45:38.880 --> 45:49.220]  The yellow is the input signal, which has been divided by two as far as the plotting function is concerned, just so that it can be differentiated.
+[45:49.500 --> 45:57.100]  So here is your input signal, but it's been divided by two just so that it looks different.
+[45:57.720 --> 45:57.980]  All right.
+[45:58.020 --> 45:58.940]  It can be distinguished.
+[45:58.940 --> 46:01.840]  And these are the output signals.
+[46:02.140 --> 46:06.700]  So pretty much obviously this is your output at the collector.
+[46:07.360 --> 46:10.420]  And this is the output that you get at the emitter.
+[46:10.600 --> 46:17.400]  And you see that they are basically symmetric but opposite in polarity.
+[46:17.760 --> 46:22.480]  As I said, times positive 1 and times negative 1.
+[46:23.380 --> 46:24.640]  So there you go.
+[46:24.940 --> 46:27.500]  That's your phase splitter in action.
+[46:27.500 --> 46:41.500]  And yeah, because the signals here are extremely small, and we're not asking the transistor to actually amplify the signal, you can see that the distortion levels are also quite small.
+[46:41.500 --> 46:51.940]  small. They're not even visually visible. And you can see that based on the symmetry of the
+[46:51.940 --> 46:58.680]  inverting as well as non-inverting outputs, they look pretty much the same. You don't see any kind
+[46:58.680 --> 47:05.420]  of asymmetry between the two. Okay. All right. So there you go with that. Okay. Now we get into
+[47:05.420 --> 47:10.100]  something more interesting or a little bit more challenging.
+[47:10.900 --> 47:10.960]  Okay?
+[47:11.480 --> 47:14.240]  So exactly as titled, what the hell is this?
+[47:15.320 --> 47:15.620]  Okay?
+[47:16.080 --> 47:20.500]  Of course, the hint in this case is, well, we've just talked about the face splitter.
+[47:20.920 --> 47:24.640]  So, all right, what is this?
+[47:24.800 --> 47:25.100]  All right?
+[47:25.100 --> 47:34.240]  So if you look very, very carefully, all right, R1 and R2 provide the bias for the left transistor.
+[47:34.240 --> 47:40.240]  And obviously, the same thing happens with R3 and R4.
+[47:40.620 --> 47:44.240]  So R3 and R4, as well as R1 and R2,
+[47:44.840 --> 47:55.460]  provide the biasing just to get these transistors into their active region.
+[47:56.740 --> 48:02.700]  And then, for the sake of easy discussion,
+[48:02.700 --> 48:08.040]  imagine that R5 and R7 are equal in value.
+[48:08.380 --> 48:11.860]  So the concentration of the analysis here
+[48:11.860 --> 48:19.040]  will be basically with the stage on the left side.
+[48:19.440 --> 48:21.800]  We're concentrating on the stage,
+[48:22.260 --> 48:25.060]  the single transistor stage that's on the left side.
+[48:25.060 --> 48:30.160]  So if R5 and R7 are equal in value,
+[48:30.160 --> 48:43.260]  If you look at the previous example, those are basically your RC and RE from the phase splitter.
+[48:44.940 --> 48:55.300]  So looking at this, if you do set it in that way, then the left configuration is basically a phase splitter.
+[48:55.300 --> 49:04.800]  And now we already know what the waveform characteristics might be if we provide that input 1.
+[49:05.680 --> 49:06.640]  Okay? All right?
+[49:07.120 --> 49:11.900]  So as stated, the circuit on the left is a phase splitter.
+[49:12.940 --> 49:13.260]  Okay?
+[49:14.220 --> 49:20.300]  Admittedly, it's an oversimplification just to help understanding, but you can think of it as a phase splitter for now.
+[49:20.300 --> 49:30.080]  And if R6 is equal to R5 and equal to R7, then obviously the circuit on the right is also a phase splitter.
+[49:30.440 --> 49:31.720]  They're just the same thing.
+[49:32.180 --> 49:34.760]  So I have a phase splitter on the left.
+[49:35.160 --> 49:37.160]  We have a phase splitter on the right.
+[49:37.620 --> 49:46.940]  The only difference in this particular case is that they happen to share a common resistor, which is R7.
+[49:47.880 --> 49:48.040]  Okay?
+[49:48.600 --> 49:48.940]  All right.
+[49:48.940 --> 49:52.540]  So what the hell happens when we do that?
+[49:53.040 --> 49:57.940]  And that's the whole secret essentially behind this circuit.
+[49:58.940 --> 50:03.900]  What will it do when we do a configuration like this?
+[50:04.340 --> 50:04.460]  Okay.
+[50:04.640 --> 50:06.400]  Now, here's the interesting thing.
+[50:06.780 --> 50:12.540]  We have basically two inputs and we have two outputs here.
+[50:13.700 --> 50:13.840]  Okay.
+[50:14.040 --> 50:15.920]  OP stands for output.
+[50:15.920 --> 50:17.440]  All right.
+[50:17.440 --> 50:19.460]  Output 2 and output 1.
+[50:20.120 --> 50:20.380]  Alright?
+[50:20.680 --> 50:23.820]  And we have input 1 and input 2.
+[50:24.600 --> 50:24.720]  Okay?
+[50:25.060 --> 50:25.540]  Malipala.
+[50:25.740 --> 50:28.740]  Dapat small p yan para consistent, diba?
+[50:28.900 --> 50:30.060]  Pero anyway, what the hell.
+[50:30.620 --> 50:31.000]  Okay.
+[50:31.240 --> 50:32.060]  So there you go.
+[50:32.360 --> 50:32.600]  Alright?
+[50:32.780 --> 50:43.500]  Now, the challenge, of course, is to figure out what is the signals relationship.
+[50:43.500 --> 50:52.680]  If we put signals into input 1 and or input number 2, what do we get at output 1?
+[50:53.060 --> 50:55.000]  What do we get at output 2?
+[50:55.800 --> 51:01.800]  This job would have been a lot easier if we had two independent phase splitters.
+[51:01.920 --> 51:11.360]  But no, they are configured to share that emitter connection via R7.
+[51:12.000 --> 51:13.860]  So there is a significance there.
+[51:14.380 --> 51:21.840]  So that's what we want to basically discover and find out what's so special about this circuit.
+[51:22.540 --> 51:22.720]  Okay?
+[51:22.940 --> 51:25.340]  So let's try to trace it out.
+[51:25.920 --> 51:26.140]  Okay?
+[51:26.880 --> 51:36.600]  So assume that input number two, all right, has a sine wave and there is no signal on input number one.
+[51:36.600 --> 51:38.980]  So dito walang signal.
+[51:39.560 --> 51:39.720]  Okay?
+[51:39.720 --> 51:42.140]  So we have a flat line, okay?
+[51:42.840 --> 51:47.820]  And on input number two, we assume that we have an input signal.
+[51:48.240 --> 51:52.340]  And well, okay, it doesn't have to be sinusoidal, but let's assume that it is.
+[51:52.960 --> 51:56.040]  Okay, so here's our input signal on number two.
+[51:56.640 --> 51:58.680]  And so what happens, all right?
+[51:59.100 --> 52:07.300]  For the right transistor, for this guy here, all right, output number two is, again, because
+[52:07.300 --> 52:13.800]  it's a phase splitter, it is the complement of input number one. So if we were to draw output
+[52:13.800 --> 52:20.000]  number two here, it would look like this. All right. It would look like this. Let me just erase
+[52:20.000 --> 52:29.560]  something here. Oh, well, okay. It doesn't erase just part of the drawing, unfortunately. So
+[52:29.560 --> 52:37.040]  okay. So here is the input signal, and that's the output signal that we get over here at OP2.
+[52:37.300 --> 52:58.180]  The signal, however, at R7, which basically is a mirror, is not a mirror, but is actually just a copy of the input signal, comes out but makes its way into the emitter of the second phase splitter.
+[52:58.180 --> 53:07.440]  Okay? It makes its way into the input, well, into the emitter of the left-hand side.
+[53:08.360 --> 53:09.800]  All right? Emitter.
+[53:10.380 --> 53:15.760]  So the question, of course, is what the hell is the effect of it if it does that?
+[53:16.140 --> 53:18.620]  Okay? Now, here's the point about it.
+[53:18.760 --> 53:25.440]  We've been analyzing circuits so far that are common emitter.
+[53:25.440 --> 53:31.380]  And so you've gotten used to the concept of the signal going in at the bass.
+[53:32.760 --> 53:37.900]  You've gotten used to the concept of putting in a signal at the bass.
+[53:38.360 --> 53:44.140]  But remember, there is such a thing as a common bass amplifier.
+[53:45.300 --> 53:48.140]  There's such a thing as a common bass amplifier.
+[53:48.660 --> 53:50.660]  And remember what we said a while ago.
+[53:51.520 --> 53:54.320]  There is no signal at one.
+[53:54.320 --> 54:09.220]  So this is the equivalent of being at ground, which makes, from a certain viewpoint, which makes this transistor see an input signal at the emitter with the base not having any input.
+[54:09.580 --> 54:12.900]  Basically, the base being AC ground bed.
+[54:12.900 --> 54:24.540]  So in this case, we can say that this transistor on the left is acting as a common base configuration under this kind of a circumstance.
+[54:25.280 --> 54:33.140]  So what are we going to get at the output if this thing is acting basically as a common base?
+[54:33.140 --> 54:43.120]  And so to be able to understand that, maybe a little bit of perspective and a little bit of imagination might be appropriate.
+[54:43.760 --> 54:47.940]  For those who are familiar with the common base, you already know what the answer is.
+[54:49.100 --> 54:52.480]  If you can visualize it already, then well and good for you.
+[54:52.480 --> 55:03.340]  For the others who, you know, admittedly, because we did not spend too much time with the common base configuration, you may not know what the answer is.
+[55:03.800 --> 55:09.260]  So, to help you, let's have a look here.
+[55:10.180 --> 55:10.480]  Okay?
+[55:13.180 --> 55:18.360]  And let's pretend that you are the transistor on the left.
+[55:18.840 --> 55:21.100]  Ikaw ang transistor na nasa kaliwa.
+[55:21.100 --> 55:38.620]  In other words, from your viewpoint, a signal at your emitter referenced to the base is the inverse of having a signal at the base referenced to the emitter.
+[55:40.380 --> 55:44.040]  Think about that and try to put that into your head.
+[55:44.040 --> 56:13.400]  If you can, from your viewpoint, a signal at your emitter, reference to the base, which might look like this, is the same as if you had the signal at the base reference to the emitter but is inverted.
+[56:14.040 --> 56:32.600]  Does that make sense? Okay? Or do you have a hard time visualizing that? Okay? So, if you have a hard time visualizing that, okay, that's okay. We can try a little bit of a further analogy para mag-gets ninyo.
+[56:32.600 --> 56:47.420]  Okay, so let's imagine that you are the transistor and your eyes, all right, see the signal at your base and it is like so.
+[56:48.280 --> 56:52.220]  Okay, so your feet are planted on the ground.
+[56:53.580 --> 57:02.580]  Okay, your feet are planted on the ground and the signal appears here, which your eyes can see.
+[57:02.600 --> 57:23.120]  All right? And so I have the signal going up. When the signal goes up, your brain sees the signal going up. And when the signal goes down, your brain sees the signal go down. So you see the signal as is. Okay? Open close quote.
+[57:23.120 --> 57:27.660]  The signal is seen by you exactly as the signal is.
+[57:28.000 --> 57:30.300]  When it goes up, you see that it goes up.
+[57:30.640 --> 57:33.980]  When it goes down, you see that it goes down.
+[57:34.600 --> 57:35.000]  Follow?
+[57:35.700 --> 57:36.700]  Alright, are we good?
+[57:37.540 --> 57:38.300]  Are we following?
+[57:38.560 --> 57:39.860]  Are we okay so far?
+[57:40.100 --> 57:40.840]  This is ground.
+[57:41.000 --> 57:41.840]  Dito ka nakatayo.
+[57:42.340 --> 57:44.200]  Ground is ground.
+[57:44.500 --> 57:46.020]  It's solid ground.
+[57:46.220 --> 57:48.600]  It's not going anywhere.
+[57:48.840 --> 57:50.020]  It's steady.
+[57:50.320 --> 57:50.480]  Okay?
+[57:50.480 --> 57:53.420]  So can we see a hands up for everybody?
+[57:54.540 --> 57:55.020]  All right?
+[57:55.180 --> 57:55.740]  Hands up.
+[57:56.520 --> 57:59.440]  Can we see a thumbs up for everybody?
+[57:59.900 --> 58:00.700]  Gets ba rinyo?
+[58:01.200 --> 58:01.680]  All right?
+[58:01.880 --> 58:02.800]  So okay tayo.
+[58:03.340 --> 58:03.760]  All right?
+[58:03.880 --> 58:05.040]  So this is pretty normal.
+[58:05.200 --> 58:07.360]  Everybody is pretty normal and okay with this.
+[58:07.480 --> 58:08.680]  Now, here's the thing.
+[58:09.180 --> 58:09.520]  All right?
+[58:09.940 --> 58:17.320]  So let's go now to what happens when we have the signal at the emitter.
+[58:17.320 --> 58:27.280]  So in the common base configuration, the ground is here.
+[58:28.200 --> 58:29.660]  This is your reference.
+[58:30.920 --> 58:33.080]  This is non-moving.
+[58:36.020 --> 58:44.920]  It's the signal at the emitter, which is what you're standing on that goes up and goes down.
+[58:45.920 --> 58:46.800]  Okay?
+[58:47.320 --> 58:47.660]  Alright?
+[58:48.200 --> 58:51.580]  So what does your brain actually see?
+[58:52.580 --> 58:52.820]  Alright?
+[58:53.120 --> 59:01.060]  If you're looking here and this one goes upward, what does your brain see?
+[59:01.240 --> 59:04.080]  Well, your brain sees a signal going down, right?
+[59:05.080 --> 59:05.560]  Gets nyo?
+[59:05.940 --> 59:07.000]  Kasi umangat kay.
+[59:07.680 --> 59:07.940]  Alright?
+[59:07.940 --> 59:15.840]  So what you see is that you went upward and so therefore this point here went downward.
+[59:16.880 --> 59:17.000]  Alright?
+[59:17.320 --> 59:22.620]  When the signal brought you upward, what you saw is this point went downward.
+[59:23.060 --> 59:27.540]  Let's assume that you're not factoring the fact that you can feel gravity.
+[59:27.740 --> 59:29.280]  You're only seeing things.
+[59:29.660 --> 59:29.860]  All right?
+[59:29.860 --> 59:40.000]  And so when the signal goes downward, on the other hand, then obviously what you see from the reference of your eyes is a signal that's going upward.
+[59:41.520 --> 59:41.940]  All right?
+[59:41.940 --> 59:57.220]  So as I said a while ago, if the input is from here, reference to ground, what you see is the inverse of what's happening.
+[59:58.200 --> 59:58.680]  Gets nyo?
+[59:59.420 --> 59:59.660]  Alright?
+[59:59.860 --> 01:00:00.420]  Malinaw ba?
+[01:00:00.860 --> 01:00:04.660]  So this is essentially what we're trying to point out.
+[01:00:04.660 --> 01:00:11.620]  We're used to seeing the signal go in from the base with the ground non-moving.
+[01:00:11.940 --> 01:00:32.400]  On the other hand, when you shift this perspective and say that we now have our ground here and it is the thing that we are standing on that shifts upwards and downwards, we can see that we will interpret the signal as an opposite polarity.
+[01:00:32.800 --> 01:00:36.940]  So our brain sees the inverse of the input signal.
+[01:00:36.940 --> 01:00:38.580]  Okay, got that?
+[01:00:39.120 --> 01:00:41.580]  So, gets it?
+[01:00:41.940 --> 01:00:46.600]  All right. So we get a thumbs up, people. Can you see this? All right. Is this clear?
+[01:00:48.680 --> 01:00:49.860]  Yeah. All right.
+[01:00:51.860 --> 01:01:02.280]  Okay. So not everybody gave a thumbs up. Unfortunately, that's all the clarification I can give.
+[01:01:02.280 --> 01:01:20.680]  Okay, so if you have some further difficulty thinking about that, this is very much like taking the haunted house elevator ride in Disneyland, right?
+[01:01:20.680 --> 01:01:26.220]  If you've gone over to, you know, that was one of my favorite attractions, actually.
+[01:01:26.600 --> 01:01:29.200]  It's one of the oldest attractions in Disneyland.
+[01:01:29.540 --> 01:01:40.480]  But, you know, the fact that it is in every Disneyland that you go to, practically speaking, means that it's a very, very popular thing.
+[01:01:40.480 --> 01:01:51.100]  So you enter this room, supposedly, and then the persons and the portraits stretch out and all that.
+[01:01:51.560 --> 01:01:54.420]  It's actually because it's an elevator that's going down.
+[01:01:55.500 --> 01:02:01.200]  But elevator going down makes it feel like the walls are going up.
+[01:02:01.480 --> 01:02:02.680]  Do you understand now?
+[01:02:02.920 --> 01:02:05.080]  So there are two ways of looking at it.
+[01:02:05.080 --> 01:02:11.440]  You can think of it as an elevator going down, or you can think of it as the house and walls going upward.
+[01:02:11.560 --> 01:02:14.820]  And that's exactly what they're trying to give you the impression of.
+[01:02:15.200 --> 01:02:25.100]  It's as if the walls of the house or the room that you're in, room, suddenly shoot upwards.
+[01:02:25.800 --> 01:02:25.920]  Okay?
+[01:02:25.920 --> 01:02:51.560]  And, well, of course, the niceness of the attraction, of the amusement there, is that's actually an elevator bringing you down under, you know, the structure, the facade of the haunted house into a much larger area where you get onto the carriage to look at the hauntings of the mansion.
+[01:02:51.560 --> 01:02:55.320]  Okay, so there you go with that. Very fun ride, of course.
+[01:02:55.320 --> 01:03:00.040]  But yes. Okay, so let's go forward. Okay, let's go back to this one.
+[01:03:00.040 --> 01:03:03.080]  So much for Disneyland and Haunted Mansion. All right.
+[01:03:03.880 --> 01:03:07.240]  So pretend again that this is the same slide.
+[01:03:07.960 --> 01:03:10.120]  Pretend that you are the left transistor.
+[01:03:10.120 --> 01:03:15.800]  And so therefore, if there is a no signal going at the base
+[01:03:15.800 --> 01:03:19.960]  and you see that there is a signal at the emitter,
+[01:03:19.960 --> 01:03:30.180]  As far as you are concerned, this looks like a signal that is of opposite polarity appearing at the base.
+[01:03:31.000 --> 01:03:36.160]  It's the equivalent of a signal at the base, but it is of opposite polarity.
+[01:03:36.340 --> 01:03:39.740]  And hopefully at this point, everybody agrees with that.
+[01:03:39.740 --> 01:03:53.900]  Okay? Alright? So as far as the transistor feels, it feels equivalent to the signal at the base being of opposite polarity.
+[01:03:54.660 --> 01:04:03.940]  Okay? So as a result of that, if we take this as the perspective, then we can figure out what the output signal is.
+[01:04:03.940 --> 01:04:04.840]  All right?
+[01:04:05.960 --> 01:04:06.440]  All right?
+[01:04:08.160 --> 01:04:10.800]  What the signal is going to be at OP1.
+[01:04:11.220 --> 01:04:11.580]  All right?
+[01:04:11.660 --> 01:04:21.080]  So we can already say that the signal of OP1, if it's a common emitter configuration, it will always flip the signal.
+[01:04:21.300 --> 01:04:26.620]  And so therefore, what we're going to get as OP1 is a signal that looks like this.
+[01:04:27.080 --> 01:04:27.240]  Okay?
+[01:04:27.600 --> 01:04:29.640]  Now, it's important to note.
+[01:04:29.820 --> 01:04:30.160]  All right?
+[01:04:30.240 --> 01:04:32.180]  This was our input signal.
+[01:04:32.180 --> 01:04:40.180]  Well, OP2 over here had the signal of opposite polarity because it's operating as a common emitter.
+[01:04:40.800 --> 01:04:41.140]  All right.
+[01:04:41.540 --> 01:04:42.780]  But it's a phase splitter.
+[01:04:43.040 --> 01:04:44.740]  We get this at this point.
+[01:04:45.280 --> 01:04:51.140]  The interpretation of the second transistor or the transistor on the left is, oh, it looks like this for me at the base.
+[01:04:51.260 --> 01:04:55.580]  Therefore, my output at the collector looks like this.
+[01:04:55.580 --> 01:05:06.500]  So bottom line is going through the analysis, which at this point, we went through a very long and winded process.
+[01:05:07.140 --> 01:05:19.360]  But if I have an input signal like this, then the output signals at OP1 and OP2 respectively take on the following forms.
+[01:05:19.360 --> 01:05:32.780]  So if you think about it, the collector voltage here is just the same as the emitter, which would be just the same as what we got from a single phase splitter.
+[01:05:33.420 --> 01:05:48.540]  It's basically OP1 is just the same as the signal at the output of the right transistor, which is what we would have gotten if we had a single phase splitter.
+[01:05:48.540 --> 01:05:58.520]  Remember that a single phase splitter produces an output that is negative 1 times the input and positive 1 times the input.
+[01:05:58.940 --> 01:06:00.960]  Parang pareho lang. Ano yung nangyari?
+[01:06:01.500 --> 01:06:04.080]  Nagdagdag tayo ng dalawang transistor.
+[01:06:04.160 --> 01:06:06.060]  Ginawa nating dalawang transistor.
+[01:06:07.320 --> 01:06:16.300]  Pero parang pareho lang naman sila, silang dalawa, sa isang phase splitter.
+[01:06:16.300 --> 01:06:17.340]  Okay?
+[01:06:17.500 --> 01:06:21.540]  It's acting like a single transistor phase splitter.
+[01:06:22.920 --> 01:06:23.280]  Okay?
+[01:06:26.180 --> 01:06:26.940]  Huh?
+[01:06:27.940 --> 01:06:30.620]  How can OP1 be equal to OP2?
+[01:06:30.740 --> 01:06:31.980]  Do they look the same?
+[01:06:34.600 --> 01:06:35.420]  They don't.
+[01:06:35.820 --> 01:06:36.260]  Okay?
+[01:06:37.160 --> 01:06:39.400]  OP1 is not the same as OP2.
+[01:06:40.320 --> 01:06:41.540]  They don't.
+[01:06:41.680 --> 01:06:41.860]  Alright?
+[01:06:41.860 --> 01:06:45.920]  OP1 is opposite in polarity to OP2.
+[01:06:46.300 --> 01:06:49.900]  What? Can you see?
+[01:06:51.440 --> 01:06:52.600]  Magkabaliktad sila, di ba?
+[01:06:55.100 --> 01:07:06.900]  So OP1 has the same signal as the output of a single phase splitter at the emitter.
+[01:07:07.900 --> 01:07:08.220]  Okay?
+[01:07:09.120 --> 01:07:15.740]  OP1 has the same signal as a single phase splitter's signal at its emitter.
+[01:07:16.300 --> 01:07:30.320]  Okay, OP2, on the other hand, has an output equal to the collector output of a phase splitter coming from the perspective of the transistor on the right.
+[01:07:31.420 --> 01:07:32.440]  Okay, all right.
+[01:07:32.860 --> 01:07:38.260]  So, so far, it doesn't look like this thing is doing anything in particular.
+[01:07:38.600 --> 01:07:43.620]  We could have done the same thing with a single transistor phase splitter.
+[01:07:43.620 --> 01:07:45.960]  Does everybody get that at this point?
+[01:07:46.300 --> 01:07:47.960]  Okay? Are we good?
+[01:07:50.880 --> 01:07:53.700]  Tipal, you who? Yes? Okay?
+[01:07:54.220 --> 01:07:56.380]  So, what is the use of this thing?
+[01:07:56.720 --> 01:08:02.340]  Well, the point here is this circuit has two inputs.
+[01:08:03.200 --> 01:08:07.860]  So far, we have only analyzed the effect of a single signal.
+[01:08:08.420 --> 01:08:11.380]  Ito lang. Dito, in-assume natin na patay.
+[01:08:11.720 --> 01:08:12.940]  Walang signal. Zero.
+[01:08:12.940 --> 01:08:15.940]  But it does have a second input.
+[01:08:16.980 --> 01:08:18.800]  It has two inputs, in fact.
+[01:08:19.360 --> 01:08:20.460]  That's the bottom line.
+[01:08:20.920 --> 01:08:29.020]  So that having two inputs, all right, is the difference.
+[01:08:29.400 --> 01:08:33.320]  We can take advantage of having two inputs, okay?
+[01:08:34.000 --> 01:08:37.880]  And that's where the utility of this circuit actually lies.
+[01:08:38.100 --> 01:08:41.120]  So let's go to that for now.
+[01:08:41.120 --> 01:08:46.760]  This just wraps up what we've seen for the right side transistor.
+[01:08:48.500 --> 01:08:57.400]  So if you go over what happens essentially,
+[01:08:57.860 --> 01:09:01.040]  as we stated earlier and showed you,
+[01:09:01.160 --> 01:09:06.580]  OP1 is equal to input number 2 without that negative sign.
+[01:09:06.580 --> 01:09:22.300]  All right? And that doesn't seem like it's of any use. All right? But as I said, we do have another input. And so let's have a look at what happens with that.
+[01:09:22.300 --> 01:09:24.740]  Well, pretty much the same thing.
+[01:09:25.620 --> 01:09:25.880]  All right?
+[01:09:26.300 --> 01:09:41.320]  If we have a signal over at input 1 on the other hand, then OP1 will produce an output that is of opposite polarity.
+[01:09:43.100 --> 01:09:43.240]  Okay?
+[01:09:44.220 --> 01:09:47.400]  This guy will produce a signal that is the same.
+[01:09:47.540 --> 01:09:51.260]  It goes into this second one here because they're connected together.
+[01:09:51.260 --> 01:09:55.000]  This guy sees it as a negative of that.
+[01:09:55.520 --> 01:09:59.840]  Therefore, OP number 2 will have a signal that looks like this,
+[01:10:00.340 --> 01:10:05.820]  which is, again, just exactly the same as the previous analysis.
+[01:10:06.780 --> 01:10:11.380]  So they will act basically like so.
+[01:10:11.620 --> 01:10:15.620]  It's like two face splitters with a common,
+[01:10:15.620 --> 01:10:21.320]  but it doesn't seem to be doing anything special and useful at this point.
+[01:10:22.260 --> 01:10:22.380]  Okay?
+[01:10:22.720 --> 01:10:24.480]  Now, here's the thing.
+[01:10:26.660 --> 01:10:28.440]  Hopefully, we're okay.
+[01:10:29.000 --> 01:10:32.980]  And so why would we want or where can we use something like this?
+[01:10:33.660 --> 01:10:34.080]  All right?
+[01:10:37.160 --> 01:10:39.340]  So let's ignore OP2.
+[01:10:39.920 --> 01:10:42.580]  OP1 is equal to the input.
+[01:10:42.580 --> 01:10:56.680]  If we put these two concepts together, you can see that OP1 is equal to input 2 minus input 1.
+[01:10:56.980 --> 01:10:57.840]  Did you see that?
+[01:10:58.980 --> 01:11:12.040]  If we concentrate only on one of the outputs, if I put a signal here, which looks like this,
+[01:11:12.580 --> 01:11:15.580]  this output will have opposite face.
+[01:11:16.920 --> 01:11:17.160]  Okay?
+[01:11:17.700 --> 01:11:23.040]  If I put a signal here of this characteristic,
+[01:11:25.740 --> 01:11:26.040]  okay?
+[01:11:26.660 --> 01:11:27.340]  All right?
+[01:11:28.140 --> 01:11:31.380]  If I put a signal here of this characteristic,
+[01:11:31.820 --> 01:11:36.080]  let's change the color maybe so that it's not confusing.
+[01:11:36.940 --> 01:11:37.260]  All right?
+[01:11:38.260 --> 01:11:39.720]  How do I change the color?
+[01:11:41.100 --> 01:11:41.780]  I click it.
+[01:11:42.580 --> 01:11:44.360]  No, it's line width.
+[01:11:45.120 --> 01:11:45.640]  Ah, wait.
+[01:11:46.100 --> 01:11:47.100]  Bobo, ito, color.
+[01:11:47.600 --> 01:11:49.180]  Let's choose a different color.
+[01:11:49.680 --> 01:11:49.760]  Okay?
+[01:11:50.420 --> 01:11:53.100]  If I put the signal in here,
+[01:11:53.640 --> 01:11:54.760]  from here,
+[01:11:55.440 --> 01:11:55.700]  alright,
+[01:11:56.180 --> 01:11:58.060]  the output at OP1
+[01:11:58.060 --> 01:12:01.320]  is of the same polarity.
+[01:12:02.240 --> 01:12:02.560]  Okay?
+[01:12:02.620 --> 01:12:03.600]  It will do this.
+[01:12:05.480 --> 01:12:05.760]  Okay?
+[01:12:05.760 --> 01:12:08.040]  So ito ang magiging output niya.
+[01:12:08.360 --> 01:12:11.660]  Kung galing sa input 2 yung signal.
+[01:12:12.580 --> 01:12:27.520]  Okay? So from input 1, it does not change polarity. From input 2, it changes. It becomes a negative. It inverts.
+[01:12:27.520 --> 01:12:35.140]  So we can say that OP1 is equal to N2 minus N1.
+[01:12:35.320 --> 01:12:48.140]  Or better still, if you sort of have some difficulty thinking about that, OP1 is equal to N2 plus negative N1.
+[01:12:48.140 --> 01:12:57.200]  Okay? So that's exactly the same equation except that it makes perhaps some greater sense for those who like their math straight.
+[01:12:57.520 --> 01:13:13.300]  So what have we here? We have a circuit that is subtracting. We have a circuit that takes the difference
+[01:13:13.300 --> 01:13:23.700]  of input 2 versus input 1
+[01:13:23.700 --> 01:13:28.220]  and produces the output of that.
+[01:13:29.040 --> 01:13:29.480]  All right?
+[01:13:29.480 --> 01:13:34.040]  It takes the difference of input 2 and input 1
+[01:13:34.040 --> 01:13:37.940]  and produces the output based on that.
+[01:13:39.340 --> 01:13:39.600]  Okay?
+[01:13:39.960 --> 01:13:42.680]  So this is a very important circuit
+[01:13:42.680 --> 01:13:51.060]  because we can see here that it is taking the difference of two signals.
+[01:13:52.300 --> 01:13:56.740]  So this is the first time you've ever seen probably something like this.
+[01:13:57.300 --> 01:14:01.560]  We've been dealing with circuits with only one signal going in
+[01:14:01.560 --> 01:14:05.420]  and one signal coming out, typically.
+[01:14:05.420 --> 01:14:06.420]  All right?
+[01:14:06.780 --> 01:14:12.740]  A single amplifier has a signal going in and a single signal coming out.
+[01:14:13.100 --> 01:14:17.720]  This is the first time you've seen a circuit that actually takes two signals going in
+[01:14:17.720 --> 01:14:22.860]  and produces, in this particular case, the difference between the two.
+[01:14:24.240 --> 01:14:24.560]  Okay?
+[01:14:25.700 --> 01:14:33.140]  So in fact, all right, if I put in a signal that is exactly the same,
+[01:14:33.140 --> 01:14:43.300]  If my two signals at the inputs are exactly the same with each other, the actual output signal is a flat line.
+[01:14:44.040 --> 01:14:49.200]  Because in 2 minus in 1 is 0.
+[01:14:49.860 --> 01:14:54.140]  So kung pareho lang yung signal na pinasok ko, wala siyang output.
+[01:14:54.940 --> 01:14:57.120]  It will remain blank.
+[01:14:58.200 --> 01:14:59.160]  Okay? Alright?
+[01:14:59.160 --> 01:15:09.060]  So this is a very, very important circuit and has a lot of practical uses.
+[01:15:09.900 --> 01:15:14.500]  And that's what we're going to show you in the next couple of slides.
+[01:15:14.500 --> 01:15:27.740]  But before I go there, I need to make sure that you actually understood and that you're able to follow and see that this is the case.
+[01:15:27.740 --> 01:15:29.420]  that in fact,
+[01:15:29.680 --> 01:15:29.940]  alright,
+[01:15:30.460 --> 01:15:32.140]  it is a difference
+[01:15:32.140 --> 01:15:36.240]  calculator if you like,
+[01:15:36.480 --> 01:15:37.460]  but it's a signal,
+[01:15:37.800 --> 01:15:38.000]  right?
+[01:15:38.080 --> 01:15:39.960]  So it's a difference
+[01:15:39.960 --> 01:15:43.220]  engine,
+[01:15:43.960 --> 01:15:46.220]  a difference amplifier,
+[01:15:46.580 --> 01:15:46.780]  alright?
+[01:15:46.980 --> 01:15:47.740]  Except technically,
+[01:15:47.940 --> 01:15:48.780]  it's not amplified.
+[01:15:49.680 --> 01:15:49.840]  Okay?
+[01:15:50.000 --> 01:15:51.220]  It can be made to amplify,
+[01:15:51.420 --> 01:15:52.380]  but in this example,
+[01:15:52.500 --> 01:15:53.380]  it's not amplified.
+[01:15:54.180 --> 01:15:54.800]  Get some money nyo?
+[01:15:55.520 --> 01:15:55.800]  Alright?
+[01:15:55.800 --> 01:15:56.600]  Did you follow?
+[01:15:57.740 --> 01:16:00.420]  Okay? Yeah? Okay.
+[01:16:01.080 --> 01:16:04.840]  So the tool basically subtract, all right?
+[01:16:04.840 --> 01:16:09.580]  And let's look at an application, all right?
+[01:16:09.720 --> 01:16:14.020]  Where can we use this concept where it can subtract?
+[01:16:15.160 --> 01:16:21.100]  Okay? So here is a sample scenario or problem, okay?
+[01:16:22.320 --> 01:16:26.340]  I have a low-level signal, say, for example, from a microphone.
+[01:16:26.340 --> 01:16:26.940]  Okay?
+[01:16:27.740 --> 01:16:43.300]  And this low-level signal travels through the wire through some substantial distance and arrives at an amplifier, which then drives the loudspeaker.
+[01:16:43.740 --> 01:16:51.340]  Now, in this long cable, noise has the opportunity to get in.
+[01:16:52.460 --> 01:16:56.520]  So the environment has a lot of electromagnetic interference.
+[01:16:56.520 --> 01:17:05.700]  And so this low-level signal will be mixed with a lot of electromagnetic noise from the environment.
+[01:17:06.520 --> 01:17:23.120]  And because it comes in and the amplifier has no way of distinguishing between what is the actual signal from the microphone versus whatever got mixed in later from the cable that's running to the amplifier,
+[01:17:23.120 --> 01:17:32.660]  the output that you get is a noisy electromagnetic interference-laden signal,
+[01:17:33.160 --> 01:17:39.700]  along with the signal that was from the microphone.
+[01:17:40.780 --> 01:17:43.040]  So this is the problem, essentially.
+[01:17:43.320 --> 01:17:45.980]  You've probably encountered this situation a lot
+[01:17:45.980 --> 01:17:53.540]  where you might have a microphone into a karaoke system or whatever,
+[01:17:53.720 --> 01:17:57.480]  or even when you are talking with somebody in Zoom,
+[01:17:57.600 --> 01:18:02.280]  you've probably heard of some people with their audio feed.
+[01:18:02.540 --> 01:18:08.860]  When they have the thing unmuted, you can hear the thing buzzing all over the place.
+[01:18:09.540 --> 01:18:11.120]  Something like that all over the place.
+[01:18:11.120 --> 01:18:15.600]  And I don't think that anybody has not heard that kind of a problem.
+[01:18:15.980 --> 01:18:23.660]  And basically, it's exacerbated by how much noise manages to get into this cable.
+[01:18:24.100 --> 01:18:30.040]  And obviously, if the cable is long, there's much more opportunity for this noise to get fed in.
+[01:18:30.040 --> 01:18:45.040]  So much so that in conditions where long cable runs are unavoidable, for example, in a theater or large auditorium,
+[01:18:45.980 --> 01:18:53.020]  you have your microphone sitting obviously at the front of the auditorium at the stage
+[01:18:53.020 --> 01:18:59.580]  and then it is running all the way to the back where you have the audio booth and the mixer
+[01:18:59.580 --> 01:19:07.840]  and amplifiers possibly. By the time the signal gets over there, it would have had the opportunity
+[01:19:07.840 --> 01:19:10.540]  to pick up a lot of possible noise.
+[01:19:11.560 --> 01:19:11.640]  Okay?
+[01:19:12.180 --> 01:19:16.840]  So how do you go around this problem?
+[01:19:17.100 --> 01:19:20.920]  Well, if we do something like this,
+[01:19:22.120 --> 01:19:25.480]  okay, so typically people think of a microphone
+[01:19:25.480 --> 01:19:27.660]  as just having two connections, right?
+[01:19:27.660 --> 01:19:30.980]  So one is the hot signal,
+[01:19:31.160 --> 01:19:33.340]  the signal coming out of the microphone itself,
+[01:19:33.680 --> 01:19:37.100]  and then you have a ground wire for reference.
+[01:19:37.100 --> 01:19:55.660]  But if you could create a microphone that produced an output signal that is of opposing polarity, which sometimes people in industry term the hot and the cold signal.
+[01:19:55.980 --> 01:19:58.900]  There's nothing hot or cold about the signals there.
+[01:19:59.200 --> 01:20:04.100]  They are just simply of opposite and equal amplitude polarity.
+[01:20:04.100 --> 01:20:05.100]  All right?
+[01:20:07.100 --> 01:20:10.480]  plus a ground wire as extra shielding.
+[01:20:11.600 --> 01:20:14.440]  Here's what happens, potentially.
+[01:20:14.440 --> 01:20:17.640]  So the beauty about this is the cable
+[01:20:17.640 --> 01:20:22.000]  that connects this kind of a special microphone,
+[01:20:22.000 --> 01:20:24.260]  if you like, which has outputs
+[01:20:24.260 --> 01:20:28.940]  that have exactly opposite polarity with each other,
+[01:20:30.160 --> 01:20:35.160]  is that these two wires are inside the same cable.
+[01:20:35.160 --> 01:20:36.440]  All right?
+[01:20:36.780 --> 01:20:42.440]  So these two wires would have been intertwined as a twisted pair, for example.
+[01:20:42.660 --> 01:20:44.980]  And sometimes they don't even bother to twist it anymore.
+[01:20:45.420 --> 01:20:51.000]  But they are together along with the ground wire that acts as the shield around it.
+[01:20:51.840 --> 01:20:52.140]  Okay?
+[01:20:52.760 --> 01:20:55.820]  So this is shielded cable as a pair.
+[01:20:56.560 --> 01:20:56.960]  All right?
+[01:20:57.280 --> 01:20:59.420]  And this can be very, very long.
+[01:21:00.060 --> 01:21:00.700]  All right?
+[01:21:00.700 --> 01:21:05.860]  And of course, noise will get into this cable.
+[01:21:06.840 --> 01:21:07.020]  All right?
+[01:21:07.180 --> 01:21:09.120]  Noise will get into this cable.
+[01:21:09.680 --> 01:21:21.300]  Now, the difference here is that we now connect this noisy signal into this configuration that we've just talked about.
+[01:21:22.520 --> 01:21:23.260]  Okay?
+[01:21:24.100 --> 01:21:24.820]  All right?
+[01:21:25.440 --> 01:21:27.400]  And here's the thing.
+[01:21:27.400 --> 01:21:50.000]  Because it's a single cable, the noise that gets fed or incorporated into it is of typically equal characteristic for the first and second cable.
+[01:21:50.000 --> 01:21:52.500]  Or the first and second signal.
+[01:21:52.920 --> 01:21:56.720]  Pareho lang yung noise na papasok dun sa kanila.
+[01:21:57.400 --> 01:21:57.920]  All right?
+[01:21:58.480 --> 01:22:08.760]  It's the same signal of noise with exactly the same amplitude that gets into this one.
+[01:22:09.200 --> 01:22:16.680]  Whereas the signal of interest, which is coming from your microphone, is of opposite polarity.
+[01:22:17.600 --> 01:22:19.900]  Then we put it into this thing.
+[01:22:20.900 --> 01:22:23.280]  And what did we say about this guy?
+[01:22:23.280 --> 01:22:40.520]  Well, if you go backwards and you look at the equations that govern it, if input 1 and input 2 are exactly the same, the two basically subtract each other so that the output is zero.
+[01:22:40.520 --> 01:22:55.240]  So in other words, our noise, which is equal, when it gets into here and into here, the noise will get subtracted.
+[01:22:55.240 --> 01:23:03.600]  The noise between the two signals gets subtracted so that the output is free of noise.
+[01:23:04.600 --> 01:23:11.200]  And signals that are of opposite polarity are actually magnified by a factor of two.
+[01:23:12.500 --> 01:23:18.540]  Because if there's only a signal on one of the lines, then it will come out of this thing with that.
+[01:23:18.900 --> 01:23:23.020]  If it's on the opposite side, then it will also come out.
+[01:23:23.020 --> 01:23:25.820]  and so therefore they will be additive to each other
+[01:23:25.820 --> 01:23:27.540]  and so therefore you're going to get a signal
+[01:23:27.540 --> 01:23:30.000]  that is twice as large, okay?
+[01:23:30.220 --> 01:23:34.320]  Because of that inversion, it's a difference, right?
+[01:23:34.480 --> 01:23:37.320]  It's a difference-producing circuit.
+[01:23:38.240 --> 01:23:42.140]  So signals that are exactly the same as each other,
+[01:23:42.260 --> 01:23:44.620]  which would typically be the noise
+[01:23:44.620 --> 01:23:46.280]  because they're on a single cable,
+[01:23:46.680 --> 01:23:50.700]  will automatically subtract and cancel each other out
+[01:23:50.700 --> 01:23:56.560]  and signals that are equal in characteristic but of opposite polarity
+[01:23:56.560 --> 01:24:00.200]  will get magnified by a factor of 2.
+[01:24:01.220 --> 01:24:03.900]  And so therefore, the output of this circuit,
+[01:24:04.040 --> 01:24:07.340]  if you take it from OP1 or OP2 for that matter,
+[01:24:07.440 --> 01:24:08.600]  but notice that we're not,
+[01:24:08.600 --> 01:24:14.520]  is going to be a much, much cleaner signal
+[01:24:14.520 --> 01:24:19.000]  of greater amplitude
+[01:24:19.000 --> 01:24:23.680]  without the corruption of noise.
+[01:24:23.800 --> 01:24:25.720]  Or if ever there's any noise there,
+[01:24:26.200 --> 01:24:28.720]  the noise will be of the nature
+[01:24:28.720 --> 01:24:31.340]  where there is an equality
+[01:24:31.340 --> 01:24:34.500]  in the input to the cable.
+[01:24:35.420 --> 01:24:38.780]  So as long as you have a good cable,
+[01:24:38.780 --> 01:24:42.100]  which ensures that the two lines inside
+[01:24:42.100 --> 01:24:44.220]  have equal opportunity
+[01:24:44.220 --> 01:24:47.620]  of getting noise signals,
+[01:24:47.620 --> 01:24:54.380]  then this circuit theoretically should actually cancel out that noise.
+[01:24:54.700 --> 01:24:58.480]  And so therefore, you can now have very, very long cables
+[01:24:58.480 --> 01:25:06.180]  from the front of the stage all the way back to the audio booth
+[01:25:06.180 --> 01:25:07.600]  where the mixers are.
+[01:25:08.040 --> 01:25:11.520]  And as long as you run this kind of configuration,
+[01:25:12.520 --> 01:25:16.560]  your chances of having a noise-free signal
+[01:25:16.560 --> 01:25:23.580]  or at least a signal where the noise is highly minimized is very, very great.
+[01:25:24.180 --> 01:25:34.300]  And in fact, ladies and gentlemen, all professional installations in auditoriums, in theaters, and so on and so forth,
+[01:25:34.760 --> 01:25:37.960]  do use this kind of a configuration.
+[01:25:37.960 --> 01:25:52.720]  Okay? So in a theater, all right, in a theater, let's just erase everything here because it's really messy, all right? In a theater, this kind of configuration is called the XLR.
+[01:25:52.720 --> 01:26:04.100]  Okay? XLR connection, signal connection scheme. So you'll have microphones that have three pins
+[01:26:04.100 --> 01:26:11.680]  on them. One is ground. The other one, the other two are the hot and cold signals. Again,
+[01:26:11.940 --> 01:26:17.480]  that's just the naming convention. And even the mixer console, all right? When you look at the
+[01:26:17.480 --> 01:26:24.100]  Mixer console in professional applications, all of the inputs are also three-pronged.
+[01:26:24.100 --> 01:26:32.660]  And you are going to be using a cable configuration where the connectors and the cable inside
+[01:26:32.660 --> 01:26:35.860]  basically have these three conductors.
+[01:26:35.860 --> 01:26:39.360]  So, that's the XLR.
+[01:26:39.360 --> 01:26:46.280]  And that's how the circuit and the configuration keep the noise out.
+[01:26:46.280 --> 01:26:47.280]  Okay?
+[01:26:47.280 --> 01:26:50.100]  or professional audio applications.
+[01:26:51.180 --> 01:26:51.300]  Okay?
+[01:26:51.500 --> 01:26:55.420]  That's not the only place where we're going to be seeing this kind of a system.
+[01:26:55.780 --> 01:27:04.320]  If you go over to USB, all right, even USB uses this kind of a configuration.
+[01:27:04.900 --> 01:27:06.940]  It is differential signaling.
+[01:27:06.940 --> 01:27:15.180]  If you take apart the standard USB cable, even USB-A, not even going to the complexity of USB-C,
+[01:27:15.180 --> 01:27:26.460]  Even the USB-A, up to USB 2.0, you look at the cable inside, they have four wires inside the USB cable.
+[01:27:26.620 --> 01:27:29.680]  I'm just looking for it, but never mind.
+[01:27:30.160 --> 01:27:40.760]  And you're going to see a red, a black wire, and you'll see a green wire, and you'll see a white wire.
+[01:27:40.760 --> 01:27:54.460]  So the red is the plus five, black is ground, green and white are your positive and negative signals, which are this and these respectively.
+[01:27:54.460 --> 01:28:00.160]  and it goes into that same difference amplifier
+[01:28:00.160 --> 01:28:06.600]  so that you can get and retrieve a clean digital signal
+[01:28:06.600 --> 01:28:12.020]  that is free of noise that can get into the cables.
+[01:28:13.020 --> 01:28:13.100]  Okay?
+[01:28:13.580 --> 01:28:16.660]  So yes, ginagamit rin po sa computer yan.
+[01:28:17.320 --> 01:28:17.560]  Okay?
+[01:28:18.140 --> 01:28:18.800]  SATA.
+[01:28:19.160 --> 01:28:19.400]  Alright?
+[01:28:19.580 --> 01:28:23.520]  If you like, SATA uses the same thing.
+[01:28:23.520 --> 01:28:28.680]  It has difference signaling as well.
+[01:28:30.440 --> 01:28:30.760]  All right?
+[01:28:31.280 --> 01:28:35.540]  And if you look at HDMI cables, same thing.
+[01:28:35.800 --> 01:28:46.020]  It's that difference signal that is being used going into a difference amplifier to remove any external noise influences.
+[01:28:46.700 --> 01:28:46.940]  Okay?
+[01:28:46.940 --> 01:28:50.100]  So this is a very, very important circuit.
+[01:28:50.100 --> 01:28:52.560]  and it's already past nine o'clock
+[01:28:52.560 --> 01:28:55.660]  and that's exactly where we basically want to stop
+[01:28:55.660 --> 01:29:00.780]  our discussion because, well, now you know
+[01:29:00.780 --> 01:29:06.920]  that two transistor configuration is how that magic is done.
+[01:29:07.720 --> 01:29:08.700]  Are there questions?
+[01:29:10.840 --> 01:29:11.640]  Questions?
+[01:29:13.040 --> 01:29:14.340]  Are we okay, people?
+[01:29:15.400 --> 01:29:16.000]  Thumbs up?
+[01:29:17.940 --> 01:29:18.660]  Yeah?
+[01:29:19.260 --> 01:29:19.500]  Okay.
+[01:29:20.100 --> 01:29:23.760]  All right. So there, thank you for joining us today.
